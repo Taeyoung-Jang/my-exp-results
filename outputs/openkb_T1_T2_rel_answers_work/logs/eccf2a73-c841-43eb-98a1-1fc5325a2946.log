@@ -1,0 +1,43 @@
+=== 2026-10-10 15:45:14 uid=eccf2a73-c841-43eb-98a1-1fc5325a2946 ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary.......... 10.1s (in=2656, out=1039)
+    concepts-plan...... 6.9s (in=3850, out=588)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: one-way-backup... 5.2s (in=3739, out=1277, cached=816)
+    entity: time-machine... 8.3s (in=3771, out=435, cached=64)
+    entity: carbon-copy-cloner... 3.8s (in=3773, out=933, cached=3600)
+    entity: chronosync... 2.3s (in=3771, out=422)
+    concept: cloud-storage-vs-external-drive... 11.5s (in=3740, out=1026, cached=784)
+    concept: online-only-file-handling... 14.0s (in=3739, out=621, cached=768)
+    entity: macos... 18.8s (in=3771, out=719, cached=784)
+Entity generation failed: LLM returned empty content for concept 'chronosync'
+    [WARN] 4 entity(ies) planned but only 3 written for session-12_2024-06-15 (ValueError).
+    summary-rewrite....................... 23.4s (in=3768, out=1056, cached=784)
+[92m15:46:23 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-37_2024-12-13.md
+  Compiling short doc...
+    summary............. 13.5s (in=2123, out=2426)
+    concepts-plan. 1.7s (in=3388, out=119)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-37_2024-12-13 — no concept pages generated. See log (stderr) for details.
+  [OK] session-37_2024-12-13.md added to knowledge base.
+done.

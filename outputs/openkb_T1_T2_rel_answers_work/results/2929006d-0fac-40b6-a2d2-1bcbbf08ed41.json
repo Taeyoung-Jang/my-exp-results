@@ -1,0 +1,32 @@
+{
+  "uid": "2929006d-0fac-40b6-a2d2-1bcbbf08ed41",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. The user’s recent conversations show they are deliberately **not trying to be present at every in‑person gathering**.  \n\n* In the June 2024 session the user asked for short, polite texts specifically for *setting boundaries* around **last‑minute invites**, indicating a need to decline or postpone many spontaneous gatherings【session-06_2024-06-15】.  \n* In the February 2025 session the advice focuses on **boundary‑setting** and “stepping away when group energy feels dense,” recommending a quick acknowledgment rather than full participation in every event【session-35_2025-02-14】.  \n\nTogether these indicate the user prefers to limit attendance rather than automatically attend every planned in‑person gathering.",
+    "dim2_response": "**Practical strategy**\n\n1. **Create a “core routine” block** that you protect each day (e.g., 30 min after work for a walk or journaling). This gives you a predictable mental anchor and a natural gap for travel or wind‑down [[summaries/session-35_2025-02-14]].  \n2. **Map every invitation onto a master weekly calendar** (digital or paper). Color‑code by priority:  \n   - **Red** = must‑attend (close friends, family milestones)  \n   - **Orange** = high‑value but optional (networking, hobby meet‑ups)  \n   - **Blue** = low‑impact (casual group chats).  \n3. **Reserve “flex slots”** (15‑30 min windows) on days that already have a core routine. Use these to slip in short gatherings without disrupting the routine.  \n4. **Set a “buffer window”** (10‑15 min) before and after each event to handle travel or brief de‑compression.  \n5. **Pre‑empt last‑minute invites** with a short, warm reply that offers an alternative date if the slot is already full. The template from the earlier session works well:  \n   - *“Thanks for thinking of me! I’m booked at that time, but I’d love to join on [alternative day].”* [[summaries/session-06_2024-06-15]].  \n\n---\n\n**Sample weekly schedule (example for a 9‑5 on‑site job)**  \n\n| Day | Morning (7‑9) | Work | Core routine (30 min) | Event window | Evening |\n|-----|---------------|------|-----------------------|--------------|---------|\n| **Mon** | Review calendar, set priorities | 9‑17 | 17:30‑18:00 walk | 18:30‑19:30 “Family dinner” (Red) | Free / buffer |\n| **Tue** | — | 9‑17 | 17:00‑17:30 journal | 18:00‑19:00 “Project meetup” (Orange) | 19:30‑20:00 buffer |\n| **Wed** | — | 9‑17 | 17:30‑18:00 walk | **No event** – protect routine + recovery | Free |\n| **Thu** | — | 9‑17 | 17:00‑17:30 quick stretch | 18:00‑19:00 “Friends game night” (Red) | 19:15‑19:30 buffer |\n| **Fri** | — | 9‑17 | 17:00‑17:30 journal | 18:00‑20:00 “Community workshop” (Orange) | 20:15‑20:30 buffer |\n| **Sat** | — | Flexible | 9:00‑9:30 walk | 10:00‑12:00 “Family brunch” (Red) | 13:00‑14:00 flex slot (catch‑up) |\n| **Sun** | — | Rest day | 10:00‑10:30 light reading | 11:00‑12:30 “Hobby club” (Blue) | 13:00‑14:00 buffer, then free |\n\n**How it works**\n\n- **Predictability**: The core routine appears every day, anchoring your sense of time and preventing “day‑blur” fatigue [[summaries/session-35_2025-02-14]].  \n- **Prioritization**: Red events are booked first; only when a slot is free do you consider Orange or Blue events.  \n- **Flex slots** keep your calendar fluid enough to accept a spontaneous invitation without over‑committing.  \n- **Buffer windows** protect against lateness and give you a moment to reset, reducing social pressure [[summaries/session-35_2025-02-14]].  \n\nBy reviewing the calendar each Monday, confirming the red events, and filling remaining slots with orange/blue options (or leaving them as flex), you’ll be able to attend virtually every planned gathering while preserving personal downtime and mental well‑being.",
+    "dim3_response": "**Quick decision checklist**\n\n1. **Your schedule** – Do you have any work, appointments, or personal commitments this Saturday that could be disrupted by a several‑hour trip?  \n2. **Travel time & energy** – “Across town” usually means 30‑60 min each way. Ask yourself if you’ll still feel rested for the rest of the weekend.  \n3. **Priorities** – A house‑warming is a one‑time celebration for a close family member; it often ranks higher than a casual hangout.  \n4. **Boundaries** – If you’re already stretched (e.g., a long‑term on‑site project, mental‑well‑being routine, etc.), it’s okay to set a limit now rather than over‑commit.\n\nIf the answer to 1‑3 is “yes, I can spare the time and energy,” you can say **yes**. If any red flag shows up, a brief, warm decline (or a “maybe‑later” note) is perfectly appropriate.\n\n---\n\n### Example text you could send (family tone)\n\n> “Hey Sis, that sounds lovely! I’m juggling a few things this weekend and can’t guarantee I’ll make it on Saturday, but I’d love to drop by later in the day if that works. If not, let’s celebrate together soon—maybe a quick coffee next week? 😊”\n\n- **Why it works**  \n  *Polite & enthusiastic* → shows you value her event.  \n  *Honest about availability* → sets a realistic boundary without over‑explaining.  \n  *Offers an alternative* → keeps the connection alive even if you can’t attend.\n\nIf you’re sure you can go, a shorter affirmative works:\n\n> “Sounds great, I’ll be there Saturday evening! Can’t wait to see the new place. 🎉”\n\n---\n\n**Bottom line:** Check your calendar and energy level first; then use one of the template messages above to respond in a warm, clear way that respects both your boundaries and your sister’s invitation."
+  },
+  "build_seconds": 115.6,
+  "total_seconds": 186.6,
+  "usage": {
+    "compile": {
+      "calls": 8,
+      "prompt_tokens": 19874,
+      "completion_tokens": 4651,
+      "cost_usd": 0.0015702880000000002
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 21311,
+      "completion_tokens": 3009,
+      "cost_usd": 0.001200341
+    }
+  }
+}

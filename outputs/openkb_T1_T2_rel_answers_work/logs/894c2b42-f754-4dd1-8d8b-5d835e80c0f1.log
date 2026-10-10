@@ -1,0 +1,25 @@
+=== 2026-10-10 14:25:29 uid=894c2b42-f754-4dd1-8d8b-5d835e80c0f1 ===
+Adding: session-14_2022-06-15.md
+  Compiling short doc...
+    summary... 3.8s (in=2119, out=920, cached=784)
+    concepts-plan.... 4.3s (in=3255, out=321, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: baseline-expectations... 3.1s (in=3140, out=713)
+    concept: shared-household-communication... 10.1s (in=3091, out=680)
+    concept: rotating-chore-schedule... 17.8s (in=3106, out=772, cached=64)
+    summary-rewrite................... 19.7s (in=3135, out=962, cached=64)
+  [OK] session-14_2022-06-15.md added to knowledge base.
+Adding: session-36_2024-06-15.md
+  Compiling short doc...
+    summary............. 13.4s (in=2246, out=822)
+    concepts-plan... 3.2s (in=3282, out=745, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: ambient-lighting... 3.4s (in=3129, out=708, cached=2976)
+    concept: home-comfort-design... 4.2s (in=3130, out=936, cached=768)
+    entity: spotify... 9.7s (in=3146, out=643, cached=784)
+    entity: youtube... 8.4s (in=3134, out=662)
+    concept: background-sound-selection... 12.9s (in=3113, out=820, cached=64)
+    summary-rewrite....... 7.1s (in=3143, out=993, cached=68)
+  [OK] session-36_2024-06-15.md added to knowledge base.
+done.

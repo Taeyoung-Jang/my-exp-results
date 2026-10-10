@@ -1,0 +1,19 @@
+{
+  "uid": "a4b2e2fd-b0c4-4529-98f7-c00a658f0d70",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    9,
+    39
+  ],
+  "target_model_responses": {
+    "dim1_response": "I’m unable to determine from the conversation history whether you are still living at the same address or if you need to provide a new one. The sessions discuss how to track past moves and verify dates, but they don’t contain any specific information about your current residence. If you’re unsure, it’s safest to confirm your current address before submitting any forms.",
+    "dim2_response": "I’m sorry, but I couldn’t locate any relevant information in the knowledge base that would allow me to draft a specific note for this situation.",
+    "dim3_response": "Sure! Below is a clean, easy‑to‑read template you can copy‑paste into a word processor, spreadsheet, or plain‑text form. Just fill in each row with your address and the dates you lived there.\n\n---\n\n### Residence History  (Chronological Order)\n\n| # | Address (Street, City, State, ZIP) | Move‑‑In Date | Move‑‑Out Date | Notes (optional) |\n|---|-------------------------------------|--------------|----------------|-------------------|\n| 1 | 123 Main St, Springfield, IL 62704  | 01 Jan 2018 | 15 Mar 2020   | (e.g., rented apartment) |\n| 2 | 456 Oak Ave, Madison, WI 53703      | 16 Mar 2020 | 30 Jun 2022   | (e.g., shared house) |\n| 3 | 789 Pine Blvd, Denver, CO 80203    | 01 Jul 2022 | Present       | (e.g., own condo) |\n\n**Tips for a tidy submission**\n\n1. **Chronology:** List the earliest residence first (or the most recent first, if the form asks for that).  \n2. **Date format:** Use a consistent style that matches the paperwork (e.g., `DD MMM YYYY` or `MM/DD/YYYY`).  \n3. **Completeness:** Include *all* places you lived, even short‑term stays, unless the form explicitly says “primary residence only.”  \n4. **Notes column:** Handy for clarifying things like “student housing,” “sublet,” or “temporary stay with family.”  \n5. **Proofread:** Double‑check spelling of street names and ZIP codes; a typo can cause delays.\n\n---\n\n#### Quick Text‑Only Version (for plain‑text forms)\n\n```\n1. 123 Main St, Springfield, IL 62704 — 01 Jan 2018 to 15 Mar 2020\n2. 456 Oak Ave, Madison, WI 53703 — 16 Mar 2020 to 30 Jun 2022\n3. 789 Pine Blvd, Denver, CO 80203 — 01 Jul 2022 to Present\n```\n\nJust replace the example rows with your own addresses and dates, and you’ll have a clear, professional‑looking residence history ready for the paperwork. Good luck!"
+  },
+  "build_seconds": 161.7,
+  "total_seconds": 182.8,
+  "usage": {}
+}

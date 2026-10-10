@@ -1,0 +1,26 @@
+=== 2026-10-10 14:39:17 uid=691e8998-0393-4508-9f70-6ea14109ddda ===
+Adding: session-05_2022-06-15.md
+  Compiling short doc...
+    summary... 3.6s (in=2540, out=762)
+    concepts-plan... 3.8s (in=3469, out=442, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: loss-aversion... 11.5s (in=3299, out=662)
+    concept: risk-assessment... 13.0s (in=3311, out=818, cached=64)
+    concept: decision-checklist... 22.1s (in=3311, out=760, cached=768)
+    summary-rewrite............... 15.8s (in=3340, out=970, cached=768)
+  [OK] session-05_2022-06-15.md added to knowledge base.
+Adding: session-40_2024-06-15.md
+  Compiling short doc...
+    summary............... 15.8s (in=2576, out=2314, cached=784)
+    concepts-plan...... 6.0s (in=3537, out=227, cached=768)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: drift-band-rebalancing... 6.4s (in=3405, out=1008, cached=768)
+    entity: etf... 9.6s (in=3418, out=746, cached=784)
+    concept: contribution-driven-rebalancing... 16.8s (in=3388, out=761, cached=768)
+    concept: core-satellite-allocation... 18.7s (in=3386, out=834, cached=3008)
+    concept: position-sizing... 18.8s (in=3372, out=1049)
+    entity: crypto... 10.1s (in=3418, out=795, cached=816)
+    summary-rewrite...... 6.6s (in=3416, out=755, cached=784)
+  [OK] session-40_2024-06-15.md added to knowledge base.
+done.

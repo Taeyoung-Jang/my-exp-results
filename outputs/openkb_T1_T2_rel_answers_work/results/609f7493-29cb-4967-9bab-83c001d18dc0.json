@@ -1,0 +1,19 @@
+{
+  "uid": "609f7493-29cb-4967-9bab-83c001d18dc0",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    1,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "**Yes.** In the earlier conversation (session 02 – 2024‑06‑15) the user explicitly noted that their “routine leaves me with **very little spare time**,” which they highlighted when describing why they need to limit new commitments. This statement shows that the user still has only a minimal amount of extra time available for additional activities.  \n\n*Source:* Session‑02 summary – “...my routine leaves me with very little spare time, so I can’t give it the attention it deserves...”【...】",
+    "dim2_response": "Here are a handful of activities that can slot into **just one evening (or even a short weekday slot) each week** and need almost no ongoing upkeep — perfect for a schedule that’s already packed.\n\n| Option | Typical Time Needed | Why It’s Low‑Commitment | How to Keep It Light |\n|--------|--------------------|------------------------|----------------------|\n| **Beginner yoga class** | 60 min (once a week) | A structured class gives you a set time and a built‑in routine; no equipment or practice outside class is required. | Attend only the regularly‑scheduled session and skip extra workshops. |\n| **Intro dance (salsa / swing / bachata)** | 60‑90 min (once a week) | Social, low‑intensity, and you can show up alone; the class itself provides the whole workout. | Treat it as a “move‑your‑body” break – no need to practice at home. |\n| **Art / ceramics workshop** | 1‑2 hrs (once a week) | Hands‑on but gentle; you can leave your piece unfinished and pick it up next session, so there’s no deadline pressure. | Join a beginner group and limit yourself to the weekly meet‑up. |\n| **Community language conversation club** | 45‑60 min (once a week) | Conversational focus, no homework required; you simply listen and speak for the duration. | Participate only in the scheduled meet‑up; skip extra practice apps if time is tight. |\n| **Community‑cooking class** | 90 min (once a week) | Short, guided cooking demos; you get a recipe and can repeat it at home only if you wish. | Attend the class for the experience; don’t feel obligated to recreate every dish. |\n\n### How to Make Them Fit Even Tighter  \n\n1. **Pick a fixed weekday evening** – treat the class as a non‑negotiable calendar block (e.g., “Tuesday 7 pm”).  \n2. **Use a 3‑ to 4‑week trial** to see if the activity feels sustainable before committing longer‑term — the wiki recommends a short trial period for any new hobby【summaries/session-35_2024-12-15.md】.  \n3. **Scale involvement** – you can go alone, which often makes the first session easier, and you can skip any optional social extensions (e.g., post‑class drinks) if you’re pressed for time【summaries/session-35_2024-12-15.md】.  \n\nThese options give you a regular, enjoyable break without demanding extra prep, travel, or lengthy ongoing chores, making them ideal for a very tight schedule.",
+    "dim3_response": "I’m sorry, but I couldn’t find any relevant information in the knowledge base to answer that question."
+  },
+  "build_seconds": 136.5,
+  "total_seconds": 161.0,
+  "usage": {}
+}

@@ -1,0 +1,44 @@
+=== 2026-10-10 15:41:28 uid=6206e3a3-ecb4-4777-8737-5aba73a1f5ad ===
+Adding: session-06_2024-06-12.md
+  Compiling short doc...
+    summary..... 5.5s (in=1810, out=947, cached=784)
+    concepts-plan.... 4.4s (in=2553, out=373)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: check_in_communication... 7.7s (in=2399, out=606)
+    concept: chore_fairness... 10.1s (in=2412, out=517, cached=768)
+    concept: temporary_rebalancing... 14.4s (in=2415, out=797, cached=784)
+    summary-rewrite................................................. 50.0s (in=2442, out=608, cached=768)
+[92m15:42:42 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-06_2024-06-12.md added to knowledge base.
+Adding: session-33_2025-03-13.md
+  Compiling short doc...
+    summary...... 6.9s (in=3320, out=724, cached=784)
+    concepts-plan.................. 18.0s (in=4274, out=1147)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    entity: hepa-air-purifier... 11.5s (in=4153, out=912)
+    concept: ergonomic-home-adaptation... 12.5s (in=4118, out=1007)
+    concept: air-quality-management... 18.2s (in=4129, out=1433, cached=784)
+    entity: removable-wall-clips... 8.8s (in=4165, out=757, cached=64)
+    concept: tubing-routing... 22.7s (in=4129, out=1110)
+    entity: corner-guards... 5.1s (in=4163, out=693, cached=784)
+    entity: doorstop... 10.9s (in=4163, out=694)
+    summary-rewrite...... 6.2s (in=4160, out=794)
+  [OK] session-33_2025-03-13.md added to knowledge base.
+done.

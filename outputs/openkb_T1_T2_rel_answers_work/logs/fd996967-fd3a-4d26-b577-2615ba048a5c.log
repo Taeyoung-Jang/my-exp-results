@@ -1,0 +1,32 @@
+=== 2026-10-10 15:30:42 uid=fd996967-fd3a-4d26-b577-2615ba048a5c ===
+Adding: session-13_2024-07-15.md
+  Compiling short doc...
+    summary...... 6.6s (in=2941, out=1319, cached=784)
+    concepts-plan...... 6.7s (in=3826, out=296, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: traveling-mailbox... 9.0s (in=3746, out=381, cached=768)
+    concept: mail-workflow... 12.4s (in=3697, out=995)
+    concept: package-pickup-strategy... 15.9s (in=3711, out=680, cached=3360)
+    entity: ups... 3.7s (in=3744, out=621, cached=64)
+    concept: stable-mail-address... 18.4s (in=3711, out=1038, cached=64)
+    entity: amazon-lockers... 2.9s (in=3746, out=516, cached=784)
+    entity: ipostal1... 10.5s (in=3746, out=453, cached=3584)
+    entity: usps-form-1583... 3.8s (in=3748, out=838, cached=3584)
+    entity: fedex... 6.3s (in=3745, out=277, cached=3584)
+    summary-rewrite... 3.0s (in=3742, out=835, cached=3584)
+  [OK] session-13_2024-07-15.md added to knowledge base.
+Adding: session-40_2025-03-15.md
+  Compiling short doc...
+    summary.............. 14.6s (in=2926, out=636, cached=768)
+    concepts-plan.................. 18.1s (in=4170, out=753, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: entry-drop-zone... 4.4s (in=3873, out=498)
+    concept: workspace-containment... 5.2s (in=3873, out=611)
+    concept: micro-habits... 15.6s (in=3875, out=603, cached=2912)
+Concept generation failed: LLM returned empty content for concept 'entry-drop-zone'
+Concept generation failed: LLM returned empty content for concept 'workspace-containment'
+    [WARN] 3 concept(s) planned but only 1 written for session-40_2025-03-15 (ValueError).
+    summary-rewrite........ 8.3s (in=3905, out=772, cached=784)
+  [OK] session-40_2025-03-15.md added to knowledge base.
+done.

@@ -1,0 +1,32 @@
+{
+  "uid": "7f481d58-807e-4412-b352-a56db2fcf0fb",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    6,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the conversation history, the haze you notice in the morning will **usually keep going until midday if it’s an inversion‑trapped haze**. The summary from Session 7 explains that a temperature‑inversion “lid” holds the haze aloft and is resistant to light wind, so it remains unchanged well into the later morning.  \n\nIf the haze is the **moisture‑driven fog** type, it typically thins out as the sun warms the ground and a light breeze mixes the air, so it would **not** persist to midday.  \n\nSo the persistence depends on the cause: inversion‑trapped haze → persists; moisture‑driven fog → fades earlier.",
+    "dim2_response": "**Best time window**\n\n- **Start about 30 minutes after sunrise** (when the first golden light lifts the haze but the veil is still thick).  \n- **Continue until roughly mid‑day (≈ 11 am‑12 pm)** – the inversion‑trapped haze you described typically holds its “soft, uniform veil” through this period [[summaries/session-07_2024-07-15]].  \n- **Ideal window:** **≈ 08:30 – 11:30 ** (adjust by local sunrise time). This gives you 2‑3 hours of atmospheric, diffused light while the haze is still present.\n\n**Practical planning tips**\n\n1. **Scout the haze early**  \n   - Use the checklist from the haze guide: look for a **suspended “lid”** that stays aloft, **sharp nearby objects** with washed‑out distant backgrounds, and **little change with a light breeze** – signs of an inversion‑trapped haze that will last into midday [[summaries/session-07_2024-07-15]].\n\n2. **Time your shoot steps**  \n   - Follow the **30‑minute sunrise routine** as a framework: warm‑up stretch → walk to the first viewpoint → **Photo Stop 1** (≈ 10 – 12 min after sunrise) → walk to a second spot → **Photo Stop 2** (≈ 18 – 20 min) → optional third stop later in the window. This keeps you moving while the haze evolves [[summaries/session-35_2025-03-16]].\n\n3. **Choose subjects that benefit from haze**  \n   - **Silhouettes** and **leading lines** gain depth when the background is a muted, bluish veil.  \n   - **Reflections** (puddles, windows) capture the soft, diffused sky.  \n   - **Foreground details** (leaves, fence posts) stay crisp, contrasting with the hazy distance.\n\n4. **Exposure handling**  \n   - Tap the brightest sky area on your iPhone, then lower exposure **≈ ⅓** to preserve sky texture while retaining atmosphere [[summaries/session-35_2025-03-16]].  \n   - If the foreground becomes too dark, raise exposure slightly **without** retapping the sky, keeping the haze tone intact.\n\n5. **Wind management**  \n   - A **light breeze** won’t break an inversion‑trapped haze, but stronger wind can lift it. Check the wind forecast and aim for **calm** mornings (≤ 5 km/h). If wind picks up, move to a more sheltered spot (valley‑side “lid” often stays longer).\n\n6. **Gear & settings**  \n   - Use **iPhone ProRAW (48 MP)** for maximum detail in both sky and haze, keep **HDR ON**, **Night Mode OFF**. This lets you later fine‑tune shadows and haze in post‑processing [[summaries/session-35_2025-03-16]].\n\n7. **Backup plan**  \n   - If the haze thins earlier than expected, have a **clear‑sky** composition ready (minimalist sky) so the shoot still yields usable images.\n\nBy arriving **about 30 minutes after sunrise** and staying **until just before noon**, while following the routine and exposure tips above, you’ll capture the lingering morning haze at its most atmospheric. Happy shooting!",
+    "dim3_response": "**What to wear**\n\n| Condition | Recommended clothing (layer‑by‑layer) | Why it helps |\n|-----------|----------------------------------------|--------------|\n| Early‑morning chill (typical before sunrise) | **Base layer** – lightweight, moisture‑wicking long‑sleeve (synthetic or merino). <br>**Mid layer** – fleece or light sweater for insulated warmth. <br>**Outer layer** – wind‑proof, water‑resistant jacket (can be removed if it warms quickly). | Keeps you dry if the air is damp from **humidity‑driven fog**, and protects against the **cool “lid” of an inversion‑trapped haze** that often feels colder than the sun suggests. [[summaries/session-07_2024-07-15]] |\n| Feet | Sturdy walking shoes or trail sneakers with good grip; consider water‑proof if the ground is wet from morning dew. | Prevents slipping on a damp surface that can appear under a low‑lying fog blanket. |\n| Extras | Hat or cap (sun protection once the sun rises), lightweight gloves (if it’s very cold), and a small scarf that can be tucked away if you warm up. | Easy to adjust as temperature rises quickly after sunrise. |\n\n**When to leave**\n\n1. **Check the local sunrise time** (e.g., 06:15 am).  \n2. **Plan to start your walk 15–20 minutes before sunrise**.  \n   * This lets you experience the “golden‑hour” glow while the sky is still dim enough that the **iPhone ProRAW exposure workflow** (tapping the sky and lowering exposure) works best. [[summaries/session-35_2025-03-16]]  \n   * Leaving a bit earlier also gives you a margin to assess the haze: if you see a **suspended “lid”** (inversion‑trapped haze) you may need a wind‑breaker; if the haze feels like a **ground‑hugging blanket** (moisture fog) you may want to warm up a bit longer before heading out. [[summaries/session-07_2024-07-15]]\n\n**Putting it together**\n\n- **Dress in three layers** (wicking base, fleece mid, wind‑proof outer) plus appropriate shoes, hat, and optional gloves.  \n- **Leave the house about 15 minutes before sunrise** (e.g., 06:00 am for a 06:15 am sunrise).  \n- **Use the first few minutes to gauge the haze**: if visibility is low but the horizon is still defined, you’ll have good contrast for photos and a comfortable outing. Adjust your outer layer as needed.\n\nThis schedule gives you comfortable temperature control and the best natural light while ensuring you have clear enough visibility to enjoy the early‑morning scenery."
+  },
+  "build_seconds": 121.0,
+  "total_seconds": 163.6,
+  "usage": {
+    "compile": {
+      "calls": 14,
+      "prompt_tokens": 46153,
+      "completion_tokens": 10935,
+      "cost_usd": 0.003913168
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 23612,
+      "completion_tokens": 2786,
+      "cost_usd": 0.0012098400000000002
+    }
+  }
+}

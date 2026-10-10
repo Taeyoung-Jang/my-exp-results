@@ -1,0 +1,32 @@
+{
+  "uid": "ff4ad8e1-aba5-485b-ac9c-1b21fbff2520",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    1,
+    30
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. The user is still working within a “knee‑friendly” framework, which means their mobility remains somewhat limited while they rehabilitate the injury.  \n\n* In the July 2024 conversation the assistant gave a **knee‑safe 7‑day fitness plan** that emphasizes modified movements (e.g., Romanian deadlifts, shallow step‑ups) and explicit “stop/modify” rules for any sharp pain or swelling 【source: summaries/session-02_2024-07-14.md】.  \n* The April 2025 micro‑movement cheat sheet explicitly links to the **[[concepts/knee‑friendly‑exercises]]** concept, indicating that the recommended daily drills are still chosen to protect the knee 【source: summaries/session-31_2025-04-12.md】.  \n\nTogether, these references show the user is still exercising with knee‑restricted mobility in mind.",
+    "dim2_response": "**Safe weekly exercise plan for a knee‑rehab phase**  \n\n*(All recommendations are drawn from the knee‑friendly 7‑day routine in [[summaries/session-02_2024-07-14]] and the underlying principles in [[concepts/knee-friendly-exercises]]).*\n\n| Day | Focus | Sample Session (≈30‑45 min) | Key Knee‑Safety Tips |\n|-----|-------|-----------------------------|----------------------|\n| **Mon** | **Full‑body strength (A)** | • Warm‑up: 5 min marching, hip circles, ankle rolls, 10 glute bridges  <br>• Romanian Deadlift 3 × 8‑10  <br>• Glute Bridge / Hip Thrust 3 × 10‑12  <br>• Shallow Low Step‑up 2‑3 × 8/leg  <br>• Plank 2 × 20‑30 s | Use a light‑to‑moderate load, keep knee flexion shallow, stop if any sharp pain appears. |\n| **Tue** | **Low‑impact cardio & mobility** | • 15‑20 min stationary bike (steady resistance)  <br>• 5‑min dynamic lower‑body mobility (hip‑circles, ankle pumps)  <br>• 5‑min upper‑body stretch | Choose an elliptical or brisk flat‑ground walk instead of the bike if you prefer. |\n| **Wed** | **Full‑body strength (B)** | • Warm‑up (same as Mon)  <br>• Hamstring Curl 3 × 10‑12  <br>• Single‑leg RDL 2‑3 × 6‑8/side  <br>• Supported split‑stance squat (very shallow) 2 × 6/leg  <br>• Side plank / Bird‑Dog 2 × 20‑30 s/side | Keep the split‑stance squat only as deep as you can maintain pain‑free control. |\n| **Thu** | **Active recovery / light conditioning** | • 10‑15 min rowing (light resistance, keep knee bend shallow)  <br>• 10‑min gentle foam‑rolling/hip mobility  <br>• Light core work (e.g., dead‑bugs) | If rowing feels uncomfortable, replace with an additional bike session. |\n| **Fri** | **Full‑body strength (A) – repeat** | Same as Monday, optionally add a 1‑set extra on one exercise if the load feels easy. | Follow the “stop/modify” rules: reduce range, then load, then skip if needed. |\n| **Sat** | **Optional conditioning or rest** | • 20‑30 min flat‑ground brisk walk **or** a rest day. | Listen to joint swelling; if present, choose rest and focus on upper‑body work or gentle stretching. |\n| **Sun** | **Rest / mobility focus** | • 10‑15 min gentle yoga‑style lower‑body flow (no deep lunges)  <br>• 5‑min diaphragmatic breathing | Complete recovery prepares you for the next week. |\n\n### Progression & Deload (see [[concepts/progression-and-deload]])\n1. **Weeks 1‑2** – Conservative load; focus on perfect form.  \n2. **Weeks 3‑4** – Add 2‑5 lb (or 1‑2 reps) per set if pain‑free.  \n3. **Weeks 5‑6** – Continue small increments; optionally add an extra set on one exercise.  \n4. **Week 7** – Maintain load, fine‑tune technique.  \n5. **Week 8 (deload)** – Halve the number of sets, keep the same light weight, no load increase.\n\n### “Stop / Modify” Rules (from the summary)\n- **Stop immediately** if you feel sharp knee pain, instability, or sudden swelling.  \n- **First action:** reduce the range of motion (e.g., shallower step‑up).  \n- **If pain persists:** lower the load or switch to a bridge‑type movement.  \n- **Post‑session swelling/limping:** skip lower‑body work the next day and focus on upper‑body or pure mobility.  \n\n### Quick “fallback” if you miss a day\n- Perform two full‑body strength sessions (any mix of Templates A/B) and one conditioning/mobility day within the next three days. This preserves the movement patterns while respecting your knee limits.\n\n**Bottom line:** The plan alternates gentle lower‑body strength (hinge‑dominant, shallow knee work) with low‑impact cardio and dedicated mobility/recovery days, progresses in small, measurable steps, and includes clear stop‑modify guidelines to protect the healing knee. Stay consistent, listen to your body, and adjust load or volume whenever discomfort arises.",
+    "dim3_response": "I’m sorry, but I don’t have any relevant information in the knowledge base to help with that question."
+  },
+  "build_seconds": 126.9,
+  "total_seconds": 156.2,
+  "usage": {
+    "compile": {
+      "calls": 13,
+      "prompt_tokens": 52751,
+      "completion_tokens": 12235,
+      "cost_usd": 0.007325272999999999
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 19620,
+      "completion_tokens": 2473,
+      "cost_usd": 0.00103374
+    }
+  }
+}

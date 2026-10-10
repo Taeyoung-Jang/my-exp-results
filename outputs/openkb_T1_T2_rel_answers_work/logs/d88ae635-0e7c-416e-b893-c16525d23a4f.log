@@ -1,0 +1,48 @@
+=== 2026-10-10 15:42:39 uid=d88ae635-0e7c-416e-b893-c16525d23a4f ===
+Adding: session-09_2024-06-13.md
+  Compiling short doc...
+    summary........ 8.3s (in=2091, out=1437)
+    concepts-plan........ 8.9s (in=3105, out=494, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: weekend-sleep-in-tolerance... 2.5s (in=2957, out=488)
+    concept: anchor-alarm-strategy... 6.2s (in=2955, out=807, cached=784)
+    concept: consistent-wake-up-time... 18.0s (in=2958, out=771, cached=64)
+Concept generation failed: LLM returned empty content for concept 'weekend-sleep-in-tolerance'
+    [WARN] 3 concept(s) planned but only 2 written for session-09_2024-06-13 (ValueError).
+    summary-rewrite.............. 14.1s (in=2986, out=792, cached=64)
+  [OK] session-09_2024-06-13.md added to knowledge base.
+Adding: session-34_2025-02-10.md
+  Compiling short doc...
+    summary..... 6.0s (in=3419, out=1194, cached=800)
+    concepts-plan...... 6.1s (in=4734, out=315, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    update: anchor-alarm-strategy... 4.0s (in=5138, out=1187, cached=768)
+    concept: early-afternoon-prep... 5.1s (in=4594, out=1030, cached=66)
+    concept: protected-break... 10.4s (in=4581, out=1126)
+    concept: admin-scheduling-block... 15.6s (in=4595, out=986, cached=784)
+    update: consistent-wake-up-time... 21.1s (in=5189, out=1458, cached=784)
+    entity: two-person-team-workflow... 20.4s (in=4632, out=692, cached=64)
+    entity: bakery-owner... 22.4s (in=4629, out=1001)
+    entity: bakery-opener... 18.9s (in=4630, out=1139, cached=64)
+    entity: bakery-closer... 17.6s (in=4630, out=866, cached=784)
+    summary-rewrite.................... 20.2s (in=4626, out=1406)
+[92m15:44:44 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-34_2025-02-10.md added to knowledge base.
+done.

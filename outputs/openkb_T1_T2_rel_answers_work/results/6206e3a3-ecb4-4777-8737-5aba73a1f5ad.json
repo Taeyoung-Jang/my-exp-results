@@ -1,0 +1,32 @@
+{
+  "uid": "6206e3a3-ecb4-4777-8737-5aba73a1f5ad",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the information in the knowledge base, there is no explicit statement confirming that the user **still** handles all the laundry and vacuuming while their partner takes care of cooking and dishes. The session dated 2024‑06‑12 provides general guidance and example “typical split” options for chore sharing, but it does not indicate the current, actual division of chores between the partners【session‑06_2024‑06‑12.md】. Therefore, we cannot definitively say whether that arrangement is still in place.",
+    "dim2_response": "Below is a short, **time‑boxed weekly plan** that builds on the “dynamic‑chore” ideas from [[summaries/session‑06_2024‑06‑12]] and the **low‑dust floor‑care** pointers from [[summaries/session‑33_2025‑03‑13]].\n\n---\n\n## 1. Efficient weekly schedule  \n\n| Day | Time block (≈ 15 min) | Tasks | Why it works |\n|-----|----------------------|-------|--------------|\n| **Mon** | **Evening, 7 – 7:15 pm** | Quick “vacuum‑reset” – run the HEPA‑filtered vacuum over the high‑traffic carpet strip (entryway → living‑room → hallway). | Keeps dust from building up; a short pass each night stays within the 15‑minute “quick‑win” window recommended for low‑dust living‑room care. |\n| **Tue** | **Morning, 8 – 8:15 am** | **Laundry load 1** (mixed whites & colors). | Spreads laundry across the week so the basket never overfills and you avoid a weekend “mountain” of clothes. |\n| **Wed** | **Evening, 7 – 7:30 pm** | Full‑room vacuum (slow passes, grid pattern) **+** spot‑clean any spills. | The slightly longer slot lets you cover the whole floor methodically, using the “slow passes” tip for better HEPA capture. |\n| **Thu** | **Morning, 8 – 8:15 am** | **Laundry load 2** (towels & bedding). | Keeps bulky items separate and reduces drying time. |\n| **Fri** | **Evening, 7 – 7:15 pm** | Light‑touch vacuum of entryways only (quick sweep). | Ends the work‑week with a fresh‑feeling floor and minimal effort. |\n| **Sat** | **Flexible 30‑min window** | Deep‑clean day: (1) Spot‑vacuum any missed areas, (2) Damp‑microfiber mop hard floors, (3) Run the HEPA purifier for 15 min while you’re on the couch. | Consolidates the “weekend‑deep” tasks while still fitting into a manageable block. |\n| **Sun** | **Rest / optional** | No scheduled chores – treat as a buffer day if something slipped. | Gives you a low‑pressure “reset” and respects the flexible‑rebalancing principle. |\n\n**Key schedule ideas**\n\n* **Rotate & time‑box** – each chore is limited to a 15‑30 minute window, matching the “prioritized‑checklist” approach from session‑33.  \n* **Spread laundry** – two small loads instead of one huge weekend load reduces fatigue and keeps the dryer/run‑time short.  \n* **Weekly “vacuum‑reset”** – a quick nightly pass prevents dust from accumulating, meaning the longer mid‑week vacuum stays fast.  \n* **Temporary rebalancing** – if a week gets unusually busy (e.g., extra work hours, travel), you can swap a 15‑minute task with your partner (dishes, prep, etc.) using the **temporary‑rebalancing** method in session‑06.  \n\n---\n\n## 2. Tips to vacuum faster (while keeping the floor dust‑free)\n\n1. **Use a lightweight cordless HEPA vacuum** – it’s quicker to grab and move between rooms; the HEPA filter captures fine particles, aligning with the low‑dust recommendations.  \n2. **Adopt a “grid” pattern** – start at one corner, move in straight rows, and overlap each pass by ~2‑3 in. This prevents back‑tracking and ensures every square centimeter is covered in one go.  \n3. **Slow, steady passes** – contrary to “rush‑through” speed, moving a little slower (≈ 1 ft / s) lets the HEPA filter pull more dust, reducing the number of required passes.  \n4. **Pre‑vacuum declutter** – spend ≤ 30 seconds putting toys, shoes, or loose clothing into a basket before you start. Fewer obstacles mean fewer turns and less time wasted.  \n5. **Set a timer** – 15‑minute “vacuum sprint” challenges keep you focused; you’ll naturally find the most efficient route.  \n6. **Maintain the vacuum** – empty the canister and clean the brush roll after every use; a clear brush maintains suction and speeds up cleaning.  \n7. **Combine with “air‑quality” routine** – run the compact HEPA purifier while you vacuum; the purifier catches airborne dust that the vacuum may stir up, so you can finish sooner without a second pass.\n\n---\n\n## 3. Keeping the routine sustainable\n\n* **Weekly check‑in** (5 min) – on Sunday, briefly review the past week’s schedule. Ask yourself: “Did any 15‑minute block feel rushed?” If yes, adjust the next week’s allocation or invoke **temporary rebalancing** with your partner.  \n* **Visual cue board** – a small whiteboard by the entryway with the day‑by‑day time blocks reinforces the habit without mental overhead.  \n* **Celebrate consistency** – after 4 weeks of completing the schedule, treat yourself to a small reward (e.g., a new coffee blend). Positive reinforcement keeps the routine pleasant.\n\n---\n\n**Bottom line:** By slicing laundry into two short loads, adding a quick nightly vacuum “reset,” and using a focused grid‑pattern with a cordless HEPA vacuum, you’ll keep the house clean with **≤ 2 hours total per week** while preserving the same reliable routine you’ve already mastered.",
+    "dim3_response": "I’m sorry—I couldn’t find any information about dry‑powder carpet cleaners or carpet‑care tips in the knowledge base. If you have a specific source or document you’d like me to look at, feel free to let me know!"
+  },
+  "build_seconds": 129.1,
+  "total_seconds": 152.1,
+  "usage": {
+    "compile": {
+      "calls": 16,
+      "prompt_tokens": 54805,
+      "completion_tokens": 13119,
+      "cost_usd": 0.004664171
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 17502,
+      "completion_tokens": 2418,
+      "cost_usd": 0.0009602999999999999
+    }
+  }
+}

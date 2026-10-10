@@ -1,0 +1,25 @@
+=== 2026-10-10 14:42:48 uid=215ea8a4-3446-47d3-b7b6-7c5bb33289f4 ===
+Adding: session-15_2023-01-18.md
+  Compiling short doc...
+    summary.... 4.6s (in=1769, out=691, cached=784)
+    concepts-plan.. 2.3s (in=2657, out=504, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: consistent-sleep-schedule... 2.5s (in=2533, out=883, cached=768)
+    concept: early-afternoon-nap... 3.3s (in=2503, out=475)
+    concept: screen-curfew... 5.3s (in=2504, out=671, cached=784)
+Concept generation failed: LLM returned empty content for concept 'early-afternoon-nap'
+    [WARN] 3 concept(s) planned but only 2 written for session-15_2023-01-18 (ValueError).
+    summary-rewrite... 3.8s (in=2535, out=787, cached=768)
+  [OK] session-15_2023-01-18.md added to knowledge base.
+Adding: session-33_2024-01-19.md
+  Compiling short doc...
+    summary............ 12.7s (in=1561, out=809)
+    concepts-plan.............. 14.8s (in=2552, out=944, cached=64)
+    Generating 4 concept(s) (concurrency=4)...
+    concept: caffeine_timing... 4.0s (in=2398, out=674, cached=768)
+    concept: morning_light... 10.1s (in=2381, out=750, cached=784)
+    update: consistent-sleep-schedule... 16.4s (in=2857, out=1300)
+    concept: circadian_rhythm... 21.5s (in=2381, out=605, cached=768)
+    summary-rewrite. 2.0s (in=2412, out=821)
+  [OK] session-33_2024-01-19.md added to knowledge base.
+done.

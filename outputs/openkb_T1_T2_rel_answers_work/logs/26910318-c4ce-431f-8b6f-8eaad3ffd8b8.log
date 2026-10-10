@@ -1,0 +1,32 @@
+=== 2026-10-10 15:28:36 uid=26910318-c4ce-431f-8b6f-8eaad3ffd8b8 ===
+Adding: session-14_2018-01-15.md
+  Compiling short doc...
+    summary............ 12.4s (in=2479, out=475, cached=768)
+    concepts-plan..... 5.7s (in=3334, out=374)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: flexibility_in_winter_planning... 0.5s (in=3200, out=2, cached=2464)
+    concept: ice_dam_prevention... 8.4s (in=3198, out=469, cached=768)
+    concept: pre_winter_home_maintenance... 10.0s (in=3187, out=934)
+Concept generation failed: LLM returned empty content for concept 'flexibility_in_winter_planning'
+    [WARN] 3 concept(s) planned but only 2 written for session-14_2018-01-15 (ValueError).
+    summary-rewrite....... 7.6s (in=3216, out=605)
+  [OK] session-14_2018-01-15.md added to knowledge base.
+Adding: session-38_2023-01-15.md
+  Compiling short doc...
+    summary...... 7.0s (in=2214, out=666)
+    concepts-plan................................ 32.4s (in=3131, out=1200, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: herb_winter_care... 6.4s (in=3014, out=1074, cached=784)
+    entity: rosemary... 11.4s (in=3034, out=1047)
+    concept: mulch_strategy... 11.7s (in=3014, out=1017, cached=784)
+    entity: lavender... 9.6s (in=3047, out=422, cached=768)
+    entity: pea_gravel... 6.0s (in=3049, out=718, cached=784)
+    entity: shredded_leaves... 3.3s (in=3050, out=598, cached=784)
+    concept: frost_protection... 19.6s (in=3013, out=918, cached=64)
+    entity: pine_needles... 8.1s (in=3049, out=341, cached=768)
+    entity: straw... 3.9s (in=3047, out=594, cached=64)
+    entity: frost_cloth... 9.5s (in=3048, out=306, cached=768)
+    summary-rewrite.................................................... 52.9s (in=3045, out=799, cached=768)
+  [OK] session-38_2023-01-15.md added to knowledge base.
+done.

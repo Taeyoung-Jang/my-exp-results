@@ -1,0 +1,32 @@
+{
+  "uid": "fb5ebe60-626d-48e0-86d6-3640db53d3b4",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the stored conversation excerpts, the user’s original location was **Seattle** (the “baseline city” used for comparing other places) 【read_file】. However, the more recent session from 2025‑02‑15 is a moving checklist that focuses on changing address, DMV, and vehicle paperwork, indicating the user is in the process of relocating away from that baseline.  \n\n**Therefore, the user does not appear to still be based in Seattle; they are planning (or already executing) a move to a new city.**",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain any information about specific Seattle neighborhoods, their relative costs, or commuting characteristics. Without those details I can’t provide a reliable recommendation.",
+    "dim3_response": "I don’t have any details in the knowledge base about your current work, school, caregiving, or other regular commitments, so I can’t say for certain whether a **Tuesday 7 – 9 am** shift will fit your personal timetable.  \n\nHowever, here’s a quick sanity‑check you can run yourself, using the same sort of planning framework that shows up in the moving‑checklist and weeknight‑activity guidance:\n\n| Factor | What to consider | Why it matters |\n|--------|------------------|----------------|\n| **Existing morning obligations** | Do you have a job, class, childcare, or regular exercise routine that starts before 8 am? | Overlapping commitments will force you to choose or adjust one of them. |\n| **Commute time** | How long does it take to get from your home (or current stop) to the Ballard pantry? Add a buffer for Seattle traffic or transit delays. | A long or unreliable commute can make a 7 am start stressful, especially on a weekday. |\n| **Sleep schedule** | What time do you usually go to bed? Aim for 7–8 hours of sleep before a 7 am start. | Consistently cutting sleep can affect your energy and health. |\n| **Weekly workload balance** | What other weekly tasks do you have (e.g., moving checklist items, bill payments, errands)? | A tightly packed week can lead to burnout; spreading tasks evenly helps maintain a steady routine. |\n| **Flexibility of the pantry shift** | Can you swap days if a conflict arises, or is the schedule fixed? | Knowing the fallback options reduces risk of missed shifts. |\n| **Physical demands** | Does the volunteer work involve lifting, standing for long periods, or other physical effort? | Make sure you have enough recovery time before any other physically demanding activities. |\n| **Transportation reliability** | Do you have a car, bike, or reliable transit to get there early enough? | In Seattle, early‑morning transit can be less frequent; a backup plan (e.g., rideshare) is helpful. |\n| **Motivation & consistency** | Are you looking for a regular “third place” activity that can help you build routine and community? (See [[concepts/weeknight_activities]]) | A recurring volunteer shift can serve that purpose nicely if it fits comfortably into your overall schedule. |\n\n**How to test it:**  \n1. Write a short “one‑week snapshot” of all your planned activities (work, sleep, meals, commute, errands).  \n2. Insert the 7‑9 am pantry block on Tuesday.  \n3. Spot any overlaps or tight gaps; adjust the other items (e.g., shift a workout later, arrange car‑pool).  \n\nIf after this exercise the Tuesday morning slot fits without forcing you to cut sleep, skip essential tasks, or create a stressful commute, it’s likely realistic. If you notice major conflicts, you might consider a later shift or a different day.\n\n*If you can share your current weekly schedule, I can help you map it more precisely.*"
+  },
+  "build_seconds": 152.7,
+  "total_seconds": 178.0,
+  "usage": {
+    "compile": {
+      "calls": 37,
+      "prompt_tokens": 129962,
+      "completion_tokens": 32790,
+      "cost_usd": 0.014666682
+    },
+    "query": {
+      "calls": 10,
+      "prompt_tokens": 25852,
+      "completion_tokens": 2175,
+      "cost_usd": 0.0011670600000000001
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "uid": "b4b839a8-83ae-4bfc-b6a4-4f7de3bf0f5e",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    30
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the June 2020 conversation the user told the assistant that the natural‑citizenship process was complete (“You can list my status as naturalized citizen now that the process is complete”), and the assistant confirmed that the user should be regarded as a **naturalized U.S. citizen** for form‑filling purposes. No later update contradicts this, so the user’s status remains that of a naturalized citizen.",
+    "dim2_response": "**Statement to paste into the form**\n\n```\nI am a United States citizen (naturalized).\n```\n\n*This wording follows the guidance to select “U.S. citizen” and, when a field asks how citizenship was obtained, to specify “naturalized” — as described in the session‑06_2020‑06‑15 guidance on citizenship reporting.*",
+    "dim3_response": "**What to enter**\n\nWhen the form asks for the “government‑issued identification number tied to your authorization to live and work here,” it is usually referring to your **Alien Registration Number (A‑Number)** – the 9‑digit number that the U.S. government assigns to permanent‑resident (green‑card) holders and other non‑citizen immigration beneficiaries.\n\n**Where to find it**\n\n- **Green Card (Form I‑551)** – The A‑Number is printed on the front of the card, typically in a line that reads something like **“USCIS #: A #########”** (the “A” followed by nine digits).  \n- **USCIS correspondence** – If you have any notices, approval letters, or the I‑94 electronic record, the A‑Number is also listed there, often in the same “A‑Number” or “USCIS #:” field.  \n- **USCIS Online Account** – The same number appears in your USCIS online account profile, should you need to retrieve it digitally.\n\n**Why it matters**\n\nThe A‑Number uniquely identifies your immigration status and is required for background‑check and verification sections of new‑hire paperwork. Copy it **exactly as printed**—include the leading “A” and all digits, without adding spaces or hyphens. Any transposition or omission can delay processing. [[concepts/immigration-identifiers]] [[summaries/session-31_2023-06-15]]\n\n**If you do not have a green card**\n\nFor other non‑citizen work‑authorization documents (e.g., an Employment Authorization Document, I‑94 record, or a passport with a visa stamp), the form may instead be asking for one of the following identifiers:\n\n| Identifier | Where it appears |\n|------------|-----------------|\n| **USCIS Online Account Number** | USCIS online portal or any USCIS notice showing “USCIS Online Account Number.” |\n| **I‑94 Arrival/Departure Record Number** | Printed on the I‑94 paper form or the electronic I‑94 record you can view at [https://i94.cbp.dhs.gov](https://i94.cbp.dhs.gov). |\n| **Passport Number** | On the biographic page of your passport. |\n| **Driver’s‑License Number** | On your state‑issued driver’s license. |\n| **Social Security Number (SSN)** | Issued by the Social Security Administration; appears on the Social Security card. |\n\nIf you are unsure which identifier the employer is requesting, **ask the Human‑Resources department** for clarification before submitting the form. [[summaries/session-31_2023-06-15]]"
+  },
+  "build_seconds": 129.5,
+  "total_seconds": 157.4,
+  "usage": {}
+}

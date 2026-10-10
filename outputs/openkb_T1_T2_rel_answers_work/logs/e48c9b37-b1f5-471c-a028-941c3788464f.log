@@ -1,0 +1,29 @@
+=== 2026-10-10 15:35:46 uid=e48c9b37-b1f5-471c-a028-941c3788464f ===
+Adding: session-12_2025-06-17.md
+  Compiling short doc...
+    summary=== 2026-10-10 15:36:11 uid=e48c9b37-b1f5-471c-a028-941c3788464f ===
+Adding: session-12_2025-06-17.md
+  Compiling short doc...
+    summary......... 9.3s (in=1964, out=737, cached=768)
+    concepts-plan.... 4.0s (in=3083, out=157, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: social-downtime-balance... 2.5s (in=2931, out=382)
+    concept: polite-decline-scripts... 5.8s (in=2932, out=840, cached=784)
+    concept: calendar-based-self-care... 18.6s (in=2933, out=772)
+Concept generation failed: LLM returned empty content for concept 'social-downtime-balance'
+    [WARN] 3 concept(s) planned but only 2 written for session-12_2025-06-17 (ValueError).
+    summary-rewrite... 3.8s (in=2961, out=917, cached=1952)
+  [OK] session-12_2025-06-17.md added to knowledge base.
+Adding: session-35_2025-09-17.md
+  Compiling short doc...
+    summary...................... 22.7s (in=1859, out=1423, cached=64)
+    concepts-plan....... 7.3s (in=2703, out=750, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: availability-windows... 3.2s (in=2548, out=808, cached=784)
+    entity: imessage... 5.3s (in=2583, out=542, cached=64)
+    concept: communication-tone... 13.7s (in=2548, out=715, cached=784)
+    concept: early-shift-work... 14.5s (in=2536, out=1174)
+    summary-rewrite........ 8.8s (in=2567, out=744)
+  [OK] session-35_2025-09-17.md added to knowledge base.
+done.

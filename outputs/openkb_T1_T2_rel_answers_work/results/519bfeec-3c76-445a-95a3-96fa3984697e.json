@@ -1,0 +1,32 @@
+{
+  "uid": "519bfeec-3c76-445a-95a3-96fa3984697e",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    1,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the earlier session 02 (2025‑06‑15) you set up a **1–2 hour evening block** for your habit‑building routine, explicitly describing it as a “couple of hours” you can allocate each night. This suggests you still typically have that amount of spare time each evening.【summaries/session-02_2025-06-15.md】",
+    "dim2_response": "**Weeknight Evening Plan (≈ 2 h after dinner)**  \n\n*Built from the “themed‑rotation” habit framework described in* [[summaries/session-02_2025-06-15]] *and the supporting concepts of habit‑anchoring, quick‑start ritual and minimum fallback* [[concepts/habit-anchoring]], [[concepts/themed-rotation]], [[concepts/minimum-fallback]].\n\n| Day | Theme (focus) | Quick‑Start Ritual (30 s‑1 min) | Core Activities (20‑45 min) | Relaxation / Wind‑Down (10‑20 min) | Minimum Fallback (≤ 2 min) |\n|-----|---------------|--------------------------------|-----------------------------|-----------------------------------|-----------------------------|\n| **Monday** | **Movement** | Put phone in a drawer, fill a water bottle, decide “move or not”. | 1️⃣ 15‑min body‑weight circuit (e.g., push‑ups, squats, plank)  <br>2️⃣ 20‑min brisk walk or short jog around the block  <br>3️⃣ 15‑min online “dance‑fit” video | 5‑min guided stretch + deep‑breathing (or a short mindfulness app) | 2 min gentle stretch or a 1‑minute walk around the house |\n| **Tuesday** | **Learning** | Phone away, water, 1‑min “what will I learn today?”. | 1️⃣ 20‑min language flash‑card set (Duolingo/Anki)  <br>2️⃣ 15‑min coding challenge (e.g., LeetCode easy)  <br>3️⃣ 20‑min short video + note‑taking on a topic of interest | 10‑min tech podcast or audiobook chapter (relaxed listening) | 1‑min skim of notes or read one paragraph of a book |\n| **Wednesday** | **Movement** | Same as Monday (habit anchoring to the same cue). | Choose a different option from Monday (e.g., yoga flow, HIIT video, or bike ride). | 5‑min progressive muscle relaxation (apps like Insight Timer). | 2‑min light stretch or a quick walk to the kitchen. |\n| **Thursday** | **Learning** | Same cue as Tuesday. | Pick a different learning mode (e.g., 20‑min documentary segment, 15‑min piano‑theory app, 20‑min history article). | 10‑min ambient music while journaling a quick reflection on what you learned. | 1‑min review of yesterday’s notes. |\n| **Friday** | **Creative** | Phone away, water, 1‑min “what will I create?”. | 1️⃣ 15‑min free‑write prompt (story, blog idea, journal)  <br>2️⃣ 20‑min sketch/doodle or digital art sketch  <br>3️⃣ 15‑min quick photo/video edit (use phone or laptop) | 10‑min “slow‑pencil” relaxation: colour‑in a mandala, or watch a calming art‑making timelapse. | Add one sentence/line to any ongoing project or make one tiny edit. |\n| **Saturday** *(optional, can be used as a “bonus” night)* | **Mix & Reset** | Same quick‑start cue (phone‑away, water). | Choose whichever theme you felt most refreshed by during the week, or try a new hobby (e.g., cooking a new recipe, board‑game with family). | 15‑min gentle wind‑down: tea‑time, light reading, or a short nature video. | Any 2‑minute activity that feels “done” (e.g., set up tomorrow’s outfit). |\n| **Sunday** *(optional rest day)* | **Pure Relax** | No ritual needed – simply transition from dinner. | 30‑45 min low‑effort leisure: watch an episode of a favourite series, play a casual video game, or do a puzzle. | 15‑20 min bedtime routine: dim lights, light stretching, gratitude journal. | – (not required; rest day). |\n\n### How the plan works  \n\n1. **Habit anchoring** – Each night starts with the same 30‑second cue (phone away + water + decision). This cue signals the brain to switch from “dinner mode” to “evening‑activity mode”.  \n2. **Themed rotation** – By assigning a light theme to each day, you get variety without decision‑fatigue; the core options give you choice while keeping the overall focus clear.  \n3. **Minimum fallback** – On low‑energy evenings, you can still tick the habit box with a 1–2 minute ultra‑short activity, preserving streak continuity.  \n4. **Flexible time allocation** – The core block (20‑45 min) can be shortened or extended depending on how you feel; the wind‑down period ensures a calm transition to bedtime.\n\nFeel free to tweak the specific activities to match your interests (e.g., swap “coding” for “music practice”, or “sketch” for “gardening”). The structure will keep the two‑hour evening window productive, enjoyable, and sustainable.",
+    "dim3_response": "I’m sorry—I didn’t find any information in the knowledge base about the coding bootcamp you mentioned, its schedule, the deposit policy, or any guidance on whether you should enroll. Without relevant content to draw from, I can’t provide a wiki‑based recommendation. If you have other notes or documents that discuss this bootcamp, feel free to add them to the knowledge base, and I can help you evaluate the decision then."
+  },
+  "build_seconds": 105.8,
+  "total_seconds": 132.7,
+  "usage": {
+    "compile": {
+      "calls": 18,
+      "prompt_tokens": 58658,
+      "completion_tokens": 15589,
+      "cost_usd": 0.006412196999999999
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 22549,
+      "completion_tokens": 2524,
+      "cost_usd": 0.00113079
+    }
+  }
+}

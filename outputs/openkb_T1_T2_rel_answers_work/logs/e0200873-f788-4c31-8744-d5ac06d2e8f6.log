@@ -1,0 +1,25 @@
+=== 2026-10-10 15:54:24 uid=e0200873-f788-4c31-8744-d5ac06d2e8f6 ===
+Adding: session-05_2025-07-10.md
+  Compiling short doc...
+    summary................ 16.7s (in=3338, out=1110)
+    concepts-plan.. 2.0s (in=4557, out=113)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-05_2025-07-10 — no concept pages generated. See log (stderr) for details.
+  [OK] session-05_2025-07-10.md added to knowledge base.
+Adding: session-34_2025-10-08.md
+  Compiling short doc...
+    summary................... 19.7s (in=2671, out=1053, cached=64)
+    concepts-plan.......... 10.1s (in=3410, out=686, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: parking-strategy... 2.2s (in=3325, out=819)
+    concept: errand-planning... 4.1s (in=3298, out=852, cached=784)
+    entity: kohls... 2.4s (in=3329, out=614, cached=768)
+    entity: cvs... 7.1s (in=3331, out=623, cached=784)
+    concept: curbside-pickup... 9.4s (in=3299, out=521, cached=64)
+    entity: amazon... 3.0s (in=3331, out=676, cached=3168)
+    entity: target... 10.6s (in=3318, out=683)
+    entity: old-navy... 3.7s (in=3332, out=832, cached=3168)
+    summary-rewrite... 3.5s (in=3333, out=575, cached=768)
+  [OK] session-34_2025-10-08.md added to knowledge base.
+done.

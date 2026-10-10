@@ -1,0 +1,32 @@
+{
+  "uid": "53d876a2-e3a6-4107-848d-467a5ea117fd",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    9,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the June 15 2025 conversation the user told me that they “maintained 85 kilograms … consistently for the past year,” and I confirmed that a weekly weigh‑in was appropriate for that stable weight. No later session contains any statement that the weight has changed, so the record still reflects the user’s self‑reported weight of 85 kg and the belief that it has remained steady over the previous year.",
+    "dim2_response": "I’m sorry, but the knowledge base you provided does not contain any information about specific meal plans or workout routines. The existing documents focus on thyroid health, medication adherence, and low‑stress weight‑monitoring practices, but they do not include nutrition or exercise guidance that could be used to create a detailed plan for maintaining a weight of 85 kg. If you have additional sources that cover diet and exercise recommendations, I can incorporate those into a tailored plan.",
+    "dim3_response": "I’m sorry—I couldn’t find any information in the knowledge base about bungee‑jump waivers, weight‑based equipment selection, or the safety policies of a canyon‑bungee‑jump company. Therefore I can’t determine whether reusing last year’s weight data is advisable. You may want to consult the company’s guidelines directly or contact them to confirm whether an updated weight is required."
+  },
+  "build_seconds": 185.8,
+  "total_seconds": 206.4,
+  "usage": {
+    "compile": {
+      "calls": 19,
+      "prompt_tokens": 63214,
+      "completion_tokens": 17062,
+      "cost_usd": 0.005199136
+    },
+    "query": {
+      "calls": 10,
+      "prompt_tokens": 22032,
+      "completion_tokens": 1400,
+      "cost_usd": 0.00091296
+    }
+  }
+}

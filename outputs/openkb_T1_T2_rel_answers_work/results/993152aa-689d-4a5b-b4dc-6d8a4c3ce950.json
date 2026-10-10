@@ -1,0 +1,32 @@
+{
+  "uid": "993152aa-689d-4a5b-b4dc-6d8a4c3ce950",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    6,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. In the earlier session (2025‑06‑15) the user asked for a **two‑meal‑a‑day** protein plan that listed only “Meal 1 – Grain Bowl” and “Meal 2 – Tofu Stir‑Fry Bowl” and treated breakfast as optional snacks【.../summaries/session-07_2025-06-15.md】.  \n\nHowever, by the later session (2025‑09‑15) the user requested a **full two‑week, work‑day schedule that includes Breakfast, Lunch and two snacks each day**【.../summaries/session-37_2025-09-15.md】. This indicates the user is no longer limiting themselves to just two main meals and is no longer routinely skipping breakfast.",
+    "dim2_response": "**Simple “no‑breakfast” energising plan**\n\n| Time | What to do | Why it works (wiki‑based) |\n|------|------------|---------------------------|\n| **Evening (Meal 1)** | Prepare a **high‑protein bowl** (e.g., rotisserie chicken 5‑6 oz + microwavable rice + bagged greens + soy‑ginger sauce). Aim for **40‑50 g protein**. | The two‑meal blueprint targets ~45 g protein per main meal and provides lasting satiety – see [[summaries/session-07_2025-06-15]] and [[concepts/meal-template-design]]. |\n| **Night before** | **Hydrate** (2‑3 cups water) and if you like, brew a cup of coffee or tea (caffeine helps alertness). | Caffeine gives a short‑term energy lift without adding calories. |\n| **Early morning (optional “micro‑snack”)** | **Protein‑rich drink** – 1  scoop protein powder mixed with water/milk **or** a **Greek‑yogurt (1 cup) + a few berries**. <br> If you prefer something solid, a **cottage‑cheese cup** or **a small tuna packet with whole‑grain crackers** works. | Snacks add 10‑20 g protein and curb hunger until lunch while still feeling like “no breakfast” – snack ideas are listed in the session‑07 summary under “Optional Snacks”. |\n| **Mid‑morning (if still hungry)** | Sip **electrolyte‑balanced water** or a **herbal tea**. | Staying hydrated reduces the feeling of emptiness. |\n| **Lunch (Meal 2)** | Another **protein‑focused bowl** – baked tofu 10‑12 oz + frozen stir‑fry veg + quinoa + chili‑crisp sauce. Again ~45‑50 g protein. | Mirrors the second template in the two‑meal plan, ensuring you meet the daily 110‑130 g protein goal [[concepts/protein-targeting]]. |\n| **Afternoon (optional snack)** | If energy dips, repeat a small snack: Greek yogurt, cottage cheese, or a handful of jerky (10‑20 g protein). | Keeps protein intake steady and prevents a late‑day crash. |\n\n### How this keeps you energized\n1. **Protein first** – hitting ~40‑50 g protein at each main meal supplies a steady release of amino acids, which helps maintain blood‑sugar stability and reduces mid‑day hunger.  \n2. **Micro‑snack or protein shake** – a light 10‑20 g protein boost in the morning supplies enough calories to stave off hunger without feeling like a full breakfast.  \n3. **Hydration & caffeine** – water and a modest coffee/tea serve as low‑calorie alertness aids.  \n4. **Consistent schedule** – eating the first meal early enough (e.g., 6‑7 pm) and the second around lunchtime (12‑1 pm) creates a predictable 5‑6 hour window between meals, which most people find comfortable when the morning “skip” is compensated by the protein micro‑snack.\n\n### Quick shopping list (from the staples concept)\n- Rotisserie chicken (or baked tofu)  \n- Microwaveable rice/quinoa  \n- Bagged greens or frozen stir‑fry mix  \n- Soy‑ginger or chili‑crisp sauce components  \n- Greek yogurt, cottage cheese, or protein powder  \n- Canned tuna or jerky (for optional snack)  \n- Electrolyte water / coffee  \n\nAll items are listed under [[concepts/grocery-staples-for-minimal-cooking]] and require little to no cooking, so you can assemble the plan with minimal effort each day.",
+    "dim3_response": "I’m sorry, but the knowledge base you provided does not contain any information about clean‑room policies, safety protocols, or the effects of working without personal items in that environment. Therefore I can’t give you a well‑supported answer to your question."
+  },
+  "build_seconds": 146.1,
+  "total_seconds": 183.7,
+  "usage": {
+    "compile": {
+      "calls": 25,
+      "prompt_tokens": 141248,
+      "completion_tokens": 25130,
+      "cost_usd": 0.010657587
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 29174,
+      "completion_tokens": 2787,
+      "cost_usd": 0.001382291
+    }
+  }
+}

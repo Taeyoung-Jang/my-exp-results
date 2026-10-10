@@ -1,0 +1,40 @@
+=== 2026-10-10 14:18:55 uid=a4cb06e0-3563-458b-8aa8-aeb9ee6cee59 ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary............ 12.5s (in=1818, out=971, cached=64)
+    concepts-plan....... 7.8s (in=2850, out=397)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: indoor_microbreaks... 11.4s (in=2684, out=759)
+    concept: habit_cueing... 13.1s (in=2683, out=867)
+    concept: movement_snacks... 18.0s (in=2695, out=779, cached=784)
+    summary-rewrite... 3.6s (in=2727, out=825, cached=784)
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-32_2024-12-15.md
+  Compiling short doc...
+    summary... 3.5s (in=1916, out=741, cached=768)
+    concepts-plan..... 5.2s (in=2868, out=818, cached=800)
+    Generating 4 concept(s) (concurrency=4)...
+    update: habit_cueing... 5.2s (in=3190, out=1266, cached=784)
+    concept: low_effort_outdoor_activities... 9.1s (in=2676, out=478, cached=64)
+    concept: habit_rhythm... 11.6s (in=2672, out=630, cached=64)
+    concept: weather_based_menu... 11.8s (in=2674, out=729, cached=784)
+    summary-rewrite..................................... 37.6s (in=2704, out=999, cached=768)
+[92m14:20:39 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-32_2024-12-15.md added to knowledge base.
+done.

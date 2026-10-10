@@ -1,0 +1,24 @@
+=== 2026-10-10 14:27:23 uid=04fea765-0b32-4e8f-b4e9-225901f627b0 ===
+Adding: session-03_2025-05-15.md
+  Compiling short doc...
+    summary.......... 10.1s (in=1574, out=420, cached=768)
+    concepts-plan.... 4.1s (in=2400, out=376, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: friendly-messaging... 0.6s (in=2261, out=2, cached=768)
+    entity: pressure-washer... 4.7s (in=2296, out=509, cached=784)
+    concept: apology-tone-without-awkwardness... 9.5s (in=2267, out=510, cached=768)
+    entity: mike... 10.7s (in=2295, out=788)
+    concept: quick-meetup-options... 13.2s (in=2249, out=764)
+Concept generation failed: LLM returned empty content for concept 'friendly-messaging'
+    [WARN] 3 concept(s) planned but only 2 written for session-03_2025-05-15 (ValueError).
+    summary-rewrite........ 8.4s (in=2293, out=1038, cached=2128)
+  [OK] session-03_2025-05-15.md added to knowledge base.
+Adding: session-39_2025-06-05.md
+  Compiling short doc...
+    summary.... 4.5s (in=1824, out=854, cached=768)
+    concepts-plan. 1.5s (in=2691, out=145)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-39_2025-06-05 — no concept pages generated. See log (stderr) for details.
+  [OK] session-39_2025-06-05.md added to knowledge base.
+done.

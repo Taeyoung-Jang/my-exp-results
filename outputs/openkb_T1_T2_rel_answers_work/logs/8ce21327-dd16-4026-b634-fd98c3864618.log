@@ -1,0 +1,26 @@
+=== 2026-10-10 15:46:01 uid=8ce21327-dd16-4026-b634-fd98c3864618 ===
+Adding: session-01_2024-06-15.md
+  Compiling short doc...
+    summary..... 5.5s (in=3342, out=883, cached=800)
+    concepts-plan............ 12.3s (in=4322, out=519, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: break-even-analysis... 9.0s (in=4167, out=896, cached=784)
+    concept: cost-comparison... 10.6s (in=4152, out=856)
+    concept: hybrid-commuting... 17.0s (in=4167, out=932)
+    summary-rewrite............ 12.7s (in=4197, out=708, cached=768)
+  [OK] session-01_2024-06-15.md added to knowledge base.
+Adding: session-31_2024-12-13.md
+  Compiling short doc...
+    summary.............. 14.6s (in=2318, out=760, cached=784)
+    concepts-plan........ 8.4s (in=3194, out=744, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: guest-parking... 9.8s (in=3025, out=464, cached=768)
+    concept: towing-policy... 11.8s (in=3013, out=860)
+    entity: tow-company... 3.1s (in=3077, out=668, cached=768)
+    entity: property-manager... 8.1s (in=3060, out=767, cached=784)
+    concept: parking-permits... 27.5s (in=3026, out=857, cached=64)
+    entity: hoa... 35.6s (in=3065, out=808, cached=64)
+    summary-rewrite.. 2.9s (in=3057, out=651, cached=784)
+  [OK] session-31_2024-12-13.md added to knowledge base.
+done.

@@ -1,0 +1,52 @@
+=== 2026-10-10 15:53:18 uid=3a2f58bb-37f0-440f-8675-ce5fe19425d8 ===
+Adding: session-01_2024-05-11.md
+  Compiling short doc...
+    summary.. 2.9s (in=2020, out=627, cached=800)
+    concepts-plan.... 4.1s (in=2840, out=371, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: grounding_techniques... 3.1s (in=2686, out=628, cached=784)
+    concept: anchor_habits... 5.6s (in=2686, out=690, cached=784)
+    concept: emotional_stability... 19.9s (in=2685, out=630)
+    summary-rewrite........................................ 40.1s (in=2717, out=591, cached=768)
+[92m15:54:25 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-01_2024-05-11.md added to knowledge base.
+Adding: session-38_2025-01-09.md
+  Compiling short doc...
+    summary........................... 27.5s (in=2258, out=1072)
+    concepts-plan........ 8.3s (in=3533, out=428, cached=64)
+    Generating 7 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: pre_sleep_wind_down... 3.9s (in=3408, out=998, cached=784)
+    concept: morning_reset... 5.1s (in=3404, out=822, cached=784)
+    concept: emergency_snack... 17.9s (in=3404, out=603, cached=64)
+    update: anchor_habits... 16.7s (in=3855, out=1328, cached=784)
+    update: grounding_techniques... 16.6s (in=3858, out=1268, cached=3280)
+    concept: adrenaline_deescalation... 23.1s (in=3410, out=779, cached=3008)
+    update: emotional_stability... 5.8s (in=3888, out=1314, cached=784)
+    entity: nurses_station... 3.7s (in=3457, out=877, cached=768)
+    entity: pen_light... 14.3s (in=3426, out=946)
+    entity: protein_bar... 14.3s (in=3439, out=929, cached=784)
+    entity: hospital_on_call_shift... 19.5s (in=3442, out=904)
+    entity: instant_oatmeal_cup... 2.5s (in=3441, out=396)
+    entity: stethoscope... 19.4s (in=3440, out=1049, cached=64)
+Entity generation failed: LLM returned empty content for concept 'instant_oatmeal_cup'
+    [WARN] 6 entity(ies) planned but only 5 written for session-38_2025-01-09 (ValueError).
+    summary-rewrite................. 17.4s (in=3433, out=1311, cached=768)
+  [OK] session-38_2025-01-09.md added to knowledge base.
+done.

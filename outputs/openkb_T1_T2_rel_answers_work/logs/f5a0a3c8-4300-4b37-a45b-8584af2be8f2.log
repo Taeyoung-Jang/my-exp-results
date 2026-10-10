@@ -1,0 +1,22 @@
+=== 2026-10-10 14:36:47 uid=f5a0a3c8-4300-4b37-a45b-8584af2be8f2 ===
+Adding: session-03_2023-06-15.md
+  Compiling short doc...
+    summary...... 6.6s (in=2234, out=818, cached=784)
+    concepts-plan....... 7.2s (in=3210, out=477)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: organizing_mindsets... 3.4s (in=3104, out=639)
+    concept: default_reset... 9.1s (in=3067, out=1226, cached=784)
+    concept: decision_fatigue... 14.3s (in=3068, out=539, cached=64)
+    summary-rewrite............. 13.1s (in=3095, out=741, cached=768)
+  [OK] session-03_2023-06-15.md added to knowledge base.
+Adding: session-40_2025-06-15.md
+  Compiling short doc...
+    summary.... 4.5s (in=1938, out=849, cached=800)
+    concepts-plan..... 5.2s (in=2979, out=579, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: spacing_rules... 6.1s (in=2804, out=666, cached=2480)
+    concept: gallery_wall_design... 7.1s (in=2802, out=765, cached=2672)
+    concept: color_palette... 7.7s (in=2802, out=870, cached=784)
+    summary-rewrite...... 6.5s (in=2833, out=784, cached=2672)
+  [OK] session-40_2025-06-15.md added to knowledge base.
+done.

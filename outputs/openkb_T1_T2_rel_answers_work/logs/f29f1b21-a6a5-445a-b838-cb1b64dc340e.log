@@ -1,0 +1,39 @@
+=== 2026-10-10 15:43:17 uid=f29f1b21-a6a5-445a-b838-cb1b64dc340e ===
+Adding: session-13_2023-06-15.md
+  Compiling short doc...
+    summary........ 8.4s (in=1780, out=905, cached=784)
+    concepts-plan...... 6.4s (in=2755, out=421, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: wearable-tech-drawbacks... 3.6s (in=2611, out=849, cached=800)
+    concept: face-worn-device-use-cases... 8.3s (in=2600, out=783)
+    concept: social-privacy-acceptance... 14.5s (in=2613, out=672)
+    summary-rewrite........... 11.9s (in=2638, out=1064, cached=784)
+  [OK] session-13_2023-06-15.md added to knowledge base.
+Adding: session-34_2024-06-15.md
+  Compiling short doc...
+    summary................. 17.2s (in=2324, out=1028, cached=784)
+    concepts-plan........ 8.2s (in=3510, out=574, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: bare_bones_budget... 16.5s (in=3335, out=1036, cached=2320)
+    concept: bankruptcy_trustee_red_flags... 17.3s (in=3335, out=862, cached=784)
+    concept: financial_fresh_start... 32.4s (in=3334, out=1074, cached=784)
+    summary-rewrite.................... 20.3s (in=3365, out=899, cached=64)
+[92m15:45:16 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-34_2024-06-15.md added to knowledge base.
+done.

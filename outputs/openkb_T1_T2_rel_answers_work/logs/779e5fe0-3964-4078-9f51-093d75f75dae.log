@@ -1,0 +1,36 @@
+=== 2026-10-10 15:30:43 uid=779e5fe0-3964-4078-9f51-093d75f75dae ===
+Adding: session-03_2024-06-15.md
+  Compiling short doc...
+    summary....... 7.6s (in=2295, out=1064, cached=64)
+    concepts-plan........... 11.6s (in=3476, out=616, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: duplication_strategy... 4.7s (in=3319, out=752, cached=784)
+    concept: essential_kit... 10.9s (in=3318, out=813, cached=3024)
+    concept: anchor_routines... 15.8s (in=3319, out=661, cached=768)
+    summary-rewrite.......... 10.6s (in=3337, out=985)
+  [OK] session-03_2024-06-15.md added to knowledge base.
+Adding: session-32_2024-11-15.md
+  Compiling short doc...
+    summary.... 4.7s (in=6265, out=1580, cached=768)
+    concepts-plan.............................. 30.1s (in=8071, out=1599, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 13 entity(ies) (concurrency=4)...
+    entity: cambridge... 4.4s (in=8049, out=718, cached=768)
+    concept: low_impact_travel... 11.8s (in=7998, out=1343, cached=64)
+    entity: somerville... 12.4s (in=8020, out=878)
+    concept: ultra_low_walking... 18.5s (in=7998, out=1058, cached=768)
+    concept: rainy_day_planning... 20.1s (in=7998, out=687, cached=64)
+    entity: concord... 8.8s (in=8032, out=516, cached=768)
+    entity: lexington... 9.8s (in=8019, out=964)
+    entity: peabody_essex_museum... 7.5s (in=8034, out=877, cached=784)
+    entity: beauport_hotel... 3.7s (in=8049, out=745, cached=7872)
+    entity: decordova_museum... 6.5s (in=8032, out=1384, cached=66)
+    entity: whitney_hotel... 4.2s (in=8028, out=1139, cached=6256)
+    entity: harvard_art_museums... 20.7s (in=8032, out=1059, cached=64)
+    entity: arnold_arboretum... 22.3s (in=8033, out=1003, cached=784)
+    entity: flour_cafe... 8.2s (in=8031, out=441, cached=7872)
+    entity: porter_square_books... 11.6s (in=8019, out=915)
+    entity: tatte... 19.7s (in=8034, out=1068, cached=7872)
+    summary-rewrite....................... 23.9s (in=8025, out=1740, cached=64)
+  [OK] session-32_2024-11-15.md added to knowledge base.
+done.

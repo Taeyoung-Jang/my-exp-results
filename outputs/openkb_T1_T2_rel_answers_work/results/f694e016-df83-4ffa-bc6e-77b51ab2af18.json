@@ -1,0 +1,32 @@
+{
+  "uid": "f694e016-df83-4ffa-bc6e-77b51ab2af18",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    0,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the 2023‑06‑15 conversation the user says, “I usually keep the traditional woven baskets from Ghana on the top shelf so they don't get crushed by heavier items,” and the assistant confirms that this is the appropriate placement【sources/session-01_2023-06-15.md】. No later session indicates a change, so the user is still keeping the Ghanaian woven baskets on the top shelf.",
+    "dim2_response": "**How to organize the top shelf for your Ghanaian woven baskets**\n\n| Step | What to do | Why it helps | Wiki source |\n|------|------------|--------------|-------------|\n| 1️⃣ Create a **buffer zone** | Leave a 1–2 in gap around each basket and keep the surrounding area empty. | Prevents the baskets from being pressed or bent by nearby objects. | [[concepts/buffer_zone]] |\n| 2️⃣ Use **clear or semi‑transparent bins** (or shallow trays) | Place each basket in its own bin, keeping the basket upright and visible. | Keeps the shelf tidy, makes it easy to spot each basket, and adds a physical barrier. | [[summaries/session-01_2023-06-15]] |\n| 3️⃣ Add a **soft liner** on the shelf surface | Lay a thin fabric/felt pad, a piece of acid‑free cotton tissue, or a sheet of foam. | Provides cushioning, absorbs minor impacts, and adds a breathable layer that won’t trap moisture. | [[concepts/buffer_zone]] |\n| 4️⃣ Separate baskets with **soft padding** inside the bins | Wrap each basket in a layer of cotton or muslin, or line the bin with a thin sheet of foam. | Gives the basket its own “cushion” and protects delicate weaves from rubbing against each other. | [[concepts/buffer_zone]] |\n| 5️⃣ Control **humidity & light** | • Keep the room at ~45–55 % RH.<br>• Add silica‑gel packets in the bins (replace regularly).<br>• Use soft upward‑facing LED strip lighting on the front lip of the shelf (instead of harsh overhead light). | Stable humidity stops the fibers from drying out or becoming mold‑prone; gentle LED light improves visibility without UV damage. | [[summaries/session-01_2023-06-15]] |\n| 6️⃣ Label **clearly** | Attach a small label (or QR tag) to each bin with the basket’s name, size, or use‑date. | Quick identification encourages you to rotate items and avoids “forgotten zone” buildup. | [[summaries/session-01_2023-06-15]] |\n| 7️⃣ Rotate **periodically** (every 3–6 months) | Take the baskets down, gently dust them, and reposition them on the shelf. | Prevents long‑term compression in one spot and lets you inspect condition. | [[summaries/session-01_2023-06-15]] |\n\n**Putting it together – a quick visual layout**\n\n```\n┌───────────────────────────────────────┐\n│ Top Shelf (fragile zone)               │\n│ ┌─────┐   ┌─────┐   ┌─────┐   ┌─────┐   │\n│ │Bin 1│   │Bin 2│   │Bin 3│   │Bin 4│   │  ← each bin contains one basket,\n│ │(clear)│ │(clear)│ │(clear)│ │(clear)│ │  a thin fabric liner on the shelf,\n│ └─────┘   └─────┘   └─────┘   └─────┘   │  plus a cotton/foam wrap inside.\n│   ↑       ↑       ↑       ↑           │\n│   1‑2 in gap between bins (buffer zone)│\n└───────────────────────────────────────┘\n```\n\n**Bottom line:**  \n- Keep the baskets on the **top shelf** (the “fragile” tier).  \n- **Buffer zone** → 1–2 in gaps, clear bins, soft fabric/foam liners.  \n- Protect from **humidity and UV** with silica gel and soft LED lighting.  \n- **Label** and rotate every few months to maintain condition.\n\nFollow these steps and the woven baskets should stay in perfect shape for the long term.",
+    "dim3_response": "Keeping a few decorative pieces that are important to you can still fit into a downsizing schedule, but it works best when you apply the **sentimental‑decluttering** framework from your 16‑week plan.\n\n**How to decide if you should hold onto them**\n\n1. **Set a physical limit** – Choose a small container (a tote, box, or shelf section) and treat it as your “keep limit.” When the container is full, stop adding items. This prevents the decorative pieces from expanding unchecked. 【sentimental_decluttering】  \n2. **Ask two quick questions for each piece**  \n   - *Will it serve a purpose in my life in Tokyo (or wherever you’ll be living)?*  \n   - *Could a photo capture its memory just as well?*  \n   If the answer to either is “yes,” you can let the item go; if both are “no,” keep it. 【sentimental_decluttering】  \n3. **Document the decision** – Photograph items you release and record each piece in the **tracking template** with a status of **keep**, **donate**, or **trash**. This keeps the plan transparent and avoids re‑examining the same pieces later. 【sentimental_decluttering】  \n4. **Use buffer or catch‑up weeks** – If the sentimental week runs long, schedule a buffer week (or use a planned “catch‑up week”) so the rest of the downsizing timeline stays on track. 【concepts/buffer_zone】【concepts/catch_up_weeks】  \n\n**Why it still makes sense**\n\n- **Emotional well‑being**: A dedicated “sentimental week” (Week 13) lets you process meaningful items without feeling rushed, reducing the risk of emotional overload later.  \n- **Space management**: The keep‑limit and tracking sheet keep the overall footprint small, so you’re not keeping items that will later become a burden during the move.  \n- **Future flexibility**: Items you decide to keep can be placed directly on your “packing list” so they’re out of the way and won’t be re‑examined.  \n\n**Bottom line** – Yes, you can plan to hold onto a few decorative pieces, but do it within the sentimental‑decluttering process: set a clear physical limit, evaluate each item with the two quick questions, log the decision, and use any needed buffer weeks to stay on schedule. This keeps the items you truly value while ensuring they don’t derail the broader downsizing timeline."
+  },
+  "build_seconds": 80.2,
+  "total_seconds": 117.0,
+  "usage": {
+    "compile": {
+      "calls": 22,
+      "prompt_tokens": 105322,
+      "completion_tokens": 18783,
+      "cost_usd": 0.013827308
+    },
+    "query": {
+      "calls": 12,
+      "prompt_tokens": 29913,
+      "completion_tokens": 3319,
+      "cost_usd": 0.0014963290000000002
+    }
+  }
+}

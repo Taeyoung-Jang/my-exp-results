@@ -1,0 +1,35 @@
+=== 2026-10-10 14:44:40 uid=e51c1d33-ce6d-4168-9d82-bfc846ba88cd ===
+Adding: session-11_2024-06-15.md
+  Compiling short doc...
+    summary................... 19.1s (in=2995, out=1234)
+    concepts-plan..... 5.2s (in=4306, out=690, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: time-block-scheduling... 3.4s (in=4161, out=426)
+    concept: grammar-first-approach... 4.2s (in=4161, out=561)
+    entity: youtube... 3.9s (in=4195, out=940, cached=784)
+    entity: spanish... 9.8s (in=4184, out=646)
+    concept: topic-cycling... 19.9s (in=4160, out=754, cached=768)
+Concept generation failed: LLM returned empty content for concept 'grammar-first-approach'
+Concept generation failed: LLM returned empty content for concept 'time-block-scheduling'
+    [WARN] 3 concept(s) planned but only 1 written for session-11_2024-06-15 (ValueError).
+    summary-rewrite................. 17.1s (in=4189, out=891, cached=768)
+  [OK] session-11_2024-06-15.md added to knowledge base.
+Adding: session-38_2024-12-13.md
+  Compiling short doc...
+    summary.................. 18.4s (in=3657, out=718, cached=64)
+    concepts-plan...... 6.4s (in=4798, out=1056, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: learning-log-template... 4.8s (in=4647, out=777, cached=784)
+    entity: open-meteo... 6.0s (in=4683, out=639, cached=784)
+    entity: requests... 3.4s (in=4680, out=649, cached=66)
+    entity: json-format... 6.6s (in=4680, out=766, cached=784)
+    concept: api-project-workflow... 21.8s (in=4647, out=1036, cached=784)
+    entity: pokeapi... 20.2s (in=4682, out=1223)
+    concept: weekly-study-plan... 26.0s (in=4647, out=1098, cached=64)
+    entity: csv-format... 16.4s (in=4667, out=911)
+    entity: python... 11.4s (in=4680, out=380, cached=3648)
+    summary-rewrite............ 13.0s (in=4665, out=976)
+  [OK] session-38_2024-12-13.md added to knowledge base.
+done.

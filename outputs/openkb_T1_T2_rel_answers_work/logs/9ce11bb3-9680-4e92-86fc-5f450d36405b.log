@@ -1,0 +1,22 @@
+=== 2026-10-10 14:43:18 uid=9ce11bb3-9680-4e92-86fc-5f450d36405b ===
+Adding: session-12_2024-06-13.md
+  Compiling short doc...
+    summary..... 5.1s (in=5362, out=805, cached=784)
+    concepts-plan.......... 10.6s (in=6289, out=454)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: pack-weight-guidelines... 4.2s (in=6134, out=1051, cached=784)
+    concept: progressive-overload... 5.6s (in=6151, out=1065, cached=768)
+    concept: achilles-prehab... 19.6s (in=6135, out=628, cached=64)
+    summary-rewrite... 3.0s (in=6165, out=756, cached=6000)
+  [OK] session-12_2024-06-13.md added to knowledge base.
+Adding: session-38_2025-03-12.md
+  Compiling short doc...
+    summary................. 17.2s (in=4160, out=561, cached=64)
+    concepts-plan.. 2.9s (in=5196, out=558)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: time-blocking-for-health... 10.2s (in=4990, out=1096, cached=784)
+    concept: real-break-definition... 17.5s (in=4988, out=593, cached=64)
+    concept: energy-conserving-routines... 20.2s (in=4991, out=712, cached=768)
+    summary-rewrite............. 13.1s (in=5016, out=784, cached=768)
+  [OK] session-38_2025-03-12.md added to knowledge base.
+done.

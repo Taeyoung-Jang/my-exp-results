@@ -1,0 +1,39 @@
+=== 2026-10-10 15:27:01 uid=28a79760-46a6-4a4d-8942-156c9559309f ===
+Adding: session-04_2024-06-02.md
+  Compiling short doc...
+    summary................. 17.9s (in=2377, out=707, cached=64)
+    concepts-plan..................... 21.8s (in=3456, out=1247, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    concept: maintenance_schedule... 0.5s (in=3361, out=2, cached=768)
+    entity: reliance... 3.4s (in=3393, out=649, cached=784)
+    entity: black-diamond... 3.5s (in=3393, out=750, cached=3232)
+    concept: emergency_preparedness_basics... 7.0s (in=3347, out=1157)
+    entity: smartwater... 8.2s (in=3393, out=637, cached=784)
+    entity: goal-zero... 3.6s (in=3392, out=313)
+    entity: anker... 2.8s (in=3392, out=333)
+    entity: mymedic... 2.6s (in=3392, out=302)
+    entity: adventure-medical... 1.8s (in=3392, out=257)
+    concept: space_efficient_kit_design... 14.0s (in=3362, out=964)
+    entity: petzl... 7.4s (in=3393, out=384, cached=64)
+    entity: olight... 7.7s (in=3393, out=698, cached=784)
+Concept generation failed: LLM returned empty content for concept 'maintenance_schedule'
+    [WARN] 3 concept(s) planned but only 2 written for session-04_2024-06-02 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'goal-zero'
+Entity generation failed: LLM returned empty content for concept 'anker'
+Entity generation failed: LLM returned empty content for concept 'mymedic'
+Entity generation failed: LLM returned empty content for concept 'adventure-medical'
+    [WARN] 9 entity(ies) planned but only 5 written for session-04_2024-06-02 (ValueError).
+    summary-rewrite....................... 23.4s (in=3390, out=1091, cached=784)
+  [OK] session-04_2024-06-02.md added to knowledge base.
+Adding: session-34_2025-06-02.md
+  Compiling short doc...
+    summary..... 5.5s (in=3286, out=914, cached=64)
+    concepts-plan............ 12.2s (in=4502, out=992)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: workday_morning_sequence... 4.5s (in=4249, out=969, cached=68)
+    concept: anchor_habits... 14.6s (in=4236, out=1052)
+    concept: minimal_checklist... 17.9s (in=4248, out=682, cached=64)
+    summary-rewrite..................... 21.1s (in=4280, out=991, cached=64)
+  [OK] session-34_2025-06-02.md added to knowledge base.
+done.

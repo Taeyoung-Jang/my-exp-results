@@ -1,0 +1,65 @@
+=== 2026-10-10 15:34:13 uid=3f1e9264-db8e-4945-bfaf-02715463cdda ===
+Adding: session-01_2024-06-15.md
+  Compiling short doc...
+    summary.... 4.9s (in=3729, out=765, cached=784)
+    concepts-plan.................... 20.3s (in=4632, out=1472)
+    Generating 6 concept(s) (concurrency=4)...
+    Generating 14 entity(ies) (concurrency=4)...
+    concept: packing_checklist... 4.1s (in=4620, out=481)
+    concept: budget_itinerary... 4.8s (in=4619, out=1288, cached=64)
+    concept: romantic_note_writing... 5.1s (in=4639, out=1113, cached=768)
+    concept: weekend_trip_planning... 9.7s (in=4622, out=660, cached=768)
+    entity: greensboro... 4.0s (in=4655, out=909, cached=69)
+    entity: jordan-lake... 4.0s (in=4673, out=942, cached=4480)
+    concept: surprise_logistics... 19.8s (in=4621, out=829, cached=768)
+    concept: local_destination_curating... 17.5s (in=4610, out=1245)
+    entity: pittsboro... 16.2s (in=4656, out=803)
+    entity: raleigh-durham-area... 4.4s (in=4659, out=254, cached=768)
+    entity: chapel-hill... 9.9s (in=4643, out=770)
+    entity: winston-salem... 15.7s (in=4658, out=910)
+    entity: scuppernong-books... 13.2s (in=4658, out=638)
+    entity: greensboro-farmers-curb-market... 5.6s (in=4659, out=338, cached=4480)
+    entity: bookmarks... 17.9s (in=4656, out=887)
+    entity: greensboro-arboretum... 8.7s (in=4658, out=817, cached=784)
+    entity: liquidambar-gallery... 3.7s (in=4656, out=754, cached=68)
+    entity: epilogue-books... 25.9s (in=4658, out=1003, cached=784)
+    entity: reynolda-gardens... 11.8s (in=4644, out=760)
+    entity: joyful-jewel... 16.6s (in=4657, out=1140)
+Concept generation failed: LLM returned empty content for concept 'packing_checklist'
+    [WARN] 6 concept(s) planned but only 5 written for session-01_2024-06-15 (ValueError).
+    summary-rewrite......=== 2026-10-10 15:35:54 uid=3f1e9264-db8e-4945-bfaf-02715463cdda ===
+Adding: session-01_2024-06-15.md
+  Compiling short doc...
+    summary.... 4.9s (in=3728, out=613)
+    concepts-plan..... 5.7s (in=4431, out=826, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 11 entity(ies) (concurrency=4)...
+    concept: surprise_logistics... 3.7s (in=4378, out=846, cached=3744)
+    entity: greensboro... 6.1s (in=4395, out=986, cached=784)
+    entity: pittsboro... 5.1s (in=4396, out=1224, cached=69)
+    concept: budget_planning... 9.0s (in=4361, out=646, cached=3712)
+    concept: itinerary_design... 9.9s (in=4359, out=725, cached=768)
+    entity: chapel_hill... 4.1s (in=4396, out=777, cached=4224)
+    entity: rdu_area... 3.7s (in=4399, out=485)
+    entity: jordan_lake... 5.6s (in=4410, out=859, cached=4224)
+    entity: bookmarks_bookstore... 4.6s (in=4395, out=341, cached=4224)
+    entity: scuppernong_books... 9.2s (in=4395, out=1433, cached=784)
+    entity: winston_salem... 10.8s (in=4398, out=466, cached=768)
+    entity: greensboro_arboretum... 4.6s (in=4395, out=349, cached=4224)
+    entity: greensboro_farmers_curb_market... 7.9s (in=4396, out=354, cached=3712)
+    entity: epilogue_books... 16.1s (in=4395, out=795, cached=784)
+Entity generation failed: LLM returned empty content for concept 'rdu_area'
+    [WARN] 11 entity(ies) planned but only 10 written for session-01_2024-06-15 (ValueError).
+    summary-rewrite................... 19.6s (in=4390, out=888, cached=64)
+  [OK] session-01_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-02-15.md
+  Compiling short doc...
+    summary........ 8.4s (in=1935, out=1413)
+    concepts-plan..... 5.0s (in=3386, out=468, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: outfit_formula... 8.8s (in=3012, out=843)
+    concept: warm_outer_layer... 10.8s (in=3000, out=817)
+    concept: waist_definition... 11.6s (in=3012, out=869, cached=784)
+    summary-rewrite.... 4.2s (in=3048, out=811, cached=768)
+  [OK] session-39_2025-02-15.md added to knowledge base.
+done.

@@ -1,0 +1,21 @@
+=== 2026-10-10 14:34:18 uid=7a7621e2-5c9f-4657-b6c5-6691cf7291ad ===
+Adding: session-11_2024-07-15.md
+  Compiling short doc...
+    summary............ 12.3s (in=1825, out=470, cached=768)
+    concepts-plan 0.5s (in=2684, out=2, cached=1824)
+  [OK] session-11_2024-07-15.md added to knowledge base.
+Adding: session-31_2025-04-13.md
+  Compiling short doc...
+    summary..... 5.4s (in=1669, out=936, cached=784)
+    concepts-plan..... 5.3s (in=2749, out=704, cached=1664)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: winter-outerwear-storage... 7.6s (in=2632, out=758, cached=2496)
+    entity: winter-coat... 7.9s (in=2665, out=795, cached=2288)
+    concept: closet-decluttering... 9.3s (in=2631, out=919, cached=2496)
+    concept: coat-selection-strategy... 10.7s (in=2631, out=1052, cached=1664)
+    entity: down-parka... 7.9s (in=2666, out=716, cached=2496)
+    entity: garment-bag... 16.6s (in=2666, out=1572, cached=2496)
+    summary-rewrite.......... 11.0s (in=2662, out=1009, cached=2496)
+  [OK] session-31_2025-04-13.md added to knowledge base.
+done.

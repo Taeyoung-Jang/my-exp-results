@@ -1,0 +1,30 @@
+=== 2026-10-10 14:46:45 uid=1bc72d82-3990-474f-aae8-9aeaa0537cd3 ===
+Adding: session-10_2024-08-14.md
+  Compiling short doc...
+    summary......... 9.6s (in=2184, out=649, cached=784)
+    concepts-plan....... 7.9s (in=3034, out=673, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: common_blueprint_mistakes... 3.4s (in=2925, out=700)
+    concept: creative_rhythm... 7.5s (in=2887, out=862, cached=784)
+    concept: quality_assurance... 10.1s (in=2887, out=767)
+    entity: daily-blueprint-workflow... 25.4s (in=2923, out=849, cached=784)
+    summary-rewrite.... 4.6s (in=2919, out=586)
+  [OK] session-10_2024-08-14.md added to knowledge base.
+Adding: session-39_2025-04-14.md
+  Compiling short doc...
+    summary....... 7.5s (in=2166, out=891, cached=768)
+    concepts-plan. 1.7s (in=3498, out=147, cached=2144)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: follow-up-cadence... 4.4s (in=3352, out=890, cached=800)
+    entity: daily-job-search-schedule-template... 0.4s (in=3370, out=2, cached=2144)
+    concept: cover-letter-checklist... 10.1s (in=3333, out=1377, cached=784)
+    concept: daily-job-search-schedule... 11.2s (in=3321, out=879)
+    entity: cover-letter-template... 6.8s (in=3368, out=711, cached=64)
+    concept: application-tracking-spreadsheet... 35.7s (in=3333, out=1196, cached=784)
+Entity generation failed: LLM returned empty content for concept 'daily-job-search-schedule-template'
+    [WARN] 2 entity(ies) planned but only 1 written for session-39_2025-04-14 (ValueError).
+    summary-rewrite.......... 10.5s (in=3364, out=1176, cached=784)
+  [OK] session-39_2025-04-14.md added to knowledge base.
+done.

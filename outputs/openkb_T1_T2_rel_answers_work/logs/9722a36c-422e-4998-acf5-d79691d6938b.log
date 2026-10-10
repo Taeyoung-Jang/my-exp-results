@@ -1,0 +1,24 @@
+=== 2026-10-10 15:27:01 uid=9722a36c-422e-4998-acf5-d79691d6938b ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary...................... 22.6s (in=2130, out=628, cached=64)
+    concepts-plan....... 7.6s (in=3138, out=466)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: clutter-management... 2.3s (in=2994, out=444)
+    concept: ergonomics... 8.5s (in=2995, out=334, cached=64)
+    concept: workspace-boundary-cues... 9.3s (in=2996, out=558, cached=768)
+Concept generation failed: LLM returned empty content for concept 'clutter-management'
+    [WARN] 3 concept(s) planned but only 2 written for session-06_2024-06-15 (ValueError).
+    summary-rewrite.............. 14.4s (in=3026, out=738, cached=64)
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-40_2025-02-13.md
+  Compiling short doc...
+    summary................... 19.9s (in=3459, out=842, cached=64)
+    concepts-plan..... 5.6s (in=4714, out=480, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: move-timeline-planning... 3.9s (in=4572, out=918, cached=768)
+    concept: food-use-up-plan... 26.2s (in=4557, out=996, cached=3456)
+    concept: packing-checklist-strategy... 29.0s (in=4555, out=2214, cached=784)
+    summary-rewrite...................................................................... 70.5s (in=4586, out=1034)
+  [OK] session-40_2025-02-13.md added to knowledge base.
+done.

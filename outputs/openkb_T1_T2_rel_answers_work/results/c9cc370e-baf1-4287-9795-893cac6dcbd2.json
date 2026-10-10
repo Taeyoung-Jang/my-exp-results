@@ -1,0 +1,32 @@
+{
+  "uid": "c9cc370e-baf1-4287-9795-893cac6dcbd2",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    2,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the material that’s been indexed from the past conversations, there’s no reference to a hard, physically demanding end‑of‑month deadline that the user is still expected to meet. The most recent sessions discuss reorganizing household items while using a walking boot (session 36) and rescheduling a meetup because of a home‑renovation deadline tied to weather (session 03), but neither mentions an end‑of‑month deadline that the user must personally keep up with. Therefore, the knowledge base does not indicate that such a deadline remains in place.",
+    "dim2_response": "I’m sorry — the knowledge base you provided contains only guidance on home‑item organization and drafting polite rescheduling messages. It does not include any information about a home‑renovation schedule or step‑by‑step planning for completing renovation work before the weather changes. Consequently, I don’t have enough relevant content to create a day‑by‑day plan for that task.",
+    "dim3_response": "I’m sorry, but the knowledge base you provided does not contain any information about outdoor‑work safety, height‑related risks, or considerations for working on rough surfaces. Without relevant content to draw from, I can’t give a well‑grounded answer to whether you should commit to that project. If you have any documents or notes on safety guidelines, risk assessments, or personal health factors, feel free to share them and I’ll be happy to help you evaluate the decision."
+  },
+  "build_seconds": 86.5,
+  "total_seconds": 99.1,
+  "usage": {
+    "compile": {
+      "calls": 19,
+      "prompt_tokens": 65298,
+      "completion_tokens": 17230,
+      "cost_usd": 0.013010438
+    },
+    "query": {
+      "calls": 8,
+      "prompt_tokens": 16389,
+      "completion_tokens": 1255,
+      "cost_usd": 0.000721063
+    }
+  }
+}

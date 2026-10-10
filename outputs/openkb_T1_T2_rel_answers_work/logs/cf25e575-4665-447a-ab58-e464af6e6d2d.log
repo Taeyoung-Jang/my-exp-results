@@ -1,0 +1,35 @@
+=== 2026-10-10 15:34:24 uid=cf25e575-4665-447a-ab58-e464af6e6d2d ===
+Adding: session-06_2024-07-15.md
+  Compiling short doc...
+    summary............................ 28.1s (in=2470, out=1225, cached=64)
+    concepts-plan.. 3.0s (in=3740, out=150, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: relationship-seriousness... 6.8s (in=3587, out=373, cached=3264)
+    concept: checkpoint-questions... 11.2s (in=3590, out=649, cached=768)
+    concept: alignment-vs-red-flags... 30.3s (in=3591, out=1111, cached=784)
+    summary-rewrite........... 11.2s (in=3605, out=1080)
+  [OK] session-06_2024-07-15.md added to knowledge base.
+Adding: session-33_2025-04-13.md
+  Compiling short doc...
+    summary.........=== 2026-10-10 15:35:54 uid=cf25e575-4665-447a-ab58-e464af6e6d2d ===
+Adding: session-06_2024-07-15.md
+  Compiling short doc...
+    summary................. 17.7s (in=2457, out=1287)
+    concepts-plan.. 2.7s (in=3839, out=409, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: relationship-seriousness... 3.3s (in=3683, out=523, cached=3376)
+    concept: relationship-alignment... 4.5s (in=3682, out=753, cached=784)
+    concept: relationship-checkpoints... 5.2s (in=3683, out=930, cached=3552)
+    summary-rewrite...... 6.3s (in=3714, out=1282, cached=3552)
+  [OK] session-06_2024-07-15.md added to knowledge base.
+Adding: session-33_2025-04-13.md
+  Compiling short doc...
+    summary........ 8.6s (in=2525, out=1088, cached=784)
+    concepts-plan... 3.8s (in=3779, out=728, cached=68)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: handoff_routine... 5.5s (in=3604, out=849, cached=784)
+    concept: predictable_routines... 5.7s (in=3605, out=798, cached=784)
+    concept: low_drama_transitions... 12.9s (in=3606, out=664, cached=64)
+    summary-rewrite......... 9.8s (in=3622, out=992)
+  [OK] session-33_2025-04-13.md added to knowledge base.
+done.

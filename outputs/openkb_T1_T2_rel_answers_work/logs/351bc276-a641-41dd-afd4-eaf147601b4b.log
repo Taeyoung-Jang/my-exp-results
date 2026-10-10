@@ -1,0 +1,41 @@
+=== 2026-10-10 15:39:26 uid=351bc276-a641-41dd-afd4-eaf147601b4b ===
+Adding: session-05_2025-06-12.md
+  Compiling short doc...
+    summary........... 11.2s (in=2348, out=848, cached=784)
+    concepts-plan..... 5.7s (in=3478, out=392, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: rest-protection... 8.7s (in=3305, out=754)
+    concept: buffer-zones... 10.3s (in=3318, out=499, cached=768)
+    concept: time-blocking... 18.3s (in=3318, out=1154)
+    summary-rewrite.......... 10.1s (in=3337, out=865)
+  [OK] session-05_2025-06-12.md added to knowledge base.
+Adding: session-33_2025-09-12.md
+  Compiling short doc...
+    summary....... 7.4s (in=1888, out=1386)
+    concepts-plan... 3.4s (in=2903, out=633, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: boundary_setting... 7.7s (in=2706, out=786, cached=784)
+    concept: burnout_prevention... 15.6s (in=2707, out=894, cached=784)
+    concept: alternative_work_schedules... 15.9s (in=2708, out=1073, cached=784)
+    update: time-blocking... 11.3s (in=3456, out=1631, cached=784)
+    update: rest-protection... 19.8s (in=3175, out=722, cached=768)
+    summary-rewrite................................................. 49.9s (in=2738, out=778, cached=768)
+[92m15:41:32 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-33_2025-09-12.md added to knowledge base.
+done.

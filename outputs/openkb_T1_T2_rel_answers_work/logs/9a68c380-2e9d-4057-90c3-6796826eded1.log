@@ -1,0 +1,47 @@
+=== 2026-10-10 15:58:21 uid=9a68c380-2e9d-4057-90c3-6796826eded1 ===
+Adding: session-09_2024-06-15.md
+  Compiling short doc...
+    summary...... 6.6s (in=2497, out=1121)
+    concepts-plan......... 9.4s (in=3799, out=826, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: ecosystem-evaluation... 9.3s (in=3664, out=564, cached=64)
+    entity: apple... 11.5s (in=3684, out=729)
+    concept: automation-resilience... 14.6s (in=3664, out=913, cached=64)
+    entity: samsung... 3.7s (in=3714, out=721, cached=768)
+    entity: google... 9.4s (in=3697, out=670, cached=784)
+    concept: lock-in-mitigation... 21.4s (in=3666, out=1475, cached=64)
+    entity: smartthings... 10.1s (in=3685, out=678)
+    summary-rewrite................................................................................ 80.2s (in=3695, out=1134)
+[92m16:00:22 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-09_2024-06-15.md added to knowledge base.
+Adding: session-38_2024-12-16.md
+  Compiling short doc...
+    summary........................................ 40.8s (in=2188, out=1284, cached=64)
+    concepts-plan. 1.7s (in=3221, out=109, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: grab-and-go-workflow... 7.8s (in=2994, out=1095, cached=784)
+    concept: shutdown-script... 3.5s (in=2989, out=723, cached=66)
+    concept: device-agnostic-routine... 19.2s (in=2981, out=1272)
+    concept: morning-reset-template... 26.1s (in=2991, out=1067, cached=64)
+[92m16:02:25 - LiteLLM:WARNING[0m: core_helpers.py:112 - Unmapped finish_reason 'error', defaulting to 'stop'
+    concept: cloud-anchor... 80.6s (in=3346, out=678)
+    summary-rewrite... 3.5s (in=3022, out=826, cached=768)
+  [OK] session-38_2024-12-16.md added to knowledge base.
+done.

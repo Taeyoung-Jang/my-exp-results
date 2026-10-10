@@ -1,0 +1,35 @@
+=== 2026-10-10 15:31:53 uid=94f25542-0d99-4b36-9915-22ff163b3f50 ===
+Adding: session-05_2023-06-15.md
+  Compiling short doc...
+    summary....... 7.6s (in=1866, out=602)
+    concepts-plan....... 7.4s (in=2613, out=459)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: professional-tone... 3.2s (in=2477, out=375)
+    concept: email-drafting... 10.7s (in=2479, out=409, cached=768)
+    entity: electrical-workers-union... 20.0s (in=2515, out=853, cached=784)
+    concept: union-membership-verification... 31.6s (in=2479, out=693, cached=64)
+Concept generation failed: LLM returned empty content for concept 'professional-tone'
+    [WARN] 3 concept(s) planned but only 2 written for session-05_2023-06-15 (ValueError).
+    summary-rewrite....... 7.7s (in=2510, out=564)
+  [OK] session-05_2023-06-15.md added to knowledge base.
+Adding: session-35_2024-12-16.md
+  Compiling short doc...
+    summary....... 7.1s (in=3139, out=876, cached=784)
+    concepts-plan..... 5.9s (in=4190, out=952, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: social-security-administration... 3.3s (in=4089, out=345)
+    concept: name-change-process... 3.9s (in=4038, out=1290)
+    entity: department-of-motor-vehicles... 13.1s (in=4078, out=880)
+    concept: common-forgotten-accounts... 18.9s (in=4055, out=877, cached=64)
+    concept: administrative-ripple-effect... 20.9s (in=4055, out=1006, cached=64)
+    entity: transunion... 3.4s (in=4088, out=392)
+    entity: equifax... 18.8s (in=4089, out=990, cached=784)
+    entity: experian... 13.2s (in=4089, out=493, cached=768)
+Entity generation failed: LLM returned empty content for concept 'social-security-administration'
+Entity generation failed: LLM returned empty content for concept 'transunion'
+    [WARN] 5 entity(ies) planned but only 3 written for session-35_2024-12-16 (ValueError).
+    summary-rewrite...... 6.8s (in=4086, out=1129, cached=784)
+  [OK] session-35_2024-12-16.md added to knowledge base.
+done.

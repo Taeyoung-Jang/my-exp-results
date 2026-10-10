@@ -1,0 +1,19 @@
+{
+  "uid": "627d6d92-38a3-4795-a055-e760692e6419",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    13,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "I’m sorry, but the knowledge base doesn’t contain any information about whether you still know most of your neighbors by name. No session or document in the wiki mentions your personal level of familiarity with neighbors, so I can’t answer that question from the available content.",
+    "dim2_response": "I’m sorry, but the wiki does not contain any information on drafting a personalized invitation message for neighbors. Therefore I’m unable to provide a suitable draft based on the available knowledge base.",
+    "dim3_response": "Setting up a small outdoor bistro table right by your front door can be a **comfortable and natural** daily routine—as long as you treat the spot as a shared‑outdoor space and use low‑pressure, neighborly interaction.\n\n**Why it works**\n\n- **Warm, brief greetings** – A simple “good morning” or comment about the weather signals friendliness without demanding a conversation. [[concepts/shared-outdoor-space-etiquette]]\n- **Low‑pressure communication** – Phrase any invitation as optional:  \n  *“I’m sitting out for coffee; feel free to stop by if you’d like, no pressure.”* [[concepts/low-pressure-communication]]\n- **Cue awareness** – If a passerby gives a short answer or keeps moving, respond with a smile or wave rather than lingering. [[concepts/neighborly-rapport]]\n- **Respect the space** – Keep noise low, tidy up any dishes or trash, and leave the area pleasant for everyone. [[concepts/shared-outdoor-space-etiquette]]\n\n**Tips for a smooth routine**\n\n1. **Make the table inviting but not imposing** – Keep a small coffee pot, a newspaper, and perhaps a chair for a quick sit‑down.  \n2. **Use “drop‑in” language** – When you see a neighbor, say something like, “I’m out here having coffee; feel free to join for a minute if you’re around.”  \n3. **Read body language** – If someone seems in a hurry, a brief nod or wave is enough; if they linger, you can chat a bit longer.  \n4. **Maintain cleanliness** – Clear cups, recycle paper, and keep the area tidy so it stays welcoming for all.  \n\nBy following the principles of **neighborly rapport** and **shared outdoor space etiquette**, a daily coffee‑at‑the‑door routine can become a pleasant, low‑stress habit that also helps you connect casually with neighbors passing by."
+  },
+  "build_seconds": 61.9,
+  "total_seconds": 83.5,
+  "usage": {}
+}

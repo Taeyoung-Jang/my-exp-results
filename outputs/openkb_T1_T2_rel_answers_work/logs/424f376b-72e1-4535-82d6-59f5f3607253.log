@@ -1,0 +1,28 @@
+=== 2026-10-10 15:41:12 uid=424f376b-72e1-4535-82d6-59f5f3607253 ===
+Adding: session-05_2024-06-15.md
+  Compiling short doc...
+    summary.... 5.0s (in=1905, out=892, cached=768)
+    concepts-plan.. 2.8s (in=2861, out=519, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: backup-plan-threshold... 2.8s (in=2707, out=652, cached=784)
+    concept: commute-options... 6.9s (in=2707, out=752, cached=784)
+    concept: morning-chaos-reduction... 7.7s (in=2707, out=811, cached=784)
+    summary-rewrite....... 7.2s (in=2738, out=799, cached=2576)
+  [OK] session-05_2024-06-15.md added to knowledge base.
+Adding: session-32_2024-12-13.md
+  Compiling short doc...
+    summary.... 4.3s (in=1662, out=1047)
+    concepts-plan.... 4.3s (in=2482, out=201, cached=768)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: parking-photo... 2.5s (in=2314, out=367)
+    update: morning-chaos-reduction... 5.3s (in=2864, out=948)
+    concept: windshield-cover-management... 10.2s (in=2316, out=476, cached=768)
+    entity: remote-start... 7.7s (in=2336, out=648)
+    concept: verbal-cue... 10.8s (in=2318, out=621, cached=784)
+Concept generation failed: LLM returned empty content for concept 'parking-photo'
+Concept generation failed: LLM returned empty content for concept 'morning-chaos-reduction'
+    [WARN] 4 concept(s) planned but only 2 written for session-32_2024-12-13 (ValueError).
+    summary-rewrite................. 17.8s (in=2346, out=750, cached=768)
+  [OK] session-32_2024-12-13.md added to knowledge base.
+done.

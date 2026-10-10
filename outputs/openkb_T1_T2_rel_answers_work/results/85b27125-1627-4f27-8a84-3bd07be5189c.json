@@ -1,0 +1,32 @@
+{
+  "uid": "85b27125-1627-4f27-8a84-3bd07be5189c",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    12,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. The most recent conversation (session 36 on 2025‑06‑15) is a “settling‑in” plan for **new residents near Highbury Fields, London**. The whole advice is geared toward someone who has just moved to that London neighbourhood, indicating the user is no longer living in Chicago.  \n\n*Source: the summary of session‑36 shows a 14‑day plan for “new residents” in Highbury Fields, London*【2†L1-L9】【2†L14-L22】.",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain information about Chicago‑specific utilities, internet providers, or nearby grocery options. Consequently I can’t provide a data‑driven recommendation for those services.",
+    "dim3_response": "**Weekly priority list for updating your address**\n\n| Day / Phase | What to update | Why it matters (wiki reference) |\n|-------------|----------------|---------------------------------|\n| **Day 1‑2** | **Government records** – driver’s licence / state ID, voter registration, tax‑agency filings | These are the *legal‑significant address* that the government uses for identity, voting and tax compliance [[concepts/legal-significant-address]]. |\n| **Day 3‑4** | **Financial institutions** – banks, credit‑card accounts, loan/ mortgage records | Banks treat the address as a core verification field; mismatches can block transactions or trigger fraud alerts. |\n| **Day 5** | **Employer / payroll** – HR portal, tax‑withholding forms | Your paycheck and the employer’s tax reports must reflect the same legal residence. |\n| **Day 6** | **Insurance providers** – health, auto, renters, pet | Policies are priced and validated on the address you file; a PO Box can cause denial of claims. |\n| **Day 7** | **USPS** – file a Change‑of‑Address or set up mail forwarding [[entities/usps]] | Guarantees that mail still reaches you while the other updates propagate. |\n| **Day 8‑9** | **Subscriptions & memberships** – magazines, streaming services, retail accounts, delivery services | These are convenience‑oriented; they can wait until the high‑risk entities are fixed. |\n| **Day 10** | **Online profiles & social apps** – LinkedIn, Facebook, neighborhood apps (e.g., Nextdoor) | City‑only fields are fine here, but keep them consistent with your actual city to avoid confusion [[concepts/address-consistency-pitfalls]]. |\n\n### Quick checklist (copy‑paste)\n\n1. **Confirm the full street address** you intend to use as your legal residence.  \n2. **Update government IDs & voter registration** (DMV/driver’s licence, state ID, tax authority).  \n3. **Change billing addresses** at every bank/credit‑card account to match the legal address.  \n4. **Notify your employer** (HR/payroll system).  \n5. **Contact insurers** (health, auto, renters, pet).  \n6. **Submit USPS change‑of‑address** or forwarding instructions.  \n7. **Swap out addresses** on subscription, delivery, and shopping accounts.  \n8. **Refresh city‑only fields** on social and community platforms (e.g., Nextdoor [[entities/nextdoor]]).  \n\n### Why this order?\n\n- **Legal risk first** – government and financial institutions can block services or create compliance issues if the address is wrong.  \n- **Financial exposure next** – banks and payroll affect your money flow.  \n- **Insurance & mail** follow to protect your assets and ensure you actually receive correspondence.  \n- **Convenience services** can be updated later; they rarely affect legal standing but are good for day‑to‑day smoothness.\n\nFollowing this sequence in a single week keeps the most critical systems in sync early, minimizes the chance of “address‑consistency pitfalls” [[concepts/address-consistency-pitfalls]], and lets the remaining, lower‑impact updates be handled without rush."
+  },
+  "build_seconds": 109.3,
+  "total_seconds": 135.5,
+  "usage": {
+    "compile": {
+      "calls": 22,
+      "prompt_tokens": 89141,
+      "completion_tokens": 18643,
+      "cost_usd": 0.009721343
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 17951,
+      "completion_tokens": 2026,
+      "cost_usd": 0.00090321
+    }
+  }
+}

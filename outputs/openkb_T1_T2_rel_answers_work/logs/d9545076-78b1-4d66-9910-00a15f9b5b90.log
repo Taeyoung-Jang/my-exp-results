@@ -1,0 +1,26 @@
+=== 2026-10-10 14:28:55 uid=d9545076-78b1-4d66-9910-00a15f9b5b90 ===
+Adding: session-09_2023-05-12.md
+  Compiling short doc...
+    summary...... 6.2s (in=2363, out=814, cached=784)
+    concepts-plan.... 4.1s (in=3253, out=533, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: hard_inquiries... 5.0s (in=3099, out=758, cached=2352)
+    concept: credit_utilization... 5.3s (in=3099, out=722, cached=784)
+    concept: auto_loan_rate_shopping... 15.0s (in=3100, out=641, cached=784)
+    summary-rewrite.......... 10.4s (in=3130, out=564, cached=2960)
+  [OK] session-09_2023-05-12.md added to knowledge base.
+Adding: session-31_2024-11-12.md
+  Compiling short doc...
+    summary............... 15.3s (in=2500, out=664, cached=768)
+    concepts-plan...... 6.9s (in=3606, out=793, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: rental_application_strengthening... 10.8s (in=3451, out=1485, cached=784)
+    entity: the_guarantors... 11.7s (in=3486, out=1030, cached=784)
+    concept: landlord_evaluation_criteria... 13.3s (in=3451, out=828, cached=784)
+    concept: guarantor_services_overview... 16.6s (in=3452, out=637, cached=2496)
+    entity: insurent... 6.2s (in=3484, out=624, cached=784)
+    entity: rhino... 10.7s (in=3483, out=910)
+    summary-rewrite......... 9.5s (in=3481, out=928, cached=784)
+  [OK] session-31_2024-11-12.md added to knowledge base.
+done.

@@ -1,0 +1,43 @@
+=== 2026-10-10 15:51:58 uid=cffcf125-fd02-4392-b10d-6b38911a1714 ===
+Adding: session-13_2024-06-15.md
+  Compiling short doc...
+    summary.............. 14.5s (in=2089, out=723, cached=784)
+    concepts-plan.......... 10.1s (in=3069, out=368, cached=768)
+    Generating 6 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: lighting-for-vision... 3.5s (in=2965, out=826, cached=784)
+    concept: blue-light-glasses... 10.1s (in=2967, out=776, cached=784)
+    concept: optometric-exam... 3.5s (in=2964, out=526)
+    concept: 20-20-20-rule... 13.6s (in=2969, out=752, cached=64)
+    entity: uv-protection-sunglasses... 4.1s (in=3019, out=702, cached=64)
+    concept: screen-ergonomics... 18.0s (in=2966, out=875, cached=784)
+    entity: humidifier... 3.2s (in=3000, out=689, cached=2832)
+    entity: artificial-tears... 11.2s (in=2999, out=831, cached=784)
+    concept: vision-symptoms... 37.8s (in=2966, out=1439, cached=64)
+Concept generation failed: LLM returned empty content for concept 'optometric-exam'
+    [WARN] 6 concept(s) planned but only 5 written for session-13_2024-06-15 (ValueError).
+    summary-rewrite............ 12.2s (in=2996, out=1116, cached=784)
+  [OK] session-13_2024-06-15.md added to knowledge base.
+Adding: session-38_2025-02-15.md
+  Compiling short doc...
+    summary.......... 10.6s (in=2405, out=811, cached=64)
+    concepts-plan............................................... 47.6s (in=3769, out=1615, cached=784)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: dry_eye_warning_signs... 11.8s (in=3587, out=762, cached=2400)
+    concept: corneal_nerve_recovery_post_refractive_surgery... 14.1s (in=3593, out=947, cached=2400)
+    entity: warm-compress-mask... 4.4s (in=3620, out=537)
+    concept: warm_compress_therapy... 18.5s (in=3586, out=1047, cached=64)
+    entity: night-gel-lubricant... 9.5s (in=3623, out=767, cached=64)
+    concept: gel_vs_ointment_nighttime_lubricants... 17.0s (in=3593, out=1259, cached=64)
+    entity: lid-cleanser... 13.6s (in=3608, out=981)
+    entity: night-ointment-lubricant... 4.4s (in=3625, out=1049, cached=784)
+    concept: meibomian_gland_dysfunction... 34.6s (in=3590, out=1307)
+    entity: refractive-surgery... 6.1s (in=3622, out=484, cached=3456)
+    entity-update: artificial-tears... 11.0s (in=3976, out=712, cached=768)
+    entity-update: humidifier... 12.7s (in=3979, out=1212, cached=784)
+Entity generation failed: LLM returned empty content for concept 'warm-compress-mask'
+    [WARN] 7 entity(ies) planned but only 6 written for session-38_2025-02-15 (ValueError).
+    summary-rewrite.................. 18.7s (in=3604, out=1467)
+  [OK] session-38_2025-02-15.md added to knowledge base.
+done.

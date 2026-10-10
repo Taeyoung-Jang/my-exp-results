@@ -1,0 +1,28 @@
+=== 2026-10-10 15:49:57 uid=14ed299f-bf3b-45b3-bf7f-8265adebbd87 ===
+Adding: session-11_2024-07-10.md
+  Compiling short doc...
+    summary.................... 20.2s (in=1890, out=544, cached=64)
+    concepts-plan.................... 20.3s (in=2665, out=589, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: communication-tone... 10.9s (in=2521, out=653, cached=784)
+    entity: craigslist... 15.1s (in=2555, out=727, cached=784)
+    concept: pre-screening-questions... 17.0s (in=2524, out=809, cached=2384)
+    concept: apartment-inquiry-templates... 23.5s (in=2522, out=864, cached=784)
+    entity: facebook-marketplace... 19.3s (in=2556, out=598, cached=64)
+    summary-rewrite.......... 11.0s (in=2540, out=689)
+  [OK] session-11_2024-07-10.md added to knowledge base.
+Adding: session-33_2025-03-11.md
+  Compiling short doc...
+    summary............. 13.3s (in=4794, out=875, cached=64)
+    concepts-plan.... 4.5s (in=6127, out=241, cached=4768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: knee-friendly-strength-conditioning... 7.1s (in=5953, out=1200, cached=784)
+    entity: charity-stair-climb-event... 9.8s (in=5976, out=679)
+    entity: downtown-tower... 4.2s (in=5985, out=804, cached=784)
+    concept: stair-climb-training-progression... 17.7s (in=5942, out=1308)
+    concept: treadmill-interval-design... 30.6s (in=5953, out=1070, cached=784)
+    summary-rewrite....... 7.0s (in=5982, out=1234, cached=5824)
+  [OK] session-33_2025-03-11.md added to knowledge base.
+done.

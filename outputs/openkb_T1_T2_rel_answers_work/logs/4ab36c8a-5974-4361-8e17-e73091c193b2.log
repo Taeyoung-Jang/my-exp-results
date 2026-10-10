@@ -1,0 +1,19 @@
+=== 2026-10-10 14:32:53 uid=4ab36c8a-5974-4361-8e17-e73091c193b2 ===
+Adding: session-13_2024-06-15.md
+  Compiling short doc...
+    summary............... 15.5s (in=2711, out=1289)
+    concepts-plan. 1.1s (in=3813, out=111)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-13_2024-06-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-13_2024-06-15.md added to knowledge base.
+Adding: session-32_2025-03-14.md
+  Compiling short doc...
+    summary........... 11.6s (in=2771, out=1027, cached=784)
+    concepts-plan... 3.8s (in=3914, out=510, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: simple_tracking... 6.5s (in=3767, out=808, cached=784)
+    concept: course_vetting... 7.1s (in=3769, out=888, cached=3632)
+    concept: micro_learning_habit... 7.1s (in=3768, out=895, cached=3456)
+    summary-rewrite...... 6.1s (in=3799, out=902, cached=3632)
+  [OK] session-32_2025-03-14.md added to knowledge base.
+done.

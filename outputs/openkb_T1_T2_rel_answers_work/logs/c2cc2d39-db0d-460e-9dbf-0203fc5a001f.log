@@ -1,0 +1,27 @@
+=== 2026-10-10 15:41:05 uid=c2cc2d39-db0d-460e-9dbf-0203fc5a001f ===
+Adding: session-03_2025-07-21.md
+  Compiling short doc...
+    summary................ 16.1s (in=2387, out=659, cached=768)
+    concepts-plan........ 8.6s (in=3432, out=330, cached=2368)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: iphone... 3.4s (in=3346, out=545, cached=784)
+    concept: blue-light-and-circadian-rhythm... 4.3s (in=3314, out=633)
+    entity: android... 10.9s (in=3332, out=903)
+    entity: windows... 10.1s (in=3333, out=798)
+    concept: wind-down-routine... 15.5s (in=3313, out=780, cached=784)
+    entity: amber-blue-light-blocking-glasses... 3.2s (in=3351, out=484)
+    concept: screen-time-and-sleep... 20.5s (in=3313, out=1037, cached=784)
+    entity: macos... 8.3s (in=3333, out=709)
+Concept generation failed: LLM returned empty content for concept 'blue-light-and-circadian-rhythm'
+    [WARN] 3 concept(s) planned but only 2 written for session-03_2025-07-21 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'amber-blue-light-blocking-glasses'
+    [WARN] 5 entity(ies) planned but only 4 written for session-03_2025-07-21 (ValueError).
+    summary-rewrite............. 13.8s (in=3343, out=932, cached=64)
+  [OK] session-03_2025-07-21.md added to knowledge base.
+Adding: session-32_2025-10-19.md
+  Compiling short doc...
+    summary........... 12.0s (in=2665, out=1141)
+    concepts-plan 0.6s (in=3997, out=2, cached=64)
+  [OK] session-32_2025-10-19.md added to knowledge base.
+done.

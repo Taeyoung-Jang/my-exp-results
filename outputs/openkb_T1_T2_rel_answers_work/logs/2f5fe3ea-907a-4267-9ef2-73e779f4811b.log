@@ -1,0 +1,52 @@
+=== 2026-10-10 15:58:16 uid=2f5fe3ea-907a-4267-9ef2-73e779f4811b ===
+Adding: session-14_2024-06-15.md
+  Compiling short doc...
+    summary........ 8.5s (in=2395, out=776, cached=64)
+    concepts-plan.... 4.8s (in=3326, out=129, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: sync-feature-prioritization... 11.0s (in=3178, out=682, cached=784)
+    concept: cross-device-syncing... 17.2s (in=3178, out=710, cached=64)
+    concept: sync-troubleshooting-flowchart... 19.7s (in=3178, out=595, cached=768)
+    summary-rewrite..................... 21.6s (in=3207, out=686, cached=768)
+[92m15:59:10 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-14_2024-06-15.md added to knowledge base.
+Adding: session-37_2025-02-15.md
+  Compiling short doc...
+    summary...... 6.6s (in=2047, out=1043)
+    concepts-plan................................ 32.6s (in=2949, out=1180)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    concept: low-maintenance-file-sync... 0.6s (in=2824, out=2, cached=768)
+    concept: self-hosted-home-hub... 8.2s (in=2823, out=656, cached=768)
+    update: cross-device-syncing... 19.5s (in=3364, out=1482)
+    concept: client-side-search... 22.8s (in=2822, out=953)
+    entity: tailscale... 3.8s (in=2856, out=981, cached=784)
+    entity: file-browser... 7.3s (in=2855, out=373, cached=768)
+    entity: wireguard... 4.6s (in=2872, out=877, cached=800)
+    entity: mdbook... 8.1s (in=2855, out=361, cached=768)
+    entity: nextcloud... 28.4s (in=2855, out=846, cached=784)
+    entity: mkdocs... 6.6s (in=2855, out=363, cached=768)
+    entity: syncthing... 38.8s (in=2856, out=1093, cached=784)
+    entity: editor-md... 11.4s (in=2842, out=790)
+    entity: stackedit... 24.7s (in=2855, out=782, cached=784)
+Concept generation failed: LLM returned empty content for concept 'low-maintenance-file-sync'
+    [WARN] 4 concept(s) planned but only 3 written for session-37_2025-02-15 (ValueError).
+    summary-rewrite................ 16.9s (in=2839, out=1063)
+  [OK] session-37_2025-02-15.md added to knowledge base.
+done.

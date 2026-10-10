@@ -1,0 +1,19 @@
+=== 2026-10-10 14:18:55 uid=34d402c0-5fa1-42b5-8554-e44c9c397a71 ===
+Adding: session-01_2025-04-15.md
+  Compiling short doc...
+    summary..... 5.1s (in=1787, out=835, cached=768)
+    concepts-plan.............. 14.9s (in=2730, out=753)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: morning_routine... 6.2s (in=2590, out=826, cached=64)
+    concept: sleep_hygiene... 8.5s (in=2589, out=557, cached=768)
+    concept: light_therapy... 12.6s (in=2588, out=721, cached=784)
+    summary-rewrite.................. 18.4s (in=2614, out=886, cached=64)
+  [OK] session-01_2025-04-15.md added to knowledge base.
+Adding: session-38_2025-10-15.md
+  Compiling short doc...
+    summary...... 6.3s (in=2309, out=901)
+    concepts-plan.. 2.4s (in=3432, out=282)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-38_2025-10-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-38_2025-10-15.md added to knowledge base.
+done.

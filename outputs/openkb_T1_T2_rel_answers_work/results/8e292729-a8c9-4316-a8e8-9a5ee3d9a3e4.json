@@ -1,0 +1,32 @@
+{
+  "uid": "8e292729-a8c9-4316-a8e8-9a5ee3d9a3e4",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    2,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. The most recent conversation (session 32 ‑ 2025‑09‑15) is a “Boston newcomer” checklist that assumes the user now lives in Boston, Massachusetts – which is in the **U.S. Eastern Time zone**. This indicates the user is no longer residing in the Pacific Time zone. 【summaries/session-32_2025-09-15.md】",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain any information about the Japanese time zone (e.g., Japan Standard Time) or its offset relative to U.S. Pacific Time. The only time‑zone data that’s available is the set of U.S. zones described in the **“Scheduling meetings across U.S. time zones”** summary (see [[summaries/session-03_2025-06-15]]), which does not include Japan.\n\nWithout that offset I can’t calculate a reliable conversion or suggest meeting windows that work for both parties. If you can provide the Japanese client’s local time zone (typically UTC + 9 hours), I’ll be able to propose suitable times.",
+    "dim3_response": "Los Angeles is in the **Pacific Time (PT)** zone, which is **3 hours behind Eastern Time (ET)** after the November‑fall‑back change (the DST shift already occurred earlier this month).\n\n- Client’s slot: 10:30 AM PT (Los Angeles) on Tuesday 2025‑11‑18  \n- Convert to your calendar (assuming you use Eastern Time as the reference zone, as recommended in the guidance): 10:30 AM PT + 3 h = **1:30 PM Eastern Time**.\n\n**What to put on your calendar:**  \n`2025‑11‑18 2025‑11‑18 13:30 ET` (or simply “1:30 PM Eastern Time”) and label the meeting with the time‑zone so calendar apps can auto‑convert for the client.\n\n*Sources*  \n- Pacific‑time is three hours behind Eastern‑time [[entities/pacific-time]] → [[entities/eastern-time]] (see the “U.S. continental time‑zone offsets” in the scheduling guidance).  \n- All four main U.S. zones keep the same offset after the DST transition in early November, so the 3‑hour difference holds for the date in question. [[summaries/session-03_2025-06-15]]  \n\nAdd the time‑zone label to avoid any confusion, and the calendar will show the correct local time for both participants."
+  },
+  "build_seconds": 85.0,
+  "total_seconds": 106.3,
+  "usage": {
+    "compile": {
+      "calls": 14,
+      "prompt_tokens": 33470,
+      "completion_tokens": 10371,
+      "cost_usd": 0.0035876379999999998
+    },
+    "query": {
+      "calls": 10,
+      "prompt_tokens": 20195,
+      "completion_tokens": 2160,
+      "cost_usd": 0.0009946500000000001
+    }
+  }
+}

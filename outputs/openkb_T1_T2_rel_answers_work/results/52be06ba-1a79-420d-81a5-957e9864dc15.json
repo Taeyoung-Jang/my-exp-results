@@ -1,0 +1,32 @@
+{
+  "uid": "52be06ba-1a79-420d-81a5-957e9864dc15",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    9,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the earlier conversation (session 10 on 2024‑06‑15) you emphasized that you keep in‑person meetings to “every couple of weeks” because anything more tends to feel overwhelming and would overstretch your energy. The guidance specifically recommends a “twice‑a‑month” cadence as the sustainable rhythm you prefer【source: summaries/session-10_2024-06-15.md】.",
+    "dim2_response": "**Month‑Long Social Plan (≈ 2 in‑person meet‑ups / month)**  \n\n| Week | Goal | Action | Why it works (wiki source) |\n|------|------|--------|----------------------------|\n| **Week 1** | Light touch‑point | Send a brief, context‑free message – e.g., a funny meme, a photo you think they’d like, or a quick “Hope your week’s going well!” | Keeps the connection warm without pressure — [[concepts/friendship-cadence]] |\n| **Week 2** | First meet‑up | Plan a 1‑2 hour activity that requires minimal logistics (coffee, a walk, a short brunch). Keep the invitation framed as a regular rhythm: “I’m keeping my in‑person plans to every couple of weeks, but I’d love to catch up this Thursday. Does that work?” | Sets a sustainable cadence (≈ twice a month) and frames the limit as personal energy — [[summaries/session-10_2024-06-15]] |\n| **Week 3** | Light touch‑point | React to something they posted (like a comment, a quick “That reminded me of you”). If you have a small update, share it in a sentence. | Low‑pressure touchpoint that signals attention without creating an obligation — [[concepts/friendship-cadence]] |\n| **Week 4** | Second meet‑up | Choose a different low‑stress setting (e.g., a park picnic, a quick game night, or a shared hobby). Again, phrase the invite as part of your “every‑couple‑weeks rhythm.” | Reinforces the “present presence” guideline: be fully engaged during the meeting so the time feels valuable — [[concepts/friendship-cadence]] |\n| **End of month** | Review & adjust | After the second meet‑up, note how you felt: energized, neutral, or drained. If it felt good, keep the same schedule; if it was taxing, consider spacing the next meet‑up a week later or adding an extra light touch‑point. | Uses **energy awareness** to fine‑tune the cadence — [[concepts/friendship-cadence]] |\n\n### Extras & Templates\n- **Message template for weekly touch‑point**  \n  > “Hey, I saw this and thought of you — [link or brief comment]. Hope you’re having a good week!”  \n\n- **Boundary‑framing invite (first or second meet‑up)**  \n  > “I’m trying to keep my in‑person plans to every couple of weeks so I don’t overstretch myself, but I’d love to see you on [date]. Does that work for you?”  \n  (see the text templates in [[summaries/session-10_2024-06-15]]).\n\n### How the plan maintains friendships\n1. **Consistent low‑effort contact** keeps the friendship “warm” between meet‑ups.  \n2. **Two in‑person gatherings per month** match the user’s comfort level (≈ twice a month).  \n3. **Clear, compassionate boundary language** prevents misunderstand‑ings and signals respect for personal energy.  \n4. **Weekly check‑ins** and a monthly energy review let you adapt the rhythm without feeling overwhelmed.\n\nFollow this structure for the next month, then repeat or adjust the timing based on the energy‑awareness check‑in. This satisfies the user’s need for a manageable cadence while still nurturing the friendship network.",
+    "dim3_response": "I’m sorry, but I couldn’t locate any information in the knowledge base about heavy‑duty alignment retainers, their recommended wear schedules, or how they affect speech. Without relevant source material, I’m not able to give a well‑supported answer on whether that schedule is workable or what alternatives might be better. You may want to consult a dentist or orthodontist for advice tailored to your specific situation."
+  },
+  "build_seconds": 96.4,
+  "total_seconds": 126.0,
+  "usage": {
+    "compile": {
+      "calls": 16,
+      "prompt_tokens": 40836,
+      "completion_tokens": 12794,
+      "cost_usd": 0.006225525000000002
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 17860,
+      "completion_tokens": 1762,
+      "cost_usd": 0.00085296
+    }
+  }
+}

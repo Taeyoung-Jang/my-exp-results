@@ -1,0 +1,110 @@
+=== 2026-10-10 14:40:44 uid=54568a99-2d09-41cc-a809-963d71be7eec ===
+Adding: session-13_2023-07-22.md
+  Compiling short doc...
+    summary............ 12.4s (in=3495, out=1045)
+    concepts-plan........... 11.5s (in=4771, out=1393, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    entity: lutron... 8.3s (in=4753, out=983, cached=4320)
+    concept: warm-lighting-for-migraines... 9.7s (in=4721, out=1162, cached=4592)
+    concept: led-dimmer-compatibility... 10.0s (in=4721, out=1207, cached=784)
+    concept: flicker-free-dimming... 10.7s (in=4722, out=1291, cached=4592)
+    entity: philips... 7.1s (in=4752, out=845, cached=4592)
+    entity: ge... 8.0s (in=4752, out=948, cached=4592)
+    entity: lutron-caseta-pd-6wcl-wh... 8.4s (in=4762, out=997, cached=4592)
+    entity: lutron-diva-dvcl-153p-wh... 8.6s (in=4761, out=1018, cached=4592)
+    entity: philips-warm-glow-2700k-led... 8.4s (in=4759, out=981, cached=4592)
+    entity: philips-3000k-led... 9.6s (in=4757, out=913, cached=784)
+    entity: philips-hue-white-ambiance... 11.8s (in=4756, out=1396, cached=4592)
+    entity: ge-reveal-hd-plus-3000k-led... 17.3s (in=4760, out=960)
+    summary-rewrite.......... 10.7s (in=4750, out=1309, cached=4592)
+  [OK] session-13_2023-07-22.md added to knowledge base.
+Adding: session-38_2025-07-22.md
+  Compiling short doc...
+    summary................ 16.5s (in=2135, out=1000)
+    concepts-plan.... 4.1s (in=3670, out=941, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    concept: eye-strain... 7.6s (in=3270, out=1384, cached=784)
+    concept: micro-breaks... 12.0s (in=3266, out=786)
+    concept: ergonomic-lighting... 12.9s (in=3266, out=919, cached=784)
+    update: warm-lighting-for-migraines... 28.0s (in=3911, out=1729)
+    summary-rewrite........................ 24.4s (in=3297, out=1188, cached=784)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 399, in <module>
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 363, in main
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 831, in submit
+    self._start_executor_manager_thread()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 770, in _start_executor_manager_thread
+    self._launch_processes()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 797, in _launch_processes
+    self._spawn_process()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 807, in _spawn_process
+    p.start()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.12/multiprocessing/context.py", line 282, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 232, in _worker
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 204, in run_sample
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 452, in add_single_file
+    return _add_single_file_locked(file_path, kb_dir, stage=stage, bundle=bundle)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 629, in _add_single_file_locked
+    if not run_add_mutation(kb_dir, plan):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/add_coordinator.py", line 103, in run_add_mutation
+    plan.body(snapshot)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 570, in commit_body
+    _run_compile_with_retry(
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 435, in _run_compile_with_retry
+    asyncio.run(coro_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 103, in _process_log_task
+    verbose_logger.exception(f"LoggingWorker error: {e}")
+Message: 'LoggingWorker error: '
+Arguments: None
+  [OK] session-38_2025-07-22.md added to knowledge base.
+done.

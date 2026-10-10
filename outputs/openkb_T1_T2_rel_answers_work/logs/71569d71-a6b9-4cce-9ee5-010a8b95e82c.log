@@ -1,0 +1,34 @@
+=== 2026-10-10 15:44:00 uid=71569d71-a6b9-4cce-9ee5-010a8b95e82c ===
+Adding: session-02_2024-09-15.md
+  Compiling short doc...
+    summary.... 4.8s (in=2609, out=1261, cached=784)
+    concepts-plan............. 13.1s (in=3761, out=549, cached=64)
+    Generating 8 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: chef-knife-size-and-style... 7.2s (in=3704, out=1129, cached=784)
+    concept: blade-profile-rocking-push... 3.7s (in=3724, out=815, cached=768)
+    concept: high-carbon-knife-care... 12.7s (in=3704, out=1147, cached=784)
+    concept: gyuto-length... 13.0s (in=3703, out=1178, cached=784)
+    concept: kitchen-knife-starter-kit... 15.1s (in=3703, out=656, cached=64)
+    concept: sharpening-stone-grits... 10.9s (in=3706, out=925, cached=784)
+    concept: leather-roll-storage... 11.5s (in=3703, out=964, cached=3568)
+    entity: gesshin-ginga... 9.5s (in=3739, out=376, cached=768)
+    entity: yoshikane-skd... 1.0s (in=3758, out=827, cached=768)
+    entity: konosuke-hd2... 5.6s (in=3726, out=1110)
+    concept: knife-steel-selection... 17.7s (in=3702, out=1145, cached=784)
+    entity: mazaki... 8.5s (in=3736, out=810, cached=3568)
+    entity: watanabe-pro... 12.2s (in=3726, out=1113)
+    entity: morita-ka... 16.9s (in=3724, out=1289)
+    summary-rewrite... 3.2s (in=3726, out=1158)
+  [OK] session-02_2024-09-15.md added to knowledge base.
+Adding: session-36_2024-12-16.md
+  Compiling short doc...
+    summary.... 4.2s (in=2392, out=985, cached=784)
+    concepts-plan.... 4.5s (in=3881, out=529, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: intake-procedure... 3.7s (in=3509, out=897, cached=2384)
+    concept: allowed-items... 6.8s (in=3496, out=666)
+    concept: communication-protocols... 10.6s (in=3497, out=842)
+    summary-rewrite.............. 14.3s (in=3538, out=1058, cached=64)
+  [OK] session-36_2024-12-16.md added to knowledge base.
+done.

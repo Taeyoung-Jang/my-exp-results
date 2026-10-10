@@ -1,0 +1,26 @@
+=== 2026-10-10 15:45:29 uid=3a9bfd68-7b8a-418a-ab93-50ace62512c4 ===
+Adding: session-15_2024-06-15.md
+  Compiling short doc...
+    summary... 3.8s (in=2955, out=816)
+    concepts-plan.... 4.5s (in=3894, out=763, cached=68)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: depth-over-management... 2.5s (in=3738, out=480)
+    concept: low-risk-experiment... 4.4s (in=3740, out=1048, cached=784)
+    concept: career-decision... 15.5s (in=3738, out=595, cached=784)
+Concept generation failed: LLM returned empty content for concept 'depth-over-management'
+    [WARN] 3 concept(s) planned but only 2 written for session-15_2024-06-15 (ValueError).
+    summary-rewrite.......... 10.1s (in=3770, out=877, cached=784)
+  [OK] session-15_2024-06-15.md added to knowledge base.
+Adding: session-37_2025-03-14.md
+  Compiling short doc...
+    summary........... 11.3s (in=2859, out=1314, cached=784)
+    concepts-plan.......... 10.1s (in=4134, out=744)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: independence-readiness... 3.8s (in=3981, out=909, cached=784)
+    concept: pricing-models... 5.3s (in=3982, out=770)
+    concept: clear-offer... 18.7s (in=3980, out=1622, cached=784)
+Concept generation failed: LLM returned empty content for concept 'pricing-models'
+    [WARN] 3 concept(s) planned but only 2 written for session-37_2025-03-14 (ValueError).
+    summary-rewrite................ 17.0s (in=3999, out=1225)
+  [OK] session-37_2025-03-14.md added to knowledge base.
+done.

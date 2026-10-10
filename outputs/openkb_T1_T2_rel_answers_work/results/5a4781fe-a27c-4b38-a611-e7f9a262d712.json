@@ -1,0 +1,32 @@
+{
+  "uid": "5a4781fe-a27c-4b38-a611-e7f9a262d712",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    11,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the 2021‑10‑12 conversation the user explicitly wrote:\n\n> “One quick update: **I haven't finished my education yet; I'm currently an undergraduate student**.”【sources/session-12_2021-10-12.md†L31-L33】\n\nNo later messages contradict this statement, so the user still says they haven’t finished their education and are an undergraduate.",
+    "dim2_response": "**A practical, step‑by‑step strategy for picking next‑semester classes and staying on track for graduation**\n\n| Step | What to do | Why it helps (wiki source) |\n|------|------------|----------------------------|\n| 1️⃣ Review your degree‑audit or program checklist | Pull the official list of required courses, electives, credit totals, and any “must‑take before” constraints. | Guarantees you meet all **core requirements** before you graduate. |\n| 2️⃣ Map the audit to the **Decision‑Criteria** framework | For each required or elective option, ask yourself: <br>• Does it spark **genuine interest**?<br>• Does it support a healthy **job‑market** outlook?<br>• Does it build **transferable skills**?<br>• Does it keep you **flexible** for future pivots. | These four criteria are the backbone for choosing majors and courses [[concepts/decision-criteria]]. |\n| 3️⃣ Identify “green‑flag” courses & weed out “red‑flags” | *Green flags*: classes with clear, engaging syllabi, projects you’re excited about, professors known for mentorship, and skills that align with your career goals.<br>*Red flags*: vague descriptions, heavy reliance on skills you dislike, or courses that lock you into a narrow track. | The green/red‑flag guidelines let you quickly gauge qualitative fit [[concepts/green-red-flags]]. |\n| 4️⃣ Do low‑stakes exploration before committing | If you’re unsure about a potential elective, try a short online module, a “mini‑lecture” on campus, or a related workshop. The summary suggests “short courses, beginner books, talks” as safe ways to test interest before enrolling [[summaries/session-12_2021-10-12]]. |\n| 5️⃣ Schedule an **informational interview** with an academic advisor or a senior who has taken the class | Use the question list from the **Informational‑Interview** concept (e.g., “What does a typical day in this class look like? What skills do students use daily vs. in exams?”). Capture your emotional reaction—lean‑in excitement = green flag; hesitation = red flag. | The interview template is designed to surface green/red signals [[concepts/informational-interview]]. |\n| 6️⃣ Balance course load & graduation timeline | - Aim for the minimum credit load that still meets progress milestones (usually 12‑15 credits per semester). <br>- Reserve one “buffer” course each term in case a class is dropped or you need to retake. <br>- Keep a running GPA target that satisfies any program honors or scholarship requirements. | A balanced load reduces burnout and protects your **on‑time graduation** goal. |\n| 7️⃣ Finalize the schedule & set milestones | • Add the chosen courses to your semester plan.<br>• Mark key dates (add‑drop deadline, midterms, final exams).<br>• Set weekly study targets (e.g., 2 hrs per credit). | Concrete milestones keep you accountable and make it easy to spot early warning signs. |\n| 8️⃣ Iterate each term | After the semester, review outcomes: which courses gave green flags, which produced red flags, and whether you stayed on schedule. Adjust next term’s plan accordingly. | Continuous feedback loops turn the decision‑criteria into a living roadmap. |\n\n**Quick checklist you can copy to your planner**\n\n- [ ] Verify required courses & credit totals (degree audit)  \n- [ ] Score each candidate class on the 4 decision‑criteria (1‑5)  \n- [ ] Flag “green” (score ≥ 4) vs. “red” (score ≤ 2)  \n- [ ] Try a mini‑exploration if a class is borderline  \n- [ ] Meet advisor → use interview questions to surface hidden signals  \n- [ ] Build a balanced credit load (12‑15 credits) with one buffer slot  \n- [ ] Add deadlines & weekly study targets to calendar  \n- [ ] Review at semester‑end and re‑score for next term  \n\nFollowing this structured approach lets you choose classes that both **interest you** and **move you efficiently toward graduation**, while the green/red‑flag and decision‑criteria lenses keep you from unintentionally veering off course.",
+    "dim3_response": "I’m sorry—I couldn’t find any résumé‑or‑profile guidance in the knowledge base. The available pages cover things like green‑red career signals, informational interviews, and choosing a field of study, but there isn’t a specific document or concept that lists what to put on or omit from a résumé or online professional profiles. If you can point me to a relevant source (e.g., a session summary that discusses résumé content), I’ll be glad to pull the details and give you a concise, well‑cited answer."
+  },
+  "build_seconds": 57.3,
+  "total_seconds": 89.4,
+  "usage": {
+    "compile": {
+      "calls": 8,
+      "prompt_tokens": 21724,
+      "completion_tokens": 5203,
+      "cost_usd": 0.001772674
+    },
+    "query": {
+      "calls": 14,
+      "prompt_tokens": 39028,
+      "completion_tokens": 3016,
+      "cost_usd": 0.001721336
+    }
+  }
+}

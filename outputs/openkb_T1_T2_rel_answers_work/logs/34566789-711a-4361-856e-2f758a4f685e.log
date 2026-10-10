@@ -1,0 +1,67 @@
+=== 2026-10-10 14:18:55 uid=34566789-711a-4361-856e-2f758a4f685e ===
+Adding: session-09_2022-06-15.md
+  Compiling short doc...
+    summary.... 4.5s (in=1991, out=968, cached=64)
+    concepts-plan........................................... 43.3s (in=2957, out=1345, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 15 entity(ies) (concurrency=4)...
+    entity: viadro... 4.5s (in=2974, out=974, cached=768)
+    concept: rainy-hike-planning... 9.3s (in=2925, out=857, cached=784)
+    concept: low-key-activities... 12.1s (in=2924, out=838)
+    concept: neighborhood-wandering... 12.2s (in=2910, out=881)
+    entity: phinney-ridge... 2.8s (in=2958, out=302)
+    entity: fair-isle-brewing... 10.9s (in=2945, out=863)
+    entity: ravenna... 2.7s (in=2956, out=244)
+    entity: la-carta-de-oaxaca... 10.8s (in=2946, out=808)
+    entity: coal-creek-falls... 3.6s (in=2957, out=354)
+    entity: mean-sandwich... 11.5s (in=2957, out=814, cached=784)
+    entity: greenwood... 9.9s (in=2956, out=746, cached=64)
+    entity: elm-coffee-roasters... 4.4s (in=2959, out=226, cached=64)
+    entity: lakemont-boulevard... 10.1s (in=2946, out=717)
+    entity: bellevue... 12.8s (in=2956, out=568, cached=784)
+    entity: preserve-and-gather... 3.2s (in=2977, out=793)
+    entity: seattle... 9.9s (in=2956, out=913, cached=2784)
+    entity: washington-park-arboretum... 4.2s (in=2960, out=257, cached=64)
+    entity: discovery-park... 5.0s (in=2974, out=673, cached=2784)
+Entity generation failed: LLM returned empty content for concept 'phinney-ridge'
+Entity generation failed: LLM returned empty content for concept 'ravenna'
+Entity generation failed: LLM returned empty content for concept 'coal-creek-falls'
+    [WARN] 15 entity(ies) planned but only 12 written for session-09_2022-06-15 (ValueError).
+    summary-rewrite.................... 20.2s (in=2954, out=974, cached=768)
+[92m14:20:45 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-09_2022-06-15.md added to knowledge base.
+Adding: session-40_2024-06-15.md
+  Compiling short doc...
+    summary.............. 14.6s (in=3055, out=583, cached=784)
+    concepts-plan......... 9.4s (in=4259, out=1027, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    entity: fulcrum-fitness... 7.1s (in=3934, out=766, cached=784)
+    concept: gym-tour-red-flags... 8.2s (in=3899, out=915, cached=784)
+    concept: gym-selection-criteria... 9.3s (in=3898, out=1044, cached=3776)
+    concept: strength-training-gym-checklist... 9.5s (in=3900, out=1056, cached=3776)
+    entity: hollywood-fitness... 7.2s (in=3932, out=789, cached=3760)
+    entity: lloyd-athletic-club... 7.3s (in=3933, out=790, cached=3776)
+    entity: industrial-strength... 8.1s (in=3932, out=868, cached=3776)
+    entity: portland... 8.1s (in=3931, out=919, cached=784)
+    entity: 24-hour-fitness... 6.0s (in=3934, out=650, cached=3408)
+    entity: la-fitness... 7.7s (in=3932, out=826, cached=3776)
+    summary-rewrite........ 8.3s (in=3929, out=979, cached=3408)
+  [OK] session-40_2024-06-15.md added to knowledge base.
+done.

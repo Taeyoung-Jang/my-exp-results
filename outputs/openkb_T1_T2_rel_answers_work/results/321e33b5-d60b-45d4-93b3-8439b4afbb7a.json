@@ -1,0 +1,32 @@
+{
+  "uid": "321e33b5-d60b-45d4-93b3-8439b4afbb7a",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    0,
+    30
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. The conversation history (see the [[summaries/session-01_2023-06-15]] summary) indicates that the user’s spouse has passed away, which means the user is now widowed rather than still married.",
+    "dim2_response": "Here are a few low‑pressure, supportive conversation starters that the user can try the next time they attend the support‑group meeting alone (the suggestions are taken from the “Practical conversation starters and coping tips for attending a support group after a spouse’s death” summary [[summaries/session-01_2023-06-15]]):\n\n| Situation | Suggested starter (one‑liner) |\n|-----------|------------------------------|\n| **Arriving / joining a circle** | “Hi, I’m [Name]. May I sit here with you?” |\n| **When asked “Are you here with anyone?”** | “I’m here on my own today. It’s a bit new for me.” |\n| **If someone asks why they’re there** | “I lost my spouse recently, and I’m looking for a little company and perspective.” |\n| **To acknowledge a shared feeling** | “It sounds like today has been tough for a lot of us. I’m grateful to be here with you.” |\n| **If you feel overwhelmed and need a pause** | “I’m going to step out for a quick breather, but I’ll be back in a minute.” |\n| **When you want to shift the conversation gently** | “That reminds me of… [brief related memory], but I’d love to hear how you’re coping right now.” |\n\n**How to use them**\n\n1. **Start with a simple greeting** – the “May I sit here?” line lets you enter the group without pressure.  \n2. **Answer direct questions honestly yet briefly** – the “I’m here on my own” line validates your situation without feeling exposed.  \n3. **Mention the loss only if you’re comfortable** – the “I lost my spouse recently…” starter gives context while keeping the focus on the meeting’s purpose.  \n4. **Employ a short pause phrase** – the “step out for a quick breather” line signals you need a moment without disrupting the flow.  \n5. **Use a gentle shift** – after sharing, the “That reminds me of…” line lets you move the talk toward a shared coping theme.\n\nThese starters are deliberately concise, respectful, and paired with a quick emotional‑coping cue (pause, acknowledge, step aside, brief breath) that the summary also recommends [[summaries/session-01_2023-06-15]].",
+    "dim3_response": "Here are some low‑pressure ways to introduce yourself and handle any “Are you married?”‑type small‑talk at a social event. The phrasing follows the same style that worked well for the support‑group setting in [[summaries/session-01_2023-06-15]].\n\n### 1. Quick, friendly greetings  \n| Situation | One‑liner |\n|-----------|-----------|\n| You spot an empty seat next to someone | “Mind if I join you?” |\n| You’re introduced to a new group | “Hi, I’m [Your Name]. Nice to meet you.” |\n| You want to keep it light | “Just getting settled—happy to be here.” |\n\n### 2. Answering “Are you married?” (or similar) without oversharing  \n| Goal | Suggested wording |\n|------|-------------------|\n| Give a neutral fact | “I’m currently single.” |\n| If you’re married but don’t want details | “Yes, I’m married – thanks for asking.” |\n| If you prefer not to label it | “I’m focusing on enjoying the evening.” |\n| If you want to acknowledge but move on | “I’m married, but let’s talk about the event—have you been here before?” |\n\n> **Why this works:** It answers the question directly, stays factual, and either ends the thread or smoothly pivots to a new topic.\n\n### 3. Shifting the conversation after a brief personal mention  \n- **Brief mention + pivot:** “My partner and I just got back from a weekend trip, actually. Speaking of travel, have you tried the new cocktail bar here?”  \n- **Matter‑of‑fact + redirect:** “We’re married, so I’m looking forward to meeting other couples. By the way, what brought you to this gathering?”  \n\n### 4. Handling a “What brings you here?” prompt  \n| Scenario | One‑liner |\n|----------|-----------|\n| General social event | “I’m looking to meet new people and have a good time.” |\n| If you want to keep it personal but short | “I’m here to catch up with friends and enjoy the vibe.” |\n| If you prefer a neutral answer | “Just exploring, and the invitation sounded fun.” |\n\n### 5. If you feel the conversation getting too heavy or you get emotional  \n1. **Pause & acknowledge** – “Excuse me for a moment, I need a quick breather.”  \n2. **Step away briefly** – “I’m going to grab a drink, be right back.”  \n3. **Re‑engage with a fresh topic** – “So, have you tried the appetizers yet?”\n\nThese snippets let you stay honest enough to avoid awkward follow‑ups, while giving you control over how much personal detail you share. Feel free to mix‑and‑match the lines to suit your style and the tone of the event."
+  },
+  "build_seconds": 81.4,
+  "total_seconds": 110.2,
+  "usage": {
+    "compile": {
+      "calls": 15,
+      "prompt_tokens": 46845,
+      "completion_tokens": 11678,
+      "cost_usd": 0.00499563
+    },
+    "query": {
+      "calls": 12,
+      "prompt_tokens": 23983,
+      "completion_tokens": 2517,
+      "cost_usd": 0.0011725499999999999
+    }
+  }
+}

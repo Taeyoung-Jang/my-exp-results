@@ -1,0 +1,28 @@
+=== 2026-10-10 15:51:09 uid=ff4ad8e1-aba5-485b-ac9c-1b21fbff2520 ===
+Adding: session-02_2024-07-14.md
+  Compiling short doc...
+    summary............ 12.5s (in=3117, out=2569)
+    concepts-plan...................... 22.9s (in=4223, out=568)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: weekly-fitness-structure... 3.1s (in=4082, out=449)
+    concept: progression-and-deload... 10.1s (in=4072, out=862)
+    concept: knee-friendly-exercises... 13.7s (in=4084, out=1104, cached=784)
+Concept generation failed: LLM returned empty content for concept 'weekly-fitness-structure'
+    [WARN] 3 concept(s) planned but only 2 written for session-02_2024-07-14 (ValueError).
+    summary-rewrite... 3.9s (in=4114, out=948, cached=784)
+  [OK] session-02_2024-07-14.md added to knowledge base.
+Adding: session-31_2025-04-12.md
+  Compiling short doc...
+    summary..................... 21.1s (in=3276, out=696, cached=768)
+    concepts-plan...... 6.3s (in=4407, out=188, cached=3264)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: desk-friendly-exercise... 4.4s (in=4274, out=817, cached=768)
+    entity: pickup-basketball-league... 4.8s (in=4291, out=1165, cached=784)
+    concept: low-rpe-activity... 5.1s (in=4266, out=953)
+    concept: playful-micro-movement... 34.8s (in=4258, out=1091, cached=64)
+Concept generation failed: LLM returned empty content for concept 'low-rpe-activity'
+    [WARN] 3 concept(s) planned but only 2 written for session-31_2025-04-12 (ValueError).
+    summary-rewrite........... 11.5s (in=4287, out=825)
+  [OK] session-31_2025-04-12.md added to knowledge base.
+done.

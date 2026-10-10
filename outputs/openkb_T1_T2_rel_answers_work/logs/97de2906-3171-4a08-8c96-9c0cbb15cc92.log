@@ -1,0 +1,39 @@
+=== 2026-10-10 15:51:44 uid=97de2906-3171-4a08-8c96-9c0cbb15cc92 ===
+Adding: session-02_2023-06-15.md
+  Compiling short doc...
+    summary................. 17.6s (in=1908, out=687, cached=64)
+    concepts-plan........... 11.9s (in=2976, out=676, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    entity: sabra... 3.6s (in=2875, out=626, cached=784)
+    concept: peanut-allergy-safe_cooking... 12.1s (in=2843, out=1000, cached=2528)
+    concept: allergen_label_checklist... 13.7s (in=2844, out=453, cached=64)
+    concept: low-mess_finger_foods... 15.2s (in=2843, out=1035, cached=784)
+    entity: bolthouse_farms... 15.4s (in=2876, out=763, cached=64)
+    summary-rewrite....................................................................................... 87.8s (in=2872, out=958, cached=768)
+[92m15:54:01 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-02_2023-06-15.md added to knowledge base.
+Adding: session-33_2024-12-15.md
+  Compiling short doc...
+    summary................................ 32.4s (in=2628, out=839, cached=784)
+    concepts-plan. 1.8s (in=3756, out=266)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-33_2024-12-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-33_2024-12-15.md added to knowledge base.
+done.

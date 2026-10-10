@@ -1,0 +1,52 @@
+=== 2026-10-10 15:42:34 uid=9364e0ec-fbd3-499f-afb8-72061bc92cc1 ===
+Adding: session-14_2024-06-23.md
+  Compiling short doc...
+    summary................. 17.3s (in=2455, out=1552)
+    concepts-plan....... 7.3s (in=3458, out=709)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    entity: caffeine... 2.2s (in=3359, out=398)
+    concept: daily-routine-design... 4.2s (in=3325, out=635)
+    concept: caffeine-cutoff... 10.5s (in=3327, out=472, cached=768)
+    entity: alcohol... 10.8s (in=3359, out=752, cached=784)
+    concept: wind-down-routine... 39.2s (in=3327, out=1943, cached=64)
+Concept generation failed: LLM returned empty content for concept 'daily-routine-design'
+    [WARN] 3 concept(s) planned but only 2 written for session-14_2024-06-23 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'caffeine'
+    [WARN] 2 entity(ies) planned but only 1 written for session-14_2024-06-23 (ValueError).
+    summary-rewrite......... 9.0s (in=3357, out=849, cached=784)
+  [OK] session-14_2024-06-23.md added to knowledge base.
+Adding: session-36_2024-10-21.md
+  Compiling short doc...
+    summary.......... 10.4s (in=2020, out=1097)
+    concepts-plan.................. 19.0s (in=3351, out=926)
+    Generating 9 concept(s) (concurrency=4)...
+    concept: light-exposure... 2.3s (in=3187, out=734)
+    concept: mid-afternoon-slump-management... 3.9s (in=3206, out=997, cached=768)
+    concept: nap-strategy... 12.1s (in=3191, out=1108)
+    concept: micro-evenings... 11.8s (in=3193, out=1074)
+    concept: coffee-nap... 18.9s (in=3204, out=895, cached=784)
+    concept: sleep-schedule-adjustment... 19.3s (in=3205, out=1083)
+    concept: early-shift-energy-management... 13.5s (in=3206, out=1418, cached=784)
+    update: wind-down-routine... 21.5s (in=3583, out=1180)
+    update: caffeine-cutoff... 29.2s (in=3675, out=1256, cached=64)
+    summary-rewrite................................. 33.0s (in=3236, out=1198, cached=64)
+[92m15:45:37 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-36_2024-10-21.md added to knowledge base.
+done.

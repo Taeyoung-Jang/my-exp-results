@@ -1,0 +1,49 @@
+=== 2026-10-10 15:33:22 uid=321e33b5-d60b-45d4-93b3-8439b4afbb7a ===
+Adding: session-01_2023-06-15.md
+  Compiling short doc...
+    summary............. 13.3s (in=1792, out=940)
+    concepts-plan......... 9.4s (in=2796, out=484)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: support-group-communication... 0.5s (in=2643, out=2, cached=768)
+    concept: brief-self-disclosure... 4.3s (in=2661, out=785, cached=768)
+    concept: emotional-regulation-in-conversation... 11.9s (in=2644, out=751, cached=64)
+Concept generation failed: LLM returned empty content for concept 'support-group-communication'
+    [WARN] 3 concept(s) planned but only 2 written for session-01_2023-06-15 (ValueError).
+    summary-rewrite.......... 10.3s (in=2661, out=782)
+  [OK] session-01_2023-06-15.md added to knowledge base.
+Adding: session-31_2025-06-15.md
+  Compiling short doc...
+    summary....... 7.8s (in=2555, out=1267, cached=784)
+    concepts-plan.... 4.8s (in=3978, out=386, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: volunteer-floater... 3.8s (in=3821, out=833, cached=786)
+    concept: assembly-line-workflow... 5.5s (in=3821, out=802, cached=784)
+    concept: glitter-containment... 17.0s (in=3821, out=941)
+    summary-rewrite.....................................................................=== 2026-10-10 15:35:54 uid=321e33b5-d60b-45d4-93b3-8439b4afbb7a ===
+Adding: session-01_2023-06-15.md
+  Compiling short doc...
+    summary............. 13.5s (in=1805, out=589, cached=784)
+    concepts-plan.... 4.4s (in=2473, out=459, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: support-group-etiquette... 2.8s (in=2346, out=1121, cached=768)
+    concept: conversation-starters... 3.8s (in=2316, out=527)
+    concept: emotional-coping... 6.1s (in=2318, out=733, cached=784)
+Concept generation failed: LLM returned empty content for concept 'conversation-starters'
+    [WARN] 3 concept(s) planned but only 2 written for session-01_2023-06-15 (ValueError).
+    summary-rewrite. 2.0s (in=2348, out=663)
+  [OK] session-01_2023-06-15.md added to knowledge base.
+Adding: session-31_2025-06-15.md
+  Compiling short doc...
+    summary....... 7.4s (in=2554, out=1199)
+    concepts-plan.... 4.3s (in=3941, out=684, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: floater_role... 4.8s (in=3804, out=777, cached=784)
+    concept: cleanup_plan... 10.3s (in=3801, out=620, cached=784)
+    entity: glitter... 11.9s (in=3834, out=729, cached=784)
+    entity: school-fundraiser... 4.6s (in=3836, out=737, cached=784)
+    concept: assembly_line_workflow... 19.3s (in=3801, out=867, cached=64)
+    entity: baby-wipes... 17.7s (in=3836, out=847, cached=784)
+    summary-rewrite................. 17.6s (in=3832, out=1126, cached=784)
+  [OK] session-31_2025-06-15.md added to knowledge base.
+done.

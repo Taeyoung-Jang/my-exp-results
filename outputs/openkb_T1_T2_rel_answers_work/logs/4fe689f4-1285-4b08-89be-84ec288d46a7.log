@@ -1,0 +1,25 @@
+=== 2026-10-10 14:35:20 uid=4fe689f4-1285-4b08-89be-84ec288d46a7 ===
+Adding: session-02_2024-06-15.md
+  Compiling short doc...
+    summary......... 9.4s (in=2134, out=921, cached=784)
+    concepts-plan............. 13.6s (in=3147, out=634, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: smartwatch... 2.3s (in=3043, out=309)
+    concept: wearable-notifications... 5.9s (in=3027, out=820, cached=832)
+    concept: distraction-management... 12.4s (in=3010, out=480)
+    concept: health-metrics... 13.2s (in=3009, out=519)
+    entity: wearable-device... 11.6s (in=3045, out=356, cached=64)
+    entity: fitness-tracker... 15.8s (in=3044, out=473, cached=64)
+Entity generation failed: LLM returned empty content for concept 'smartwatch'
+    [WARN] 3 entity(ies) planned but only 2 written for session-02_2024-06-15 (ValueError).
+    summary-rewrite... 3.6s (in=3041, out=880, cached=784)
+  [OK] session-02_2024-06-15.md added to knowledge base.
+Adding: session-38_2024-12-15.md
+  Compiling short doc...
+    summary.... 4.0s (in=3075, out=1030, cached=784)
+    concepts-plan. 1.3s (in=4358, out=142)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-38_2024-12-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-38_2024-12-15.md added to knowledge base.
+done.

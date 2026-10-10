@@ -1,0 +1,34 @@
+=== 2026-10-10 15:31:03 uid=47911ef2-a067-4c92-acc0-fe0de42666d9 ===
+Adding: session-11_2024-05-12.md
+  Compiling short doc...
+    summary.. 2.7s (in=1715, out=573, cached=66)
+    concepts-plan.... 4.2s (in=2469, out=663, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: documentation-requirements... 2.9s (in=2335, out=609, cached=784)
+    concept: student-health-plan-eligibility... 4.4s (in=2337, out=720, cached=784)
+    entity: student-health-plan... 2.4s (in=2370, out=343)
+    entity: university-hr-office... 7.0s (in=2373, out=271, cached=768)
+    concept: email-drafting... 13.1s (in=2336, out=744, cached=784)
+    entity: student-discount-programs... 14.8s (in=2371, out=705, cached=784)
+Entity generation failed: LLM returned empty content for concept 'student-health-plan'
+    [WARN] 3 entity(ies) planned but only 2 written for session-11_2024-05-12 (ValueError).
+    summary-rewrite......... 9.3s (in=2364, out=581, cached=64)
+  [OK] session-11_2024-05-12.md added to knowledge base.
+Adding: session-37_2025-02-11.md
+  Compiling short doc...
+    summary.................................... 36.6s (in=2127, out=1076, cached=784)
+    concepts-plan........................... 27.4s (in=3322, out=915, cached=64)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: employer-communication-strategy... 6.4s (in=3146, out=828, cached=64)
+    concept: post-graduation-administration... 6.9s (in=3147, out=591)
+    update: documentation-requirements... 8.6s (in=3436, out=525, cached=64)
+    concept: document-correction-workflow... 10.0s (in=3146, out=1106, cached=64)
+    entity: alumni-portal... 4.5s (in=3163, out=1939)
+    entity: university-registrar-office... 6.8s (in=3209, out=887, cached=768)
+Concept generation failed: LLM returned empty content for concept 'post-graduation-administration'
+    [WARN] 4 concept(s) planned but only 3 written for session-37_2025-02-11 (ValueError).
+    summary-rewrite.... 4.1s (in=3177, out=1243, cached=768)
+  [OK] session-37_2025-02-11.md added to knowledge base.
+done.

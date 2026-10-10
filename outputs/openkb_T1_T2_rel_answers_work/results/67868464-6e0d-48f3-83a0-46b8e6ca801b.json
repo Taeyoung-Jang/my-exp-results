@@ -1,0 +1,32 @@
+{
+  "uid": "67868464-6e0d-48f3-83a0-46b8e6ca801b",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    12,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. According to the earlier conversation (see the summary of session‑13 on 2022‑06‑15), the user is a **U.S. permanent resident**—i.e., they are not a U.S. citizen. The guidance recommends explicitly stating “U.S. permanent resident” (or “lawful permanent resident”) on the résumé, LinkedIn profile, and any job‑application forms so that recruiters know the user is authorized to work without needing sponsorship. Therefore, the user still lacks citizenship and should keep the permanent‑resident status listed in their profile.",
+    "dim2_response": "**How to keep your “permanent‑resident” status consistent everywhere you apply**\n\n1. **Pick a single, professional wording**  \n   - Use the same short line on every platform, e.g.:  \n     *“U.S. permanent resident, fully authorized to work without sponsorship.”*  \n   – This phrasing is recommended in the immigration‑status guidance [[concepts/immigration_status]] and the session summary [[summaries/session-13_2022-06-15]].\n\n2. **Apply the wording in the same spot on each document**  \n   - **Resume** – Add the line in an **Additional Information** or **Work Authorization** section at the bottom (after skills/education) [[concepts/immigration_status]].  \n   - **LinkedIn** – Place it at the end of the **About** (summary) section, not in the headline [[summaries/session-13_2022-06-15]].  \n   - **Other profiles (e.g., company HR portals, recruiting sites)** – Insert the exact same sentence in the “work‑authorization” or “profile summary” field if one exists.\n\n3. **Select the correct option on every application form**  \n   - When a dropdown asks “Citizen / Permanent Resident / Visa,” choose **Permanent Resident**.  \n   - Answer “No” to any “require sponsorship?” question, because a permanent resident does not need sponsorship [[summaries/session-13_2022-06-15]].\n\n4. **Use the same terminology everywhere**  \n   - Prefer “U.S. permanent resident” or “lawful permanent resident.”  \n   - Avoid “green‑card holder” in formal documents (it’s acceptable informally) [[concepts/immigration_status]].\n\n5. **Periodically audit your profiles**  \n   - After updating a résumé or LinkedIn, verify that the other services still contain the exact same line and selection.  \n   - Keep a copy of the approved wording (e.g., in a notes file) to paste into new accounts or forms.\n\n6. **Document the chosen phrasing for future reference**  \n   - Store the approved sentence in a personal cheat‑sheet or in the “Additional Information” section of your master résumé, so any new service can be populated with the identical text.\n\nBy standardizing **what** you say (the exact sentence) and **where** you place it (bottom of résumé, end of LinkedIn “About”, work‑authorization fields), you eliminate mismatched status information and prevent recruitment or compliance issues across all services.",
+    "dim3_response": "You should still indicate that you are a **permanent resident**, but pick the exact term that appears in the dropdown.\n\n- The guidance from the knowledge base (see the summary of [[summaries/session‑13_2022‑06‑15]]) says that when a form presents options such as “Citizen / Permanent Resident / Visa,” you should select **Permanent Resident**.  \n- “Lawful permanent resident” is an acceptable phrasing in free‑text fields, but for a dropdown you want the value that matches the list item—usually just **Permanent Resident** (or “U.S. permanent resident” if that’s the label).  \n- After selecting that, answer “No” to any sponsorship‑required question, because a permanent resident does not need a work visa.\n\nSo, choose the **Permanent Resident** (or “U.S. permanent resident”) option in the dropdown; that will keep the paperwork from being rejected."
+  },
+  "build_seconds": 83.5,
+  "total_seconds": 98.2,
+  "usage": {
+    "compile": {
+      "calls": 11,
+      "prompt_tokens": 28569,
+      "completion_tokens": 7061,
+      "cost_usd": 0.003075289
+    },
+    "query": {
+      "calls": 10,
+      "prompt_tokens": 19556,
+      "completion_tokens": 2052,
+      "cost_usd": 0.0009599809999999999
+    }
+  }
+}

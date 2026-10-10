@@ -1,0 +1,19 @@
+{
+  "uid": "2badccc5-2765-48c9-add6-51c332824ef7",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    2,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the only conversation that mentions the user’s car – the 2024‑06‑15 session where the user performed a “keep‑vs‑replace” cost analysis for their **2016 Honda Accord sedan** – there is no later record indicating that the vehicle was sold or that the user stopped driving it. Since the user was still evaluating whether to keep the car, we can infer that, as of the latest available history, they still own and drive that sedan (even though it is not exactly a “five‑year‑old” model, it is the sedan the user was discussing).  \n\n**Answer:** Yes, the conversation history suggests the user still owns and drives the sedan.  \n\n*Source:* [[summaries/session-03_2024-06-15]] – the user’s keep‑vs‑replace analysis for their 2016 Honda Accord.",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain any information about routine maintenance checks or service schedules for a sedan. The available documents cover vehicle storage tips, daily‑car‑maintenance habits for compact cars, and keep‑vs‑replace cost analysis, but none provide the detailed maintenance guidance you’re asking for. If you can provide or add such content, I’ll be able to generate a specific recommendation.",
+    "dim3_response": "No. The knowledge base does not guarantee that any driving situation will stay completely odor‑free once you load six bags of highly pungent, raw organic manure into your car. The only guidance it provides is how to **reduce** vehicle odors:\n\n* **Contain the manure in sealed, airtight containers** (e.g., heavy‑duty plastic bins with tight‑‑fit lids) before placing them in the vehicle.  \n* **Add charcoal deodorizer pouches** in the trunk or cargo area – they absorb odors for up to two years, but they work best when the source is already sealed [[concepts/odor-control-in-vehicles]].  \n* **Create a “dirty” zone** with a washable canvas or nylon tote and keep it closed when not in use. This limits the spread of smell to other cargo [[concepts/odor-control-in-vehicles]].  \n* **Ventilate frequently** – open windows or run the AC for a few minutes after loading the manure to circulate fresh air.  \n* **Clean any spills immediately** with a microfiber cloth and keep a trash bag handy to remove residual debris.\n\nEven when you follow all of these practices, the strong, volatile compounds in raw organic manure can still seep out of containers, especially during a long five‑hour drive, so an entirely odor‑free cabin cannot be assured. The best you can do is apply the odor‑control strategies above to **minimize** the smell as much as possible."
+  },
+  "build_seconds": 100.9,
+  "total_seconds": 122.7,
+  "usage": {}
+}

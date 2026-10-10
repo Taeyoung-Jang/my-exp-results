@@ -1,0 +1,26 @@
+=== 2026-10-10 14:33:04 uid=19ce4134-0f92-4324-8747-e7faf009918a ===
+Adding: session-08_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.8s (in=2574, out=1708)
+    concepts-plan...... 6.9s (in=3656, out=451)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: habit_stacking... 2.4s (in=3496, out=320)
+    concept: buffer_time... 13.0s (in=3496, out=528, cached=768)
+    concept: core_rhythm... 13.1s (in=3496, out=811)
+Concept generation failed: LLM returned empty content for concept 'habit_stacking'
+    [WARN] 3 concept(s) planned but only 2 written for session-08_2024-06-15 (ValueError).
+    summary-rewrite.............. 14.6s (in=3528, out=876, cached=784)
+  [OK] session-08_2024-06-15.md added to knowledge base.
+Adding: session-38_2024-12-15.md
+  Compiling short doc...
+    summary........ 8.9s (in=2122, out=1274)
+    concepts-plan..... 5.3s (in=2986, out=450, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: mindful_grounding... 3.6s (in=2825, out=678)
+    concept: stretching_sequences... 3.7s (in=2862, out=764)
+    concept: breathing_techniques... 13.7s (in=2812, out=987)
+Concept generation failed: LLM returned empty content for concept 'mindful_grounding'
+    [WARN] 3 concept(s) planned but only 2 written for session-38_2024-12-15 (ValueError).
+    summary-rewrite.. 3.0s (in=2856, out=655, cached=784)
+  [OK] session-38_2024-12-15.md added to knowledge base.
+done.

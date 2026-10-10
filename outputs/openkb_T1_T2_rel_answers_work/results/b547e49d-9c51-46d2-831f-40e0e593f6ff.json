@@ -1,0 +1,19 @@
+{
+  "uid": "b547e49d-9c51-46d2-831f-40e0e593f6ff",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    9,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "No.  \n\nThe most recent conversation (session 36 — 2025‑01‑11) is a detailed **bar‑exam preparation plan**, focusing on study rhythms, incremental pacing, and exam‑specific tasks such as MBE and MPT practice【1†L1-L9】【1†L25-L33】.  \n\nWhile an earlier session (session 10 — 2024‑04‑13) dealt with astrophysical topics like dark‑matter vs. modified‑gravity observations【2†L1-L9】【2†L19-L27】, the user’s current studies are centered on law‑school certification rather than astrophysics.",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain any documents, concepts, or entity pages about astrophysics or related study materials. Consequently, I can’t generate a detailed, evidence‑based two‑week study plan for that subject from the available wiki content.",
+    "dim3_response": "**Focus for the next 2 weeks**\n\n| Goal | How to center your effort |\n|------|---------------------------|\n| **Build a sustainable rhythm** | Follow the **[[concepts/learning‑rhythm]]**: alternate *input* days (review notes, watch lectures) with *output* days (MBE questions, essay outlines). Keep daily study to **1–2 hours** on weekdays. |\n| **Start small, then grow** | Apply **[[concepts/incremental‑pacing]]**: begin with a modest load and add ~10 % more volume every two weeks. |\n| **MBE practice** | Week 1–2: do **untimed** MBE question sets (≈ 90 questions total in Week 1, ≈ 110 in Week 2). Track accuracy but don’t time yourself yet. |\n| **Essay work** | Write **one full essay** and **two outlines** each week. Focus on structure rather than speed. |\n| **Recovery** | Reserve **one full rest day** per week (no study at all). Use it to reset mentally before the next week’s block. |\n| **Weekly checkpoint** | At the end of each week, review: <br>• MBE accuracy <br>• Essay outline completion <br>• How “draining” the sessions felt. If you’re fatigued, keep the next week’s load at the lower end of the target range. |\n| **Monthly milestone (end of Week 2)** | Aim to have **completed a subject outline** (e.g., Contracts) and **finished the first untimed MBE set**. This gives a concrete progress marker before you start adding timed elements in Week 3. |\n\n**Why these priorities?**  \n- The **learning‑rhythm** prevents burnout by balancing “input” (knowledge acquisition) with “output” (application).  \n- **Incremental‑pacing** ensures you steadily raise difficulty without overwhelming yourself.  \n- Early **untimed MBE practice** builds content familiarity; timed work can be introduced after the fourth week, as the original plan recommends.  \n- A dedicated **recovery day** is a core burnout‑prevention safeguard.\n\n**Next steps**  \n1. Draft a weekly schedule (e.g., Mon‑Fri = 1–2 h study, Sat = rest, Sun = review).  \n2. Pick a subject for the first outline and gather the relevant review material.  \n3. Pull an untimed MBE question bank (≈ 90 questions) and plan to split it over the first five weekdays.  \n4. Write your first full essay on a practice prompt; use the remaining two days for outlines.  \n\nStick to this structure for the next two weeks, then re‑evaluate at the weekly checkpoint and adjust the volume upward according to the **incremental‑pacing** guideline. This will set a solid foundation for the later, more intensive phases of your **[[entities/bar‑exam]]** preparation."
+  },
+  "build_seconds": 75.7,
+  "total_seconds": 86.6,
+  "usage": {}
+}

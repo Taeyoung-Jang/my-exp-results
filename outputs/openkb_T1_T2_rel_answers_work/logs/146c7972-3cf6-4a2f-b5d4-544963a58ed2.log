@@ -1,0 +1,22 @@
+=== 2026-10-10 15:31:25 uid=146c7972-3cf6-4a2f-b5d4-544963a58ed2 ===
+Adding: session-08_2024-06-15.md
+  Compiling short doc...
+    summary..................... 21.1s (in=2458, out=1205, cached=784)
+    concepts-plan.... 4.7s (in=3721, out=617, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: umbrella-role... 5.3s (in=3569, out=905)
+    concept: resume-linkedin-formatting... 7.0s (in=3584, out=958, cached=784)
+    entity: linkedin... 4.4s (in=3616, out=266, cached=768)
+    entity: brightwave-health-systems... 16.1s (in=3618, out=648, cached=784)
+    concept: client-listing-strategies... 33.4s (in=3582, out=1178, cached=784)
+    summary-rewrite............................... 31.4s (in=3613, out=1103, cached=64)
+  [OK] session-08_2024-06-15.md added to knowledge base.
+Adding: session-35_2025-02-15.md
+  Compiling short doc...
+    summary......... 9.3s (in=2426, out=727)
+    concepts-plan. 1.7s (in=3493, out=142)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-35_2025-02-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-35_2025-02-15.md added to knowledge base.
+done.

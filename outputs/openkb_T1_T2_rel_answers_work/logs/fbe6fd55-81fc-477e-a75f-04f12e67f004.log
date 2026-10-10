@@ -1,0 +1,32 @@
+=== 2026-10-10 15:30:03 uid=fbe6fd55-81fc-477e-a75f-04f12e67f004 ===
+Adding: session-01_2025-01-20.md
+  Compiling short doc...
+    summary........... 11.2s (in=1962, out=991)
+    concepts-plan.. 2.6s (in=2719, out=111, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: color_temperature... 4.0s (in=2569, out=852)
+    concept: diffuser... 7.9s (in=2583, out=878, cached=784)
+    concept: lumens... 9.6s (in=2569, out=692)
+    concept: fixture_type... 10.0s (in=2583, out=968, cached=784)
+    entity: led_bulb... 4.3s (in=2615, out=736, cached=768)
+    entity: monitor... 4.1s (in=2613, out=555, cached=768)
+    concept: dimmer_switch... 13.8s (in=2583, out=510, cached=768)
+    summary-rewrite............... 15.0s (in=2614, out=741, cached=768)
+  [OK] session-01_2025-01-20.md added to knowledge base.
+Adding: session-32_2025-07-23.md
+  Compiling short doc...
+    summary................ 16.1s (in=2060, out=714, cached=784)
+    concepts-plan..................... 21.3s (in=3088, out=955, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    update: color_temperature... 5.3s (in=3410, out=1105, cached=68)
+    concept: monitor_placement... 7.0s (in=2877, out=802, cached=784)
+    entity: bias_light_strip... 5.0s (in=2913, out=801, cached=784)
+    concept: bias_lighting... 14.0s (in=2877, out=923, cached=784)
+    entity: roller_shade... 9.1s (in=2899, out=672)
+    entity: solar_screen_fabric... 2.5s (in=2910, out=672, cached=768)
+    concept: glare_reduction... 15.0s (in=2878, out=569, cached=768)
+    summary-rewrite.... 4.5s (in=2909, out=877, cached=784)
+  [OK] session-32_2025-07-23.md added to knowledge base.
+done.

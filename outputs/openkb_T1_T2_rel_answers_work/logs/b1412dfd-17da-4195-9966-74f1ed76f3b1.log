@@ -1,0 +1,49 @@
+=== 2026-10-10 15:35:38 uid=b1412dfd-17da-4195-9966-74f1ed76f3b1 ===
+Adding: session-04_2024-06-16.md
+  Compiling short doc...
+    summary.......=== 2026-10-10 15:35:54 uid=b1412dfd-17da-4195-9966-74f1ed76f3b1 ===
+Adding: session-04_2024-06-16.md
+  Compiling short doc...
+    summary........... 11.9s (in=2015, out=648, cached=64)
+    concepts-plan. 1.4s (in=3024, out=394)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: role-ownership... 3.7s (in=2895, out=839, cached=784)
+    entity: slack... 2.6s (in=2928, out=307)
+    concept: handoff-signal... 9.2s (in=2896, out=479, cached=1984)
+    entity: trello... 12.5s (in=2930, out=696)
+    concept: definition-of-done... 24.8s (in=2896, out=865, cached=786)
+Entity generation failed: LLM returned empty content for concept 'slack'
+    [WARN] 2 entity(ies) planned but only 1 written for session-04_2024-06-16 (ValueError).
+    summary-rewrite..................... 21.8s (in=2927, out=977, cached=64)
+[92m15:36:55 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-04_2024-06-16.md added to knowledge base.
+Adding: session-33_2025-02-16.md
+  Compiling short doc...
+    summary............ 12.1s (in=3165, out=1115)
+    concepts-plan.. 2.1s (in=4505, out=117, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: code-pattern-memory... 8.7s (in=4321, out=1041, cached=784)
+    concept: transition-support... 11.2s (in=4307, out=1065)
+    concept: anchor-routines... 13.1s (in=4321, out=779, cached=64)
+    concept: low-risk-practice-plan... 17.9s (in=4323, out=1234, cached=784)
+    concept: anti-spiral-scripts... 17.5s (in=4323, out=991, cached=784)
+    summary-rewrite........ 8.3s (in=4356, out=1319, cached=768)
+  [OK] session-33_2025-02-16.md added to knowledge base.
+done.

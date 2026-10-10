@@ -1,0 +1,36 @@
+=== 2026-10-10 14:42:31 uid=45888520-9482-4e6f-98b3-7a44e351e25e ===
+Adding: session-01_2024-09-14.md
+  Compiling short doc...
+    summary.......... 11.0s (in=1932, out=940)
+    concepts-plan............ 12.8s (in=3018, out=621, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: caffeine-ritual... 3.0s (in=2884, out=750, cached=768)
+    concept: caffeine-tapering... 5.1s (in=2876, out=969)
+    entity: tea... 3.0s (in=2920, out=695, cached=784)
+    entity: coffee... 10.5s (in=2920, out=953)
+    entity: caffeine... 3.0s (in=2921, out=714, cached=2752)
+    concept: caffeine-dependence... 12.4s (in=2875, out=844)
+    entity: decaf-coffee... 13.6s (in=2922, out=710, cached=64)
+    summary-rewrite.............. 14.4s (in=2905, out=965)
+  [OK] session-01_2024-09-14.md added to knowledge base.
+Adding: session-35_2025-03-13.md
+  Compiling short doc...
+    summary.................... 21.0s (in=3394, out=633, cached=64)
+    concepts-plan................... 19.9s (in=4563, out=1311)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    entity: greek-yogurt... 14.5s (in=4404, out=927)
+    concept: mobility-flow... 17.4s (in=4368, out=1114)
+    concept: energy-crash-troubleshooting... 18.6s (in=4383, out=957, cached=784)
+    concept: steady-energy-breakfast... 22.7s (in=4383, out=1062, cached=784)
+    entity: hard-boiled-egg... 8.9s (in=4418, out=960, cached=784)
+    entity: nuts... 11.9s (in=4415, out=670, cached=784)
+    entity: turkey... 3.7s (in=4436, out=799, cached=768)
+    entity: whole-grain-toast... 5.7s (in=4418, out=886, cached=784)
+    entity: avocado... 19.1s (in=4416, out=655, cached=4256)
+    entity: chicken... 15.3s (in=4406, out=1039)
+    entity: cottage-cheese... 31.8s (in=4416, out=1283, cached=784)
+    summary-rewrite..... 5.6s (in=4412, out=1021)
+  [OK] session-35_2025-03-13.md added to knowledge base.
+done.

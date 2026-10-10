@@ -1,0 +1,37 @@
+=== 2026-10-10 14:49:24 uid=464b1554-c69f-4ca5-92bb-ee0dc950acdf ===
+Adding: session-02_2024-06-15.md
+  Compiling short doc...
+    summary................. 17.5s (in=3152, out=1904, cached=784)
+    concepts-plan......... 9.5s (in=4119, out=1009, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: phone-organization... 1.8s (in=3993, out=1)
+    concept: notification-management... 8.5s (in=3980, out=872)
+    entity: iphone... 17.3s (in=4028, out=821)
+    entity: android... 17.8s (in=4027, out=693)
+    entity: ios... 12.5s (in=4015, out=880)
+    entity: app-drawer... 3.5s (in=4028, out=805, cached=784)
+    entity: settings... 4.2s (in=4027, out=311, cached=768)
+    entity: widgets... 3.1s (in=4027, out=284, cached=768)
+    concept: battery-optimization... 35.1s (in=3993, out=1055, cached=64)
+    entity: app-library... 24.0s (in=4028, out=853, cached=3856)
+Concept generation failed: LLM returned empty content for concept 'phone-organization'
+    [WARN] 3 concept(s) planned but only 2 written for session-02_2024-06-15 (ValueError).
+    summary-rewrite........... 11.9s (in=4025, out=945, cached=64)
+  [OK] session-02_2024-06-15.md added to knowledge base.
+Adding: session-33_2025-02-13.md
+  Compiling short doc...
+    summary........... 11.1s (in=2282, out=638, cached=64)
+    concepts-plan........................ 24.9s (in=3483, out=997, cached=64)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: attention-control... 11.4s (in=3200, out=830)
+    concept: tech-simplification... 11.9s (in=3201, out=906)
+    update: notification-management... 17.1s (in=3715, out=975, cached=64)
+    entity: dedicated-gps-device... 9.7s (in=3236, out=708)
+    concept: device-separation... 26.0s (in=3213, out=886, cached=64)
+    entity: flip-phone... 21.9s (in=3248, out=915, cached=3088)
+    entity: laptop... 16.7s (in=3247, out=848, cached=64)
+    summary-rewrite....... 7.7s (in=3249, out=1416, cached=768)
+  [OK] session-33_2025-02-13.md added to knowledge base.
+done.

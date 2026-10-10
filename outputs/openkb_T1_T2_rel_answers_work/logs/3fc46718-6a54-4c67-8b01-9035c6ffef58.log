@@ -1,0 +1,29 @@
+=== 2026-10-10 15:38:52 uid=3fc46718-6a54-4c67-8b01-9035c6ffef58 ===
+Adding: session-12_2024-07-24.md
+  Compiling short doc...
+    summary............... 15.3s (in=1489, out=578, cached=784)
+    concepts-plan............ 12.3s (in=2307, out=626)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: dubbed-audio-convenience... 3.0s (in=2164, out=731, cached=768)
+    concept: genre-audio-preference... 3.0s (in=2168, out=757, cached=784)
+    concept: original-audio-immersion... 3.9s (in=2203, out=740)
+    entity: italian-language... 3.9s (in=2200, out=599, cached=784)
+    summary-rewrite.. 2.0s (in=2194, out=721, cached=2032)
+  [OK] session-12_2024-07-24.md added to knowledge base.
+Adding: session-40_2025-07-24.md
+  Compiling short doc...
+    summary..... 5.5s (in=2235, out=849, cached=784)
+    concepts-plan.......... 10.0s (in=3259, out=839)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: cognitive-benefits-of-writing... 4.9s (in=3116, out=957, cached=784)
+    entity: dr-rivera... 5.4s (in=3146, out=640, cached=784)
+    concept: simple-notebook-layout... 6.5s (in=3114, out=1039, cached=784)
+    entity: stroke... 5.9s (in=3148, out=379, cached=768)
+    entity: pocket-notebook... 7.4s (in=3145, out=465, cached=768)
+    entity: post-office... 8.7s (in=3132, out=783)
+    concept: focus-and-progress-tracking... 19.7s (in=3114, out=896, cached=64)
+    summary-rewrite................. 17.3s (in=3142, out=931, cached=64)
+  [OK] session-40_2025-07-24.md added to knowledge base.
+done.

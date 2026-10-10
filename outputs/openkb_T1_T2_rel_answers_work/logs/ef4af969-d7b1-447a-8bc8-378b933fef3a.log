@@ -1,0 +1,32 @@
+=== 2026-10-10 15:51:22 uid=ef4af969-d7b1-447a-8bc8-378b933fef3a ===
+Adding: session-10_2023-10-31.md
+  Compiling short doc...
+    summary. 1.6s (in=2110, out=897, cached=768)
+    concepts-plan...... 6.1s (in=3188, out=759, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: label_scanning_tips... 7.8s (in=3069, out=873, cached=784)
+    concept: peanut_allergy_checklist... 15.1s (in=3061, out=1303)
+    entity: msg... 8.8s (in=3109, out=651, cached=784)
+    entity: arachis_oil... 2.9s (in=3108, out=344)
+    concept: hidden_ingredients... 19.7s (in=3068, out=878)
+    entity: malt_syrup... 8.8s (in=3103, out=799, cached=784)
+    entity: peanut... 28.7s (in=3101, out=861, cached=784)
+    entity: dextrose... 14.1s (in=3103, out=560)
+Entity generation failed: LLM returned empty content for concept 'arachis_oil'
+    [WARN] 5 entity(ies) planned but only 4 written for session-10_2023-10-31 (ValueError).
+    summary-rewrite................... 19.4s (in=3099, out=1874)
+  [OK] session-10_2023-10-31.md added to knowledge base.
+Adding: session-37_2024-09-01.md
+  Compiling short doc...
+    summary............. 13.4s (in=2314, out=933)
+    concepts-plan............ 12.1s (in=3566, out=748, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: food_reintroduction_plan... 4.9s (in=3318, out=932)
+    concept: confidence_building_food... 19.4s (in=3318, out=902, cached=64)
+    concept: restaurant_communication... 24.4s (in=3316, out=703, cached=64)
+Concept generation failed: LLM returned empty content for concept 'food_reintroduction_plan'
+    [WARN] 3 concept(s) planned but only 2 written for session-37_2024-09-01 (ValueError).
+    summary-rewrite.............. 15.0s (in=3345, out=933, cached=768)
+  [OK] session-37_2024-09-01.md added to knowledge base.
+done.

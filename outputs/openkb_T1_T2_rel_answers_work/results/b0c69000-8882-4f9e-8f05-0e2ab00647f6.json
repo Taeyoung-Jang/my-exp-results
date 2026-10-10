@@ -1,0 +1,32 @@
+{
+  "uid": "b0c69000-8882-4f9e-8f05-0e2ab00647f6",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    9,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. In the July‑2024 conversation the user was advised that the public GitHub contribution graph only reflects the code they push to public‑visible repos, and that a lot of recent work – especially private‑repo code, experiments, internal tools, architecture decisions, and other non‑code contributions – won’t appear there. They were encouraged to add a “footnote” layer (see [[concepts/footnotes-to-graph]]) to capture that invisible work. Therefore, the user’s GitHub contributions no longer represent the bulk of what they’ve been coding lately.",
+    "dim2_response": "**Strategy for a consistently‑active GitHub contribution graph**\n\n1. **Schedule regular, visible code work**  \n   - **Mini‑commits**: Break larger tasks into daily or every‑other‑day commits (e.g., small refactors, test additions, CI‑config tweaks).  \n   - **Open‑source “quick‑wins”**: Spend 1‑2 hours a week fixing minor bugs or improving docs in a public repo — each merge shows up as a contribution.\n\n2. **Leverage “non‑code” activity as *footnotes* instead of trying to force it into the graph**  \n   - Record architecture discussions, mentorship, incident post‑mortems, research, and internal tooling work in a lightweight “footnote” layer (see [[concepts/footnotes-to-graph]]).  \n   - This keeps the graph honest (no duplication) while still documenting the broader impact of your work.\n\n3. **Use a simple Monthly / Quarterly template**  \n   - Follow the template described in the footnotes concept and the session summary (see [[concepts/non-code-contributions]]).  \n   - Sections:  \n     1. **Visible code contributions** – list PRs/commits with dates.  \n     2. **Non‑code contributions** – brief bullet points (e.g., “Mentored new hire on deployment pipeline”).  \n     3. **Upcoming focus** – set a small, concrete coding goal for the next period.\n\n4. **Integrate contribution‑tracking into your workflow**  \n   - Add a reminder (calendar or task‑manager) to update the template at the end of each week.  \n   - When you close a PR or push a commit, tag it in the template right away – this prevents backlog buildup.\n\n5. **Create a “public‑visibility” side project**  \n   - A small personal repo (e.g., a CLI tool, blog generator, or automation script) that you commit to at least once a week.  \n   - Even documentation updates or CI‑pipeline tweaks count as contributions.\n\n6. **Contribute to community infrastructure**  \n   - Issue triage, labeling, or reviewing pull requests in projects you already depend on.  \n   - These actions appear as “contributions” on GitHub and diversify the activity graph.\n\n7. **Automate recurrent commits where appropriate**  \n   - Set up a scheduled GitHub Action that updates a “stats” or “changelog” file in a personal repo (e.g., “📅 2025‑02‑01 – daily‑log”).  \n   - The auto‑generated commit still shows up on the graph but doesn’t inflate effort perception because the underlying work is minimal.\n\n8. **Review the graph weekly**  \n   - Use the visual graph to spot gaps — if a weekend shows no activity, plan a tiny contribution (e.g., a doc edit) for the next day.\n\nBy **combining frequent, bite‑size code commits** with a **structured footnote record of non‑code work** (as advocated in [[concepts/footnotes-to-graph]] and [[concepts/non-code-contributions]]), you keep the GitHub contribution graph alive, trustworthy, and reflective of both visible output and the broader value you bring to projects.",
+    "dim3_response": "Using a single public activity source (e.g., your GitHub or GitLab contribution graph) as the **only** signal for a “What I’m working on” section is **not** a solid choice if you want a well‑rounded picture of your work.\n\n* **Public contribution graphs capture only code‑centric output.** As the summary of session‑10 (2024‑07‑15) explains, they miss private repo work, architecture decisions, mentoring, incident response, design work, and other “invisible” contributions. [[concepts/non-code-contributions]]\n* **Treat work history as a narrative, not a scoreboard.** The activity‑tracking concept recommends using the public graph **as a baseline** and adding a lightweight “footnote” layer for anything the graph doesn’t show. [[concepts/footnotes-to-graph]]\n* **Separate automatic logs from human context.** A concise personal log (the template described in the same session) lets you record outcomes, decisions, and impact that aren’t reflected in the public graph, while still keeping the overall view tidy. [[concepts/activity-tracking]]\n\n**Recommendation**\n\n1. **Keep the public activity source** (GitHub/GitLab) as a **supporting signal**—it validates the code you’ve shipped.  \n2. **Add a supplemental narrative** (e.g., a quarterly or monthly Markdown log) that covers:  \n   * Private or internal work  \n   * Non‑code contributions (design, mentoring, documentation)  \n   * High‑level impact statements and context not visible on the graph  \n3. Optionally surface a one‑page summary for reviewers that blends both signals.\n\nBy combining the public graph with a brief, structured “footnote” layer, you present a more complete and credible view of what you’re working on, while keeping maintenance effort low."
+  },
+  "build_seconds": 51.6,
+  "total_seconds": 69.7,
+  "usage": {
+    "compile": {
+      "calls": 11,
+      "prompt_tokens": 32477,
+      "completion_tokens": 6485,
+      "cost_usd": 0.0038443069999999995
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 21983,
+      "completion_tokens": 2537,
+      "cost_usd": 0.00111615
+    }
+  }
+}

@@ -1,0 +1,30 @@
+=== 2026-10-10 15:48:22 uid=7b568b27-c87a-4a93-9596-e65478544681 ===
+Adding: session-11_2025-06-15.md
+  Compiling short doc...
+    summary.................. 18.2s (in=2578, out=852)
+    concepts-plan......... 9.1s (in=3568, out=772, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: windows-11... 2.7s (in=3476, out=656, cached=784)
+    concept: local-file-organization... 5.9s (in=3440, out=841)
+    entity: file-history... 3.8s (in=3475, out=811, cached=784)
+    concept: versioning... 8.0s (in=3427, out=730)
+    entity: external-drive... 3.2s (in=3475, out=755, cached=784)
+    entity: home-nas... 3.5s (in=3475, out=948, cached=3312)
+    concept: two-layer-backup... 15.8s (in=3442, out=1366, cached=784)
+    entity: windows-backup-restore... 22.5s (in=3482, out=622, cached=64)
+Concept generation failed: LLM returned empty content for concept 'local-file-organization'
+    [WARN] 3 concept(s) planned but only 2 written for session-11_2025-06-15 (ValueError).
+    summary-rewrite... 3.4s (in=3472, out=1054, cached=3312)
+  [OK] session-11_2025-06-15.md added to knowledge base.
+Adding: session-34_2025-09-15.md
+  Compiling short doc...
+    summary...... 6.5s (in=2090, out=1533, cached=786)
+    concepts-plan... 3.3s (in=3157, out=648, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: cloud-sync... 5.1s (in=2894, out=903, cached=68)
+    concept: security-hygiene... 9.3s (in=2895, out=1465, cached=784)
+    concept: session-log... 30.4s (in=2895, out=858, cached=64)
+    summary-rewrite.... 4.5s (in=2927, out=612, cached=784)
+  [OK] session-34_2025-09-15.md added to knowledge base.
+done.

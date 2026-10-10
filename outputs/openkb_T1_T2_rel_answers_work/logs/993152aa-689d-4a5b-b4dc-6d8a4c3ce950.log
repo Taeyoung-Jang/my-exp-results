@@ -1,0 +1,38 @@
+=== 2026-10-10 15:40:13 uid=993152aa-689d-4a5b-b4dc-6d8a4c3ce950 ===
+Adding: session-07_2025-06-15.md
+  Compiling short doc...
+    summary.............. 14.8s (in=3197, out=872, cached=768)
+    concepts-plan...... 7.0s (in=4442, out=898, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: meal-template-design... 11.0s (in=4291, out=1353, cached=3984)
+    concept: grocery-staples-for-minimal-cooking... 12.2s (in=4293, out=750, cached=64)
+    concept: protein-targeting... 15.2s (in=4291, out=519, cached=768)
+    summary-rewrite.... 4.5s (in=4321, out=999)
+  [OK] session-07_2025-06-15.md added to knowledge base.
+Adding: session-37_2025-09-15.md
+  Compiling short doc...
+    summary...... 6.8s (in=5192, out=1453, cached=784)
+    concepts-plan.................. 18.4s (in=6218, out=1753)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 13 entity(ies) (concurrency=4)...
+    entity: greek-yogurt... 10.6s (in=6172, out=924)
+    entity: cottage-cheese... 6.5s (in=6184, out=812, cached=784)
+    concept: soft-high-protein-meals... 19.8s (in=6144, out=1809)
+    concept: batch-prep-quantities... 27.3s (in=6160, out=1602)
+    entity: ricotta... 12.2s (in=6185, out=488, cached=768)
+    concept: food-safety-categories... 33.3s (in=6155, out=1473)
+    entity: hummus... 5.2s (in=6185, out=690, cached=784)
+    entity: protein-powder... 15.2s (in=6184, out=840)
+    entity: oatmeal... 10.4s (in=6172, out=1033)
+    entity: polenta... 3.2s (in=6184, out=803, cached=5184)
+    entity: silken-tofu... 26.2s (in=6186, out=1142)
+    entity: temporary-crowns... 3.0s (in=6185, out=526)
+    entity: avocado... 4.9s (in=6184, out=744, cached=784)
+    entity: white-bean... 19.7s (in=6184, out=888, cached=784)
+    entity: mashed-potatoes... 14.5s (in=6186, out=1060)
+    entity: temporary-dental-cement... 14.1s (in=6185, out=501, cached=768)
+Entity generation failed: LLM returned empty content for concept 'temporary-crowns'
+    [WARN] 13 entity(ies) planned but only 12 written for session-37_2025-09-15 (ValueError).
+    summary-rewrite................ 16.0s (in=6168, out=1198)
+  [OK] session-37_2025-09-15.md added to knowledge base.
+done.

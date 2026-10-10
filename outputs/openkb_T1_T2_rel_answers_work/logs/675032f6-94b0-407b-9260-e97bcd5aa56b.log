@@ -1,0 +1,34 @@
+=== 2026-10-10 14:29:34 uid=675032f6-94b0-407b-9260-e97bcd5aa56b ===
+Adding: session-08_2022-06-15.md
+  Compiling short doc...
+    summary....... 7.8s (in=2521, out=932, cached=784)
+    concepts-plan........... 11.7s (in=3713, out=1421, cached=2512)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: cross-contamination-warnings... 7.9s (in=3627, out=851, cached=3488)
+    concept: korean-allergen-terminology... 10.0s (in=3626, out=1180, cached=2512)
+    entity: mil-wheat... 10.6s (in=3661, out=1277, cached=3264)
+    concept: food-label-reading... 11.9s (in=3624, out=1321, cached=784)
+    entity: kong-soy... 6.4s (in=3661, out=767, cached=3488)
+    entity: uyu-milk... 8.6s (in=3661, out=992, cached=3488)
+    entity: aspartame... 7.1s (in=3666, out=778, cached=3488)
+    entity: msg-monosodium-glutamate... 9.7s (in=3675, out=1120, cached=3488)
+    entity: potassium-sorbate... 6.7s (in=3669, out=760, cached=3488)
+    entity: sodium-nitrite... 5.9s (in=3669, out=693, cached=3488)
+    entity: processed-potato-starch... 8.1s (in=3669, out=980, cached=3488)
+    summary-rewrite........... 11.9s (in=3655, out=1381, cached=3488)
+  [OK] session-08_2022-06-15.md added to knowledge base.
+Adding: session-32_2024-06-15.md
+  Compiling short doc...
+    summary.... 4.6s (in=2265, out=918)
+    concepts-plan... 3.7s (in=3597, out=856, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: low-budget-accessibility... 4.7s (in=3264, out=757, cached=800)
+    entity: riverside-community-center... 8.7s (in=3268, out=636)
+    entity: community-dinner... 4.6s (in=3280, out=1123, cached=2832)
+    concept: inclusive-communication... 24.5s (in=3245, out=800, cached=784)
+    concept: plain-language... 25.7s (in=3245, out=740, cached=64)
+    summary-rewrite..... 5.1s (in=3277, out=831, cached=784)
+  [OK] session-32_2024-06-15.md added to knowledge base.
+done.

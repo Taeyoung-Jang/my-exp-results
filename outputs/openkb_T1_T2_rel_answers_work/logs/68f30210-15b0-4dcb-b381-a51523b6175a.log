@@ -1,0 +1,39 @@
+=== 2026-10-10 15:30:45 uid=68f30210-15b0-4dcb-b381-a51523b6175a ===
+Adding: session-13_2024-06-15.md
+  Compiling short doc...
+    summary............ 12.3s (in=1966, out=734)
+    concepts-plan......................... 25.0s (in=2919, out=1045, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 12 entity(ies) (concurrency=4)...
+    entity: experian... 2.3s (in=2853, out=602, cached=64)
+    entity: equifax... 5.6s (in=2856, out=320, cached=768)
+    concept: source_of_truth... 11.0s (in=2809, out=731)
+    concept: prioritized_checklist... 13.1s (in=2809, out=956)
+    entity: transunion... 7.2s (in=2856, out=273, cached=768)
+    concept: address_consistency... 17.4s (in=2822, out=930, cached=784)
+    entity: dmv... 10.0s (in=2858, out=605)
+    entity: amazon... 10.9s (in=2855, out=575, cached=784)
+    entity: google... 2.3s (in=2838, out=678)
+    entity: paypal... 14.7s (in=2843, out=1115)
+    entity: irs... 24.7s (in=2857, out=937, cached=784)
+    entity: fedex... 4.6s (in=2856, out=539, cached=784)
+    entity: ups... 8.4s (in=2842, out=626)
+    entity: apple... 15.1s (in=2855, out=760, cached=2688)
+    entity: usps... 4.7s (in=2855, out=874, cached=784)
+    summary-rewrite............. 13.1s (in=2853, out=912)
+  [OK] session-13_2024-06-15.md added to knowledge base.
+Adding: session-33_2025-02-13.md
+  Compiling short doc...
+    summary.......... 10.6s (in=4048, out=1410, cached=800)
+    concepts-plan... 3.6s (in=5898, out=545, cached=4048)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: shift_work_nap_strategy... 7.1s (in=5526, out=892)
+    concept: night_shift_nutrition_kit... 23.1s (in=5527, out=748, cached=64)
+    concept: apartment_hunting_shift_workers... 24.8s (in=5527, out=1156, cached=784)
+    concept: daytime_noise_mitigation... 20.0s (in=5527, out=967, cached=5392)
+    concept: anchor_sleep... 33.5s (in=5524, out=1196, cached=48)
+Concept generation failed: LLM returned empty content for concept 'shift_work_nap_strategy'
+    [WARN] 5 concept(s) planned but only 4 written for session-33_2025-02-13 (ValueError).
+    summary-rewrite...... 6.9s (in=5560, out=1354, cached=768)
+  [OK] session-33_2025-02-13.md added to knowledge base.
+done.

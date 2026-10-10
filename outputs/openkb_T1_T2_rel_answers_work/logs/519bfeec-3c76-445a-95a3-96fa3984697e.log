@@ -1,0 +1,31 @@
+=== 2026-10-10 15:38:52 uid=519bfeec-3c76-445a-95a3-96fa3984697e ===
+Adding: session-02_2025-06-15.md
+  Compiling short doc...
+    summary............... 15.5s (in=3002, out=715, cached=768)
+    concepts-plan.... 4.0s (in=4110, out=147, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: minimum-fallback... 7.9s (in=3954, out=967, cached=784)
+    concept: themed-rotation... 11.4s (in=3954, out=734)
+    concept: habit-anchoring... 12.8s (in=3941, out=903)
+    summary-rewrite..... 5.0s (in=3984, out=933)
+  [OK] session-02_2025-06-15.md added to knowledge base.
+Adding: session-33_2025-08-15.md
+  Compiling short doc...
+    summary........... 11.5s (in=2132, out=806, cached=64)
+    concepts-plan.... 4.1s (in=3119, out=1072, cached=69)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: pre-work-ritual... 3.9s (in=2975, out=1102, cached=768)
+    entity: coffee-maker... 6.2s (in=3011, out=418, cached=768)
+    entity: travel-mug... 7.2s (in=3011, out=428, cached=64)
+    concept: night-shift-productivity... 17.8s (in=2977, out=921)
+    concept: habit-stacking... 18.6s (in=2977, out=1131)
+    entity: bottled-caffeine... 2.3s (in=3012, out=294)
+    entity: notes-app... 10.3s (in=2998, out=916)
+    entity: distribution-center... 20.0s (in=3011, out=1144, cached=2128)
+    update: minimum-fallback... 39.9s (in=3495, out=2045, cached=784)
+Entity generation failed: LLM returned empty content for concept 'bottled-caffeine'
+    [WARN] 5 entity(ies) planned but only 4 written for session-33_2025-08-15 (ValueError).
+    summary-rewrite............ 12.8s (in=2995, out=913)
+  [OK] session-33_2025-08-15.md added to knowledge base.
+done.

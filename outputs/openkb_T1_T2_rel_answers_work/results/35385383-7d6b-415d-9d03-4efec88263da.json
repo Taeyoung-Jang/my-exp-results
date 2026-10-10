@@ -1,0 +1,32 @@
+{
+  "uid": "35385383-7d6b-415d-9d03-4efec88263da",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    4,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "I’m unable to find any information in the knowledge base about your current location or travel plans. The wiki contains only document‑derived content, and there’s no record of a conversation indicating that you are still on an intercity train or that you expect another three‑hour transit period. If you’d like me to check a specific source, please provide its reference.",
+    "dim2_response": "Here are a few practical ideas you can mix‑and‑match to stay comfortable **and** get things done during the next three‑hour stretch:\n\n---  \n\n### 1. **Low‑effort audio that tolerates attention drift**  \n- **Podcasts:** light, episodic shows such as *Conan O’Brien Needs a Friend*, *Stuff You Should Know*, *Ologies*, or *Armchair Expert* – you can pause, rewind, or skip without losing the thread. [[summaries/session-05_2025-06-15]]  \n- **Audiobooks:** gentle, character‑driven titles like *The House in the Cerulean Sea* or *The No. 1 Ladies’ Detective Agency* are perfect for short bursts of listening. [[summaries/session-05_2025-06-15]]  \n\n> **Tip:** Use the “attention‑drift” mindset – treat each episode or chapter as a micro‑task you can drop and resume. [[concepts/attention_drift]]\n\n---  \n\n### 2. **Offline games for quick, satisfying play**  \n- **Alto’s Odyssey** – endless runner that feels meditative and works fully offline.  \n- **Monument Valley** – calm puzzle adventure (once installed).  \n- **Solitaire** or **Mini Metro** – classic, low‑commitment games that fit into a 5‑minute window. [[summaries/session-05_2025-06-15]]  \n\n> These satisfy the “offline entertainment” principle, keeping you engaged without needing Wi‑Fi. [[concepts/offline_entertainment]]\n\n---  \n\n### 3. **Simple offline activities**  \n- **Word/number puzzles** (crosswords, Sudoku) in a notes app.  \n- **People‑watching** from the window; note interesting observations.  \n- **Jot down ideas** – a quick brainstorming session for a project, a to‑do list, or a brief journal entry.  \n- **Micro‑learning** – download a language‑learning lesson or short documentary beforehand and watch/listen in short bursts.\n\n---  \n\n### 4. **Physical comfort & mindful movement**  \n- **Stretch every 30 min**: neck rolls, shoulder shrugs, seated leg extensions.  \n- **Posture check**: sit upright, then relax shoulders; alternate between “rest” and “engaged” positions.  \n- **Window view**: gaze out for a minute every hour to reset visual fatigue.  \n- **Brief chat** with a fellow passenger (if you’re comfortable) – a quick social boost.\n\n---  \n\n### 5. **Mini breathing / mantra break (2‑3 min)**  \n- **4‑1‑5 breathing pattern** – inhale 4 sec, hold 1 sec, exhale 5 sec. You can do it entirely through the nose for quiet steadiness, or exhale through the mouth for a sense of release. [[summaries/session-34_2025-12-13]]  \n- **Calming mantra**: “Breathing in ease.” Repeat it silently as you breathe; it anchors attention and reduces any rising tension. [[concepts/yoga_intention]]\n\n---  \n\n### 6. **Productive “time‑chunk” planning**  \n1. **Chunk the next 3 h** into three 50‑minute focus blocks with 10‑minute buffer breaks.  \n2. **Assign a purpose** to each block (e.g., 1️⃣ audio learning, 2️⃣ offline game + notes, 3️⃣ writing or planning).  \n3. **Use a simple checklist** (paper or phone notes) to tick off each micro‑task – the visual progress makes the journey feel shorter. [[concepts/travel_time_management]]\n\n---  \n\n**Putting it together (example schedule):**  \n\n| Time | Activity | Why it helps |\n|------|----------|--------------|\n| 0‑5 min | Quick stretch + 4‑1‑5 breathing + “Breathing in ease” mantra | Relaxes body, primes focus |\n| 5‑55 min | Listen to a *Stuff You Should Know* episode (episode on “bubble gum”) | Low‑commitment audio, fits attention drift |\n| 55‑65 min | Stretch, walk the aisle, glance out the window | Breaks monotony, resets posture |\n| 65‑115 min | Play Alto’s Odyssey (10 min), then jot down three ideas for your next project | Light game + productive note‑taking |\n| 115‑125 min | Stretch + 4‑1‑5 breathing again | Refreshes mind |\n| 125‑175 min | Listen to *The House in the Cerulean Sea* (audiobook chapter) | Engaging story, still low effort |\n| 175‑185 min | Final stretch, check off completed tasks, plan next day | Ends ride with sense of accomplishment |\n\nMix any of the above elements to match your mood and energy level. Safe travels, and enjoy the ride!",
+    "dim3_response": "I’m sorry—I couldn’t locate any guidance on phone or personal‑item etiquette in the knowledge base. If you can point me to a specific document or give more context, I’ll be happy to look it up and provide a concise answer."
+  },
+  "build_seconds": 106.5,
+  "total_seconds": 140.4,
+  "usage": {
+    "compile": {
+      "calls": 22,
+      "prompt_tokens": 60171,
+      "completion_tokens": 19264,
+      "cost_usd": 0.011438367999999999
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 23672,
+      "completion_tokens": 2819,
+      "cost_usd": 0.00121758
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "uid": "d88ae635-0e7c-416e-b893-c16525d23a4f",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    8,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. In the “stable weekly sleep schedule” advice (session 09 – 2024‑06‑13) the user is encouraged to adopt a **9 a.m. weekend wake‑up time** (with an optional brief “anchor” alarm earlier) and to **limit oversleep to ≤ 90 minutes**. The guidance is meant to keep the user out of bed by about 9 a.m., not to stay in bed later than that.",
+    "dim2_response": "**Relaxed Saturday‑Morning Plan (fits a “no‑out‑of‑bed‑before‑9 am” routine)**  \n\n1. **Sleep‑in (≈ 9 am)** – Keep the extra weekend sleep to ≤ 90 minutes as the sleep‑schedule guide recommends for minimal rhythm disruption【source**summaries/session-09_2024-06-13.md**】.  \n2. **Anchor‑alarm (optional)** – If you like a gentle “wake‑up cue,” set a brief half‑way alarm around 7:45 am, sit up for 5‑10 minutes, get a little natural light (e.g., open blinds or step onto a balcony), then return to sleep and rise at 9 am【source**summaries/session-09_2024-06-13.md**】.  \n3. **Slow start (9 am‑10 am)**  \n   * Stretch or do a short 5‑minute mindfulness routine.  \n   * Brew a cup of coffee or tea, read a light article, or listen to a favorite podcast.  \n4. **Light activity (10 am‑10:30 am)** – A brief walk outside or a few minutes of gentle yoga helps reinforce the circadian cue and adds a bit of daylight exposure without feeling rushed.  \n5. **Brunch outing (≈ 10:30 am‑11:30 am)** – Head to a nearby brunch spot (see note below) after your relaxed start.  \n\n---\n\n### Suggested Brunch Spot  \n\nThe knowledge base does **not** contain any specific brunch‑venue entries, so I can’t point to a particular café or restaurant that is already documented. You can choose a local place that opens around 10 am and offers a leisurely atmosphere—e.g., a café with outdoor seating, a bakery‑style brunch menu, or a spot known for a relaxed vibe.  \n\nIf you later add a specific brunch venue to the wiki (as an **Entity** of type *place* or *product*), I’ll be able to reference it directly next time.  \n\n---\n\n### How this fits your usual schedule  \n\n* **Wake‑up time** – Aligns with the “no‑out‑of‑bed‑before‑9 am” habit and the weekend‑sleep‑in tolerance (≤ 90 min) described in the sleep‑schedule guidelines.  \n* **Anchor alarm** – Provides a gentle light cue without forcing an early rise, as suggested by the *anchor‑alarm‑strategy* concept.  \n* **Morning light** – A short walk or balcony exposure gives the brief morning‑light exposure the guide recommends for circadian reinforcement.  \n* **Brunch timing** – Leaving home around 10:30 am lets you enjoy a relaxed meal without feeling hurried, matching the “flexible weekend” spirit of the schedule.  \n\nEnjoy a leisurely Saturday that respects your natural rhythm!",
+    "dim3_response": "Based on the **stable‑weekend‑sleep** guidance you already have in your knowledge base (see [[summaries/session-09_2024-06-13]]), a weekend activity that starts at 10 a.m. can be realistic — provided you keep the “weekend‑sleep‑in” window within the recommended tolerance.\n\n### Why 10 a.m. can work\n\n| Guideline | What it means for a 10 a.m. start |\n|-----------|-----------------------------------|\n| **Consistent wake‑up anchor** | Keep a single anchor time each day (e.g., 6:30 am on weekdays). |\n| **Weekend‑sleep‑in tolerance** | Limit extra sleep to **≤ 90 minutes**. That translates to a latest‑acceptable wake‑up of roughly **8:00 am** (6:30 + 1.5 h). |\n| **Anchor‑alarm strategy** | Set a mid‑morning alarm (e.g., 7:45 am for a 6:30 am weekday schedule). Get up 5–10 min for light exposure, then either go back to sleep or stay up. |\n| **Morning light exposure** | The brief light cue after the anchor alarm helps keep your circadian rhythm stable, even if you stay up later. |\n| **Short‑nap option** | If you end up a bit short on sleep, a ≤ 30‑minute nap early in the afternoon can top you up without pushing bedtime later. |\n\nPutting those pieces together, a **10 a.m. brunch or class** fits comfortably if you:\n\n1. **Wake up no later than ~8 am** (or a little earlier if you prefer a relaxed morning).  \n2. Use the **anchor alarm** to get that light exposure and signal to your body that it’s still “morning,” even if you stay in bed a bit longer.  \n3. Keep any **extra sleep** to **≤ 90 minutes** beyond your weekday wake‑up time; going beyond that starts to act like a mini‑time‑zone shift and can make it harder to return to your weekday schedule.  \n4. If you feel groggy, a **brief early‑afternoon nap** (≤ 30 min) can help without compromising your next night’s bedtime.\n\n### Bottom line\n- **Realistic?** Yes—*as long as* you respect the ≤ 90‑minute weekend oversleep limit and maintain the anchor‑alarm/light‑exposure routine.  \n- **What to watch out for:** Sleeping past ≈ 9 am (i.e., more than 90 min later than your weekday wake‑up) can erode the consistency you’ve built, making it harder to get back on track Monday.\n\n**Practical tip:** Set an alarm for **7:45 am**, get up for a quick stretch and sunlight, then enjoy a leisurely breakfast and head to your 10 am activity feeling refreshed and still aligned with your weekday rhythm."
+  },
+  "build_seconds": 124.6,
+  "total_seconds": 170.0,
+  "usage": {
+    "compile": {
+      "calls": 18,
+      "prompt_tokens": 72449,
+      "completion_tokens": 17189,
+      "cost_usd": 0.009295695999999999
+    },
+    "query": {
+      "calls": 15,
+      "prompt_tokens": 29335,
+      "completion_tokens": 3901,
+      "cost_usd": 0.001582888
+    }
+  }
+}

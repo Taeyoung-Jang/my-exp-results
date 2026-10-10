@@ -1,0 +1,32 @@
+{
+  "uid": "1469bde3-6c26-41c4-bd02-fe6e57463b28",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    1,
+    37
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. In the most recent conversation (session 38 – 2025‑02‑15) the user’s guidance explicitly **skips “Optional/Preview” updates** and avoids “beta‑first” installations, focusing instead on a stable weekly‑update routine for both Windows 11 and iPhone OS【source:summaries/session-38_2025-02-15.md】.  \n\nEarlier (session 02 – 2024‑06‑15) the user was interested in “beta‑first” workflows and set up checklists for safely trying betas【source:summaries/session-02_2024-06-15.md】, but the newer advice shows a shift toward avoiding potentially glitchy beta versions.",
+    "dim2_response": "**Strategy for living on the newest pre‑release builds while keeping interruptions low**\n\n1. **Isolate the beta environment**  \n   *Run betas on a spare device (or a dedicated “beta” user account) instead of your daily‑driver machine.* This limits any crash or data loss to a non‑essential system. [[concepts/device-isolation]]\n\n2. **Create a fresh, verified backup right before each install**  \n   *Phone*: keep iCloud or Google Drive synced, then copy a local backup to a computer and verify timestamps/file presence.  \n   *Laptop*: make a full‑disk image with File History (Windows) or Time Machine (macOS) and confirm the image is restorable. [[concepts/beta-testing-risk-management]]\n\n3. **Memorize and rehearse a rollback plan**  \n   - **Phone** – know how to enter recovery mode and restore the local backup.  \n   - **Laptop** – know how to boot into the recovery environment and roll back to the latest snapshot.  \n   Practice these steps so you can revert within an hour if a beta breaks. [[concepts/beta-testing-risk-management]]\n\n4. **Schedule a “beta‑maintenance window”**  \n   - Choose a low‑impact time (e.g., weekend evenings).  \n   - Install the new pre‑release, run a quick sanity‑check of core apps, then **restart** the device.  \n   - If problems appear, roll back during the same window; otherwise, keep the beta for the next week. [[summaries/session-38_2025-02-15]]\n\n5. **Use selective automation**  \n   - Keep **download‑only** toggles turned on (e.g., iOS “Download iOS Updates”) so the update is ready but won’t install or reboot automatically.  \n   - Disable automatic installation for major OS builds (Windows 11 Home: turn off “Get the latest updates as soon as they’re available”; iPhone: turn off “Install iOS Updates”). [[summaries/session-38_2025-02-15]]\n\n6. **Maintain a concise checklist** (run before each beta install)  \n\n| Step | Action |\n|------|--------|\n| 1 | Fresh full backup (cloud + local) → verify |\n| 2 | Review/ rehearse rollback steps |\n| 3 | Install beta on isolated device or account |\n| 4 | Perform quick functional test |\n| 5 | If unstable, roll back within the maintenance window |\n| 6 | Document any issues for future reference |\n\n7. **Monitor community feedback**  \n   - Wait a day or two after a beta release to see early‑bug reports. If the beta is stable for most users, proceed; otherwise, stay on the previous build. This “middle‑of‑the‑road” timing balances early‑feature access with reduced risk. [[summaries/session-02_2024-06-15]]\n\n**Result:** You stay on the cutting edge, but because backups, rollback, and isolation are baked into the workflow, any glitch can be undone quickly and your primary workflow remains uninterrupted.",
+    "dim3_response": "**Short answer:** Probably not — you should keep your primary work machine isolated from unreleased, experimental AI tools until you can verify they are stable and secure.\n\n**Why**\n\n1. **Beta‑testing risk** – Early‑access programs are essentially *beta* releases. The **[[concepts/beta-testing-risk-management]]** concept stresses that beta software can introduce crashes, data loss, or security gaps, so you need a solid backup plan and a clear rollback strategy before installing it. Your main work computer likely holds important projects, client files, and licensing information that you can’t afford to lose.\n\n2. **Device isolation** – The **[[concepts/device-isolation]]** concept recommends running experimental software on a separate, non‑critical device (or a virtual machine) to contain any instability or malicious behavior. This protects your production environment while still letting you evaluate the new AI features.\n\n3. **Practical checklist** – The “safe beta updates” guidelines from **[[summaries/session-02_2024-06-15]]** suggest:\n   * Create a full system backup (e.g., using [[entities/file-history]] or a third‑party image tool).  \n   * Document a rollback procedure (system restore point, recovery media).  \n   * Test the beta on a secondary machine first.  \n   * Only proceed on the primary workstation after the beta has been proven stable on the secondary device.\n\n4. **Potential impact on video‑editing workflow** – Unreleased AI tools may consume significant GPU/CPU resources, change file formats, or modify project settings. If they malfunction, you could lose hours of rendering time or corrupt media libraries.\n\n**Recommended approach**\n\n| Step | Action |\n|------|--------|\n| 1️⃣ | Set up a *dedicated test machine* (or a fresh VM) that mirrors your work specs. |\n| 2️⃣ | Back up your current work environment (both files and system state). |\n| 3️⃣ | Install the early‑access AI suite on the test machine only. |\n| 4️⃣ | Run a few realistic editing tasks; watch for crashes, performance hits, or unexpected file changes. |\n| 5️⃣ | If the suite proves stable, consider migrating it to your main machine *after* confirming you can roll back if needed. |\n\n**Bottom line:** Until the AI tools leave the “early‑access” stage and have been vetted on a non‑critical system, keep them off your primary work computer. This aligns with the best‑practice concepts and the safety checklist already stored in the knowledge base."
+  },
+  "build_seconds": 92.9,
+  "total_seconds": 139.5,
+  "usage": {
+    "compile": {
+      "calls": 23,
+      "prompt_tokens": 75342,
+      "completion_tokens": 18860,
+      "cost_usd": 0.015184534999999997
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 25811,
+      "completion_tokens": 2789,
+      "cost_usd": 0.0012763499999999999
+    }
+  }
+}

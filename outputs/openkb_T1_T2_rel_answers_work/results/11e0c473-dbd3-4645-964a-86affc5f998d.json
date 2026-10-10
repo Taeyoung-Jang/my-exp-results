@@ -1,0 +1,32 @@
+{
+  "uid": "11e0c473-dbd3-4645-964a-86affc5f998d",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    3,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the conversation history, there is no indication that you are still maintaining **close, high‑frequency** check‑ins with your neighbors.  \n\nThe June 2024 session (“Guidelines for fostering low‑key, privacy‑respecting neighbor connections”) specifically emphasizes **incidental, low‑effort gestures** and “brief, context‑sensitive check‑ins” rather than frequent or intrusive contact. It even provides separate scripts for varying levels of closeness, implying that regular, high‑frequency check‑ins are *not* the recommended approach.  \n\nSince the later February 2025 session focuses on a moving checklist and does not address neighbor check‑ins at all, the only guidance we have is that you should keep check‑ins occasional and low‑commitment. Therefore, the wiki does not contain any evidence that you continue to have close, high‑frequency check‑ins with your neighbors.",
+    "dim2_response": "**Weekly Neighbor‑Boost Routine**\n\n| Day | Simple Action (≈5 min) | Why it works (wiki‑backed) |\n|-----|------------------------|----------------------------|\n| **Monday** | **“Morning wave & trash‑day check‑in.”** While taking out the trash, stop at the nearest house, wave, and say a quick “Good morning! Anything you need before the week kicks off?” | Uses the *everyday‑moment* cue that the *session‑04* guide calls a “rhythmic community pattern” – a predictable chore that makes brief greetings feel automatic. |\n| **Tuesday** | **Mini‑share of garden produce or baked treat** (e.g., a few herbs, a slice of banana‑bread) left in a reusable bag on the doorstep. | A classic *low‑effort gesture* that the guide cites as a “simple offering” to keep the vibe friendly without intrusiveness. |\n| **Wednesday** | **Micro‑space stroll.** Walk to the shared bench / tiny free‑library, pick up a book or drop a note, and say “Hey, nice day!” | Leverages the *shared micro‑space* suggestion, turning a neutral public spot into a brief, low‑pressure interaction. |\n| **Thursday** | **Tool‑or‑tip loan.** If you notice a neighbor mowing, gardening, or fixing something, casually ask “Do you need the ladder/leaf‑blower/extra sand?” and offer it if you have it. | Mirrors the *low‑effort gestures* of “offering tools,” reinforcing a help‑first mindset. |\n| **Friday** | **Evening “walk‑by”** – take your dog or go for a short walk at the usual time (around sunset) and greet anyone you meet with a friendly “Hey, how was your week?” | Taps the *evening stroll* rhythm the guide lists as a predictable community pattern that makes greetings feel natural. |\n| **Saturday** | **Community‑corner snack.** Bring a small plate of cookies or a fruit bowl to the communal garden bench or front‑yard table for anyone passing by. | Extends the *shared micro‑space* idea into a low‑commitment social anchor; the gesture is low‑effort yet visible to all. |\n| **Sunday** | **Quiet check‑in script.** Send a brief, considerate text or leave a sticky‑note: “Hope you had a nice weekend! Let me know if you need anything.” Use the “privacy‑respecting” script from the guide for neighbors you’re less close with. | Directly applies the *check‑in script* recommendations (very close vs. privacy‑preferring) to keep contact caring but non‑nosy. |\n\n**Additional Thoughtful Gestures (can be sprinkled in any week)**  \n\n1. **Seasonal “window‑welcome”** – place a small, tasteful seasonal decoration (e.g., a pumpkin in fall) on your porch and wave when neighbors pass.  \n2. **Storm‑ready note** – after heavy rain or a forecasted storm, leave a short note on a neighbor’s door offering a spare umbrella or a quick “Stay dry, let me know if you need anything.” (Matches the guide’s “check‑in tied to clear reasons”).  \n3. **Neighborhood‑shout‑out** – once a month, leave a handwritten “Thanks for keeping the garden tidy!” on a neighbor’s gate; a genuine compliment strengthens trust.  \n4. **Pass‑by book swap** – leave a favorite paperback on the shared bench with a “Take one, leave one” tag; encourages low‑pressure conversation the next time you both visit.  \n\nBy anchoring interactions to **incidental daily moments**, **shared micro‑spaces**, and **low‑effort gestures**, this routine keeps the neighbor vibe warm, respectful, and sustainable without demanding heavy time commitments.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about comparing neighbor‑based help versus hiring a professional pet‑ or plant‑sitter through an app. The available content only covers moving checklists and guidelines for low‑effort, privacy‑respecting neighbor interactions, which don’t address the specifics you’re asking about. If you can provide more details or a relevant source, I’d be happy to help further."
+  },
+  "build_seconds": 191.6,
+  "total_seconds": 210.5,
+  "usage": {
+    "compile": {
+      "calls": 19,
+      "prompt_tokens": 73123,
+      "completion_tokens": 14925,
+      "cost_usd": 0.006535436
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 21861,
+      "completion_tokens": 2318,
+      "cost_usd": 0.0010730700000000002
+    }
+  }
+}

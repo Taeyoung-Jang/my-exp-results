@@ -1,0 +1,59 @@
+=== 2026-10-10 15:34:48 uid=41675fcc-d49a-42b8-82da-e21087e6c08e ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary........ 8.1s (in=2058, out=969, cached=784)
+    concepts-plan..... 5.5s (in=3115, out=346)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: communication_scripts... 5.6s (in=2984, out=767, cached=64)
+    concept: personal_space... 13.8s (in=2967, out=701)
+    concept: quiet_time... 26.8s (in=2967, out=847, cached=64)
+    summary-rewrite..... 5.5s (in=2999, out=851, cached=784)
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-34_2025-02-13.md
+  Compiling short doc...
+    summary...........=== 2026-10-10 15:35:54 uid=41675fcc-d49a-42b8-82da-e21087e6c08e ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary...... 6.3s (in=2058, out=792, cached=2048)
+    concepts-plan.. 2.9s (in=3019, out=672, cached=2048)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: alone-time... 3.8s (in=2860, out=475)
+    concept: boundary-setting... 21.5s (in=2848, out=1598)
+    concept: intergenerational-communication... 26.5s (in=2850, out=1056)
+Concept generation failed: LLM returned empty content for concept 'alone-time'
+    [WARN] 3 concept(s) planned but only 2 written for session-12_2024-06-15 (ValueError).
+    summary-rewrite.............. 14.3s (in=2880, out=1028)
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-34_2025-02-13.md
+  Compiling short doc...
+    summary....... 7.6s (in=2979, out=514, cached=768)
+    concepts-plan........ 8.3s (in=3912, out=682)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: red-flags-apartment-hunting... 0.6s (in=3793, out=2, cached=768)
+    concept: apartment-viewing-checklist... 3.9s (in=3790, out=623)
+    concept: weighted-scoring-template... 5.0s (in=3828, out=1091)
+    concept: older-vs-newer-build-questions... 8.2s (in=3794, out=1190, cached=784)
+    concept: noise-scoring-rubric... 15.4s (in=3793, out=798, cached=2976)
+Concept generation failed: LLM returned empty content for concept 'apartment-viewing-checklist'
+Concept generation failed: LLM returned empty content for concept 'red-flags-apartment-hunting'
+    [WARN] 5 concept(s) planned but only 3 written for session-34_2025-02-13 (ValueError).
+    summary-rewrite......................... 25.2s (in=3809, out=1942)
+[92m15:37:41 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-34_2025-02-13.md added to knowledge base.
+done.

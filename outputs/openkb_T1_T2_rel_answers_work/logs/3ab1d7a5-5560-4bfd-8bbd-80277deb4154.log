@@ -1,0 +1,30 @@
+=== 2026-10-10 14:18:55 uid=3ab1d7a5-5560-4bfd-8bbd-80277deb4154 ===
+Adding: session-15_2024-06-15.md
+  Compiling short doc...
+    summary................... 19.3s (in=1714, out=1195, cached=64)
+    concepts-plan..... 5.3s (in=2779, out=800, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: time-zone-management... 4.8s (in=2646, out=787, cached=64)
+    entity: pacific-time... 6.7s (in=2680, out=824, cached=64)
+    entity: new-york-city... 5.0s (in=2698, out=661, cached=768)
+    entity: calendly... 4.5s (in=2697, out=720, cached=2528)
+    concept: meeting-templates... 16.4s (in=2632, out=868)
+    entity: google-calendar... 11.5s (in=2680, out=918, cached=64)
+    concept: safe-meeting-window... 21.4s (in=2646, out=749, cached=784)
+    summary-rewrite.......... 10.2s (in=2677, out=879, cached=784)
+  [OK] session-15_2024-06-15.md added to knowledge base.
+Adding: session-37_2025-02-14.md
+  Compiling short doc...
+    summary.............. 14.8s (in=2316, out=851, cached=64)
+    concepts-plan.......... 10.0s (in=3705, out=916, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    concept: meeting-preparation... 1.8s (in=3448, out=1)
+    concept: office-hours-communication... 13.7s (in=3436, out=1031)
+    concept: time-zone-availability... 14.3s (in=3450, out=873, cached=2304)
+    update: time-zone-management... 19.0s (in=3936, out=1298, cached=784)
+Concept generation failed: LLM returned empty content for concept 'meeting-preparation'
+    [WARN] 4 concept(s) planned but only 3 written for session-37_2025-02-14 (ValueError).
+    summary-rewrite.......... 11.0s (in=3480, out=1039, cached=784)
+  [OK] session-37_2025-02-14.md added to knowledge base.
+done.

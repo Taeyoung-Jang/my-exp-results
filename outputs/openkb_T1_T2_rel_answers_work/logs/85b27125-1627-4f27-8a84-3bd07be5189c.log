@@ -1,0 +1,38 @@
+=== 2026-10-10 14:18:55 uid=85b27125-1627-4f27-8a84-3bd07be5189c ===
+Adding: session-13_2024-06-15.md
+  Compiling short doc...
+    summary..... 5.7s (in=2124, out=910, cached=64)
+    concepts-plan.... 4.5s (in=3198, out=741, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: address-taxonomy... 3.9s (in=3056, out=581)
+    entity: chicago... 4.2s (in=3090, out=320, cached=64)
+    concept: address-consistency-pitfalls... 5.8s (in=3059, out=794, cached=64)
+    entity: dmv... 3.2s (in=3092, out=411)
+    concept: legal-significant-address... 18.8s (in=3059, out=881, cached=784)
+    entity: usps... 16.8s (in=3093, out=870)
+Concept generation failed: LLM returned empty content for concept 'address-taxonomy'
+    [WARN] 3 concept(s) planned but only 2 written for session-13_2024-06-15 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'dmv'
+    [WARN] 3 entity(ies) planned but only 2 written for session-13_2024-06-15 (ValueError).
+    summary-rewrite..... 5.4s (in=3087, out=1160, cached=68)
+  [OK] session-13_2024-06-15.md added to knowledge base.
+Adding: session-36_2025-06-15.md
+  Compiling short doc...
+    summary......... 9.0s (in=3447, out=1397)
+    concepts-plan........ 8.8s (in=4943, out=344, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: non-pub-social-activities... 12.7s (in=4787, out=994, cached=64)
+    concept: neighborhood-familiarization... 15.3s (in=4785, out=1161, cached=64)
+    update: address-consistency-pitfalls... 20.1s (in=5317, out=762, cached=64)
+    concept: settling-into-new-home... 21.1s (in=4788, out=802, cached=4416)
+    entity: highbury-fields... 11.5s (in=4820, out=470, cached=4640)
+    entity: tfl-go... 6.0s (in=4817, out=1472, cached=64)
+    entity: nextdoor... 3.5s (in=4819, out=688, cached=64)
+    entity: citymapper... 11.9s (in=4806, out=890)
+    entity: move-three-sixty... 11.2s (in=4821, out=672)
+    update: legal-significant-address... 26.0s (in=5317, out=1230, cached=784)
+    summary-rewrite............ 12.4s (in=4816, out=1093, cached=784)
+  [OK] session-36_2025-06-15.md added to knowledge base.
+done.

@@ -1,0 +1,25 @@
+=== 2026-10-10 14:44:32 uid=b547e49d-9c51-46d2-831f-40e0e593f6ff ===
+Adding: session-10_2024-04-13.md
+  Compiling short doc...
+    summary..... 5.5s (in=2192, out=1231, cached=784)
+    concepts-plan. 1.2s (in=3453, out=126)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-10_2024-04-13 — no concept pages generated. See log (stderr) for details.
+  [OK] session-10_2024-04-13.md added to knowledge base.
+Adding: session-36_2025-01-11.md
+  Compiling short doc...
+    summary................. 17.8s (in=3533, out=1195, cached=784)
+    concepts-plan........ 8.6s (in=4808, out=639)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: incremental-pacing... 3.7s (in=4683, out=939, cached=784)
+    concept: burnout-prevention... 4.3s (in=4681, out=642)
+    entity: bar-exam... 7.8s (in=4716, out=915, cached=784)
+    entity: mpt... 12.3s (in=4723, out=888, cached=784)
+    entity: mbe... 21.9s (in=4723, out=1096, cached=64)
+    concept: learning-rhythm... 26.1s (in=4681, out=846, cached=64)
+Concept generation failed: LLM returned empty content for concept 'burnout-prevention'
+    [WARN] 3 concept(s) planned but only 2 written for session-36_2025-01-11 (ValueError).
+    summary-rewrite................ 16.2s (in=4713, out=1256)
+  [OK] session-36_2025-01-11.md added to knowledge base.
+done.

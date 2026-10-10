@@ -1,0 +1,32 @@
+=== 2026-10-10 15:55:56 uid=f36dbaa1-4c46-476c-bd20-655939bce3b2 ===
+Adding: session-08_2024-05-15.md
+  Compiling short doc...
+    summary...... 6.6s (in=3294, out=1626, cached=784)
+    concepts-plan...... 6.0s (in=4707, out=382)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: rent_vs_buy... 7.5s (in=4566, out=538, cached=768)
+    concept: emergency_fund... 8.2s (in=4566, out=605, cached=768)
+    concept: break_even_analysis... 14.6s (in=4567, out=1166, cached=784)
+    summary-rewrite.............. 14.6s (in=4594, out=1299, cached=784)
+  [OK] session-08_2024-05-15.md added to knowledge base.
+Adding: session-37_2025-02-14.md
+  Compiling short doc...
+    summary...... 6.4s (in=3286, out=1063, cached=66)
+    concepts-plan..... 5.3s (in=4543, out=1178, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    concept: visa_logistics... 9.1s (in=4423, out=529, cached=768)
+    entity: dublin... 4.1s (in=4457, out=959, cached=4032)
+    concept: irp_registration_process... 16.2s (in=4425, out=1095, cached=784)
+    entity: ireland... 16.4s (in=4444, out=933)
+    concept: common_relocation_pitfalls... 22.4s (in=4426, out=1240, cached=784)
+    entity: revenue... 4.4s (in=4462, out=700, cached=784)
+    entity: gnib... 12.8s (in=4464, out=909, cached=64)
+    entity: burgh_quay_registration_office... 17.9s (in=4462, out=1097, cached=784)
+    entity: airbnb... 6.5s (in=4457, out=988, cached=784)
+    entity: irp_card... 6.5s (in=4459, out=984, cached=4288)
+    entity: irish_sim... 6.0s (in=4459, out=927, cached=4288)
+    entity: pps_number... 27.2s (in=4458, out=888)
+    summary-rewrite.......... 10.2s (in=4455, out=1117, cached=4288)
+  [OK] session-37_2025-02-14.md added to knowledge base.
+done.

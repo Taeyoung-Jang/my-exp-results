@@ -1,0 +1,23 @@
+=== 2026-10-10 14:32:26 uid=c7f4de28-3d09-4572-9fd6-a7d4003f899d ===
+Adding: session-14_2024-06-12.md
+  Compiling short doc...
+    summary....... 7.5s (in=2489, out=892, cached=784)
+    concepts-plan... 3.2s (in=3528, out=435, cached=2480)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low_drama_negotiation... 7.3s (in=3380, out=939, cached=784)
+    concept: fairness_perception... 10.7s (in=3365, out=792)
+    concept: chore_rotation... 17.3s (in=3374, out=488, cached=768)
+    summary-rewrite.. 2.5s (in=3405, out=845, cached=768)
+  [OK] session-14_2024-06-12.md added to knowledge base.
+Adding: session-37_2025-02-11.md
+  Compiling short doc...
+    summary....... 7.9s (in=3439, out=1902, cached=784)
+    concepts-plan..... 5.6s (in=4502, out=890, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    concept: flexible_chore_adjustment... 5.0s (in=4328, out=900, cached=784)
+    concept: chore_meeting_template... 6.2s (in=4328, out=1011, cached=784)
+    update: low_drama_negotiation... 8.2s (in=4932, out=1356, cached=784)
+    concept: point_person... 13.5s (in=4328, out=1146, cached=64)
+    summary-rewrite.... 4.9s (in=4362, out=950, cached=768)
+  [OK] session-37_2025-02-11.md added to knowledge base.
+done.

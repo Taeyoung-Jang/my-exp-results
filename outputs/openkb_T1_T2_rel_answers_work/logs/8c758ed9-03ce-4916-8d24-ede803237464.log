@@ -1,0 +1,42 @@
+=== 2026-10-10 14:24:06 uid=8c758ed9-03ce-4916-8d24-ede803237464 ===
+Adding: session-15_2021-05-02.md
+  Compiling short doc...
+    summary........ 8.3s (in=2444, out=1216)
+    concepts-plan................................. 33.2s (in=3588, out=1119, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    entity: sweden... 3.6s (in=3512, out=730, cached=784)
+    concept: spring-renewal... 6.4s (in=3495, out=1444, cached=768)
+    entity: finland... 4.7s (in=3512, out=243, cached=768)
+    entity: greece... 3.0s (in=3511, out=342)
+    entity: bermuda... 3.0s (in=3512, out=610, cached=3344)
+    concept: easter-traditions... 13.1s (in=3466, out=1036)
+    entity: easter-bilby... 3.0s (in=3514, out=610, cached=3344)
+    concept: home-rituals... 16.6s (in=3479, out=731, cached=768)
+    entity: australia... 14.7s (in=3499, out=914)
+    entity: orthodox-easter... 12.1s (in=3500, out=767)
+Entity generation failed: LLM returned empty content for concept 'greece'
+    [WARN] 7 entity(ies) planned but only 6 written for session-15_2021-05-02 (ValueError).
+    summary-rewrite..... 5.3s (in=3510, out=1151, cached=3344)
+  [OK] session-15_2021-05-02.md added to knowledge base.
+Adding: session-32_2023-05-02.md
+  Compiling short doc...
+    summary.................. 18.3s (in=3935, out=1330)
+    concepts-plan................... 19.4s (in=5524, out=1363)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    entity: islam... 3.5s (in=5375, out=833)
+    concept: prayer-routine... 5.4s (in=5341, out=1285)
+    concept: daily-prayer... 14.1s (in=5305, out=603, cached=768)
+    entity: prophet-muhammad... 11.8s (in=5340, out=513, cached=768)
+    concept: islamic-schools-of-law... 20.4s (in=5307, out=1161)
+    entity: mosque... 4.3s (in=5339, out=981, cached=784)
+    entity: quran... 21.7s (in=5340, out=878, cached=64)
+    entity: shahada... 13.4s (in=5340, out=724, cached=784)
+    entity: shafi'i... 7.4s (in=5342, out=862, cached=784)
+    entity: hanafi... 9.9s (in=5341, out=468, cached=5152)
+    entity: hanbali... 3.7s (in=5359, out=799, cached=800)
+    entity: maliki... 12.5s (in=5328, out=965)
+    summary-rewrite..... 5.3s (in=5337, out=1317, cached=5168)
+  [OK] session-32_2023-05-02.md added to knowledge base.
+done.

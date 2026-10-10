@@ -1,0 +1,30 @@
+=== 2026-10-10 14:31:50 uid=80460ea8-86f0-4369-a78a-d58ff605033e ===
+Adding: session-07_2024-06-15.md
+  Compiling short doc...
+    summary... 3.9s (in=2524, out=1407)
+    concepts-plan..... 5.7s (in=3312, out=433)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: running_variation... 4.1s (in=3168, out=993, cached=784)
+    concept: habit_anchoring... 11.5s (in=3169, out=1151, cached=784)
+    concept: effort_metrics... 25.1s (in=3175, out=722, cached=64)
+    summary-rewrite.. 2.9s (in=3200, out=687, cached=3040)
+  [OK] session-07_2024-06-15.md added to knowledge base.
+Adding: session-38_2025-02-12.md
+  Compiling short doc...
+    summary....... 7.4s (in=2553, out=682)
+    concepts-plan..... 5.6s (in=3707, out=1178, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: half-ironman... 11.8s (in=3572, out=857, cached=64)
+    concept: recovery_feedback_loops... 11.9s (in=3538, out=552, cached=64)
+    entity: dumbbells... 2.9s (in=3570, out=479)
+    concept: training_periodization... 16.6s (in=3524, out=1313)
+    concept: stress_clustering... 20.1s (in=3537, out=689, cached=768)
+    entity: bike-trainer... 4.1s (in=3571, out=649, cached=784)
+    entity: barbell... 14.5s (in=3571, out=872, cached=784)
+    entity: cable-machine... 13.5s (in=3571, out=1047, cached=784)
+Entity generation failed: LLM returned empty content for concept 'dumbbells'
+    [WARN] 5 entity(ies) planned but only 4 written for session-38_2025-02-12 (ValueError).
+    summary-rewrite............ 12.3s (in=3568, out=1073, cached=3408)
+  [OK] session-38_2025-02-12.md added to knowledge base.
+done.

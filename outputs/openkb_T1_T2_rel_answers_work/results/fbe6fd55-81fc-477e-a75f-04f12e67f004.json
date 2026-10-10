@@ -1,0 +1,32 @@
+{
+  "uid": "fbe6fd55-81fc-477e-a75f-04f12e67f004",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    0,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. In the earlier session (2025‑01‑20) the user’s home‑office was described as a “naturally dim space,” and the recommendations focused on adding high‑output, well‑diffused lighting to overcome that dimness. By the later session (2025‑07‑23) the focus had shifted to “reducing afternoon glare … while keeping the room bright,” with concrete steps (roller shades, bias lighting, monitor placement) aimed at creating a “balanced, bright workspace … without making the room feel dark.” This shows the user is no longer spending most of their daylight hours in a “pretty dim” area; instead they are actively working to make the space brighter.  \n\n**Sources**  \n- Session 01 (2025‑01‑20): “overcome naturally dim spaces” 【.../session-01_2025-01-20.md】  \n- Session 32 (2025‑07‑23): “balanced, bright workspace … without making the room feel dark” 【.../session-32_2025-07-23.md】",
+    "dim2_response": "Here are a few practical ways to brighten a dim room while keeping the lighting comfortable and easy on the eyes:\n\n| What to do | Why it helps | How to implement (wiki sources) |\n|------------|--------------|---------------------------------|\n| **Install a high‑output, diffused ceiling fixture** – aim for ~1 500‑2 500 lumens of neutral‑white light (≈ 4 000‑4 500 K). Diffusers (frosted domes, opal glass, fabric drum shades) spread the light evenly and cut glare. | A strong, evenly‑distributed source lifts the overall illumination level without creating harsh hotspots. | See the primary recommendation in [[summaries/session-01_2025-01-20]] and the discussion of [[concepts/diffuser]], [[concepts/lumens]], and [[concepts/fixture_type]]. |\n| **Use multiple lower‑wattage LED bulbs instead of one big bulb** – e.g., two 750‑lumens LEDs in a semi‑flush mount or a slim LED panel. | Several smaller sources give a broader wash of light and reduce the “single‑point” glare that can feel uncomfortable. | Same source as above; the summary suggests “multiple lower‑wattage [[entities/led_bulb]]s over a single high‑watt bulb for even light distribution.” |\n| **Add a dimmer switch** to the main overhead lights (and any task lamps). | You can dial the brightness down when you’re working late or want a softer atmosphere, preventing eye strain while still having enough light for the day. | Recommended in [[summaries/session-01_2025-01-20]] and described in the [[concepts/dimmer_switch]] concept page. |\n| **Introduce a neutral‑white task lamp or floor lamp** (≈ 400‑600 lumens, 4 000‑4 500 K). Position it near your work surface but angled to avoid direct glare. | Task lamps give focused light where you need it most (reading, writing) without flooding the whole room, so the overall brightness feels balanced. | The “adjustable warmer task lamp” is mentioned in the same summary; the concept of “fixture_type” covers floor/table lamps. |\n| **Add bias lighting behind your monitor** (a dimmable LED strip, ~5 000‑6 500 K). | Bias lighting softens the contrast between the bright screen and the surrounding room, making the overall environment feel less stark while still boosting ambient light. | Detailed in [[summaries/session-32_2025-07-23]] and the [[concepts/bias_lighting]] page; also tied to [[concepts/dimmer_switch]] for brightness control. |\n| **Use reflective surfaces** (light‑colored walls, a light‑colored desk, or a shallow mirror) to bounce existing light around the room. | Reflectivity amplifies whatever light you already have, increasing perceived brightness without adding new fixtures. | While not a separate page, this practice is consistent with the goal of “minimising glare and creating even lighting” described in [[concepts/diffuser]] and [[concepts/glare_reduction]]. |\n\n**Putting it together**\n\n1. **Replace the existing ceiling lamp** with a diffused LED fixture delivering ~2 000 lumens.  \n2. **Wire a dimmer** to that fixture (and to any added task lamp).  \n3. **Add a single floor lamp** near your desk for task‑specific illumination.  \n4. **Install a dimmable bias‑light strip** behind your monitor and set it low enough to be pleasant but high enough to lift the overall ambient level.  \n\nThese steps raise the room’s overall light level, spread illumination evenly, and keep everything adjustable so the space never feels too bright or uncomfortable.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about laptop‑screen privacy filters—whether a darker‑tinted (cheaper) version is suitable for extended work sessions or video calls, or how it compares to a lighter/clearer option. If you have a specific source or document that discusses privacy filters, you can add it to the wiki and I’ll be able to synthesize a recommendation from that material."
+  },
+  "build_seconds": 103.9,
+  "total_seconds": 134.9,
+  "usage": {
+    "compile": {
+      "calls": 20,
+      "prompt_tokens": 54231,
+      "completion_tokens": 15124,
+      "cost_usd": 0.007945701999999997
+    },
+    "query": {
+      "calls": 16,
+      "prompt_tokens": 32686,
+      "completion_tokens": 2870,
+      "cost_usd": 0.001507743
+    }
+  }
+}

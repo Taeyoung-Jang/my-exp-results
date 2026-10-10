@@ -1,0 +1,24 @@
+=== 2026-10-10 14:41:13 uid=dae22057-9b78-4647-abee-a6834b6cb84e ===
+Adding: session-15_2024-06-15.md
+  Compiling short doc...
+    summary............... 15.8s (in=3251, out=695, cached=64)
+    concepts-plan......... 9.8s (in=4345, out=517, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: gentle-mobility-flow... 4.4s (in=4207, out=709, cached=784)
+    concept: low-intensity-strength... 8.3s (in=4208, out=1404, cached=784)
+    entity: session-15-2024-06-15... 10.3s (in=4238, out=596)
+    concept: weekly-routine-balance... 13.7s (in=4207, out=594, cached=3232)
+    summary-rewrite...... 6.3s (in=4238, out=781, cached=784)
+  [OK] session-15_2024-06-15.md added to knowledge base.
+Adding: session-31_2024-12-13.md
+  Compiling short doc...
+    summary............ 12.1s (in=1868, out=825)
+    concepts-plan. 1.8s (in=2967, out=79, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: flexible-padding... 5.2s (in=2762, out=823, cached=784)
+    concept: schedule-backbone... 5.9s (in=2762, out=674, cached=64)
+    concept: sustainable-routine... 10.9s (in=2762, out=680, cached=768)
+    summary-rewrite.............. 14.4s (in=2794, out=779, cached=768)
+  [OK] session-31_2024-12-13.md added to knowledge base.
+done.

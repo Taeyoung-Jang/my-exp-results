@@ -1,0 +1,32 @@
+{
+  "uid": "d3c59ab0-2a83-4bb0-bd96-6c84f13356c2",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    9,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the available conversation history (sessions 10 and 37), there’s no mention of the user’s current daily coordination patterns or of continuing to work with the same colleagues who have been in their department since they were hired. Therefore, we cannot confirm that the user still coordinates daily with those longtime teammates.",
+    "dim2_response": "I’m sorry, but I couldn’t locate any information in the knowledge base about your department, the specific colleagues you work with, or the recurring responsibilities you need covered. Without those details, I can’t draft an accurate, context‑appropriate message. If you can provide the names of the colleagues and the tasks you’d like them to handle, I’ll be happy to help you compose the requested request.",
+    "dim3_response": "Yes, listing the tight‑knit group you’ve been collaborating with since your first year is a solid approach—provided those peers can speak directly to the work you do together every day.\n\n**Why it works**\n\n* **Relevant daily interaction** – Peer references are most persuasive when they can attest to your day‑to‑day performance and impact.  A group that you’ve been working with continuously fits that requirement perfectly. [[concepts/team-sync]] describes the value of short, regular touch‑points that keep teammates aligned; those same teammates are the ones who can best comment on your contribution to the team’s workflow.\n\n* **Clear communication** – When you ask the peers to serve as references, frame the request in a short, direct message that highlights the purpose (e.g., “I’m applying to the internal leadership program and need a reference on my daily collaboration”).  The guidance on **communication style** recommends using concise, confident wording for such requests. [[concepts/communication-style]]\n\n* **Balanced perspective** – Choose three peers who each bring a slightly different viewpoint (e.g., a teammate from project A, a colleague from cross‑functional B, and a peer who partners with you on a recurring process).  This shows the selection isn’t a single‑person echo, but a well‑rounded view of your work.\n\n**Quick checklist**\n\n| ✅ | Item |\n|---|------|\n| 1 | All three are **directly involved** in the tasks you handle daily. |\n| 2 | They can **provide concrete examples** of your impact (deliverables, problem‑solving, collaboration). |\n| 3 | They have been **working with you since early in your tenure**, giving them historical context. |\n| 4 | You’ve **informed them** of the request and shared a brief summary of the program (helps them craft a focused reference). |\n| 5 | Their contact details are up‑to‑date and they are comfortable being contacted by the review panel. |\n\nIf any of the three peers are more senior managers rather than day‑to‑day collaborators, consider swapping them for a peer who actually partners with you on routine work.  Managers can still be listed, but the core of the reference list should be peers who live the same workflow as you.\n\n**Bottom line:** Choosing the “tight‑knit” group you’ve been with since year 1 aligns perfectly with the best practices for peer references—just make sure they’re briefed and can speak to concrete, daily contributions."
+  },
+  "build_seconds": 104.7,
+  "total_seconds": 131.3,
+  "usage": {
+    "compile": {
+      "calls": 17,
+      "prompt_tokens": 50839,
+      "completion_tokens": 13040,
+      "cost_usd": 0.006106948000000001
+    },
+    "query": {
+      "calls": 10,
+      "prompt_tokens": 23442,
+      "completion_tokens": 2013,
+      "cost_usd": 0.0010655999999999999
+    }
+  }
+}

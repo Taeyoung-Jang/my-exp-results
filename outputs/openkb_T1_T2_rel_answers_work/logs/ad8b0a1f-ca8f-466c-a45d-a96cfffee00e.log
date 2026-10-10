@@ -1,0 +1,22 @@
+=== 2026-10-10 14:24:27 uid=ad8b0a1f-ca8f-466c-a45d-a96cfffee00e ===
+Adding: session-10_2022-05-23.md
+  Compiling short doc...
+    summary...... 6.4s (in=2348, out=881, cached=768)
+    concepts-plan. 1.7s (in=3394, out=624)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: spouse-checkin-workflow... 6.7s (in=3214, out=1029, cached=784)
+    concept: block-scheduling... 14.4s (in=3210, out=627)
+    concept: midweek-change-rule... 21.2s (in=3212, out=915)
+    summary-rewrite...... 6.4s (in=3242, out=761, cached=784)
+  [OK] session-10_2022-05-23.md added to knowledge base.
+Adding: session-40_2024-05-23.md
+  Compiling short doc...
+    summary............ 12.6s (in=2129, out=732, cached=768)
+    concepts-plan............... 15.1s (in=3276, out=720, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: non-negotiable-tasks... 4.0s (in=3100, out=854, cached=784)
+    concept: slack-time... 6.0s (in=3114, out=1147, cached=768)
+    concept: flexible-planning... 20.4s (in=3097, out=888, cached=768)
+    summary-rewrite........ 8.8s (in=3129, out=895, cached=784)
+  [OK] session-40_2024-05-23.md added to knowledge base.
+done.

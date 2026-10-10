@@ -1,0 +1,37 @@
+=== 2026-10-10 14:24:39 uid=90797997-d232-4af2-a132-8a081a13de13 ===
+Adding: session-07_2022-09-15.md
+  Compiling short doc...
+    summary....... 7.5s (in=2909, out=1546, cached=768)
+    concepts-plan............. 13.0s (in=3933, out=797, cached=784)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: interruptible_work... 8.0s (in=3839, out=490, cached=768)
+    concept: task_vetting_checklist... 13.3s (in=3827, out=847)
+    concept: marketplace_search_keywords... 15.7s (in=3839, out=836)
+    entity: upwork... 3.0s (in=3890, out=630, cached=2880)
+    concept: caregiver_constraints... 9.5s (in=3839, out=502, cached=768)
+    entity: fiverr... 5.0s (in=3872, out=811, cached=784)
+    concept: micro_planning... 21.1s (in=3838, out=1052, cached=3472)
+    entity: remoteok... 5.2s (in=3873, out=978, cached=784)
+    entity: discord... 6.9s (in=3872, out=276, cached=768)
+    entity: microsoft-excel... 9.2s (in=3873, out=374, cached=3712)
+    entity: google-sheets... 10.7s (in=3873, out=435, cached=3712)
+    entity: weworkremotely... 22.3s (in=3876, out=811, cached=784)
+    entity: csv... 13.5s (in=3859, out=909)
+    summary-rewrite...... 6.1s (in=3870, out=848, cached=784)
+  [OK] session-07_2022-09-15.md added to knowledge base.
+Adding: session-37_2024-09-15.md
+  Compiling short doc...
+    summary............ 12.7s (in=2664, out=871)
+    concepts-plan.... 4.1s (in=4062, out=171, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: boundary_setting... 8.7s (in=3744, out=695, cached=784)
+    concept: intentional_weekend_planning... 8.9s (in=3745, out=652)
+    concept: energy_management... 10.9s (in=3744, out=965, cached=784)
+    concept: weekend_template... 20.7s (in=3744, out=1246, cached=784)
+    concept: decision_rule... 30.1s (in=3744, out=941, cached=784)
+Concept generation failed: LLM returned empty content for concept 'intentional_weekend_planning'
+    [WARN] 5 concept(s) planned but only 4 written for session-37_2024-09-15 (ValueError).
+    summary-rewrite.................. 18.7s (in=3773, out=888, cached=64)
+  [OK] session-37_2024-09-15.md added to knowledge base.
+done.

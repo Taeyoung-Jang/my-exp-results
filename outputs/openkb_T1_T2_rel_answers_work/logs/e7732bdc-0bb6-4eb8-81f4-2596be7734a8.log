@@ -1,0 +1,35 @@
+=== 2026-10-10 14:29:02 uid=e7732bdc-0bb6-4eb8-81f4-2596be7734a8 ===
+Adding: session-07_2024-06-15.md
+  Compiling short doc...
+    summary.............. 14.8s (in=3123, out=1354)
+    concepts-plan..... 5.1s (in=4573, out=195, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: two-step-workflow... 10.2s (in=4444, out=899)
+    entity: prores... 13.3s (in=4478, out=1065)
+    concept: export-settings... 20.9s (in=4455, out=1005, cached=768)
+    entity: hevc... 12.4s (in=4482, out=1030)
+    concept: mezzanine-master... 29.3s (in=4457, out=1368, cached=784)
+    entity: h264... 10.2s (in=4482, out=866)
+    entity: youtube... 11.9s (in=4490, out=739, cached=784)
+    entity: dnxhr... 28.0s (in=4493, out=1044)
+    entity: handbrake... 12.0s (in=4490, out=1034, cached=784)
+    entity: adobe-media-encoder... 23.6s (in=4478, out=766)
+    summary-rewrite... 3.8s (in=4487, out=1353)
+  [OK] session-07_2024-06-15.md added to knowledge base.
+Adding: session-31_2025-03-14.md
+  Compiling short doc...
+    summary................................ 32.2s (in=2375, out=1045, cached=784)
+    concepts-plan............. 13.0s (in=3717, out=1022)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: nvme-storage... 6.6s (in=3413, out=1094, cached=784)
+    concept: gpu-vram... 17.4s (in=3413, out=703, cached=768)
+    concept: cache-optimization... 18.1s (in=3399, out=1183)
+    entity: davinci-resolve... 21.7s (in=3449, out=914, cached=64)
+    entity: nvidia... 5.8s (in=3446, out=759, cached=784)
+    entity: after-effects... 11.5s (in=3448, out=428, cached=768)
+    entity: blender... 25.4s (in=3446, out=911)
+    summary-rewrite............... 15.1s (in=3444, out=1023)
+  [OK] session-31_2025-03-14.md added to knowledge base.
+done.

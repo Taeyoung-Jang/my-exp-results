@@ -1,0 +1,65 @@
+=== 2026-10-10 15:47:24 uid=9fbea962-6476-4330-85e8-e891ec63c9c4 ===
+Adding: session-03_2024-09-05.md
+  Compiling short doc...
+    summary................ 16.8s (in=2073, out=1218)
+    concepts-plan.................. 18.5s (in=3005, out=1428)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 14 entity(ies) (concurrency=4)...
+    concept: seasoning-layering... 3.1s (in=2933, out=424)
+    concept: acidity-timing... 3.5s (in=2932, out=496)
+    entity: black-pepper... 3.6s (in=2967, out=861, cached=784)
+    entity: salt... 12.0s (in=2953, out=666)
+    entity: garlic... 10.9s (in=2953, out=719)
+    entity: onion... 8.1s (in=2966, out=307, cached=768)
+    entity: lime... 2.6s (in=2965, out=312)
+    entity: soy-sauce... 4.2s (in=2964, out=906, cached=768)
+    entity: rice-vinegar... 7.4s (in=2968, out=283, cached=768)
+    entity: lemon... 15.6s (in=2966, out=658, cached=784)
+    entity: cumin... 3.2s (in=2966, out=404)
+    entity: paprika... 10.2s (in=2954, out=916)
+    entity: chili-oil... 9.3s (in=2967, out=356, cached=2784)
+    entity: miso... 19.4s (in=2967, out=682, cached=64)
+    entity: sesame-oil... 8.3s (in=2967, out=311, cached=2784)
+    entity: honey... 4.2s (in=2983, out=744, cached=64)
+    concept: spice-toasting... 49.4s (in=2933, out=993, cached=784)
+Concept generation failed: LLM returned empty content for concept 'seasoning-layering'
+Concept generation failed: LLM returned empty content for concept 'acidity-timing'
+    [WARN] 3 concept(s) planned but only 1 written for session-03_2024-09-05 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'lime'
+Entity generation failed: LLM returned empty content for concept 'cumin'
+    [WARN] 14 entity(ies) planned but only 12 written for session-03_2024-09-05 (ValueError).
+    summary-rewrite............................................ 44.3s (in=2964, out=1536, cached=768)
+[92m15:49:34 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-03_2024-09-05.md added to knowledge base.
+Adding: session-33_2025-05-07.md
+  Compiling short doc...
+    summary.................... 20.4s (in=3834, out=682, cached=64)
+    concepts-plan...... 6.3s (in=5204, out=160, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: hidden-onion-garlic-sources... 4.4s (in=4862, out=1093, cached=784)
+    entity: low-fodmap-elimination-diet... 15.8s (in=4887, out=1254)
+    entity-update: lemon... 15.6s (in=5137, out=506, cached=3808)
+    concept: low-fodmap-meal-planning... 29.6s (in=4864, out=801, cached=768)
+    concept: flavor-kit-prep... 34.3s (in=4861, out=1100, cached=3808)
+    entity-update: sesame-oil... 28.1s (in=5130, out=1144, cached=64)
+    entity-update: black-pepper... 26.1s (in=5405, out=746, cached=4448)
+    summary-rewrite...... 6.7s (in=4890, out=1169)
+  [OK] session-33_2025-05-07.md added to knowledge base.
+done.

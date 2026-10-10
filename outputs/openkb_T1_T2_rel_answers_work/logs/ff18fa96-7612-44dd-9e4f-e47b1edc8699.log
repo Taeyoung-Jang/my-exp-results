@@ -1,0 +1,30 @@
+=== 2026-10-10 15:27:01 uid=ff18fa96-7612-44dd-9e4f-e47b1edc8699 ===
+Adding: session-15_2024-06-15.md
+  Compiling short doc...
+    summary.................... 20.9s (in=2169, out=689, cached=64)
+    concepts-plan........ 8.6s (in=3217, out=575)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: perceived-air-quality-factors... 5.1s (in=3086, out=822, cached=64)
+    concept: quick-atmosphere-checklist... 6.3s (in=3085, out=773, cached=784)
+    concept: air-mass-origin-and-wind-sensation... 12.4s (in=3088, out=904, cached=784)
+    summary-rewrite................... 19.4s (in=3115, out=993, cached=2144)
+  [OK] session-15_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-06-15.md
+  Compiling short doc...
+    summary........ 8.3s (in=2105, out=586, cached=768)
+    concepts-plan... 3.4s (in=3135, out=155, cached=2080)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: winter-grade-washer-fluid... 5.5s (in=3026, out=910, cached=64)
+    concept: layering-for-cold-weather... 9.7s (in=2991, out=508, cached=2080)
+    concept: vehicle-winter-maintenance... 11.3s (in=2989, out=505, cached=64)
+    entity: kitty-litter... 2.0s (in=3023, out=280)
+    entity: portable-jump-starter... 8.4s (in=3011, out=665)
+    concept: quick-windshield-deicing... 27.7s (in=2992, out=1125, cached=69)
+Concept generation failed: LLM returned empty content for concept 'quick-windshield-deicing'
+    [WARN] 3 concept(s) planned but only 2 written for session-39_2025-06-15 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'kitty-litter'
+    [WARN] 3 entity(ies) planned but only 2 written for session-39_2025-06-15 (ValueError).
+    summary-rewrite..... 5.6s (in=3020, out=910, cached=64)
+  [OK] session-39_2025-06-15.md added to knowledge base.
+done.

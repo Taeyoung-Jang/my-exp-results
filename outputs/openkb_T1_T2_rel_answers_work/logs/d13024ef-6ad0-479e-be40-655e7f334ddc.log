@@ -1,0 +1,25 @@
+=== 2026-10-10 15:52:42 uid=d13024ef-6ad0-479e-be40-655e7f334ddc ===
+Adding: session-10_2024-03-09.md
+  Compiling short doc...
+    summary....................... 23.6s (in=2840, out=814, cached=64)
+    concepts-plan... 3.1s (in=4015, out=704, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: ritual_substitution... 3.3s (in=3880, out=656, cached=800)
+    concept: non_caffeine_energy_boosts... 10.0s (in=3854, out=744)
+    concept: caffeine_tapering... 13.0s (in=3865, out=822, cached=64)
+    summary-rewrite............. 13.7s (in=3894, out=830, cached=64)
+  [OK] session-10_2024-03-09.md added to knowledge base.
+Adding: session-32_2024-11-09.md
+  Compiling short doc...
+    summary... 3.9s (in=2339, out=1328, cached=768)
+    concepts-plan.. 2.4s (in=3325, out=815)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: no_stimulation_checklist... 3.3s (in=3167, out=847, cached=768)
+    concept: beta_blocker_constraints... 3.8s (in=3167, out=1136, cached=768)
+    update: ritual_substitution... 4.1s (in=3636, out=1366, cached=768)
+    concept: gentle_morning_routine... 5.2s (in=3162, out=1092, cached=768)
+    entity: beta_blocker... 3.4s (in=3197, out=686, cached=768)
+    summary-rewrite.. 2.7s (in=3165, out=742, cached=768)
+  [OK] session-32_2024-11-09.md added to knowledge base.
+done.

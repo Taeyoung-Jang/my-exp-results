@@ -1,0 +1,29 @@
+=== 2026-10-10 14:29:25 uid=5c14338e-f396-43b4-a403-b265b22ac9d3 ===
+Adding: session-09_2024-06-15.md
+  Compiling short doc...
+    summary............... 15.6s (in=2158, out=663, cached=768)
+    concepts-plan....... 8.0s (in=3217, out=561)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: balanced_language_learning... 3.8s (in=3097, out=1489)
+    concept: self_correction_checklist... 6.0s (in=3070, out=678, cached=784)
+    entity: french... 7.7s (in=3101, out=321)
+    concept: writing_first_approach... 11.9s (in=3070, out=1044, cached=784)
+Entity generation failed: LLM returned empty content for concept 'french'
+    [WARN] 1 entity(ies) planned but only 0 written for session-09_2024-06-15 (ValueError).
+    summary-rewrite....... 7.5s (in=3100, out=747, cached=784)
+  [OK] session-09_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-06-15.md
+  Compiling short doc...
+    summary.............................. 30.7s (in=2939, out=909, cached=768)
+    concepts-plan....... 7.2s (in=4274, out=848, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    entity: montreal... 2.4s (in=4145, out=581, cached=784)
+    entity: french-language... 2.5s (in=4146, out=630, cached=3984)
+    concept: micro-interactions... 5.8s (in=4112, out=999, cached=784)
+    concept: speaking-as-show-up... 12.2s (in=4101, out=871)
+    concept: panic-phrases... 17.5s (in=4112, out=971)
+    summary-rewrite........ 8.0s (in=4143, out=1200, cached=800)
+  [OK] session-39_2025-06-15.md added to knowledge base.
+done.

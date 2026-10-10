@@ -1,0 +1,24 @@
+=== 2026-10-10 14:25:16 uid=76de82b6-a5f0-4167-b4b5-a27d2100dc85 ===
+Adding: session-05_2024-06-20.md
+  Compiling short doc...
+    summary......... 9.2s (in=1807, out=1671, cached=784)
+    concepts-plan...... 6.7s (in=2723, out=437, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low-pressure-communication... 3.7s (in=2570, out=612, cached=784)
+    concept: relationship-check-in... 5.2s (in=2570, out=844, cached=784)
+    concept: feelings-and-needs... 15.5s (in=2570, out=514, cached=768)
+    summary-rewrite....... 7.1s (in=2600, out=690, cached=1808)
+  [OK] session-05_2024-06-20.md added to knowledge base.
+Adding: session-35_2025-02-20.md
+  Compiling short doc...
+    summary............ 12.8s (in=2778, out=1046)
+    concepts-plan............. 13.2s (in=4084, out=813, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: dating-app... 3.4s (in=3975, out=1339, cached=768)
+    concept: date-spot-vetting-checklist... 4.3s (in=3915, out=1030, cached=784)
+    concept: first-date-ideas... 17.4s (in=3914, out=1182)
+    concept: public-first-date-principle... 31.3s (in=3915, out=1398, cached=64)
+    summary-rewrite... 3.2s (in=3944, out=1345)
+  [OK] session-35_2025-02-20.md added to knowledge base.
+done.

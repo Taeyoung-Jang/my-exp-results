@@ -1,0 +1,46 @@
+=== 2026-10-10 15:44:50 uid=b58224e8-1c5c-49f5-a836-ab9a5e0a0164 ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary................ 16.7s (in=2068, out=1028, cached=784)
+    concepts-plan............. 13.8s (in=3155, out=1049, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: kelley-blue-book... 4.0s (in=3057, out=248, cached=768)
+    concept: insurance-coverage-decision... 8.6s (in=3024, out=875, cached=784)
+    entity: edmunds... 9.4s (in=3056, out=595, cached=786)
+    concept: deductible-strategy... 13.8s (in=3023, out=868)
+    entity: aaa... 7.1s (in=3042, out=626)
+    concept: gap-insurance-evaluation... 19.5s (in=3022, out=1126, cached=784)
+    summary-rewrite............................. 29.5s (in=3053, out=1126, cached=2064)
+[92m15:46:10 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-04_2024-06-15.md added to knowledge base.
+Adding: session-34_2025-02-15.md
+  Compiling short doc...
+    summary............ 12.7s (in=2037, out=595, cached=768)
+    concepts-plan... 3.8s (in=3165, out=233, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: dmv-release-of-liability... 6.1s (in=2953, out=1019, cached=784)
+    entity: toll-transponder... 3.2s (in=2987, out=1012, cached=784)
+    entity: dmv... 12.5s (in=2975, out=956)
+    concept: vehicle-ownership-transfer... 13.1s (in=2952, out=507, cached=768)
+    concept: document-retention-periods... 19.5s (in=2954, out=913, cached=64)
+    summary-rewrite... 3.3s (in=2983, out=912, cached=2816)
+  [OK] session-34_2025-02-15.md added to knowledge base.
+done.

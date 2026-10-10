@@ -1,0 +1,32 @@
+{
+  "uid": "39bb477c-c3c4-4f4d-956d-8765afa4ed93",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    3,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "**No.**  \n\n- In the earlier session (2024‑06‑15) the user advocated a *one",
+    "dim2_response": "**Recommended “keep‑only” apps for each functional area**\n\n| Function | App to keep (from the knowledge base) | Why it fits the “single‑app‑per‑category” rule |\n|----------|---------------------------------------|-------------------------------------------------|\n| **Messaging** | **Apple Messages** (`[[entities/apple-messages]]`) | Native, fully integrated with iOS (iMessage, SMS, group chats), reliable sync via iCloud, no extra background processes. |\n| **Notes** | **Apple Notes** (`[[entities/apple-notes]]`) | Fast capture, powerful search, offline access, automatic iCloud sync, supports folders, checklists, and attachments – the “fast capture, reliable search, offline access” criteria listed in the scorecard (`summaries/session‑04_2024‑06‑15`). |\n| **Calendar** | **Apple Calendar** (native iOS calendar app – referenced indirectly in the “clean layout, easy event creation, reliable sync” criterion of the scorecard) | Provides month/week views, native iOS notifications, and seamless iCloud sync; meets the “clean layout, easy event creation, reliable sync” requirement of the scoring template. |\n| **Budgeting** | **Apple Wallet** (`[[entities/apple-wallet]]`) – use its “passes & tickets” section or the built‑in **Banking/Finance** shortcuts in Safari. | The knowledge base treats **budgeting** as a core category (`summaries/session‑04_2024‑06‑15`) but does not name a specific third‑party app. The native Wallet app can store prepaid cards, loyalty passes, and simple transaction overviews without pulling in an extra app, keeping the setup minimal. |\n| **Fitness tracking** | **Apple Health** (native iOS health app – not listed as an entity but implied by the iOS ecosystem) | Though the wiki does not mention a dedicated fitness app, the iOS Health app aggregates activity data, works offline, syncs via iCloud, and avoids installing a separate “fitness tracker” app, aligning with the minimal‑app philosophy. |\n\n### How this recommendation follows the knowledge base\n\n* The **scorecard** in *session‑04 2024‑06‑15* tells us to keep the single “best” app per functional category, scoring on essential fit, speed, reliability, low clutter, and trust.  \n* The **minimal‑iPhone setup** described in *session‑33 2025‑02‑14* explicitly lists the native Apple apps to retain (Messages, Notes, Maps, Wallet, Settings, etc.) because they are tightly integrated and avoid background bloat.  \n* For categories not covered by a native app (budgeting, fitness), the KB suggests using **web‑based shortcuts** or native system tools rather than adding an extra app, which satisfies the “cannot delete” constraint while still keeping the workflow streamlined.\n\n---\n\n**If you need a dedicated third‑party budgeting or fitness app, the current knowledge base does not contain specific recommendations for those categories.** You may want to look for apps that score **≥ 70** on the weighted criteria above (essential fit, speed, reliability, low clutter, trust) and that can be accessed via Safari shortcuts if you cannot uninstall existing apps.",
+    "dim3_response": "If you want to keep your phone lean while still tracking a handful of routines, the knowledge base recommends **consolidating inside the native iOS ecosystem rather than adding a separate app for each habit**.\n\n* **Use the built‑in tools** – [[entities/apple-notes]] for quick logs, **Reminders** for repeatable tasks, and **Shortcuts** to auto‑trigger a routine (e.g., open a timer, log a entry, or send a notification). Because these apps are already integrated with iOS, they don’t add background load or extra icons, which lines up with the **[[concepts/minimal-iphone-setup]]** and **[[concepts/app-clutter-management]]** guidelines described in the “minimal iPhone” summary【session-33_2025-02-14】.  \n\n* **If you prefer a single‑purpose habit‑tracker**, pick one that can export or sync data to iCloud/Notes so you can still view everything in a central place. Avoid scattering habits across multiple third‑party apps, which re‑creates the “app bloat” the guide warns against.  \n\n* **Web‑based trackers** can be added as **Safari home‑screen shortcuts** (the same approach used for social‑media or banking in the minimal‑setup advice). This gives you an app‑like icon without installing another binary【session-33_2025-02-14】.\n\n**Bottom line:** Keep the routine‑tracking workflow inside the native apps (Notes, Reminders, Shortcuts) or, at most, a single dedicated habit‑tracker that syncs with iCloud. This reduces background activity, notification noise, and home‑screen clutter, making the system easier to maintain while still covering the routines you want to monitor."
+  },
+  "build_seconds": 208.9,
+  "total_seconds": 293.3,
+  "usage": {
+    "compile": {
+      "calls": 28,
+      "prompt_tokens": 93858,
+      "completion_tokens": 23607,
+      "cost_usd": 0.009623607999999999
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 25841,
+      "completion_tokens": 2904,
+      "cost_usd": 0.001138969
+    }
+  }
+}

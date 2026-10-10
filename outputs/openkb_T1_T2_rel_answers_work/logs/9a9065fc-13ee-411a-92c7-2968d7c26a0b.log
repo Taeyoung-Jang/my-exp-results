@@ -1,0 +1,29 @@
+=== 2026-10-10 15:55:39 uid=9a9065fc-13ee-411a-92c7-2968d7c26a0b ===
+Adding: session-10_2025-04-12.md
+  Compiling short doc...
+    summary................... 19.1s (in=2727, out=1705, cached=784)
+    concepts-plan....... 7.9s (in=4185, out=511)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: hybrid-auction-live-finale... 10.3s (in=4076, out=742, cached=768)
+    concept: auction-theme-ideas... 11.1s (in=4074, out=887, cached=784)
+    entity: auctria... 6.1s (in=4109, out=440, cached=768)
+    entity: onecause... 6.1s (in=4108, out=1054, cached=64)
+    entity: givebutter... 17.7s (in=4108, out=986, cached=784)
+    entity: greater-giving... 2.7s (in=4107, out=405)
+    concept: fundraising-event-themes... 24.0s (in=4075, out=795)
+Entity generation failed: LLM returned empty content for concept 'greater-giving'
+    [WARN] 4 entity(ies) planned but only 3 written for session-10_2025-04-12 (ValueError).
+    summary-rewrite................. 17.2s (in=4092, out=1240)
+  [OK] session-10_2025-04-12.md added to knowledge base.
+Adding: session-37_2025-04-26.md
+  Compiling short doc...
+    summary........... 11.1s (in=2750, out=631, cached=768)
+    concepts-plan.. 2.6s (in=3888, out=645, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: three_question_filter... 3.2s (in=3665, out=818, cached=3312)
+    concept: triage_checklist... 15.6s (in=3664, out=939, cached=768)
+    concept: outreach_script... 21.3s (in=3663, out=774, cached=784)
+    summary-rewrite......... 9.9s (in=3695, out=729)
+  [OK] session-37_2025-04-26.md added to knowledge base.
+done.

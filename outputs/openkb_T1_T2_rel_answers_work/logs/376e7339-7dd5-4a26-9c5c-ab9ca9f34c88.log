@@ -1,0 +1,32 @@
+=== 2026-10-10 15:51:02 uid=376e7339-7dd5-4a26-9c5c-ab9ca9f34c88 ===
+Adding: session-05_2024-06-15.md
+  Compiling short doc...
+    summary.... 4.4s (in=1853, out=916, cached=784)
+    concepts-plan...... 6.9s (in=2884, out=483)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: non-scale-progress... 2.8s (in=2742, out=566)
+    concept: low-pressure-tracking... 3.0s (in=2743, out=745, cached=784)
+    concept: qualitative-self-assessment... 10.5s (in=2744, out=762, cached=800)
+Concept generation failed: LLM returned empty content for concept 'non-scale-progress'
+    [WARN] 3 concept(s) planned but only 2 written for session-05_2024-06-15 (ValueError).
+    summary-rewrite.... 4.5s (in=2772, out=872)
+  [OK] session-05_2024-06-15.md added to knowledge base.
+Adding: session-39_2024-12-16.md
+  Compiling short doc...
+    summary........... 11.1s (in=2429, out=1160, cached=784)
+    concepts-plan... 3.1s (in=3735, out=208, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: levothyroxine-absorption... 4.9s (in=3622, out=1127, cached=784)
+    concept: supplement-interference... 15.0s (in=3623, out=951, cached=768)
+    entity: thyroid-surgery... 2.8s (in=3654, out=823, cached=784)
+    update: low-pressure-tracking... 19.7s (in=4109, out=1533, cached=2416)
+    update: qualitative-self-assessment... 15.1s (in=4081, out=1193)
+    entity: levothyroxine... 4.0s (in=3655, out=843, cached=784)
+    entity: free-t4-test... 5.0s (in=3655, out=857, cached=3488)
+    entity: tsh-test... 5.4s (in=3654, out=972, cached=3488)
+    concept: symptom-tracking-template... 26.1s (in=3620, out=1084, cached=64)
+    entity: free-t3-test... 5.1s (in=3655, out=1027, cached=3488)
+    summary-rewrite.... 5.0s (in=3650, out=1375, cached=3488)
+  [OK] session-39_2024-12-16.md added to knowledge base.
+done.

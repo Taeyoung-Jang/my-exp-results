@@ -1,0 +1,32 @@
+=== 2026-10-10 15:27:01 uid=feef3933-9375-4fa2-ba80-ae65963e7466 ===
+Adding: session-05_2022-10-30.md
+  Compiling short doc...
+    summary............................. 29.5s (in=2295, out=1228)
+    concepts-plan................. 17.3s (in=3424, out=1156, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: window_insulation... 8.8s (in=3313, out=548, cached=64)
+    entity: medium_density_adhesive_foam_weatherstripping... 10.5s (in=3341, out=800)
+    entity: exterior_grade_silicone_caulk... 3.8s (in=3351, out=915, cached=784)
+    concept: weatherstripping... 13.2s (in=3313, out=817)
+    concept: caulking... 16.5s (in=3313, out=1077)
+    entity: double_hung_window... 4.2s (in=3349, out=1036, cached=3184)
+    entity: dehumidifier... 9.4s (in=3348, out=801)
+    entity: thermal_curtains... 14.8s (in=3347, out=714, cached=784)
+    summary-rewrite........... 11.7s (in=3331, out=1172)
+  [OK] session-05_2022-10-30.md added to knowledge base.
+Adding: session-37_2024-10-30.md
+  Compiling short doc...
+    summary........... 11.5s (in=2245, out=943)
+    concepts-plan....... 7.7s (in=3550, out=807)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: drip-irrigation... 4.5s (in=3306, out=925, cached=68)
+    entity: agave... 5.7s (in=3360, out=1088, cached=768)
+    entity: ocotillo... 4.5s (in=3344, out=888, cached=784)
+    concept: desert-landscaping... 15.0s (in=3292, out=1066)
+    entity: drip-emitter... 13.3s (in=3329, out=922)
+    concept: establishment-phase-watering... 53.5s (in=3308, out=1885, cached=64)
+    summary-rewrite.................................... 36.3s (in=3337, out=1158, cached=67)
+  [OK] session-37_2024-10-30.md added to knowledge base.
+done.

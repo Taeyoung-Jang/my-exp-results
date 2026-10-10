@@ -1,0 +1,32 @@
+{
+  "uid": "9bfd449b-a693-4096-9235-8602bd1f136e",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    11,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In both of the recent sessions you reiterated that you set aside the first ~2 hours of the day for uninterrupted, high‑value work:\n\n* **Session 12 (2024‑06‑15)** – You outlined a concrete “two‑hour template” (9:00 – 11:00) that begins with a warm‑up ritual, then two deep‑work blocks, followed by a brief message sweep. You explicitly call this a *protected morning window* that “reserve[s] the first 1–2 hours of the day for deep work”【source: summaries/session-12_2024-06-15.md】.\n\n* **Session 34 (2024‑10‑15)** – Even when your stand‑up meetings run from 8:00 – 9:30, you still schedule a 90‑minute deep‑work block immediately afterward (≈9:40 – 11:10), preserving a solid block of focus early in the day【source: summaries/session-34_2024-10-15.md】.\n\nBoth entries show that you continue to guard the first two hours (or the equivalent early‑day window) for deep focus.",
+    "dim2_response": "**Your two‑hour deep‑focus block for tomorrow (example 9:00‑11:00)**  \n\n| Time | Action | How it protects you from interruptions |\n|------|--------|------------------------------------------|\n| **9:00 – 9:05** | **Warm‑up ritual** – grab coffee/tea, do a quick stretch, glance at tomorrow’s top‑priority goal and state the desired outcome out loud. | Keeps the mind in “work mode” before anything else enters the scene. [[concepts/warm_up_ritual]] |\n| **9:05 – 9:50** | **Deep‑work Block #1** (45 min). Work on the highest‑impact task (e.g., the feature you need to ship, a research write‑up, a client proposal). | • Set status to **Do Not Disturb** on all chat tools. <br>• Turn off email notifications or route them to a “focus” folder. <br>• Close all non‑essential tabs/windows. |\n| **9:50 – 9:55** | **Reset break** – stand, hydrate, look away from the screen for a breath or a brief walk. | A physical cue that creates a mental boundary before the next block; prevents “carry‑over” fatigue. [[concepts/reset_break]] |\n| **9:55 – 10:40** | **Deep‑work Block #2** (45 min). Continue the same task or switch to the next high‑value sub‑task if the first is done. | Same interruption‑blocking settings as Block #1. |\n| **10:40 – 10:45** | **Wrap‑up notes** – write a quick bullet list of what you accomplished, what the next step is, and any questions that need answers later. | Gives the brain a concrete closure point, reducing the urge to keep checking messages. |\n| **10:45 – 10:48** | **Message sweep** (3 min) using the **triage checklist**. | • Open only subject lines / first sentences. <br>• Flag true blockers (keywords: *blocked, need approval, deadline now*). <br>• Reply instantly to unblockers, otherwise send a short “I’ll address this after my focus block (by 12 pm)” note. <br>• Close inbox and chat apps the second the 3 min end. [[concepts/triage_checklist]] |\n| **10:48 – 11:00** | **Buffer / transition** – stretch, hydrate again, review the next day’s agenda, and set a **status message** (“In focus until 11:00 – urgent only, please use the pre‑written script”). | The status and pre‑written script deter colleagues from interrupting: <br>**General script:** “Thanks for the note. I’m heads‑down until 11:00, but I’ll look at it as soon as I come up for air.” <br>**Urgent‑request script:** “I’m in a focus block right now. If this needs action before 11:00, let me know the deadline or risk so I can prioritize it.” [[concepts/urgent_message_scripts]] |\n\n### Key Practices to Keep Interruptions Out  \n\n1. **Pre‑set “Do Not Disturb”** on all communication platforms **before** 9:00.  \n2. **Auto‑reply** with the urgent‑message script (most chat/email tools let you schedule a temporary out‑of‑office message).  \n3. **Physically signal** you’re in focus: put a “focus” sign on your desk, close the office door (if possible), or wear headphones.  \n4. **Use the reset break** (9:50‑9:55) as a mental “switch‑off” point; it tells both you and anyone trying to reach you that the first block is finished.  \n5. **Only allow the 3‑minute sweep** at 10:45; any message that does not meet the blocker criteria stays in the deferred pile.  \n\nFollowing this schedule leverages the **protected focus time** framework and the **triage checklist** you’ve already practiced, ensuring two solid hours of uninterrupted, high‑value work while still giving colleagues a clear, polite way to reach you if something truly urgent arises.",
+    "dim3_response": "I’m sorry, but I couldn’t locate any relevant information in the knowledge base regarding the optimal time of day or conditions for reviewing a lengthy legal contract."
+  },
+  "build_seconds": 112.3,
+  "total_seconds": 145.5,
+  "usage": {
+    "compile": {
+      "calls": 18,
+      "prompt_tokens": 55825,
+      "completion_tokens": 15635,
+      "cost_usd": 0.0054867990000000005
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 19701,
+      "completion_tokens": 2282,
+      "cost_usd": 0.0010047720000000001
+    }
+  }
+}

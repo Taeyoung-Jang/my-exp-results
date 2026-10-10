@@ -1,0 +1,26 @@
+=== 2026-10-10 14:34:01 uid=c340393b-183d-4f0f-ba62-e82b440734e6 ===
+Adding: session-08_2024-06-15.md
+  Compiling short doc...
+    summary.... 4.8s (in=2912, out=952, cached=768)
+    concepts-plan... 3.9s (in=4058, out=136, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: habit-tracking... 3.2s (in=3900, out=506)
+    concept: sleep-quality-metrics... 4.8s (in=3901, out=755)
+    concept: decision-rules... 14.5s (in=3901, out=564, cached=768)
+Concept generation failed: LLM returned empty content for concept 'habit-tracking'
+Concept generation failed: LLM returned empty content for concept 'sleep-quality-metrics'
+    [WARN] 3 concept(s) planned but only 1 written for session-08_2024-06-15 (ValueError).
+    summary-rewrite........ 9.0s (in=3933, out=987, cached=784)
+  [OK] session-08_2024-06-15.md added to knowledge base.
+Adding: session-38_2024-12-13.md
+  Compiling short doc...
+    summary....................... 23.6s (in=3002, out=796, cached=768)
+    concepts-plan.................. 18.2s (in=4202, out=835, cached=64)
+    Generating 4 concept(s) (concurrency=4)...
+    concept: low-stimulation-reset... 3.6s (in=4058, out=928, cached=784)
+    concept: chew-tapering-strategy... 9.2s (in=4059, out=921, cached=784)
+    concept: evening-focus-shift... 19.9s (in=4056, out=843, cached=784)
+    update: decision-rules... 40.9s (in=4605, out=3317)
+    summary-rewrite.......... 10.6s (in=4087, out=989, cached=784)
+  [OK] session-38_2024-12-13.md added to knowledge base.
+done.

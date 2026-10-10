@@ -1,0 +1,52 @@
+=== 2026-10-10 15:46:48 uid=f57f6037-c95a-40ef-a7ab-6f5b396ba927 ===
+Adding: session-01_2024-06-12.md
+  Compiling short doc...
+    summary......................... 25.7s (in=3333, out=902, cached=768)
+    concepts-plan. 1.7s (in=4622, out=145)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-01_2024-06-12 — no concept pages generated. See log (stderr) for details.
+  [OK] session-01_2024-06-12.md added to knowledge base.
+Adding: session-34_2024-11-12.md
+  Compiling short doc...
+    summary................ 16.8s (in=5549, out=931, cached=784)
+    concepts-plan................. 17.7s (in=6606, out=1244, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 15 entity(ies) (concurrency=4)...
+    entity: nemos-dreamscapes... 8.9s (in=6618, out=1027, cached=784)
+    concept: one-handed-activities... 13.1s (in=6583, out=680, cached=768)
+    concept: evening-routines... 15.5s (in=6581, out=1187, cached=784)
+    entity: relaxed-guy... 8.6s (in=6616, out=314, cached=768)
+    entity: calmed-by-nature... 5.5s (in=6617, out=929, cached=784)
+    entity: michael-sealey... 9.0s (in=6616, out=690, cached=6144)
+    entity: miracle-forest... 17.2s (in=6602, out=889)
+    entity: relaxing-white-noise... 28.0s (in=6617, out=1095)
+    entity: librivox... 12.0s (in=6603, out=968)
+    entity: alan-winterrowd... 11.8s (in=6617, out=692, cached=784)
+    entity: karen-savage... 8.1s (in=6615, out=632, cached=6448)
+    entity: iphone... 8.9s (in=6615, out=494, cached=6432)
+    entity: siri... 15.7s (in=6601, out=1068)
+    entity: clock-app... 9.7s (in=6619, out=838, cached=784)
+    entity: the-wind-in-the-willows... 8.6s (in=6619, out=352, cached=768)
+    entity: anne-of-green-gables... 7.9s (in=6618, out=389, cached=6432)
+    entity: little-women... 10.5s (in=6615, out=892, cached=784)
+    concept: free-audio-resources... 99.9s (in=6581, out=2263, cached=64)
+    summary-rewrite........................ 24.4s (in=6612, out=1147)
+[92m15:49:54 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-34_2024-11-12.md added to knowledge base.
+done.

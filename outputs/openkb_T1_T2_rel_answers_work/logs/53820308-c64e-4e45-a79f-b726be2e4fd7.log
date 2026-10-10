@@ -1,0 +1,24 @@
+=== 2026-10-10 15:32:53 uid=53820308-c64e-4e45-a79f-b726be2e4fd7 ===
+Adding: session-11_2023-05-24.md
+  Compiling short doc...
+    summary......... 9.9s (in=1861, out=808)
+    concepts-plan... 3.8s (in=2796, out=683, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: member-spotlight... 4.5s (in=2621, out=654, cached=784)
+    concept: placeholder-usage... 8.9s (in=2621, out=1046, cached=784)
+    concept: tone-variation... 16.0s (in=2621, out=745, cached=784)
+    summary-rewrite... 3.6s (in=2653, out=597)
+  [OK] session-11_2023-05-24.md added to knowledge base.
+Adding: session-38_2025-05-24.md
+  Compiling short doc...
+    summary............................. 29.7s (in=2923, out=1060, cached=64)
+    concepts-plan........ 8.5s (in=4097, out=577, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: appointment-planning... 4.2s (in=3903, out=516)
+    concept: checklist-creation... 12.5s (in=3891, out=987)
+    concept: time-management... 14.3s (in=3904, out=448, cached=768)
+Concept generation failed: LLM returned empty content for concept 'appointment-planning'
+    [WARN] 3 concept(s) planned but only 2 written for session-38_2025-05-24 (ValueError).
+    summary-rewrite....... 7.6s (in=3936, out=976, cached=784)
+  [OK] session-38_2025-05-24.md added to knowledge base.
+done.

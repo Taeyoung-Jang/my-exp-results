@@ -1,0 +1,32 @@
+{
+  "uid": "855155ad-b03b-4b21-b336-1a3e8334acaa",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    0,
+    39
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the available conversation history there is **no explicit evidence** that the user still maintains an active subscription to a cloud‑based design suite nor that they depend on it for rendering their models.\n\n* In **Session 01 (2025‑06‑15)** the user was *evaluating* the trade‑offs between a subscription suite and perpetual (stand‑alone) licenses, using a weighted scoring template, but no final decision was recorded.  \n* In **Session 40 (2025‑10‑15)** the focus shifts to an **offline deep‑work and overnight compute workflow**, which emphasizes running heavy jobs on a disconnected machine, snapshotting code, and transferring results via USB. This later workflow does **not mention** the cloud‑based suite or any ongoing reliance on it for rendering.\n\nSince the later session neither confirms nor references an active subscription, we can only conclude that the knowledge base does **not contain information confirming that the user still keeps the subscription active or uses it for rendering**.",
+    "dim2_response": "**How to streamline rendering inside your cloud‑based design suite this week**\n\n| Step | What to do | Why it matters (KB reference) |\n|------|------------|--------------------------------|\n| 1️⃣ Prioritize the **core workflow** | Identify the suite settings, render engine presets, and plug‑ins that you actually use for modeling, texturing and scene assembly. Disable or hide any features you never touch (e.g., legacy renderers, unused material libraries). | The suite’s value is highest when it covers the *core workflow reliance* factor (40 % weight) in the workflow‑factor model. [[concepts/workflow_factors]] |\n| 2️⃣ Pick **high‑impact add‑ons** | Select only those add‑ons that directly speed up rendering (e.g., GPU‑accelerated denoisers, AI‑upscaling, scene‑instancing tools). Score each candidate on the weighted checklist (core workflow, cost efficiency, integration, future flexibility). Keep anything scoring < 3 on *core workflow* or *workflow integration*. | The weighted scoring template is described in the subscription‑vs‑perpetual guide and uses the same four criteria. [[summaries/session-01_2025-06-15]] |\n| 3️⃣ Set **render‑engine defaults** for speed | ‑ **Resolution**: start with a lower preview resolution (e.g., 720p) and only switch to final resolution for the last pass.<br>‑ **Sampling**: use the suite’s “fast preview” preset (e.g., 16‑32 samples) and raise it only for final frames.<br>‑ **GPU vs CPU**: force GPU rendering if your cloud nodes have supported GPUs; otherwise keep CPU fallback disabled. | These settings affect *workflow integration* (20 % weight) because they reduce the number of manual changes needed per project and keep the pipeline smooth. |\n| 4️⃣ Leverage **cloud‑storage caching** | Enable the suite’s automatic asset caching so textures, geometry caches, and previous render results stay on the server between sessions. This removes redundant uploads/downloads each time you start a render. | Cloud storage is one of the subscription‑suite benefits highlighted in the subscription vs. perpetual comparison. [[summaries/session-01_2025-06-15]] |\n| 5️⃣ Schedule **batch renders** during off‑peak cloud hours | If the suite lets you queue renders, submit a batch for the night when the cloud provider’s compute nodes are less loaded. This often yields faster wall‑clock times and lower queue latency. | The “offline compute workflow” concept stresses crash‑safe, resumable jobs that run unattended; applying it to cloud rendering gives the same speed benefit. [[concepts/offline_compute_workflow]] |\n| 6️⃣ Run a **quick audit** before the week ends | Use the checklist again: rate the current configuration (settings + add‑ons) on the four factors. If any item scores below 3 on *core workflow* or *future flexibility* (15 %), replace it with a more suitable alternative. | The checklist is the practical tool for continuous improvement of the workflow. [[summaries/session-01_2025-06-15]] |\n\n### TL;DR\n\n1. **Trim the UI** to only the rendering tools you actually use.  \n2. **Select add‑ons** that directly improve render speed and score high on the weighted workflow‑factor checklist.  \n3. **Use fast preview presets** (lower resolution, lower sample count, GPU‑first).  \n4. **Turn on cloud asset caching** to avoid redundant data transfers.  \n5. **Queue renders for off‑peak hours** to get faster compute slots.  \n6. **Re‑score your setup** with the checklist before the week ends to catch any remaining bottlenecks.\n\nFollowing these steps aligns your suite configuration with the most important workflow factor—*core workflow reliance*—while also respecting cost, integration, and future flexibility, giving you the quickest render turnaround this week.",
+    "dim3_response": "I’m unable to locate any information in the knowledge base about your specific design‑subscription plan, its pricing, or the implications of letting the auto‑renewal charge go through. Consequently, I can’t provide a data‑driven recommendation on whether that is a solid plan for you. If you have details about the subscription (e.g., the service name, cost, renewal terms) that are documented in the wiki, let me know and I can look them up for you. Otherwise, you may want to consult the subscription’s official terms or a financial advisor for personalized advice."
+  },
+  "build_seconds": 117.5,
+  "total_seconds": 170.0,
+  "usage": {
+    "compile": {
+      "calls": 13,
+      "prompt_tokens": 52735,
+      "completion_tokens": 10903,
+      "cost_usd": 0.004124744
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 19503,
+      "completion_tokens": 2470,
+      "cost_usd": 0.001032987
+    }
+  }
+}

@@ -1,0 +1,34 @@
+=== 2026-10-10 15:56:23 uid=c9cc370e-baf1-4287-9795-893cac6dcbd2 ===
+Adding: session-03_2025-10-28.md
+  Compiling short doc...
+    summary... 3.3s (in=1509, out=666, cached=784)
+    concepts-plan........ 8.1s (in=2317, out=513)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: message_tone_variation... 2.9s (in=2174, out=354)
+    concept: time_suggestion... 3.1s (in=2175, out=725, cached=1504)
+    concept: politeness_in_message... 16.9s (in=2177, out=780, cached=64)
+Concept generation failed: LLM returned empty content for concept 'message_tone_variation'
+    [WARN] 3 concept(s) planned but only 2 written for session-03_2025-10-28 (ValueError).
+    summary-rewrite.......... 10.0s (in=2206, out=545, cached=784)
+  [OK] session-03_2025-10-28.md added to knowledge base.
+Adding: session-36_2025-11-11.md
+  Compiling short doc...
+    summary........ 8.3s (in=2998, out=1820, cached=768)
+    concepts-plan.... 4.8s (in=4203, out=964, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    entity: plastic_shower_caddy... 2.7s (in=4144, out=769, cached=768)
+    concept: easy-reach_zone... 2.8s (in=4140, out=1039)
+    concept: one-trip_caddy... 3.2s (in=4113, out=654)
+    entity: over_the_door_caddy... 6.2s (in=4150, out=927, cached=784)
+    concept: non_drilling_storage_solutions... 10.4s (in=4113, out=1712, cached=66)
+    entity: compact_craft_tool_tote... 8.6s (in=4148, out=788, cached=784)
+    entity: tension_rod_shelf... 6.8s (in=4148, out=910, cached=784)
+    entity: narrow_console_table... 5.7s (in=4146, out=726, cached=3984)
+    entity: freestanding_shoe_rack... 6.7s (in=4147, out=857, cached=3984)
+    entity: divided_cleaning_caddy... 19.2s (in=4148, out=984, cached=784)
+Concept generation failed: LLM returned empty content for concept 'one-trip_caddy'
+    [WARN] 3 concept(s) planned but only 2 written for session-36_2025-11-11 (ValueError).
+    summary-rewrite............ 12.8s (in=4142, out=1497, cached=3984)
+  [OK] session-36_2025-11-11.md added to knowledge base.
+done.

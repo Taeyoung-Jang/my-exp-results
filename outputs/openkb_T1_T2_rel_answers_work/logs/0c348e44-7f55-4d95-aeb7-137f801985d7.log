@@ -1,0 +1,32 @@
+=== 2026-10-10 15:47:09 uid=0c348e44-7f55-4d95-aeb7-137f801985d7 ===
+Adding: session-05_2024-06-15.md
+  Compiling short doc...
+    summary............. 13.2s (in=2012, out=911, cached=784)
+    concepts-plan......... 9.8s (in=2940, out=322, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: drm_free_downloads... 10.1s (in=2812, out=764)
+    concept: disc_ripping... 13.5s (in=2811, out=943)
+    concept: convenience_vs_ownership... 14.7s (in=2825, out=524, cached=768)
+    entity: plex... 17.5s (in=2857, out=797, cached=784)
+    entity: jellyfin... 11.0s (in=2845, out=701)
+    entity: bandcamp... 4.8s (in=2858, out=614, cached=784)
+    entity: intel_nuc... 8.0s (in=2859, out=1018, cached=2688)
+    entity: makemkv... 29.3s (in=2859, out=734, cached=48)
+    entity: handbrake... 29.0s (in=2858, out=870, cached=784)
+    summary-rewrite........... 11.4s (in=2855, out=936, cached=784)
+  [OK] session-05_2024-06-15.md added to knowledge base.
+Adding: session-36_2025-06-15.md
+  Compiling short doc...
+    summary.............. 14.9s (in=2163, out=1192, cached=784)
+    concepts-plan...................... 22.5s (in=3503, out=806, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    entity: iphone... 2.4s (in=3243, out=787)
+    concept: digital_inventory_management... 8.3s (in=3226, out=814, cached=784)
+    entity: google_drive... 9.6s (in=3247, out=741)
+    concept: one_in_one_out_rule... 14.9s (in=3231, out=894, cached=784)
+    concept: decluttering_loop... 17.5s (in=3226, out=597, cached=64)
+    summary-rewrite..... 5.2s (in=3256, out=1106)
+  [OK] session-36_2025-06-15.md added to knowledge base.
+done.

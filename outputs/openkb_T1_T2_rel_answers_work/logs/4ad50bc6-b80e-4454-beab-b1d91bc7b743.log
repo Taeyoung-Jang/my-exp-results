@@ -1,0 +1,46 @@
+=== 2026-10-10 15:38:17 uid=4ad50bc6-b80e-4454-beab-b1d91bc7b743 ===
+Adding: session-02_2025-05-15.md
+  Compiling short doc...
+    summary.................... 20.7s (in=1976, out=1837, cached=784)
+    concepts-plan................ 16.2s (in=3132, out=607, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: budgeting... 6.0s (in=2977, out=1148, cached=784)
+    concept: rotation-schedule... 13.9s (in=2964, out=1200)
+    concept: emergency-preparedness... 26.9s (in=2975, out=986, cached=784)
+    summary-rewrite....... 7.5s (in=3006, out=913, cached=784)
+  [OK] session-02_2025-05-15.md added to knowledge base.
+Adding: session-35_2025-07-15.md
+  Compiling short doc...
+    summary.............. 14.0s (in=2328, out=1163)
+    concepts-plan..... 5.5s (in=3636, out=256, cached=768)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: red-flags-contents-handling... 3.8s (in=3498, out=791)
+    concept: inventory-documentation... 6.8s (in=3496, out=927, cached=784)
+    entity: adjuster... 4.9s (in=3532, out=778, cached=784)
+    concept: chain-of-custody... 9.1s (in=3498, out=1081, cached=784)
+    concept: pack-out-process... 13.6s (in=3498, out=954, cached=784)
+    entity: pack-out-company... 10.5s (in=3521, out=913)
+    entity: contractor... 15.7s (in=3518, out=1214)
+Concept generation failed: LLM returned empty content for concept 'red-flags-contents-handling'
+    [WARN] 4 concept(s) planned but only 3 written for session-35_2025-07-15 (ValueError).
+    summary-rewrite.......................................................................................................................................... 138.1s (in=3528, out=1107)
+[92m15:42:29 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-35_2025-07-15.md added to knowledge base.
+done.

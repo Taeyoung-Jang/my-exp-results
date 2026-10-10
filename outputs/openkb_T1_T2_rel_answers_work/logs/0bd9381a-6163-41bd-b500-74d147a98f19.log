@@ -1,0 +1,24 @@
+=== 2026-10-10 14:46:45 uid=0bd9381a-6163-41bd-b500-74d147a98f19 ===
+Adding: session-05_2022-07-10.md
+  Compiling short doc...
+    summary.......... 10.7s (in=1823, out=800)
+    concepts-plan...... 6.0s (in=2769, out=379)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: consistent-presence... 6.7s (in=2625, out=582, cached=784)
+    concept: honest-communication... 8.4s (in=2611, out=642)
+    concept: adaptability... 12.4s (in=2627, out=739)
+    summary-rewrite..... 5.4s (in=2656, out=668)
+  [OK] session-05_2022-07-10.md added to knowledge base.
+Adding: session-36_2024-07-10.md
+  Compiling short doc...
+    summary............ 12.1s (in=2745, out=1049)
+    concepts-plan....... 7.8s (in=3995, out=1001, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: automation-for-interns... 3.7s (in=3834, out=913, cached=784)
+    concept: call-bag-checklist... 6.8s (in=3833, out=717, cached=768)
+    entity: residency-match... 7.2s (in=3867, out=749, cached=784)
+    concept: post-call-recovery... 14.9s (in=3834, out=988)
+    summary-rewrite.................. 18.2s (in=3864, out=1014, cached=784)
+  [OK] session-36_2024-07-10.md added to knowledge base.
+done.

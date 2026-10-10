@@ -1,0 +1,25 @@
+=== 2026-10-10 15:35:46 uid=40c9060e-bfab-4867-9c40-48f194758333 ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary=== 2026-10-10 15:36:48 uid=40c9060e-bfab-4867-9c40-48f194758333 ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary....... 7.0s (in=1973, out=808, cached=784)
+    concepts-plan.. 2.8s (in=2969, out=399)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low-pressure-neighborly-interaction... 6.1s (in=2838, out=742, cached=784)
+    concept: maintaining-neighborly-relationships... 6.7s (in=2836, out=710, cached=784)
+    concept: observation-based-conversation... 15.1s (in=2836, out=648)
+    summary-rewrite................ 16.6s (in=2866, out=954, cached=768)
+  [OK] session-04_2024-06-15.md added to knowledge base.
+Adding: session-37_2025-02-13.md
+  Compiling short doc...
+    summary......... 9.3s (in=2119, out=1033)
+    concepts-plan...... 6.8s (in=3395, out=664, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: emotional-grief... 2.6s (in=3227, out=1025)
+    concept: chunking-transitions... 4.2s (in=3225, out=887, cached=1792)
+    concept: moving-transition... 4.6s (in=3223, out=716, cached=768)
+    summary-rewrite... 3.8s (in=3227, out=1507)
+  [OK] session-37_2025-02-13.md added to knowledge base.
+done.

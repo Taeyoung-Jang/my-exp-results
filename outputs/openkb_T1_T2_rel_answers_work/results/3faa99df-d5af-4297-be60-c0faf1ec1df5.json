@@ -1,0 +1,32 @@
+{
+  "uid": "3faa99df-d5af-4297-be60-c0faf1ec1df5",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    13,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the original conversation (Session 14, 2024‑06‑15) the user explicitly said, “I’ve always trusted my ability to bounce back from minor health issues without needing a lot of hand‑holding.” There’s no later statement that contradicts this, so the user’s confidence in handling minor ailments on their own remains unchanged.",
+    "dim2_response": "**Simple Self‑Care Plan for a Minor Health Issue**\n\n> **Goal:** Give you a quick, self‑guided routine you can follow the next time you notice a small symptom, using the decision framework from the health‑triage checklist and the low‑friction organization habits you already trust.\n\n---\n\n### 1. Capture the “Signal”  \n1. **Pause & Note (≈30 seconds).** Open your pocket notebook (or phone note) and write:  \n   *Date / time, symptom, intensity (1‑10), any triggers.*  \n   *(See [[concepts/pocket-notebook-workflow]] and [[concepts/low-friction-organization]])*  \n\n2. **Take a quick photo** (if you have a rash, swelling, etc.) and attach it to the note for later reference.\n\n---\n\n### 2. Scan for **Universal Red Flags**  \nCheck the list below; if **any** apply, skip to **Step 5** (urgent care).  \n\n| Red‑Flag | Why it matters |\n|----------|----------------|\n| Sudden, severe pain | May indicate a serious underlying problem |\n| Trouble breathing / chest pain | Possible cardiac/respiratory emergency |\n| Confusion, fainting, or rapid mental change | Neurologic emergency |\n| Rapidly worsening symptoms | Could be infection spreading |\n| Severe dehydration (dark urine, dizziness, very little output) | Needs prompt medical fluids |\n\n*(Based on [[concepts/universal-red-flags]])*\n\n---\n\n### 3. Apply **Symptom‑Duration Thresholds**  \n| Symptom | Home‑care window | When to call a doctor | When to seek urgent care/ER |\n|---------|------------------|-----------------------|------------------------------|\n| **Fever** | < 102 °F, < 3 days | 102‑103 °F lasting > 3 days | > 103 °F or any fever > 3 days with worsening |\n| **Vomiting / Diarrhoea** | Improves within 24‑48 h, no blood | > 48 h or any blood | Severe dehydration, persistent vomiting |\n| **Sore throat** | < 3 days, no white patches | > 3 days *or* white patches, fever, swollen glands → consider [[entities/streptococcal-pharyngitis]] testing |\n| **Headache** | < 2 days, normal response to OTC | > 2 days or new pattern, worsening, visual changes |\n| **Back pain / Sciatica** | Improves within 7 days, no numbness | > 7 days or functional loss | New neurological signs, loss of bladder/bowel control |\n\n*(All thresholds from [[concepts/symptom-duration-thresholds]] and the checklist in [[summaries/session-14_2024-06-15]])*\n\n---\n\n### 4. Self‑Care Actions (if no red flag & within home‑care window)\n\n| Action | How‑to |\n|--------|--------|\n| **Rest** | Set a “quiet period” of 30‑60 min; avoid strenuous activity. |\n| **Hydration** | Aim for ≥ 2 L water / day; sip electrolytes if vomiting or diarrhoea. |\n| **Temperature control** | Light clothing, cool compress, or a lukewarm shower for fever. |\n| **OTC Relief** | • Acetaminophen or ibuprofen for pain/fever (follow label).<br>• Decongestant or cough suppressant for cold/flu symptoms. |\n| **Nutrition** | Light, easy‑to‑digest meals (broth, toast, bananas). |\n| **Monitoring** | Re‑check symptom intensity every 4 h; update your notebook entry. |\n| **Testing (optional)** | If fever + cough or sudden aches → consider rapid test for [[entities/covid-19]] or [[entities/influenza]]. |\n\n---\n\n### 5. Escalation Path (if red flag *or* thresholds crossed)\n\n1. **Urgent care / ER** – Call the nearest urgent‑care centre or go straight to the [[entities/emergency-room]] if red flags are present.  \n2. **Doctor’s office** – If symptom duration/severity meets the “call a doctor” column, schedule a tele‑visit or in‑person appointment.  \n3. **Document** – Note the decision, time, and any contact details in your notebook for future reference.\n\n---\n\n### 6. End‑of‑Day Review (5 min)\n\n- Look back at today’s entry.  \n- Mark the symptom as **resolved**, **ongoing**, or **escalated**.  \n- If resolved, note what helped the most (e.g., hydration, rest).  \n- If ongoing, plan tomorrow’s next check‑in.\n\n*(End‑of‑day habit from [[concepts/end-of-day-scan]])*\n\n---\n\n#### Quick Reference Card (keep on your phone)\n\n```\n🔴 Red flags? → ER/urgent care\n⏱️ Fever <102°F <3d → rest + fluids\n⏱️ Fever 102‑103°F >3d → call doctor\n⏱️ Fever >103°F → urgent care\n🤒 Sore throat >3d + white patches → strep test\n💧 Dehydration signs? → urgent care\n📝 Log symptom, re‑check every 4h, adjust care\n```\n\nFollow this loop whenever a minor issue pops up. It lets you stay in control, act fast on warning signs, and keep the process low‑friction—exactly the style you’ve found works best for you.",
+    "dim3_response": "I’m sorry, but I couldn’t find any relevant information in the knowledge base to answer that question."
+  },
+  "build_seconds": 103.0,
+  "total_seconds": 127.4,
+  "usage": {
+    "compile": {
+      "calls": 17,
+      "prompt_tokens": 64718,
+      "completion_tokens": 13669,
+      "cost_usd": 0.0052373359999999996
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 22265,
+      "completion_tokens": 2722,
+      "cost_usd": 0.001169033
+    }
+  }
+}

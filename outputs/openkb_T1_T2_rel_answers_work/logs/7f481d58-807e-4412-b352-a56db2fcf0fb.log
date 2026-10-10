@@ -1,0 +1,25 @@
+=== 2026-10-10 14:18:55 uid=7f481d58-807e-4412-b352-a56db2fcf0fb ===
+Adding: session-07_2024-07-15.md
+  Compiling short doc...
+    summary...................................... 38.8s (in=2063, out=1837, cached=64)
+    concepts-plan... 3.3s (in=2967, out=309, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: humidity... 9.2s (in=2793, out=626)
+    concept: light-scattering... 10.2s (in=2807, out=614)
+    concept: temperature-inversion... 10.4s (in=2807, out=451, cached=64)
+    summary-rewrite............ 12.5s (in=2835, out=713, cached=64)
+  [OK] session-07_2024-07-15.md added to knowledge base.
+Adding: session-35_2025-03-16.md
+  Compiling short doc...
+    summary.................. 18.6s (in=2686, out=1254, cached=784)
+    concepts-plan... 3.3s (in=4019, out=190, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: exposure-control... 7.3s (in=3850, out=926, cached=784)
+    entity: iphone... 9.2s (in=3872, out=659)
+    concept: sunrise-photography... 13.2s (in=3850, out=893, cached=784)
+    concept: morning-routine... 15.6s (in=3837, out=1007)
+    entity: proraw... 13.9s (in=3885, out=361, cached=64)
+    summary-rewrite......... 9.2s (in=3882, out=1095)
+  [OK] session-35_2025-03-16.md added to knowledge base.
+done.

@@ -1,0 +1,19 @@
+{
+  "uid": "79e4cc40-62f0-4f63-8ea8-dae5adb23c18",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    3,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the user’s own notes from the June 15 2024 conversation they codified a personal rule: “big parties aren’t really my scene… I’m much more comfortable in smaller hangouts, so I’ll pass on the party.” They even created ready‑made templates for politely declining large gatherings and emphasized that **consistent boundary setting** (i.e., always turning down crowded events) helps friends adjust their expectations. This shows the user still treats declining crowded parties in favor of smaller get‑togethers as a standing rule. 【source: summaries/session-04_2024-06-15.md】",
+    "dim2_response": "Here’s a friendly, “boundary‑with‑an‑alternative” reply you can keep handy and paste whenever you need it:\n\n---\n\n**Subject / Text**\n\n> Hi [Friend’s Name],  \n>  \n> Thank you so much for thinking of me! I’m not comfortable with big, crowded parties, but I’d love to spend time together in a cozier setting. How about we meet for coffee (or a walk, drinks, …) sometime this week? Let me know what works for you.  \n>  \n> Hope the party is a blast, and I’m looking forward to catching up soon!  \n\n---\n\n**Why it works**\n\n- **Polite gratitude** (“Thank you … thinking of me”) acknowledges the invitation.  \n- **Clear personal preference** (“I’m not comfortable with big, crowded parties”) frames the decline as a *self‑focused* boundary rather than a judgment of the event.  \n- **Alternative suggestion** (“How about we meet for coffee …”) immediately offers a concrete, smaller gathering, showing you still want to connect.  \n- **Positive closing** keeps the tone upbeat and leaves the conversation open.\n\nFeel free to swap “coffee” for any low‑key activity you prefer (a brunch, a walk in the park, a game night for a few friends, etc.). Keeping this template saved will make responding quick and consistent, reinforcing your social‑setting preferences without hurting anyone’s feelings.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain information about weekend activity recommendations, so I can’t provide a answer from the wiki."
+  },
+  "build_seconds": 138.7,
+  "total_seconds": 153.7,
+  "usage": {}
+}

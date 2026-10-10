@@ -1,0 +1,32 @@
+=== 2026-10-10 15:30:10 uid=546d39d6-ee7f-4cef-b457-a2f944d2543c ===
+Adding: session-13_2024-07-15.md
+  Compiling short doc...
+    summary........... 11.6s (in=2633, out=943)
+    concepts-plan......................... 25.5s (in=3766, out=1165, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: matte-sunscreen-texture... 3.4s (in=3734, out=647)
+    concept: sun-protection-routine... 5.8s (in=3733, out=534)
+    entity: etude-sunprise-mild-airy-finish-spf50... 13.3s (in=3777, out=525, cached=768)
+    entity: beauty-of-joseon-relief-sun-spf50... 12.5s (in=3775, out=487, cached=768)
+    entity: skin1004-hyalu-cica-water-fit-sun-serum-spf50... 9.9s (in=3782, out=399, cached=3584)
+    concept: sunscreen-reapplication-guidelines... 24.6s (in=3736, out=1079, cached=64)
+    entity: round-lab-birch-juice-moisturizing-sunscreen-spf50... 23.6s (in=3765, out=1869)
+    entity: bioderma-photoderm-gel-cream-dry-touch... 12.6s (in=3777, out=451, cached=768)
+    entity: la-roche-posay-antihelios-uvmune-400-oil-control... 18.3s (in=3781, out=1184, cached=64)
+Concept generation failed: LLM returned empty content for concept 'sun-protection-routine'
+Concept generation failed: LLM returned empty content for concept 'matte-sunscreen-texture'
+    [WARN] 3 concept(s) planned but only 1 written for session-13_2024-07-15 (ValueError).
+    summary-rewrite................. 17.2s (in=3765, out=1118, cached=64)
+  [OK] session-13_2024-07-15.md added to knowledge base.
+Adding: session-32_2025-03-16.md
+  Compiling short doc...
+    summary........... 11.8s (in=2788, out=694)
+    concepts-plan....... 7.1s (in=3902, out=511)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: tide-monitoring... 2.2s (in=3644, out=720)
+    concept: dog-walk-safety... 15.7s (in=3626, out=812)
+    concept: visibility-estimation... 25.3s (in=3613, out=806)
+    summary-rewrite.......... 10.6s (in=3644, out=761)
+  [OK] session-32_2025-03-16.md added to knowledge base.
+done.

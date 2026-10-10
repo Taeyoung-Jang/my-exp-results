@@ -1,0 +1,34 @@
+=== 2026-10-10 14:18:55 uid=b0d43dd4-98e2-4617-a062-24edcc22a0ee ===
+Adding: session-14_2023-05-15.md
+  Compiling short doc...
+    summary...... 6.6s (in=2287, out=975)
+    concepts-plan.... 4.8s (in=3435, out=358, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: setting-expectations-via-text... 6.4s (in=3328, out=532, cached=2976)
+    concept: low-pressure-meetup... 9.4s (in=3328, out=736, cached=768)
+    concept: venue-suitability-criteria... 11.1s (in=3328, out=1450, cached=64)
+    entity: mr-west... 3.6s (in=3361, out=338)
+    entity: porchlight-coffee... 5.7s (in=3362, out=653, cached=784)
+    entity: victrola... 11.6s (in=3361, out=611)
+    entity: elliott-bay-book-company... 19.7s (in=3363, out=633, cached=64)
+    entity: capitol-hill-library... 8.9s (in=3362, out=324)
+Entity generation failed: LLM returned empty content for concept 'mr-west'
+    [WARN] 5 entity(ies) planned but only 4 written for session-14_2023-05-15 (ValueError).
+    summary-rewrite............... 15.9s (in=3345, out=1262)
+  [OK] session-14_2023-05-15.md added to knowledge base.
+Adding: session-34_2024-05-15.md
+  Compiling short doc...
+    summary......................... 25.4s (in=2429, out=1081, cached=784)
+    concepts-plan.......... 10.3s (in=3484, out=1022, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: northern-line... 5.6s (in=3299, out=879, cached=800)
+    concept: commute-experiment-design... 7.2s (in=3249, out=1740, cached=784)
+    concept: stress-scoring... 11.7s (in=3250, out=1065, cached=2848)
+    entity: london-overground... 10.7s (in=3270, out=804)
+    concept: hybrid-work-negotiation... 19.3s (in=3249, out=937, cached=784)
+    entity: london... 12.4s (in=3268, out=798)
+    summary-rewrite.... 4.1s (in=3283, out=743, cached=768)
+  [OK] session-34_2024-05-15.md added to knowledge base.
+done.

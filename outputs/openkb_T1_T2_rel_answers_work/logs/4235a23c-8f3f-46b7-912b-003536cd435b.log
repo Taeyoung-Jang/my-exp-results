@@ -1,0 +1,40 @@
+=== 2026-10-10 15:58:01 uid=4235a23c-8f3f-46b7-912b-003536cd435b ===
+Adding: session-05_2025-06-15.md
+  Compiling short doc...
+    summary............ 12.2s (in=2184, out=577, cached=768)
+    concepts-plan................. 17.8s (in=3152, out=1000, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: system_location_services_ios... 11.3s (in=3021, out=704)
+    entity: iphone... 12.7s (in=3066, out=756, cached=784)
+    concept: privacy_vs_functionality_tradeoff... 15.5s (in=3024, out=966)
+    entity: android... 4.5s (in=3065, out=252, cached=64)
+    entity: google... 2.3s (in=3064, out=394)
+    entity: apple... 5.8s (in=3065, out=372, cached=768)
+    entity: location-based-alerts... 2.1s (in=3067, out=321)
+    entity: significant-locations... 3.2s (in=3083, out=689, cached=768)
+    concept: location_permission_models... 35.6s (in=3032, out=1276)
+    entity: find-my... 27.8s (in=3066, out=735)
+Entity generation failed: LLM returned empty content for concept 'google'
+Entity generation failed: LLM returned empty content for concept 'location-based-alerts'
+    [WARN] 7 entity(ies) planned but only 5 written for session-05_2025-06-15 (ValueError).
+    summary-rewrite........ 8.6s (in=3063, out=937, cached=784)
+  [OK] session-05_2025-06-15.md added to knowledge base.
+Adding: session-35_2025-09-15.md
+  Compiling short doc...
+    summary.......... 10.9s (in=1862, out=667, cached=784)
+    concepts-plan............ 12.3s (in=2820, out=873)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: running_app... 2.6s (in=2626, out=440)
+    concept: sustainable_running... 6.4s (in=2592, out=593, cached=768)
+    entity: morning_running_club... 2.1s (in=2627, out=332)
+    concept: habit_formation... 9.6s (in=2592, out=503, cached=64)
+    concept: intrinsic_motivation... 10.8s (in=2580, out=819)
+    entity: smartwatch... 8.2s (in=2627, out=411, cached=768)
+Entity generation failed: LLM returned empty content for concept 'running_app'
+Entity generation failed: LLM returned empty content for concept 'morning_running_club'
+    [WARN] 3 entity(ies) planned but only 1 written for session-35_2025-09-15 (ValueError).
+    summary-rewrite........... 11.1s (in=2624, out=624, cached=64)
+  [OK] session-35_2025-09-15.md added to knowledge base.
+done.

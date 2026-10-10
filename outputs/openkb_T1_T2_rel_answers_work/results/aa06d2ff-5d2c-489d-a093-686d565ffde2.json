@@ -1,0 +1,32 @@
+{
+  "uid": "aa06d2ff-5d2c-489d-a093-686d565ffde2",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    8,
+    38
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. The user’s own workflow still involves keeping a variety of app categories on their device:\n\n* In the June 2024 session the user applies a 0‑4 scoring rubric to **different kinds of apps** – e.g., a field‑recording tool, an occasional transit app, a password manager, and a redundant photo‑editor – and uses a “Decide Later” **staging folder** for ambiguous ones. This shows the device holds both niche utilities and more general‑purpose apps at any time【session-09_2024-06-15】.  \n\n* The December 2024 session deals with **personal apps together with supervised, work‑managed apps** on a supervised iOS device, requiring the user to manually move the managed icons while keeping personal apps on the leftmost pages【session-39_2024-12-13】.\n\nTogether, these records indicate the user continues to maintain a broad mix of application types (personal, work‑managed, and specialty tools) and manages them rather than removing everything.",
+    "dim2_response": "### A “Refresh‑Week” App Set (4 categories, 2 apps each)\n\n| Category | App (why it scores) | How it fits the **app‑scoring rubric** |\n|----------|--------------------|----------------------------------------|\n| **Utilities** | **1. 1Password** – secure password vault, cloud‑synced | **Function uniqueness = 2** (no other app replaces secure password storage) • **Re‑install ease = 1** (data lives in the cloud) • **Intended use = 1** (daily but low‑friction) • **Friction = 0** – light on storage/notifications → **Total = 4 (Keep)** |\n| | **2. Google Maps (offline packs)** – navigation with downloadable regions | **Function uniqueness = 2** (offline navigation isn’t covered by other map apps) • **Re‑install ease = 1** (maps re‑download) • **Intended use = 1** (occasional travel) • **Friction = 0** → **Total = 4 (Keep)** |\n| **Creativity** | **1. Procreate Pocket** – full‑featured drawing/painting | **Function uniqueness = 2** (professional raster tool not replicated) • **Re‑install ease = 1** (iCloud sync) • **Intended use = 1** (creative sessions, not hourly) • **Friction = 0** → **Total = 4 (Keep)** |\n| | **2. Adobe Premiere Rush** – quick video editing on‑the‑go | **Function uniqueness = 1** (unique video‑edit capability) • **Re‑install ease = 1** (Adobe cloud) • **Intended use = 1** (occasional projects) • **Friction = 0** → **Total = 3 (Keep)** |\n| **Productivity** | **1. Notion** – all‑in‑one notes, tasks, databases | **Function uniqueness = 2** (unifies many productivity niches) • **Re‑install ease = 1** (cloud sync) • **Intended use = 1** (daily planning but low‑noise) • **Friction = 0** → **Total = 4 (Keep)** |\n| | **2. Microsoft To Do** – simple task list with Outlook integration | **Function uniqueness = 1** (task management only) • **Re‑install ease = 1** (cloud) • **Intended use = 1** (quick daily check‑ins) • **Friction = 0** → **Total = 3 (Keep)** |\n| **Entertainment** | **1. Spotify** – streaming music & podcasts, offline caching | **Function uniqueness = 2** (dedicated music service) • **Re‑install ease = 1** (account‑based) • **Intended use = 1** (daily listening, but background‑quiet) • **Friction = 0** → **Total = 4 (Keep)** |\n| | **2. Discord** – voice, text, and community hubs for gaming & hobbies | **Function uniqueness = 1** (community chat platform) • **Re‑install ease = 1** (cloud) • **Intended use = 1** (occasional chat sessions) • **Friction = 0** → **Total = 3 (Keep)** |\n\n#### How to integrate this set\n\n1. **Run the rubric** on your current apps (see [[concepts/app‑scoring‑rubric]]) and **stage** any borderline apps (score 1‑2) in a “Decide Later” folder [[concepts/staging‑folder]].  \n2. **Install the eight recommended apps** above; they each achieve a **keep** threshold (score ≥ 3).  \n3. After **2‑3 weeks**, revisit the staging folder: keep any that proved useful, delete the rest.  \n4. For supervised iOS devices, move the new managed icons (if any) to the far‑right **staging folder** page as described in the home‑screen organization guide [[concepts/home‑screen‑organization]].\n\nBy focusing on high‑uniqueness, cloud‑synced, low‑friction tools, you’ll end the week with a lean, fresh phone that supports everyday tasks, occasional creativity, and relaxed entertainment without clutter.",
+    "dim3_response": "I’m sorry—I couldn’t find any information about habit‑tracker, Pomodoro‑timer, or mind‑mapping tools in the knowledge base. The available documents focus on mobile‑device app organization and related concepts, and there are no entries that cover the kinds of productivity applications you’re asking about. If you add relevant sources to the wiki, I’ll be able to help you compare them."
+  },
+  "build_seconds": 122.1,
+  "total_seconds": 176.0,
+  "usage": {
+    "compile": {
+      "calls": 17,
+      "prompt_tokens": 55289,
+      "completion_tokens": 14989,
+      "cost_usd": 0.005905522
+    },
+    "query": {
+      "calls": 13,
+      "prompt_tokens": 27204,
+      "completion_tokens": 2701,
+      "cost_usd": 0.00130678
+    }
+  }
+}

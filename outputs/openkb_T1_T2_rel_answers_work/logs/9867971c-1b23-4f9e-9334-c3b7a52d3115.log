@@ -1,0 +1,32 @@
+=== 2026-10-10 14:34:16 uid=9867971c-1b23-4f9e-9334-c3b7a52d3115 ===
+Adding: session-02_2020-06-15.md
+  Compiling short doc...
+    summary..... 5.3s (in=2413, out=1049)
+    concepts-plan...... 6.2s (in=3578, out=986, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: low-cost-index-investing... 8.0s (in=3483, out=1111, cached=784)
+    concept: intermediate-term-treasury-strategy... 8.1s (in=3483, out=1135, cached=3360)
+    concept: bond-allocation-role... 8.5s (in=3481, out=1208, cached=3360)
+    entity: us-treasury-securities... 9.2s (in=3518, out=1303, cached=3120)
+    entity: total-bond-fund... 6.8s (in=3516, out=964, cached=3344)
+    entity: investment-grade-corporate-bond... 7.0s (in=3518, out=999, cached=3360)
+    entity: index-fund... 6.4s (in=3515, out=927, cached=3360)
+    entity: high-yield-bond... 7.9s (in=3517, out=1143, cached=3360)
+    entity: broad-market-index-fund... 6.1s (in=3517, out=746, cached=3360)
+    summary-rewrite............. 13.8s (in=3512, out=1252, cached=784)
+  [OK] session-02_2020-06-15.md added to knowledge base.
+Adding: session-31_2023-06-15.md
+  Compiling short doc...
+    summary.......... 10.8s (in=3356, out=852)
+    concepts-plan................ 16.2s (in=4619, out=763, cached=784)
+    Generating 2 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: liquidity-framework... 9.0s (in=4342, out=1083, cached=784)
+    entity: private-equity-commitment... 12.4s (in=4379, out=668, cached=64)
+    concept: reserve-buckets... 13.2s (in=4329, out=1058)
+    entity: high-yield-savings-account... 15.9s (in=4379, out=896, cached=784)
+    entity: rental-property... 20.2s (in=4376, out=825, cached=64)
+    summary-rewrite.............. 14.8s (in=4360, out=1047)
+  [OK] session-31_2023-06-15.md added to knowledge base.
+done.

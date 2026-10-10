@@ -1,0 +1,25 @@
+=== 2026-10-10 15:54:59 uid=bedf3942-456f-443e-8d28-c04d8414e12a ===
+Adding: session-09_2025-08-23.md
+  Compiling short doc...
+    summary... 3.8s (in=2424, out=1133, cached=784)
+    concepts-plan... 3.1s (in=3203, out=910, cached=2416)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: workspace-zones... 4.2s (in=3078, out=776, cached=2416)
+    concept: hands-on-science-activities... 4.3s (in=3081, out=790, cached=2944)
+    entity: scalpel... 4.3s (in=3113, out=790, cached=2752)
+    entity: waste-bin... 3.2s (in=3113, out=674, cached=2944)
+    entity: goggles... 4.5s (in=3114, out=898, cached=2944)
+    concept: lab-safety-protocol... 8.9s (in=3079, out=1812, cached=2944)
+    entity: gloves... 5.4s (in=3113, out=1108, cached=2944)
+    entity: sink... 3.9s (in=3113, out=871, cached=2944)
+    summary-rewrite... 3.0s (in=3110, out=765, cached=2944)
+  [OK] session-09_2025-08-23.md added to knowledge base.
+Adding: session-37_2025-09-13.md
+  Compiling short doc...
+    summary.......... 10.1s (in=1778, out=752)
+    concepts-plan.. 2.2s (in=2832, out=388)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-37_2025-09-13 — no concept pages generated. See log (stderr) for details.
+  [OK] session-37_2025-09-13.md added to knowledge base.
+done.

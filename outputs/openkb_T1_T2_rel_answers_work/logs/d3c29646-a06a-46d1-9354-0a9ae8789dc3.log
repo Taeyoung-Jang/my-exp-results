@@ -1,0 +1,24 @@
+=== 2026-10-10 14:25:36 uid=d3c29646-a06a-46d1-9354-0a9ae8789dc3 ===
+Adding: session-03_2022-06-15.md
+  Compiling short doc...
+    summary...... 6.1s (in=1886, out=652, cached=64)
+    concepts-plan.... 4.2s (in=2641, out=145, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: check-in-scripts... 12.5s (in=2488, out=671, cached=784)
+    concept: weekly-reset-evening... 14.1s (in=2487, out=1331, cached=784)
+    concept: family-rituals... 18.5s (in=2474, out=1445)
+    summary-rewrite.......... 10.9s (in=2518, out=558, cached=784)
+  [OK] session-03_2022-06-15.md added to knowledge base.
+Adding: session-35_2024-06-15.md
+  Compiling short doc...
+    summary.. 2.2s (in=2119, out=846)
+    concepts-plan..... 5.0s (in=3098, out=193, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: out_the_door_system... 9.4s (in=2942, out=648, cached=784)
+    concept: crunchy_moments... 13.4s (in=2926, out=1049)
+    concept: observation_phase... 19.8s (in=2938, out=884, cached=64)
+    concept: night_before_checklist... 12.3s (in=2940, out=552, cached=768)
+    concept: morning_timing... 21.7s (in=2938, out=733, cached=784)
+    summary-rewrite... 3.4s (in=2970, out=821, cached=784)
+  [OK] session-35_2024-06-15.md added to knowledge base.
+done.

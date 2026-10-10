@@ -1,0 +1,36 @@
+=== 2026-10-10 15:38:06 uid=6f69a06e-01a9-442e-927b-70f40d6cc8f3 ===
+Adding: session-13_2023-06-15.md
+  Compiling short doc...
+    summary............ 12.7s (in=2866, out=1137)
+    concepts-plan...... 6.5s (in=4186, out=548, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: annual-fee-math... 4.0s (in=4032, out=944, cached=784)
+    concept: reward-alignment... 10.0s (in=4018, out=803)
+    concept: redemption-complexity... 13.2s (in=4018, out=913)
+    summary-rewrite......................... 25.4s (in=4063, out=1241, cached=784)
+[92m15:39:04 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-13_2023-06-15.md added to knowledge base.
+Adding: session-33_2024-06-15.md
+  Compiling short doc...
+    summary................. 17.5s (in=3173, out=800, cached=64)
+    concepts-plan. 1.6s (in=4396, out=243)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-33_2024-06-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-33_2024-06-15.md added to knowledge base.
+done.

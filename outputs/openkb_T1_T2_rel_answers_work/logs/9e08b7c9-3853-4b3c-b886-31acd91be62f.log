@@ -1,0 +1,44 @@
+=== 2026-10-10 15:57:59 uid=9e08b7c9-3853-4b3c-b886-31acd91be62f ===
+Adding: session-01_2023-06-15.md
+  Compiling short doc...
+    summary..................... 21.6s (in=2038, out=1231)
+    concepts-plan......... 9.6s (in=2929, out=565)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: github... 5.6s (in=2830, out=755, cached=784)
+    concept: repo-scoring-rubric... 12.7s (in=2799, out=823, cached=784)
+    concept: readme-checklist-recruiters... 14.5s (in=2798, out=481, cached=768)
+    concept: github-surface-polish... 15.6s (in=2799, out=467, cached=768)
+    summary-rewrite..... 5.7s (in=2827, out=754, cached=784)
+  [OK] session-01_2023-06-15.md added to knowledge base.
+Adding: session-39_2025-06-15.md
+  Compiling short doc...
+    summary................ 16.5s (in=2245, out=969, cached=784)
+    concepts-plan............. 13.8s (in=3299, out=903)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: measurable-impact... 5.1s (in=3124, out=379, cached=64)
+    entity: linkedin... 7.3s (in=3157, out=314, cached=768)
+    concept: sanitized-case-studies... 8.2s (in=3124, out=569, cached=64)
+    concept: observable-artifacts... 11.8s (in=3110, out=769)
+    entity-update: github... 11.0s (in=3330, out=832)
+    summary-rewrite..................... 21.3s (in=3154, out=986, cached=768)
+[92m16:00:00 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-39_2025-06-15.md added to knowledge base.
+done.

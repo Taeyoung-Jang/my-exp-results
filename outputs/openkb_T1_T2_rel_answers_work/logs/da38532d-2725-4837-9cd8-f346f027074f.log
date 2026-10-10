@@ -1,0 +1,36 @@
+=== 2026-10-10 15:40:26 uid=da38532d-2725-4837-9cd8-f346f027074f ===
+Adding: session-07_2025-06-15.md
+  Compiling short doc...
+    summary.................................. 34.9s (in=3041, out=1434, cached=64)
+    concepts-plan... 3.0s (in=4473, out=399)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-07_2025-06-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-07_2025-06-15.md added to knowledge base.
+Adding: session-34_2025-10-15.md
+  Compiling short doc...
+    summary....... 7.0s (in=1622, out=792, cached=784)
+    concepts-plan.... 4.1s (in=2451, out=168, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: caffeine-timing... 8.8s (in=2302, out=781)
+    concept: pre-workout-snack... 9.6s (in=2314, out=895, cached=784)
+    concept: early-morning-workout-routine... 18.4s (in=2314, out=926, cached=64)
+    summary-rewrite................................................... 51.7s (in=2343, out=574, cached=768)
+[92m15:42:25 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-34_2025-10-15.md added to knowledge base.
+done.

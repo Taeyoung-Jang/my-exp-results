@@ -1,0 +1,32 @@
+{
+  "uid": "f57e6cfd-16a4-47b8-ab87-1b50838580e9",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the conversation history there’s no explicit statement that the user still has an active comprehensive personal‑belongings (renters‑insurance) policy in place. The session from 2023‑07‑15 provided general guidance on setting up, reviewing, and updating a personal‑belongings policy after a move, but it does not confirm whether the user actually maintains an active comprehensive policy now. Therefore, we cannot say with confidence that the policy remains active.",
+    "dim2_response": "**How to review your personal‑belongings renters‑insurance policy and add optional endorsements for the next year**\n\n1. **Gather the policy’s declarations page**  \n   - This is the first page of your policy that lists the total personal‑property limit, liability limit, deductible, and whether the coverage is *replacement‑cost* or *actual‑cash‑value* (ACV).[[concepts/renters_insurance]]\n\n2. **Confirm the type of coverage**  \n   - If the page says “replacement cost,” you’ll be reimbursed for the price of new items.  \n   - If it says “actual cash value,” the payout will be reduced by depreciation. Decide whether you want to switch to replacement‑cost coverage (often available as an endorsement).\n\n3. **Check each coverage limit**  \n   - **Personal‑property limit** – Make sure it covers the total value of everything you own (clothing, electronics, bikes, storage‑unit contents, etc.).  \n   - **Liability limit** – Verify that it’s high enough (generally $100 k – $300 k) to protect you if someone is injured in your unit.  \n   - **Loss‑of‑use limit** – Ensure you have sufficient coverage for temporary housing if your unit becomes uninhabitable.  \n\n4. **Identify high‑value items that may need extra protection**  \n   - Review your inventory for items such as laptops, jewelry, camera gear, or collectibles.  \n   - If any exceed the standard per‑item limit (often $1,000 – $2,500), add a **scheduled‑item rider** (also called a “scheduled endorsement”) for each of those items.[[concepts/policy_update]]\n\n5. **Evaluate the deductible**  \n   - A higher deductible can lower your premium, but be sure you can comfortably pay it out‑of‑pocket after a loss.  \n   - If you raise the deductible, consider whether the premium savings justify the extra risk.\n\n6. **Consider optional endorsements that strengthen the policy**  \n   - **Flood endorsement** – If you live in a flood‑prone area, standard renters insurance usually excludes flood damage.  \n   - **Earthquake endorsement** – Useful in seismic zones.  \n   - **Water‑backup/ sewer‑line endorsement** – Covers damage from backed‑up drains or burst pipes.  \n   - **Extended replacement‑cost endorsement** – Guarantees full replacement even if the insurer’s stated limit is reached.  \n\n7. **Update any address or dwelling‑information changes**  \n   - Notify the insurer of your exact unit number, building type, and any security features (alarms, deadbolts). This can affect premium rates based on location‑rating factors such as crime and fire‑response statistics.[[concepts/policy_update]]\n\n8. **Run a quick “coverage‑gap” check**  \n   - Add up the estimated replacement value of all belongings.  \n   - Compare that total to the personal‑property limit shown on the declarations page.  \n   - If there’s a shortfall, either raise the overall limit or add more scheduled riders.\n\n9. **Document the changes**  \n   - Keep a copy of the updated declarations page, rider schedules, and any endorsement confirmations.  \n   - Store the documents in a safe, easily accessible place (e.g., a cloud folder and a hard‑copy binder).\n\n10. **Set a reminder for the next renewal**  \n    - Mark your calendar a month before the policy’s renewal date to repeat this review, especially after major purchases or life‑event changes (new roommate, move, etc.).\n\n**Quick checklist**\n\n| Step | Action |\n|------|--------|\n| 1 | Locate declarations page |\n| 2 | Verify replacement‑cost vs. ACV |\n| 3 | Confirm personal‑property, liability, loss‑of‑use limits |\n| 4 | List high‑value items & add scheduled riders |\n| 5 | Decide on deductible level |\n| 6 | Add optional endorsements (flood, earthquake, water‑backup, extended RC) |\n| 7 | Update address & building details |\n| 8 | Perform coverage‑gap calculation |\n| 9 | Keep updated policy documents |\n|10 | Schedule next‑year review |\n\nFollowing these steps will ensure your comprehensive personal‑belongings policy remains fully protective for the upcoming year and that any gaps are closed with the right endorsements.",
+    "dim3_response": "I’m sorry—I couldn’t locate any information in the knowledge base that addresses using an annual premium charge to meet a travel rewards card’s spending minimum."
+  },
+  "build_seconds": 78.1,
+  "total_seconds": 113.3,
+  "usage": {
+    "compile": {
+      "calls": 12,
+      "prompt_tokens": 31717,
+      "completion_tokens": 8250,
+      "cost_usd": 0.004620531000000001
+    },
+    "query": {
+      "calls": 7,
+      "prompt_tokens": 12631,
+      "completion_tokens": 2036,
+      "cost_usd": 0.00074541
+    }
+  }
+}

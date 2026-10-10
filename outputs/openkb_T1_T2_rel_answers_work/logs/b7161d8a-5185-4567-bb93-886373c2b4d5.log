@@ -1,0 +1,30 @@
+=== 2026-10-10 14:40:52 uid=b7161d8a-5185-4567-bb93-886373c2b4d5 ===
+Adding: session-10_2020-05-12.md
+  Compiling short doc...
+    summary... 3.3s (in=2351, out=995, cached=768)
+    concepts-plan....... 7.4s (in=3375, out=260, cached=768)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: automatic-transaction-categorisation... 6.5s (in=3257, out=611)
+    concept: low-friction-invoicing... 12.3s (in=3261, out=1243, cached=784)
+    concept: weekly-maintenance-routine... 12.9s (in=3244, out=778)
+    concept: automated-payment-reminders... 13.8s (in=3258, out=531, cached=768)
+    entity: stripe... 9.5s (in=3290, out=667, cached=784)
+    entity: mercury... 8.3s (in=3290, out=286, cached=768)
+    entity: wave... 12.8s (in=3277, out=741)
+    entity: novo... 17.0s (in=3290, out=799, cached=64)
+Concept generation failed: LLM returned empty content for concept 'automatic-transaction-categorisation'
+    [WARN] 4 concept(s) planned but only 3 written for session-10_2020-05-12 (ValueError).
+    summary-rewrite................ 16.4s (in=3288, out=868, cached=3120)
+  [OK] session-10_2020-05-12.md added to knowledge base.
+Adding: session-32_2025-05-12.md
+  Compiling short doc...
+    summary..................... 21.3s (in=3144, out=1348, cached=784)
+    concepts-plan.. 2.8s (in=4177, out=134, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: open-block-intention... 5.4s (in=3938, out=888, cached=784)
+    concept: daily-ritual-anchor... 7.0s (in=3937, out=424, cached=768)
+    concept: lightly-structured-routine... 13.3s (in=3938, out=863, cached=64)
+    summary-rewrite............... 15.5s (in=3955, out=978)
+  [OK] session-32_2025-05-12.md added to knowledge base.
+done.

@@ -1,0 +1,32 @@
+{
+  "uid": "c2cc2d39-db0d-460e-9dbf-0203fc5a001f",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    2,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the logged conversations there is **no indication** that the user still spends roughly an hour on digital‑entertainment screens right before turning the lights off.  \n\n* The July 21 session (session‑03) only **recommends** a 30–60 minute wind‑down window without screens and offers settings to mitigate the impact if a screen is used — it does not state that the user actually continues the hour‑long screen habit【summaries/session-03_2025-07-21.md】.  \n* The October 19 session (session‑32) focuses on daytime eye‑strain prevention and does not mention evening screen use at all【summaries/session-32_2025-10-19.md】.  \n\nTherefore, the knowledge base contains no evidence that the user still follows that hour‑long evening screen routine.",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain any information about specific shows, games, or apps that the user could use during their nightly wind‑down hour. It only includes guidance on how to adjust screen settings and lighting to reduce the impact of evening screen time on sleep. Without relevant source material on entertainment options, I can’t provide a concrete recommendation.",
+    "dim3_response": "I’m sorry, but the knowledge base doesn’t contain any information about iPad Pro screen sizes or how they relate to typical viewing distances from a bed. The available content only covers general screen‑time and sleep‑hygiene recommendations (e.g., brightness, night‑mode, and wind‑down routines) and does not discuss specific tablet dimensions or viewing‑distance ergonomics. Without relevant source material, I can’t give a data‑based recommendation on whether the 11‑inch model will be large enough for your setup."
+  },
+  "build_seconds": 73.7,
+  "total_seconds": 89.2,
+  "usage": {
+    "compile": {
+      "calls": 13,
+      "prompt_tokens": 42459,
+      "completion_tokens": 8953,
+      "cost_usd": 0.003134516000000001
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 23190,
+      "completion_tokens": 1639,
+      "cost_usd": 0.0009951439999999999
+    }
+  }
+}

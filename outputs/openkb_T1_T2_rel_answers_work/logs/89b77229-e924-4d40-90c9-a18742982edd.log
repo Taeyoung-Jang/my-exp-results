@@ -1,0 +1,25 @@
+=== 2026-10-10 14:43:52 uid=89b77229-e924-4d40-90c9-a18742982edd ===
+Adding: session-02_2024-04-10.md
+  Compiling short doc...
+    summary...... 6.6s (in=3287, out=1103, cached=784)
+    concepts-plan........ 8.8s (in=4535, out=222, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: garden-layout-design... 6.4s (in=4403, out=972, cached=784)
+    entity: mid-may-last-frost... 6.6s (in=4444, out=817, cached=784)
+    concept: soil-improvement... 7.8s (in=4401, out=1078, cached=784)
+    concept: contour-bed-slope-management... 15.7s (in=4406, out=1117)
+    entity: mid-october-first-frost... 10.9s (in=4439, out=665, cached=784)
+    summary-rewrite........ 8.4s (in=4432, out=1258)
+  [OK] session-02_2024-04-10.md added to knowledge base.
+Adding: session-37_2025-04-10.md
+  Compiling short doc...
+    summary............ 12.6s (in=3839, out=1937, cached=784)
+    concepts-plan...... 6.6s (in=4943, out=696, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: mobile-living-system... 2.6s (in=4765, out=1034)
+    concept: minimal-duplicate-strategy... 18.1s (in=4737, out=898, cached=64)
+    concept: capsule-wardrobe... 22.0s (in=4737, out=1077, cached=784)
+    summary-rewrite........... 11.8s (in=4765, out=702, cached=768)
+  [OK] session-37_2025-04-10.md added to knowledge base.
+done.

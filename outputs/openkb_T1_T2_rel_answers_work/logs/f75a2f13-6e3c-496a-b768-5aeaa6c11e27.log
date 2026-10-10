@@ -1,0 +1,63 @@
+=== 2026-10-10 15:50:57 uid=f75a2f13-6e3c-496a-b768-5aeaa6c11e27 ===
+Adding: session-02_2025-06-15.md
+  Compiling short doc...
+    summary............................. 29.3s (in=1793, out=768)
+    concepts-plan.. 2.1s (in=2716, out=444, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low_stress_tracking... 3.0s (in=2562, out=702, cached=2256)
+    concept: functional_progress_markers... 10.0s (in=2562, out=700, cached=784)
+    concept: neutral_weight_logging... 20.0s (in=2561, out=690, cached=64)
+    summary-rewrite........................................ 41.0s (in=2592, out=654)
+[92m15:52:29 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-02_2025-06-15.md added to knowledge base.
+Adding: session-31_2025-09-14.md
+  Compiling short doc...
+    summary.................................... 36.3s (in=2249, out=1036, cached=784)
+    concepts-plan................ 16.7s (in=3354, out=1147)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    update: neutral_weight_logging... 6.0s (in=3609, out=1206, cached=784)
+    concept: thyroid_dose_effects... 7.3s (in=3216, out=604)
+    concept: seasonal_weight_change... 9.4s (in=3216, out=484, cached=64)
+    concept: health_metric_tracking... 10.8s (in=3216, out=619, cached=64)
+    entity: thyroid_medication... 8.9s (in=3251, out=495, cached=64)
+    entity: tsh... 8.3s (in=3258, out=894, cached=784)
+    entity: free_t4... 9.1s (in=3257, out=661, cached=784)
+Concept generation failed: LLM returned empty content for concept 'thyroid_dose_effects'
+    [WARN] 4 concept(s) planned but only 3 written for session-31_2025-09-14 (ValueError).
+    summary-rewrite.......................................................................... 74.9s (in=3247, out=1144, cached=768)
+[92m15:54:56 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-31_2025-09-14.md added to knowledge base.
+done.

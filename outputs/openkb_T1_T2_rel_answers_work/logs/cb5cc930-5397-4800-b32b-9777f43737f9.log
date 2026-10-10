@@ -1,0 +1,22 @@
+=== 2026-10-10 15:27:01 uid=cb5cc930-5397-4800-b32b-9777f43737f9 ===
+Adding: session-15_2024-07-14.md
+  Compiling short doc...
+    summary........... 11.9s (in=3049, out=1056)
+    concepts-plan...... 6.2s (in=4158, out=728, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: shift-work-sleep-hygiene... 10.2s (in=4009, out=836)
+    concept: early-sleeper-pattern... 10.9s (in=3996, out=763)
+    concept: planned-nap-pattern... 16.6s (in=4008, out=862, cached=64)
+    summary-rewrite.................... 20.6s (in=4039, out=812, cached=784)
+  [OK] session-15_2024-07-14.md added to knowledge base.
+Adding: session-38_2025-01-11.md
+  Compiling short doc...
+    summary......... 10.0s (in=2074, out=851, cached=768)
+    concepts-plan... 3.3s (in=3372, out=622, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: circadian_rhythm... 4.8s (in=3185, out=939, cached=2848)
+    concept: caffeine_management... 6.1s (in=3168, out=936, cached=784)
+    concept: post_workout_meal... 17.1s (in=3169, out=1259, cached=784)
+    summary-rewrite....................... 23.6s (in=3199, out=939, cached=64)
+  [OK] session-38_2025-01-11.md added to knowledge base.
+done.

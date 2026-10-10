@@ -1,0 +1,32 @@
+{
+  "uid": "3ab1d7a5-5560-4bfd-8bbd-80277deb4154",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    14,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. The conversation history shows that the user’s home‑base time zone is Pacific Time, defined as a “safe meeting window” of 8 am – 6 pm PT, which the notes convert to 11 am – 9 pm for the client who is three hours ahead (e.g., New York City)【session-15_2024-06-15】. There’s no indication that the user has switched to a different zone, so they remain on Pacific Time, three hours behind the other person.",
+    "dim2_response": "Below are a few concrete meeting‑time options you can offer your counterpart (who is **three hours ahead of you**, e.g., New York time). All of the slots fall inside your **8 am – 6 pm Pacific Time safe‑meeting window** (see the [[concepts/safe‑meeting‑window]] guideline).\n\n| Your (Pacific Time) | Other person’s time (UTC‑4 / New York) | Comment |\n|---------------------|----------------------------------------|---------|\n| 8:00 am PT          | 11:00 am (their local time)             | Earliest slot you can safely accept. |\n| 10:30 am PT         | 1:30 pm (their local time)              | Mid‑morning for you, early‑afternoon for them. |\n| 1:00 pm PT          | 4:00 pm (their local time)              | Good for a lunch‑or‑post‑lunch meeting on both ends. |\n| 3:30 pm PT          | 6:30 pm (their local time)              | Late‑afternoon for you, early‑evening for them—still within the 9 pm upper limit for the client. |\n| 5:00 pm PT          | 8:00 pm (their local time)              | Final slot before your day ends; still under the client’s 9 pm cut‑off. |\n\n### Suggested phrasing (template)\n\n> “I’m free between 8 am – 6 pm [[entities/pacific-time]], which is 11 am – 9 pm your time. For tomorrow, would any of these work for you?  \n> • 8 am PT (11 am your time)  \n> • 10:30 am PT (1:30 pm your time)  \n> • 1 pm PT (4 pm your time)  \n> • 3:30 pm PT (6:30 pm your time)  \n> • 5 pm PT (8 pm your time)  \n\nLet me know which slot fits best, or suggest another time inside this window.”\n\nThese options give the other person clear **client‑time** values while you see everything in your **Pacific Time** reference frame, minimizing any conversion errors.",
+    "dim3_response": "I can help you figure out the exact time, but I’ll need to know the two locations (or their time‑zone identifiers) involved in the call.\n\n**What I need from you**\n\n| Your side | Their side |\n|-----------|------------|\n| Country/city (or time‑zone, e.g. `America/New_York`, `GMT+2`) | Country/city (or time‑zone) |\n\nOnce I have those, I can:\n\n1. Convert the “morning” window they propose (typically 08:00 – 12:00 local time) into your local time.  \n2. Tell you whether that converted time falls within a reasonable window for you (e.g., during typical working hours or not).\n\nFeel free to share the two locations (or at least the time‑zone offsets) and I’ll give you the exact conversion and a quick judgment on its convenience."
+  },
+  "build_seconds": 114.7,
+  "total_seconds": 136.8,
+  "usage": {
+    "compile": {
+      "calls": 17,
+      "prompt_tokens": 49620,
+      "completion_tokens": 14410,
+      "cost_usd": 0.005047194
+    },
+    "query": {
+      "calls": 7,
+      "prompt_tokens": 13277,
+      "completion_tokens": 1734,
+      "cost_usd": 0.0007104300000000001
+    }
+  }
+}

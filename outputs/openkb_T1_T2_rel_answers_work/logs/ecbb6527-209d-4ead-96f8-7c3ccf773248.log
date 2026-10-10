@@ -1,0 +1,35 @@
+=== 2026-10-10 14:40:17 uid=ecbb6527-209d-4ead-96f8-7c3ccf773248 ===
+Adding: session-11_2022-12-18.md
+  Compiling short doc...
+    summary........... 11.4s (in=4373, out=1495)
+    concepts-plan................ 16.6s (in=5738, out=1356)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 12 entity(ies) (concurrency=4)...
+    entity: new-york-city... 5.5s (in=5713, out=1173, cached=768)
+    entity: montreal... 3.8s (in=5694, out=861, cached=784)
+    concept: border_delays... 15.2s (in=5661, out=520, cached=768)
+    concept: buffer_strategy... 17.0s (in=5660, out=977, cached=64)
+    entity: portland... 4.3s (in=5693, out=880, cached=66)
+    concept: rail_travel... 26.7s (in=5660, out=1266, cached=64)
+    entity: chicago... 10.8s (in=5694, out=414, cached=768)
+    entity: empire-builder... 7.1s (in=5695, out=723, cached=784)
+    entity: amtrak... 15.4s (in=5695, out=1275, cached=784)
+    entity: seattle... 26.2s (in=5694, out=836, cached=784)
+    entity: lake-shore-limited... 9.6s (in=5696, out=922, cached=784)
+    entity: blue-ridge-parkway... 5.6s (in=5696, out=787, cached=784)
+    entity: adirondack... 9.2s (in=5698, out=984, cached=5536)
+    entity: glacier-national-park... 11.0s (in=5696, out=429, cached=5536)
+    entity: cascades... 14.9s (in=5684, out=858)
+    summary-rewrite.......... 10.2s (in=5692, out=1678, cached=784)
+  [OK] session-11_2022-12-18.md added to knowledge base.
+Adding: session-36_2024-12-18.md
+  Compiling short doc...
+    summary............ 12.7s (in=1712, out=436, cached=64)
+    concepts-plan... 3.9s (in=2915, out=609, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: early-arrival-planning... 4.9s (in=2501, out=823, cached=784)
+    concept: window-seat-benefits... 5.3s (in=2488, out=857)
+    concept: minimal-personal-item-packing... 13.9s (in=2502, out=576, cached=1696)
+    summary-rewrite................ 16.3s (in=2532, out=711, cached=1696)
+  [OK] session-36_2024-12-18.md added to knowledge base.
+done.

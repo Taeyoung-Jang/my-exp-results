@@ -1,0 +1,35 @@
+=== 2026-10-10 15:56:27 uid=cb1efefb-6d80-4d8c-9cf1-5aa56950bcd0 ===
+Adding: session-02_2024-07-20.md
+  Compiling short doc...
+    summary....... 7.9s (in=2375, out=1007, cached=784)
+    concepts-plan....... 7.6s (in=3163, out=862, cached=2368)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: proofing... 3.5s (in=3010, out=491)
+    concept: bulk-fermentation... 5.2s (in=3012, out=314, cached=768)
+    entity: sourdough... 13.6s (in=3034, out=745)
+    concept: fermentation-cues... 18.4s (in=3013, out=657, cached=768)
+Concept generation failed: LLM returned empty content for concept 'proofing'
+    [WARN] 3 concept(s) planned but only 2 written for session-02_2024-07-20 (ValueError).
+    summary-rewrite.......... 10.4s (in=3043, out=866, cached=784)
+  [OK] session-02_2024-07-20.md added to knowledge base.
+Adding: session-37_2025-01-20.md
+  Compiling short doc...
+    summary............. 13.2s (in=2747, out=1376, cached=784)
+    concepts-plan................... 19.1s (in=4211, out=379, cached=64)
+    Generating 8 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: cross-contamination-traps... 6.0s (in=4127, out=1143, cached=768)
+    concept: damp-wipe-technique... 8.9s (in=4109, out=1167, cached=784)
+    concept: material-decontamination... 20.9s (in=4098, out=1157)
+    concept: allergy-safe-zone... 22.2s (in=4095, out=1269)
+    concept: flour-dust-handling... 22.5s (in=4095, out=1290)
+    concept: avoid-dry-cleaning... 7.5s (in=4113, out=996, cached=784)
+    entity: stainless-steel... 10.2s (in=4141, out=1006, cached=784)
+    concept: kitchen-reset-checklist... 13.7s (in=4111, out=1381, cached=784)
+    entity: silicone-utensils... 17.3s (in=4130, out=965)
+    concept: hepa-vacuum-use... 35.9s (in=4108, out=1720)
+    entity: allergy-allergist... 28.9s (in=4142, out=834)
+    summary-rewrite................... 19.8s (in=4138, out=1597, cached=3968)
+  [OK] session-37_2025-01-20.md added to knowledge base.
+done.

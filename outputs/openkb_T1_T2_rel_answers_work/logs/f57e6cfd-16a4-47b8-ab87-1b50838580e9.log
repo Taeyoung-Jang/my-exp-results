@@ -1,0 +1,22 @@
+=== 2026-10-10 15:44:55 uid=f57e6cfd-16a4-47b8-ab87-1b50838580e9 ===
+Adding: session-06_2023-07-15.md
+  Compiling short doc...
+    summary....... 7.7s (in=2314, out=845)
+    concepts-plan.. 3.0s (in=3354, out=651, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: renters_insurance... 3.6s (in=3197, out=800, cached=784)
+    concept: policy_update... 4.7s (in=3215, out=764, cached=768)
+    concept: roommate_policy... 11.9s (in=3199, out=882, cached=784)
+    summary-rewrite.... 4.2s (in=3228, out=620, cached=784)
+  [OK] session-06_2023-07-15.md added to knowledge base.
+Adding: session-35_2024-07-15.md
+  Compiling short doc...
+    summary...... 6.3s (in=1641, out=583)
+    concepts-plan.......... 10.5s (in=2439, out=439, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: probate_closure... 3.4s (in=2287, out=718, cached=768)
+    concept: emotional_wellbeing... 5.9s (in=2271, out=546, cached=784)
+    concept: communication_boundary... 18.1s (in=2270, out=567, cached=64)
+    summary-rewrite................ 16.2s (in=2302, out=835, cached=64)
+  [OK] session-35_2024-07-15.md added to knowledge base.
+done.

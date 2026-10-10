@@ -1,0 +1,26 @@
+=== 2026-10-10 14:18:55 uid=b6689bbc-d261-41e5-bd6c-cfbccc9bb5e9 ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary............. 13.6s (in=1764, out=620, cached=64)
+    concepts-plan..... 5.7s (in=2777, out=206, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: 10k-lux-light-therapy-lamp... 3.3s (in=2679, out=379)
+    concept: morning-light-benefits... 4.5s (in=2678, out=1019)
+    concept: integrating-outdoor-time... 13.1s (in=2629, out=944)
+    concept: bright-light-therapy... 20.2s (in=2643, out=882, cached=784)
+Entity generation failed: LLM returned empty content for concept '10k-lux-light-therapy-lamp'
+    [WARN] 1 entity(ies) planned but only 0 written for session-06_2024-06-15 (ValueError).
+    summary-rewrite........... 11.8s (in=2655, out=801)
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-32_2024-12-15.md
+  Compiling short doc...
+    summary..... 5.0s (in=1961, out=778, cached=768)
+    concepts-plan..... 5.8s (in=3004, out=764, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: walking-ergonomics... 4.5s (in=2846, out=733, cached=1952)
+    concept: injury-warning-signs... 10.2s (in=2815, out=767)
+    concept: shoe-selection... 15.7s (in=2827, out=759, cached=784)
+    summary-rewrite...... 6.5s (in=2863, out=839, cached=768)
+  [OK] session-32_2024-12-15.md added to knowledge base.
+done.

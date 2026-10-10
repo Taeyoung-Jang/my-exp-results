@@ -1,0 +1,27 @@
+=== 2026-10-10 15:52:22 uid=6a52e0a1-1149-49f1-ba2a-2c99258970f0 ===
+Adding: session-02_2025-06-15.md
+  Compiling short doc...
+    summary............ 13.0s (in=2684, out=839, cached=68)
+    concepts-plan..... 5.7s (in=3407, out=138, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: energy_rhythm... 2.8s (in=3248, out=558)
+    concept: low_energy_workout... 12.0s (in=3238, out=897)
+    concept: productivity_blocks... 14.2s (in=3236, out=863)
+Concept generation failed: LLM returned empty content for concept 'energy_rhythm'
+    [WARN] 3 concept(s) planned but only 2 written for session-02_2025-06-15 (ValueError).
+    summary-rewrite... 3.4s (in=3285, out=679, cached=768)
+  [OK] session-02_2025-06-15.md added to knowledge base.
+Adding: session-36_2025-06-29.md
+  Compiling short doc...
+    summary.... 4.8s (in=2499, out=847, cached=768)
+    concepts-plan.... 4.4s (in=3511, out=764, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: basal_body_temperature_shift... 4.1s (in=3366, out=1002, cached=768)
+    entity: opk... 4.5s (in=3400, out=884, cached=768)
+    concept: fertile_window_timing... 5.2s (in=3365, out=833, cached=768)
+    concept: fertility_awareness_methods... 5.5s (in=3365, out=863, cached=768)
+    entity: fertility_app... 2.3s (in=3399, out=758, cached=768)
+    summary-rewrite.. 2.6s (in=3367, out=903, cached=768)
+  [OK] session-36_2025-06-29.md added to knowledge base.
+done.

@@ -1,0 +1,32 @@
+{
+  "uid": "6a52e0a1-1149-49f1-ba2a-2c99258970f0",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    1,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. Based on the conversation (session 36 2025‑06‑29), the user is already seeing a sustained basal‑body‑temperature rise, which the assistant explained means ovulation has probably already occurred a day or two earlier. The user therefore is *past* the early‑cycle phase and is not anticipating the typical low‑energy (“sluggish”) days that usually follow the start of a cycle.",
+    "dim2_response": "**Rest‑focused 3‑day “early‑cycle” plan**  \n\n| Day | Sleep (core recommendation) | Gentle movement (time / options) | Simple meal ideas (based on typical early‑cycle needs) |\n|-----|-----------------------------|-----------------------------------|--------------------------------------------------------|\n| **Day 1** | • Aim for **7‑9 h** total sleep.<br>• Keep a consistent bedtime / wake‑time (e.g., 10 p.m. → 6 a.m.).<br>• If cramps are strong, add a short **nap** (15‑30 min) in the early afternoon. | **10‑15 min** – choose one of: <br>• Slow walk (indoor or around the block)<br>• Gentle stretching (neck, shoulders, hips)<br>• Light floor‑based mobility flow<br>*If you feel better than expected*: extend to **20 min** or add a second 10‑min walk. | • Warm soups or broths (easy on digestion) <br>• Iron‑rich soft foods (e.g., lentil stew, cooked spinach) to offset menstrual loss <br>• Hydrating fluids – herbal tea, warm water with lemon |\n| **Day 2** | • Same 7‑9 h window; **avoid screens** 30 min before sleep to improve quality. <br>• If you’re waking early, keep a **relaxing wind‑down** (reading, light breathing). | **15‑20 min** – pick one: <br>• Gentle yoga sequence (focus on hip opening, back stretch) <br>• Light body‑weight work at a comfortable pace (e.g., wall‑push‑ups, seated leg lifts) <br>• Longer walk (20 min) <br>*If you feel better than expected*: try a **25‑30 min** low‑intensity flow or add a short (5‑10 min) core activation set. | • Continue warm, easy‑to‑digest meals. <br>• Add a small carbohydrate source for steady energy (e.g., oatmeal, quinoa porridge). <br>• Include a probiotic‑rich food (yogurt, kefir) to support gut comfort. |\n| **Day 3** | • Keep bedtime routine steady; **cool, dark room** promotes deeper REM. <br>• If you’re still fatigued, allow a **mid‑day rest** (20‑30 min) but keep nighttime sleep uninterrupted. | **20‑30 min** – options: <br>• Longer gentle walk or easy cycling (low resistance) <br>• Very light strength circuit (e.g., 2‑3 sets of 8‑10 reps of body‑weight squats, glute bridges) with long rest between sets <br>• Extended yoga flow (30 min) focusing on relaxation <br>*If you feel better than expected*: stretch to **30‑40 min** or add a modest 45‑min focused work block (e.g., light planning). | • Balanced meals with **protein**, **complex carbs**, and **healthy fats** (e.g., grilled fish + sweet‑potato + avocado). <br>• Keep foods warm and soothing; avoid heavy, spicy dishes that may aggravate cramps. <br>• Finish the day with a calming herbal tea (ginger or chamomile). |\n\n### How to choose each day\n1. **Check your body each morning** – rate overall fatigue/cramp level (low, moderate, high).  \n2. **Low** → 10‑15 min movement, 1‑2 short (20‑30 min) work blocks, simple warm meals.  \n3. **Moderate** → 15‑20 min movement, 2‑3 work blocks (30‑45 min), add a modest carbohydrate/protein combo.  \n4. **High** → keep movement at the lower end (10‑15 min or rest), limit work to the briefest blocks (20 min), focus on easily‑digested, iron‑rich foods and extra hydration.  \n5. **If you feel better than expected** – upgrade movement duration or intensity *once* and add a longer work block, but stop while you still feel good.\n\n---\n\n**Note:** The wiki currently contains detailed guidance on low‑energy movement and productivity (see the “low‑energy workout” and “productivity blocks” concepts and the session‑02 template). It does **not** include a specific nutrition or meal‑planning page, so the meal suggestions above are based on common early‑cycle dietary practices rather than explicit wiki content. If you later add a nutrition concept or entity, the plan can be refined accordingly.",
+    "dim3_response": "I’m sorry, but I couldn’t locate any information in the knowledge base about tretinoin or guidance on when to start using it. Without relevant content to reference, I can’t give a reliable recommendation. If you have a specific source or document about tretinoin that you’d like me to consult, please let me know."
+  },
+  "build_seconds": 54.7,
+  "total_seconds": 120.7,
+  "usage": {
+    "compile": {
+      "calls": 14,
+      "prompt_tokens": 45370,
+      "completion_tokens": 10828,
+      "cost_usd": 0.010132708
+    },
+    "query": {
+      "calls": 17,
+      "prompt_tokens": 41488,
+      "completion_tokens": 3495,
+      "cost_usd": 0.001879893
+    }
+  }
+}

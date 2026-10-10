@@ -1,0 +1,34 @@
+=== 2026-10-10 15:27:01 uid=ea1bd523-f9f9-4ee0-89ed-08f407cc3237 ===
+Adding: session-12_2023-01-18.md
+  Compiling short doc...
+    summary........... 11.2s (in=2056, out=488, cached=64)
+    concepts-plan....... 7.3s (in=2924, out=552)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: chicago... 1.9s (in=2826, out=245)
+    concept: wind_chill_perception... 2.6s (in=2792, out=559, cached=64)
+    concept: moisture_cold_amplification... 11.7s (in=2798, out=1603, cached=784)
+    concept: cold_weather_safety_thresholds... 20.8s (in=2796, out=801, cached=784)
+Entity generation failed: LLM returned empty content for concept 'chicago'
+    [WARN] 1 entity(ies) planned but only 0 written for session-12_2023-01-18 (ValueError).
+    summary-rewrite.... 4.5s (in=2825, out=776, cached=784)
+  [OK] session-12_2023-01-18.md added to knowledge base.
+Adding: session-34_2024-07-21.md
+  Compiling short doc...
+    summary... 3.7s (in=2183, out=700, cached=64)
+    concepts-plan....... 7.0s (in=3163, out=432, cached=768)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: pet_safe_succulents... 8.7s (in=3046, out=1034, cached=784)
+    concept: first_thing_you_see_corner... 9.8s (in=3048, out=815, cached=784)
+    concept: morning_rituals... 12.7s (in=3030, out=953)
+    concept: light_intensity_cues... 14.0s (in=3034, out=938)
+    entity: gasteria... 5.5s (in=3083, out=906, cached=64)
+    entity: sempervivum... 3.4s (in=3067, out=944)
+    entity: aloe_vera... 3.2s (in=3077, out=753, cached=2176)
+    entity: jade_plant... 3.9s (in=3084, out=276, cached=768)
+    entity: euphorbia... 18.9s (in=3082, out=296, cached=768)
+    entity: hawthornia... 30.6s (in=3083, out=1299, cached=64)
+    summary-rewrite.... 4.9s (in=3078, out=975, cached=768)
+  [OK] session-34_2024-07-21.md added to knowledge base.
+done.

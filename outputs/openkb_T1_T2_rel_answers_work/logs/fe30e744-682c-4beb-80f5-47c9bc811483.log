@@ -1,0 +1,26 @@
+=== 2026-10-10 15:50:36 uid=fe30e744-682c-4beb-80f5-47c9bc811483 ===
+Adding: session-07_2024-07-15.md
+  Compiling short doc...
+    summary......... 9.7s (in=3440, out=2214, cached=786)
+    concepts-plan.. 2.8s (in=4719, out=602, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: shoulder-health... 3.4s (in=4563, out=809, cached=4256)
+    concept: progression-strategies... 3.6s (in=4563, out=561)
+    concept: tendonitis-friendly-training... 19.4s (in=4567, out=554, cached=768)
+Concept generation failed: LLM returned empty content for concept 'progression-strategies'
+    [WARN] 3 concept(s) planned but only 2 written for session-07_2024-07-15 (ValueError).
+    summary-rewrite..... 5.7s (in=4594, out=1080)
+  [OK] session-07_2024-07-15.md added to knowledge base.
+Adding: session-40_2025-01-15.md
+  Compiling short doc...
+    summary............... 15.3s (in=2370, out=1092)
+    concepts-plan...... 6.3s (in=3579, out=672, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: elbow-strain-prevention... 0.7s (in=3430, out=2, cached=32)
+    concept: finger-injury-prevention... 12.2s (in=3428, out=934, cached=784)
+    concept: bouldering... 37.4s (in=3425, out=1005, cached=64)
+Concept generation failed: LLM returned empty content for concept 'elbow-strain-prevention'
+    [WARN] 3 concept(s) planned but only 2 written for session-40_2025-01-15 (ValueError).
+    summary-rewrite... 3.8s (in=3456, out=994, cached=784)
+  [OK] session-40_2025-01-15.md added to knowledge base.
+done.

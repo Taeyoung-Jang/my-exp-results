@@ -1,0 +1,32 @@
+{
+  "uid": "12067a86-6627-437f-8435-57d566c17aa0",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    11,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In both of the prior sessions you were given tools to keep a slower, low‑stress pace:\n\n* **Session 12 (2024‑07‑15)** prescribed a “low‑stress weekly schedule” that uses a **10‑minute crash‑friendly evening** and an **energy‑conservation strategy** – you drop optional or high‑effort tasks whenever energy dips, keeping the day deliberately light. [[summaries/session-12_2024-07-15]]\n\n* **Session 35 (2025‑02‑14)** reinforced that approach by linking the same **energy‑conservation strategy** and **low‑effort weekly routine** concepts, emphasizing flexible, minimal‑stress structure even while traveling. [[summaries/session-35_2025-02-14]]\n\nTogether these recommendations confirm that you still have the ability—and the concrete plan—to maintain a slower pace to manage stress.",
+    "dim2_response": "**Relaxed Low‑Commitment Weekly Routine**  \n*(Designed for elevated stress, a slower pace, and plenty of downtime. All elements pull from the “low‑effort weekly routine” guidance in Session 12 [2024‑07‑15] and the associated concept page.)*  \n\n| Day | Core Theme | “Must‑Do” Anchor | Light‑Effort Activity | Evening Wind‑Down (≤10 min) |\n|-----|------------|------------------|-----------------------|------------------------------|\n| **Mon‑Fri** | Work focus | • Consistent sleep‑wake time  <br>• One tiny chore (e.g., wipe kitchen surface, take out trash) | • 10‑15 min walk or gentle stretch (ideally before or during lunch) | 1️⃣ Drop‑off belongings & breathe (≈1 min)  <br>2️⃣ Tiny reset task (1‑2 min)  <br>3️⃣ Change into comfy clothes (≈1 min)  <br>4️⃣ Heat/assemble a quick dinner (3‑4 min)  <br>5️⃣ Settle‑in (wash face, light candle, sit) (1‑2 min)  <br>6️⃣ Eat & switch to rest mode |\n| **Sat** | Flexible window | • Keep sleep schedule unchanged <br>• One small weekend chore (e.g., load dishwasher) | • Optional short walk or light movement (5‑10 min) – only if energy permits | Same 10‑min wind‑down routine (or skip entirely if you feel rested) |\n| **Sun** | Rest‑focused | • No “must‑do” work tasks <br>• Light reset for Monday (e.g., lay out clothes) | • Optional gentle activity (e.g., yoga stretch, slow bike ride) – truly optional | End the day with a calming ritual of your choice (reading, meditation) – keep it under 10 min if you want a clear boundary |\n\n### Key Principles (from the **Low‑Effort Weekly Routine** concept)\n\n1. **Theme‑Based Days** – Rather than strict hour‑by‑hour schedules, each day follows a simple guiding theme (work, flexible, rest).  \n2. **Anchor Habits** – Consistent sleep, a few minutes outdoors, and one tiny chore per weekday prevent backlog and reduce mental load.  \n3. **Energy‑First Adjustments** – When you feel low‑energy, drop any optional or higher‑effort tasks first (e.g., deep cleaning, long workouts). This follows the **energy‑conservation strategy** described in the source.  \n4. **Crash‑Friendly Evenings** – Keep evenings under 10 minutes to protect recovery — the “10‑minute weekday evening routine” from Session 12.  \n\n### Quick‑Meal Tips (optional, keep minimal effort)\n\n- Use the 7 vegetarian “quick‑meal” ideas (rice‑chickpea bowl, pesto pasta, veggie quesadilla, etc.) that each assemble in ≤5 minutes.  \n- Keep pantry staples (microwave rice/quinoa, canned beans, frozen veg, cheese, tortillas) on hand for “emergency” meals that require no cooking.  \n\n### How to Use This Routine\n\n1. **Start each morning** by noting your energy level (high / moderate / low).  \n2. **Select the day’s theme** and commit only to the anchor habits.  \n3. **If energy is low**, skip the light‑exercise slot and treat the evening wind‑down as your only task.  \n4. **Review weekly** (e.g., Sunday evening) – if a particular task consistently feels burdensome, drop or replace it with a more restorative option.  \n\n---\n\n**Result:** A structured yet highly flexible week that safeguards sleep, limits daily decisions, and leaves ample room for downtime—exactly the kind of low‑commitment schedule needed when stress is elevated.",
+    "dim3_response": "I’m sorry, but the knowledge base doesn’t contain any information about senior rescue cats, thyroid medication schedules, or how time‑sensitive pet‑care responsibilities fit into personal routines. Therefore I can’t provide a wiki‑based answer to your question."
+  },
+  "build_seconds": 117.0,
+  "total_seconds": 144.7,
+  "usage": {
+    "compile": {
+      "calls": 18,
+      "prompt_tokens": 70014,
+      "completion_tokens": 14625,
+      "cost_usd": 0.009094158
+    },
+    "query": {
+      "calls": 12,
+      "prompt_tokens": 29898,
+      "completion_tokens": 2388,
+      "cost_usd": 0.00132678
+    }
+  }
+}

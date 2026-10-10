@@ -1,0 +1,47 @@
+=== 2026-10-10 15:56:32 uid=85ee1281-cede-499d-b7ce-0de51a68fb16 ===
+Adding: session-04_2025-06-18.md
+  Compiling short doc...
+    summary............. 13.8s (in=2586, out=985)
+    concepts-plan....... 7.4s (in=3694, out=270, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: mixing_fundamentals... 0.5s (in=3557, out=2, cached=768)
+    entity: professional_sound... 2.5s (in=3589, out=615, cached=784)
+    entity: DAW... 3.1s (in=3593, out=609, cached=66)
+    entity: pink_noise... 12.8s (in=3592, out=713, cached=784)
+    concept: ear_training... 15.9s (in=3560, out=616, cached=3232)
+    concept: weekly_practice_plan... 37.9s (in=3558, out=1234)
+Concept generation failed: LLM returned empty content for concept 'mixing_fundamentals'
+    [WARN] 3 concept(s) planned but only 2 written for session-04_2025-06-18 (ValueError).
+    summary-rewrite.......................... 26.5s (in=3589, out=993, cached=3424)
+[92m15:57:58 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-04_2025-06-18.md added to knowledge base.
+Adding: session-40_2025-08-06.md
+  Compiling short doc...
+    summary....... 7.3s (in=2871, out=1123, cached=784)
+    concepts-plan................ 16.6s (in=4213, out=493)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: work_life_boundaries... 11.1s (in=4004, out=1011, cached=64)
+    concept: urgent_communication_protocol... 17.1s (in=4003, out=690, cached=768)
+    concept: slack_after_hours_management... 20.1s (in=4004, out=1263, cached=784)
+    entity: slack... 24.1s (in=4035, out=764)
+    summary-rewrite............... 15.6s (in=4033, out=1058, cached=768)
+  [OK] session-40_2025-08-06.md added to knowledge base.
+done.

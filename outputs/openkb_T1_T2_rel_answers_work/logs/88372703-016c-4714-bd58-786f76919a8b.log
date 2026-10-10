@@ -1,0 +1,51 @@
+=== 2026-10-10 15:40:28 uid=88372703-016c-4714-bd58-786f76919a8b ===
+Adding: session-10_2025-06-16.md
+  Compiling short doc...
+    summary...... 6.1s (in=2675, out=1331)
+    concepts-plan. 1.8s (in=3995, out=470, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: effort_target_rpe_rir... 4.7s (in=3851, out=1023, cached=66)
+    concept: recovery_adjustments... 6.8s (in=3846, out=496, cached=768)
+    concept: balanced_training_schedule... 12.7s (in=3833, out=1059)
+    summary-rewrite..... 5.0s (in=3876, out=1039)
+  [OK] session-10_2025-06-16.md added to knowledge base.
+Adding: session-33_2025-09-16.md
+  Compiling short doc...
+    summary........ 8.7s (in=3744, out=905, cached=784)
+    concepts-plan........................ 24.2s (in=4819, out=1312)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: weeknight_meal_planning... 0.7s (in=4709, out=2)
+    entity: rotisserie_chicken... 4.2s (in=4744, out=1027, cached=784)
+    concept: minimal_cooking... 4.3s (in=4708, out=708)
+    entity: salad_kit... 4.3s (in=4762, out=884, cached=768)
+    entity: steam_in_bag_veggies... 5.8s (in=4749, out=384, cached=64)
+    entity: shredded_cheese... 4.9s (in=4786, out=821)
+    entity: tortillas... 7.5s (in=4745, out=874, cached=784)
+    concept: grocery_checklist... 16.4s (in=4698, out=1306)
+    entity: vinaigrette... 3.7s (in=4765, out=970, cached=4576)
+    entity: canned_beans... 5.9s (in=4749, out=969, cached=784)
+    entity: microwave_rice_pouches... 26.4s (in=4732, out=839)
+Concept generation failed: LLM returned empty content for concept 'weeknight_meal_planning'
+Concept generation failed: LLM returned empty content for concept 'minimal_cooking'
+    [WARN] 3 concept(s) planned but only 1 written for session-33_2025-09-16 (ValueError).
+    summary-rewrite...................... 22.7s (in=4740, out=1086, cached=64)
+[92m15:42:17 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-33_2025-09-16.md added to knowledge base.
+done.

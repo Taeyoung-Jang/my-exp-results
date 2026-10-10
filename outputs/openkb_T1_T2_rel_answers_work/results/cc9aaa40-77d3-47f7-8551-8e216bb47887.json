@@ -1,0 +1,19 @@
+{
+  "uid": "cc9aaa40-77d3-47f7-8551-8e216bb47887",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    12,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "No.  \n\nIn the earlier session (2022‑07‑21, **session‑13**) the user’s living‑room was described as “dim… when daylight is heavily filtered (e.g., trees outside)” and the advice focused on compensating for that lack of natural light【source: summaries/session-13_2022-07-21.md】.  \n\nHowever, the more recent session (2024‑07‑21, **session‑36**) treats the same living‑room as a “south‑facing, sun‑flooded” space where “daytime sunlight is abundant” and the recommendations center on managing bright exposure rather than trying to brighten a dim room【source: summaries/session-36_2024-07-21.md】.  \n\nThe shift from “dim… because of trees” to “bright, sun‑flooded” indicates that the living‑room no longer stays pretty dim in the afternoon due to the trees outside.",
+    "dim2_response": "Here are a few low‑effort strategies that boost light and liveliness without altering anything outside the house:\n\n**1. Add a well‑placed mirror**  \n* Put a large wall mirror directly opposite the window (or angle it so it catches the most daylight). The reflected light will bounce around the room and make the space feel larger and brighter. [[summaries/session-13_2022-07-21]]\n\n**2. Build a layered‑lighting scheme**  \n* Combine several warm‑white sources (floor lamp, a couple of table lamps, and the existing ceiling light).  \n* Aim for 2700–3000 K colour temperature and roughly 800–1100 lumens per lamp, giving a total of about 3 000–5 000 lumens for a typical 15 × 20 ft living room. [[summaries/session-13_2022-07-21]]  \n* Keep the colour temperature consistent so the glow feels even rather than patchy.\n\n**3. Choose the right lamp types & placement**  \n* A tall floor lamp in the darker corner (behind or beside the sofa) adds vertical illumination.  \n* Pair it with table lamps on either end of the sofa or an arc lamp that sweeps light over the seating area. These positions fill shadows created by the trees while keeping the light distribution balanced. [[summaries/session-13_2022-07-21]]\n\n**4. Optimize layout for light flow**  \n* Arrange furniture so that pathways don’t block the window or the mirror. Keeping the seating area open lets reflected daylight travel farther into the room. [[concepts/room-layout]]\n\n**5. Use light‑reflecting décor**  \n* Select light‑coloured or slightly glossy accessories—such as a pale rug, white‑washed cushions, or a low‑sheen coffee table—to bounce ambient light.  \n* Even small reflective objects (metal picture frames, glass vases) can add a subtle sparkle.\n\n**6. Keep window treatments minimal**  \n* Light, sheer curtains let the filtered daylight pass while diffusing harsh glare. Avoid heavy drapes that further dim the space.\n\nApplying a combination of these tactics (mirror + layered lighting + thoughtful layout) will make a tree‑shaded living room feel noticeably brighter and more energetic without any external changes.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about the light requirements or care considerations for Maidenhair Ferns, Calatheas, or similar houseplants. Consequently, I can’t determine whether such a plant would thrive in the center of your living‑room or if its leaves might get scorched there. If you have additional source material on indoor plant lighting, I could look that up for you."
+  },
+  "build_seconds": 123.5,
+  "total_seconds": 180.2,
+  "usage": {}
+}

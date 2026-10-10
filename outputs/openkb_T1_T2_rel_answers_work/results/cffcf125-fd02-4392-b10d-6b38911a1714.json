@@ -1,0 +1,32 @@
+{
+  "uid": "cffcf125-fd02-4392-b10d-6b38911a1714",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    12,
+    37
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. From the prior conversations the user was advised that, as long as their prescription is up‑to‑date, they still need to wear their glasses to see clearly at distance. The 2024‑06‑15 session notes that “if the current prescription is up‑to‑date, standard setup works the same for glasses wearers,” implying that distance vision still relies on corrective lenses. No later discussion indicates that the user has become free of the need for glasses.  \n\n**Sources**  \n- Session 13 (2024‑06‑15) – “If up‑to‑date, standard setup works the same for glasses wearers.” [[summaries/session-13_2024-06-15.md]]  \n- Session 38 (2025‑02‑15) focuses on dry‑eye management after refractive surgery and does not mention any change in distance‑vision correction. [[summaries/session-38_2025-02-15.md]]",
+    "dim2_response": "[OPENKB_ERROR] ModelBehaviorError('Tool search not found in agent wiki-query')",
+    "dim3_response": "I’m sorry, but the knowledge base you’ve provided only contains information about eye care, vision‑related products, and related concepts. It does not include any details about catamaran snorkeling tours, custom‑diopter masks, or pricing decisions for that kind of equipment. Consequently, I can’t give you a data‑driven recommendation on whether the $40 upgrade makes sense. You may want to consult the tour operator’s FAQ, reviews from other snorkelers, or a specialist in scuba/snorkeling gear for a more informed answer."
+  },
+  "build_seconds": 200.5,
+  "total_seconds": 268.5,
+  "usage": {
+    "compile": {
+      "calls": 27,
+      "prompt_tokens": 88749,
+      "completion_tokens": 24580,
+      "cost_usd": 0.008274588
+    },
+    "query": {
+      "calls": 24,
+      "prompt_tokens": 54911,
+      "completion_tokens": 2873,
+      "cost_usd": 0.00216447
+    }
+  }
+}

@@ -1,0 +1,22 @@
+=== 2026-10-10 14:27:09 uid=eacb64ff-f6f8-43f9-8b2a-b572df3f536d ===
+Adding: session-13_2024-06-10.md
+  Compiling short doc...
+    summary.......................... 26.1s (in=2538, out=1544, cached=784)
+    concepts-plan........ 8.9s (in=4171, out=579)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: workplace_confidentiality... 12.7s (in=4029, out=693, cached=64)
+    concept: boundary_communication... 13.8s (in=4028, out=934, cached=784)
+    concept: emotional_intelligence... 29.6s (in=4028, out=1366, cached=64)
+    summary-rewrite..... 5.9s (in=4060, out=1482, cached=784)
+  [OK] session-13_2024-06-10.md added to knowledge base.
+Adding: session-32_2024-12-11.md
+  Compiling short doc...
+    summary....................... 23.9s (in=1883, out=1089, cached=48)
+    concepts-plan.... 4.0s (in=3187, out=473, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: group_vibe... 5.9s (in=3013, out=641, cached=2688)
+    concept: social_navigation... 7.8s (in=3012, out=885, cached=784)
+    concept: body_language... 8.5s (in=3012, out=956, cached=2880)
+    summary-rewrite....... 7.8s (in=3044, out=905, cached=784)
+  [OK] session-32_2024-12-11.md added to knowledge base.
+done.

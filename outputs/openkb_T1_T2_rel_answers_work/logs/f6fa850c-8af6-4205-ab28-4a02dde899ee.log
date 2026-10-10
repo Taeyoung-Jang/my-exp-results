@@ -1,0 +1,27 @@
+=== 2026-10-10 14:44:32 uid=f6fa850c-8af6-4205-ab28-4a02dde899ee ===
+Adding: session-03_2022-05-15.md
+  Compiling short doc...
+    summary.... 4.3s (in=2596, out=644, cached=784)
+    concepts-plan.... 4.7s (in=3463, out=493, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: hoa... 6.4s (in=3347, out=714, cached=3008)
+    concept: home-selection-checklist... 16.6s (in=3299, out=1080)
+    concept: weighted-scoring-method... 17.7s (in=3313, out=866, cached=784)
+    concept: neighborhood-assessment... 18.6s (in=3311, out=720, cached=784)
+    summary-rewrite...... 6.5s (in=3343, out=787, cached=784)
+  [OK] session-03_2022-05-15.md added to knowledge base.
+Adding: session-31_2024-05-15.md
+  Compiling short doc...
+    summary.......... 10.0s (in=4006, out=1333)
+    concepts-plan.... 4.1s (in=4990, out=925, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: task-status-tracking... 8.1s (in=4814, out=947, cached=784)
+    concept: relocation-timeline-milestones... 14.4s (in=4816, out=694, cached=64)
+    concept: relocation-checklist-planning... 19.2s (in=4815, out=727, cached=64)
+    entity: google-sheets... 25.4s (in=4848, out=838, cached=64)
+    entity: notion... 25.5s (in=4848, out=1034, cached=64)
+    summary-rewrite... 3.3s (in=4845, out=765, cached=4464)
+  [OK] session-31_2024-05-15.md added to knowledge base.
+done.

@@ -1,0 +1,28 @@
+=== 2026-10-10 15:39:33 uid=5664f83c-4552-475f-8650-e1b3e024a87f ===
+Adding: session-13_2025-06-15.md
+  Compiling short doc...
+    summary........... 11.0s (in=1558, out=1537, cached=784)
+    concepts-plan... 3.7s (in=2330, out=427, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: email_drafting... 3.6s (in=2189, out=760, cached=768)
+    concept: professional_communication... 8.4s (in=2171, out=346, cached=768)
+    concept: scheduling_calls... 12.2s (in=2171, out=648)
+    summary-rewrite....... 7.9s (in=2203, out=469, cached=64)
+  [OK] session-13_2025-06-15.md added to knowledge base.
+Adding: session-38_2025-09-15.md
+  Compiling short doc...
+    summary............... 15.1s (in=2281, out=950)
+    concepts-plan.............. 14.4s (in=3408, out=1026)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: ehr... 8.3s (in=3309, out=471, cached=64)
+    concept: night_shift_training... 10.5s (in=3271, out=956, cached=784)
+    entity: badge_scanner... 2.3s (in=3303, out=385)
+    entity: it_help_desk... 5.3s (in=3305, out=311, cached=768)
+    concept: cheat_sheets... 23.1s (in=3273, out=940, cached=784)
+    concept: rollout_strategy... 27.4s (in=3273, out=1139, cached=3136)
+Entity generation failed: LLM returned empty content for concept 'badge_scanner'
+    [WARN] 3 entity(ies) planned but only 2 written for session-38_2025-09-15 (ValueError).
+    summary-rewrite............ 12.3s (in=3288, out=1110)
+  [OK] session-38_2025-09-15.md added to knowledge base.
+done.

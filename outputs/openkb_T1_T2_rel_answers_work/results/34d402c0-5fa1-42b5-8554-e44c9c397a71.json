@@ -1,0 +1,32 @@
+{
+  "uid": "34d402c0-5fa1-42b5-8554-e44c9c397a71",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    0,
+    37
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. According to the conversation history, the most recent session ( [[summaries/session‑38_2025‑10‑15]] ) deals with “extreme heat” and offers tips for staying cool, indicating that the user’s current situation is hot rather than unusually cold for this time of year. The earlier session about “cold, dark mornings” ( [[summaries/session‑01_2025‑04‑15]] ) was from April and does not reflect the present conditions.",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain any information about what clothing to wear in unusually cold weather.",
+    "dim3_response": "**Tomorrow’s (2025‑10‑19) plan – heat‑safe errands & outfit**\n\n| Time of day | What to do | Why it’s safe | Quick tip |\n|-------------|------------|---------------|-----------|\n| **05:30 – 07:30** | Run outdoor errands (grocery store, pharmacy, brief walk) | Outdoor temperature is still at its daily low; the **ventilation‑timing** advice tells us to “open windows only when outdoor temperature is lower (usually overnight/early morning)”【session‑38_2025‑10‑15】. | Dress in light, breathable layers and move quickly; carry a water bottle. |\n| **07:30 – 09:00** | Return home, **cool‑shower** & finish any indoor tasks | A cool shower is listed under **personal cooling** and helps lower core temperature before the heat spikes later in the day【session‑38_2025‑10‑15】. | Keep the bathroom fan on for extra airflow. |\n| **09:00 – 16:00** | Stay **indoors** (work, reading, remote tasks) | The summary recommends **blocking heat ingress** (close blinds, use blackout liners) and **using fans wisely** to circulate cooler night air【session‑38_2025‑10‑15】. | Set AC to “eco/auto” and keep thermostat at 78–80 °F. |\n| **16:00 – 18:00** | Short outdoor break (quick walk, pet‑walk) *only if needed* | Late‑afternoon is still hot, but you can **ventilate** by opening a window for a few minutes to let any cooler breeze in, then close it again. Keep exposure under 10 min. | Wear the same breathable outfit; stay hydrated. |\n| **18:00 – 20:00** | Light indoor chores, dinner prep | Temperatures begin to drop; you can **open windows** again to bring in cooler air for natural ventilation【session‑38_2025‑10‑15】. | Run a fan near the open window to pull the cooler air inside. |\n| **20:00 – 22:00** | **Cool‑down routine** – cool pack or damp cloth on pulse points, dim lights, prepare for sleep | Personal cooling methods (cold packs, damp cloth) help maintain a comfortable bedroom temperature【session‑38_2025‑10‑15】. | Keep a chilled water bottle bedside. |\n\n---\n\n### What to wear\n\n| Clothing item | Reason (wiki‑cited) |\n|---------------|---------------------|\n| **Light‑colored, loose‑fit shirts & pants** (cotton, linen, or moisture‑wicking synthetics) | Breathable fabrics keep you cool and let sweat evaporate — a core **personal cooling** strategy【session‑38_2025‑10‑15】. |\n| **Wide‑brim hat or cap** | Shields head from direct sun, reducing heat gain. |\n| **Sunglasses** | Protect eyes from UV and glare. |\n| **Closed‑toe shoes with good ventilation** (e.g., mesh sneakers) | Prevent foot overheating while still being safe for city sidewalks. |\n| **Lightweight scarf or cooling band (optional)** | Can be dampened for an extra **personal cooling** boost on the neck/wrists【session‑38_2025‑10‑15】. |\n| **Sunscreen (SPF 30+)** applied to exposed skin | Prevents sunburn, which adds to heat stress. |\n| **Carry a refillable water bottle** | Staying hydrated is repeatedly emphasized as essential for thermoregulation【session‑38_2025‑10‑15】. |\n\n---\n\n### Quick safety checklist (keep it on your phone)\n\n- ☐ Check the morning temperature (local forecast) – aim to leave the house before it exceeds ~75 °F.  \n- ☐ Pack water, a lightweight hat, sunscreen, and a small damp cloth.  \n- ☐ Limit outdoor exposure to **≤ 30 min** during the hottest hours (10 am‑4 pm).  \n- ☐ If you feel dizzy, nauseous, or excessively sweaty, find shade, hydrate, and cool down immediately.  \n\nFollowing this schedule and outfit plan lets you get necessary errands done while minimizing heat‑related risk and keeping you comfortable all day."
+  },
+  "build_seconds": 63.3,
+  "total_seconds": 97.4,
+  "usage": {
+    "compile": {
+      "calls": 8,
+      "prompt_tokens": 20639,
+      "completion_tokens": 5761,
+      "cost_usd": 0.00254585
+    },
+    "query": {
+      "calls": 10,
+      "prompt_tokens": 19382,
+      "completion_tokens": 2609,
+      "cost_usd": 0.0010510799999999998
+    }
+  }
+}

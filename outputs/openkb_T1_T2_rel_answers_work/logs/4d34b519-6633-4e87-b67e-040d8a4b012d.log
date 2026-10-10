@@ -1,0 +1,22 @@
+=== 2026-10-10 15:40:03 uid=4d34b519-6633-4e87-b67e-040d8a4b012d ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary.... 4.8s (in=1711, out=886)
+    concepts-plan....... 7.5s (in=2773, out=341, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: cue-based-habit... 11.2s (in=2617, out=702, cached=64)
+    concept: phone-management... 12.5s (in=2602, out=737)
+    concept: nighttime-routine... 19.6s (in=2616, out=626, cached=64)
+    summary-rewrite......... 9.2s (in=2634, out=901)
+  [OK] session-04_2024-06-15.md added to knowledge base.
+Adding: session-34_2025-02-14.md
+  Compiling short doc...
+    summary............ 12.9s (in=3237, out=742, cached=768)
+    concepts-plan..... 5.4s (in=4427, out=652, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: pre-dawn-productivity... 9.7s (in=4253, out=651, cached=64)
+    concept: bakery-friendly-nutrition... 10.4s (in=4252, out=890, cached=784)
+    concept: micro-reset... 22.1s (in=4251, out=1093)
+    summary-rewrite............. 13.2s (in=4269, out=1006)
+  [OK] session-34_2025-02-14.md added to knowledge base.
+done.

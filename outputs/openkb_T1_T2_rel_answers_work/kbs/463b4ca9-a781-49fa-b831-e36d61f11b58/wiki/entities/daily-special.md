@@ -1,0 +1,7 @@
+---
+sources: ["summaries/session-11_2025-08-14.md"]
+type: "Other"
+description: "A rotating menu item used to assess risk versus a patron’s default dish."
+---
+
+## Daily Special\n\nA **daily special** is a rotating dish offered by a restaurant, often highlighting seasonal ingredients or the chef’s current focus. In the conversation, it serves as the contrast to the patron’s *default* favorite (e.g., [[entities/grilled-salmon]]) and is evaluated using a quick mental checklist.\n\n### Decision Factors\n- **Restaurant strength**: If the special aligns with what the kitchen is known for, it may be a safe bet. [[concepts/restaurant-strength]]\n- **Kitchen vibe**: A busy, confident kitchen can encourage trying the special, while a chaotic one suggests sticking with the default. [[concepts/kitchen-vibe]]\n- **Similarity to default**: Specials that are a twist on familiar flavors pose lower risk. [[concepts/default-dish]]\n\n### Server Queries\nThe assistant recommends asking the server:\n- “Have you tried the special yourself?”\n- “How are people liking it so far?”\n- “What’s the story behind this special?”\nThese questions help surface genuine enthusiasm versus generic sales talk.\n\n### Red‑Flag Answers\nVague, hesitant, or uninformed responses signal that the daily special may not be worth deviating from the known favorite.\n\n### Reference\nThis entity is discussed in [[summaries/session-11_2025-08-14]].

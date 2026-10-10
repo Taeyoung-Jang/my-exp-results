@@ -1,0 +1,26 @@
+=== 2026-10-10 14:26:58 uid=834daf1e-02c1-418d-9d45-64f0571eedfc ===
+Adding: session-07_2024-06-15.md
+  Compiling short doc...
+    summary............... 15.7s (in=2099, out=756, cached=64)
+    concepts-plan...... 6.7s (in=3241, out=511, cached=816)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: spontaneous_vs_planned_interaction... 8.3s (in=3095, out=738)
+    concept: communication_boundaries... 9.1s (in=3092, out=540, cached=768)
+    concept: maintaining_vibe_despite_limits... 10.3s (in=3081, out=824)
+    summary-rewrite............... 15.3s (in=3123, out=996, cached=784)
+  [OK] session-07_2024-06-15.md added to knowledge base.
+Adding: session-32_2025-02-13.md
+  Compiling short doc...
+    summary.................. 18.9s (in=2124, out=832, cached=784)
+    concepts-plan.................. 18.2s (in=3214, out=1028, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: weekly_social_rhythm... 12.2s (in=3063, out=990, cached=64)
+    update: spontaneous_vs_planned_interaction... 15.9s (in=3607, out=1613, cached=784)
+    entity: oak_street_cafe... 7.9s (in=3098, out=587, cached=784)
+    concept: open_invite_text... 21.0s (in=3063, out=880, cached=784)
+    entity: luna_cafe... 7.4s (in=3097, out=314, cached=64)
+    concept: low_pressure_meetup... 25.2s (in=3066, out=837)
+    summary-rewrite......... 9.4s (in=3094, out=1129, cached=784)
+  [OK] session-32_2025-02-13.md added to knowledge base.
+done.

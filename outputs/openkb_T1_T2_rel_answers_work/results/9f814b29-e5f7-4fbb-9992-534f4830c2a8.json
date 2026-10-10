@@ -1,0 +1,32 @@
+{
+  "uid": "9f814b29-e5f7-4fbb-9992-534f4830c2a8",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    8,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the available conversation records, there is no indication that you have formally committed to volunteer at the community centre on Saturdays. The June 12 2025 session ( [[summaries/session-09_2025-06-12]] ) only provided guidance on locating volunteer opportunities and a checklist of questions to ask organizers; it does not record you actually starting or maintaining a regular Saturday‑day volunteer role. Consequently, the knowledge base does not contain any standing commitment for you to volunteer there every Saturday.",
+    "dim2_response": "**Weekly Saturday Volunteer‑Fit Plan**  \n*(Based on the volunteer‑role guidance and 12‑question checklist from *session‑09 (2025‑06‑12)*)*  \n\n| Time | Activity | Why it helps (wiki source) |\n|------|----------|----------------------------|\n| **Friday evening** | • Finish any work/errands early  <br>• Light, protein‑rich dinner  <br>• Pack water bottle, healthy snack, volunteer badge, and any required gear  <br>• Lay out comfortable shoes & clothes  | Pre‑planning reduces morning rush and ensures you have energy‑fuel ready for the shift. |\n| **Friday night** | • Go to bed by 22:00‑23:00; aim for 7‑8 h sleep | Adequate rest keeps you alert and “energized” for a Saturday shift (see “Motivation vs. drain” in the checklist). |\n| **Saturday 06:30 – 07:00** | • Gentle stretch or 5‑min yoga  <br>• Hydrate (≈ 250 ml water)  <br>• Balanced breakfast (whole grain, fruit, protein) | Aligns with the checklist item “What should I do if there’s an emergency or something feels unsafe?” → being physically ready reduces risk of fatigue‑related mishaps. |\n| **Saturday 07:15** | • Review the 12‑question checklist quickly (mental run‑through)  <br>• Confirm travel time (check traffic/public‑transport) | Guarantees you remember key shift details (tasks, point of contact, safety procedures) before you leave (see “Specific question checklist”). |\n| **Saturday 07:30 – 08:00** | • Travel to the community centre (allow a 10‑15 min buffer) | Buffer time ensures you **arrive on time**, even if there’s a minor delay. |\n| **Saturday 08:00 – 12:00** (Typical shift) | • Check‑in with the designated supervisor (question 5)  <br>• Follow the task list you asked about (question 2)  <br>• Take a 5‑minute micro‑break every 60 minutes (drink water, quick stretch)  <br>• Note any questions for the point‑of‑contact (question 6) | Structured breaks preserve energy; checking in satisfies “who do I check in with” and “who should I go to if…”. |\n| **Saturday 12:00 – 12:15** | • Log out, brief debrief (what went well, any safety concerns)  <br>• Record any follow‑up items for next week | Completes the “escalation path” (volunteer → supervisor → staff manager) and gives you a clear hand‑off for the next shift. |\n| **Saturday 12:15 – 13:00** | • Light snack + hydration  <br>• Short walk or gentle stretch before heading home | Replenishes glycogen and prevents post‑shift “crash”. |\n| **Saturday Afternoon/Evening** | • Relaxing activity (reading, hobby)  <br>• Early dinner (balanced)  <br>• Review any notes from the shift; update personal volunteer log  | Helps transition from volunteer mode to personal downtime, supporting recovery for the next week. |\n| **Saturday Night** | • Wind down (no screens 30 min before bed)  <br>• Bed by 22:30‑23:00 | Consistent sleep schedule keeps your “energy level” stable week over week. |\n\n### How the plan meets the checklist criteria\n- **Shift description & tasks** – You review what a typical Saturday looks like (Q1‑Q2).  \n- **Training & support** – Early check‑in and micro‑breaks give you space to ask on‑the‑spot questions (Q3‑Q4).  \n- **Time commitment & flexibility** – Built‑in travel buffer and set break times keep the schedule predictable (Q2‑Q3).  \n- **Point of contact** – Supervisor is identified at check‑in (Q5) and a fallback contact is noted (Q6).  \n- **Motivation vs. drain** – Regular rest, nutrition, and sleep protect you from burnout (the “energy” focus in the summary).  \n- **Safety & escalation** – Pre‑shift review of safety procedures (Q9‑Q10) and post‑shift debrief secure a clear escalation path.\n\n---\n\n**Quick‑Reference Checklist (keep on the fridge or phone)**  \n\n1. What does a typical Saturday shift look like?  \n2. What tasks am I doing?  \n3. Who trains me & what does training cover?  \n4. When will I feel confident?  \n5. Who do I check in with on arrival?  \n6. Who to ask if something unexpected happens?  \n7. What are my boundaries?  \n8. When to involve staff?  \n9. Which safety procedures must I know?  \n10. What’s the emergency protocol?  \n11. How to communicate schedule changes?  \n12. Anything the centre wishes volunteers asked?  \n\nFollowing this structured Saturday routine, anchored in the volunteer‑role guidance, will help you **arrive on time, stay safe, and keep enough energy for a productive shift every week**.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about community‑center parking permits, pricing trends, or renewal timing that would let me evaluate whether you should pay the $150 fee now or wait. Consequently, I can’t give a data‑driven recommendation on this specific situation."
+  },
+  "build_seconds": 94.6,
+  "total_seconds": 161.3,
+  "usage": {
+    "compile": {
+      "calls": 11,
+      "prompt_tokens": 44689,
+      "completion_tokens": 9889,
+      "cost_usd": 0.004866706
+    },
+    "query": {
+      "calls": 19,
+      "prompt_tokens": 37684,
+      "completion_tokens": 3550,
+      "cost_usd": 0.00166968
+    }
+  }
+}

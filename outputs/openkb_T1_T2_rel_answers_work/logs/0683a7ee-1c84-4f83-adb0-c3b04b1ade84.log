@@ -1,0 +1,193 @@
+=== 2026-10-10 14:34:13 uid=0683a7ee-1c84-4f83-adb0-c3b04b1ade84 ===
+Adding: session-06_2022-06-15.md
+  Compiling short doc...
+    summary... 3.6s (in=2065, out=860, cached=784)
+    concepts-plan...... 6.1s (in=3068, out=752, cached=816)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: transmission... 8.9s (in=2985, out=385, cached=768)
+    concept: big-ticket-repairs... 12.1s (in=2953, out=538, cached=64)
+    concept: early-warning-maintenance... 12.3s (in=2952, out=895, cached=64)
+    concept: ownership-decision-factors... 14.2s (in=2952, out=592, cached=64)
+    entity: engine... 9.0s (in=2985, out=1005, cached=784)
+    entity: hybrid-battery... 8.8s (in=2986, out=393, cached=2816)
+    entity: ev-battery... 12.4s (in=2986, out=700)
+    entity: suspension... 14.6s (in=2985, out=734)
+    entity: air-conditioning-system... 26.0s (in=2987, out=757, cached=64)
+    summary-rewrite....................... 23.1s (in=2983, out=732, cached=64)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 399, in <module>
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 363, in main
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 831, in submit
+    self._start_executor_manager_thread()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 770, in _start_executor_manager_thread
+    self._launch_processes()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 797, in _launch_processes
+    self._spawn_process()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 807, in _spawn_process
+    p.start()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.12/multiprocessing/context.py", line 282, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 232, in _worker
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 204, in run_sample
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 452, in add_single_file
+    return _add_single_file_locked(file_path, kb_dir, stage=stage, bundle=bundle)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 629, in _add_single_file_locked
+    if not run_add_mutation(kb_dir, plan):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/add_coordinator.py", line 103, in run_add_mutation
+    plan.body(snapshot)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 570, in commit_body
+    _run_compile_with_retry(
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 435, in _run_compile_with_retry
+    asyncio.run(coro_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 103, in _process_log_task
+    verbose_logger.exception(f"LoggingWorker error: {e}")
+Message: 'LoggingWorker error: '
+Arguments: None
+  [OK] session-06_2022-06-15.md added to knowledge base.
+Adding: session-33_2024-06-15.md
+  Compiling short doc...
+    summary.............. 14.4s (in=2638, out=1106)
+    concepts-plan...................... 22.1s (in=4073, out=842, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: parallel-parking-routine... 4.5s (in=3855, out=1073, cached=800)
+    entity: parking-sensors... 3.8s (in=3889, out=798, cached=3728)
+    entity: backup-camera... 11.4s (in=3876, out=890)
+    concept: mirror-and-sensor-adjustments... 11.5s (in=3857, out=967)
+    concept: vehicle-assist-features... 13.4s (in=3842, out=1027)
+    entity: passenger-side-mirror... 2.7s (in=3890, out=440)
+    entity: rear-door-handle... 5.4s (in=3890, out=709, cached=784)
+    entity: convex-stick-on-mirror... 10.0s (in=3893, out=1498, cached=784)
+    entity: 360-degree-camera... 14.8s (in=3892, out=838, cached=64)
+    entity: automatic-parking-assist... 13.9s (in=3890, out=706, cached=784)
+Entity generation failed: LLM returned empty content for concept 'passenger-side-mirror'
+    [WARN] 7 entity(ies) planned but only 6 written for session-33_2024-06-15 (ValueError).
+    summary-rewrite........................... 27.4s (in=3886, out=1271, cached=768)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 399, in <module>
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 363, in main
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 831, in submit
+    self._start_executor_manager_thread()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 770, in _start_executor_manager_thread
+    self._launch_processes()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 797, in _launch_processes
+    self._spawn_process()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 807, in _spawn_process
+    p.start()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.12/multiprocessing/context.py", line 282, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 232, in _worker
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 204, in run_sample
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 452, in add_single_file
+    return _add_single_file_locked(file_path, kb_dir, stage=stage, bundle=bundle)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 629, in _add_single_file_locked
+    if not run_add_mutation(kb_dir, plan):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/add_coordinator.py", line 103, in run_add_mutation
+    plan.body(snapshot)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 570, in commit_body
+    _run_compile_with_retry(
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 435, in _run_compile_with_retry
+    asyncio.run(coro_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 103, in _process_log_task
+    verbose_logger.exception(f"LoggingWorker error: {e}")
+Message: 'LoggingWorker error: '
+Arguments: None
+  [OK] session-33_2024-06-15.md added to knowledge base.
+done.

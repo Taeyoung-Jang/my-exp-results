@@ -1,0 +1,32 @@
+{
+  "uid": "fd996967-fd3a-4d26-b577-2615ba048a5c",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    12,
+    39
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the information stored in the wiki, there is no explicit statement that the user now changes residences roughly every three months.  \n\n* The July 2024 session ( [[summaries/session-13_2024-07-15]] ) advises “frequent movers” to use a virtual mailbox or P.O. box so their mailing address stays stable, but it does not specify how often the user moves.  \n* The March 2025 session ( [[summaries/session-40_2025-03-15]] ) provides a checklist for quickly making a new living space feel like home, which again implies a recent move but gives no details about the regularity of those moves.\n\nTherefore, while the user’s pattern of moving frequently and keeping a temporary mailing address is evident, the wiki does not contain a concrete claim that they still switch locations about every three months.",
+    "dim2_response": "**Efficient system for “always‑moving” mail**\n\n1. **Create a permanent mailing hub** – pick a virtual‑mailbox service (e.g., **Traveling Mailbox** or **iPostal1**) and use that address for *all* long‑term correspondence.  \n   *Why:* it decouples your mail from any physical residence and lets you receive a single, stable address regardless of where you are staying. [[concepts/stable‑mail‑address]]  \n\n2. **Authorize the hub** – fill out **USPS Form 1583** so the provider can legally receive and forward your mail. [[entities/usps‑form‑1583]]\n\n3. **Automate address‑change reminders**  \n   * Set a recurring calendar event for **2 months before each move** (your typical 3‑month cycle).  \n   * The event triggers a checklist (see the “mail‑workflow” checklist in the summary) that:  \n     1. Updates the virtual‑mailbox forwarding address (most services let you edit it instantly in their web portal).  \n     2. Sends a templated email to banks, government agencies, subscriptions, and any other senders you track.  \n\n4. **Maintain a single “address register”**  \n   * Keep a small spreadsheet or notes‑app list that logs:  \n     - Institution name  \n     - Current address on file  \n     - Preferred delivery method (forward, pickup, digital scan)  \n     - Renewal/notify‑date (linked to the 2‑month reminder).  \n   * This mirrors the **subscription‑tracking** tip in the guide. [[summaries/session‑13_2024‑07‑15]]\n\n5. **Leverage carrier‑pickup & hold services**  \n   * For time‑sensitive items (e.g., credit‑card replacements) use **UPS stores, FedEx offices, or Amazon lockers** as temporary drop‑off points, then pick them up locally. [[concepts/package‑pickup‑strategy]]  \n\n6. **Use scan‑first forwarding**  \n   * Choose a virtual‑mailbox tier that scans incoming mail within hours.  \n   * Review scans on your phone; forward only the pieces that truly need physical delivery, and do it *immediately* while the forwarding address is still valid.  \n\n7. **Backup “trusted‑person” fallback**  \n   * If a sender refuses a virtual address, have a trusted friend/relative’s physical address saved in the register and give that as the *residential* address while still listing the virtual mailbox as the mailing address.  \n\n8. **Periodic audit** (once per quarter)  \n   * Verify that all forward‑to addresses are current, that scanning quotas haven’t been exceeded, and that any “old” forwarding rules have been cleared.  \n\n**Result:**  \n- One permanent address → no need to chase every new lease.  \n- Calendar‑driven reminders + a single register keep updates on schedule, so forwarding never lapses.  \n- Carrier‑pickup and scan‑first services handle urgent pieces without relying on home delivery.  \n\nAll steps are directly supported by the best‑practice guide for frequent movers in the knowledge base. [[summaries/session‑13_2024‑07‑15]] [[concepts/mail‑workflow]]",
+    "dim3_response": "I’m sorry—I couldn’t find any information in the knowledge base about transit passes, monthly tickets, or related cost‑benefit analyses. Without relevant content to draw on, I can’t provide a reasoned recommendation. If you have specific details or a source document about the transit options, feel free to share it and I’ll be happy to help."
+  },
+  "build_seconds": 95.4,
+  "total_seconds": 131.7,
+  "usage": {
+    "compile": {
+      "calls": 18,
+      "prompt_tokens": 66725,
+      "completion_tokens": 12122,
+      "cost_usd": 0.006703146
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 18283,
+      "completion_tokens": 1914,
+      "cost_usd": 0.0008930100000000001
+    }
+  }
+}

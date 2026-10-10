@@ -1,0 +1,34 @@
+=== 2026-10-10 15:32:23 uid=14897e47-7d90-4cb0-a991-3da0564052e6 ===
+Adding: session-10_2023-06-15.md
+  Compiling short doc...
+    summary........................ 24.3s (in=1803, out=836, cached=64)
+    concepts-plan................. 17.2s (in=2476, out=529, cached=64)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: sponsorship_statement... 3.2s (in=2337, out=415)
+    concept: citizenship_mention... 5.7s (in=2337, out=657, cached=784)
+    concept: resume_header_placement... 8.7s (in=2338, out=961, cached=784)
+    entity: united-states... 12.1s (in=2372, out=621, cached=784)
+    concept: work_authorization_phrasing... 17.6s (in=2340, out=813, cached=784)
+Concept generation failed: LLM returned empty content for concept 'sponsorship_statement'
+    [WARN] 4 concept(s) planned but only 3 written for session-10_2023-06-15 (ValueError).
+    summary-rewrite... 3.7s (in=2369, out=1173, cached=784)
+  [OK] session-10_2023-06-15.md added to knowledge base.
+Adding: session-38_2024-12-13.md
+  Compiling short doc...
+    summary... 3.0s (in=1939, out=872, cached=768)
+    concepts-plan............. 13.2s (in=2971, out=952)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    entity: banks... 2.8s (in=2838, out=705)
+    concept: anti_money_laundering... 6.6s (in=2821, out=792, cached=784)
+    entity: fatca... 4.0s (in=2858, out=466)
+    concept: tax_reporting... 10.8s (in=2817, out=403, cached=768)
+    entity: crs... 12.5s (in=2843, out=872)
+    concept: know_your_customer... 19.8s (in=2818, out=1075, cached=784)
+    entity: w_8ben... 15.4s (in=2870, out=893)
+Entity generation failed: LLM returned empty content for concept 'fatca'
+    [WARN] 4 entity(ies) planned but only 3 written for session-38_2024-12-13 (ValueError).
+    summary-rewrite... 3.5s (in=2849, out=904, cached=784)
+  [OK] session-38_2024-12-13.md added to knowledge base.
+done.

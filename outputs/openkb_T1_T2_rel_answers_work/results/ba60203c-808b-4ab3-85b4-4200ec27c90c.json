@@ -1,0 +1,32 @@
+{
+  "uid": "ba60203c-808b-4ab3-85b4-4200ec27c90c",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    11,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. In the earlier 2020 session the user was addressed as an **undergraduate** (“practical framework for undergraduates…”) suggesting they were then pursuing a bachelor’s degree. By the 2023 session the conversation is focused on **hospital rotations and starter‑kit planning for new clinicians**, which implies the user is now a medical trainee/resident and no longer an undergraduate. Therefore, based on the available conversation history, the user no longer considers themselves to be currently pursuing a bachelor’s degree.",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain information about course‑load planning or study‑schedule strategies for bachelor’s‑degree students, so I can’t provide a customized recommendation based on the compiled wiki content.",
+    "dim3_response": "I’m sorry, but I don’t have any information in the knowledge base that relates to your personal circumstances or to advice about taking on a part‑time evening gig. Without relevant wiki content, I can’t provide a grounded answer."
+  },
+  "build_seconds": 73.9,
+  "total_seconds": 93.6,
+  "usage": {
+    "compile": {
+      "calls": 10,
+      "prompt_tokens": 32191,
+      "completion_tokens": 7760,
+      "cost_usd": 0.003166132
+    },
+    "query": {
+      "calls": 7,
+      "prompt_tokens": 13671,
+      "completion_tokens": 1149,
+      "cost_usd": 0.00061695
+    }
+  }
+}

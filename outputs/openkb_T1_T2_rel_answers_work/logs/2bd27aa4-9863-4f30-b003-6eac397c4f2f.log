@@ -1,0 +1,63 @@
+=== 2026-10-10 15:53:17 uid=2bd27aa4-9863-4f30-b003-6eac397c4f2f ===
+Adding: session-15_2024-06-15.md
+  Compiling short doc...
+    summary........................ 24.5s (in=3896, out=667, cached=64)
+    concepts-plan....... 7.6s (in=4943, out=446)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: minimum-viable-day... 4.5s (in=4822, out=1010, cached=784)
+    concept: weekday-weekend-mode... 7.1s (in=4823, out=938, cached=784)
+    concept: flexible-daily-routine... 11.1s (in=4820, out=2053, cached=66)
+    concept: time-since-waking-scheduling... 24.1s (in=4825, out=1019, cached=64)
+    concept: hard-stop-rule... 21.2s (in=4822, out=642, cached=3872)
+    summary-rewrite........................... 27.7s (in=4852, out=932, cached=3872)
+[92m15:54:42 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-15_2024-06-15.md added to knowledge base.
+Adding: session-34_2025-01-15.md
+  Compiling short doc...
+    summary............. 13.0s (in=3605, out=1177, cached=784)
+    concepts-plan...................... 22.2s (in=4971, out=1132, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: sleep-diary... 4.2s (in=4768, out=607)
+    concept: cpap-metrics... 10.1s (in=4770, out=1077, cached=784)
+    entity: faa... 10.4s (in=4805, out=336, cached=64)
+    concept: sleep-hygiene... 14.2s (in=4756, out=1041)
+    entity: cpap... 13.3s (in=4799, out=967)
+Concept generation failed: LLM returned empty content for concept 'sleep-diary'
+    [WARN] 3 concept(s) planned but only 2 written for session-34_2025-01-15 (ValueError).
+    summary-rewrite.............................. 30.6s (in=4801, out=1297, cached=64)
+[92m15:56:06 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-34_2025-01-15.md added to knowledge base.
+done.

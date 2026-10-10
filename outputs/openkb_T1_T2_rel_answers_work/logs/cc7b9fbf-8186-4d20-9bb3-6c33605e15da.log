@@ -1,0 +1,28 @@
+=== 2026-10-10 14:36:51 uid=cc7b9fbf-8186-4d20-9bb3-6c33605e15da ===
+Adding: session-03_2023-11-13.md
+  Compiling short doc...
+    summary........................... 27.7s (in=2662, out=1016, cached=784)
+    concepts-plan... 4.0s (in=3742, out=735, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: basic-tools... 5.2s (in=3639, out=1262, cached=784)
+    entity: tape-measure... 3.2s (in=3671, out=785, cached=3504)
+    concept: woodworking-safety... 11.2s (in=3638, out=455, cached=768)
+    concept: beginner-woodworking... 11.6s (in=3637, out=989)
+    entity: pine... 18.9s (in=3673, out=632, cached=784)
+    entity: drill-driver... 8.6s (in=3672, out=1175, cached=784)
+    entity: carpenter-square... 4.3s (in=3688, out=807, cached=768)
+    entity: quick-grip-clamp... 12.5s (in=3660, out=941)
+    entity: handsaw... 16.8s (in=3671, out=746, cached=64)
+    entity: sandpaper... 6.6s (in=3671, out=834, cached=3504)
+    entity: pencil... 3.5s (in=3692, out=710, cached=800)
+    summary-rewrite......... 9.8s (in=3668, out=993)
+  [OK] session-03_2023-11-13.md added to knowledge base.
+Adding: session-38_2024-11-13.md
+  Compiling short doc...
+    summary................ 16.6s (in=2065, out=830, cached=784)
+    concepts-plan.. 2.9s (in=3308, out=356)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-38_2024-11-13 — no concept pages generated. See log (stderr) for details.
+  [OK] session-38_2024-11-13.md added to knowledge base.
+done.

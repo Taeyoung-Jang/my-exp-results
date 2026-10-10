@@ -1,0 +1,24 @@
+=== 2026-10-10 14:41:26 uid=aeaa726a-3dd4-42c6-84a2-0dac494d02e5 ===
+Adding: session-15_2024-04-12.md
+  Compiling short doc...
+    summary........ 8.8s (in=1959, out=845, cached=784)
+    concepts-plan.. 2.8s (in=2905, out=93, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: partial-weight-bearing... 4.9s (in=2783, out=939, cached=800)
+    concept: pain-cues... 5.0s (in=2765, out=1181, cached=64)
+    concept: rehab-load-progression... 15.6s (in=2753, out=951)
+    concept: next-day-check... 15.9s (in=2765, out=548, cached=64)
+    concept: overloading-signs... 14.7s (in=2765, out=500, cached=2432)
+    summary-rewrite.... 4.9s (in=2796, out=714, cached=784)
+  [OK] session-15_2024-04-12.md added to knowledge base.
+Adding: session-35_2024-10-10.md
+  Compiling short doc...
+    summary..... 5.6s (in=1936, out=764, cached=784)
+    concepts-plan... 3.2s (in=2961, out=158, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: structured_vs_video_learning... 3.6s (in=2809, out=702)
+    concept: timing_drills... 4.6s (in=2771, out=902, cached=784)
+    concept: tapering_practice... 5.8s (in=2772, out=975, cached=784)
+    summary-rewrite.... 4.2s (in=2802, out=630)
+  [OK] session-35_2024-10-10.md added to knowledge base.
+done.

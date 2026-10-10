@@ -1,0 +1,39 @@
+=== 2026-10-10 14:47:59 uid=cbee5238-3ed8-4535-9eb9-5075aa35ba03 ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary... 3.5s (in=1750, out=830, cached=784)
+    concepts-plan.......... 10.3s (in=2718, out=384, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: foreign-film-experience... 3.1s (in=2578, out=721, cached=768)
+    concept: subtitle-settings... 3.3s (in=2559, out=394)
+    concept: subtitle-distraction... 5.7s (in=2561, out=696, cached=784)
+Concept generation failed: LLM returned empty content for concept 'subtitle-settings'
+    [WARN] 3 concept(s) planned but only 2 written for session-06_2024-06-15 (ValueError).
+    summary-rewrite.......... 10.4s (in=2592, out=663, cached=768)
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-37_2025-02-15.md
+  Compiling short doc...
+    summary........... 11.1s (in=2394, out=1455, cached=784)
+    concepts-plan...... 6.2s (in=3468, out=1287, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 12 entity(ies) (concurrency=4)...
+    entity: netflix... 4.8s (in=3398, out=317, cached=768)
+    entity: max... 11.0s (in=3389, out=749)
+    concept: half-watching... 17.6s (in=3365, out=708)
+    concept: dialogue-enhancement... 19.3s (in=3364, out=916, cached=3232)
+    concept: audio-description... 22.3s (in=3364, out=1101, cached=784)
+    entity: apple-tv-plus... 5.7s (in=3400, out=358, cached=768)
+    entity: arcane... 2.6s (in=3398, out=308)
+    entity: prime-video... 10.9s (in=3399, out=227)
+    entity: reacher... 5.8s (in=3399, out=679, cached=784)
+    entity: vizio-v-series-2-1... 6.5s (in=3406, out=417, cached=3232)
+    entity: ted-lasso... 12.4s (in=3400, out=741, cached=784)
+    entity: the-crown... 19.7s (in=3399, out=704, cached=784)
+    entity: samsung-hw-t400-t450... 7.0s (in=3404, out=453, cached=3232)
+    entity: stranger-things... 28.6s (in=3399, out=1084, cached=64)
+    entity: polk-signa-s2-s3... 10.5s (in=3391, out=867)
+Entity generation failed: LLM returned empty content for concept 'arcane'
+    [WARN] 12 entity(ies) planned but only 11 written for session-37_2025-02-15 (ValueError).
+    summary-rewrite.................. 18.1s (in=3383, out=1406)
+  [OK] session-37_2025-02-15.md added to knowledge base.
+done.

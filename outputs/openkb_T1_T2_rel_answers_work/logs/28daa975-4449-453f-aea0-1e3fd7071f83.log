@@ -1,0 +1,42 @@
+=== 2026-10-10 15:29:46 uid=28daa975-4449-453f-aea0-1e3fd7071f83 ===
+Adding: session-08_2024-10-13.md
+  Compiling short doc...
+    summary............................. 29.1s (in=3234, out=1453, cached=768)
+    concepts-plan.......... 10.9s (in=5055, out=1503, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 13 entity(ies) (concurrency=4)...
+    entity: west-loop... 11.8s (in=5022, out=886)
+    concept: commute-time-estimation... 15.0s (in=4990, out=1342)
+    concept: parking-gotchas-urban-vs-suburban... 15.7s (in=4993, out=1339)
+    entity: fulton-river-district... 4.2s (in=5033, out=1012, cached=768)
+    concept: quiet-rental-neighborhoods... 17.6s (in=4989, out=1334)
+    entity: ukrainian-village... 2.9s (in=5034, out=499)
+    entity: river-west... 8.8s (in=5035, out=552, cached=64)
+    entity: noble-square... 12.9s (in=5022, out=878)
+    entity: oak-park... 14.0s (in=5022, out=1084)
+    entity: blue-line... 3.3s (in=5037, out=466)
+    entity: green-line... 9.0s (in=5038, out=515, cached=768)
+    entity: eisenhower-expressway... 0.6s (in=5042, out=2, cached=768)
+    entity: west-town... 29.9s (in=5035, out=911, cached=64)
+    entity: chicago... 19.4s (in=5034, out=1168, cached=64)
+    entity: forest-park... 31.4s (in=5022, out=1146)
+    entity: kennedy-expressway... 27.5s (in=5043, out=1245, cached=784)
+Entity generation failed: LLM returned empty content for concept 'ukrainian-village'
+Entity generation failed: LLM returned empty content for concept 'blue-line'
+Entity generation failed: LLM returned empty content for concept 'eisenhower-expressway'
+    [WARN] 13 entity(ies) planned but only 10 written for session-08_2024-10-13 (ValueError).
+    summary-rewrite................... 19.7s (in=5032, out=2031, cached=784)
+  [OK] session-08_2024-10-13.md added to knowledge base.
+Adding: session-36_2025-02-13.md
+  Compiling short doc...
+    summary.................... 20.6s (in=2275, out=611, cached=64)
+    concepts-plan......................... 25.3s (in=3582, out=816)
+    Generating 2 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    entity: dmv... 11.8s (in=3254, out=897)
+    concept: low-pressure-communication... 11.8s (in=3232, out=847)
+    entity: rideshare... 12.0s (in=3267, out=678, cached=64)
+    concept: mobility-planning... 16.6s (in=3230, out=1163, cached=2816)
+    summary-rewrite................ 16.0s (in=3262, out=774, cached=64)
+  [OK] session-36_2025-02-13.md added to knowledge base.
+done.

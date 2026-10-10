@@ -1,0 +1,22 @@
+=== 2026-10-10 14:45:43 uid=2006d545-2774-4808-9e79-51411e1e2ab4 ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary... 4.0s (in=2144, out=742, cached=784)
+    concepts-plan......... 9.8s (in=3066, out=424, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: online_privacy... 4.5s (in=2909, out=724, cached=784)
+    concept: secondary_sim_management... 13.5s (in=2897, out=738)
+    concept: two_factor_authentication... 23.1s (in=2911, out=759, cached=64)
+    summary-rewrite.. 2.9s (in=2941, out=1089, cached=768)
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-40_2025-03-14.md
+  Compiling short doc...
+    summary.... 4.9s (in=2098, out=891)
+    concepts-plan................ 16.4s (in=3204, out=651, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: follow_up_communication... 9.1s (in=3030, out=1393, cached=784)
+    concept: networking_etiquette... 13.8s (in=3029, out=898, cached=784)
+    concept: business_card_etiquette... 15.3s (in=3030, out=1307, cached=784)
+    summary-rewrite........ 8.7s (in=3060, out=799, cached=64)
+  [OK] session-40_2025-03-14.md added to knowledge base.
+done.

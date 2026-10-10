@@ -1,0 +1,34 @@
+=== 2026-10-10 15:27:01 uid=309111b3-4d14-46e4-bffd-3841e033a9bf ===
+Adding: session-13_2025-04-24.md
+  Compiling short doc...
+    summary................. 17.3s (in=2065, out=475, cached=64)
+    concepts-plan.... 4.6s (in=2956, out=806, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: merino_wool... 2.5s (in=2853, out=337)
+    concept: temperature_layering_strategy... 3.7s (in=2837, out=806, cached=768)
+    concept: flexible_routine_adjustments... 4.4s (in=2820, out=1041, cached=784)
+    entity: grid_fleece... 2.0s (in=2882, out=605, cached=768)
+    concept: optimal_fabric_choices... 6.2s (in=2819, out=1025, cached=64)
+    entity: windbreaker... 2.1s (in=2881, out=766)
+    entity: synthetic_blend... 7.1s (in=2853, out=343, cached=64)
+    entity: softshell... 6.1s (in=2853, out=744, cached=784)
+Entity generation failed: LLM returned empty content for concept 'merino_wool'
+    [WARN] 5 entity(ies) planned but only 4 written for session-13_2025-04-24 (ValueError).
+    summary-rewrite.. 2.4s (in=2850, out=843, cached=768)
+  [OK] session-13_2025-04-24.md added to knowledge base.
+Adding: session-31_2025-06-05.md
+  Compiling short doc...
+    summary................. 18.0s (in=1864, out=578, cached=768)
+    concepts-plan.... 4.2s (in=2980, out=819, cached=68)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: weekly_checkins... 4.3s (in=2789, out=875)
+    entity: whiteboard... 4.4s (in=2786, out=323, cached=64)
+    concept: rotation_stewardship... 7.7s (in=2753, out=838, cached=784)
+    concept: shared_calendar... 15.4s (in=2738, out=1294)
+    entity: laminated_bed_tag... 14.3s (in=2788, out=937, cached=784)
+    entity: binder... 17.1s (in=2785, out=756, cached=784)
+    summary-rewrite. 2.0s (in=2780, out=714, cached=64)
+  [OK] session-31_2025-06-05.md added to knowledge base.
+done.

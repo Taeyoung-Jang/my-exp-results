@@ -1,0 +1,61 @@
+=== 2026-10-10 15:56:37 uid=3d2e275b-3782-4149-8940-c631b7b9b355 ===
+Adding: session-05_2024-06-15.md
+  Compiling short doc...
+    summary..... 5.2s (in=2506, out=866)
+    concepts-plan......... 9.8s (in=3527, out=460, cached=768)
+    Generating 7 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: translation_selection... 3.4s (in=3466, out=566)
+    concept: reading_plan... 3.5s (in=3466, out=578)
+    concept: balanced_reading... 0.5s (in=3467, out=2, cached=64)
+    concept: checkpoint_evaluation... 14.8s (in=3455, out=839)
+    entity: crime_and_punishment... 3.8s (in=3504, out=908, cached=784)
+    concept: daily_minimum_reading... 18.7s (in=3455, out=916)
+    concept: timeless_classics... 31.7s (in=3468, out=1255, cached=784)
+    entity: rebecca... 12.2s (in=3488, out=873)
+    concept: reading_intentionality... 35.5s (in=3469, out=1014)
+    entity: pride_and_prejudice... 4.0s (in=3508, out=908, cached=3344)
+    entity: the_age_of_innocence... 6.5s (in=3505, out=229, cached=768)
+    entity: jane_eyre... 3.6s (in=3525, out=694, cached=768)
+    entity: michael_katz_translation... 25.6s (in=3496, out=1161)
+    entity: the_count_of Monte   ???  ... 7.4s (in=3508, out=718, cached=800)
+    entity: a_tree_grows_in_brooklyn... 42.3s (in=3506, out=1023, cached=64)
+Concept generation failed: LLM returned empty content for concept 'translation_selection'
+Concept generation failed: LLM returned empty content for concept 'reading_plan'
+Concept generation failed: LLM returned empty content for concept 'balanced_reading'
+    [WARN] 7 concept(s) planned but only 4 written for session-05_2024-06-15 (ValueError).
+    summary-rewrite............... 15.5s (in=3499, out=903, cached=784)
+  [OK] session-05_2024-06-15.md added to knowledge base.
+Adding: session-36_2025-02-12.md
+  Compiling short doc...
+    summary..................... 21.9s (in=2245, out=922, cached=64)
+    concepts-plan............................. 29.0s (in=3634, out=1899)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 15 entity(ies) (concurrency=4)...
+    concept: chunked_listening_schedule... 6.2s (in=3430, out=941)
+    concept: audiobook_habit_formation... 7.8s (in=3431, out=713, cached=64)
+    concept: narrator_impact... 10.2s (in=3430, out=1212, cached=784)
+    concept: main_backup_pairing... 15.2s (in=3432, out=1075, cached=784)
+    entity: the_seven_husbands_of_evelyn_hugo... 8.4s (in=3469, out=881, cached=784)
+    update: daily_minimum_reading... 11.3s (in=3860, out=1260, cached=784)
+    entity: the_martian... 7.6s (in=3465, out=782, cached=784)
+    entity: eleanor_oliphant_is_completely_fine... 2.9s (in=3469, out=734, cached=784)
+    entity: becoming... 2.1s (in=3462, out=372)
+    entity: the_ocean_at_the_end_of_the_lane... 3.5s (in=3470, out=891, cached=784)
+    entity: r_c_bray... 3.1s (in=3467, out=763, cached=784)
+    entity: harry_potter_series... 6.4s (in=3465, out=762, cached=784)
+    entity: lisette_lecat... 3.7s (in=3466, out=635, cached=3296)
+    entity: cathleen_mccarron... 3.5s (in=3467, out=577, cached=3296)
+    entity: trevor_noah... 11.3s (in=3451, out=852)
+    entity: neil_gaiman... 3.3s (in=3465, out=665, cached=3296)
+    entity: michelle_obama... 4.9s (in=3464, out=1047, cached=3296)
+    entity: julia_whelan... 4.2s (in=3466, out=858, cached=3296)
+    entity: stephen_fry... 2.5s (in=3464, out=544, cached=3296)
+    entity: born_a_crime... 19.3s (in=3465, out=1047, cached=64)
+Concept generation failed: LLM returned empty content for concept 'chunked_listening_schedule'
+    [WARN] 5 concept(s) planned but only 4 written for session-36_2025-02-12 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'becoming'
+    [WARN] 15 entity(ies) planned but only 14 written for session-36_2025-02-12 (ValueError).
+    summary-rewrite..... 5.4s (in=3461, out=1504, cached=3296)
+  [OK] session-36_2025-02-12.md added to knowledge base.
+done.

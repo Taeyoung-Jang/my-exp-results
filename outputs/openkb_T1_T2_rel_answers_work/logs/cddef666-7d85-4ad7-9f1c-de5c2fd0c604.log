@@ -1,0 +1,24 @@
+=== 2026-10-10 15:29:18 uid=cddef666-7d85-4ad7-9f1c-de5c2fd0c604 ===
+Adding: session-03_2024-06-15.md
+  Compiling short doc...
+    summary....................... 23.5s (in=3049, out=1073, cached=64)
+    concepts-plan.. 2.1s (in=3806, out=140, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: habit-tracker... 5.2s (in=3667, out=928, cached=768)
+    concept: daily-anchors... 6.2s (in=3650, out=468, cached=768)
+    concept: simple-outdoor-routine... 10.5s (in=3637, out=886)
+    summary-rewrite.................................. 34.3s (in=3681, out=564, cached=768)
+  [OK] session-03_2024-06-15.md added to knowledge base.
+Adding: session-40_2024-12-16.md
+  Compiling short doc...
+    summary.......... 10.4s (in=2611, out=1126, cached=784)
+    concepts-plan.. 2.2s (in=3991, out=138, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: buffers... 4.4s (in=3807, out=747)
+    concept: time-blocking... 5.1s (in=3808, out=833, cached=784)
+    concept: core-vs-trim-first... 14.4s (in=3798, out=1200)
+Concept generation failed: LLM returned empty content for concept 'buffers'
+    [WARN] 3 concept(s) planned but only 2 written for session-40_2024-12-16 (ValueError).
+    summary-rewrite................ 16.7s (in=3827, out=1276)
+  [OK] session-40_2024-12-16.md added to knowledge base.
+done.

@@ -1,0 +1,67 @@
+=== 2026-10-10 15:52:56 uid=e779f96c-fa7b-4e17-b16a-ed36f677205a ===
+Adding: session-02_2024-06-15.md
+  Compiling short doc...
+    summary............... 15.0s (in=2409, out=1053)
+    concepts-plan..... 5.8s (in=3566, out=334, cached=64)
+    Generating 7 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: nicotine-reduction... 10.2s (in=3453, out=605, cached=768)
+    concept: movement-breaks... 4.7s (in=3470, out=979, cached=800)
+    concept: caffeine-timing... 14.9s (in=3453, out=885, cached=3104)
+    concept: energy-management... 15.5s (in=3439, out=1221)
+    concept: alertness-maintenance... 17.3s (in=3440, out=1137)
+    entity: coffee... 9.5s (in=3473, out=671)
+    entity: nicotine... 9.6s (in=3494, out=363, cached=768)
+    concept: over-reduction-signs... 14.0s (in=3454, out=541, cached=64)
+    concept: mid-afternoon-slump... 18.7s (in=3455, out=728)
+Concept generation failed: LLM returned empty content for concept 'mid-afternoon-slump'
+    [WARN] 7 concept(s) planned but only 6 written for session-02_2024-06-15 (ValueError).
+    summary-rewrite............................................................................................................................ 124.4s (in=3484, out=1062)
+[92m15:55:55 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-02_2024-06-15.md added to knowledge base.
+Adding: session-35_2025-02-12.md
+  Compiling short doc...
+    summary..... 5.5s (in=2540, out=1360, cached=800)
+    concepts-plan... 3.7s (in=3728, out=591, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: night-before-preparation... 5.4s (in=3497, out=822)
+    concept: heart-rate-friendly-activities... 9.7s (in=3500, out=747, cached=768)
+    concept: low-stress-morning-routine... 11.5s (in=3499, out=846, cached=768)
+Concept generation failed: LLM returned empty content for concept 'night-before-preparation'
+    [WARN] 3 concept(s) planned but only 2 written for session-35_2025-02-12 (ValueError).
+    summary-rewrite............................................................................. 77.4s (in=3528, out=1113)
+[92m15:57:33 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-35_2025-02-12.md added to knowledge base.
+done.

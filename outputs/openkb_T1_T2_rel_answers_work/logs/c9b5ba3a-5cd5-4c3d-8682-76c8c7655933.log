@@ -1,0 +1,24 @@
+=== 2026-10-10 14:24:31 uid=c9b5ba3a-5cd5-4c3d-8682-76c8c7655933 ===
+Adding: session-14_2025-03-16.md
+  Compiling short doc...
+    summary...................... 22.3s (in=2088, out=756, cached=768)
+    concepts-plan.. 2.7s (in=3274, out=502)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: evening-routine-phases... 5.0s (in=3087, out=670, cached=784)
+    concept: flexible-time-blocking... 7.9s (in=3086, out=967, cached=784)
+    concept: parent-anchor-scheduling... 11.0s (in=3073, out=885)
+    summary-rewrite... 3.3s (in=3114, out=1471, cached=768)
+  [OK] session-14_2025-03-16.md added to knowledge base.
+Adding: session-40_2025-09-13.md
+  Compiling short doc...
+    summary............... 15.9s (in=1974, out=650, cached=64)
+    concepts-plan... 3.3s (in=3063, out=121, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: make-ahead-meal-planning... 6.2s (in=2914, out=1235, cached=784)
+    concept: post-yoga-dinner-ideas... 7.1s (in=2931, out=1344, cached=64)
+    concept: evening-wind-down-routine... 13.1s (in=2901, out=936)
+    concept: pre-yoga-nutrition... 22.4s (in=2913, out=900, cached=784)
+    concept: nighttime-food-avoidance... 16.8s (in=2914, out=1034)
+    summary-rewrite................... 19.2s (in=2943, out=1071, cached=768)
+  [OK] session-40_2025-09-13.md added to knowledge base.
+done.

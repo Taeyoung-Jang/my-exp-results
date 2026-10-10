@@ -1,0 +1,51 @@
+=== 2026-10-10 15:52:12 uid=48707e03-300e-4835-afe4-ae24edb26e18 ===
+Adding: session-13_2023-06-12.md
+  Compiling short doc...
+    summary............ 12.1s (in=2266, out=874)
+    concepts-plan........ 8.4s (in=3264, out=147, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: picture_mode... 4.9s (in=3139, out=1019, cached=784)
+    concept: audio_clarity... 17.1s (in=3129, out=1104)
+    concept: dialogue_enhancement... 20.0s (in=3139, out=999, cached=784)
+    entity: av_receiver... 32.4s (in=3173, out=866, cached=784)
+    entity: coaxial_center... 12.8s (in=3176, out=941, cached=784)
+    entity: soundbar... 28.3s (in=3173, out=984, cached=64)
+    entity: center_speaker... 20.6s (in=3173, out=739, cached=64)
+    entity: mtm_center... 18.6s (in=3175, out=873, cached=64)
+    summary-rewrite..................................... 37.7s (in=3170, out=1274, cached=768)
+[92m15:54:02 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-13_2023-06-12.md added to knowledge base.
+Adding: session-37_2024-06-12.md
+  Compiling short doc...
+    summary............... 15.2s (in=2126, out=1033, cached=784)
+    concepts-plan............. 13.2s (in=3426, out=996)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: hearing_tests... 3.9s (in=3241, out=886)
+    entity: audiologist... 8.5s (in=3240, out=1125, cached=784)
+    concept: assistive_listening_devices... 12.1s (in=3207, out=1091, cached=784)
+    entity: assistive_listening_device... 5.4s (in=3242, out=405, cached=64)
+    entity: quicksin... 13.7s (in=3237, out=1235)
+    entity: hearing_aid... 10.7s (in=3227, out=768)
+    entity: conference_interpreting_roster... 3.5s (in=3244, out=821, cached=784)
+    concept: speech_in_noise_assessment... 23.3s (in=3209, out=951)
+    summary-rewrite................ 16.3s (in=3237, out=1113)
+  [OK] session-37_2024-06-12.md added to knowledge base.
+done.

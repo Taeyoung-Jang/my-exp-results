@@ -1,0 +1,32 @@
+{
+  "uid": "adfaf05e-8cc4-4c99-b08f-0e8f8a415100",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    11,
+    39
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes, the user is still an active member of the National Photography Society.\n\n*Evidence*: The February 2025 session notes do not mention any change in membership, and the earlier June 2024 session explicitly states that the user was a “Member of the National Photography Society”【session-12_2024-06-15】. Since no later conversation records a resignation or loss of membership, it can be inferred that the user remains an active member.",
+    "dim2_response": "**Draft note to the National Photography Society**\n\n```\nSubject: Membership renewal – benefits & upcoming member‑only events\n\nHi [Society Contact/Committee],\n\nI hope you’re well. I’m a current member of the National Photography Society and I’d like to renew my membership for the coming year.\n\nCould you please let me know:\n\n1. What the renewed membership benefits will be (e.g., workshop discounts, equipment rentals, exhibition opportunities)?\n2. When the next member‑only events are scheduled, and how I can register for them.\n\nThank you for your help!\n\nBest regards,\n[Your Name]\n[Member ID or Email, if applicable]\n```",
+    "dim3_response": "I’m afraid the knowledge base doesn’t contain any detailed instructions about how a photo‑expo checkout system validates a “national‑association” membership discount. The only place a membership is mentioned is in the **4‑week photography improvement plan** (see [[summaries/session‑12_2024‑06‑15]]) where it simply notes that the author *“Member of the National Photography Society”* but gives no process for proving that membership at an event checkout.\n\nGiven that, the safest approach is:\n\n1. **Enter the member ID** you have when prompted.  \n2. **Make sure the ID is still active** – many societies invalidate old numbers once a membership expires or renews, so an outdated ID may be rejected.  \n3. **Keep a proof‑of‑membership handy** (a recent receipt, a digital membership card, or a confirmation email) in case the system asks for additional verification.  \n4. **If the checkout rejects the old ID**, contact the expo’s organizer or the national association’s customer‑service line before the registration deadline to confirm whether the old ID can be re‑activated or if a new one is required.\n\nIn short, the wiki doesn’t specify a verification workflow, so the best practice is to use a current, active member ID and be ready to provide supporting documentation if needed. If you only have an old ID, reaching out to the event organizers for clarification is advisable."
+  },
+  "build_seconds": 127.2,
+  "total_seconds": 143.6,
+  "usage": {
+    "compile": {
+      "calls": 17,
+      "prompt_tokens": 55548,
+      "completion_tokens": 13249,
+      "cost_usd": 0.007953031
+    },
+    "query": {
+      "calls": 12,
+      "prompt_tokens": 24400,
+      "completion_tokens": 2169,
+      "cost_usd": 0.0011224199999999998
+    }
+  }
+}

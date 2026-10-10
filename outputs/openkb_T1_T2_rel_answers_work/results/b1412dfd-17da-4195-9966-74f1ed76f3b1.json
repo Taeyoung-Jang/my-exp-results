@@ -1,0 +1,32 @@
+{
+  "uid": "b1412dfd-17da-4195-9966-74f1ed76f3b1",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    3,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the earlier session from 2024‑06‑16 the user described a “small, experienced crew” that had been working together for years and could coordinate coverage silently through shared role‑ownership, definition‑of‑done checklists and a simple hand‑off signal. No later conversation (e.g., the February 2025 session about personal anchor routines) mentions any change to that team, so the history still indicates the user is working with the same long‑standing crew.  \n\n*Source:* [[summaries/session-04_2024-06-16]] – “Provide practical, low‑overhead methods for a small, experienced crew…”.",
+    "dim2_response": "**Quick, low‑friction shift‑coverage plan**\n\n1. **Create a “Shift Board” on the team’s existing Trello board**  \n   * Add a new list for each daily shift (e.g., Morning, Midday, Evening, Night).  \n   * For each list, create a single card titled **“Shift X Coverage”**.  \n\n2. **Populate the cards with a lightweight role map**  \n   * In the card description paste a one‑sentence *role‑ownership* map that shows who the primary owner is for each functional area (e.g., *“· Alice – Ops, Bob – Tech, Cara – Logistics”*).  \n   * This uses the **Visible Role Ownership** pattern described in [[concepts/role-ownership]] and the quick‑chat mapping step from the session‑04 guidance.  \n\n3. **Assign the shift owners directly on the card**  \n   * Use Trello’s **members** field to tag the person(s) covering that shift.  \n   * Because the crew already knows who does what, you only need to note *who is on‑call* for the specific time block – no extra documentation.\n\n4. **Define a one‑sentence “Definition of Done” for the shift hand‑off**  \n   * Example: *“All pending tickets are updated, key metrics posted, and any blockers noted.”*  \n   * This follows the **Definition of Done** concept from the same session and keeps the hand‑off criteria explicit.  \n\n5. **Standardize the hand‑off signal**  \n   * When a shift ends, the outgoing owner **moves the card to the next shift list** *and* tags the incoming owner.  \n   * Immediately post the templated Slack message (see the “Slack Handoff Message” template) to the designated channel:  \n\n   ```\n   [Shift X] completed – card moved, notes updated, link: <card‑link>\n   ```  \n\n   * This implements the **hand‑off signal** described in [[concepts/handoff-signal]].  \n\n6. **Add a “Backup” note for unexpected gaps**  \n   * In each shift card include a short line: *“If the primary owner is unavailable, secondary: [Name]”*.  \n   * This is the “backup language” mentioned in the session summary, giving a fallback without extra meetings.  \n\n7. **Weekly 10‑minute stand‑up (optional)**  \n   * Use the stand‑up only to surface blockers or adjust the role map for the coming week.  \n   * Because the map is visible on the board, most issues will be caught automatically.  \n\n**Why this works**\n\n* **Visibility** – All crew see who is covering each shift directly on the board they already use (Trello).  \n* **Minimal overhead** – No separate schedule document; the shift info lives where the work lives.  \n* **Consistent hand‑off** – Moving the card + tagging + a single Slack line give an unambiguous cue, eliminating the need for verbal confirmations.  \n* **Fast fallback** – The backup line provides an immediate alternative when the normal tacit flow is broken, keeping coverage continuous.  \n\nBy layering a simple shift list on top of the existing Trello workflow and using the same **role‑ownership**, **definition‑of‑done**, and **hand‑off signal** patterns already proven in the team’s process, you get a clear, low‑maintenance schedule for this week with virtually no extra meetings.",
+    "dim3_response": "You don’t have to rely on a “magical” automatic run‑through of the opening checklist – the system we built assumes that someone will step in when the normal flow is interrupted. In the session‑04 guidance we introduced a **backup protocol** that is meant to be used exactly for situations like an unexpected dentist appointment (see the “Backup Language” note in the summary).  \n\n**What to do**\n\n1. **Send the standard hand‑off signal** – e.g., post the brief Slack message you already use for hand‑offs (`[Task name] is ready for you …`) and tag a teammate who can cover the opening checklist. This lets the next owner know the card has been moved and the work is waiting. [[concepts/handoff-signal]]\n\n2. **Assign a backup owner** – if you have a visible role‑ownership board (Trello, etc.), make sure the person who normally owns the “morning opening” step is aware that you’ll be a bit late and can start the checklist in your stead. [[concepts/role-ownership]]\n\n3. **If you can’t reach anyone immediately**, the backup language in the hand‑off template automatically triggers the “fallback” flow: the checklist stays on the board, and whoever notices the missing hand‑off can claim it. This is exactly the purpose of the minimal backup protocol we described. [[concepts/definition-of-done]]\n\n**Bottom line**\n\nYes, you should at least send the quick Slack/Trello hand‑off notice so a teammate can take the opening checklist over while you’re out. The checklist won’t run itself; it depends on someone seeing the signal and stepping in, which is what the backup protocol is designed to handle. This keeps the process lightweight, visible, and prevents any gap in the morning routine."
+  },
+  "build_seconds": 112.0,
+  "total_seconds": 149.3,
+  "usage": {
+    "compile": {
+      "calls": 16,
+      "prompt_tokens": 56132,
+      "completion_tokens": 12866,
+      "cost_usd": 0.005629720999999999
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 24644,
+      "completion_tokens": 2921,
+      "cost_usd": 0.0012651
+    }
+  }
+}

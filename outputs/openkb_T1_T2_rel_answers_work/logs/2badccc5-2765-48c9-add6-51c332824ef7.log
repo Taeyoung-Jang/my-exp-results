@@ -1,0 +1,30 @@
+=== 2026-10-10 14:34:05 uid=2badccc5-2765-48c9-add6-51c332824ef7 ===
+Adding: session-03_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.2s (in=2545, out=436, cached=768)
+    concepts-plan... 3.9s (in=3374, out=149, cached=2528)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: keep-vs-replace-decision... 5.3s (in=3269, out=932, cached=768)
+    entity: toyota-camry... 3.3s (in=3285, out=782, cached=784)
+    concept: vehicle-depreciation... 8.6s (in=3251, out=990, cached=784)
+    concept: two-year-cost-framework... 9.5s (in=3252, out=1181, cached=800)
+    entity: accord-replacement-range... 4.7s (in=3285, out=761, cached=784)
+    entity: honda-accord-2016... 14.1s (in=3274, out=956)
+    summary-rewrite.. 2.7s (in=3281, out=665, cached=3120)
+  [OK] session-03_2024-06-15.md added to knowledge base.
+Adding: session-33_2025-02-15.md
+  Compiling short doc...
+    summary............... 15.5s (in=2164, out=698, cached=768)
+    concepts-plan.................... 20.1s (in=3397, out=883, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: compact-car-storage... 5.1s (in=3198, out=952, cached=800)
+    concept: odor-control-in-vehicles... 7.4s (in=3200, out=1198, cached=768)
+    entity: trunkcratepro... 4.7s (in=3235, out=752, cached=3040)
+    entity: drive-auto... 10.8s (in=3215, out=853, cached=784)
+    concept: daily-car-maintenance-habits... 17.0s (in=3183, out=1357)
+    entity: l-l-bean... 16.7s (in=3216, out=758, cached=64)
+    summary-rewrite......... 9.0s (in=3212, out=913, cached=784)
+  [OK] session-33_2025-02-15.md added to knowledge base.
+done.

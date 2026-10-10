@@ -1,0 +1,32 @@
+{
+  "uid": "ed2ab471-f1e7-4f43-8d7f-c41c6f25d0a5",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    0,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the conversation history, the user was **advised to use a locked display case** to protect their vintage, multicultural ceramics collection — the guidance in the 2024‑06‑15 session explicitly recommends “a locked display case for vintage ceramics” as part of the living‑room focal point 【3†L1-L4】.  \n\nThere are no later sessions that mention removing or changing the case, so the only information we have is that the user was planning to keep (or already had) a locked case.  \n\n**Therefore, the knowledge base indicates the user still keeps a locked display case to protect their vintage ceramics.**",
+    "dim2_response": "**Organizing the locked ceramic case**\n\n1. **Create visual “zones”** – group pieces by a single theme (e.g., era, style, color palette, or function). Keep each zone on a separate shelf or tier so the eye can travel across the case without crowding. Leave a thin margin (≈2–3 in) around every piece; this “breathing room” lets each item stand out and prevents the display from feeling dense. [[concepts/display_placement]]\n\n2. **Use consistent heights** – line up items of similar height on the same level; vary height only between zones to add rhythm and guide the viewer’s gaze upward. A low‑profile, removable riser (e.g., a thin acrylic stand) works well for smaller pieces.\n\n3. **Add subtle lighting** – install a soft, directed LED strip or puck light just above the case interior. Warm white (≈2700 K) highlights glaze tones without harsh glare and signals that the contents are valued. [[concepts/lighting_design]]\n\n**Labeling for guests**\n\n1. **Single engraved plaque** – place a small metal plate (≈business‑card size) on the lower corner of the case frame. Choose a brushed‑brass or matte‑black finish for understated elegance; this location is visible without detracting from the ceramics. [[summaries/session-01_2024-06-15]]\n\n2. **Wording** – keep the message brief, warm, and polite. Good examples are:  \n   - “Display only — thank you for caring for them with me.”  \n   - “Please admire only; these pieces are not for handling.”  \n\n   The tone can be gentle, lightly humorous, or politely direct; pick the one that matches your home’s personality. [[concepts/signage_etiquette]]\n\n3. **Individual piece tags (optional)** – if you want more detail, attach tiny, removable vellum cards or clear acrylic tags to the shelf edge (not the ceramics). Write a one‑line label (e.g., “Ming dynasty bowl, 15th c.”). Keep the font simple (serif or clean sans‑serif) and the text size small enough not to dominate the visual field.\n\n**Putting it together**\n\n- **Step 1:** Lay out the zones, adjust shelf heights, and ensure each piece has surrounding space.  \n- **Step 2:** Install the soft interior lighting to illuminate the zones evenly.  \n- **Step 3:** Mount the engraved plaque in the lower corner with the chosen wording.  \n- **Optional Step 4:** Add discreet vellum or acrylic tags for pieces you’d like to identify individually.\n\nThis arrangement protects your vintage ceramics, makes the case an inviting focal point, and provides guests with clear, courteous guidance on how to appreciate the collection.",
+    "dim3_response": "I’m sorry, but the knowledge base you provided does not contain any information about homeowner’s insurance policies, riders, or related coverage decisions. Consequently, I can’t give a specific recommendation on whether to approve the suggested $250 rider for the locked glass cabinet. You may want to consult your insurance agent directly or seek advice from a qualified insurance professional who can evaluate the value of the items you’re protecting and the terms of your policy."
+  },
+  "build_seconds": 84.2,
+  "total_seconds": 102.3,
+  "usage": {
+    "compile": {
+      "calls": 12,
+      "prompt_tokens": 28895,
+      "completion_tokens": 7781,
+      "cost_usd": 0.0025507320000000004
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 16773,
+      "completion_tokens": 1907,
+      "cost_usd": 0.0008464499999999999
+    }
+  }
+}

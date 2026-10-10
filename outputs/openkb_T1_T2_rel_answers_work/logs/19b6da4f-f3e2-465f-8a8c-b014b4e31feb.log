@@ -1,0 +1,119 @@
+=== 2026-10-10 14:37:42 uid=19b6da4f-f3e2-465f-8a8c-b014b4e31feb ===
+Adding: session-09_2024-06-15.md
+  Compiling short doc...
+    summary....... 7.5s (in=2447, out=1072, cached=784)
+    concepts-plan........... 11.7s (in=3669, out=960)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    entity: olive_oil... 3.0s (in=3598, out=687, cached=784)
+    concept: pantry_management... 4.7s (in=3562, out=655)
+    concept: eating_out_vs_home_cooking... 9.4s (in=3567, out=503)
+    entity: soy_sauce... 7.1s (in=3598, out=934, cached=784)
+    entity: dry_pasta... 14.0s (in=3585, out=985)
+    entity: instant_ramen... 14.9s (in=3599, out=1154)
+    concept: low_effort_meals... 23.4s (in=3566, out=732, cached=64)
+    entity: miso_paste... 10.5s (in=3586, out=636)
+    entity: chicken_thighs... 15.4s (in=3600, out=641, cached=64)
+    entity: tofu... 22.3s (in=3598, out=554, cached=64)
+Concept generation failed: LLM returned empty content for concept 'pantry_management'
+    [WARN] 3 concept(s) planned but only 2 written for session-09_2024-06-15 (ValueError).
+    summary-rewrite... 3.7s (in=3595, out=1500)
+  [OK] session-09_2024-06-15.md added to knowledge base.
+Adding: session-31_2025-02-12.md
+  Compiling short doc...
+    summary........................ 24.6s (in=2498, out=1013, cached=784)
+    concepts-plan........................................ 40.1s (in=3867, out=1581, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    concept: takeout_enhancement... 5.3s (in=3654, out=1198, cached=66)
+    entity: kewpie_mayo... 10.8s (in=3691, out=371, cached=64)
+    concept: chefs_pantry... 19.2s (in=3655, out=748, cached=768)
+    update: low_effort_meals... 26.5s (in=4386, out=999, cached=64)
+    entity: soom_tahini... 16.6s (in=3678, out=1164)
+    entity: marukan_yuzu_ponzu... 22.3s (in=3693, out=1010, cached=64)
+    entity: brightland_olive_oil... 10.6s (in=3691, out=371, cached=768)
+    entity: mizkan_seasoned_rice_vinegar... 3.8s (in=3694, out=854, cached=784)
+    entity: ricks_picks_phat_beets... 5.8s (in=3696, out=862, cached=784)
+    entity: bubbies_sauerkraut... 13.6s (in=3693, out=920, cached=784)
+    entity: trader_joes_frozen_jasmine_rice... 19.7s (in=3680, out=1099)
+    entity: stonefire_frozen_mini_naan... 19.0s (in=3680, out=1172)
+    summary-rewrite.................................. 34.6s (in=3686, out=1285, cached=768)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 399, in <module>
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 363, in main
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 831, in submit
+    self._start_executor_manager_thread()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 770, in _start_executor_manager_thread
+    self._launch_processes()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 797, in _launch_processes
+    self._spawn_process()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 807, in _spawn_process
+    p.start()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.12/multiprocessing/context.py", line 282, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 232, in _worker
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 204, in run_sample
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 452, in add_single_file
+    return _add_single_file_locked(file_path, kb_dir, stage=stage, bundle=bundle)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 629, in _add_single_file_locked
+    if not run_add_mutation(kb_dir, plan):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/add_coordinator.py", line 103, in run_add_mutation
+    plan.body(snapshot)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 570, in commit_body
+    _run_compile_with_retry(
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 435, in _run_compile_with_retry
+    asyncio.run(coro_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 103, in _process_log_task
+    verbose_logger.exception(f"LoggingWorker error: {e}")
+Message: 'LoggingWorker error: '
+Arguments: None
+  [OK] session-31_2025-02-12.md added to knowledge base.
+done.

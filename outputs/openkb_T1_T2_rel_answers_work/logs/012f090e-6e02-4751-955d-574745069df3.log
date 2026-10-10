@@ -1,0 +1,27 @@
+=== 2026-10-10 15:42:55 uid=012f090e-6e02-4751-955d-574745069df3 ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary...... 6.3s (in=1991, out=1477, cached=768)
+    concepts-plan..... 5.9s (in=2710, out=567, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: long_term_investing... 2.4s (in=2554, out=752, cached=768)
+    concept: asset_allocation... 3.8s (in=2553, out=721, cached=768)
+    concept: emergency_fund... 6.9s (in=2553, out=1729, cached=768)
+    summary-rewrite.. 2.2s (in=2557, out=468, cached=768)
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-34_2025-02-13.md
+  Compiling short doc...
+    summary......... 9.3s (in=2634, out=999, cached=784)
+    concepts-plan.............. 14.8s (in=3811, out=1083, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: underwriting_triggers... 4.0s (in=3671, out=880, cached=768)
+    entity: lender... 10.8s (in=3687, out=917, cached=784)
+    concept: closing_process... 11.5s (in=3652, out=1135, cached=784)
+    entity: title_company... 8.2s (in=3687, out=354, cached=768)
+    entity: brokerage... 6.4s (in=3686, out=452, cached=64)
+    entity: loan_officer... 9.2s (in=3687, out=666, cached=784)
+    concept: liquid_funds... 23.9s (in=3652, out=1006, cached=784)
+    summary-rewrite......... 9.1s (in=3684, out=913, cached=784)
+  [OK] session-34_2025-02-13.md added to knowledge base.
+done.

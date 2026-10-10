@@ -1,0 +1,30 @@
+=== 2026-10-10 15:54:25 uid=3faa99df-d5af-4297-be60-c0faf1ec1df5 ===
+Adding: session-14_2024-06-15.md
+  Compiling short doc...
+    summary............ 12.2s (in=3478, out=939)
+    concepts-plan................ 16.9s (in=4517, out=1238)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: universal-red-flags... 4.8s (in=4415, out=912, cached=784)
+    concept: triage-categories... 10.6s (in=4415, out=1139, cached=784)
+    entity: covid-19... 13.5s (in=4450, out=729, cached=64)
+    entity: streptococcal-pharyngitis... 4.7s (in=4461, out=741, cached=784)
+    concept: symptom-duration-thresholds... 16.5s (in=4417, out=1040, cached=784)
+    entity: emergency-room... 3.9s (in=4452, out=674, cached=816)
+    entity: urgent-care... 3.1s (in=4449, out=395)
+    entity: influenza... 14.1s (in=4440, out=1035)
+Entity generation failed: LLM returned empty content for concept 'urgent-care'
+    [WARN] 5 entity(ies) planned but only 4 written for session-14_2024-06-15 (ValueError).
+    summary-rewrite.............. 14.1s (in=4443, out=1076, cached=64)
+  [OK] session-14_2024-06-15.md added to knowledge base.
+Adding: session-32_2025-02-15.md
+  Compiling short doc...
+    summary....... 7.5s (in=2066, out=505, cached=64)
+    concepts-plan................. 17.1s (in=3119, out=621)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: pocket-notebook-workflow... 7.3s (in=2890, out=730, cached=784)
+    concept: end-of-day-scan... 7.4s (in=2893, out=493, cached=2048)
+    concept: low-friction-organization... 8.0s (in=2892, out=795, cached=784)
+    summary-rewrite........ 8.0s (in=2921, out=607, cached=784)
+  [OK] session-32_2025-02-15.md added to knowledge base.
+done.

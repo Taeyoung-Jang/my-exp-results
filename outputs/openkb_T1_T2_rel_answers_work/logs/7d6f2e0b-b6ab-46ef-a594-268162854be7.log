@@ -1,0 +1,31 @@
+=== 2026-10-10 14:24:06 uid=7d6f2e0b-b6ab-46ef-a594-268162854be7 ===
+Adding: session-08_2023-06-13.md
+  Compiling short doc...
+    summary.... 4.4s (in=1794, out=866, cached=784)
+    concepts-plan............... 15.2s (in=2825, out=708, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: communal-practice... 4.1s (in=2677, out=836, cached=64)
+    entity: anglican... 6.1s (in=2714, out=759, cached=64)
+    concept: reflective-practice... 11.4s (in=2677, out=709, cached=2368)
+    concept: habit-anchoring... 17.0s (in=2677, out=817)
+    summary-rewrite................... 19.4s (in=2708, out=828, cached=768)
+  [OK] session-08_2023-06-13.md added to knowledge base.
+Adding: session-34_2024-06-13.md
+  Compiling short doc...
+    summary.............................. 30.3s (in=3280, out=1170, cached=64)
+    concepts-plan..................... 21.6s (in=4367, out=1063, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: spiritual-routine... 3.5s (in=4217, out=1005, cached=64)
+    entity: catholic-church... 4.7s (in=4242, out=895)
+    concept: workout-swapping... 7.7s (in=4221, out=781, cached=784)
+    entity: parish... 6.0s (in=4282, out=1159, cached=768)
+    concept: flexible-schedule... 10.7s (in=4220, out=565, cached=64)
+    entity: benediction... 2.5s (in=4283, out=771, cached=1280)
+    entity: holy-hour... 4.4s (in=4283, out=1212, cached=768)
+    entity: sunday-mass... 11.8s (in=4255, out=698, cached=784)
+    entity: weekday-mass... 16.4s (in=4256, out=850)
+    summary-rewrite.. 2.8s (in=4252, out=1106)
+  [OK] session-34_2024-06-13.md added to knowledge base.
+done.

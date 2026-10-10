@@ -1,0 +1,36 @@
+=== 2026-10-10 15:43:17 uid=f694e016-df83-4ffa-bc6e-77b51ab2af18 ===
+Adding: session-01_2023-06-15.md
+  Compiling short doc...
+    summary.......... 10.5s (in=1867, out=803)
+    concepts-plan...... 6.6s (in=2842, out=643)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: quick_checklist... 9.6s (in=2697, out=827)
+    concept: shelf_placement_rules... 11.4s (in=2708, out=509)
+    concept: buffer_zone... 13.3s (in=2707, out=895, cached=784)
+    entity: ghana... 13.9s (in=2741, out=541, cached=784)
+    entity: led... 5.7s (in=2748, out=271, cached=768)
+    summary-rewrite..... 5.8s (in=2738, out=957)
+  [OK] session-01_2023-06-15.md added to knowledge base.
+Adding: session-32_2024-12-16.md
+  Compiling short doc...
+    summary..... 5.5s (in=5129, out=889, cached=768)
+    concepts-plan.... 4.4s (in=6216, out=971, cached=789)
+    Generating 8 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: room_based_planning... 3.6s (in=6057, out=680)
+    concept: time_budgeting... 9.0s (in=6060, out=940, cached=784)
+    concept: admin_weeks... 10.2s (in=6056, out=1053, cached=5936)
+    concept: downsizing_schedule... 12.7s (in=6057, out=885, cached=768)
+    concept: tracking_template... 5.7s (in=6084, out=1575, cached=768)
+    entity: tokyo... 4.3s (in=6118, out=864, cached=768)
+    entity: japan... 4.5s (in=6118, out=699, cached=768)
+    concept: sentimental_decluttering... 11.0s (in=6058, out=1040, cached=784)
+    concept: review_routine... 15.8s (in=6056, out=970, cached=784)
+    concept: catch_up_weeks... 23.0s (in=6058, out=875)
+    entity: google_sheets... 4.3s (in=6119, out=790, cached=768)
+Concept generation failed: LLM returned empty content for concept 'room_based_planning'
+    [WARN] 8 concept(s) planned but only 7 written for session-32_2024-12-16 (ValueError).
+    summary-rewrite.... 4.2s (in=6088, out=1106, cached=768)
+  [OK] session-32_2024-12-16.md added to knowledge base.
+done.

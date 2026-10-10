@@ -1,0 +1,54 @@
+=== 2026-10-10 15:27:01 uid=fb5ebe60-626d-48e0-86d6-3640db53d3b4 ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary................................ 32.1s (in=2299, out=1501, cached=64)
+    concepts-plan.............. 14.8s (in=3508, out=839, cached=64)
+    Generating 9 concept(s) (concurrency=4)...
+    Generating 17 entity(ies) (concurrency=4)...
+    concept: transit... 5.7s (in=3486, out=1089)
+    concept: third_place... 0.5s (in=3500, out=2, cached=768)
+    concept: social_routine... 6.2s (in=3499, out=537)
+    concept: walkability... 8.2s (in=3500, out=838, cached=784)
+    concept: car_light_living... 4.3s (in=3502, out=1035, cached=784)
+    concept: weather... 13.3s (in=3486, out=1006)
+    concept: city_suitability... 11.7s (in=3488, out=1163)
+    entity: copenhagen... 5.6s (in=3534, out=370, cached=3360)
+    concept: initial_integration_strategy... 12.3s (in=3501, out=815, cached=768)
+    entity: vancouver... 2.9s (in=3533, out=452)
+    entity: amsterdam... 6.8s (in=3534, out=1025, cached=784)
+    entity: seattle... 3.2s (in=3570, out=755)
+    entity: portland... 6.3s (in=3534, out=440, cached=768)
+    entity: norrebro... 4.1s (in=3536, out=1004, cached=3376)
+    entity: vesterbro... 6.1s (in=3536, out=278, cached=64)
+    concept: weeknight_activities... 21.2s (in=3488, out=1985)
+    entity: de_pijp... 6.4s (in=3523, out=1012)
+    entity: yaletown... 4.7s (in=3536, out=907, cached=784)
+    entity: oud_west... 8.3s (in=3536, out=1421, cached=64)
+    entity: mount_pleasant... 6.3s (in=3535, out=551)
+    entity: eastern_docklands... 8.7s (in=3523, out=652)
+    entity: west_end... 3.5s (in=3535, out=680, cached=3376)
+    entity: inner_southeast_portland... 4.7s (in=3539, out=765, cached=784)
+    entity: coffee_and_coconuts... 5.8s (in=3538, out=305, cached=3360)
+    entity: pearl_district... 11.0s (in=3535, out=699)
+    entity: mississippi_albina... 13.4s (in=3524, out=1262)
+Concept generation failed: LLM returned empty content for concept 'social_routine'
+Concept generation failed: LLM returned empty content for concept 'third_place'
+    [WARN] 9 concept(s) planned but only 7 written for session-06_2024-06-15 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'vancouver'
+    [WARN] 17 entity(ies) planned but only 16 written for session-06_2024-06-15 (ValueError).
+    summary-rewrite...... 6.8s (in=3532, out=1139, cached=784)
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-37_2025-02-15.md
+  Compiling short doc...
+    summary.............. 14.1s (in=2484, out=818, cached=768)
+    concepts-plan... 3.1s (in=4266, out=722, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: address_update_requirements... 4.9s (in=3722, out=1096, cached=768)
+    concept: moving_checklist... 5.0s (in=3704, out=1153, cached=69)
+    concept: vehicle_documentation... 11.6s (in=3691, out=1072)
+    entity: usps... 13.4s (in=3729, out=1308)
+    entity: department_of_motor_vehicles... 17.7s (in=3741, out=1117)
+    summary-rewrite.... 4.5s (in=3735, out=977)
+  [OK] session-37_2025-02-15.md added to knowledge base.
+done.

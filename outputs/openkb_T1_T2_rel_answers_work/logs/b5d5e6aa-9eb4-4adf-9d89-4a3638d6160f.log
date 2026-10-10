@@ -1,0 +1,26 @@
+=== 2026-10-10 15:49:01 uid=b5d5e6aa-9eb4-4adf-9d89-4a3638d6160f ===
+Adding: session-11_2025-06-15.md
+  Compiling short doc...
+    summary............. 13.3s (in=2487, out=1199, cached=784)
+    concepts-plan.... 4.9s (in=3555, out=774, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: ninja... 3.2s (in=3457, out=780, cached=784)
+    concept: brand-specific-issues... 3.6s (in=3420, out=890, cached=3280)
+    entity: vitamix... 2.7s (in=3456, out=637, cached=768)
+    concept: review-red-flags... 6.5s (in=3419, out=1054, cached=784)
+    entity: blendtec... 3.4s (in=3475, out=743, cached=768)
+    concept: blender-evaluation-criteria... 10.5s (in=3419, out=570, cached=64)
+    summary-rewrite............... 15.6s (in=3437, out=971)
+  [OK] session-11_2025-06-15.md added to knowledge base.
+Adding: session-35_2025-08-15.md
+  Compiling short doc...
+    summary............................. 29.6s (in=1985, out=873, cached=784)
+    concepts-plan.................. 18.8s (in=3173, out=520, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: steelmanning... 13.4s (in=2948, out=524, cached=64)
+    concept: mental-pause-ritual... 17.2s (in=2948, out=902, cached=64)
+    concept: charitable-framing... 30.9s (in=2949, out=1068, cached=48)
+    summary-rewrite...... 6.5s (in=2978, out=976, cached=68)
+  [OK] session-35_2025-08-15.md added to knowledge base.
+done.

@@ -1,0 +1,58 @@
+=== 2026-10-10 15:39:29 uid=468132d0-0bfc-4d1d-ad65-9fb2c86d24e9 ===
+Adding: session-14_2024-06-15.md
+  Compiling short doc...
+    summary...... 6.6s (in=3546, out=1439, cached=64)
+    concepts-plan........... 11.9s (in=5089, out=549, cached=768)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 10 entity(ies) (concurrency=4)...
+    concept: weekday-scheduling... 4.6s (in=5015, out=1081, cached=784)
+    concept: chore-planning... 6.9s (in=5043, out=1805, cached=768)
+    entity: frozen-dumplings... 3.3s (in=5078, out=779, cached=768)
+    concept: exercise-timing... 11.8s (in=5001, out=894)
+    entity: instant-rice... 9.2s (in=5049, out=359, cached=768)
+    entity: frozen-ravioli... 4.1s (in=5078, out=947, cached=768)
+    concept: pantry-meals... 16.3s (in=5014, out=1576, cached=784)
+    entity: canned-lentils... 3.8s (in=5079, out=560, cached=768)
+    entity: canned-beans... 6.3s (in=5078, out=969, cached=2304)
+    entity: jarred-pasta-sauce... 5.0s (in=5079, out=815, cached=768)
+    entity: frozen-vegetables... 3.3s (in=5078, out=827, cached=768)
+    entity: frozen-bread... 2.1s (in=5077, out=790, cached=4864)
+    entity: basic-seasonings... 4.2s (in=5078, out=976, cached=768)
+    entity: canned-soup... 6.0s (in=5078, out=866, cached=768)
+    summary-rewrite....... 7.4s (in=5046, out=2096, cached=768)
+  [OK] session-14_2024-06-15.md added to knowledge base.
+Adding: session-37_2024-12-15.md
+  Compiling short doc...
+    summary............ 12.8s (in=2293, out=703, cached=784)
+    concepts-plan......... 9.0s (in=3535, out=857)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: caffeine-cutoff... 3.1s (in=3187, out=520)
+    entity: bright-light-box... 6.5s (in=3221, out=1017, cached=784)
+    entity: blackout-curtains... 9.6s (in=3221, out=717)
+    concept: light-exposure... 16.9s (in=3188, out=587, cached=768)
+    concept: gradual-sleep-shift... 18.2s (in=3187, out=1100, cached=784)
+    entity: sleep-mask... 18.2s (in=3220, out=682, cached=784)
+    entity: sunglasses... 14.1s (in=3220, out=836, cached=64)
+Concept generation failed: LLM returned empty content for concept 'caffeine-cutoff'
+    [WARN] 3 concept(s) planned but only 2 written for session-37_2024-12-15 (ValueError).
+    summary-rewrite........................................................ 56.9s (in=3217, out=878, cached=768)
+[92m15:42:04 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-37_2024-12-15.md added to knowledge base.
+done.

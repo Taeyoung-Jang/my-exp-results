@@ -1,0 +1,22 @@
+=== 2026-10-10 14:18:55 uid=2eaf2b38-9b67-4763-a2f0-4011d8baa26c ===
+Adding: session-15_2024-07-12.md
+  Compiling short doc...
+    summary.................... 20.6s (in=2520, out=874, cached=64)
+    concepts-plan... 3.3s (in=3533, out=364)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-15_2024-07-12 — no concept pages generated. See log (stderr) for details.
+  [OK] session-15_2024-07-12.md added to knowledge base.
+Adding: session-32_2025-03-11.md
+  Compiling short doc...
+    summary..... 5.3s (in=1875, out=900, cached=768)
+    concepts-plan.. 2.5s (in=2780, out=535, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: indoor_humidity... 3.7s (in=2654, out=650, cached=784)
+    concept: humidifier_placement... 7.6s (in=2657, out=574, cached=64)
+    entity: humidifier... 9.8s (in=2675, out=693)
+    entity: hygrometer... 8.4s (in=2687, out=822, cached=64)
+    concept: seasonal_comfort... 17.7s (in=2652, out=735, cached=784)
+    summary-rewrite..... 5.7s (in=2684, out=748, cached=784)
+  [OK] session-32_2025-03-11.md added to knowledge base.
+done.

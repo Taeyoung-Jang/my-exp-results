@@ -1,0 +1,32 @@
+{
+  "uid": "1a85388f-50de-4195-b4a5-6e2b8f383023",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    0,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the June 15 2024 conversation ( [[summaries/session-01_2024-06-15]] ), the user asked for draft announcements specifically stating that they “will be primarily based at the office during weekdays.” No later interactions suggest a change to that arrangement, so the history indicates the user still tends to be primarily office‑based during the work week.",
+    "dim2_response": "Based on the information in the knowledge base, the only detail provided about the user’s office presence is that they will be “primarily based at the office during the week.” No specific days, hours, or time windows are mentioned in any of the session summaries or source documents. Therefore, I don’t have enough information to recommend a particular weekday time slot when you can reliably find them there. If you can share the user’s typical office hours, I’d be happy to suggest an optimal window.",
+    "dim3_response": "Below is a ready‑to‑send email you can copy‑paste and adjust minor details (date, name, etc.). It follows the **Message‑drafting** guidelines from the knowledge base: clear audience focus, friendly‑professional tone, short paragraphs, and a clear call‑to‑action.\n\n---\n\n**Subject:** Meeting location suggestion for [Day — e.g., Tuesday]\n\nHi [Name],\n\nI hope you’re doing well. Since we’ll be meeting on a weekday, I wanted to suggest a convenient spot that’s easy to reach and quiet enough for our discussion.\n\n**Proposed location:**  \n* [Coffee Bar/Hotel Conference Room/Co‑working space]* – [Street address, city]  \n*Open from [time] to [time];* there’s free Wi‑Fi and a few private tables available.\n\nIf this works for you, please let me know which day and time on that week suit you best, and I’ll confirm the reservation. If you have another venue in mind, I’m happy to adjust.\n\nLooking forward to our meeting.\n\nBest regards,  \n[Your Name]  \n[Your Position] – [[entities/office]]  \n[Phone / Slack]  \n[[entities/email]]  \n\n---\n\n*Feel free to replace the placeholders (bracketed text) with the actual details.*"
+  },
+  "build_seconds": 137.1,
+  "total_seconds": 153.2,
+  "usage": {
+    "compile": {
+      "calls": 21,
+      "prompt_tokens": 66018,
+      "completion_tokens": 16143,
+      "cost_usd": 0.0064403839999999995
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 22887,
+      "completion_tokens": 1735,
+      "cost_usd": 0.0009989099999999998
+    }
+  }
+}

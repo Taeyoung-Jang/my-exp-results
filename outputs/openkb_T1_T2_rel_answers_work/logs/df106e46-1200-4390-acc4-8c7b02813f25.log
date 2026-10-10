@@ -1,0 +1,28 @@
+=== 2026-10-10 14:39:48 uid=df106e46-1200-4390-acc4-8c7b02813f25 ===
+Adding: session-05_2024-06-15.md
+  Compiling short doc...
+    summary............. 13.1s (in=2343, out=791)
+    concepts-plan............ 12.2s (in=3236, out=664)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: app_evaluation... 4.3s (in=3088, out=815, cached=784)
+    entity: app_store... 3.0s (in=3122, out=691, cached=784)
+    entity: ios... 8.5s (in=3109, out=559)
+    concept: evaluation_scorecard... 17.6s (in=3075, out=1142)
+    concept: risk_flag_system... 21.1s (in=3092, out=706, cached=64)
+    summary-rewrite................... 19.8s (in=3119, out=670, cached=64)
+  [OK] session-05_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-02-15.md
+  Compiling short doc...
+    summary........ 8.7s (in=1746, out=746, cached=784)
+    concepts-plan.... 4.6s (in=2755, out=738, cached=800)
+    Generating 6 concept(s) (concurrency=4)...
+    concept: permission_red_flags... 11.4s (in=2529, out=988)
+    concept: pre_install_checklist... 12.9s (in=2533, out=725, cached=784)
+    concept: app_trust_signals... 13.6s (in=2532, out=579, cached=32)
+    update: app_evaluation... 25.3s (in=3147, out=940, cached=768)
+    update: evaluation_scorecard... 21.1s (in=3277, out=1586)
+    update: risk_flag_system... 24.7s (in=3230, out=1423, cached=64)
+    summary-rewrite...... 7.0s (in=2563, out=644)
+  [OK] session-39_2025-02-15.md added to knowledge base.
+done.

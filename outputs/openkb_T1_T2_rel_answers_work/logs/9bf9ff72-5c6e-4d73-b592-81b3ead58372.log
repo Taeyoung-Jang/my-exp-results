@@ -1,0 +1,54 @@
+=== 2026-10-10 15:59:09 uid=9bf9ff72-5c6e-4d73-b592-81b3ead58372 ===
+Adding: session-08_2024-06-15.md
+  Compiling short doc...
+    summary... 3.7s (in=1956, out=874, cached=816)
+    concepts-plan.... 4.8s (in=2975, out=267, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    entity: time_machine... 2.4s (in=2876, out=314)
+    concept: backup_strategy... 4.1s (in=2855, out=857, cached=768)
+    concept: cloud_backup... 9.5s (in=2838, out=751, cached=784)
+    concept: offline_backup... 10.6s (in=2838, out=553, cached=768)
+    entity: aomei_backupper... 3.1s (in=2876, out=277, cached=64)
+    entity: macrium_reflect... 11.4s (in=2861, out=751)
+    entity: file_history... 38.2s (in=2876, out=816)
+Entity generation failed: LLM returned empty content for concept 'time_machine'
+    [WARN] 4 entity(ies) planned but only 3 written for session-08_2024-06-15 (ValueError).
+    summary-rewrite................................... 35.4s (in=2870, out=929, cached=784)
+[92m16:00:34 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-08_2024-06-15.md added to knowledge base.
+Adding: session-33_2024-10-15.md
+  Compiling short doc...
+    summary............. 13.2s (in=1942, out=921)
+    concepts-plan........... 11.5s (in=3139, out=1221, cached=784)
+    Generating 6 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: hybrid_backup_approach... 9.3s (in=2923, out=1045, cached=784)
+    update: cloud_backup... 3.2s (in=3421, out=1163, cached=768)
+    concept: auto_run_backup_software... 15.1s (in=2925, out=722, cached=768)
+    concept: low_stress_backup... 16.5s (in=2924, out=802, cached=768)
+    update: offline_backup... 4.0s (in=3490, out=1714, cached=2816)
+    entity: easeus_todo_backup... 2.4s (in=2988, out=915, cached=768)
+    entity: time_machine... 3.4s (in=2985, out=1325, cached=768)
+    entity: carbon_copy_cloner... 3.7s (in=2987, out=1519, cached=2816)
+    entity-update: macrium_reflect... 3.6s (in=3275, out=1448, cached=768)
+    update: backup_strategy... 33.2s (in=3445, out=2321)
+    summary-rewrite.. 2.5s (in=2954, out=972, cached=768)
+  [OK] session-33_2024-10-15.md added to knowledge base.
+done.

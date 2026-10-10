@@ -1,0 +1,34 @@
+=== 2026-10-10 14:41:45 uid=8fbdd3bc-8949-4fb4-8082-e67d73201826 ===
+Adding: session-08_2021-09-06.md
+  Compiling short doc...
+    summary.................. 18.0s (in=2140, out=819, cached=768)
+    concepts-plan................ 16.5s (in=3317, out=1007)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: peanut-allergy-watch-list... 11.2s (in=3230, out=798)
+    entity: simple-mills... 11.4s (in=3250, out=676)
+    concept: food-safety-serving-setup... 12.4s (in=3217, out=733)
+    entity: triscuit... 4.7s (in=3264, out=664, cached=784)
+    concept: allergen-communication... 18.4s (in=3229, out=844, cached=784)
+    entity: sabra... 7.2s (in=3263, out=779, cached=784)
+    entity: ithaca... 7.2s (in=3263, out=806, cached=784)
+    entity: herdez... 6.3s (in=3263, out=793, cached=784)
+    entity: tillamook... 5.5s (in=3264, out=603, cached=3104)
+    entity: haagen-dazs... 6.6s (in=3267, out=743, cached=784)
+    entity: frontera... 11.3s (in=3264, out=342, cached=768)
+    summary-rewrite.......... 10.7s (in=3260, out=1162, cached=784)
+  [OK] session-08_2021-09-06.md added to knowledge base.
+Adding: session-31_2023-09-06.md
+  Compiling short doc...
+    summary........................ 24.3s (in=2277, out=734, cached=768)
+    concepts-plan........ 8.5s (in=3671, out=238, cached=2272)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: food_allergy_evaluation... 8.7s (in=3325, out=872, cached=784)
+    concept: maintenance_of_food_tolerance... 12.5s (in=3328, out=1009, cached=64)
+    entity: epinephrine_auto_injector... 4.0s (in=3362, out=630, cached=784)
+    update: allergen-communication... 20.8s (in=3795, out=1319)
+    update: food-safety-serving-setup... 34.8s (in=3785, out=2420)
+    summary-rewrite.............. 14.8s (in=3355, out=1043, cached=784)
+  [OK] session-31_2023-09-06.md added to knowledge base.
+done.

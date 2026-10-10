@@ -1,0 +1,28 @@
+=== 2026-10-10 14:37:10 uid=316bac98-b512-4371-b716-a949228dd25b ===
+Adding: session-03_2024-07-11.md
+  Compiling short doc...
+    summary............................... 31.5s (in=1935, out=1179, cached=784)
+    concepts-plan.... 4.3s (in=2929, out=1030, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: sup... 4.6s (in=2864, out=957, cached=768)
+    entity: inflatable-board... 2.3s (in=2874, out=880, cached=768)
+    entity: paddle... 2.1s (in=2870, out=768, cached=768)
+    entity: leash... 2.0s (in=2870, out=833, cached=2560)
+    concept: adventure-mindset... 11.6s (in=2794, out=774)
+    entity: pfd... 3.0s (in=2875, out=1118)
+    concept: weekly-multi-sport-rhythm... 26.2s (in=2814, out=862, cached=64)
+    concept: complementary-outdoor-activity... 36.2s (in=2811, out=1051, cached=64)
+    summary-rewrite... 3.0s (in=2838, out=1179)
+  [OK] session-03_2024-07-11.md added to knowledge base.
+Adding: session-38_2025-03-11.md
+  Compiling short doc...
+    summary.............. 14.6s (in=2884, out=639, cached=768)
+    concepts-plan.. 2.6s (in=4105, out=585, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: anchor-days... 7.6s (in=3830, out=1186, cached=784)
+    concept: quality-sessions... 14.5s (in=3830, out=868)
+    concept: cutback-week... 15.9s (in=3831, out=1021)
+    summary-rewrite....... 7.7s (in=3862, out=863, cached=3696)
+  [OK] session-38_2025-03-11.md added to knowledge base.
+done.

@@ -1,0 +1,24 @@
+=== 2026-10-10 15:57:07 uid=f42cf11f-3e7d-47e8-821f-a8bdb602ae7c ===
+Adding: session-06_2025-07-17.md
+  Compiling short doc...
+    summary................ 16.2s (in=1819, out=902, cached=784)
+    concepts-plan.......... 11.0s (in=2639, out=457, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: main-book-side-reads... 9.8s (in=2489, out=492, cached=768)
+    concept: curiosity-driven-selection... 12.9s (in=2489, out=434, cached=64)
+    concept: small-daily-commitment... 25.1s (in=2487, out=893)
+    summary-rewrite....... 7.4s (in=2518, out=925, cached=784)
+  [OK] session-06_2025-07-17.md added to knowledge base.
+Adding: session-34_2025-09-16.md
+  Compiling short doc...
+    summary..................... 21.7s (in=2103, out=1148)
+    concepts-plan............ 12.3s (in=3477, out=733, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: layout-planning... 0.6s (in=3298, out=2)
+    concept: murphy-bed... 12.1s (in=3299, out=931, cached=784)
+    concept: space-saving-furniture... 31.5s (in=3301, out=805)
+Concept generation failed: LLM returned empty content for concept 'layout-planning'
+    [WARN] 3 concept(s) planned but only 2 written for session-34_2025-09-16 (ValueError).
+    summary-rewrite...... 6.9s (in=3330, out=1064)
+  [OK] session-34_2025-09-16.md added to knowledge base.
+done.

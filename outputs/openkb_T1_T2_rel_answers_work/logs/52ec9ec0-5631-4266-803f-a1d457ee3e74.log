@@ -1,0 +1,25 @@
+=== 2026-10-10 14:28:20 uid=52ec9ec0-5631-4266-803f-a1d457ee3e74 ===
+Adding: session-08_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.2s (in=2671, out=671, cached=64)
+    concepts-plan........ 8.5s (in=3506, out=318)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: weekly_caps... 3.1s (in=3376, out=633, cached=768)
+    concept: buffer_fund... 5.2s (in=3359, out=582, cached=2672)
+    concept: simple_budget_framework... 16.0s (in=3360, out=1081)
+    summary-rewrite........... 11.6s (in=3391, out=544, cached=768)
+  [OK] session-08_2024-06-15.md added to knowledge base.
+Adding: session-40_2024-12-13.md
+  Compiling short doc...
+    summary.............. 14.8s (in=2378, out=690, cached=768)
+    concepts-plan....................... 23.7s (in=3511, out=822, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    entity: high_yield_savings_account... 4.1s (in=3383, out=807, cached=784)
+    entity: checking_account... 6.4s (in=3380, out=743, cached=784)
+    concept: buffer_checking... 13.3s (in=3346, out=892)
+    update: simple_budget_framework... 18.0s (in=3746, out=691, cached=768)
+    concept: hysa_buckets... 29.7s (in=3350, out=1099, cached=3008)
+    summary-rewrite.... 4.9s (in=3381, out=982, cached=768)
+  [OK] session-40_2024-12-13.md added to knowledge base.
+done.

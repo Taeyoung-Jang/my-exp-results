@@ -1,0 +1,22 @@
+=== 2026-10-10 15:55:30 uid=d95bea82-65f4-4ea6-bb53-ca3888cb0e5c ===
+Adding: session-07_2025-06-15.md
+  Compiling short doc...
+    summary............... 15.9s (in=2457, out=700, cached=784)
+    concepts-plan........ 8.5s (in=3396, out=521, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: burnout-prevention... 3.1s (in=3240, out=705, cached=784)
+    concept: writing-routine... 13.1s (in=3226, out=873)
+    concept: progress-tracking... 14.0s (in=3226, out=932)
+    summary-rewrite... 3.3s (in=3271, out=725, cached=800)
+  [OK] session-07_2025-06-15.md added to knowledge base.
+Adding: session-37_2025-08-15.md
+  Compiling short doc...
+    summary....... 7.3s (in=1837, out=1778, cached=768)
+    concepts-plan. 1.7s (in=2717, out=81, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: communication-scripts... 6.3s (in=2544, out=507, cached=768)
+    concept: first-week-onboarding-strategies... 6.6s (in=2548, out=490, cached=768)
+    concept: relationship-building... 7.2s (in=2544, out=421, cached=64)
+    summary-rewrite.......... 10.4s (in=2576, out=738, cached=784)
+  [OK] session-37_2025-08-15.md added to knowledge base.
+done.

@@ -1,0 +1,24 @@
+=== 2026-10-10 14:24:42 uid=53b2cc05-5ae2-457c-9e85-085daf66595a ===
+Adding: session-07_2024-06-12.md
+  Compiling short doc...
+    summary... 3.6s (in=1789, out=760)
+    concepts-plan... 3.7s (in=2708, out=589, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: communication-patterns... 3.6s (in=2536, out=866, cached=784)
+    concept: friendship-longevity... 14.8s (in=2537, out=497, cached=64)
+    concept: effort-balance... 18.5s (in=2537, out=806)
+    summary-rewrite........... 11.7s (in=2565, out=700, cached=64)
+  [OK] session-07_2024-06-12.md added to knowledge base.
+Adding: session-37_2025-02-09.md
+  Compiling short doc...
+    summary........................... 27.9s (in=2366, out=898, cached=768)
+    concepts-plan............... 15.2s (in=3677, out=565, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: gradual-escalation... 6.5s (in=3508, out=805)
+    concept: third-place... 11.6s (in=3503, out=1084, cached=784)
+    concept: low-pressure-routines... 17.4s (in=3506, out=983, cached=784)
+Concept generation failed: LLM returned empty content for concept 'gradual-escalation'
+    [WARN] 3 concept(s) planned but only 2 written for session-37_2025-02-09 (ValueError).
+    summary-rewrite...... 6.0s (in=3534, out=1134, cached=68)
+  [OK] session-37_2025-02-09.md added to knowledge base.
+done.

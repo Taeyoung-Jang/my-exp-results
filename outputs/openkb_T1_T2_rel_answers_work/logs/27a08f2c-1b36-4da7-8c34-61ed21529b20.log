@@ -1,0 +1,25 @@
+=== 2026-10-10 15:35:46 uid=27a08f2c-1b36-4da7-8c34-61ed21529b20 ===
+Adding: session-06_2025-06-15.md
+  Compiling short doc...
+    summary=== 2026-10-10 15:36:12 uid=27a08f2c-1b36-4da7-8c34-61ed21529b20 ===
+Adding: session-06_2025-06-15.md
+  Compiling short doc...
+    summary..... 5.1s (in=1790, out=721, cached=784)
+    concepts-plan... 3.6s (in=2470, out=140, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: forum-announcement-drafting... 4.2s (in=2331, out=791, cached=768)
+    concept: tone-adaptation... 9.4s (in=2313, out=391, cached=768)
+    concept: update-communication... 10.2s (in=2299, out=1129)
+    summary-rewrite......... 9.1s (in=2344, out=742, cached=64)
+  [OK] session-06_2025-06-15.md added to knowledge base.
+Adding: session-33_2025-10-15.md
+  Compiling short doc...
+    summary....... 7.5s (in=3238, out=1351)
+    concepts-plan.... 4.4s (in=4531, out=653, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: movement-breaks... 8.3s (in=4357, out=992, cached=784)
+    concept: light-exposure... 11.4s (in=4343, out=819)
+    concept: crash-mitigation... 11.5s (in=4357, out=743, cached=64)
+    summary-rewrite................. 17.3s (in=4388, out=1172, cached=64)
+  [OK] session-33_2025-10-15.md added to knowledge base.
+done.

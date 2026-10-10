@@ -1,0 +1,32 @@
+=== 2026-10-10 15:56:04 uid=50c76721-3605-4d34-a6bf-e8e6d4cb52dc ===
+Adding: session-05_2025-05-24.md
+  Compiling short doc...
+    summary.... 4.9s (in=2091, out=1108, cached=768)
+    concepts-plan...... 6.2s (in=2918, out=863, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: kayak... 6.6s (in=2827, out=882, cached=2464)
+    concept: stitch-and-glue-construction... 7.2s (in=2795, out=997, cached=2672)
+    concept: epoxy-curing-management... 7.4s (in=2795, out=1036, cached=784)
+    concept: waterproofing-and-seam-sealing... 7.4s (in=2796, out=1037, cached=2464)
+    entity: epoxy-resin... 3.3s (in=2828, out=815, cached=784)
+    entity: fiberglass-cloth... 3.4s (in=2828, out=597, cached=2656)
+    summary-rewrite..... 5.6s (in=2824, out=1007, cached=2656)
+  [OK] session-05_2025-05-24.md added to knowledge base.
+Adding: session-35_2025-07-24.md
+  Compiling short doc...
+    summary..... 6.0s (in=4482, out=1403, cached=784)
+    concepts-plan.... 4.2s (in=5650, out=298, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: leftover-utilization... 13.6s (in=5451, out=991, cached=784)
+    concept: meal-prep... 13.9s (in=5449, out=681, cached=64)
+    concept: weekend-routine... 14.1s (in=5449, out=679, cached=5056)
+    entity: pesto... 3.6s (in=5471, out=880)
+    entity: teriyaki-sauce... 7.0s (in=5486, out=371, cached=5312)
+    entity: olive-oil... 8.4s (in=5484, out=513, cached=784)
+    entity: chicken-thighs... 26.1s (in=5486, out=1002, cached=784)
+    entity: soy-sauce... 17.3s (in=5471, out=840)
+    summary-rewrite............... 15.5s (in=5481, out=814)
+  [OK] session-35_2025-07-24.md added to knowledge base.
+done.

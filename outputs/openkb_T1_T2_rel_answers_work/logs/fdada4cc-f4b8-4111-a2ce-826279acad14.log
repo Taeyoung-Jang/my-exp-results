@@ -1,0 +1,29 @@
+=== 2026-10-10 14:24:05 uid=fdada4cc-f4b8-4111-a2ce-826279acad14 ===
+Adding: session-06_2022-06-15.md
+  Compiling short doc...
+    summary.... 4.4s (in=1966, out=698, cached=784)
+    concepts-plan.. 2.6s (in=2788, out=67, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: inclusive_language... 4.1s (in=2633, out=647, cached=784)
+    concept: tone_adaptation... 5.7s (in=2634, out=607, cached=784)
+    concept: personal_faith_in_workplace... 7.1s (in=2636, out=370, cached=64)
+    summary-rewrite..... 5.7s (in=2665, out=637, cached=784)
+  [OK] session-06_2022-06-15.md added to knowledge base.
+Adding: session-33_2024-06-15.md
+  Compiling short doc...
+    summary......................... 25.0s (in=2654, out=1035, cached=64)
+    concepts-plan..... 5.1s (in=3871, out=258, cached=768)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: daily_prayer_routine... 5.1s (in=3716, out=868)
+    concept: quick_duas_and_surahs... 5.8s (in=3732, out=776)
+    entity: dhuhr... 4.5s (in=3781, out=792, cached=768)
+    concept: manager_conversation_strategies... 11.4s (in=3729, out=605, cached=768)
+    concept: work_prayer_accommodation... 13.8s (in=3716, out=997)
+    entity: asr... 4.9s (in=3764, out=694, cached=68)
+    entity: fajr... 14.7s (in=3763, out=808)
+Concept generation failed: LLM returned empty content for concept 'quick_duas_and_surahs'
+    [WARN] 4 concept(s) planned but only 3 written for session-33_2024-06-15 (ValueError).
+    summary-rewrite................. 17.5s (in=3757, out=1222, cached=768)
+  [OK] session-33_2024-06-15.md added to knowledge base.
+done.

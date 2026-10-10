@@ -1,0 +1,67 @@
+=== 2026-10-10 15:42:48 uid=10fdfd0c-9ccd-478f-b0d0-2a1977cdc705 ===
+Adding: session-06_2024-06-10.md
+  Compiling short doc...
+    summary...... 6.3s (in=4208, out=1261, cached=768)
+    concepts-plan........... 11.0s (in=5685, out=484, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: rest-stop-vetting-checklist... 5.2s (in=5609, out=922)
+    concept: senior-dog-arthritis-management... 16.1s (in=5608, out=1254, cached=784)
+    entity: chicago... 16.6s (in=5640, out=787)
+    concept: dog-friendly-travel... 21.4s (in=5608, out=1026)
+    entity: madison-wisconsin... 18.7s (in=5642, out=847)
+    entity: baraboo-wisconsin... 10.4s (in=5644, out=513, cached=768)
+    entity: mirror-lake-state-park... 3.6s (in=5660, out=841, cached=4192)
+    entity: lake-geneva-wisconsin... 8.9s (in=5643, out=919, cached=784)
+    entity: wisconsin-dells... 20.3s (in=5642, out=1126)
+    entity: big-foot-beach-state-park... 8.0s (in=5644, out=418, cached=5216)
+    entity: uw-arboretum... 14.3s (in=5643, out=939, cached=768)
+Concept generation failed: LLM returned empty content for concept 'rest-stop-vetting-checklist'
+    [WARN] 3 concept(s) planned but only 2 written for session-06_2024-06-10 (ValueError).
+    summary-rewrite............................ 28.3s (in=5638, out=1531, cached=5472)
+[92m15:44:12 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-06_2024-06-10.md added to knowledge base.
+Adding: session-38_2025-02-10.md
+  Compiling short doc...
+    summary.............. 14.1s (in=2133, out=492, cached=768)
+    concepts-plan... 3.5s (in=3305, out=709, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: tenant-landlord-communication... 15.7s (in=2975, out=705, cached=768)
+    concept: inspection-process... 16.1s (in=2974, out=786, cached=768)
+    concept: lease-management... 16.6s (in=2975, out=980, cached=784)
+    summary-rewrite..................... 21.3s (in=3003, out=1128, cached=768)
+[92m15:45:08 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-38_2025-02-10.md added to knowledge base.
+done.

@@ -1,0 +1,101 @@
+=== 2026-10-10 14:43:16 uid=59f22a21-9ebf-4167-a1bd-85ce23b07a52 ===
+Adding: session-05_2022-07-01.md
+  Compiling short doc...
+    summary........ 8.8s (in=2704, out=1173)
+    concepts-plan. 1.9s (in=3540, out=374, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: recovery-red-flags... 1.2s (in=3411, out=793, cached=768)
+    concept: stress-recovery... 3.1s (in=3405, out=682, cached=768)
+    concept: physiological-self-monitoring... 31.3s (in=3391, out=838, cached=768)
+    summary-rewrite........................ 24.8s (in=3418, out=836, cached=768)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 399, in <module>
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 363, in main
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 831, in submit
+    self._start_executor_manager_thread()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 770, in _start_executor_manager_thread
+    self._launch_processes()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 797, in _launch_processes
+    self._spawn_process()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 807, in _spawn_process
+    p.start()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.12/multiprocessing/context.py", line 282, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 232, in _worker
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 204, in run_sample
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 452, in add_single_file
+    return _add_single_file_locked(file_path, kb_dir, stage=stage, bundle=bundle)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 629, in _add_single_file_locked
+    if not run_add_mutation(kb_dir, plan):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/add_coordinator.py", line 103, in run_add_mutation
+    plan.body(snapshot)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 570, in commit_body
+    _run_compile_with_retry(
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 435, in _run_compile_with_retry
+    asyncio.run(coro_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 103, in _process_log_task
+    verbose_logger.exception(f"LoggingWorker error: {e}")
+Message: 'LoggingWorker error: '
+Arguments: None
+  [OK] session-05_2022-07-01.md added to knowledge base.
+Adding: session-40_2024-07-01.md
+  Compiling short doc...
+    summary............................ 28.1s (in=2563, out=913, cached=64)
+    concepts-plan..... 5.4s (in=3895, out=113, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: weekly-review-ritual... 3.7s (in=3751, out=859, cached=784)
+    concept: boundary-communication-scripts... 10.5s (in=3751, out=1093, cached=784)
+    concept: protected-recovery-blocks... 19.8s (in=3751, out=1146, cached=64)
+    concept: urgency-decision-matrix... 22.3s (in=3752, out=1237, cached=784)
+    concept: buffer-time-management... 52.1s (in=3751, out=1482, cached=64)
+    summary-rewrite................. 17.9s (in=3769, out=1278)
+  [OK] session-40_2024-07-01.md added to knowledge base.
+done.

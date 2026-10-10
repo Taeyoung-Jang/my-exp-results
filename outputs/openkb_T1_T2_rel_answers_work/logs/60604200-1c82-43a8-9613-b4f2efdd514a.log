@@ -1,0 +1,38 @@
+=== 2026-10-10 15:32:18 uid=60604200-1c82-43a8-9613-b4f2efdd514a ===
+Adding: session-05_2023-06-15.md
+  Compiling short doc...
+    summary.......................... 26.5s (in=3514, out=869, cached=64)
+    concepts-plan..... 5.6s (in=4758, out=935, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: canada... 3.8s (in=4667, out=384)
+    entity: immigration-refugees-and-citizenship-canada... 12.5s (in=4665, out=1008)
+    concept: residency_obligation... 18.5s (in=4635, out=1056, cached=64)
+    concept: citizenship_vs_permanent_residency... 23.5s (in=4636, out=810, cached=3488)
+    concept: physical_presence_tracking... 28.4s (in=4635, out=984, cached=3488)
+    entity: pr-card... 23.1s (in=4670, out=984, cached=64)
+Entity generation failed: LLM returned empty content for concept 'canada'
+    [WARN] 3 entity(ies) planned but only 2 written for session-05_2023-06-15 (ValueError).
+    summary-rewrite...................... 22.7s (in=4666, out=1149, cached=784)
+  [OK] session-05_2023-06-15.md added to knowledge base.
+Adding: session-38_2024-12-16.md
+  Compiling short doc...
+    summary..... 5.9s (in=3334, out=1152, cached=784)
+    concepts-plan................... 19.1s (in=4579, out=1055, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: background-check-process... 4.7s (in=4443, out=1001, cached=768)
+    concept: security-clearance-levels... 4.7s (in=4425, out=757)
+    entity: passport... 5.5s (in=4459, out=894, cached=784)
+    entity: birth-certificate... 6.7s (in=4477, out=1530, cached=768)
+    concept: eligibility-verification-documents... 12.6s (in=4426, out=781, cached=64)
+    entity: passport-card... 13.5s (in=4447, out=980)
+    entity: enhanced-drivers-license... 7.8s (in=4462, out=439, cached=64)
+    entity: drivers-license... 14.3s (in=4448, out=1103)
+    entity: sf-86... 15.6s (in=4456, out=1114)
+    entity: sf-85... 19.3s (in=4469, out=942, cached=784)
+Concept generation failed: LLM returned empty content for concept 'security-clearance-levels'
+    [WARN] 3 concept(s) planned but only 2 written for session-38_2024-12-16 (ValueError).
+    summary-rewrite.......... 10.1s (in=4457, out=1163, cached=784)
+  [OK] session-38_2024-12-16.md added to knowledge base.
+done.

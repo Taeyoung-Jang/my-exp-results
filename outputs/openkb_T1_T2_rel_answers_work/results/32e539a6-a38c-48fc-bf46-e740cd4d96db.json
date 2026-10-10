@@ -1,0 +1,19 @@
+{
+  "uid": "32e539a6-a38c-48fc-bf46-e740cd4d96db",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    6,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the transcript of the most recent conversation (session 36, 2024‑05‑15) the user explicitly describes himself as **“a single guy in his forties”** and is seeking dating advice and profile setup for Bumble. There is no mention elsewhere in the indexed sessions of a spouse or of being married. Therefore, the conversation history indicates that the user is **not married** (i.e., he is single).",
+    "dim2_response": "**Romantic ideas for a Blue Ridge Mountains cabin getaway**\n\nThe cabin‑rental checklist from our past conversation highlights several amenities that naturally lend themselves to relaxing, couple‑focused moments. You can shape a short 2‑3 night itinerary around them:\n\n| Activity | Why it works in the Blue Ridge Mountains | How to set it up (using the cabin’s features) |\n|----------|------------------------------------------|----------------------------------------------|\n| **Sunrise or sunset hike to a viewpoint** | The Blue Ridge is famed for its “rolling hills, vibrant foliage, extensive trail networks” [[entities/blue-ridge-mountains]]. | Choose a trail that’s close to the cabin (the checklist stresses “proximity to trails”). Pack a light snack and a blanket to pause at a vista. |\n| **Cozy fireplace night** | “Fireplace/fire pit” is listed as a “nice‑to‑have extra” [[summaries/session-07_2021-05-15]]. | Light the fireplace, bring a soft throw, and enjoy quiet conversation or read together. |\n| **Hot‑tub or sauna soak** | A “hot tub/sauna” is also flagged as a desirable amenity [[summaries/session-07_2021-05-15]]. | If the cabin offers one, schedule an early‑evening soak with dimmed lights and a playlist of her favorite calming music. |\n| **Starlit deck or patio dinner** | “Outdoor seating” and “deck/outdoor seating” appear in the checklist [[summaries/session-07_2021-05-15]]. | Prepare a simple meal (or order in) and dine al‑fresco under the night sky. A portable candle set or string lights add romance. |\n| **Hammock relaxation** | A “hammock” is mentioned as an extra comfort [[summaries/session-07_2021-05-15]]. | Hang the hammock on a shaded spot, bring a soft blanket, and enjoy a lazy afternoon nap or quiet reading together. |\n| **Couple‑style board‑game or card night** | “Games” are listed under “extra leisure items” [[summaries/session-07_2021-05-15]]. | Pick a light, two‑player game (e.g., Scrabble, a card deck) for a playful, low‑stress evening. |\n| **Cooking together in the cabin kitchen** | The checklist emphasizes a “functional kitchen basics” as a must‑have [[summaries/session-07_2021-05-15]]. | Plan a simple, fun recipe (e.g., homemade pizza or a pot of soup) and enjoy the process as a shared activity. |\n\n### Quick tip for planning\n1. **Confirm the cabin includes the amenities you want** (fireplace, hot tub, deck, hammock) using the host‑question template from the same session [[summaries/session-07_2021-05-15]].\n2. **Score the options** with the weighted rubric (Location × 3, Comfort × 3, Amenities × 2, Access × 3) to make sure the chosen rental supports these romantic activities [[summaries/session-07_2021-05-15]].\n\nBy aligning the itinerary with the cabin’s “nice‑to‑have” features, you’ll give your wife a gentle, nature‑filled escape from her firm’s deadlines while enjoying quality time together.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information on handling wedding RSVPs."
+  },
+  "build_seconds": 93.1,
+  "total_seconds": 123.7,
+  "usage": {}
+}

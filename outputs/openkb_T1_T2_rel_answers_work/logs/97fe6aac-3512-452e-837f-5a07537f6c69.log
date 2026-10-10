@@ -1,0 +1,35 @@
+=== 2026-10-10 14:44:55 uid=97fe6aac-3512-452e-837f-5a07537f6c69 ===
+Adding: session-04_2024-10-16.md
+  Compiling short doc...
+    summary................. 17.4s (in=1739, out=553, cached=64)
+    concepts-plan............. 13.7s (in=2681, out=754, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 10 entity(ies) (concurrency=4)...
+    concept: moral-dilemma... 4.0s (in=2607, out=503)
+    concept: character-arc... 7.1s (in=2606, out=763, cached=784)
+    entity: great-expectations... 9.0s (in=2641, out=1161, cached=784)
+    entity: jane-eyre... 5.1s (in=2629, out=876)
+    entity: anna-karenina... 13.3s (in=2629, out=880)
+    entity: moby-dick... 5.9s (in=2643, out=725, cached=784)
+    entity: pride-and-prejudice... 13.3s (in=2630, out=915)
+    entity: middlemarch... 5.2s (in=2641, out=862, cached=784)
+    entity: the-brothers-karamazov... 4.4s (in=2662, out=755, cached=768)
+    entity: the-scarlet-letter... 6.8s (in=2642, out=333, cached=64)
+    entity: les-miserables... 14.0s (in=2643, out=840)
+    concept: plot-driven-narrative... 44.0s (in=2608, out=938, cached=2224)
+    entity: the-count-of-monte-cristo... 29.7s (in=2644, out=1200, cached=784)
+Concept generation failed: LLM returned empty content for concept 'moral-dilemma'
+    [WARN] 3 concept(s) planned but only 2 written for session-04_2024-10-16 (ValueError).
+    summary-rewrite... 3.6s (in=2638, out=780, cached=768)
+  [OK] session-04_2024-10-16.md added to knowledge base.
+Adding: session-40_2025-06-17.md
+  Compiling short doc...
+    summary..... 5.6s (in=1974, out=939)
+    concepts-plan............. 13.3s (in=3289, out=674)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: dead-time-learning... 7.6s (in=2940, out=839, cached=784)
+    concept: curiosity-driven-learning... 14.2s (in=2941, out=1506, cached=64)
+    concept: microlearning... 17.9s (in=2938, out=870)
+    summary-rewrite...... 6.9s (in=2970, out=947, cached=64)
+  [OK] session-40_2025-06-17.md added to knowledge base.
+done.

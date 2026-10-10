@@ -1,0 +1,31 @@
+=== 2026-10-10 14:36:08 uid=83f436e8-d23a-40e6-b150-a5d567facbe5 ===
+Adding: session-07_2022-07-20.md
+  Compiling short doc...
+    summary........... 11.5s (in=3448, out=1377, cached=784)
+    concepts-plan..... 5.7s (in=4815, out=212, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: review-proof-okrs... 6.0s (in=4696, out=1057, cached=768)
+    concept: technical-leadership-without-management... 9.1s (in=4678, out=1336, cached=784)
+    entity: platform-engineering... 3.3s (in=4711, out=816, cached=784)
+    entity: distributed-systems... 9.9s (in=4711, out=672)
+    concept: ic-track-ambition... 22.1s (in=4678, out=1080, cached=784)
+    summary-rewrite......... 9.6s (in=4708, out=1193)
+  [OK] session-07_2022-07-20.md added to knowledge base.
+Adding: session-34_2024-07-20.md
+  Compiling short doc...
+    summary............................. 29.4s (in=3659, out=2027)
+    concepts-plan...... 6.1s (in=5225, out=285, cached=64)
+    Generating 7 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: iterative-team-norms... 6.2s (in=5073, out=1441, cached=800)
+    concept: async-update-prompts... 9.9s (in=5055, out=1228, cached=784)
+    concept: lightweight-routines... 13.9s (in=5058, out=1064, cached=784)
+    concept: shared-agreements... 19.1s (in=5053, out=929, cached=64)
+    concept: racilite-ownership... 7.7s (in=5057, out=1150, cached=784)
+    entity: team-lead-role... 4.5s (in=5128, out=973)
+    concept: decision-log-lite... 30.9s (in=5054, out=1113, cached=784)
+    concept: hybrid-team-coordination... 37.2s (in=5054, out=1225, cached=4928)
+    summary-rewrite........ 8.3s (in=5085, out=1388, cached=784)
+  [OK] session-34_2024-07-20.md added to knowledge base.
+done.

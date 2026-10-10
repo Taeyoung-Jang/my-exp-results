@@ -1,0 +1,129 @@
+=== 2026-10-10 14:45:08 uid=12f3fc0d-9e68-4b4f-a33d-6bd56be10d2b ===
+Adding: session-14_2024-06-15.md
+  Compiling short doc...
+    summary....... 7.9s (in=2330, out=1042)
+    concepts-plan...... 6.3s (in=3383, out=1498, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 14 entity(ies) (concurrency=4)...
+    entity: children-of-time... 4.5s (in=3376, out=802, cached=3216)
+    concept: propulsive-pacing... 4.7s (in=3342, out=850, cached=2928)
+    concept: big-ideas... 4.7s (in=3340, out=857, cached=3216)
+    concept: weird-worlds... 5.4s (in=3340, out=1060, cached=784)
+    entity: the-fold... 3.1s (in=3375, out=584, cached=3216)
+    entity: the-long-way-to-a-small-angry-planet... 3.5s (in=3382, out=676, cached=3216)
+    entity: upgrade... 4.4s (in=3374, out=820, cached=3216)
+    entity: the-strange... 3.5s (in=3375, out=617, cached=3216)
+    entity: children-of-ruin... 4.5s (in=3377, out=831, cached=3216)
+    entity: the-city-and-the-city... 4.4s (in=3378, out=823, cached=3216)
+    entity: an-unkindness-of-ghosts... 4.1s (in=3380, out=733, cached=3216)
+    entity: adrian-tchaikovsky... 4.3s (in=3378, out=725, cached=3216)
+    entity: tom-sweterlitsch... 3.5s (in=3378, out=640, cached=3216)
+    entity: becky-chambers... 3.5s (in=3375, out=625, cached=3216)
+    entity: the-gone-world... 15.5s (in=3376, out=357, cached=64)
+    entity: peter-clines... 4.4s (in=3376, out=827, cached=3216)
+    entity: blake-crouch... 3.7s (in=3377, out=678, cached=3216)
+    summary-rewrite....... 7.7s (in=3372, out=1367, cached=2928)
+  [OK] session-14_2024-06-15.md added to knowledge base.
+Adding: session-35_2024-12-13.md
+  Compiling short doc...
+    summary.................... 20.0s (in=2552, out=1140, cached=64)
+    concepts-plan..................... 21.6s (in=4310, out=1229, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 12 entity(ies) (concurrency=4)...
+    concept: audiobook-narration... 5.9s (in=3912, out=969, cached=784)
+    concept: microhistory... 6.5s (in=3910, out=1666, cached=784)
+    entity: the-ghost-map... 4.1s (in=3946, out=118, cached=64)
+    concept: narrative-nonfiction... 11.8s (in=3898, out=874)
+    entity: five-days-at-memorial... 12.1s (in=3934, out=898)
+    entity: the-looming-tower... 9.3s (in=3947, out=1075, cached=784)
+    entity: the-river-of-doubt... 15.5s (in=3935, out=1004)
+    entity: a-night-to-remember... 10.8s (in=3947, out=695, cached=3776)
+    entity: sheri-fink... 2.8s (in=3946, out=436)
+    entity: steven-johnson... 2.5s (in=3932, out=624)
+    entity: candice-millard... 4.5s (in=3983, out=1023)
+    entity: david-grann... 9.6s (in=3946, out=367, cached=64)
+    entity: lawrence-wright... 11.4s (in=3945, out=811, cached=784)
+    entity: walter-lord... 12.8s (in=3945, out=807, cached=784)
+    entity: the-lost-city-of-z... 31.3s (in=3948, out=1692, cached=64)
+Entity generation failed: LLM returned empty content for concept 'sheri-fink'
+    [WARN] 12 entity(ies) planned but only 11 written for session-35_2024-12-13 (ValueError).
+    summary-rewrite.............................. 30.5s (in=3942, out=1596, cached=64)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 399, in <module>
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 363, in main
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 831, in submit
+    self._start_executor_manager_thread()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 770, in _start_executor_manager_thread
+    self._launch_processes()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 797, in _launch_processes
+    self._spawn_process()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 807, in _spawn_process
+    p.start()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.12/multiprocessing/context.py", line 282, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 232, in _worker
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 204, in run_sample
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 452, in add_single_file
+    return _add_single_file_locked(file_path, kb_dir, stage=stage, bundle=bundle)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 629, in _add_single_file_locked
+    if not run_add_mutation(kb_dir, plan):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/add_coordinator.py", line 103, in run_add_mutation
+    plan.body(snapshot)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 570, in commit_body
+    _run_compile_with_retry(
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 435, in _run_compile_with_retry
+    asyncio.run(coro_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 103, in _process_log_task
+    verbose_logger.exception(f"LoggingWorker error: {e}")
+Message: 'LoggingWorker error: '
+Arguments: None
+  [OK] session-35_2024-12-13.md added to knowledge base.
+done.

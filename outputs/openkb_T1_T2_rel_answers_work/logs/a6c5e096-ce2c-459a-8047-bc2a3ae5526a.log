@@ -1,0 +1,36 @@
+=== 2026-10-10 15:27:01 uid=a6c5e096-ce2c-459a-8047-bc2a3ae5526a ===
+Adding: session-10_2024-07-15.md
+  Compiling short doc...
+    summary........ 8.3s (in=2251, out=997, cached=64)
+    concepts-plan..... 5.8s (in=3384, out=227, cached=64)
+    Generating 7 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: lightweight-routine... 3.2s (in=3255, out=533)
+    concept: daily-planning... 6.9s (in=3256, out=768, cached=64)
+    concept: admin-batching... 11.4s (in=3257, out=849)
+    concept: accountability... 4.7s (in=3255, out=902, cached=784)
+    concept: deep-work... 12.0s (in=3243, out=749)
+    entity: independent-contractor... 3.9s (in=3291, out=612, cached=64)
+    concept: scorecard... 5.0s (in=3256, out=991, cached=3136)
+    concept: weekly-review... 20.9s (in=3256, out=690, cached=64)
+Concept generation failed: LLM returned empty content for concept 'lightweight-routine'
+    [WARN] 7 concept(s) planned but only 6 written for session-10_2024-07-15 (ValueError).
+    summary-rewrite...................... 22.0s (in=3288, out=968, cached=784)
+  [OK] session-10_2024-07-15.md added to knowledge base.
+Adding: session-39_2025-03-13.md
+  Compiling short doc...
+    summary....... 7.6s (in=2164, out=649, cached=768)
+    concepts-plan.... 4.2s (in=3371, out=959, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: health-savings-account... 3.1s (in=3178, out=540)
+    concept: hsa-vs-ppo-comparison... 7.3s (in=3146, out=1230, cached=784)
+    concept: cost-comparison-checklist... 15.1s (in=3144, out=714, cached=64)
+    entity: preferred-provider-organization... 8.0s (in=3183, out=869, cached=784)
+    concept: benefit-selection-framework... 15.6s (in=3144, out=1041, cached=64)
+    entity: flexible-spending-account... 13.4s (in=3166, out=1056)
+Entity generation failed: LLM returned empty content for concept 'health-savings-account'
+    [WARN] 3 entity(ies) planned but only 2 written for session-39_2025-03-13 (ValueError).
+    summary-rewrite..... 5.4s (in=3175, out=841)
+  [OK] session-39_2025-03-13.md added to knowledge base.
+done.

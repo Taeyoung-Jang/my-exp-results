@@ -1,0 +1,42 @@
+=== 2026-10-10 15:32:49 uid=60a2b98c-492d-45e5-9956-2b850493f8b4 ===
+Adding: session-14_2023-06-11.md
+  Compiling short doc...
+    summary............ 12.3s (in=3971, out=1109)
+    concepts-plan................. 17.9s (in=5195, out=1333)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    entity: sunni-islam... 4.9s (in=5135, out=1100, cached=68)
+    concept: daily-worship-integration... 6.3s (in=5122, out=1059, cached=768)
+    concept: waswasa-management... 6.9s (in=5110, out=1121, cached=784)
+    entity: shafi'i... 5.1s (in=5139, out=607)
+    entity: hanafi... 9.7s (in=5139, out=801)
+    concept: madhhab-travel-prayer-rules... 19.1s (in=5122, out=1246)
+    entity: qur-an... 5.5s (in=5153, out=943, cached=4960)
+    entity: hanbali... 9.9s (in=5140, out=472, cached=768)
+    entity: maliki... 14.5s (in=5126, out=1041)
+    entity: arafah... 3.0s (in=5139, out=332)
+    entity: allah... 9.3s (in=5135, out=367, cached=768)
+    entity: muzdalifah... 11.3s (in=5127, out=795)
+Entity generation failed: LLM returned empty content for concept "shafi'i"
+Entity generation failed: LLM returned empty content for concept 'arafah'
+    [WARN] 9 entity(ies) planned but only 7 written for session-14_2023-06-11 (ValueError).
+    summary-rewrite................... 19.7s (in=5120, out=1407)
+  [OK] session-14_2023-06-11.md added to knowledge base.
+Adding: session-37_2024-06-11.md
+  Compiling short doc...
+    summary....... 7.6s (in=2310, out=1090)
+    concepts-plan.......... 10.6s (in=3706, out=1244, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: parish_health_flags... 4.7s (in=3430, out=1242, cached=768)
+    entity: st-brigids-parish... 5.4s (in=3467, out=852, cached=784)
+    concept: curiosity_vs_routine... 10.7s (in=3431, out=614, cached=64)
+    entity: catholicism... 3.3s (in=3463, out=685, cached=69)
+    entity: rcia... 13.9s (in=3459, out=972)
+    concept: adult_faith_formation... 16.4s (in=3416, out=1159)
+    entity: christianity... 6.5s (in=3462, out=1021, cached=784)
+    summary-rewrite............. 13.8s (in=3460, out=967, cached=64)
+  [OK] session-37_2024-06-11.md added to knowledge base.
+=== 2026-10-10 15:35:54 uid=60a2b98c-492d-45e5-9956-2b850493f8b4 ===
+KB already built; reusing it for queries.
+done.

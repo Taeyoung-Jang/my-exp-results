@@ -1,0 +1,32 @@
+{
+  "uid": "468132d0-0bfc-4d1d-ad65-9fb2c86d24e9",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    13,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the user’s own weekday‑scheduling outline they describe a “standard 8 am – 4 pm workweek,” with work blocks listed as **8:00 – 16:00** each weekday【summaries/session-14_2024-06-15.md】. No later conversation indicates a change, so the user still typically works from eight in the morning until four in the afternoon on weekdays.",
+    "dim2_response": "**Productive Midday Routine (for a standard 8 am – 4 pm workday)**  \n\n| Time (approx.) | Activity | Why it fits the schedule |\n|----------------|----------|--------------------------|\n| **12:00 – 12:10** | **Mini‑reset break** – stand, stretch, sip water, or a short walk outside | Breaks up the continuous 8‑hour work block described in [[concepts/weekday‑scheduling]] and helps sustain focus for the afternoon. |\n| **12:10 – 12:20** | **Light mental reset** – 5 min mindfulness/ breathing + 5 min quick inbox scan (no deep work) | Keeps the brain from fatigue without eating into core work time. |\n| **12:20 – 12:45** | **Lunch** (20‑30 min) – a simple pantry‑freezer meal (e.g., frozen dumplings + canned soup) as listed in [[concepts/pantry‑meals]] | Fits the “Dinner” slot’s 20‑30 min window and the low‑prep approach already built into the weekday flow. |\n| **12:45 – 13:00** | **Transition** – brief tidy of the kitchen (the Tuesday “Kitchen Reset” 10‑min step can be reused) | Uses the chore‑block habit without extending the evening chores. |\n| **13:00 – 13:15** | **Focused “power‑slot”** – tackle one quick, high‑impact task (e.g., reply to a pending email, schedule a meeting) | Takes advantage of the post‑lunch energy bump and keeps the afternoon work block smooth. |\n\n*You can shift the 12‑13 pm window earlier or later by up to 15 minutes if your commute or personal preferences differ, but staying within the 8 am‑4 pm anchor preserves the overall structure from the original schedule (see [[summaries/session‑14_2024‑06‑15]]).*\n\n---\n\n**Best Times to Schedule Appointments**\n\n1. **Mid‑morning (≈10:00 – 11:00 am)** – After the initial focus period of the work block but before the noon break; most people are alert, and the slot avoids the first‑hour “ramp‑up” and the end‑of‑day wind‑down.  \n2. **Early‑afternoon (≈14:00 – 15:00 pm)** – After the post‑lunch reset and before the final stretch to 4 pm; energy is still decent, and you won’t clash with the optional after‑work workout that some days move to 17:00 – 17:30 (see [[concepts/exercise‑timing]]).\n\n*Avoid scheduling at 8:00 am (commute/start) and 16:00 pm (work end), as well as the 17:00 – 17:30 workout window if you use the after‑work‑exercise variant.*  \n\nThese recommendations stay fully within the weekday framework you already follow, leveraging the built‑in 30‑minute commute, 20‑30 minute chore blocks, and the “low‑energy bare‑minimum” flexibility when needed.",
+    "dim3_response": "I’m sorry, but the knowledge base you provided doesn’t contain any information about dealing with construction‑site noise, rental‑lease decisions, or evaluating discounts for noisy living situations. Without relevant content to reference, I can’t give a well‑grounded answer based on the wiki. If you have any other questions that relate to the topics in the knowledge base (e.g., sleep‑schedule tips, meal planning, etc.), feel free to ask!"
+  },
+  "build_seconds": 155.4,
+  "total_seconds": 180.5,
+  "usage": {
+    "compile": {
+      "calls": 27,
+      "prompt_tokens": 115995,
+      "completion_tokens": 25225,
+      "cost_usd": 0.020067880999999996
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 22173,
+      "completion_tokens": 1953,
+      "cost_usd": 0.00101673
+    }
+  }
+}

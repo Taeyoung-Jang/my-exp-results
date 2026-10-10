@@ -1,0 +1,32 @@
+{
+  "uid": "06071a3e-6ac8-41cc-8138-6db403c7b42d",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    1,
+    37
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the July 2024 session you were working on a gentle, collaborative house‑agreement for a *multi‑generational shared home* that included your parents, your adult sibling, and yourself, which shows you were living day‑to‑day with them at that time. The later March 2025 session is a planning guide for a year‑abroad fellowship in Copenhagen – it focuses on how to prepare for the move (housing, budgeting, social habits) but does not indicate that you have already left. Thus, as of the most recent conversation you were still residing in the same home with your parents and brother, while getting ready to relocate.  \n\n**Sources**  \n- Session 02 (2024‑07‑15) – “Guidelines for creating a gentle, collaborative house agreement for a multi‑generational shared home.”【`summaries/session-02_2024-07-15.md`】  \n- Session 38 (2025‑03‑16) – “Guides a year‑abroad move to Copenhagen …” (planning stage, no indication of having moved yet)【`summaries/session-38_2025-03-16.md`】",
+    "dim2_response": "**Weekly Chore Schedule for a Four‑Person Household**  \n\n| Day | Person 1 (you) | Person 2 (parent A) | Person 3 (parent B) | Person 4 (brother) | Core Tasks |\n|-----|----------------|----------------------|----------------------|--------------------|------------|\n| **Monday** | Sweep/vacuum living‑room floors | Take out trash & recycling | Wipe kitchen counters after dinner | Load dishwasher (run) | Shared‑space cleaning |\n| **Tuesday** | Clean bathroom sinks & mirrors | Mop kitchen floor | Dust common surfaces (shelves, TV stand) | Laundry – wash + fold (your batch) | Hygiene zones |\n| **Wednesday** | Grocery‑list update & pantry check | Take out trash & recycling | Cook dinner (team‑style, simple) | Sweep/vacuum hallways & stairs | Food & waste |\n| **Thursday** | Empty dishwasher, put away dishes | Clean bathroom toilet & tub | Wipe kitchen appliances (stove, microwave) | Laundry – wash + fold (parent’s batch) | Bathroom & kitchen |\n| **Friday** | Vacuum bedrooms (all) *rotate* | Change bed linens in one bedroom (rotate) | Take out recycling (if not already) | Organise shared closet / shoe rack | Bedroom upkeep |\n| **Saturday** | Deep‑clean one “focus area” (e.g., living‑room windows) | Grocery shopping for weekend meals | Prep weekend meals (cook or prep) | Help with any “overflow” tasks | Weekly deep‑clean |\n| **Sunday** | Family check‑in (10 min) – review schedule, note slip‑ups | Relax / personal time | Relax / personal time | Relax / personal time | Communication & reset |\n\n*Rotation*: For tasks that involve personal spaces (vacuuming bedrooms, changing linens), rotate the responsible person each week so the load stays even.\n\n---\n\n**Shared‑Space Rules (the “Gentle House Agreement”)**  \n\n1. **Rinse & stack** – Immediately rinse dishes after use and place them in the rack; clear countertops before bedtime. *(see [[summaries/session-02_2024-07-15]])*  \n2. **Quiet window** – 10 pm – 7 am is a general quiet period. Use headphones for music/TV if anyone is resting. *(session‑02)*  \n3. **Knock & wait** – Closed doors mean privacy; always knock and wait for a “yes” before entering a room. *(session‑02)*  \n4. **Shared‑space tidy‑up** – At the end of each day, spend 5 minutes returning items to their proper places (books, shoes, remote). *(concept [[concepts/flexible‑habits]])*  \n5. **Slip‑up handling** – If a habit isn’t followed, bring it up kindly, focus on a solution, and note any needed tweaks for the next check‑in. *(session‑02)*  \n6. **Bi‑weekly check‑in** – A brief 10‑minute family meeting (e.g., Sunday) to adjust chores, discuss any concerns, and celebrate what’s working. *(session‑02)*  \n\nThese rules follow the **collaborative‑communication** approach—presenting suggestions as shared goals rather than top‑down commands, which helps keep the atmosphere respectful across the parent‑adult‑child dynamic [[concepts/collaborative‑communication]].\n\n---\n\n### How to Use This Plan  \n\n- **Post the schedule** on the kitchen fridge (or a shared whiteboard) so everyone sees it at a glance.  \n- **Mark completed tasks** with a simple ✔️; a visual cue keeps the rhythm gentle yet accountable.  \n- **Adjust as needed** during the bi‑weekly check‑in: if a task feels too heavy for one person, rotate it or split it.  \n- **Remember flexibility** – the schedule is a guide, not a strict law; the goal is smooth, low‑stress living for all four housemates.  \n\nBy combining a clear, rotating chore roster with the gentle, collaborative house‑agreement principles, the family can enjoy a tidy home while maintaining respect and flexibility for each member’s daily rhythm.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about the board game Gloomhaven or its story, so I can’t evaluate whether its narrative justifies the price."
+  },
+  "build_seconds": 35.0,
+  "total_seconds": 74.0,
+  "usage": {
+    "compile": {
+      "calls": 8,
+      "prompt_tokens": 21394,
+      "completion_tokens": 5327,
+      "cost_usd": 0.00487778
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 20344,
+      "completion_tokens": 2447,
+      "cost_usd": 0.0010507799999999999
+    }
+  }
+}

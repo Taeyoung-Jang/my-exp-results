@@ -1,0 +1,39 @@
+=== 2026-10-10 15:35:44 uid=19bb9fc3-a962-4055-bf8f-e3b194fcf7d3 ===
+Adding: session-09_2024-06-16.md
+  Compiling short doc...
+    summary.=== 2026-10-10 15:35:54 uid=19bb9fc3-a962-4055-bf8f-e3b194fcf7d3 ===
+Adding: session-09_2024-06-16.md
+  Compiling short doc...
+    summary...... 6.4s (in=1852, out=1074, cached=784)
+    concepts-plan........... 11.1s (in=2833, out=394, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: flexible-routines... 4.0s (in=2683, out=756, cached=784)
+    concept: low-pressure-touchpoints... 10.0s (in=2682, out=608, cached=768)
+    concept: consistency-vs-intensity... 10.6s (in=2686, out=628)
+    summary-rewrite.................................................. 50.7s (in=2711, out=764)
+[92m15:37:14 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-09_2024-06-16.md added to knowledge base.
+Adding: session-33_2024-10-16.md
+  Compiling short doc...
+    summary............. 13.6s (in=3759, out=1656)
+    concepts-plan................. 17.6s (in=4845, out=203)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-33_2024-10-16 — no concept pages generated. See log (stderr) for details.
+  [OK] session-33_2024-10-16.md added to knowledge base.
+done.

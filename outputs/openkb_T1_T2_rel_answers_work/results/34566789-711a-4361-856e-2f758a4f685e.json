@@ -1,0 +1,32 @@
+{
+  "uid": "34566789-711a-4361-856e-2f758a4f685e",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    8,
+    39
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the available conversation history, the only explicit statement about the user’s home city is in **session 09 (2022‑06‑15)**, where the summary and the entity page for **[[entities/seattle]]** note that Seattle is “the city where the user lives and seeks low‑key activities.”  \nNo later session provides any indication that the user has moved elsewhere—**session 40 (2024‑06‑15)** discusses choosing a gym in Portland but does not mention a change of residence.  \n\n**Therefore, according to the knowledge base, the user is still assumed to live in Seattle.**",
+    "dim2_response": "Here are three Seattle neighborhoods that the knowledge base highlights as especially convenient for everyday errands and routine strolling:\n\n| Neighborhood | Why it’s handy for daily life | Key spots mentioned in the KB |\n|--------------|------------------------------|------------------------------|\n| **Phinney Ridge** | Ranked as the “top neighborhood for wandering” because it packs a good mix of boutique shops, bookstores and casual cafés within walking distance. This density means you can pick up groceries, grab coffee, or run small errands without a long drive. | Shops, cafés and a modest retail strip that serve residents locally. [[entities/phinney-ridge]] |\n| **Ravenna** | A quieter, more residential area with fewer commercial concentrations, but still close to a grocery‑style market and local services. Its quieter streets make bike‑ or foot‑based errands pleasant. | Mostly residential with some small‑scale services; less shop‑dense than Phinney Ridge. [[entities/ravenna]] |\n| **Greenwood** | Though “spread out,” it offers a pleasant walkable core with a variety of independent stores, cafés and a small grocery. The layout encourages short, pleasant strolls to run errands without heavy traffic. | A laid‑back vibe with a spread‑out commercial corridor. [[entities/greenwood]] |\n\n**How to choose**\n\n* If you prefer a compact, walk‑friendly zone with a solid selection of everyday stores, **Phinney Ridge** is the strongest recommendation.  \n* If you like a quieter residential feel but still want convenient access to basic necessities, **Ravenna** works well.  \n* If you enjoy a relaxed, slightly more spread‑out neighborhood that still provides essential shops and cafés, **Greenwood** is a solid option.\n\nAll three neighborhoods are referenced in the “low‑key activities” session and are noted for being easy to explore on foot, making day‑to‑day errands straightforward.",
+    "dim3_response": "I’m sorry, but I don’t have any information in the knowledge base about your location or nearby places to visit after work, so I can’t provide specific suggestions. If you can share more details—such as the city or region you’re interested in—I can try to help further."
+  },
+  "build_seconds": 165.2,
+  "total_seconds": 191.1,
+  "usage": {
+    "compile": {
+      "calls": 34,
+      "prompt_tokens": 111506,
+      "completion_tokens": 26327,
+      "cost_usd": 0.018968258999999998
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 25217,
+      "completion_tokens": 1703,
+      "cost_usd": 0.0010630499999999998
+    }
+  }
+}

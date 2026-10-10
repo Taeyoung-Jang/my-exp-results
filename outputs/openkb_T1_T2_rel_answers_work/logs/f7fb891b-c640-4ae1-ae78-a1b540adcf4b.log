@@ -1,0 +1,22 @@
+=== 2026-10-10 14:27:11 uid=f7fb891b-c640-4ae1-ae78-a1b540adcf4b ===
+Adding: session-10_2024-06-15.md
+  Compiling short doc...
+    summary................. 17.1s (in=1985, out=943, cached=64)
+    concepts-plan..... 5.5s (in=2678, out=433)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: neighborhood_trust... 9.9s (in=2535, out=401, cached=768)
+    concept: boundary_setting... 10.9s (in=2535, out=735, cached=784)
+    concept: low_drama_rapport... 18.6s (in=2524, out=1074)
+    summary-rewrite.... 4.4s (in=2567, out=441, cached=784)
+  [OK] session-10_2024-06-15.md added to knowledge base.
+Adding: session-31_2025-03-14.md
+  Compiling short doc...
+    summary..................... 21.9s (in=1816, out=911)
+    concepts-plan... 3.1s (in=2898, out=820, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: simple_hallway_greetings... 8.3s (in=2713, out=736)
+    concept: low_commitment_communication... 17.4s (in=2727, out=940, cached=784)
+    concept: good_neighbor_etiquette... 18.3s (in=2726, out=689, cached=64)
+    summary-rewrite...... 7.0s (in=2756, out=945, cached=784)
+  [OK] session-31_2025-03-14.md added to knowledge base.
+done.

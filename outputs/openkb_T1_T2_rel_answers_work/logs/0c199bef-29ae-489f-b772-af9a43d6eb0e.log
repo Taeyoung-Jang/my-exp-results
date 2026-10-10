@@ -1,0 +1,38 @@
+=== 2026-10-10 14:31:43 uid=0c199bef-29ae-489f-b772-af9a43d6eb0e ===
+Adding: session-06_2024-06-11.md
+  Compiling short doc...
+    summary...... 6.1s (in=2433, out=1305, cached=784)
+    concepts-plan....... 7.4s (in=3787, out=739, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: greek-yogurt... 3.0s (in=3700, out=666, cached=2432)
+    concept: cool-down... 3.3s (in=3664, out=437)
+    concept: warm-up... 4.6s (in=3652, out=783)
+    entity: nut-butter... 2.2s (in=3696, out=567, cached=768)
+    entity: whole-grain-toast... 2.3s (in=3701, out=267)
+    entity: berries... 2.4s (in=3698, out=302)
+    entity: protein-powder... 8.8s (in=3699, out=265, cached=768)
+    concept: mobility-break... 12.2s (in=3651, out=794)
+Concept generation failed: LLM returned empty content for concept 'cool-down'
+    [WARN] 3 concept(s) planned but only 2 written for session-06_2024-06-11 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'whole-grain-toast'
+Entity generation failed: LLM returned empty content for concept 'berries'
+    [WARN] 5 entity(ies) planned but only 3 written for session-06_2024-06-11 (ValueError).
+    summary-rewrite............. 13.1s (in=3683, out=1167)
+  [OK] session-06_2024-06-11.md added to knowledge base.
+Adding: session-32_2024-12-12.md
+  Compiling short doc...
+    summary........... 11.7s (in=2830, out=1189, cached=784)
+    concepts-plan.......... 10.2s (in=4228, out=1036, cached=784)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: green-yellow-red-adjustment... 6.1s (in=4026, out=893, cached=784)
+    concept: morning-routine... 14.9s (in=4022, out=1330, cached=64)
+    concept: habit-formation... 18.8s (in=4022, out=883)
+    update: warm-up... 20.1s (in=4555, out=1318, cached=784)
+    entity: knee... 4.7s (in=4056, out=759, cached=784)
+    update: mobility-break... 18.0s (in=4427, out=571, cached=768)
+    entity: stationary-bike... 11.2s (in=4058, out=628, cached=784)
+    summary-rewrite............... 15.7s (in=4054, out=1310, cached=784)
+  [OK] session-32_2024-12-12.md added to knowledge base.
+done.

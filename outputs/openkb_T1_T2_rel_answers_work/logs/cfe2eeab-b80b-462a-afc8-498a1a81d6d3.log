@@ -1,0 +1,22 @@
+=== 2026-10-10 15:51:21 uid=cfe2eeab-b80b-462a-afc8-498a1a81d6d3 ===
+Adding: session-07_2025-07-15.md
+  Compiling short doc...
+    summary............ 12.6s (in=2513, out=807)
+    concepts-plan.... 4.7s (in=3507, out=244, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    entity: kensington-orbit... 3.3s (in=3406, out=766, cached=784)
+    concept: trackball_ergonomics... 9.1s (in=3377, out=856, cached=784)
+    entity: kensington-expert... 7.5s (in=3406, out=831, cached=784)
+    concept: wrist_neutrality... 12.3s (in=3357, out=830)
+    concept: micro-breaks... 23.1s (in=3377, out=867)
+    summary-rewrite................. 17.6s (in=3401, out=806, cached=768)
+  [OK] session-07_2025-07-15.md added to knowledge base.
+Adding: session-40_2025-11-14.md
+  Compiling short doc...
+    summary............ 12.1s (in=1950, out=790, cached=784)
+    concepts-plan. 1.4s (in=3005, out=103)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-40_2025-11-14 — no concept pages generated. See log (stderr) for details.
+  [OK] session-40_2025-11-14.md added to knowledge base.
+done.

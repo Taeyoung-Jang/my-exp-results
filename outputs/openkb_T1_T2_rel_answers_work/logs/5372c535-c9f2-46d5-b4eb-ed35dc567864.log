@@ -1,0 +1,29 @@
+=== 2026-10-10 15:53:13 uid=5372c535-c9f2-46d5-b4eb-ed35dc567864 ===
+Adding: session-10_2024-06-15.md
+  Compiling short doc...
+    summary........................... 27.1s (in=2426, out=909, cached=64)
+    concepts-plan.... 4.4s (in=3733, out=835, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: tp-link-kasa-smart-plug... 5.1s (in=3674, out=958, cached=3264)
+    concept: behavioral_habit_stacking... 10.4s (in=3619, out=916, cached=784)
+    concept: morning_routine_design... 15.6s (in=3605, out=952)
+    entity: amazon-smart-plug... 11.6s (in=3640, out=814)
+    entity: keurig... 4.7s (in=3669, out=1160, cached=3488)
+    entity: black-decker-switch-brewer... 9.0s (in=3656, out=405, cached=768)
+    concept: smart_home_automation... 33.2s (in=3618, out=880, cached=64)
+    entity: mr-coffee-12-cup-switch... 23.1s (in=3659, out=918)
+    entity: nespresso... 23.2s (in=3652, out=904)
+    summary-rewrite................... 19.2s (in=3636, out=1244)
+  [OK] session-10_2024-06-15.md added to knowledge base.
+Adding: session-35_2024-12-15.md
+  Compiling short doc...
+    summary.... 4.1s (in=1841, out=735, cached=768)
+    concepts-plan.. 2.2s (in=2976, out=142, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: caffeine_timing... 12.2s (in=2676, out=924, cached=784)
+    update: morning_routine_design... 16.0s (in=3284, out=863, cached=64)
+    concept: blood_pressure_measurement... 18.9s (in=2678, out=761)
+    summary-rewrite......... 9.1s (in=2694, out=666)
+  [OK] session-35_2024-12-15.md added to knowledge base.
+done.

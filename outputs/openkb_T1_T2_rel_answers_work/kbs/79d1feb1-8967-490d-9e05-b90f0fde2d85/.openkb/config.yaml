@@ -1,0 +1,5 @@
+concurrency: 4
+language: en
+model: openrouter/openai/gpt-oss-120b
+pageindex_threshold: 20
+timeout: 300

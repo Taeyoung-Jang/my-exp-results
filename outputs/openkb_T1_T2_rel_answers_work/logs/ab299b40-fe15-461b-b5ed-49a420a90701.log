@@ -1,0 +1,24 @@
+=== 2026-10-10 15:33:48 uid=ab299b40-fe15-461b-b5ed-49a420a90701 ===
+Adding: session-04_2023-06-15.md
+  Compiling short doc...
+    summary........... 11.7s (in=2375, out=848)
+    concepts-plan....... 7.7s (in=3355, out=546)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: boundary_setting... 3.2s (in=3199, out=724, cached=68)
+    concept: commitment_flexibility... 7.8s (in=3201, out=361, cached=768)
+    concept: communication_strategies... 7.8s (in=3200, out=455, cached=768)
+    summary-rewrite..... 6.0s (in=3231, out=795)
+  [OK] session-04_2023-06-15.md added to knowledge base.
+Adding: session-40_2024-12-13.md
+  Compiling short doc...
+    summary............... 15.9s (in=2404, out=1244, cached=67)
+    concepts-plan................. 17.6s (in=3670, out=753, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: personal_space_zoning... 10.5s (in=3508, out=614, cached=768)
+    concept: anchor_rituals... 11.8s (in=3494, out=888)
+    concept: quick_reset_routine... 13.7s (in=3494, out=915)
+    summary-rewrite.. 2.5s (in=3521, out=961)
+  [OK] session-40_2024-12-13.md added to knowledge base.
+=== 2026-10-10 15:35:54 uid=ab299b40-fe15-461b-b5ed-49a420a90701 ===
+KB already built; reusing it for queries.
+done.

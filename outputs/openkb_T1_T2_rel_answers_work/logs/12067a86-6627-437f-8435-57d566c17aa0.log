@@ -1,0 +1,34 @@
+=== 2026-10-10 15:50:52 uid=12067a86-6627-437f-8435-57d566c17aa0 ===
+Adding: session-12_2024-07-15.md
+  Compiling short doc...
+    summary........ 8.4s (in=3258, out=1442)
+    concepts-plan.............. 14.1s (in=4560, out=608)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: crash-friendly-evening... 2.3s (in=4410, out=401)
+    concept: low-effort-weekly-routine... 3.8s (in=4430, out=763, cached=768)
+    concept: energy-conservation-strategy... 10.9s (in=4410, out=593, cached=768)
+Concept generation failed: LLM returned empty content for concept 'crash-friendly-evening'
+    [WARN] 3 concept(s) planned but only 2 written for session-12_2024-07-15 (ValueError).
+    summary-rewrite........... 11.5s (in=4441, out=1226, cached=784)
+  [OK] session-12_2024-07-15.md added to knowledge base.
+Adding: session-35_2025-02-14.md
+  Compiling short doc...
+    summary........... 11.1s (in=3091, out=1354, cached=784)
+    concepts-plan.......................... 26.2s (in=3867, out=1395)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: starbucks... 7.3s (in=3768, out=306, cached=768)
+    entity: greek-yogurt... 2.8s (in=3769, out=375)
+    entity: oatmeal... 3.0s (in=3767, out=777, cached=768)
+    concept: portable-workout... 14.6s (in=3721, out=1203)
+    entity: protein-box... 2.9s (in=3766, out=801, cached=3600)
+    concept: sleep-hygiene... 18.0s (in=3734, out=914)
+    concept: jet-lag-management... 18.0s (in=3735, out=556, cached=768)
+    entity: hotel... 2.4s (in=3767, out=350)
+    entity: airport... 9.3s (in=3767, out=751, cached=68)
+Entity generation failed: LLM returned empty content for concept 'greek-yogurt'
+Entity generation failed: LLM returned empty content for concept 'hotel'
+    [WARN] 6 entity(ies) planned but only 4 written for session-35_2025-02-14 (ValueError).
+    summary-rewrite.......... 10.6s (in=3753, out=810)
+  [OK] session-35_2025-02-14.md added to knowledge base.
+done.

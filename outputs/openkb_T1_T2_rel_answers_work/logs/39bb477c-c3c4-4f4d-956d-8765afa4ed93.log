@@ -1,0 +1,63 @@
+=== 2026-10-10 15:58:08 uid=39bb477c-c3c4-4f4d-956d-8765afa4ed93 ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary........... 12.0s (in=2301, out=586, cached=768)
+    concepts-plan................ 16.2s (in=3261, out=916)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: productivity-app-selection... 0.8s (in=3154, out=2, cached=64)
+    concept: weighted-scorecard-evaluation... 2.9s (in=3154, out=598)
+    entity: iphone... 5.5s (in=3188, out=661, cached=784)
+    entity: icloud... 7.3s (in=3188, out=356, cached=64)
+    concept: app-clutter-management... 13.1s (in=3155, out=943, cached=784)
+    entity: apple-notes... 5.3s (in=3188, out=364, cached=768)
+    entity: apple... 9.6s (in=3187, out=960, cached=784)
+    concept: iphone-home-screen-organization... 16.1s (in=3156, out=709, cached=784)
+    entity: apple-messages... 14.9s (in=3188, out=783, cached=784)
+Concept generation failed: LLM returned empty content for concept 'weighted-scorecard-evaluation'
+Concept generation failed: LLM returned empty content for concept 'productivity-app-selection'
+    [WARN] 4 concept(s) planned but only 2 written for session-04_2024-06-15 (ValueError).
+    summary-rewrite................................................. 49.3s (in=3185, out=823)
+[92m15:59:54 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-04_2024-06-15.md added to knowledge base.
+Adding: session-33_2025-02-14.md
+  Compiling short doc...
+    summary.... 4.5s (in=2548, out=1067, cached=768)
+    concepts-plan...... 6.3s (in=3715, out=1715, cached=784)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: browser-first-phone... 3.7s (in=3502, out=731)
+    concept: passkey-authentication... 9.8s (in=3502, out=1175, cached=784)
+    update: app-clutter-management... 12.2s (in=4019, out=791, cached=768)
+    entity: ios... 15.6s (in=3523, out=1037)
+    concept: minimal-iphone-setup... 32.6s (in=3503, out=1223, cached=64)
+    entity: apple-maps... 4.9s (in=3536, out=367, cached=768)
+    entity: safari... 30.6s (in=3535, out=997, cached=64)
+    update: iphone-home-screen-organization... 41.0s (in=3962, out=1271, cached=64)
+    entity: app-store... 4.7s (in=3536, out=424, cached=768)
+    entity: facetime... 32.9s (in=3536, out=752, cached=64)
+    entity: apple-wallet... 30.4s (in=3536, out=1402)
+    entity: hardware-security-key... 29.7s (in=3537, out=831, cached=64)
+    entity: authenticator-app... 42.4s (in=3537, out=1116, cached=64)
+Concept generation failed: LLM returned empty content for concept 'browser-first-phone'
+    [WARN] 5 concept(s) planned but only 4 written for session-33_2025-02-14 (ValueError).
+    summary-rewrite.. 2.4s (in=3526, out=1007)
+  [OK] session-33_2025-02-14.md added to knowledge base.
+[92m16:03:01 - LiteLLM:WARNING[0m: core_helpers.py:112 - Unmapped finish_reason 'error', defaulting to 'stop'
+done.

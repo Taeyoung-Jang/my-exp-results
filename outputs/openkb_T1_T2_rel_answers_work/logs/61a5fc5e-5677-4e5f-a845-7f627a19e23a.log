@@ -1,0 +1,29 @@
+=== 2026-10-10 14:29:25 uid=61a5fc5e-5677-4e5f-a845-7f627a19e23a ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary........................ 25.0s (in=1874, out=1156, cached=64)
+    concepts-plan.. 2.3s (in=3056, out=329)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-06_2024-06-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-40_2025-02-14.md
+  Compiling short doc...
+    summary..... 5.5s (in=2872, out=1308, cached=800)
+    concepts-plan.......... 10.9s (in=4303, out=929, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: low-odor-food-storage... 6.2s (in=4201, out=728)
+    concept: single-serve-packaging... 7.6s (in=4200, out=1074)
+    entity: bens-original... 10.1s (in=4235, out=833, cached=784)
+    entity: trader-joes... 3.3s (in=4235, out=605, cached=784)
+    entity: goya... 11.2s (in=4234, out=876)
+    entity: justins... 9.5s (in=4234, out=801, cached=784)
+    entity: wasa... 9.4s (in=4234, out=742, cached=784)
+    entity: ready-rice... 12.5s (in=4234, out=1311, cached=784)
+    concept: micro-pantry... 44.5s (in=4199, out=1449, cached=48)
+Concept generation failed: LLM returned empty content for concept 'low-odor-food-storage'
+Concept generation failed: LLM returned empty content for concept 'single-serve-packaging'
+    [WARN] 3 concept(s) planned but only 1 written for session-40_2025-02-14 (ValueError).
+    summary-rewrite......... 9.1s (in=4231, out=1428, cached=784)
+  [OK] session-40_2025-02-14.md added to knowledge base.
+done.

@@ -1,0 +1,28 @@
+=== 2026-10-10 15:57:46 uid=ec3746de-28fd-4eb0-8969-150377699d39 ===
+Adding: session-11_2024-09-15.md
+  Compiling short doc...
+    summary...... 6.4s (in=1785, out=597, cached=784)
+    concepts-plan....... 7.3s (in=2576, out=163, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: budgeting-for-irregular-home-expenses... 6.4s (in=2432, out=799, cached=784)
+    concept: home-repair-fund... 17.1s (in=2428, out=518, cached=64)
+    concept: maintenance-budgeting-rule-of-thumb... 20.6s (in=2431, out=532, cached=768)
+    summary-rewrite.............. 14.7s (in=2459, out=566, cached=64)
+  [OK] session-11_2024-09-15.md added to knowledge base.
+Adding: session-38_2025-05-17.md
+  Compiling short doc...
+    summary...... 6.1s (in=2829, out=1171)
+    concepts-plan................. 17.1s (in=4242, out=1000, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: homeowners-association... 3.7s (in=4143, out=871, cached=784)
+    concept: property-tax-escrow... 15.5s (in=4093, out=974)
+    entity: county-recorder-office... 13.0s (in=4139, out=954, cached=784)
+    concept: hoa-onboarding... 19.4s (in=4105, out=1039, cached=64)
+    entity: closing-disclosure... 4.6s (in=4138, out=951, cached=784)
+    concept: post-closing-checklist... 21.6s (in=4092, out=1223)
+    entity: mortgage-servicer-portal... 8.3s (in=4141, out=871, cached=784)
+    entity: recorded-deed... 14.2s (in=4126, out=948)
+    summary-rewrite....... 7.0s (in=4135, out=1789, cached=3968)
+  [OK] session-38_2025-05-17.md added to knowledge base.
+done.

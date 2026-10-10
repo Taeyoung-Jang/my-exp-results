@@ -1,0 +1,32 @@
+=== 2026-10-10 14:18:55 uid=ca76ab25-bbce-44e0-a219-c7c8b81ff41e ===
+Adding: session-05_2025-01-23.md
+  Compiling short doc...
+    summary........... 11.1s (in=1832, out=667)
+    concepts-plan..... 5.3s (in=2707, out=625, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: dark_noise... 2.9s (in=2605, out=618, cached=784)
+    concept: acoustic_dampening... 5.8s (in=2571, out=774, cached=64)
+    entity: noisli... 8.9s (in=2606, out=646, cached=64)
+    concept: background_sound_masking... 12.4s (in=2559, out=830)
+    entity: endel... 10.0s (in=2592, out=626)
+    concept: white_noise_vs_brown_noise... 20.8s (in=2573, out=835, cached=784)
+    summary-rewrite........ 8.3s (in=2602, out=787)
+  [OK] session-05_2025-01-23.md added to knowledge base.
+Adding: session-33_2025-04-24.md
+  Compiling short doc...
+    summary... 3.7s (in=1828, out=678, cached=768)
+    concepts-plan......... 9.8s (in=2862, out=726, cached=784)
+    Generating 7 concept(s) (concurrency=4)...
+    concept: scent_guided_selection... 3.2s (in=2706, out=723)
+    concept: market_navigation... 3.6s (in=2683, out=848, cached=1824)
+    concept: red_flags_stall_quality... 2.9s (in=2669, out=618, cached=2544)
+    concept: atmosphere_immersion... 6.1s (in=2668, out=1452, cached=784)
+    concept: green_flags_stall_quality... 9.7s (in=2669, out=705, cached=64)
+    concept: noise_resilient_ordering... 4.2s (in=2669, out=501)
+    concept: tie_breaker_local_preference... 15.6s (in=2669, out=1000, cached=64)
+Concept generation failed: LLM returned empty content for concept 'noise_resilient_ordering'
+    [WARN] 7 concept(s) planned but only 6 written for session-33_2025-04-24 (ValueError).
+    summary-rewrite..... 5.8s (in=2702, out=720, cached=768)
+  [OK] session-33_2025-04-24.md added to knowledge base.
+done.

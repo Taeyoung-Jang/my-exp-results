@@ -1,0 +1,30 @@
+=== 2026-10-10 15:45:57 uid=d590439d-f8cd-4f70-8040-ffc1ff1a231e ===
+Adding: session-03_2023-06-15.md
+  Compiling short doc...
+    summary.................. 19.0s (in=2360, out=849, cached=64)
+    concepts-plan.. 2.1s (in=3229, out=217)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-03_2023-06-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-03_2023-06-15.md added to knowledge base.
+Adding: session-33_2024-06-15.md
+  Compiling short doc...
+    summary..... 5.4s (in=3830, out=1286, cached=69)
+    concepts-plan........... 11.3s (in=5233, out=923)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: rider-contingency-planning... 4.1s (in=5163, out=1008, cached=784)
+    entity: 311... 6.3s (in=5195, out=410, cached=64)
+    concept: public-transit-disruption-management... 6.7s (in=5162, out=959)
+    entity: rider-union... 5.9s (in=5195, out=409, cached=768)
+    concept: real-time-communication... 14.2s (in=5162, out=1015, cached=784)
+    entity: city-council... 18.1s (in=5195, out=877, cached=64)
+    entity: bike-share... 14.8s (in=5196, out=811, cached=784)
+    entity: transit-board... 29.2s (in=5195, out=861, cached=64)
+    entity: transit-app... 14.6s (in=5195, out=702)
+    entity: ride-hail... 30.7s (in=5197, out=964, cached=64)
+    entity: shuttle-bus-service... 28.3s (in=5196, out=991)
+Concept generation failed: LLM returned empty content for concept 'public-transit-disruption-management'
+    [WARN] 3 concept(s) planned but only 2 written for session-33_2024-06-15 (ValueError).
+    summary-rewrite................... 19.2s (in=5192, out=1375, cached=800)
+  [OK] session-33_2024-06-15.md added to knowledge base.
+done.

@@ -1,0 +1,29 @@
+=== 2026-10-10 14:31:56 uid=1d2d6781-9a41-4f96-8b33-cafbaba47f15 ===
+Adding: session-13_2024-06-15.md
+  Compiling short doc...
+    summary... 3.7s (in=2471, out=837, cached=784)
+    concepts-plan.... 4.6s (in=3367, out=142, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: morning-routine... 3.5s (in=3228, out=762, cached=768)
+    concept: phone-free-productivity... 6.7s (in=3213, out=704, cached=784)
+    concept: grounding-exercises... 7.8s (in=3199, out=700)
+    summary-rewrite....... 7.4s (in=3240, out=717, cached=64)
+  [OK] session-13_2024-06-15.md added to knowledge base.
+Adding: session-39_2024-12-16.md
+  Compiling short doc...
+    summary......... 9.3s (in=2457, out=958, cached=784)
+    concepts-plan............. 13.4s (in=3574, out=1427, cached=2448)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: attention-friction... 8.0s (in=3408, out=745, cached=3056)
+    concept: focus-mode... 10.1s (in=3410, out=1119, cached=784)
+    concept: morning-quick-check... 12.0s (in=3409, out=1150, cached=2448)
+    update: morning-routine... 12.6s (in=3929, out=1446, cached=784)
+    entity: iphone... 8.4s (in=3442, out=809, cached=3280)
+    entity: ios... 6.6s (in=3442, out=743, cached=3280)
+    entity: messages... 7.2s (in=3446, out=710, cached=3280)
+    update: phone-free-productivity... 14.8s (in=3934, out=1565, cached=3280)
+    entity: calendar... 8.0s (in=3446, out=346, cached=64)
+    summary-rewrite....... 7.8s (in=3439, out=811, cached=3280)
+  [OK] session-39_2024-12-16.md added to knowledge base.
+done.

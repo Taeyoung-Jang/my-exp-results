@@ -1,0 +1,38 @@
+=== 2026-10-10 15:27:01 uid=dafb876f-f85e-4d8b-8522-71a4bbd5a492 ===
+Adding: session-02_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.9s (in=1737, out=438, cached=64)
+    concepts-plan........................ 24.2s (in=2575, out=889, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 10 entity(ies) (concurrency=4)...
+    concept: family-friendly-daytime-events... 4.1s (in=2507, out=817, cached=768)
+    concept: date-verification-workflow... 4.3s (in=2487, out=621, cached=64)
+    entity: visit-seattle... 4.7s (in=2521, out=765, cached=64)
+    concept: event-calendar-reliability... 7.2s (in=2487, out=1205, cached=784)
+    entity: seattle-met... 4.5s (in=2521, out=746, cached=784)
+    entity: seattle-center... 3.3s (in=2521, out=698, cached=784)
+    entity: seattle-times... 9.2s (in=2508, out=689)
+    entity: the-stranger... 10.2s (in=2508, out=824)
+    entity: paramount-theater... 2.3s (in=2520, out=264)
+    entity: moore-theater... 3.2s (in=2521, out=681, cached=2352)
+    entity: stg-presents... 12.4s (in=2509, out=1040)
+    entity: seattle... 5.9s (in=2520, out=407, cached=768)
+    entity: neptune-theater... 8.6s (in=2508, out=662)
+Entity generation failed: LLM returned empty content for concept 'paramount-theater'
+    [WARN] 10 entity(ies) planned but only 9 written for session-02_2024-06-15 (ValueError).
+    summary-rewrite........................................................................... 75.3s (in=2518, out=919)
+  [OK] session-02_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-02-15.md
+  Compiling short doc...
+    summary.......... 10.4s (in=2172, out=899, cached=784)
+    concepts-plan......... 9.2s (in=3504, out=717)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: address-change... 6.7s (in=3162, out=859, cached=784)
+    concept: driver-license-transfer... 9.9s (in=3150, out=956)
+    concept: vehicle-registration... 11.1s (in=3162, out=874, cached=64)
+    entity: usps... 12.1s (in=3186, out=905)
+    entity: dmv... 9.1s (in=3186, out=889)
+    summary-rewrite.... 4.8s (in=3194, out=936, cached=784)
+  [OK] session-39_2025-02-15.md added to knowledge base.
+done.

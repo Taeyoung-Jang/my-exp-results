@@ -1,0 +1,21 @@
+=== 2026-10-10 15:46:40 uid=6a359ec1-7c88-47af-9f5c-2e99d6bba006 ===
+Adding: session-09_2024-06-15.md
+  Compiling short doc...
+    summary..... 5.2s (in=1975, out=957, cached=784)
+    concepts-plan......... 9.6s (in=3048, out=421)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: zero-waste-food-storage... 3.9s (in=2937, out=813)
+    concept: reusable-container-ordering... 3.9s (in=2899, out=657)
+    concept: low-waste-grocery-practices... 5.3s (in=2901, out=809, cached=784)
+Concept generation failed: LLM returned empty content for concept 'reusable-container-ordering'
+    [WARN] 3 concept(s) planned but only 2 written for session-09_2024-06-15 (ValueError).
+    summary-rewrite... 3.5s (in=2930, out=901, cached=784)
+  [OK] session-09_2024-06-15.md added to knowledge base.
+Adding: session-36_2024-12-16.md
+  Compiling short doc...
+    summary............. 13.9s (in=2048, out=967, cached=784)
+    concepts-plan.. 2.6s (in=3174, out=260)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-36_2024-12-16 — no concept pages generated. See log (stderr) for details.
+  [OK] session-36_2024-12-16.md added to knowledge base.
+done.

@@ -1,0 +1,32 @@
+{
+  "uid": "6f69a06e-01a9-442e-927b-70f40d6cc8f3",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    12,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "The only information we have about the user’s credit score comes from the June 2023 conversation (session 13).  In that session the user explicitly said:\n\n> “I’ve **maintained a credit score over 750** for a while now”【sources/session-13_2023-06-15.md†L9-L11】.\n\nNo later conversation in the knowledge base mentions the score changing or provides any new data. Therefore, based on the available history, the user **still reports having a credit score above 750**, and there’s no evidence to the contrary.",
+    "dim2_response": "I’m unable to locate any information in the knowledge base about premium loan options, low‑rate loan‑shopping strategies, or advice tailored to a user who has maintained a credit score over 750. The available documents focus on medical‑billing disputes and credit‑card reward comparisons, and there are no relevant session notes, concepts, or entity pages covering personal‑loan guidance. \n\nIf you’d like, you can provide or ingest additional material on loan products and rate‑optimization strategies, and I’ll be able to synthesize recommendations from that content.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about applying for major financial products or guidance on the approval process."
+  },
+  "build_seconds": 77.0,
+  "total_seconds": 139.3,
+  "usage": {
+    "compile": {
+      "calls": 8,
+      "prompt_tokens": 30752,
+      "completion_tokens": 6629,
+      "cost_usd": 0.00241105
+    },
+    "query": {
+      "calls": 21,
+      "prompt_tokens": 50300,
+      "completion_tokens": 2928,
+      "cost_usd": 0.0020360400000000002
+    }
+  }
+}

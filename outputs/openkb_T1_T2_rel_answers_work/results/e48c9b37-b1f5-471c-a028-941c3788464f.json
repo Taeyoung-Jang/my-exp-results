@@ -1,0 +1,32 @@
+{
+  "uid": "e48c9b37-b1f5-471c-a028-941c3788464f",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    11,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. According to the earlier guidance (session 12 – 2025‑06‑17), the user was encouraged to move from “four nights out” to a healthier pattern of 2‑3 social evenings per week. The later conversation (session 35 – 2025‑09‑17) focuses on how the user’s new pre‑dawn bakery shifts further restrict their availability, reinforcing that they are no longer meeting friends four nights a week.",
+    "dim2_response": "**Weeknight Social Plan (4 nights / week)**  \n\n| Night | Role | Quick note | Example go‑to activity |\n|-------|------|------------|------------------------|\n| **Mon** | *Social (steady)* | Start the week with a low‑key but regular meet‑up so it feels routine rather than a “big‑out”. | **Board‑game night** at a friend’s place (easy set‑up, 1–2 h). |\n| **Tue** | *Rest / personal* | Keep a guaranteed “recharge” evening to avoid burnout. | **Solo hobby** (reading, journaling, short workout). |\n| **Wed** | *Social (flex)* | A “maybe” night – only if you have energy after work. Having a predefined activity makes the decision quick. | **Walk‑and‑talk** at a nearby park or coffee shop (30 min – 1 h). |\n| **Thu** | *Social (steady)* | End the weekday stretch with a slightly more social option, still before the weekend rush. | **Cooking‑together** (simple recipe, 1 h) at a friend’s apartment. |\n| **Fri‑Sun** | *Free / optional* | Outside the 4‑night target; you can stay flexible for weekend events. | – |\n\n> **Why this works** – The summary of **session‑12 (2025‑06‑17)** recommends “treating downtime as a non‑negotiable commitment” while still keeping **four** social evenings. By anchoring two **steady** nights (Mon & Thu) and adding a **flex** night (Wed) plus a **low‑key** starter (Mon), the routine stays predictable yet adaptable, reducing the risk of feeling drained or over‑committed【source: summaries/session-12_2025-06-17.md】.\n\n### Go‑to Activity Toolkit\n1. **Board‑game night** – Minimal prep, social interaction, easy to pause if you’re tired.  \n2. **Walk‑and‑talk** – Outdoor, short, no need for a venue; works as a “maybe” night.  \n3. **Cooking together** – Shared task, ends with a bite‑to‑eat; keeps the vibe relaxed.  \n4. **Mini‑movie/TV episode** – Pick a 30‑45 min show; can be streamed at a friend’s place.  \n5. **Creative jam** – Quick craft, sketching, or music session; low pressure but collaborative.\n\n### Keeping the Routine Consistent\n1. **Calendar‑based self‑care** – Block the four nights on your digital calendar (e.g., Google Calendar) with the label *Social* and color‑code them. Treat the *Rest* night (Tue) as a fixed appointment too【concepts/calendar-based-self-care】.  \n2. **Pause‑and‑plan rule** – Before accepting a new invitation, glance at your calendar to see if a *flex* night is open. This prevents last‑minute overload.  \n3. **Polite decline script** – If a friend asks for an additional night, use a short, friendly line such as: “I’m keeping tonight low‑key, let’s plan another time.” (see the decline scripts in the same session)【source: summaries/session-12_2025-06-17.md】.  \n\nBy following this structured yet flexible schedule and keeping a handful of easy‑to‑start activities at hand, you’ll be able to sustain a four‑night‑a‑week social rhythm without sacrificing energy or feeling flaky.",
+    "dim3_response": "I don’t have any entries in the knowledge base that speak directly to your situation, but I can offer some general things to think about when deciding whether to join the trivia team:\n\n| Consideration | Why it matters |\n|---------------|----------------|\n| **Schedule fit** | The games start at 9:30 PM on Tuesdays and Thursdays. Make sure that later‑night commitments (work, family, sleep, travel) won’t be jeopardized. |\n| **Season length** | A “whole season” can span several months. Ask how many weeks it runs and whether there are any breaks or extra events that might conflict with other plans. |\n| **Financial trade‑off** | Your friends are covering the entry fee, which removes a direct cost for you. Think about any other expenses (e.g., travel to the venue, drinks, snacks) that might arise. |\n| **Team dynamics** | A stable, friendly group can make the experience enjoyable, but make sure you’ll get along with the existing members and that the commitment level (e.g., practicing, researching answers) matches your expectations. |\n| **Opportunity cost** | Consider what you’d be giving up for those evening slots—other hobbies, study time, rest, or social activities. |\n| **Enjoyment of trivia** | If you already like quiz games, the extra practice and camaraderie can be fun and mentally stimulating. If it’s a new thing, think about whether you’re excited to learn and compete. |\n| **Long‑term benefit** | Regular trivia can improve general knowledge, quick‑thinking, and teamwork skills. Weigh those pros against any potential downsides. |\n\n**Decision tip:**  \nWrite down the pros and cons using the points above, and see which side outweighs the other for you. If the positives (free entry, social fun, mental workout) outweigh the negatives (late nights, time commitment), it’s a good sign to say “yes.” If you’re unsure about the schedule or the team vibe, ask a few clarifying questions (e.g., exact season dates, expected attendance) before committing."
+  },
+  "build_seconds": 89.3,
+  "total_seconds": 120.5,
+  "usage": {
+    "compile": {
+      "calls": 13,
+      "prompt_tokens": 34148,
+      "completion_tokens": 9961,
+      "cost_usd": 0.003266785
+    },
+    "query": {
+      "calls": 8,
+      "prompt_tokens": 15816,
+      "completion_tokens": 2420,
+      "cost_usd": 0.00091008
+    }
+  }
+}

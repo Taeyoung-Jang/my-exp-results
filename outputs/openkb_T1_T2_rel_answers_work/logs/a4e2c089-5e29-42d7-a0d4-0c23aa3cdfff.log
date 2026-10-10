@@ -1,0 +1,33 @@
+=== 2026-10-10 15:53:46 uid=a4e2c089-5e29-42d7-a0d4-0c23aa3cdfff ===
+Adding: session-13_2025-05-03.md
+  Compiling short doc...
+    summary................... 20.0s (in=3318, out=1136, cached=64)
+    concepts-plan... 3.7s (in=4831, out=205, cached=3296)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: recovery-first-scheduling... 3.9s (in=4728, out=812)
+    concept: low-activity-cap... 7.7s (in=4692, out=562, cached=4352)
+    concept: recovery-markers... 9.6s (in=4691, out=947, cached=784)
+    concept: hard-day-structure... 9.8s (in=4692, out=756, cached=3296)
+    concept: weekly-progression... 11.5s (in=4690, out=1839, cached=68)
+    summary-rewrite.................. 18.0s (in=4722, out=1406, cached=4544)
+  [OK] session-13_2025-05-03.md added to knowledge base.
+Adding: session-36_2025-09-02.md
+  Compiling short doc...
+    summary.......... 10.2s (in=1866, out=957, cached=64)
+    concepts-plan...... 6.0s (in=2727, out=1007, cached=784)
+    Generating 10 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: structured_workouts... 4.2s (in=2566, out=1081, cached=784)
+    concept: interval_training... 6.1s (in=2565, out=969, cached=784)
+    concept: training_volume... 6.5s (in=2565, out=1071, cached=784)
+    concept: easy_days... 10.7s (in=2565, out=1416, cached=784)
+    concept: hill_training... 17.1s (in=2552, out=1121)
+    concept: rest_day... 5.3s (in=2565, out=878, cached=2432)
+    concept: deload_week... 6.2s (in=2566, out=1058, cached=2432)
+    concept: endurance_training... 7.1s (in=2566, out=1222, cached=2432)
+    update: recovery-markers... 6.3s (in=2905, out=1092, cached=2432)
+    entity: spring-charity-ride... 5.3s (in=2601, out=957, cached=2432)
+    concept: steady_mileage... 30.8s (in=2566, out=1533, cached=784)
+    summary-rewrite.... 4.5s (in=2597, out=739, cached=2432)
+  [OK] session-36_2025-09-02.md added to knowledge base.
+done.

@@ -1,0 +1,32 @@
+{
+  "uid": "376e7339-7dd5-4a26-9c5c-ab9ca9f34c88",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    4,
+    38
+  ],
+  "target_model_responses": {
+    "dim1_response": "The knowledge base does not contain any statement about the user’s weight being ≈ 150 lb or that this figure is a stable baseline. The only weight‑related information in the conversation history (see the summary of **session‑39_2024‑12‑16**) mentions “weight fluctuations” as a symptom to track, but it gives no concrete number.  \n\n**Therefore, based on the available conversation records, we cannot confirm that the user’s body weight reliably hovers around 150 pounds.**",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain any information about meal plans, exercise routines, or weight‑maintenance strategies, so I’m unable to create the requested 8‑week plan from the available content.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information on wedding‑dress measurements, tailoring practices, or how to handle updates to personal measurements. Consequently, I can’t provide a wiki‑sourced answer to your question."
+  },
+  "build_seconds": 72.7,
+  "total_seconds": 92.7,
+  "usage": {
+    "compile": {
+      "calls": 19,
+      "prompt_tokens": 62880,
+      "completion_tokens": 17497,
+      "cost_usd": 0.00984841
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 21515,
+      "completion_tokens": 1057,
+      "cost_usd": 0.00086861
+    }
+  }
+}

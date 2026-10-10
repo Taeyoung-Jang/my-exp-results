@@ -1,0 +1,35 @@
+=== 2026-10-10 14:35:18 uid=7c8f583b-06e0-4ba1-a1fc-374af0d46515 ===
+Adding: session-07_2023-10-15.md
+  Compiling short doc...
+    summary.......................... 26.7s (in=2486, out=925, cached=64)
+    concepts-plan........ 8.6s (in=3512, out=262, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: leather-jacket-maintenance... 5.0s (in=3379, out=674)
+    entity: synthetic-satin... 11.8s (in=3417, out=762, cached=784)
+    concept: repair-decision-criteria... 16.6s (in=3380, out=1023, cached=784)
+    concept: clothing-keepers... 17.4s (in=3380, out=849, cached=784)
+    entity: zipper-slider... 8.7s (in=3415, out=665, cached=3248)
+    entity: leather-jacket... 22.1s (in=3414, out=849, cached=64)
+Concept generation failed: LLM returned empty content for concept 'leather-jacket-maintenance'
+    [WARN] 3 concept(s) planned but only 2 written for session-07_2023-10-15 (ValueError).
+    summary-rewrite....... 7.3s (in=3411, out=926, cached=784)
+  [OK] session-07_2023-10-15.md added to knowledge base.
+Adding: session-40_2024-10-15.md
+  Compiling short doc...
+    summary.... 4.9s (in=2151, out=985, cached=784)
+    concepts-plan.... 4.7s (in=3191, out=774, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: color-versatility... 3.2s (in=3020, out=883, cached=768)
+    concept: outerwear-rotation... 4.7s (in=3040, out=933, cached=800)
+    concept: layering-strategy... 4.8s (in=3040, out=990, cached=768)
+    entity: harrington-jacket... 7.1s (in=3058, out=422, cached=768)
+    entity: bomber-jacket... 4.4s (in=3058, out=873, cached=784)
+    entity: hoodie... 11.6s (in=3056, out=919)
+    entity: parka... 7.7s (in=3057, out=387, cached=768)
+    entity: denim-jacket... 18.0s (in=3057, out=695, cached=64)
+    entity: wool-topcoat... 25.0s (in=3058, out=881, cached=64)
+    summary-rewrite............. 13.1s (in=3054, out=847, cached=2880)
+  [OK] session-40_2024-10-15.md added to knowledge base.
+done.

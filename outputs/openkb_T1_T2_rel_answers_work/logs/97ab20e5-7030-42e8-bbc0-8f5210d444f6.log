@@ -1,0 +1,43 @@
+=== 2026-10-10 15:56:20 uid=97ab20e5-7030-42e8-bbc0-8f5210d444f6 ===
+Adding: session-03_2025-06-14.md
+  Compiling short doc...
+    summary.................. 19.0s (in=2650, out=1113, cached=768)
+    concepts-plan......... 9.0s (in=4091, out=626)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: launch_packet_template... 4.5s (in=3990, out=994, cached=784)
+    concept: launch_checklist... 8.5s (in=3954, out=600, cached=768)
+    concept: delegation_strategy... 13.7s (in=3945, out=1067)
+    concept: marketing_campaign_workflow... 19.4s (in=3955, out=1011, cached=784)
+    summary-rewrite....................... 23.4s (in=3986, out=1209, cached=784)
+[92m15:57:31 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-03_2025-06-14.md added to knowledge base.
+Adding: session-35_2025-06-21.md
+  Compiling short doc...
+    summary..... 5.3s (in=2607, out=837, cached=784)
+    concepts-plan............................... 31.4s (in=3708, out=987)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: out_of_office... 5.2s (in=3532, out=1062, cached=2608)
+    concept: boundary_setting... 9.9s (in=3528, out=849, cached=784)
+    concept: notification_friction... 15.5s (in=3529, out=638, cached=768)
+    entity: slack... 20.1s (in=3549, out=1042)
+    summary-rewrite................ 16.5s (in=3560, out=820)
+  [OK] session-35_2025-06-21.md added to knowledge base.
+done.

@@ -1,0 +1,35 @@
+=== 2026-10-10 15:46:01 uid=16763588-459c-4dca-95ec-f7ff02c5a940 ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary................................................ 48.2s (in=2044, out=1536, cached=64)
+    concepts-plan............. 13.3s (in=3151, out=584, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: cost-time-stress... 4.4s (in=2996, out=630)
+    concept: urban-infrastructure... 5.9s (in=2995, out=447, cached=768)
+    concept: mode-selection... 24.1s (in=2993, out=782, cached=784)
+Concept generation failed: LLM returned empty content for concept 'cost-time-stress'
+    [WARN] 3 concept(s) planned but only 2 written for session-06_2024-06-15 (ValueError).
+    summary-rewrite................ 16.5s (in=3025, out=943, cached=784)
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-03-14.md
+  Compiling short doc...
+    summary............................... 32.0s (in=2253, out=827, cached=64)
+    concepts-plan........ 8.5s (in=3327, out=358, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: kitchen-setup-optimization... 7.0s (in=3208, out=1082, cached=768)
+    entity: dycem... 10.4s (in=3232, out=862)
+    concept: wrist-friendly-tool-design... 10.9s (in=3213, out=1373, cached=784)
+    entity: oxo-good-grips... 9.5s (in=3249, out=333, cached=64)
+    entity: sammons-preston... 7.1s (in=3246, out=870, cached=3072)
+    entity: swedish-cutting-board... 3.4s (in=3246, out=859, cached=784)
+    entity: rocker-knife... 2.7s (in=3245, out=340)
+    entity: ez-off... 10.6s (in=3249, out=408, cached=64)
+    entity: kohn-rikon... 5.4s (in=3247, out=675, cached=3088)
+    concept: one-handed-cooking... 45.8s (in=3213, out=1737, cached=64)
+Entity generation failed: LLM returned empty content for concept 'rocker-knife'
+    [WARN] 7 entity(ies) planned but only 6 written for session-39_2025-03-14 (ValueError).
+    summary-rewrite............... 15.3s (in=3242, out=1138)
+  [OK] session-39_2025-03-14.md added to knowledge base.
+[92m15:49:36 - LiteLLM:WARNING[0m: core_helpers.py:112 - Unmapped finish_reason 'error', defaulting to 'stop'
+done.

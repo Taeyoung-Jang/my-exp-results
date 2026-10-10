@@ -1,0 +1,38 @@
+=== 2026-10-10 15:44:42 uid=a43bf517-6c49-4433-8468-463b49aa83cf ===
+Adding: session-05_2024-06-15.md
+  Compiling short doc...
+    summary....... 7.9s (in=1939, out=834)
+    concepts-plan........ 8.6s (in=2983, out=348, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: 24-70mm-f4... 3.0s (in=2905, out=516)
+    concept: b-roll-workflow... 9.6s (in=2864, out=658, cached=768)
+    entity: 70-200mm... 8.2s (in=2903, out=356, cached=768)
+    concept: stabilization-choice... 11.7s (in=2863, out=928, cached=784)
+    concept: zoom-rental-decision... 12.3s (in=2863, out=904, cached=784)
+    entity: ibis... 4.4s (in=2922, out=741, cached=768)
+    entity: lens-is... 6.9s (in=2903, out=419, cached=768)
+    entity: gimbal... 20.1s (in=2898, out=758, cached=64)
+Entity generation failed: LLM returned empty content for concept '24-70mm-f4'
+    [WARN] 5 entity(ies) planned but only 4 written for session-05_2024-06-15 (ValueError).
+    summary-rewrite............... 15.6s (in=2881, out=1530)
+  [OK] session-05_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-02-13.md
+  Compiling short doc...
+    summary....... 7.1s (in=2595, out=1508, cached=800)
+    concepts-plan... 3.6s (in=3771, out=758, cached=66)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: samsung-tv... 3.6s (in=3591, out=801, cached=66)
+    concept: replacement-cost-estimation... 4.7s (in=3559, out=1029, cached=786)
+    entity: bookshelf-speakers... 2.3s (in=3592, out=341)
+    entity: power-drill... 3.3s (in=3628, out=681)
+    concept: proof-of-ownership... 9.8s (in=3545, out=909)
+    entity: best-buy... 6.4s (in=3592, out=670, cached=784)
+    entity: amazon... 7.8s (in=3591, out=285, cached=768)
+    concept: insurance-claim-documentation... 20.4s (in=3558, out=772, cached=768)
+Entity generation failed: LLM returned empty content for concept 'bookshelf-speakers'
+    [WARN] 5 entity(ies) planned but only 4 written for session-39_2025-02-13 (ValueError).
+    summary-rewrite........ 8.9s (in=3576, out=977)
+  [OK] session-39_2025-02-13.md added to knowledge base.
+done.

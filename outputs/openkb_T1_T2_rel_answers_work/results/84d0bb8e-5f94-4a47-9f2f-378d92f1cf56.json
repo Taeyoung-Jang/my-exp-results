@@ -1,0 +1,32 @@
+{
+  "uid": "84d0bb8e-5f94-4a47-9f2f-378d92f1cf56",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    7,
+    30
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the most recent session (2025‑03‑13) the user asked for “gentle, quick **body‑awareness** checks … that avoid turning into anxiety‑driven monitoring.” The assistant responded with neutral scripts, single‑cue check‑ins, and “if/then” habits specifically designed to *prevent* obsessive health‑testing and to “embed **body awareness** as a background habit… without becoming an obsessive health test” [[summaries/session-31_2025-03-13]]. These recommendations indicate that the user is now working toward trusting their body and no longer feels the need to second‑guess every little pain.",
+    "dim2_response": "**Suggested routine – “Full‑Body Power HIIT” (3 sessions this week)**  \n\n| Day | Warm‑up (5 min) | Main set (30 min) – 4 rounds | Cool‑down (5 min) |\n|-----|----------------|------------------------------|-------------------|\n| **Mon** | Light jog or brisk walk | 40 s × body‑weight squat → 20 s rest  <br> 40 s × push‑up → 20 s rest  <br> 40 s × alternating reverse‑lunge → 20 s rest  <br> 40 s × plank shoulder‑tap → 20 s rest | Stretch major muscle groups, focusing on breath |\n| **Wed** | Dynamic mobility (arm circles, hip swings) | 45 s × jump‑squat → 15 s rest  <br> 45 s × renegade row (each side) → 15 s rest  <br> 45 s × single‑leg dead‑lift (body‑weight) → 15 s rest  <br> 45 s × mountain‑climber → 15 s rest | Gentle yoga flow, deep diaphragmatic breathing |\n| **Fri** | Light bike or jump rope | 30 s × burpee → 30 s rest  <br> 30 s × bicycle crunch → 30 s rest  <br> 30 s × reverse‑fly (light bands) → 30 s rest  <br> 30 s × high‑knees → 30 s rest | Full‑body stretch, “Noticing, then moving on” body‑scan (see below) |\n\n*Progression:* each round add a 5‑second “on” interval or a few extra reps; keep rest intervals the same. The total workout stays under 45 minutes, making it challenging yet manageable.\n\n---\n\n### Why it’s safe for someone who trusts their body and doesn’t over‑analyze minor pains\n\n1. **Baseline‑driven monitoring** – The routine is built around the *Body Awareness* practice you already use. Before each session (and after the cool‑down) you perform a short, neutral check‑in (“Noticing, then moving on”) to note any new discomfort, heart‑rate, or breathing changes. This gives you a real‑time reference for what “normal post‑exercise soreness” feels like. [[concepts/body_awareness]]\n\n2. **Gentle “window of observation”** – The guidelines from your sessions advise giving minor aches a brief observation window (minutes to an hour) before reacting. Most post‑workout muscle tightness fades within that period, so you can stay in the flow of the workout without unnecessary interruption. [[concepts/body_awareness]]\n\n3. **If/Then safety rules** – Apply the same habit loops you use while shopping:  \n   - *If* a small twinge appears, *then* take one slow breath, relax the relevant muscle, and keep moving.  \n   - *If* the sensation persists beyond the observation window or interferes with the next movement, *then* pause, stretch, and assess whether you need to modify the exercise.  \n   This mirrors the “If‑Then” rules already encoded for everyday errands, keeping the response automatic and non‑anxious. [[concepts/body_awareness]]\n\n4. **Red‑flag awareness** – Your body‑awareness system already distinguishes routine soreness from warning signs (sharp, radiating pain, swelling, sudden loss of strength, or symptoms that linger for days). If any of those appear, the decision‑tree tells you to “Track → Seek care → Urgent/ER,” but ordinary workout fatigue stays safely in the “Wait → Track” zone. [[concepts/red_flags]] [[concepts/symptom_decision_tree]]\n\n5. **Progressive overload with built‑in rest** – Each HIIT round includes a 20‑30 second rest, giving muscles time to recover even as you push intensity. The structured rest periods prevent cumulative strain while still delivering a challenging stimulus.\n\n---\n\n### Quick “neutral script” to use during the routine  \n\n> “**Noticing a tightness in my thighs, then moving on.**”  \n\nSay this silently the moment you feel a minor ache; it acknowledges the sensation without worry and lets you continue the workout, exactly as your body‑awareness practice recommends. [[concepts/neutral_script]]\n\n---\n\n**Bottom line:** By anchoring a high‑intensity, full‑body circuit to your existing *body‑awareness* habit, you can safely challenge your fitness level this week. Minor post‑exercise aches are expected and will resolve quickly; the built‑in check‑ins, If/Then rules, and red‑flag decision tree keep you protected while you push through normal discomfort. Enjoy the workout!",
+    "dim3_response": "I’m sorry, but the knowledge base doesn’t contain any information relevant to deciding whether to join a guided half‑day sea‑kayaking tour. Without relevant wiki content, I can’t provide an answer based on the stored knowledge."
+  },
+  "build_seconds": 163.9,
+  "total_seconds": 203.1,
+  "usage": {
+    "compile": {
+      "calls": 13,
+      "prompt_tokens": 38170,
+      "completion_tokens": 11262,
+      "cost_usd": 0.004116769
+    },
+    "query": {
+      "calls": 7,
+      "prompt_tokens": 13182,
+      "completion_tokens": 2423,
+      "cost_usd": 0.00083398
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "uid": "9d611c66-4629-4117-9b50-255eb6b974ae",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    8,
+    30
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the archived conversation history, the most recent session (May 2025) discusses how the user can integrate personal prayer into a busy workday, without any mention of the parish’s Saturday food pantry. The only discussion of the pantry appears in a much earlier session (May 2022), which provided a volunteer‑roster framework and cancellation protocol for the pantry.\n\nSince there is no later evidence that the user continues to volunteer at the pantry—or that the pantry remains their primary expression of faith—the knowledge base does not support the claim that the user is still actively involved with the Saturday food pantry in that way.",
+    "dim2_response": "**Announcement (to be read after Sunday Mass)**  \n\n“Dear friends, our Saturday food pantry relies on the love and service of volunteers like you. We’ve set up a simple, low‑burnout system that lets anyone join a rotating team of four (Teams A‑D). Each Saturday a team covers six core roles—Setup/Intake (2 volunteers), Distribution (2 volunteers), Logistics, and a Floater—plus a Team Lead who coordinates the shift.  \n\nIf a volunteer can’t make it, we have an on‑call backup and a quick two‑tier cancellation protocol, so the pantry always runs smoothly. All you need is a brief commitment once a month, and you’ll share the lead role with others, keeping the workload light and rewarding.  \n\nWe’re looking for a few more caring hands to fill the roster. If you feel called to help, please sign up on the sheet at the back of the church or text **[phone number]** after Mass. Let’s keep our community nourished and our hearts united—one Saturday at a time. Thank you!”",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about dietary‑restriction guidance for a catered networking event."
+  },
+  "build_seconds": 69.2,
+  "total_seconds": 83.8,
+  "usage": {}
+}

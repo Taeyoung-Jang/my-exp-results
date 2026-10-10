@@ -1,0 +1,32 @@
+{
+  "uid": "68f30210-15b0-4dcb-b381-a51523b6175a",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    12,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "No.  \n\nEarlier (Session 13 2024‑06‑15) the user was focused on keeping the *same* address consistent across all services — a “source of truth” and a prioritized checklist were created to ensure the current address stayed the same【0†L1-L9】.  \n\nHowever, in the later conversation (Session 33 2025‑02‑13) the user was given a detailed **apartment‑hunting outreach template** and a checklist for evaluating new units that fit a night‑shift schedule【1†L24-L38】. The presence of an active apartment‑search guide indicates the user is now looking to move rather than remaining at the same address long‑term.",
+    "dim2_response": "**Sample confirmation message**\n\n```\nTo whom it may concern,\n\nI hereby confirm that I have been residing at my current address for several years and have no plans to move in the foreseeable future. My address will remain unchanged.\n\nThank you,\n[Your Name]\n```\n\nFeel free to replace “[Your Name]” and the address line with your actual details before sending.",
+    "dim3_response": "**Short answer:** Use the address you intend to keep as your *source of truth*—most often your permanent home address—provided it won’t change during the contract. The checklist in the knowledge base treats the mobile‑carrier account as a **“Should check”** item (i.e., it’s important for consistency but not as legally critical as banking or tax records). As long as the address you give the carrier matches the address you keep in the other “Should” and “Nice” services, you’ll avoid mismatches later.\n\n**Why this matters**\n\n| Checklist tier | What the KB says | Implication for your phone contract |\n|----------------|------------------|--------------------------------------|\n| **Must** | Primary bank, credit bureaus, DMV, tax authority – require multi‑step identity verification. | Not directly relevant, but these services define the *source of truth* for your address. |\n| **Should** | Mobile carrier, utilities, payment hubs (Apple, Google, PayPal, Amazon). | The carrier falls here; keeping the same address as the rest of your “Should” items maintains consistency without the heavy verification burden of “Must” items. |\n| **Nice** | Delivery‑heavy services (UPS, FedEx, USPS) and other subscriptions. | Less critical, but useful for mail delivery convenience. |\n\n**Practical steps**\n\n1. **Confirm your current source of truth** – the address you have already updated in the “Must” services (bank, credit bureaus, DMV, IRS).  \n2. **Use that same address for the phone‑plan contract** – this keeps the carrier aligned with the rest of your “Should” accounts.  \n3. **If you expect to move soon**, consider:\n   - Updating the source‑of‑truth address now and letting it propagate, **or**  \n   - Using a stable mailing address (e.g., a family member’s home or a mailbox service) and updating the source‑of‑truth to that address before the move, then switching back when you settle.  \n4. **Add the carrier to your running checklist** (the “Should” list) so you can verify later that the address stayed consistent.\n\n**Bottom line:** Using your home address is fine *as long as it’s the address you plan to keep as your primary, stable address*. If you’re likely to relocate within the next year, update your source of truth first or choose a mailing address you’ll retain, then propagate that change to the carrier. This avoids the need for later address‑verification hassles while keeping all “Should” services in sync."
+  },
+  "build_seconds": 145.8,
+  "total_seconds": 167.3,
+  "usage": {
+    "compile": {
+      "calls": 26,
+      "prompt_tokens": 93539,
+      "completion_tokens": 21480,
+      "cost_usd": 0.009907519
+    },
+    "query": {
+      "calls": 14,
+      "prompt_tokens": 33155,
+      "completion_tokens": 2505,
+      "cost_usd": 0.00145339
+    }
+  }
+}

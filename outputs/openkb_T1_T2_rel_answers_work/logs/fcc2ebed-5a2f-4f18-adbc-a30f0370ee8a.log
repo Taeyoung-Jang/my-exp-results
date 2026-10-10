@@ -1,0 +1,38 @@
+=== 2026-10-10 14:46:36 uid=fcc2ebed-5a2f-4f18-adbc-a30f0370ee8a ===
+Adding: session-15_2025-06-15.md
+  Compiling short doc...
+    summary..................... 21.6s (in=1999, out=1353, cached=48)
+    concepts-plan........... 11.7s (in=3005, out=862)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: backup-redundancy... 3.2s (in=2888, out=462)
+    entity: nas... 3.3s (in=2925, out=313, cached=768)
+    concept: offline-backup... 3.8s (in=2905, out=786, cached=800)
+    entity: usb... 2.7s (in=2954, out=912, cached=768)
+    entity: android... 2.5s (in=2949, out=645, cached=768)
+    entity: ios... 5.2s (in=2922, out=609, cached=784)
+    concept: backup-reliability... 12.9s (in=2874, out=768)
+    entity: mtp... 24.4s (in=2927, out=712, cached=784)
+Concept generation failed: LLM returned empty content for concept 'backup-redundancy'
+    [WARN] 3 concept(s) planned but only 2 written for session-15_2025-06-15 (ValueError).
+    summary-rewrite.. 2.5s (in=2919, out=812, cached=768)
+  [OK] session-15_2025-06-15.md added to knowledge base.
+Adding: session-32_2025-09-12.md
+  Compiling short doc...
+    summary..... 5.5s (in=2108, out=926)
+    concepts-plan........ 8.5s (in=3361, out=1040, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: data-minimization... 9.7s (in=3141, out=908, cached=784)
+    update: backup-reliability... 10.9s (in=3627, out=1527, cached=784)
+    concept: end-to-end-encryption... 12.1s (in=3144, out=685, cached=32)
+    entity: apple... 11.3s (in=3176, out=1229, cached=784)
+    entity: icloud... 12.0s (in=3162, out=874)
+    concept: risk-assessment... 31.6s (in=3140, out=994, cached=784)
+    entity: google-photos... 12.8s (in=3162, out=961)
+    entity: google-contacts... 18.1s (in=3175, out=911, cached=784)
+    entity: iphone... 13.1s (in=3175, out=753)
+    entity: google... 38.3s (in=3175, out=657, cached=784)
+    summary-rewrite................ 16.1s (in=3159, out=1270)
+  [OK] session-32_2025-09-12.md added to knowledge base.
+done.

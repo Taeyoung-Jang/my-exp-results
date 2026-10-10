@@ -1,0 +1,32 @@
+{
+  "uid": "fe30e744-682c-4beb-80f5-47c9bc811483",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    6,
+    39
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. The conversation history shows that the user is still dealing with shoulder‑tendonitis and therefore avoids any overhead‑pressing movements.  \n\n* In the July 2024 session the user was given a **tendonitis‑friendly upper‑body program that “avoids overhead presses”** and includes “pain‑management rules” for protecting the rotator cuff and tendons【source: summaries/session-07_2024-07-15.md】.  \n* The January 2025 session still emphasizes **shoulder‑engagement cues and protecting elbows/tendons** while climbing, indicating the condition remains a concern【source: summaries/session-40_2025-01-15.md】.  \n\nTogether, these entries confirm that the user’s shoulder tendonitis is still present and that overhead lifting remains off‑limits.",
+    "dim2_response": "**4‑Week Upper‑Body Strength Plan (No Overhead Lifts)**  \n*Designed for chronic shoulder tendonitis – all movements stay below shoulder level, use neutral‑grip/low‑angle positions, and include shoulder‑stability work. The structure follows the tendonitis‑friendly template from the knowledge base [[summaries/session‑07_2024‑07‑15]] and the underlying principles in [[concepts/tendonitis‑friendly‑training]] and [[concepts/shoulder‑health]].*\n\n| Week | Day 1 (Push + Row + Finisher) | Day 2 (Low‑Incline / Landmine + Pull + Finisher) | Day 3 (Close‑Grip + Single‑Arm Row + Finisher) |\n|------|------------------------------|---------------------------------------------------|------------------------------------------------|\n| **1** | **Neutral‑grip dumbbell press** – 3 × 5‑8 reps (flat or slight‑decline)  <br>**Chest‑supported row** – 3 × 6‑10 reps  <br>**Cable lateral raise** – 2 × 12‑15 reps | **Very low‑incline neutral‑grip dumbbell press** (or landmine press) – 3 × 6‑10 reps  <br>**Neutral‑grip lat‑pull‑down** – 3 × 6‑10 reps  <br>**Rear‑deltoid cable pull** – 2 × 12‑15 reps | **Close‑grip neutral bench press** (or neutral‑grip push‑up handles) – 3 × 5‑8 reps  <br>**Single‑arm cable row** – 3 × 8‑10 reps  <br>**Cable external‑rotation** – 2 × 12‑15 reps/side |\n| **2** | Same exercises – **add one rep per set** (e.g., 6‑9 reps) while keeping load unchanged. | Same – **add one rep per set** (7‑11 reps). | Same – **add one rep per set** (6‑9 reps). |\n| **3** | If the top of the rep range was reached for **two consecutive weeks**, **increase weight 2‑5 %** and drop back to the lower end of the range (5‑6 reps). | Same weight‑increase rule (2‑5 %). | Same weight‑increase rule (2‑5 %). |\n| **4** | Continue the 2‑5 % load bump (or keep the same weight if pain resurfaces) and **maintain the lower rep range**. | Same. | Same. |\n\n### General Rules (from the source)\n\n1. **Avoid any overhead loading** – all presses are flat, decline, low‑incline, or landmine, keeping the humerus well below horizontal.  \n2. **Neutral‑grip / underhand grip** keeps elbows close to the torso, reducing shear on the rotator cuff.  \n3. **Pain‑first rule** – if sharp or lingering pain appears, immediately:  \n   * shorten the range of motion,  \n   * reduce the load (≈ 50 % of the planned weight), or  \n   * swap to the listed alternative (e.g., decline dumbbell press → neutral‑grip machine chest press).  \n4. **Rest intervals** – 90 s–2 min between main lifts, 60 s for accessory finisher work.  \n5. **Flare‑up weeks** – cut load to ~50 % and use a slower tempo; resume normal progression once pain‑free.  \n\n### Shoulder‑Stability Focus\n\n- **Cable lateral raises** and **rear‑deltoid pulls** train the middle deltoid and posterior chain without overhead stress.  \n- **External‑rotation cable/band work** directly strengthens the rotator cuff in a safe, elbow‑tucked position.  \n- **Chest‑supported rows** and **single‑arm rows** develop scapular retractors (rhomboids, middle traps) that improve overall shoulder girdle stability.  \n\n### Progression Summary\n\n| Phase | Goal | How to achieve |\n|-------|------|----------------|\n| Weeks 1‑2 | Build work‑capacity, ensure pain‑free technique | Add reps each set; keep weight constant |\n| Weeks 3‑4 | Increase strength | When rep ceiling is hit for 2 weeks, raise load 2‑5 % and reset reps to the lower end of the range |\n| Any week with flare‑up | Preserve training frequency while protecting tissue | Halve the load, slow tempo, stay within pain‑free range |\n\n---\n\n**Result:** Over four weeks you’ll develop upper‑body pressing and pulling strength, improve scapular and rotator‑cuff stability, and stay completely clear of overhead movements—exactly the approach recommended for tendonitis‑prone shoulders in the source material.",
+    "dim3_response": "I’m sorry—I couldn’t find any information in the knowledge base about kitchen‑cabinet rack installations, contractor estimates, or cost‑benefit considerations for motorized versus non‑motorized setups. Without relevant source material, I can’t give a knowledge‑base‑backed recommendation. If you have any related documents or notes in the wiki, feel free to point me to them, and I’ll be happy to help based on that content."
+  },
+  "build_seconds": 100.7,
+  "total_seconds": 139.8,
+  "usage": {
+    "compile": {
+      "calls": 12,
+      "prompt_tokens": 46134,
+      "completion_tokens": 10519,
+      "cost_usd": 0.004614832
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 24515,
+      "completion_tokens": 2683,
+      "cost_usd": 0.001271395
+    }
+  }
+}

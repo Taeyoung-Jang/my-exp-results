@@ -1,0 +1,32 @@
+=== 2026-10-10 15:29:15 uid=87ea8043-b122-497b-8213-872e0fcbdee1 ===
+Adding: session-15_2024-06-15.md
+  Compiling short doc...
+    summary................ 16.6s (in=1840, out=1042, cached=64)
+    concepts-plan. 1.7s (in=2646, out=250)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-15_2024-06-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-15_2024-06-15.md added to knowledge base.
+Adding: session-34_2025-02-13.md
+  Compiling short doc...
+    summary...... 6.5s (in=3345, out=1136)
+    concepts-plan............ 12.7s (in=4490, out=1418, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 10 entity(ies) (concurrency=4)...
+    entity: toronto... 4.7s (in=4472, out=950, cached=768)
+    concept: winter-preparation... 8.7s (in=4421, out=1466, cached=64)
+    concept: morning-routine... 12.9s (in=4421, out=533, cached=768)
+    entity: rustle-still... 5.5s (in=4458, out=887, cached=64)
+    concept: neighbourhood-exploration... 16.5s (in=4423, out=1185)
+    entity: annex-koreatown... 13.0s (in=4462, out=1313, cached=64)
+    entity: hailed-coffee... 6.1s (in=4457, out=958, cached=784)
+    entity: bike-share-toronto... 3.2s (in=4457, out=885, cached=784)
+    entity: presto... 2.3s (in=4456, out=366)
+    entity: transit-app... 3.9s (in=4458, out=912, cached=784)
+    entity: weather-network... 4.1s (in=4457, out=943, cached=4288)
+    entity: christie-pits... 11.2s (in=4457, out=444, cached=768)
+    entity: university-of-toronto... 10.0s (in=4457, out=401, cached=4288)
+Entity generation failed: LLM returned empty content for concept 'presto'
+    [WARN] 10 entity(ies) planned but only 9 written for session-34_2025-02-13 (ValueError).
+    summary-rewrite.... 4.8s (in=4453, out=1307, cached=4288)
+  [OK] session-34_2025-02-13.md added to knowledge base.
+done.

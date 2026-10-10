@@ -1,0 +1,32 @@
+{
+  "uid": "cafa590e-d787-4df6-9207-eb9c9e2e90c5",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    4,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "I couldn’t find any statement in the conversation history indicating that the user *still* takes the regional shuttle every time they need to get into the hub. The available session notes (e.g., the checklist in [[summaries/session-05_2024-06-09]]) only describe a decision‑making framework for choosing between the shuttle and driving, but they do not record the user’s actual, ongoing travel choices. Therefore, based on the current knowledge base, there is no evidence to confirm that the user continues to use the regional shuttle for every hub trip.",
+    "dim2_response": "I’m sorry—I couldn’t locate any information in the knowledge base about the typical crowd patterns or peak‑time schedules for the regional shuttle. The available content only includes a decision‑making checklist for choosing between the shuttle and driving, but it does not contain details on when the shuttle is least crowded or experiences the fewest delays. If you can provide or add those schedule details, I’d be happy to help you identify the optimal times to ride.",
+    "dim3_response": "**Quick decision — shuttle or drive?**  \n\nYour session 5 summary (2024‑06‑09) gives a short “yes/no” checklist that lets you pick the safest, fastest option in seconds. Answer the questions for tomorrow’s early start; if **three or more** are *yes*, driving is usually the smoother choice.\n\n| Checklist question | What to consider for an early‑morning trip |\n|--------------------|--------------------------------------------|\n| 1️⃣ Am I carrying anything bulky or heavy? | Large bags, equipment, or a laptop case are harder on a shuttle. |\n| 2️⃣ Am I traveling very early or very late? | Early‑morning service may be sparse or delayed. |\n| 3️⃣ Is the shuttle running infrequently right now? | Check the shuttle schedule; many early routes run only once or twice. |\n| 4️⃣ Will parking be easy at both ends? | If you have a guaranteed spot at work (or a nearby lot) and at home, driving gains points. |\n| 5️⃣ Is traffic likely to be light? | Dawn‑hour traffic is often lighter, making a car faster. |\n| 6️⃣ Do I need schedule flexibility today? | If you might need to leave early or run errands afterward, a car gives you control. |\n| 7️⃣ Will the shuttle drop‑off point be inconvenient for this trip? | If the stop is far from your office or requires a long walk, that adds risk and time. |\n\n**Interpretation** – If you answer **yes** to three or more items, the checklist advises you to **drive**; otherwise, the shuttle is likely adequate. [[concepts/decision_checklist]]\n\n---\n\n### If you decide to **drive** (often the safest & quickest for early starts)\n\n1. **Vehicle prep**\n   * Check fuel level (fill up the night before).  \n   * Verify tire pressure, lights, and windshield wipers.  \n   * Make sure your registration, insurance, and driver’s licence are in the car.\n\n2. **Route planning**\n   * Look up the fastest route on a navigation app (consider real‑time traffic).  \n   * Identify a backup route in case of unexpected roadwork or accidents.  \n\n3. **Safety gear**\n   * Pack a small emergency kit: spare tire, jack, jumper cables, flashlight.  \n   * Keep a phone charger and a printed copy of the route in case the app fails.\n\n4. **What to bring**\n   * Anything bulky (laptop, presentation material).  \n   * ID badge or access card for office entry and parking.  \n   * Weather‑appropriate clothing (coat, umbrella) and a reusable water bottle.\n\n5. **Timing**\n   * Aim to leave **10‑15 minutes** before the earliest required arrival; early‑morning traffic is usually light, but it gives a buffer for parking and badge‑in.\n\n---\n\n### If you decide to **take the shuttle**\n\n1. **Check the schedule** (often limited early‑morning).  \n2. **Arrive at the stop 5 minutes early** – early shuttles can fill up quickly.  \n3. **Pack light** – bulky items are harder to manage on a shared vehicle.  \n4. **Bring a mask or hand sanitizer** for shared‑space safety.  \n5. **Have a backup plan** (e.g., rideshare) if the shuttle is delayed or cancelled.\n\n---\n\n### Bottom line for tomorrow\n\n1. Run through the seven‑question checklist above.  \n2. If you get **≥ 3 “yes” answers**, drive—prepare the vehicle, fuel, route, and essential items.  \n3. If you get **≤ 2 “yes” answers**, the shuttle should be safe and quick—just verify the early‑morning timetable and be ready with a small bag.\n\nFollowing this quick framework keeps mental load low, maximizes safety, and gets you to work on time. [[concepts/travel_option_comparison]]"
+  },
+  "build_seconds": 84.9,
+  "total_seconds": 114.6,
+  "usage": {
+    "compile": {
+      "calls": 12,
+      "prompt_tokens": 30254,
+      "completion_tokens": 8745,
+      "cost_usd": 0.00616968
+    },
+    "query": {
+      "calls": 18,
+      "prompt_tokens": 34890,
+      "completion_tokens": 2978,
+      "cost_usd": 0.00158274
+    }
+  }
+}

@@ -1,0 +1,28 @@
+=== 2026-10-10 15:37:42 uid=2262fbca-f683-4886-92b8-e70b14c5d275 ===
+Adding: session-08_2024-06-15.md
+  Compiling short doc...
+    summary............ 12.6s (in=2108, out=1018)
+    concepts-plan. 2.0s (in=3298, out=468, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: automatic_transfers... 13.4s (in=3143, out=505, cached=64)
+    concept: separate_accounts... 13.5s (in=3134, out=990)
+    concept: budgeting_rhythm... 19.4s (in=3144, out=857, cached=784)
+    summary-rewrite........... 11.3s (in=3162, out=1072)
+  [OK] session-08_2024-06-15.md added to knowledge base.
+Adding: session-40_2025-03-14.md
+  Compiling short doc...
+    summary.... 4.6s (in=2790, out=949)
+    concepts-plan.......... 10.4s (in=3815, out=1068, cached=784)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: percentage_allocation... 11.4s (in=3663, out=561, cached=64)
+    concept: estimated_taxes... 13.3s (in=3663, out=553, cached=64)
+    update: separate_accounts... 6.4s (in=4266, out=1439, cached=768)
+    update: automatic_transfers... 22.5s (in=4168, out=1263, cached=784)
+    entity: irs... 11.2s (in=3699, out=715)
+    entity: form_1040... 7.2s (in=3700, out=315, cached=64)
+    entity: form_1040_es... 4.5s (in=3689, out=975)
+    concept: tax_safe_harbor... 42.4s (in=3664, out=1327, cached=784)
+    summary-rewrite............. 13.0s (in=3695, out=921, cached=784)
+  [OK] session-40_2025-03-14.md added to knowledge base.
+done.

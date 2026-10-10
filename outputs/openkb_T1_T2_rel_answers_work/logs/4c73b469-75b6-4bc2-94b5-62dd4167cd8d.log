@@ -1,0 +1,30 @@
+=== 2026-10-10 14:28:45 uid=4c73b469-75b6-4bc2-94b5-62dd4167cd8d ===
+Adding: session-03_2024-06-15.md
+  Compiling short doc...
+    summary....... 7.2s (in=1956, out=888, cached=784)
+    concepts-plan........ 8.0s (in=3037, out=305, cached=768)
+    Generating 6 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: soft-pull... 2.8s (in=2942, out=997)
+    concept: credit-score... 4.3s (in=2913, out=648, cached=784)
+    concept: hard-inquiry... 5.7s (in=2914, out=745, cached=784)
+    concept: prequalification... 3.9s (in=2915, out=837, cached=784)
+    entity: optoutprescreen.com... 3.3s (in=2951, out=762, cached=2784)
+    concept: rate-shopping-window... 16.6s (in=2915, out=801)
+    concept: marketing-opt-out... 17.1s (in=2916, out=612, cached=768)
+    entity: do-not-call-list... 14.9s (in=2953, out=694, cached=784)
+    summary-rewrite........... 11.4s (in=2932, out=959)
+  [OK] session-03_2024-06-15.md added to knowledge base.
+Adding: session-33_2025-02-13.md
+  Compiling short doc...
+    summary.......... 10.6s (in=2444, out=892, cached=784)
+    concepts-plan.... 4.9s (in=3703, out=202, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    update: credit-score... 12.1s (in=3927, out=1426, cached=784)
+    concept: low-risk-behaviour... 12.2s (in=3432, out=1056)
+    concept: mid-cycle-payments... 13.0s (in=3445, out=539, cached=768)
+    concept: statement-balance-reporting... 22.4s (in=3444, out=618, cached=64)
+    update: hard-inquiry... 15.8s (in=3975, out=1163)
+    summary-rewrite................... 19.7s (in=3472, out=837, cached=768)
+  [OK] session-33_2025-02-13.md added to knowledge base.
+done.

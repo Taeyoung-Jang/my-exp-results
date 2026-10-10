@@ -1,0 +1,24 @@
+=== 2026-10-10 15:46:19 uid=9f814b29-e5f7-4fbb-9992-534f4830c2a8 ===
+Adding: session-09_2025-06-12.md
+  Compiling short doc...
+    summary............. 13.1s (in=1759, out=839)
+    concepts-plan... 3.6s (in=2819, out=150)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-09_2025-06-12 — no concept pages generated. See log (stderr) for details.
+  [OK] session-09_2025-06-12.md added to knowledge base.
+Adding: session-33_2025-08-12.md
+  Compiling short doc...
+    summary................ 16.9s (in=3763, out=1291)
+    concepts-plan.... 4.9s (in=4651, out=837, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: saturday-market... 6.6s (in=4541, out=362, cached=768)
+    entity: cottage_food_permit... 4.2s (in=4559, out=934, cached=4192)
+    concept: production_schedule... 12.8s (in=4510, out=940, cached=768)
+    concept: menu_planning... 29.8s (in=4510, out=1094)
+    concept: stall_setup... 30.5s (in=4511, out=1419)
+    entity: home_oven... 29.7s (in=4541, out=762, cached=64)
+    summary-rewrite............... 15.3s (in=4525, out=1261)
+  [OK] session-33_2025-08-12.md added to knowledge base.
+[92m15:48:05 - LiteLLM:WARNING[0m: core_helpers.py:112 - Unmapped finish_reason 'error', defaulting to 'stop'
+done.

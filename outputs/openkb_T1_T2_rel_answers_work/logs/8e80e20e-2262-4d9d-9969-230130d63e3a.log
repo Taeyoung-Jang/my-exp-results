@@ -1,0 +1,41 @@
+=== 2026-10-10 15:37:40 uid=8e80e20e-2262-4d9d-9969-230130d63e3a ===
+Adding: session-06_2024-06-12.md
+  Compiling short doc...
+    summary........ 8.2s (in=3057, out=952, cached=64)
+    concepts-plan....... 7.8s (in=4126, out=496)
+    Generating 6 concept(s) (concurrency=4)...
+    concept: multimeter_power_checklist... 5.9s (in=3999, out=816)
+    concept: bench_supply_short_detection... 8.6s (in=4000, out=975, cached=784)
+    concept: external_power_verification... 10.8s (in=3986, out=971)
+    concept: buck_regulator_scope_signatures... 9.6s (in=4002, out=1312, cached=784)
+    concept: photo_based_board_analysis... 13.1s (in=3988, out=1219)
+    concept: power_path_troubleshooting... 38.8s (in=4000, out=1198, cached=768)
+Concept generation failed: LLM returned empty content for concept 'multimeter_power_checklist'
+    [WARN] 6 concept(s) planned but only 5 written for session-06_2024-06-12 (ValueError).
+    summary-rewrite.............................. 30.4s (in=4030, out=858, cached=64)
+[92m15:39:05 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-06_2024-06-12.md added to knowledge base.
+Adding: session-39_2025-02-10.md
+  Compiling short doc...
+    summary................... 19.1s (in=3295, out=740, cached=64)
+    concepts-plan. 1.2s (in=4537, out=115)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-39_2025-02-10 — no concept pages generated. See log (stderr) for details.
+  [OK] session-39_2025-02-10.md added to knowledge base.
+done.

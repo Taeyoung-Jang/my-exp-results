@@ -1,0 +1,48 @@
+=== 2026-10-10 15:34:13 uid=dfcebf71-369f-42ac-acb1-619d2b788b32 ===
+Adding: session-09_2024-06-12.md
+  Compiling short doc...
+    summary................... 19.5s (in=1984, out=622, cached=768)
+    concepts-plan... 3.1s (in=2997, out=310, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low_pressure_socializing... 2.6s (in=2871, out=1028)
+    concept: social_window... 5.3s (in=2839, out=734)
+    concept: friendship_stickiness... 13.8s (in=2841, out=682)
+Concept generation failed: LLM returned empty content for concept 'social_window'
+    [WARN] 3 concept(s) planned but only 2 written for session-09_2024-06-12 (ValueError).
+    summary-rewrite. 2.0s (in=2872, out=753)
+  [OK] session-09_2024-06-12.md added to knowledge base.
+Adding: session-35_2025-02-12.md
+  Compiling short doc...
+    summary....................................... 39.6s (in=3294, out=1368, cached=64)
+    concepts-plan..............=== 2026-10-10 15:35:54 uid=dfcebf71-369f-42ac-acb1-619d2b788b32 ===
+Adding: session-09_2024-06-12.md
+  Compiling short doc...
+    summary.................... 20.5s (in=1984, out=944, cached=784)
+    concepts-plan.. 2.0s (in=3033, out=432, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: anchor_moments... 4.9s (in=2879, out=749, cached=784)
+    concept: friendship_stickiness... 12.6s (in=2880, out=439, cached=1952)
+    concept: low_pressure_meeting... 21.0s (in=2881, out=853, cached=64)
+    summary-rewrite............ 12.8s (in=2911, out=818, cached=64)
+  [OK] session-09_2024-06-12.md added to knowledge base.
+Adding: session-35_2025-02-12.md
+  Compiling short doc...
+    summary........ 8.7s (in=3294, out=691, cached=768)
+    concepts-plan..... 5.5s (in=4429, out=1228, cached=66)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    entity: iphone... 3.6s (in=4322, out=515)
+    concept: contact-naming-convention... 4.7s (in=4289, out=1130, cached=784)
+    entity: home-health-agency... 4.3s (in=4341, out=879, cached=768)
+    entity: ios... 8.1s (in=4323, out=801, cached=784)
+    concept: repeated-calls-emergency-handling... 15.1s (in=4291, out=893, cached=784)
+    concept: focus-mode-setup... 18.3s (in=4289, out=918, cached=64)
+    entity: pharmacy... 7.4s (in=4322, out=727, cached=784)
+    entity: clinic... 17.0s (in=4322, out=996, cached=4160)
+    entity: non-emergency-police... 10.8s (in=4326, out=455, cached=768)
+    entity: hospital... 15.0s (in=4322, out=908)
+Entity generation failed: LLM returned empty content for concept 'iphone'
+    [WARN] 7 entity(ies) planned but only 6 written for session-35_2025-02-12 (ValueError).
+    summary-rewrite... 3.2s (in=4320, out=1107)
+  [OK] session-35_2025-02-12.md added to knowledge base.
+done.

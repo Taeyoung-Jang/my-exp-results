@@ -1,0 +1,34 @@
+=== 2026-10-10 15:57:52 uid=ea9f1298-5dab-46f2-a492-0c5bb69b6465 ===
+Adding: session-08_2025-04-20.md
+  Compiling short doc...
+    summary............. 13.8s (in=2161, out=627, cached=768)
+    concepts-plan................ 16.1s (in=3167, out=723, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    entity: guitar... 3.2s (in=3073, out=803, cached=784)
+    concept: tension-management-guitar... 4.5s (in=3061, out=939, cached=768)
+    concept: shape-first-tempo-later... 11.4s (in=3042, out=429, cached=64)
+    entity: metronome... 9.0s (in=3075, out=338, cached=768)
+    concept: whole-shape-placement... 16.2s (in=3046, out=871, cached=784)
+    entity: c-major-chord... 9.3s (in=3076, out=350, cached=2912)
+    entity: g-major-chord... 30.9s (in=3076, out=961)
+    summary-rewrite... 3.9s (in=3071, out=1009, cached=2912)
+  [OK] session-08_2025-04-20.md added to knowledge base.
+Adding: session-32_2025-06-01.md
+  Compiling short doc...
+    summary..................... 21.1s (in=2842, out=850, cached=64)
+    concepts-plan...... 6.8s (in=4001, out=255, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    entity: ez-off-jar-opener... 2.9s (in=3816, out=516)
+    concept: jar-opening-tools... 5.1s (in=3779, out=919)
+    concept: adhesive-under-cabinet-jar-opener... 5.5s (in=3786, out=780, cached=784)
+    entity: brix-jarkey... 3.9s (in=3844, out=1193, cached=768)
+    concept: one-handed-kitchen-hacks... 12.8s (in=3783, out=777, cached=768)
+Concept generation failed: LLM returned empty content for concept 'jar-opening-tools'
+    [WARN] 3 concept(s) planned but only 2 written for session-32_2025-06-01 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'ez-off-jar-opener'
+    [WARN] 2 entity(ies) planned but only 1 written for session-32_2025-06-01 (ValueError).
+    summary-rewrite... 3.2s (in=3811, out=956, cached=768)
+  [OK] session-32_2025-06-01.md added to knowledge base.
+done.

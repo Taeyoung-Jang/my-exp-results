@@ -1,0 +1,54 @@
+=== 2026-10-10 15:35:46 uid=11e0c473-dbd3-4645-964a-86affc5f998d ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary=== 2026-10-10 15:37:15 uid=11e0c473-dbd3-4645-964a-86affc5f998d ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary................ 16.5s (in=1895, out=821, cached=784)
+    concepts-plan.. 3.0s (in=2901, out=154, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: casual-neighbor-interaction... 4.4s (in=2750, out=667, cached=784)
+    concept: neighborhood-vibe... 4.9s (in=2749, out=513)
+    concept: low-effort-gestures... 8.8s (in=2740, out=862)
+Concept generation failed: LLM returned empty content for concept 'neighborhood-vibe'
+    [WARN] 3 concept(s) planned but only 2 written for session-04_2024-06-15 (ValueError).
+    summary-rewrite... 3.7s (in=2781, out=882, cached=784)
+  [OK] session-04_2024-06-15.md added to knowledge base.
+Adding: session-32_2025-02-15.md
+  Compiling short doc...
+    summary................................................. 49.6s (in=3377, out=2033, cached=784)
+    concepts-plan............. 13.0s (in=4589, out=918, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    entity: usps... 2.9s (in=4498, out=647, cached=69)
+    concept: moving-checklist-timeline... 3.9s (in=4461, out=550)
+    concept: address-update-workflow... 10.9s (in=4462, out=523, cached=64)
+    concept: package-misdelivery-prevention... 13.7s (in=4463, out=664, cached=768)
+    entity: irs... 11.7s (in=4484, out=819)
+    entity: dmv... 15.4s (in=4498, out=893, cached=64)
+    entity: amazon... 7.4s (in=4495, out=776, cached=784)
+    entity: ups... 4.8s (in=4495, out=601, cached=784)
+    entity: paypal... 11.2s (in=4496, out=824)
+    entity: fedex... 13.0s (in=4496, out=776)
+Concept generation failed: LLM returned empty content for concept 'moving-checklist-timeline'
+    [WARN] 3 concept(s) planned but only 2 written for session-32_2025-02-15 (ValueError).
+    summary-rewrite................................................................. 65.3s (in=4493, out=1002)
+[92m15:40:27 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-32_2025-02-15.md added to knowledge base.
+done.

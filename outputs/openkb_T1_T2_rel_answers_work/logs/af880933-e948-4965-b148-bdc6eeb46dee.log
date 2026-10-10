@@ -1,0 +1,38 @@
+=== 2026-10-10 15:27:01 uid=af880933-e948-4965-b148-bdc6eeb46dee ===
+Adding: session-03_2023-06-09.md
+  Compiling short doc...
+    summary...... 6.8s (in=2402, out=888)
+    concepts-plan.................. 18.2s (in=3442, out=944, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: piezoresistive-absolute-pressure-sensor... 3.9s (in=3372, out=790, cached=68)
+    concept: sensor-drift-logging... 4.8s (in=3333, out=1193, cached=784)
+    entity: reference-barometer... 1.9s (in=3370, out=353)
+    entity: differential-pressure-sensor... 3.1s (in=3368, out=749, cached=3200)
+    entity: equalization-valve... 3.7s (in=3371, out=958, cached=3200)
+    concept: differential-zero-check... 11.7s (in=3335, out=655, cached=64)
+    entity: data-acquisition-system... 14.1s (in=3358, out=887)
+    concept: pressure-sensor-calibration... 23.9s (in=3333, out=1025, cached=784)
+Entity generation failed: LLM returned empty content for concept 'reference-barometer'
+    [WARN] 5 entity(ies) planned but only 4 written for session-03_2023-06-09 (ValueError).
+    summary-rewrite.............. 14.1s (in=3364, out=969, cached=784)
+  [OK] session-03_2023-06-09.md added to knowledge base.
+Adding: session-40_2024-12-10.md
+  Compiling short doc...
+    summary........... 11.5s (in=2108, out=996)
+    concepts-plan.. 2.6s (in=3388, out=183, cached=64)
+    Generating 8 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: strength-drills... 3.7s (in=3188, out=869, cached=784)
+    concept: softer-surfaces... 4.9s (in=3206, out=1082, cached=768)
+    concept: surface-mixing... 7.8s (in=3187, out=506, cached=64)
+    concept: mobility-drills... 9.3s (in=3188, out=711, cached=784)
+    concept: warning-signs... 11.3s (in=3187, out=844)
+    concept: shoreside-camber... 3.8s (in=3189, out=904, cached=3056)
+    concept: progressive-sand-running... 18.1s (in=3188, out=1133, cached=784)
+    entity: packed-sand... 6.1s (in=3222, out=326, cached=2752)
+    entity: low-tide-running... 6.7s (in=3223, out=378, cached=3040)
+    concept: salt-film-management... 16.2s (in=3188, out=934, cached=784)
+    summary-rewrite.......................... 26.9s (in=3219, out=1067, cached=64)
+  [OK] session-40_2024-12-10.md added to knowledge base.
+done.

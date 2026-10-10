@@ -1,0 +1,24 @@
+=== 2026-10-10 14:33:47 uid=872d8b8c-24f3-4472-a6e3-a7e42d04ff40 ===
+Adding: session-04_2022-06-15.md
+  Compiling short doc...
+    summary............ 12.7s (in=1881, out=702, cached=784)
+    concepts-plan... 3.5s (in=2838, out=161, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: habit-formation... 2.2s (in=2677, out=394)
+    concept: body-scan... 11.4s (in=2678, out=442, cached=768)
+    concept: mindfulness... 12.0s (in=2678, out=708, cached=1872)
+Concept generation failed: LLM returned empty content for concept 'habit-formation'
+    [WARN] 3 concept(s) planned but only 2 written for session-04_2022-06-15 (ValueError).
+    summary-rewrite........... 11.4s (in=2707, out=638, cached=768)
+  [OK] session-04_2022-06-15.md added to knowledge base.
+Adding: session-37_2024-06-15.md
+  Compiling short doc...
+    summary............ 12.8s (in=1905, out=1567, cached=784)
+    concepts-plan...... 6.6s (in=2983, out=664, cached=1904)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: micro-break... 12.5s (in=2803, out=937)
+    concept: habit-formation... 14.6s (in=2815, out=889, cached=784)
+    concept: calm-routine... 33.4s (in=2816, out=931, cached=784)
+    summary-rewrite..... 5.2s (in=2846, out=816)
+  [OK] session-37_2024-06-15.md added to knowledge base.
+done.

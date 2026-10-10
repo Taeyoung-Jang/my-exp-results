@@ -1,0 +1,59 @@
+=== 2026-10-10 15:42:41 uid=e1e8541d-5f3d-4614-b0bb-549b3ac7bfe3 ===
+Adding: session-10_2024-07-10.md
+  Compiling short doc...
+    summary................ 16.4s (in=2378, out=769, cached=64)
+    concepts-plan..... 5.8s (in=3535, out=444, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: vibe-based-planning... 5.2s (in=3379, out=888, cached=768)
+    concept: anchor-activity... 20.5s (in=3379, out=897, cached=64)
+    concept: mood-heuristic... 21.2s (in=3383, out=738, cached=768)
+    summary-rewrite.......................... 26.8s (in=3411, out=1050, cached=784)
+[92m15:43:51 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-10_2024-07-10.md added to knowledge base.
+Adding: session-33_2024-11-09.md
+  Compiling short doc...
+    summary................. 17.7s (in=2284, out=1089)
+    concepts-plan.................. 19.0s (in=3474, out=1038)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: emotional-resilience-hospitality... 3.5s (in=3315, out=903, cached=784)
+    entity: front-desk... 14.6s (in=3347, out=584, cached=64)
+    concept: front-desk-skills... 16.3s (in=3314, out=994, cached=784)
+    entity: property-management-system... 14.0s (in=3348, out=948, cached=784)
+    concept: onboarding-strategies-front-desk... 23.3s (in=3316, out=1331, cached=784)
+    summary-rewrite................................................................................ 80.1s (in=3344, out=883, cached=768)
+[92m15:46:11 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-33_2024-11-09.md added to knowledge base.
+done.

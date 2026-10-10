@@ -1,0 +1,22 @@
+=== 2026-10-10 14:22:34 uid=17c4192e-ee5a-442a-b492-f69641d836c3 ===
+Adding: session-14_2024-06-15.md
+  Compiling short doc...
+    summary.......... 10.4s (in=2103, out=466, cached=64)
+    concepts-plan... 3.3s (in=2975, out=135, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: flexible-scheduling... 6.1s (in=2834, out=868, cached=800)
+    concept: weekly-themes... 11.5s (in=2817, out=571, cached=64)
+    concept: anchor-blocks... 22.1s (in=2817, out=831, cached=64)
+    summary-rewrite. 1.7s (in=2849, out=589)
+  [OK] session-14_2024-06-15.md added to knowledge base.
+Adding: session-38_2024-12-16.md
+  Compiling short doc...
+    summary........ 8.1s (in=2084, out=997)
+    concepts-plan........... 11.6s (in=3279, out=787)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: payroll-verification... 7.4s (in=3107, out=835, cached=784)
+    concept: first-week-logistics... 13.4s (in=3106, out=500, cached=768)
+    concept: benefits-enrollment-checklist... 16.9s (in=3105, out=504, cached=64)
+    summary-rewrite... 3.9s (in=3136, out=954, cached=784)
+  [OK] session-38_2024-12-16.md added to knowledge base.
+done.

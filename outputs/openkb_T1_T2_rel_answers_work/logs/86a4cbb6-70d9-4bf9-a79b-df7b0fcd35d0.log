@@ -1,0 +1,46 @@
+=== 2026-10-10 14:33:52 uid=86a4cbb6-70d9-4bf9-a79b-df7b0fcd35d0 ===
+Adding: session-02_2024-06-15.md
+  Compiling short doc...
+    summary............... 15.2s (in=2878, out=2062, cached=66)
+    concepts-plan..... 5.4s (in=4551, out=1084, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    concept: caffeine-timing... 11.6s (in=4417, out=852)
+    concept: alcohol-sleep-interaction... 13.7s (in=4431, out=904, cached=784)
+    concept: hydration-timing... 14.7s (in=4430, out=1106, cached=64)
+    entity: tea... 6.9s (in=4463, out=408, cached=768)
+    entity: sparkling-water... 7.8s (in=4465, out=477, cached=768)
+    entity: herbal-tea... 10.7s (in=4464, out=743, cached=64)
+    entity: cocktail... 2.6s (in=4462, out=425)
+    entity: beer... 7.2s (in=4463, out=803, cached=784)
+    entity: wine... 10.7s (in=4463, out=970)
+    entity: caffeine... 9.6s (in=4464, out=997, cached=784)
+    entity: coffee... 38.7s (in=4463, out=788, cached=64)
+    entity: water... 24.0s (in=4463, out=906, cached=784)
+Entity generation failed: LLM returned empty content for concept 'cocktail'
+    [WARN] 9 entity(ies) planned but only 8 written for session-02_2024-06-15 (ValueError).
+    summary-rewrite...... 7.0s (in=4461, out=1659, cached=784)
+  [OK] session-02_2024-06-15.md added to knowledge base.
+Adding: session-33_2025-02-12.md
+  Compiling short doc...
+    summary..... 5.4s (in=1959, out=1036, cached=768)
+    concepts-plan......... 9.0s (in=3114, out=1496, cached=784)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    concept: evening-routine... 5.1s (in=2869, out=956, cached=1952)
+    update: caffeine-timing... 7.4s (in=3388, out=1990, cached=784)
+    update: alcohol-sleep-interaction... 9.0s (in=3387, out=1477, cached=2720)
+    concept: wind-down-ritual... 16.0s (in=2841, out=1112)
+    concept: sleep-hygiene... 17.5s (in=2852, out=511, cached=768)
+    entity: oat-milk... 3.8s (in=2905, out=654, cached=2720)
+    entity: decaf-espresso... 14.9s (in=2888, out=1324)
+    entity: almond-milk... 11.0s (in=2874, out=834)
+    entity: chicory... 9.2s (in=2887, out=333, cached=768)
+    entity: roasted-barley... 9.6s (in=2889, out=317, cached=768)
+    entity: amaretto... 7.0s (in=2888, out=755, cached=64)
+    entity: dark-chocolate... 3.8s (in=2887, out=969, cached=2720)
+    entity: whiskey... 10.1s (in=2886, out=369, cached=2720)
+    entity-update: wine... 28.6s (in=3121, out=1100, cached=64)
+    summary-rewrite......... 9.7s (in=2884, out=912, cached=784)
+  [OK] session-33_2025-02-12.md added to knowledge base.
+done.

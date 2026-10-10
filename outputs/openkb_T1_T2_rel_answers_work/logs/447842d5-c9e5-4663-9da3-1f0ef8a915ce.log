@@ -1,0 +1,40 @@
+=== 2026-10-10 14:38:31 uid=447842d5-c9e5-4663-9da3-1f0ef8a915ce ===
+Adding: session-03_2024-06-15.md
+  Compiling short doc...
+    summary.................. 18.2s (in=2088, out=561, cached=32)
+    concepts-plan..... 5.2s (in=3042, out=151, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: recipe-screening-workflow... 5.8s (in=2890, out=736, cached=784)
+    concept: when-in-doubt-rule... 8.3s (in=2879, out=591)
+    concept: allergen-label-checking... 12.5s (in=2891, out=695, cached=784)
+    summary-rewrite...... 6.7s (in=2921, out=708, cached=784)
+  [OK] session-03_2024-06-15.md added to knowledge base.
+Adding: session-40_2025-04-16.md
+  Compiling short doc...
+    summary..... 5.3s (in=2848, out=1309)
+    concepts-plan..... 5.2s (in=3743, out=1109, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 14 entity(ies) (concurrency=4)...
+    concept: checklist-planning... 13.9s (in=3650, out=488, cached=768)
+    concept: meal-prep-timeline... 14.5s (in=3651, out=590, cached=64)
+    entity: wheat-berries... 15.9s (in=3686, out=923)
+    concept: grocery-shopping-list... 21.5s (in=3651, out=1375)
+    entity: soy-sauce... 10.0s (in=3685, out=338, cached=64)
+    entity: miso... 11.5s (in=3685, out=373, cached=64)
+    entity: scallions... 7.2s (in=3686, out=688, cached=784)
+    entity: sesame-oil... 13.4s (in=3672, out=794)
+    entity: fresh-ginger... 12.0s (in=3685, out=412, cached=768)
+    entity: parsley... 1.9s (in=3684, out=270)
+    entity: rice-vinegar... 25.8s (in=3686, out=908, cached=64)
+    entity: dried-cranberries... 6.9s (in=3687, out=815, cached=784)
+    entity: cucumber... 11.3s (in=3672, out=750)
+    entity: bell-pepper... 2.6s (in=3684, out=287)
+    entity: toasted-nuts... 8.0s (in=3686, out=284, cached=3520)
+    entity: wheat-berry-salad... 8.5s (in=3687, out=916)
+    entity: office-potluck... 13.8s (in=3673, out=915)
+Entity generation failed: LLM returned empty content for concept 'parsley'
+Entity generation failed: LLM returned empty content for concept 'bell-pepper'
+    [WARN] 14 entity(ies) planned but only 12 written for session-40_2025-04-16 (ValueError).
+    summary-rewrite...... 6.8s (in=3682, out=950, cached=784)
+  [OK] session-40_2025-04-16.md added to knowledge base.
+done.

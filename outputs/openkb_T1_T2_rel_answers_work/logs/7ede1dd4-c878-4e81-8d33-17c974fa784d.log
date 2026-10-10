@@ -1,0 +1,22 @@
+=== 2026-10-10 14:28:14 uid=7ede1dd4-c878-4e81-8d33-17c974fa784d ===
+Adding: session-08_2025-06-15.md
+  Compiling short doc...
+    summary................... 19.5s (in=1885, out=836, cached=64)
+    concepts-plan..... 5.7s (in=2989, out=351)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: cash-flow-analysis... 5.6s (in=2852, out=683, cached=784)
+    concept: checking-buffer... 17.4s (in=2846, out=605, cached=768)
+    concept: automated-savings-sweep... 17.8s (in=2847, out=764, cached=768)
+    summary-rewrite......... 9.4s (in=2865, out=849)
+  [OK] session-08_2025-06-15.md added to knowledge base.
+Adding: session-37_2025-12-13.md
+  Compiling short doc...
+    summary.............. 14.7s (in=1880, out=726)
+    concepts-plan..... 5.5s (in=2934, out=468)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low-stress-budgeting... 8.8s (in=2770, out=837, cached=784)
+    concept: pay-yourself-first... 9.3s (in=2758, out=812)
+    concept: weekly-allowance... 12.9s (in=2768, out=640, cached=768)
+    summary-rewrite..... 5.7s (in=2786, out=864)
+  [OK] session-37_2025-12-13.md added to knowledge base.
+done.

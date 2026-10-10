@@ -1,0 +1,32 @@
+{
+  "uid": "2eaf2b38-9b67-4763-a2f0-4011d8baa26c",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    14,
+    31
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the latest conversation (Session 32 — 2025‑03‑11), the user is being advised to **actively manage indoor humidity**—targeting a stable 35 %–45 % relative humidity, monitoring with a hygrometer, and positioning the humidifier so that **no damp patches appear on wood or other surfaces**. The guidance focuses on preventing the very problem of surfaces staying damp all the time.\n\nThere is no statement in the documented sessions that the user is still experiencing constant, pervasive dampness. Instead, the user is being instructed on how to **avoid** that condition. Therefore, we have no evidence that the user presently lives in an environment where humidity is so constant that surfaces remain damp continuously.",
+    "dim2_response": "**How to keep mildew out and protect surfaces when the home stays damp all the time**\n\n1. **Stay below the mold‑friendly humidity range** – Aim for **35 %–45 % RH**.  \n   *The indoor‑humidity concept recommends this window to avoid condensation and mold growth* [[concepts/indoor_humidity]] and the Session‑32 summary stresses that “higher levels risk … mold growth” [[summaries/session-32_2025-03-11]].\n\n2. **Use active dehumidification** –  \n   * Run a properly sized **dehumidifier** continuously in the damp area.  \n   * Set it to maintain the 35 %–45 % target and check the reading with a **hygrometer** [[summaries/session-15_2024-07-12]].\n\n3. **Improve air circulation** –  \n   * Keep a **ceiling or floor fan** running so moist air is constantly moved.  \n   * Arrange furniture a few inches from walls and vents so air can flow behind and around it (the wood‑care guidance in Session‑32 suggests keeping wood a short distance from vents) [[summaries/session-32_2025-03-11]].\n\n4. **Ventilate regularly** –  \n   * Open windows for short bursts each day, especially after activities that add moisture (showers, cooking).  \n   * Run bathroom/kitchen exhaust fans while these activities occur and leave them on a few minutes afterward (Session‑15’s “Ventilation test” shows fans quickly drop humidity) [[summaries/session-15_2024-07-12]].\n\n5. **Eliminate hidden water sources** –  \n   * Inspect plumbing, appliances, and foundation for leaks and repair them promptly (Session‑15’s diagnostic plan).  \n   * Use the plastic‑wrap test from Session‑15 to see whether damp walls are due to condensation or intrusion; then address the underlying cause. [[summaries/session-15_2024-07-12]]\n\n6. **Wipe and dry surfaces promptly** –  \n   * After any spill or after a shower, dry countertops, shelves, and other surfaces with a clean cloth.  \n   * Consider applying a **mold‑resistant finish or paint** on walls and wood that are hard to keep dry.\n\n7. **Add passive moisture absorbers** –  \n   * Place silica‑gel packets, activated charcoal bags, or commercial moisture‑absorbing containers in closets, cabinets, and other enclosed spots where mist can settle.\n\n8. **Monitor continuously** –  \n   * Keep a **hygrometer** in each high‑risk room and check it at least once a day.  \n   * Adjust the dehumidifier or ventilation settings immediately if the reading climbs above 45 %.\n\nBy keeping relative humidity in the recommended range, ensuring constant airflow, fixing any water‑intrusion problems, and promptly drying any wet spots, you dramatically lower the chance of mildew forming and protect wood, paint, and other household surfaces from long‑term damage.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain information about hand‑washing a heavy cotton hoodie or about how long it takes to dry on an indoor rack. Therefore I can’t provide an answer from the stored content."
+  },
+  "build_seconds": 58.8,
+  "total_seconds": 89.4,
+  "usage": {
+    "compile": {
+      "calls": 10,
+      "prompt_tokens": 26717,
+      "completion_tokens": 6895,
+      "cost_usd": 0.0026668910000000002
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 23604,
+      "completion_tokens": 2267,
+      "cost_usd": 0.00111618
+    }
+  }
+}

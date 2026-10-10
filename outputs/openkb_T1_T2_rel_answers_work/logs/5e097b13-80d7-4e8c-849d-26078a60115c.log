@@ -1,0 +1,32 @@
+=== 2026-10-10 15:35:03 uid=5e097b13-80d7-4e8c-849d-26078a60115c ===
+Adding: session-11_2024-06-15.md
+  Compiling short doc...
+    summary.............. 14.4s (in=1912, out=855, cached=768)
+    concepts-plan.......... 10.8s (in=3135, out=386, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low_effort_touchpoints... 4.0s (in=2983, out=797, cached=68)
+    concept: psychological_safety... 12.9s (in=2980, out=727, cached=64)
+=== 2026-10-10 15:35:54 uid=5e097b13-80d7-4e8c-849d-26078a60115c ===
+Adding: session-11_2024-06-15.md
+  Compiling short doc...
+    summary...... 6.3s (in=1912, out=944, cached=784)
+    concepts-plan.................... 20.7s (in=2982, out=593)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low_effort_touchpoints... 4.5s (in=2844, out=730, cached=784)
+    concept: workplace_community... 5.5s (in=2857, out=1215, cached=768)
+    concept: psychological_safety... 7.7s (in=2827, out=524)
+    summary-rewrite..... 5.8s (in=2871, out=873)
+  [OK] session-11_2024-06-15.md added to knowledge base.
+Adding: session-36_2025-02-15.md
+  Compiling short doc...
+    summary....................... 23.3s (in=1952, out=843, cached=768)
+    concepts-plan...................... 22.4s (in=3210, out=938, cached=784)
+    Generating 5 concept(s) (concurrency=4)...
+    update: low_effort_touchpoints... 9.2s (in=3541, out=1249)
+    concept: orientation_day... 14.7s (in=3036, out=857)
+    concept: name_recall_strategies... 16.2s (in=3037, out=533, cached=768)
+    concept: safety_question_bank... 16.7s (in=3037, out=957, cached=784)
+    update: psychological_safety... 23.7s (in=3406, out=1192, cached=784)
+    summary-rewrite........ 8.8s (in=3068, out=1099, cached=784)
+  [OK] session-36_2025-02-15.md added to knowledge base.
+done.

@@ -1,0 +1,24 @@
+=== 2026-10-10 15:42:17 uid=51618f4e-b782-41ee-911e-38db6e359d68 ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.0s (in=1942, out=965)
+    concepts-plan.. 2.1s (in=2918, out=409, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: mindfulness_practice_structure... 2.0s (in=2764, out=370)
+    concept: mind_wandering_handling... 7.8s (in=2767, out=558, cached=64)
+    concept: anchor_selection... 12.3s (in=2765, out=791, cached=64)
+Concept generation failed: LLM returned empty content for concept 'mindfulness_practice_structure'
+    [WARN] 3 concept(s) planned but only 2 written for session-12_2024-06-15 (ValueError).
+    summary-rewrite. 1.9s (in=2788, out=791)
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-03-16.md
+  Compiling short doc...
+    summary...... 6.8s (in=1973, out=890, cached=64)
+    concepts-plan........... 12.0s (in=3035, out=594, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: evening-reset... 13.2s (in=2864, out=853, cached=768)
+    concept: morning-routine... 16.0s (in=2864, out=662, cached=64)
+    concept: friction-reduction... 16.2s (in=2865, out=599, cached=768)
+    summary-rewrite......... 9.4s (in=2896, out=695, cached=784)
+  [OK] session-39_2025-03-16.md added to knowledge base.
+done.

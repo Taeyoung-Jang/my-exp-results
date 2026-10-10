@@ -1,0 +1,24 @@
+=== 2026-10-10 14:42:02 uid=3305ce57-83ff-4daa-901f-165f363348ce ===
+Adding: session-07_2024-06-15.md
+  Compiling short doc...
+    summary..... 5.2s (in=1922, out=825)
+    concepts-plan.. 2.4s (in=2998, out=133, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: anchor-points... 5.3s (in=2839, out=630, cached=64)
+    concept: flexible-scheduling... 8.3s (in=2839, out=466, cached=768)
+    concept: buffer-time... 12.6s (in=2839, out=855)
+    summary-rewrite............. 13.2s (in=2858, out=830)
+  [OK] session-07_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-06-15.md
+  Compiling short doc...
+    summary.... 4.2s (in=2321, out=1048, cached=800)
+    concepts-plan............. 13.1s (in=3529, out=804, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: waiting-time-scripts... 4.7s (in=3361, out=908)
+    concept: impatience-reduction... 5.9s (in=3362, out=971, cached=784)
+    concept: attention-shifting... 17.4s (in=3361, out=880)
+Concept generation failed: LLM returned empty content for concept 'waiting-time-scripts'
+    [WARN] 3 concept(s) planned but only 2 written for session-39_2025-06-15 (ValueError).
+    summary-rewrite..... 5.9s (in=3396, out=1201, cached=768)
+  [OK] session-39_2025-06-15.md added to knowledge base.
+done.

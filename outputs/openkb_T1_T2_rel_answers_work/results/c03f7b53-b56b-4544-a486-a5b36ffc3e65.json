@@ -1,0 +1,32 @@
+{
+  "uid": "c03f7b53-b56b-4544-a486-a5b36ffc3e65",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    10,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. In the later conversation (Session 37 2025‑10‑14) the user was advised to **keep a local Windows account and use cloud storage only for selected folders**, e.g.:\n\n- “Selective convenience: Cloud storage only for chosen folders.” [[summaries/session-37_2025-10-14]]\n- “Off‑site file backup … Use a cloud drive or self‑hosted sync (e.g., Syncthing) targeting specific folders only.” [[summaries/session-37_2025-10-14]]\n\nEarlier (Session 11 2025‑07‑14) the recommendation was a general automatic cloud backup, but the more recent guidance supersedes it. So the user no longer has *all* files automatically backing up to the cloud; they now back up only the files they explicitly sync.",
+    "dim2_response": "I’m sorry, but I couldn’t find any information in the knowledge base about the user’s specific backup setup, preferences, or constraints. Without details on the volume of data, the cloud service being used, or any existing policies, I can’t generate a tailored backup schedule and retention policy. If you can provide more context—such as the types of files, typical change frequency, storage cost considerations, or any existing backup windows—I’ll be happy to give a concrete recommendation.",
+    "dim3_response": "Handing your laptop to a repair shop that may wipe the drive is risky if you have no current backup of the files you need for your quarterly report. Even if the shop only **“diagnoses”** the machine, the warning that a wipe is possible means you could lose any data that isn’t stored elsewhere.\n\n**What the knowledge base says**\n\n* The backup guidance in **[[summaries/session-11_2025-07-14]]** recommends a layered “3‑2‑1” strategy: keep at least **three copies** of your important files on **two different media types**, with **one copy stored off‑site** (e.g., cloud storage).  \n* It specifically calls out that an **encrypted external drive** (using Windows **[[entities/bitlocker]]** or macOS **[[entities/filevault]]**) paired with **continuous cloud‑backup** (see **[[concepts/cloud-backup]]**) provides a quick way to recover documents without having to rebuild the whole system image.  \n* For occasional, non‑system‑critical files (like a quarterly report), a full system image isn’t required; a cloud copy or an external‑drive copy is sufficient (see the “Full system image – Not required if the goal is merely to protect photos and documents” note).\n\n**Practical steps for you**\n\n1. **Verify you have a recent backup** of the folder(s) that contain the report.  \n   - If you already sync the folder to a cloud service (OneDrive, Google Drive, Dropbox, etc.), you can pull the latest version from your wife’s computer **provided you can log in to the same cloud account**.  \n   - If you only keep the files locally, copy them now to an **encrypted USB/SSD** (enable BitLocker or FileVault) and store that drive in a safe place.  \n\n2. **If you have no backup yet**, create one **before you leave the laptop**:  \n   - Connect an encrypted external drive and copy the report folder.  \n   - Or, quickly upload the files to a cloud storage folder you control.  \n\n3. **After the repair**, you can retrieve the backup from the external drive **or** sign into the cloud service from your wife’s computer and download the latest version. This avoids needing to reinstall or recover the entire OS.\n\n**Bottom line**\n\nUnless you already have the report stored somewhere other than the laptop’s internal drive (cloud sync or an encrypted external copy), handing the machine over “as‑is” puts your quarterly report at risk of being lost. Create a backup now, or at least copy the needed files to a secure external medium, before the diagnostic/wipe takes place."
+  },
+  "build_seconds": 78.7,
+  "total_seconds": 107.0,
+  "usage": {
+    "compile": {
+      "calls": 29,
+      "prompt_tokens": 87966,
+      "completion_tokens": 28048,
+      "cost_usd": 0.022187855000000003
+    },
+    "query": {
+      "calls": 8,
+      "prompt_tokens": 17768,
+      "completion_tokens": 1926,
+      "cost_usd": 0.000882681
+    }
+  }
+}

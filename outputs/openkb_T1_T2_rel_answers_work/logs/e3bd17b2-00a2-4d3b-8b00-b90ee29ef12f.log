@@ -1,0 +1,121 @@
+=== 2026-10-10 14:23:14 uid=e3bd17b2-00a2-4d3b-8b00-b90ee29ef12f ===
+Adding: session-13_2021-07-14.md
+  Compiling short doc...
+    summary............ 12.9s (in=2102, out=592, cached=64)
+    concepts-plan............................ 28.6s (in=3097, out=959, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: green_card_compliance... 3.5s (in=2985, out=820, cached=784)
+    concept: address_update_ar11... 3.9s (in=2989, out=532)
+    entity: uscis... 0.7s (in=3019, out=2, cached=64)
+    entity: ar_11_form... 9.7s (in=3026, out=405, cached=64)
+    entity: green_card... 14.7s (in=3019, out=791)
+    entity: united_states... 19.9s (in=3019, out=722, cached=784)
+    entity: passport... 7.3s (in=3018, out=256, cached=768)
+    entity: form_i_751... 4.2s (in=3038, out=833, cached=64)
+    concept: immigration_status_categories... 28.5s (in=2985, out=881, cached=64)
+    entity: social_security_card... 12.6s (in=3007, out=841)
+Concept generation failed: LLM returned empty content for concept 'address_update_ar11'
+    [WARN] 3 concept(s) planned but only 2 written for session-13_2021-07-14 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'uscis'
+    [WARN] 7 entity(ies) planned but only 6 written for session-13_2021-07-14 (ValueError).
+    summary-rewrite..... 5.0s (in=3016, out=955, cached=784)
+  [OK] session-13_2021-07-14.md added to knowledge base.
+Adding: session-35_2024-07-14.md
+  Compiling short doc...
+    summary....... 7.1s (in=2129, out=1222, cached=64)
+    concepts-plan..... 5.4s (in=3307, out=1313, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: passport_application_process... 3.8s (in=3071, out=922, cached=2672)
+    entity: certificate_of_naturalization... 6.0s (in=3107, out=768, cached=784)
+    concept: required_documents... 13.2s (in=3059, out=942)
+    entity: us_state_department... 8.0s (in=3109, out=372, cached=64)
+    entity: ds_11_form... 15.3s (in=3107, out=676, cached=784)
+    concept: passport_photo_requirements... 19.7s (in=3071, out=1081, cached=48)
+    entity: us_passport_agency... 8.8s (in=3108, out=376, cached=64)
+    entity: us_passport_acceptance_facility... 12.3s (in=3109, out=1029, cached=64)
+    summary-rewrite............................ 28.9s (in=3099, out=920, cached=768)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 399, in <module>
+    order = {r["uid"]: i for i, r in enumerate(records)}
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 363, in main
+    f"mode={args.session_mode} model={args.model}\nwork_dir={work_dir}")
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 831, in submit
+    self._start_executor_manager_thread()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 770, in _start_executor_manager_thread
+    self._launch_processes()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 797, in _launch_processes
+    self._spawn_process()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 807, in _spawn_process
+    p.start()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.12/multiprocessing/context.py", line 282, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 232, in _worker
+    }
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 204, in run_sample
+    for idx in indices:  # chronological: timestamps increase with index
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 452, in add_single_file
+    return _add_single_file_locked(file_path, kb_dir, stage=stage, bundle=bundle)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 629, in _add_single_file_locked
+    if not run_add_mutation(kb_dir, plan):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/add_coordinator.py", line 103, in run_add_mutation
+    plan.body(snapshot)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 570, in commit_body
+    _run_compile_with_retry(
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 435, in _run_compile_with_retry
+    asyncio.run(coro_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 103, in _process_log_task
+    verbose_logger.exception(f"LoggingWorker error: {e}")
+Message: 'LoggingWorker error: '
+Arguments: None
+  [OK] session-35_2024-07-14.md added to knowledge base.
+done.

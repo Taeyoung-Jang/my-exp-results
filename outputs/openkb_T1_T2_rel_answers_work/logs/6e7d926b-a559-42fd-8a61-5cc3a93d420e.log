@@ -1,0 +1,25 @@
+=== 2026-10-10 15:37:58 uid=6e7d926b-a559-42fd-8a61-5cc3a93d420e ===
+Adding: session-12_2024-07-01.md
+  Compiling short doc...
+    summary............................. 29.2s (in=2455, out=920, cached=768)
+    concepts-plan... 3.5s (in=3747, out=218)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-12_2024-07-01 — no concept pages generated. See log (stderr) for details.
+  [OK] session-12_2024-07-01.md added to knowledge base.
+Adding: session-36_2025-03-30.md
+  Compiling short doc...
+    summary..... 5.7s (in=2964, out=1310, cached=784)
+    concepts-plan... 3.3s (in=4355, out=919, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: irs... 4.0s (in=4272, out=758, cached=784)
+    concept: emotional-impact... 4.1s (in=4240, out=758, cached=4112)
+    concept: llc-dissolution... 5.3s (in=4237, out=1018, cached=3904)
+    concept: business-closure... 5.5s (in=4236, out=1058, cached=4112)
+    entity: stripe... 3.5s (in=4270, out=604, cached=4112)
+    entity: square... 3.2s (in=4270, out=550, cached=4112)
+    entity: paypal... 5.1s (in=4271, out=989, cached=4112)
+    entity: eftps... 4.2s (in=4279, out=835, cached=4112)
+    summary-rewrite... 3.9s (in=4268, out=1158, cached=3904)
+  [OK] session-36_2025-03-30.md added to knowledge base.
+done.

@@ -1,0 +1,123 @@
+=== 2026-10-10 14:35:41 uid=0781e96e-853c-46af-b787-4a64fc248e62 ===
+Adding: session-07_2023-06-15.md
+  Compiling short doc...
+    summary............. 13.9s (in=2807, out=1002, cached=64)
+    concepts-plan..................... 21.2s (in=3945, out=688, cached=64)
+    Generating 8 concept(s) (concurrency=4)...
+    Generating 10 entity(ies) (concurrency=4)...
+    concept: battery-life-tradeoff... 15.7s (in=3913, out=580, cached=768)
+    concept: health-tracking-depth... 19.2s (in=3899, out=1388)
+    concept: iphone-integration... 21.6s (in=3911, out=1182, cached=64)
+    concept: wearable-ecosystems... 21.8s (in=3912, out=849, cached=768)
+    concept: sleep-hrv-metrics... 4.9s (in=3913, out=1192, cached=784)
+    concept: garmin-gotchas... 17.0s (in=3911, out=1058, cached=64)
+    concept: apple-health-sync... 14.0s (in=3911, out=1060)
+    entity: apple-watch... 11.9s (in=3932, out=863)
+    concept: garmin-model-recommendations... 19.9s (in=3898, out=1420)
+    entity: fitbit... 10.7s (in=3944, out=394, cached=768)
+    entity: garmin... 20.8s (in=3944, out=948, cached=64)
+    entity: garmin-venu-3... 14.5s (in=3948, out=554, cached=768)
+    entity: samsung-galaxy-watch... 15.5s (in=3946, out=890)
+    entity: apple-pay... 6.0s (in=3945, out=255, cached=3776)
+    entity: iphone... 5.8s (in=3962, out=1152, cached=768)
+    entity: garmin-pay... 12.0s (in=3932, out=853)
+    entity: garmin-forerunner-265... 21.0s (in=3949, out=1255, cached=64)
+    entity: garmin-vivovactive-5... 24.4s (in=3949, out=978, cached=784)
+    summary-rewrite.................. 18.7s (in=3929, out=1431)
+  [OK] session-07_2023-06-15.md added to knowledge base.
+Adding: session-35_2024-06-15.md
+  Compiling short doc...
+    summary...... 6.6s (in=1866, out=1744)
+    concepts-plan.................. 18.6s (in=3131, out=1107)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: dumb-alarm-clock... 4.4s (in=2755, out=1054, cached=800)
+    entity: analog-wristwatch... 10.5s (in=2790, out=360, cached=64)
+    concept: phone-placement... 11.1s (in=2754, out=540)
+    entity: e-reader... 4.1s (in=2789, out=791, cached=64)
+    concept: distraction-reduction... 15.0s (in=2742, out=972)
+    entity: dedicated-music-player... 6.8s (in=2790, out=1178, cached=784)
+    entity: basic-alarm-clock... 13.8s (in=2790, out=766, cached=64)
+    entity: digital-notepad... 4.3s (in=2790, out=701, cached=784)
+    entity: paper-notebook... 20.0s (in=2789, out=754, cached=64)
+    entity: smartphone... 26.6s (in=2788, out=932, cached=64)
+    summary-rewrite........................ 24.1s (in=2786, out=839, cached=768)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+ValueError: I/O operation on closed file.
+Call stack:
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 399, in <module>
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 363, in main
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 831, in submit
+    self._start_executor_manager_thread()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 770, in _start_executor_manager_thread
+    self._launch_processes()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 797, in _launch_processes
+    self._spawn_process()
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 807, in _spawn_process
+    p.start()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.12/multiprocessing/context.py", line 282, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.12/multiprocessing/popen_fork.py", line 71, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 232, in _worker
+  File "/home/tae0jang/Documents/Workspace/STALE/STALE/Evaluation/run_openkb.py", line 204, in run_sample
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 452, in add_single_file
+    return _add_single_file_locked(file_path, kb_dir, stage=stage, bundle=bundle)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 629, in _add_single_file_locked
+    if not run_add_mutation(kb_dir, plan):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/add_coordinator.py", line 103, in run_add_mutation
+    plan.body(snapshot)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 570, in commit_body
+    _run_compile_with_retry(
+  File "/home/tae0jang/Documents/Workspace/OpenKB/openkb/cli.py", line 435, in _run_compile_with_retry
+    asyncio.run(coro_factory())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 103, in _process_log_task
+    verbose_logger.exception(f"LoggingWorker error: {e}")
+Message: 'LoggingWorker error: '
+Arguments: None
+  [OK] session-35_2024-06-15.md added to knowledge base.
+done.

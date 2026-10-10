@@ -1,0 +1,53 @@
+=== 2026-10-10 15:56:39 uid=f64207c3-c9f9-49d2-a304-39f4a0a7ec1e ===
+Adding: session-09_2025-01-04.md
+  Compiling short doc...
+    summary................................. 33.2s (in=3720, out=1249)
+    concepts-plan....... 7.3s (in=5048, out=444, cached=64)
+    Generating 7 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: expectations-and-inflation... 4.3s (in=4964, out=1026, cached=784)
+    concept: policy-interaction... 6.8s (in=4970, out=1511, cached=4832)
+    concept: macro-learning-roadmap... 11.6s (in=4965, out=862, cached=4576)
+    concept: measurement-foundations... 11.7s (in=4963, out=875, cached=768)
+    concept: short-run-macro-models... 26.3s (in=4966, out=1097, cached=64)
+    concept: financial‑crises-mechanisms... 16.6s (in=4966, out=1149, cached=784)
+    concept: open-economy-mechanics... 18.0s (in=4983, out=3709, cached=768)
+    entity: 2008-financial-crisis... 3.6s (in=5001, out=821, cached=4832)
+    entity: ray-dalio... 24.2s (in=4999, out=616)
+    entity: central-bank... 16.3s (in=4985, out=975)
+    entity: pandemic-stimulus... 29.1s (in=4999, out=1010, cached=784)
+    summary-rewrite....................... 23.1s (in=4992, out=1553, cached=768)
+[92m15:58:40 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-09_2025-01-04.md added to knowledge base.
+Adding: session-39_2025-07-04.md
+  Compiling short doc...
+    summary... 3.9s (in=2551, out=675)
+    concepts-plan... 3.3s (in=3710, out=825, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    entity: emt... 3.5s (in=3500, out=640, cached=768)
+    concept: differences-between-emt-and-paramedic... 13.0s (in=3448, out=560, cached=768)
+    entity: paramedic... 10.8s (in=3479, out=481, cached=768)
+    concept: paramedic-training-priorities... 16.6s (in=3447, out=896, cached=784)
+    entity: aed... 11.9s (in=3471, out=766)
+    concept: study-plan-design... 28.1s (in=3449, out=2116, cached=784)
+    entity: ecg... 17.8s (in=3471, out=1072)
+    summary-rewrite................. 17.7s (in=3475, out=861)
+  [OK] session-39_2025-07-04.md added to knowledge base.
+done.

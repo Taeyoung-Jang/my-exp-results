@@ -1,0 +1,50 @@
+=== 2026-10-10 15:42:46 uid=36d4a45d-833a-4f1b-a3bf-4f47a729eba0 ===
+Adding: session-08_2024-06-20.md
+  Compiling short doc...
+    summary......... 10.0s (in=3024, out=968)
+    concepts-plan....... 7.1s (in=4095, out=662)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: cost-benefit-analysis-car-maintenance... 3.7s (in=3969, out=688)
+    concept: budget-prioritization-vehicle-repairs... 16.2s (in=3969, out=753, cached=768)
+    concept: suspension-noise-diagnosis... 24.6s (in=3965, out=1130, cached=784)
+Concept generation failed: LLM returned empty content for concept 'cost-benefit-analysis-car-maintenance'
+    [WARN] 3 concept(s) planned but only 2 written for session-08_2024-06-20 (ValueError).
+    summary-rewrite............... 15.4s (in=3996, out=764, cached=3824)
+  [OK] session-08_2024-06-20.md added to knowledge base.
+Adding: session-38_2025-02-18.md
+  Compiling short doc...
+    summary..................... 21.5s (in=2636, out=746, cached=768)
+    concepts-plan......... 9.3s (in=3810, out=872, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: notice-of-transfer-release-of-liability... 9.9s (in=3699, out=1309, cached=784)
+    entity: california-dmv... 10.2s (in=3732, out=977, cached=784)
+    entity: california... 2.9s (in=3727, out=466)
+    concept: private-party-vehicle-sale-checklist... 13.8s (in=3698, out=1266, cached=784)
+    entity: reg-227... 12.2s (in=3722, out=1110)
+    entity: certificate-of-title... 9.5s (in=3730, out=764, cached=784)
+    entity: reg-138... 15.5s (in=3738, out=1043, cached=784)
+    entity: bill-of-sale... 13.0s (in=3730, out=870, cached=784)
+    concept: vehicle-title-management... 36.5s (in=3695, out=1770)
+Entity generation failed: LLM returned empty content for concept 'california'
+    [WARN] 6 entity(ies) planned but only 5 written for session-38_2025-02-18 (ValueError).
+    summary-rewrite............................................................................. 77.8s (in=3726, out=1169)
+[92m15:46:08 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-38_2025-02-18.md added to knowledge base.
+done.

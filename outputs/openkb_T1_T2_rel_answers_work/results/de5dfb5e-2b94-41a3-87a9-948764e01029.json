@@ -1,0 +1,19 @@
+{
+  "uid": "de5dfb5e-2b94-41a3-87a9-948764e01029",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    14,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "**No.**  \n\n- In the earlier conversation (session 15 — 2025‑06‑16) the user’s days were described as “highly fragmented and constantly changing,” and the advice focused on anchors, flexible blocks, and a micro‑task menu to fill 5‑20 minute gaps【/summaries/session-15_2025-06-16.md】.  \n- By the later conversation (session 37 — 2025‑10‑17) the user was working on “flexible two‑hour evening routines,” explicitly planning a solid 2‑hour window for purposeful activities and a scrolling‑cutoff rule【/summaries/session-37_2025-10-17.md】.  \n\nThus, the user’s situation has shifted from only tiny, fragmented spare moments to having at least one uninterrupted block of time (the planned two‑hour evening period).",
+    "dim2_response": "Here are some ready‑to‑go micro‑activities that reliably fit into a 5‑10 minute window. They follow the **Micro‑Task Menu** framework described in the knowledge base [[concepts/micro‑task‑menu]] and the practical advice from session 15 [[summaries/session‑15_2025‑06‑16]].\n\n| Category | Example micro‑activities (5‑10 min) |\n|----------|------------------------------------|\n| **Quick Communication** | • Draft and send a brief email reply or follow‑up.<br>• Text or Slack a quick “got it / next steps” message to a colleague.<br>• Confirm or reschedule a meeting in the calendar.<br>• Send a thank‑you note or acknowledgement. |\n| **Mini‑Admin** | • Clear 5–10 items from the inbox (delete, archive, or flag).<br>• Tidy a small workspace area (desk corner, keyboard, inbox tray).<br>• File one document or rename a folder for better organization.<br>• Update a status column on a task board or spreadsheet. |\n| **Creative / Thinking** | • Write a single paragraph for a blog post, report, or idea note.<br>• Sketch a quick mind‑map or doodle to explore a concept.<br>• Review and annotate a short article or a meeting note.<br>• Brainstorm three possible solutions to a current challenge. |\n| **Maintenance / System Check** | • Run a quick backup of recent files or sync cloud storage.<br>• Check battery levels, install a pending OS/app update, or restart a frozen program.<br>• Review today’s calendar for any missed appointments and add a buffer.<br>• Log today’s top‑priority task in your capture tool. |\n\n**How to use the list**\n\n1. Keep the menu in an easily accessible place (notes app, sticky, or digital checklist) as suggested in the source material [[summaries/session‑15_2025‑06‑16]].\n2. When a 5‑10 minute gap appears, scan the categories, pick the first task that feels most relevant, and start it immediately—no extra planning needed.\n3. After finishing, mark the task as done and move on to the next gap or the next scheduled block.\n\nThese micro‑activities give you productive “fill‑in” options that sustain momentum without demanding large chunks of uninterrupted time.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information relevant to strict AI‑proctored certification exams, webcam‑monitoring requirements, or scheduling such a test at home. Consequently, I can’t provide a reliable answer to your question."
+  },
+  "build_seconds": 107.3,
+  "total_seconds": 136.1,
+  "usage": {}
+}

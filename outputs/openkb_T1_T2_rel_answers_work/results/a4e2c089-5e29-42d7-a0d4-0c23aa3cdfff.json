@@ -1,0 +1,32 @@
+{
+  "uid": "a4e2c089-5e29-42d7-a0d4-0c23aa3cdfff",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    12,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. The guidance you received still recommends giving yourself a **full 24‑hour low‑activity window after any hard effort** in order to prevent fatigue that can carry over into the next day(s).\n\n* The **Low‑Activity Cap** concept (see [[concepts/low‑activity‑cap]]) explains that after a hard workout you should keep the next 24 hours to very light activity (20–40 min at a perceived effort of 2‑3/10). Going beyond that “cap” can re‑introduce stress and lead to multi‑day fatigue.  \n* The weekly‑training summary in [[summaries/session‑36_2025‑09‑02]] reinforces this by linking the low‑activity cap to the **recovery‑first‑scheduling** approach, which “ensures each hard day is followed by a true low‑stress buffer.”  \n\nSo, to avoid lingering fatigue you should continue to observe the full 24‑hour low‑activity period after strenuous sessions.",
+    "dim2_response": "**Weekly “24‑hour‑recovery‑first” schedule**\n\n| Day | Type | Example activity (keep the “hard” work **only** on the listed days) | Recovery rule (24 h low‑activity) |\n|-----|------|---------------------------------------------------------------------|-----------------------------------|\n| **Mon** | Hard – cardio + strength | 6‑8 × 1 min intervals @≈80 % HR + 90 s easy; 3 × 8‑10 Goblet Squats, 3 × 8 RDL, 2‑3 × 8‑12 Push‑ups | **Tue** must be a *low‑activity* day (20‑40 min walk/mobility, effort 2‑3 / 10) [[concepts/low-activity-cap]] |\n| **Tue** | Low‑activity (recovery) | Easy walk, gentle bike, mobility circuit | Full “reset” – no strength or hard cardio. |\n| **Wed** | Hard – strength focus | 3 × 6‑10 Back Squats, 3 × 6‑10 Rows, 3 × 6‑10 Deadlifts/Hip‑Thrusts (stop 1‑2 reps shy of failure) | **Thu** low‑activity (same 20‑40 min, effort 2‑3 / 10) [[concepts/recovery-first-scheduling]] |\n| **Thu** | Low‑activity (recovery) | Same walk/mobility as Tue | |\n| **Fri** | Optional easy‑endurance day (if you feel fully recovered) | 30‑45 min steady‑state cycling or jog at conversational pace (HR ≈ 60‑65 % max) | **Sat** hard day must be preceded by at least the prior low‑activity day (Thu) – the optional Fri easy day adds extra aerobic volume without breaking the 24‑h rule. |\n| **Sat** | Hard – mixed cardio/strength circuit | 30‑40 min moderate steady cardio **or** 20‑min circuit: body‑weight squats, light dumbbell press, rowing intervals, core work (low load, continuous) | **Sun** low‑activity (20‑40 min walk/mobility) [[concepts/low-activity-cap]] |\n| **Sun** | Low‑activity (recovery) | Same as Tue | This finishes the week with a clean reset before the next Monday hard session. |\n\n### Why this works\n* **Recovery‑first scheduling** – every hard effort is followed by a dedicated low‑activity day, guaranteeing a full 24 h “reset” period (see the “low‑activity cap” concept) [[concepts/recovery-first-scheduling]][[concepts/low-activity-cap]].\n* **Hard‑day spacing** – the three demanding sessions are spaced **Mon → Wed → Sat**, each separated by at least one low‑activity day, preventing accumulated fatigue.\n* **Intensity caps for recovery days** – keep them to 20‑40 min of very easy movement (effort 2‑3 / 10). This is exactly the guideline used in the 3‑day hard‑training framework [[summaries/session-13_2025-05-03]].\n* **Flexibility** – if any morning check (sleep, mood, resting HR) signals incomplete recovery, replace the planned hard day with a low‑activity day (the decision rule from the same source) [[summaries/session-13_2025-05-03]].\n\n### Quick checklist for each day\n1. **Morning check** – good sleep, stable resting HR, positive mood? → proceed with hard day; otherwise treat the day as low‑activity.  \n2. **Low‑activity day** – limit to 20‑40 min, effort ≤ 3/10, no strength or high‑intensity cardio.  \n3. **Hard day** – follow the outlined cardio/strength prescription, stop ≈1‑2 reps shy of failure, keep cardio HR ≈ 80 % max.\n\nBy adhering to this pattern you’ll always give every strenuous effort a full 24‑hour low‑activity window, eliminating multi‑day fatigue while still achieving three quality hard sessions each week.",
+    "dim3_response": "I’m sorry, but I don’t have any relevant information in the knowledge base to help answer that question."
+  },
+  "build_seconds": 108.9,
+  "total_seconds": 144.2,
+  "usage": {
+    "compile": {
+      "calls": 22,
+      "prompt_tokens": 72136,
+      "completion_tokens": 22764,
+      "cost_usd": 0.014033484
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 20096,
+      "completion_tokens": 2319,
+      "cost_usd": 0.0010203
+    }
+  }
+}

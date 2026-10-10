@@ -1,0 +1,56 @@
+=== 2026-10-10 15:45:35 uid=c4b573c1-0ea6-4edd-a400-c2a86907538b ===
+Adding: session-11_2024-06-15.md
+  Compiling short doc...
+    summary............ 12.7s (in=2443, out=1275, cached=784)
+    concepts-plan.... 4.4s (in=3738, out=171, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: senior-engineer... 3.6s (in=3661, out=872, cached=786)
+    concept: signaling-technical-track... 8.7s (in=3631, out=1054, cached=784)
+    entity: principal-engineer... 3.2s (in=3661, out=753, cached=784)
+    concept: growth-goal-setting... 12.2s (in=3630, out=1206, cached=784)
+    entity: project-manager... 4.6s (in=3658, out=781, cached=768)
+    entity: staff-engineer... 13.8s (in=3661, out=468, cached=768)
+    concept: technical-vs-leadership-paths... 20.3s (in=3630, out=1226)
+    entity: lead-engineer... 9.9s (in=3648, out=1038)
+    entity: program-manager... 7.9s (in=3661, out=907, cached=784)
+    summary-rewrite........ 8.4s (in=3657, out=1314)
+  [OK] session-11_2024-06-15.md added to knowledge base.
+Adding: session-38_2024-12-16.md
+  Compiling short doc...
+    summary............... 15.0s (in=2605, out=1059, cached=784)
+    concepts-plan................. 17.5s (in=3983, out=1062, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: handoff-risk-management... 4.3s (in=3743, out=797)
+    concept: team-alignment... 4.5s (in=3742, out=1000, cached=3616)
+    entity: maya... 4.7s (in=3776, out=1093, cached=816)
+    concept: lightweight-dashboard... 13.2s (in=3729, out=879)
+    entity: lena... 12.3s (in=3776, out=967, cached=784)
+    entity: jordan... 16.4s (in=3776, out=539, cached=64)
+    entity: ravi... 19.3s (in=3776, out=996)
+    entity: spreadsheet... 6.2s (in=3812, out=778)
+    entity: notion... 14.3s (in=3777, out=932, cached=2592)
+    entity: chris... 30.4s (in=3776, out=806, cached=784)
+Concept generation failed: LLM returned empty content for concept 'handoff-risk-management'
+    [WARN] 3 concept(s) planned but only 2 written for session-38_2024-12-16 (ValueError).
+    summary-rewrite.................................. 34.4s (in=3774, out=1050, cached=64)
+[92m15:48:16 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-38_2024-12-16.md added to knowledge base.
+done.

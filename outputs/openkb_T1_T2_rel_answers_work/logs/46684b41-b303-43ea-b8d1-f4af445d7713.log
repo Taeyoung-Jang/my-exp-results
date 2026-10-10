@@ -1,0 +1,22 @@
+=== 2026-10-10 14:34:04 uid=46684b41-b303-43ea-b8d1-f4af445d7713 ===
+Adding: session-14_2024-07-10.md
+  Compiling short doc...
+    summary.............. 14.0s (in=2487, out=967, cached=48)
+    concepts-plan..... 5.5s (in=3550, out=400)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: consistent-sleep-schedule... 3.1s (in=3411, out=703, cached=784)
+    concept: wind-down-routine... 10.2s (in=3411, out=694, cached=784)
+    concept: sleep-hygiene... 11.2s (in=3409, out=700, cached=2480)
+    summary-rewrite............ 12.4s (in=3428, out=910)
+  [OK] session-14_2024-07-10.md added to knowledge base.
+Adding: session-37_2025-03-11.md
+  Compiling short doc...
+    summary........... 11.8s (in=1969, out=921)
+    concepts-plan... 3.7s (in=3055, out=146, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: winter-light-exposure... 4.3s (in=2902, out=795, cached=768)
+    concept: anchor-habits... 15.0s (in=2885, out=630, cached=768)
+    concept: phase-two-morning-template... 19.2s (in=2887, out=699, cached=64)
+    summary-rewrite...... 6.5s (in=2913, out=842)
+  [OK] session-37_2025-03-11.md added to knowledge base.
+done.

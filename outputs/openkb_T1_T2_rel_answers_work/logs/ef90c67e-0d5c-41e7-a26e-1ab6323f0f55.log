@@ -1,0 +1,29 @@
+=== 2026-10-10 15:35:46 uid=ef90c67e-0d5c-41e7-a26e-1ab6323f0f55 ===
+Adding: session-13_2024-07-12.md
+  Compiling short doc...
+    summary=== 2026-10-10 15:36:34 uid=ef90c67e-0d5c-41e7-a26e-1ab6323f0f55 ===
+Adding: session-13_2024-07-12.md
+  Compiling short doc...
+    summary.................. 18.3s (in=2102, out=877, cached=784)
+    concepts-plan....... 7.9s (in=3097, out=573)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: community-health-indicators... 2.2s (in=2952, out=744)
+    entity: reddit... 3.1s (in=3030, out=474, cached=768)
+    concept: participation-inviting-threads... 7.1s (in=2971, out=736, cached=784)
+    entity: discord... 7.9s (in=3002, out=315, cached=768)
+    concept: gatekeeping-mitigation... 14.3s (in=2970, out=606, cached=784)
+    summary-rewrite.. 2.1s (in=3000, out=789, cached=768)
+  [OK] session-13_2024-07-12.md added to knowledge base.
+Adding: session-31_2025-03-13.md
+  Compiling short doc...
+    summary...... 6.8s (in=5637, out=712, cached=784)
+    concepts-plan... 3.2s (in=6672, out=730, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    concept: theme-based-scheduling... 3.6s (in=6461, out=931, cached=768)
+    concept: meal-prep-basics... 5.9s (in=6464, out=936, cached=784)
+    concept: habit-formation... 9.6s (in=6449, out=959)
+    concept: time-blocking... 30.5s (in=6462, out=999, cached=64)
+    summary-rewrite............... 16.0s (in=6494, out=861, cached=64)
+  [OK] session-31_2025-03-13.md added to knowledge base.
+done.

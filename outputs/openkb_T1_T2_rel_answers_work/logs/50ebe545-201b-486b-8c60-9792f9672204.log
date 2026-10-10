@@ -1,0 +1,38 @@
+=== 2026-10-10 15:58:02 uid=50ebe545-201b-486b-8c60-9792f9672204 ===
+Adding: session-14_2024-06-15.md
+  Compiling short doc...
+    summary............................ 28.9s (in=2024, out=996, cached=48)
+    concepts-plan... 3.9s (in=3154, out=249, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: store-brand... 5.7s (in=3050, out=394, cached=2688)
+    concept: low-effort-savings... 7.1s (in=3019, out=505, cached=768)
+    entity: weekly-ad... 2.4s (in=3049, out=325)
+    concept: rewards-programs... 11.5s (in=3015, out=468, cached=64)
+    concept: checkout-script... 13.6s (in=3020, out=464, cached=768)
+    entity: clearance-section... 11.0s (in=3050, out=385, cached=768)
+Entity generation failed: LLM returned empty content for concept 'weekly-ad'
+    [WARN] 3 entity(ies) planned but only 2 written for session-14_2024-06-15 (ValueError).
+    summary-rewrite.... 4.4s (in=3051, out=1036, cached=768)
+  [OK] session-14_2024-06-15.md added to knowledge base.
+Adding: session-31_2025-02-15.md
+  Compiling short doc...
+    summary............ 12.6s (in=1976, out=827, cached=784)
+    concepts-plan............... 15.5s (in=3045, out=1283, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: simple-budgeting... 3.1s (in=2851, out=476)
+    entity: credit-card... 3.7s (in=2886, out=880, cached=784)
+    concept: cash-back-evaluation... 10.2s (in=2854, out=566, cached=64)
+    entity: costco... 2.0s (in=2884, out=322)
+    entity: budgeting-app... 6.8s (in=2887, out=356, cached=64)
+    update: rewards-programs... 14.1s (in=3315, out=1765, cached=784)
+    concept: privacy-best-practices... 20.0s (in=2858, out=690, cached=64)
+    entity: target... 26.0s (in=2885, out=699, cached=784)
+Concept generation failed: LLM returned empty content for concept 'simple-budgeting'
+    [WARN] 4 concept(s) planned but only 3 written for session-31_2025-02-15 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'costco'
+    [WARN] 4 entity(ies) planned but only 3 written for session-31_2025-02-15 (ValueError).
+    summary-rewrite.................. 18.1s (in=2883, out=944, cached=768)
+  [OK] session-31_2025-02-15.md added to knowledge base.
+done.

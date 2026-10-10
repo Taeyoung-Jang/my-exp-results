@@ -1,0 +1,32 @@
+{
+  "uid": "1503dba8-2831-40b9-8628-15c81655250d",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "I wasn’t able to locate any conversation entries or wiki pages that mention a person named **Marcus** or his dining preferences. The available sessions focus on low‑smoke, one‑pot cooking for tiny kitchens, and there’s no record of Marcus turning down restaurant invitations in favor of cooking himself.  \n\n**Therefore, based on the current knowledge base, I cannot confirm that Marcus still generally turns down restaurant invitations because he prefers preparing meals himself.**",
+    "dim2_response": "**Weekly dinner plan for Marcus**  \n*(all recipes are one‑pot or pan‑only, low‑smoke, and use overlapping ingredients – see the low‑smoke and batch‑cooking guidance in [[summaries/session-33_2025-03-09]] and the 7‑day tofu plan in [[summaries/session-06_2024-07-10]])*\n\n| Day | Dinner (quick‑prep, one‑pot) | Key steps |\n|-----|------------------------------|-----------|\n| **Mon** | **One‑Pot Tomato Pasta** | Cook [[entities/dry-pasta]] with water, add cherry tomatoes (or frozen spinach) and finish with a pat of [[entities/butter]] or a spoonful of [[entities/cream-cheese]]. Sprinkle [[entities/parmesan]] and a squeeze of [[entities/lemon]] for brightness. |\n| **Tue** | **Ten‑Minute Lentil‑Veg Soup** | Simmer [[entities/lentils]] with broth (or water) and a mix of [[entities/frozen-vegetables]]. Add a dash of [[entities/lemon]] and a pinch of [[entities/parmesan]] before serving. |\n| **Wed** | **Egg‑Rice Bowl** | Heat [[entities/instant‑rice]] with a handful of [[entities/prewashed‑greens]] and peas (from the frozen veg). Top with a lightly fried [[entities/egg]] and drizzle a tiny splash of [[entities/soy‑sauce]] (optional). |\n| **Thu** | **Creamy Lemon Rice** | Re‑heat [[entities/instant‑rice]]; stir in a dollop of [[entities/cream‑cheese]] (or a pat of [[entities/butter]]), juice of [[entities/lemon]], and any leftover greens. |\n| **Fri** | **Pan‑Seared Tofu & Veggie Stir‑Fry** | Sauté cubed [[entities/tofu]] in a slick of oil, add the remaining [[entities/frozen‑vegetables]] and a splash of [[entities/soy‑sauce]]. Serve over a scoop of fresh rice or the leftover rice from earlier in the week. |\n| **Sat** | **Rice‑Lentil‑Tofu Power Bowl** | Combine cooked [[entities/instant‑rice]], cooked [[entities/lentils]], and pan‑seared tofu. Toss with a drizzle of [[entities/soy‑sauce]] and a bit of [[entities/lemon]] juice. |\n| **Sun** | **Clean‑Out Bowl / Simple Scrambled Eggs** | Use any leftover pasta, rice, lentils, or veggies; heat together, add a splash of broth if needed, and finish with a sprinkle of [[entities/parmesan]]. If the fridge is empty, scramble the remaining [[entities/egg]] with a handful of greens and a pat of [[entities/butter]]. |\n\n### Consolidated shopping list\n*(only the items that appear in the wiki; basic pantry staples like oil, salt & pepper are assumed)*  \n\n- [[entities/dry-pasta]] (small pack)  \n- [[entities/instant-rice]] (box)  \n- 1 can or ½ cup dry [[entities/lentils]]  \n- [[entities/frozen-vegetables]] (mixed; enough for several meals)  \n- Cherry tomatoes **or** frozen spinach (for pasta)  \n- [[entities/prewashed-greens]] (bag)  \n- [[entities/butter]] **or** [[entities/cream-cheese]] (choose one for richness)  \n- [[entities/parmesan]] (wedge or grated)  \n- 1 [[entities/lemon]]  \n- 1 [[entities/egg]] (or a small carton, depending on preference)  \n- 1 block [[entities/tofu]]  \n- Small bottle of [[entities/soy-sauce]] (optional, for flavor)  \n\nThis list covers every ingredient needed for the seven dinners while keeping the pantry compact, the cooking steps simple, and the kitchen odors minimal—exactly the routine Marcus enjoys.",
+    "dim3_response": "I’m sorry, but I couldn’t find any relevant information in the knowledge base to answer your question about whether you should dine out or cook at home this Saturday."
+  },
+  "build_seconds": 155.8,
+  "total_seconds": 220.8,
+  "usage": {
+    "compile": {
+      "calls": 28,
+      "prompt_tokens": 111211,
+      "completion_tokens": 27092,
+      "cost_usd": 0.020778156
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 31681,
+      "completion_tokens": 2616,
+      "cost_usd": 0.0014213100000000003
+    }
+  }
+}

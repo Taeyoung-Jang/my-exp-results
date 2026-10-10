@@ -1,0 +1,32 @@
+=== 2026-10-10 15:38:36 uid=77c54d90-05af-4a6b-b92d-cf520c04d3f4 ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary...... 6.7s (in=1951, out=1063)
+    concepts-plan... 3.1s (in=3151, out=92, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: formality-level... 11.8s (in=2990, out=875)
+    entity: customer-support... 12.1s (in=3037, out=641)
+    concept: language-choice... 20.0s (in=3002, out=664, cached=768)
+    concept: communication-contexts... 20.0s (in=3003, out=757)
+    entity: bilingual-support... 13.5s (in=3038, out=580)
+    summary-rewrite......... 9.0s (in=3034, out=1073)
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-38_2025-03-14.md
+  Compiling short doc...
+    summary......... 9.0s (in=4007, out=2128, cached=784)
+    concepts-plan................... 19.7s (in=5051, out=1011)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: brazilian-lease-terminology... 3.6s (in=4877, out=850, cached=4000)
+    concept: tenant-documentation-checklist... 4.3s (in=4904, out=1114, cached=768)
+    entity: tenant... 5.5s (in=4909, out=823, cached=784)
+    entity: landlord... 3.6s (in=4909, out=539)
+    entity: lease-agreement... 3.2s (in=4938, out=1185, cached=768)
+    entity: brazilian-tenant-assistance-desk... 2.2s (in=4940, out=665)
+    concept: lease-red-flags... 19.5s (in=4876, out=944, cached=784)
+Entity generation failed: LLM returned empty content for concept 'landlord'
+    [WARN] 4 entity(ies) planned but only 3 written for session-38_2025-03-14 (ValueError).
+    summary-rewrite.. 2.3s (in=4907, out=712, cached=768)
+  [OK] session-38_2025-03-14.md added to knowledge base.
+done.

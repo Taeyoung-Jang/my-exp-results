@@ -1,0 +1,41 @@
+=== 2026-10-10 14:46:38 uid=6fbae7c5-31dc-4c6a-8906-fbea31c8ff81 ===
+Adding: session-07_2024-06-15.md
+  Compiling short doc...
+    summary................. 17.2s (in=2049, out=748, cached=64)
+    concepts-plan. 1.7s (in=3055, out=142, cached=32)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: icloud... 3.5s (in=2977, out=732, cached=768)
+    concept: backup-strategy... 4.2s (in=2925, out=1010, cached=800)
+    entity: google-one... 3.2s (in=2960, out=255, cached=768)
+    concept: local-backup... 7.1s (in=2925, out=877, cached=784)
+    entity: google-photos... 4.5s (in=2960, out=313, cached=2592)
+    entity: apple... 6.6s (in=2959, out=725, cached=784)
+    concept: cloud-backup... 14.1s (in=2925, out=876, cached=784)
+    entity: google-keep... 10.8s (in=2960, out=260)
+    entity: google... 24.2s (in=2959, out=765, cached=784)
+    summary-rewrite.......... 10.6s (in=2957, out=1041, cached=784)
+  [OK] session-07_2024-06-15.md added to knowledge base.
+Adding: session-32_2024-12-13.md
+  Compiling short doc...
+    summary........................... 27.2s (in=1912, out=782, cached=64)
+    concepts-plan..... 5.3s (in=2979, out=1400, cached=784)
+    Generating 6 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: trip-folder-naming... 7.2s (in=2718, out=886, cached=784)
+    concept: incoming-folder... 9.3s (in=2717, out=549, cached=64)
+    concept: plug-and-forget-backup... 4.1s (in=2721, out=1080, cached=2320)
+    update: backup-strategy... 2.0s (in=3281, out=10)
+    entity: file-history... 2.4s (in=2751, out=344)
+    concept: duplicate-removal... 14.0s (in=2704, out=1026)
+    entity: windows... 2.8s (in=2750, out=337)
+    concept: external-drive-mirroring... 25.0s (in=2719, out=1030, cached=784)
+    entity: freefilesync... 14.4s (in=2753, out=768)
+Concept generation failed: LLM returned empty content for concept 'backup-strategy'
+    [WARN] 6 concept(s) planned but only 5 written for session-32_2024-12-13 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'windows'
+Entity generation failed: LLM returned empty content for concept 'file-history'
+    [WARN] 3 entity(ies) planned but only 1 written for session-32_2024-12-13 (ValueError).
+    summary-rewrite............. 13.4s (in=2736, out=1024)
+  [OK] session-32_2024-12-13.md added to knowledge base.
+done.

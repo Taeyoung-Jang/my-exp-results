@@ -1,0 +1,39 @@
+=== 2026-10-10 14:18:55 uid=cafa590e-d787-4df6-9207-eb9c9e2e90c5 ===
+Adding: session-05_2024-06-09.md
+  Compiling short doc...
+    summary..... 5.9s (in=1694, out=939, cached=64)
+    concepts-plan.. 2.7s (in=2525, out=452)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: tie_breaker_factors... 3.6s (in=2356, out=599, cached=64)
+    concept: decision_checklist... 12.9s (in=2339, out=451, cached=64)
+    concept: travel_option_comparison... 18.9s (in=2335, out=711, cached=64)
+    summary-rewrite..................... 21.9s (in=2366, out=565)
+[92m14:19:48 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-05_2024-06-09.md added to knowledge base.
+Adding: session-34_2025-06-09.md
+  Compiling short doc...
+    summary....... 7.2s (in=2080, out=1271)
+    concepts-plan.... 4.8s (in=3038, out=573, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: psychological-commute... 5.7s (in=2885, out=907, cached=64)
+    concept: physical-cues... 6.4s (in=2868, out=716, cached=784)
+    concept: workday-rituals... 12.7s (in=2869, out=790)
+    summary-rewrite....... 7.1s (in=2899, out=771, cached=2528)
+  [OK] session-34_2025-06-09.md added to knowledge base.
+done.

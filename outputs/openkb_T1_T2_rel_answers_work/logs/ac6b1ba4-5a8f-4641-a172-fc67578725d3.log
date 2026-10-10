@@ -1,0 +1,53 @@
+=== 2026-10-10 14:18:55 uid=ac6b1ba4-5a8f-4641-a172-fc67578725d3 ===
+Adding: session-07_2024-06-15.md
+  Compiling short doc...
+    summary............... 15.6s (in=2764, out=1008)
+    concepts-plan........ 8.6s (in=3977, out=1163, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: quick-check-ins... 2.1s (in=3911, out=765)
+    entity: japan-standard-time... 2.3s (in=3949, out=904)
+    entity: us-eastern-time... 7.4s (in=3920, out=273, cached=64)
+    entity: us-pacific-time... 13.2s (in=3920, out=877)
+    concept: overlap-windows... 15.8s (in=3882, out=994)
+    concept: rotating-call-schedule... 15.8s (in=3883, out=1478, cached=784)
+    entity: australia-melbourne... 4.6s (in=3914, out=882, cached=64)
+    entity: australia-sydney... 5.7s (in=3917, out=922, cached=784)
+    entity: united-kingdom... 11.6s (in=3906, out=851)
+    entity: singapore... 10.4s (in=3915, out=794)
+    entity: hong-kong... 8.9s (in=3916, out=427, cached=768)
+    summary-rewrite.......................................... 42.3s (in=3913, out=1230)
+[92m14:20:35 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-07_2024-06-15.md added to knowledge base.
+Adding: session-38_2025-02-12.md
+  Compiling short doc...
+    summary...... 6.4s (in=1873, out=1169, cached=68)
+    concepts-plan.... 4.9s (in=3166, out=257, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: routine-anchoring... 4.1s (in=2834, out=997, cached=784)
+    concept: light-therapy... 6.1s (in=2833, out=975, cached=784)
+    concept: social-regularity... 7.0s (in=2834, out=806, cached=784)
+    entity: ten-thousand-lux-lamp... 7.0s (in=2875, out=1044, cached=784)
+    concept: circadian-rhythm-management... 16.0s (in=2835, out=966)
+    entity: toronto... 15.8s (in=2867, out=775, cached=784)
+    concept: second-wind-ritual... 22.5s (in=2835, out=802, cached=64)
+    summary-rewrite..... 5.9s (in=2865, out=735, cached=784)
+  [OK] session-38_2025-02-12.md added to knowledge base.
+done.

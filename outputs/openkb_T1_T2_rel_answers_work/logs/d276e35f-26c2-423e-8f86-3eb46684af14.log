@@ -1,0 +1,27 @@
+=== 2026-10-10 15:47:46 uid=d276e35f-26c2-423e-8f86-3eb46684af14 ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary... 3.8s (in=4392, out=909, cached=800)
+    concepts-plan................................... 35.6s (in=5415, out=966, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: make-ahead-planning... 4.0s (in=5303, out=521)
+    concept: cross-contamination-prevention... 7.0s (in=5305, out=1762, cached=4384)
+    entity: halloumi... 9.0s (in=5338, out=744, cached=784)
+    concept: gluten-free-cooking... 10.6s (in=5304, out=885, cached=784)
+    entity: flourless-chocolate-cake... 8.0s (in=5339, out=339, cached=64)
+    entity: gluten-free-crackers... 3.1s (in=5340, out=716, cached=5168)
+    entity: french-green-lentils... 7.6s (in=5339, out=360, cached=64)
+    entity: tamari... 37.7s (in=5337, out=679, cached=784)
+Concept generation failed: LLM returned empty content for concept 'make-ahead-planning'
+    [WARN] 3 concept(s) planned but only 2 written for session-12_2024-06-15 (ValueError).
+    summary-rewrite.............. 14.7s (in=5334, out=941, cached=5152)
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-33_2025-06-15.md
+  Compiling short doc...
+    summary....... 7.1s (in=2564, out=789)
+    concepts-plan.......... 10.0s (in=3828, out=422)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-33_2025-06-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-33_2025-06-15.md added to knowledge base.
+done.

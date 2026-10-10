@@ -1,0 +1,39 @@
+=== 2026-10-10 15:49:57 uid=463b4ca9-a781-49fa-b831-e36d61f11b58 ===
+Adding: session-11_2025-08-14.md
+  Compiling short doc...
+    summary.................... 20.5s (in=1849, out=1057)
+    concepts-plan.. 2.7s (in=2652, out=112, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: default-dish... 9.0s (in=2493, out=771)
+    entity: grilled-salmon... 11.8s (in=2542, out=658, cached=784)
+    entity: daily-special... 5.0s (in=2541, out=1188, cached=784)
+    concept: kitchen-vibe... 15.8s (in=2506, out=308)
+    concept: restaurant-strength... 23.9s (in=2506, out=618, cached=64)
+Concept generation failed: LLM returned empty content for concept 'kitchen-vibe'
+    [WARN] 3 concept(s) planned but only 2 written for session-11_2025-08-14 (ValueError).
+    summary-rewrite.......... 10.8s (in=2538, out=696)
+  [OK] session-11_2025-08-14.md added to knowledge base.
+Adding: session-39_2025-11-14.md
+  Compiling short doc...
+    summary................ 16.8s (in=2712, out=1161, cached=784)
+    concepts-plan............ 12.1s (in=4099, out=442, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: questioning-script-restaurant... 7.1s (in=3956, out=803, cached=784)
+    concept: beginner-friendly-fermented-flavors... 9.3s (in=3959, out=990, cached=784)
+    entity: miso... 6.2s (in=3989, out=719, cached=784)
+    entity: kimchi... 5.5s (in=3976, out=845)
+    entity: fish-sauce... 12.1s (in=3989, out=989, cached=784)
+    update: default-dish... 50.3s (in=4421, out=1540, cached=64)
+    update: restaurant-strength... 43.5s (in=4273, out=1122, cached=3824)
+    entity: shrimp-paste... 3.3s (in=3989, out=384)
+    concept: cuisine-exploration-strategy... 57.7s (in=3955, out=1451, cached=48)
+    entity: stinky-tofu... 14.5s (in=3978, out=1052)
+    entity: natto... 13.1s (in=3989, out=331, cached=64)
+    entity: fermented-bean-curd... 34.0s (in=3992, out=943, cached=48)
+Entity generation failed: LLM returned empty content for concept 'shrimp-paste'
+    [WARN] 7 entity(ies) planned but only 6 written for session-39_2025-11-14 (ValueError).
+    summary-rewrite..... 5.2s (in=3986, out=1296, cached=784)
+  [OK] session-39_2025-11-14.md added to knowledge base.
+done.

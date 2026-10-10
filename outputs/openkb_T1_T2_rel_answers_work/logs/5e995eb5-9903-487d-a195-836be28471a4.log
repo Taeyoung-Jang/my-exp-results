@@ -1,0 +1,38 @@
+=== 2026-10-10 15:27:01 uid=5e995eb5-9903-487d-a195-836be28471a4 ===
+Adding: session-15_2023-06-15.md
+  Compiling short doc...
+    summary..... 5.3s (in=3866, out=1139)
+    concepts-plan............... 15.7s (in=5113, out=392, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: windows‑performance‑tweaks... 4.1s (in=5004, out=836, cached=68)
+    entity: shotcut... 6.1s (in=5038, out=1134, cached=784)
+    entity: handbrake... 3.7s (in=5038, out=942, cached=784)
+    entity: mediainfo... 2.0s (in=5037, out=345)
+    concept: low-end-video-editing... 15.2s (in=5006, out=822, cached=64)
+    entity: kdenlive... 11.3s (in=5026, out=950)
+    entity: dnxhr-lb... 2.6s (in=5023, out=857)
+    entity: prores-proxy... 5.0s (in=5056, out=1098, cached=768)
+    entity: blender... 13.5s (in=5024, out=992)
+    concept: proxy-workflow... 26.8s (in=5003, out=1028, cached=784)
+Entity generation failed: LLM returned empty content for concept 'mediainfo'
+    [WARN] 7 entity(ies) planned but only 6 written for session-15_2023-06-15 (ValueError).
+    summary-rewrite................................................................................................................. 113.5s (in=5035, out=1341)
+  [OK] session-15_2023-06-15.md added to knowledge base.
+Adding: session-37_2024-06-15.md
+  Compiling short doc...
+    summary............................ 28.1s (in=3219, out=956, cached=768)
+    concepts-plan.. 2.8s (in=4791, out=613, cached=69)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: folder-bin-mirroring... 3.2s (in=4535, out=1108)
+    entity: davinci-resolve... 3.6s (in=4538, out=539)
+    entity: adobe-premiere-pro... 7.0s (in=4538, out=1111, cached=784)
+    entity: final-cut-pro... 6.9s (in=4538, out=1447, cached=784)
+    concept: series-template-workflow... 11.2s (in=4503, out=1070, cached=784)
+    concept: adjustment-layer-strategy... 27.7s (in=4504, out=1106, cached=64)
+Entity generation failed: LLM returned empty content for concept 'davinci-resolve'
+    [WARN] 3 entity(ies) planned but only 2 written for session-37_2024-06-15 (ValueError).
+    summary-rewrite..... 5.4s (in=4534, out=1251, cached=784)
+  [OK] session-37_2024-06-15.md added to knowledge base.
+done.

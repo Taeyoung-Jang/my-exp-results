@@ -1,0 +1,32 @@
+=== 2026-10-10 15:27:01 uid=704cac18-885e-4437-b136-a7600650ba01 ===
+Adding: session-10_2022-09-18.md
+  Compiling short doc...
+    summary..... 5.9s (in=2106, out=940)
+    concepts-plan... 3.2s (in=3174, out=598, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: adaptation-period... 6.2s (in=3007, out=334, cached=64)
+    entity: portland... 7.4s (in=3040, out=317, cached=64)
+    concept: city-rhythm... 14.5s (in=3006, out=481, cached=64)
+    concept: keystone-habits... 20.3s (in=3007, out=807, cached=64)
+    summary-rewrite...... 6.5s (in=3038, out=951, cached=64)
+  [OK] session-10_2022-09-18.md added to knowledge base.
+Adding: session-36_2024-09-18.md
+  Compiling short doc...
+    summary........................ 24.0s (in=3269, out=1085, cached=784)
+    concepts-plan.... 4.5s (in=4522, out=751, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: bark-scorpion... 3.9s (in=4415, out=798, cached=768)
+    concept: scorpion-proofing... 4.4s (in=4364, out=729)
+    entity: catchmaster... 4.3s (in=4397, out=805, cached=784)
+    concept: pet-safe-glue-removal... 10.0s (in=4365, out=1700, cached=64)
+    entity: glue-board... 3.2s (in=4397, out=740, cached=784)
+    concept: diy-trap-design... 16.2s (in=4363, out=929, cached=64)
+    entity: protecta... 12.5s (in=4384, out=1094)
+    entity: pvc-pipe... 9.1s (in=4397, out=475, cached=768)
+Concept generation failed: LLM returned empty content for concept 'scorpion-proofing'
+    [WARN] 3 concept(s) planned but only 2 written for session-36_2024-09-18 (ValueError).
+    summary-rewrite............... 15.6s (in=4394, out=1372)
+  [OK] session-36_2024-09-18.md added to knowledge base.
+done.

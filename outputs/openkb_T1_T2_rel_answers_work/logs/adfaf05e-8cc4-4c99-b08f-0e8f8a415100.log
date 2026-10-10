@@ -1,0 +1,32 @@
+=== 2026-10-10 15:31:53 uid=adfaf05e-8cc4-4c99-b08f-0e8f8a415100 ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary........................ 24.5s (in=2361, out=1165, cached=784)
+    concepts-plan................. 17.2s (in=3499, out=674, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: national-photography-society... 2.5s (in=3368, out=261)
+    concept: lighting... 4.2s (in=3332, out=744, cached=784)
+    concept: photographic-review-workflow... 15.0s (in=3335, out=453, cached=64)
+    concept: composition... 16.6s (in=3332, out=501, cached=64)
+Entity generation failed: LLM returned empty content for concept 'national-photography-society'
+    [WARN] 1 entity(ies) planned but only 0 written for session-12_2024-06-15 (ValueError).
+    summary-rewrite...... 6.8s (in=3365, out=982, cached=784)
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-40_2025-02-13.md
+  Compiling short doc...
+    summary.... 4.7s (in=2320, out=916, cached=784)
+    concepts-plan........ 8.7s (in=3518, out=253, cached=64)
+    Generating 7 concept(s) (concurrency=4)...
+    concept: first-message-script... 3.6s (in=3404, out=776, cached=768)
+    concept: low-effort-meetup-discovery... 5.2s (in=3387, out=848, cached=784)
+    concept: active-group-signs... 5.6s (in=3386, out=763)
+    concept: facebook-group-sanity-check... 3.1s (in=3382, out=888, cached=64)
+    concept: show-up-script... 11.3s (in=3375, out=907)
+    concept: polite-exit-strategy... 6.2s (in=3385, out=727, cached=784)
+    concept: free-routine-ideas... 20.6s (in=3387, out=915, cached=784)
+Concept generation failed: LLM returned empty content for concept 'active-group-signs'
+    [WARN] 7 concept(s) planned but only 6 written for session-40_2025-02-13 (ValueError).
+    summary-rewrite...................... 22.2s (in=3412, out=1476, cached=64)
+  [OK] session-40_2025-02-13.md added to knowledge base.
+done.

@@ -1,0 +1,52 @@
+=== 2026-10-10 15:38:21 uid=bfe30117-6aea-4b58-8010-91ee20aed9b7 ===
+Adding: session-02_2024-06-15.md
+  Compiling short doc...
+    summary......................... 25.7s (in=2112, out=831, cached=64)
+    concepts-plan................ 17.0s (in=3103, out=825)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: garage... 6.6s (in=2970, out=610)
+    concept: garage_storage... 10.9s (in=2936, out=837)
+    concept: food_rotation... 12.2s (in=2949, out=468, cached=768)
+    concept: emergency_preparedness... 15.2s (in=2950, out=788, cached=64)
+    summary-rewrite... 3.9s (in=2985, out=692, cached=768)
+  [OK] session-02_2024-06-15.md added to knowledge base.
+Adding: session-40_2025-02-13.md
+  Compiling short doc...
+    summary......... 9.5s (in=2410, out=1479, cached=784)
+    concepts-plan............................... 31.2s (in=3385, out=1416, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: space_saving_organization... 6.6s (in=3275, out=888, cached=800)
+    concept: vertical_storage_without_drilling... 7.1s (in=3276, out=1032, cached=784)
+    entity: narrow_bookshelf... 8.0s (in=3309, out=844, cached=784)
+    concept: layout_planning_for_small_spaces... 8.8s (in=3276, out=626, cached=768)
+    entity: adhesive_hooks... 2.4s (in=3308, out=352)
+    entity: over_the_door_pantry_rack... 4.5s (in=3313, out=379, cached=768)
+    entity: low_profile_tv_stand... 5.0s (in=3311, out=868, cached=784)
+    entity: ladder_style_leaning_shelf... 7.5s (in=3312, out=273, cached=768)
+    entity: round_accent_tables... 6.1s (in=3309, out=373, cached=3136)
+    entity: rolling_kitchen_cart... 8.5s (in=3309, out=931, cached=784)
+    entity: nesting_tables... 15.2s (in=3309, out=527, cached=768)
+Entity generation failed: LLM returned empty content for concept 'adhesive_hooks'
+    [WARN] 8 entity(ies) planned but only 7 written for session-40_2025-02-13 (ValueError).
+    summary-rewrite....................... 23.9s (in=3305, out=971, cached=784)
+[92m15:40:53 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-40_2025-02-13.md added to knowledge base.
+done.

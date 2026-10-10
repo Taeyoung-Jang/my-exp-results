@@ -1,0 +1,37 @@
+=== 2026-10-10 15:48:37 uid=1469bde3-6c26-41c4-bd02-fe6e57463b28 ===
+Adding: session-02_2024-06-15.md
+  Compiling short doc...
+    summary..... 5.5s (in=2218, out=806, cached=784)
+    concepts-plan... 3.7s (in=3205, out=756, cached=2208)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: icloud... 4.0s (in=3111, out=657, cached=2752)
+    concept: software-update-strategy... 4.2s (in=3077, out=681, cached=2944)
+    concept: device-isolation... 4.7s (in=3076, out=778, cached=2944)
+    concept: beta-testing-risk-management... 5.8s (in=3078, out=997, cached=2208)
+    entity: time-machine... 3.5s (in=3111, out=618, cached=2944)
+    entity: google-drive... 3.9s (in=3111, out=731, cached=2944)
+    entity: file-history... 3.8s (in=3111, out=755, cached=2944)
+    entity: apple... 3.6s (in=3110, out=743, cached=2944)
+    entity: microsoft... 2.6s (in=3110, out=624, cached=2944)
+    summary-rewrite... 3.3s (in=3108, out=788, cached=2944)
+  [OK] session-02_2024-06-15.md added to knowledge base.
+Adding: session-38_2025-02-15.md
+  Compiling short doc...
+    summary....................... 23.5s (in=2602, out=844)
+    concepts-plan............. 13.8s (in=3802, out=943, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: iphone... 7.9s (in=3570, out=402)
+    entity: windows-11... 3.5s (in=3572, out=962, cached=784)
+    entity: ios... 2.8s (in=3571, out=716, cached=784)
+    entity: microsoft-store... 4.5s (in=3571, out=1034, cached=3408)
+    entity: windows-update... 3.1s (in=3571, out=637, cached=3408)
+    concept: windows-active-hours... 23.0s (in=3537, out=970, cached=784)
+    update: software-update-strategy... 25.1s (in=4014, out=1570, cached=784)
+    concept: ios-automatic-updates... 29.2s (in=3538, out=883, cached=64)
+Entity generation failed: LLM returned empty content for concept 'iphone'
+    [WARN] 5 entity(ies) planned but only 4 written for session-38_2025-02-15 (ValueError).
+    summary-rewrite... 3.5s (in=3568, out=965, cached=3408)
+  [OK] session-38_2025-02-15.md added to knowledge base.
+done.

@@ -1,0 +1,32 @@
+{
+  "uid": "cf25e575-4665-447a-ab58-e464af6e6d2d",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "I’m sorry, but the knowledge base does not contain any information about the current status of your romantic relationship. The stored sessions only include general guidance on relationship checkpoints and co‑parenting routines; they do not record whether you are still in a stable, serious partnership with your four‑year‑old partner. Consequently, I cannot determine the present state of that relationship.",
+    "dim2_response": "**Anniversary Celebration Idea – “Four‑Year Journey of Us”**\n\n| Element | Why it fits a serious, four‑year partnership (see [[concepts/relationship‑seriousness]]) |\n|---------|---------------------------------------------------------------------------------------------|\n| **Morning “Memory Walk”** | Start the day with a stroll through a place that holds meaning for both of you (where you first met, a favorite park, or the neighborhood where you moved in together). The walk gives you space for **future‑vision** conversations (Checkpoint 5) and reinforces the feeling that your lives are already intertwined. |\n| **Personal “Time Capsule” activity** | Before lunch, each partner writes a short note about a favorite memory from the past four years, a current gratitude, and a wish for the next five years. Seal them in a decorative box to open on a future anniversary (e.g., the 10‑year mark). This mirrors the **future‑planning** and **mutual‑investment** indicators of seriousness. |\n| **Experience‑focused lunch/dinner** | Choose a hands‑on experience rather than a typical restaurant—cooking a new cuisine together, a pottery workshop, or a dance class. Collaborative activities highlight **joint decision‑making** and **shared support** (Checkpoint 7 & 8). |\n| **Thoughtful gift** | A small, symbolic gift that reflects a shared value or future goal—e.g., a map with pins for places you’d like to travel together, a framed photo of a home‑looking layout, or a book that both of you want to read. This speaks to **relationship‑alignment** on lifestyle and **independence** needs. |\n| **Evening reflection & toast** | End the night on a cozy balcony or living‑room setting with soft music. Take turns reading the notes from the time‑capsule, then toast to the past, present, and the next chapter. This creates an **emotionally safe** moment for deeper sharing, a core sign of seriousness. |\n\n---  \n\n### Sample Heartfelt Anniversary Message  \n\n> *“Four years ago we started this adventure together, and every day since has felt like a promise we keep keeping. I love how we’ve learned to make decisions side‑by‑side, support each other through the highs and the lows, and still find new ways to surprise one another. Here’s to the dreams we’ve built, the memories we’ve collected, and the countless moments still waiting for us. Thank you for being my partner, my home, and the future I look forward to creating with you.”*  \n\n**Why it works**  \n- **Future vision**: mentions “dreams we’ve built” and “the future I look forward to” (Checkpoint 5).  \n- **Joint decision‑making & support**: “decisions side‑by‑side” and “support each other” (Checkpoint 7 & 8).  \n- **Emotional safety**: openly expresses gratitude and love, aligning with the **emotional‑safety** core of relationship seriousness.  \n\nThese ideas honor the depth of a four‑year serious partnership while reinforcing the very checkpoints that signal a healthy, long‑term relationship. Enjoy your celebration!",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain information about the suitability of a two‑seater convertible for a family, so I can’t provide a specific answer."
+  },
+  "build_seconds": 70.6,
+  "total_seconds": 84.0,
+  "usage": {
+    "compile": {
+      "calls": 12,
+      "prompt_tokens": 41799,
+      "completion_tokens": 10303,
+      "cost_usd": 0.006881218000000001
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 19721,
+      "completion_tokens": 1947,
+      "cost_usd": 0.00094209
+    }
+  }
+}

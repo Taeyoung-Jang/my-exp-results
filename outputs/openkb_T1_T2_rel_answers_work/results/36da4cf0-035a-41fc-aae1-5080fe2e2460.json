@@ -1,0 +1,32 @@
+{
+  "uid": "36da4cf0-035a-41fc-aae1-5080fe2e2460",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the February 2025 session the user’s earlier June 2024 conversation about “weekend planning with a partner” (see [[summaries/session-06_2024-06-15]]) shows they treat the relationship as a shared resource, run a weekly **partner‑check‑sync** routine, and explicitly “check with [partner] … before confirming plans.” This indicates the user still has a long‑term partner whose needs and availability are taken into account when they schedule activities.",
+    "dim2_response": "**Date‑Night Ideas for the Next Month (4 weeks)**  \n*(Designed to fit the “weekend shelf‑space” / “energy‑budget‑planning” framework from [[summaries/session-06_2024-06-15]] and to be easy to confirm during the weekly **[[concepts/partner‑check‑sync]]** routine.)*\n\n| Week | Partner‑energy vibe* | Joint‑slot(s) (what to book) | Solo‑slot (optional, if you have a free “solo cap”) | Quick‑check tip |\n|------|----------------------|------------------------------|------------------------------------------------------|-----------------|\n| **1** (Sat May 31 & Sun Jun 1) | **Low‑energy** – both want a relaxed weekend | 1️⃣ **Cozy home‑cooking night** – pick a simple recipe together, set a mood playlist, and enjoy a candle‑lit dinner. | – (no solo slot) | After the weekly sync, ask: “Do we have room for a joint dinner this weekend?” |\n| **2** (Sat Jun 7 & Sun Jun 8) | **Normal‑energy** – open to one joint + one solo | 1️⃣ **Live‑music bar or acoustic café** (30‑min‑late‑night set). <br>2️⃣ **Solo adventure** – you could attend a hobby‑class (e.g., pottery, salsa) that you’ve wanted, while your partner does a solo activity. | Use the **solo‑cap** only if you both feel the joint plan won’t exceed the 2‑plan limit. | Apply the two‑question test: *Do I want it?* / *Does it fit the shared plan?* |\n| **3** (Sat Jun 14 & Sun Jun 15) | **High‑energy** – both feel upbeat | 1️⃣ **Evening hike & stargazing** – a short trail followed by a blanket‑spread on a lookout. <br>2️⃣ **Mini‑road‑trip to a nearby town** for dinner & a boutique shop walk (fits the 2‑plan max per day). | If you have a spare slot, a quick **board‑game café** visit after dinner works as a “bonus” option. | Treat the hike as the first joint slot; the road‑trip can be the second (still ≤ 2 plans per day). |\n| **4** (Sat Jun 21 & Sun Jun 22) | **Normal‑energy** – balanced | 1️⃣ **Wine‑and‑cheese tasting** at a local shop or a virtual tasting kit you order together. <br>2️⃣ **Solo “self‑care” slot** – e.g., a yoga class, a museum visit, or a movie you’ve been eyeing. | Ensure the solo activity doesn’t clash with the joint tasting (still ≤ 2 plans). | Confirm after the Sunday sync: “Do we have a joint tasting night and a solo stretch?” |\n| **5** (Sat Jun 28 & Sun Jun 29) | **Low‑energy** – winding down before month‑end | 1️⃣ **Movie‑night in‑bed** – pick a short series episode or a feel‑good film, order take‑out, and cuddle. | – | Quick “yes/no” after sync; if the joint slot is full, shift to a solo evening (still respecting the 1‑plan cap). |\n\n\\* *Energy vibe* is the label you and your partner decide during the **weekly partner‑check‑sync** (see [[concepts/partner‑check‑sync]]).  \n\n### How to Use These Ideas  \n\n1. **Weekly Sync** – Every Sunday evening, decide the weekend’s energy level (low / normal / high).  \n2. **Apply the Two‑Question Check** (from [[concepts/energy‑budget‑planning]]) for each suggestion:  \n   - *Do I want it?* – does the activity excite both of you?  \n   - *Does it fit the shared plan?* – does it stay within the joint/solo caps for that vibe?  \n3. **Pick a Template** from the session‑06 text‑message set if you need to confirm with a friend or decline an invite.  \n   - Example: “That sounds fun – let me check with **[partner]** and I’ll get back to you.”  \n\n### Why These Ideas Work  \n\n- They respect the **“weekend shelf‑space”** limit (1–2 joint plans per weekend, depending on energy) as defined in the mini‑policy.  \n- Each activity can be booked with **minimal lead‑time**, keeping the “last‑minute invites as bonus options” rule intact.  \n- They balance **shared experiences** (dinner, live music, hike) with **individual recharge** (solo class, yoga, museum) so neither partner feels over‑committed.  \n\nFeel free to adjust the exact dates or swap activities based on your partner’s calendar during the sync – the structure will keep you both aligned while still enjoying varied, memorable date‑nights throughout the month.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about booking all‑inclusive resorts, travel flash sales, or related planning advice."
+  },
+  "build_seconds": 230.9,
+  "total_seconds": 251.0,
+  "usage": {
+    "compile": {
+      "calls": 12,
+      "prompt_tokens": 42130,
+      "completion_tokens": 11209,
+      "cost_usd": 0.006293086000000001
+    },
+    "query": {
+      "calls": 8,
+      "prompt_tokens": 15492,
+      "completion_tokens": 2208,
+      "cost_usd": 0.0008622
+    }
+  }
+}

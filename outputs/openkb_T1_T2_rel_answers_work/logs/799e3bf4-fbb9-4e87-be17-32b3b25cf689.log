@@ -1,0 +1,28 @@
+=== 2026-10-10 14:29:18 uid=799e3bf4-fbb9-4e87-be17-32b3b25cf689 ===
+Adding: session-14_2024-06-01.md
+  Compiling short doc...
+    summary........... 11.5s (in=2576, out=431, cached=768)
+    concepts-plan.. 3.0s (in=3419, out=529, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: pantry-shelf-zoning... 8.7s (in=3235, out=693)
+    concept: fifo-rotation... 12.1s (in=3246, out=448, cached=768)
+    concept: restock-routine... 18.3s (in=3247, out=595, cached=768)
+    summary-rewrite.... 4.6s (in=3278, out=1040, cached=64)
+  [OK] session-14_2024-06-01.md added to knowledge base.
+Adding: session-40_2025-06-01.md
+  Compiling short doc...
+    summary........ 8.3s (in=2424, out=1084)
+    concepts-plan........... 12.0s (in=3724, out=944, cached=784)
+    Generating 2 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: pasta... 2.8s (in=3604, out=605, cached=784)
+    entity: olive-oil... 6.1s (in=3605, out=637, cached=784)
+    entity: rice... 10.4s (in=3604, out=398, cached=768)
+    concept: core-staples... 12.8s (in=3570, out=562, cached=768)
+    concept: kitchen-organization... 14.3s (in=3557, out=1134)
+    entity: chicken-thighs... 7.8s (in=3607, out=843, cached=784)
+    entity: shrimp... 9.2s (in=3605, out=1009, cached=3440)
+    entity: broccoli... 7.0s (in=3605, out=756, cached=3440)
+    summary-rewrite......... 9.6s (in=3602, out=1047, cached=3440)
+  [OK] session-40_2025-06-01.md added to knowledge base.
+done.

@@ -1,0 +1,22 @@
+=== 2026-10-10 15:41:59 uid=27a52329-52de-41b3-8063-893c484c5803 ===
+Adding: session-03_2025-06-15.md
+  Compiling short doc...
+    summary.. 2.2s (in=2098, out=847, cached=768)
+    concepts-plan. 1.5s (in=3079, out=437, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: clear-expectations... 2.2s (in=2921, out=677, cached=768)
+    concept: monthly-reset... 2.3s (in=2921, out=840, cached=768)
+    concept: chore-roles... 2.8s (in=2922, out=1032, cached=768)
+    summary-rewrite.. 2.9s (in=2925, out=1079, cached=768)
+  [OK] session-03_2025-06-15.md added to knowledge base.
+Adding: session-38_2025-10-16.md
+  Compiling short doc...
+    summary... 3.7s (in=3072, out=1121, cached=768)
+    concepts-plan...... 6.8s (in=4348, out=617, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: assembly_meals... 4.9s (in=4180, out=999, cached=768)
+    concept: components... 11.8s (in=4162, out=685, cached=768)
+    concept: grab_and_go... 17.0s (in=4166, out=923, cached=784)
+    summary-rewrite............... 15.8s (in=4195, out=1031, cached=768)
+  [OK] session-38_2025-10-16.md added to knowledge base.
+done.

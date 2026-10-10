@@ -1,0 +1,32 @@
+=== 2026-10-10 14:36:02 uid=a6170008-d3e7-467e-b68b-cd051b5255f5 ===
+Adding: session-14_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.7s (in=1987, out=932)
+    concepts-plan.... 4.9s (in=3072, out=142, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: subscription-tier-comparison... 3.8s (in=2917, out=651)
+    concept: feature-evaluation-checklist... 12.7s (in=2918, out=490)
+    concept: cost-over-time... 13.7s (in=2918, out=781, cached=32)
+Concept generation failed: LLM returned empty content for concept 'subscription-tier-comparison'
+    [WARN] 3 concept(s) planned but only 2 written for session-14_2024-06-15 (ValueError).
+    summary-rewrite...... 6.1s (in=2949, out=954, cached=784)
+  [OK] session-14_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-03-14.md
+  Compiling short doc...
+    summary........... 11.1s (in=1972, out=1356, cached=784)
+    concepts-plan.... 4.3s (in=2938, out=944, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: annual_renewal_detection... 2.7s (in=2786, out=488)
+    concept: recurring_payment_tracking... 7.0s (in=2788, out=1198, cached=784)
+    entity: apple... 9.8s (in=2820, out=605)
+    entity: stripe... 4.8s (in=2820, out=668, cached=816)
+    entity: google... 9.6s (in=2820, out=529, cached=2656)
+    entity: paddle... 3.2s (in=2820, out=819, cached=784)
+    concept: subscription_auditing... 17.8s (in=2787, out=955, cached=784)
+    entity: office-suite... 13.3s (in=2821, out=682, cached=2656)
+Concept generation failed: LLM returned empty content for concept 'annual_renewal_detection'
+    [WARN] 3 concept(s) planned but only 2 written for session-39_2025-03-14 (ValueError).
+    summary-rewrite................... 19.1s (in=2818, out=818, cached=64)
+  [OK] session-39_2025-03-14.md added to knowledge base.
+done.

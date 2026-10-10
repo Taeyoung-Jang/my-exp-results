@@ -1,0 +1,22 @@
+=== 2026-10-10 15:48:51 uid=772e38fb-f478-4838-a9f0-d0d533e8a607 ===
+Adding: session-14_2025-06-15.md
+  Compiling short doc...
+    summary............... 15.8s (in=1647, out=527, cached=768)
+    concepts-plan............. 13.9s (in=2559, out=506, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: quick-decision-checklist... 8.6s (in=2397, out=669)
+    concept: risk-reduction-for-new-places... 10.6s (in=2413, out=540, cached=64)
+    concept: polite-bail-scripts... 17.6s (in=2411, out=674, cached=64)
+    summary-rewrite................ 16.4s (in=2441, out=685, cached=64)
+  [OK] session-14_2025-06-15.md added to knowledge base.
+Adding: session-35_2025-09-14.md
+  Compiling short doc...
+    summary..................... 21.9s (in=1823, out=804, cached=768)
+    concepts-plan.................. 18.6s (in=3075, out=593, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: treasure-hunt-exploration... 15.2s (in=2899, out=593, cached=1792)
+    concept: public-transit-based-discovery... 24.9s (in=2900, out=716, cached=768)
+    concept: thematic-mini-challenges... 30.6s (in=2886, out=2112)
+    summary-rewrite............. 13.9s (in=2915, out=988)
+  [OK] session-35_2025-09-14.md added to knowledge base.
+done.

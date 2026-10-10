@@ -1,0 +1,35 @@
+=== 2026-10-10 15:38:12 uid=ebdf7090-0a54-4bf2-89f1-3a4f5a4ee420 ===
+Adding: session-01_2025-06-15.md
+  Compiling short doc...
+    summary....................... 23.9s (in=2471, out=1047, cached=64)
+    concepts-plan.......... 10.1s (in=3679, out=365, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: chunked-export... 8.0s (in=3568, out=1150, cached=784)
+    entity: adobe-premiere-pro... 9.5s (in=3590, out=806)
+    entity: apple-prores... 6.0s (in=3603, out=788, cached=784)
+    concept: proxy-workflow... 16.4s (in=3567, out=579, cached=64)
+    entity: avid-dnxhr... 10.8s (in=3605, out=484, cached=768)
+    entity: aws-ec2-g-series... 8.0s (in=3622, out=1765, cached=768)
+    entity: adobe-team-projects... 3.9s (in=3603, out=795, cached=784)
+    concept: mezzanine-codec... 31.6s (in=3569, out=1547, cached=64)
+    entity: paperspace... 31.0s (in=3602, out=847)
+    summary-rewrite.... 5.0s (in=3598, out=1023)
+  [OK] session-01_2025-06-15.md added to knowledge base.
+Adding: session-33_2025-08-15.md
+  Compiling short doc...
+    summary.............. 15.0s (in=2458, out=1172)
+    concepts-plan..... 5.7s (in=4017, out=251, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    entity: nvidia... 3.4s (in=3774, out=408)
+    concept: display-connection-verification... 3.7s (in=3742, out=868, cached=784)
+    concept: quick-sync-utilization... 4.4s (in=3760, out=913, cached=64)
+    concept: gpu-upgrade-checklist... 6.0s (in=3759, out=1276, cached=768)
+    entity: windows-graphics-settings... 3.7s (in=3777, out=910, cached=3616)
+    entity: intel-quick-sync... 12.1s (in=3777, out=445, cached=768)
+Entity generation failed: LLM returned empty content for concept 'nvidia'
+    [WARN] 3 entity(ies) planned but only 2 written for session-33_2025-08-15 (ValueError).
+    summary-rewrite.... 4.7s (in=3773, out=1220, cached=784)
+  [OK] session-33_2025-08-15.md added to knowledge base.
+done.

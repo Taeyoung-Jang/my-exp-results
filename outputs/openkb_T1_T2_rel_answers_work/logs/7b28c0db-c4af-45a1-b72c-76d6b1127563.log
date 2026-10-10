@@ -1,0 +1,24 @@
+=== 2026-10-10 15:55:53 uid=7b28c0db-c4af-45a1-b72c-76d6b1127563 ===
+Adding: session-02_2025-09-12.md
+  Compiling short doc...
+    summary...... 6.9s (in=1760, out=353, cached=768)
+    concepts-plan........ 8.4s (in=2522, out=407, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: friendly-decline-messages... 5.3s (in=2369, out=650, cached=784)
+    concept: communication-tone-variation... 8.0s (in=2368, out=418, cached=1728)
+    concept: timeframe-specification... 10.8s (in=2371, out=592, cached=784)
+    summary-rewrite..... 5.7s (in=2399, out=477, cached=768)
+  [OK] session-02_2025-09-12.md added to knowledge base.
+Adding: session-32_2025-11-12.md
+  Compiling short doc...
+    summary........................... 27.2s (in=2842, out=1572, cached=784)
+    concepts-plan................... 19.7s (in=3848, out=847, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: daily-routine-structure... 3.9s (in=3724, out=802)
+    entity: zoom... 3.9s (in=3720, out=718, cached=66)
+    concept: micro-gap-utilization... 7.4s (in=3690, out=631, cached=768)
+    concept: agenda-clarification-techniques... 16.8s (in=3676, out=1217)
+    summary-rewrite................... 19.3s (in=3706, out=1022)
+  [OK] session-32_2025-11-12.md added to knowledge base.
+done.

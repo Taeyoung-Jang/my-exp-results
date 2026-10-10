@@ -1,0 +1,26 @@
+=== 2026-10-10 14:21:16 uid=e72a2ba5-ae37-4186-aa63-5324c49359e6 ===
+Adding: session-08_2024-06-15.md
+  Compiling short doc...
+    summary........................................................ 56.4s (in=2237, out=2828, cached=784)
+    concepts-plan..... 5.3s (in=3295, out=361, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: habit-formation... 5.0s (in=3137, out=658)
+    concept: runway-mindset... 15.3s (in=3140, out=695)
+    concept: decision-factors... 17.5s (in=3138, out=745)
+Concept generation failed: LLM returned empty content for concept 'habit-formation'
+    [WARN] 3 concept(s) planned but only 2 written for session-08_2024-06-15 (ValueError).
+    summary-rewrite... 3.9s (in=3174, out=757, cached=768)
+  [OK] session-08_2024-06-15.md added to knowledge base.
+Adding: session-34_2025-06-15.md
+  Compiling short doc...
+    summary.............. 14.1s (in=3362, out=596, cached=64)
+    concepts-plan.......... 10.8s (in=4382, out=618, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: usps... 8.9s (in=4261, out=329, cached=3360)
+    concept: utility-transition-planning... 10.7s (in=4225, out=1033, cached=784)
+    concept: moving-checklist-design... 19.0s (in=4225, out=1160, cached=784)
+    concept: address-change-management... 22.7s (in=4225, out=1119)
+    summary-rewrite.... 4.6s (in=4260, out=936, cached=768)
+  [OK] session-34_2025-06-15.md added to knowledge base.
+done.

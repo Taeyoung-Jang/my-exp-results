@@ -1,0 +1,32 @@
+=== 2026-10-10 15:47:06 uid=81a87a6e-c9b3-403b-971e-132b8388a983 ===
+Adding: session-15_2024-05-08.md
+  Compiling short doc...
+    summary....................................... 39.8s (in=2277, out=1045, cached=64)
+    concepts-plan................... 19.3s (in=3421, out=703, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    entity: merlin_bird_id... 3.7s (in=3341, out=661, cached=786)
+    concept: bird_identification... 5.4s (in=3304, out=713)
+    concept: wetland_birdwatching... 15.7s (in=3308, out=667, cached=768)
+    concept: field_marks_and_behavioral_cues... 16.3s (in=3309, out=696, cached=768)
+    entity: heron... 0.4s (in=3346, out=2, cached=3168)
+    entity: bittern... 12.2s (in=3327, out=892)
+    entity: sandpiper... 5.1s (in=3341, out=741, cached=784)
+    entity: green_heron... 37.3s (in=3341, out=1158, cached=784)
+Concept generation failed: LLM returned empty content for concept 'bird_identification'
+    [WARN] 3 concept(s) planned but only 2 written for session-15_2024-05-08 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'heron'
+    [WARN] 5 entity(ies) planned but only 4 written for session-15_2024-05-08 (ValueError).
+    summary-rewrite......... 9.4s (in=3337, out=1173, cached=784)
+  [OK] session-15_2024-05-08.md added to knowledge base.
+Adding: session-34_2025-01-05.md
+  Compiling short doc...
+    summary............. 13.3s (in=3806, out=1320, cached=784)
+    concepts-plan................ 16.0s (in=5311, out=637, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: low_effort_pantry_staples... 4.2s (in=5097, out=915, cached=800)
+    concept: meal_rotation_planning... 11.9s (in=5064, out=994)
+    concept: single_pan_cooking... 32.1s (in=5078, out=1241)
+    summary-rewrite..... 5.6s (in=5108, out=1408, cached=784)
+  [OK] session-34_2025-01-05.md added to knowledge base.
+done.

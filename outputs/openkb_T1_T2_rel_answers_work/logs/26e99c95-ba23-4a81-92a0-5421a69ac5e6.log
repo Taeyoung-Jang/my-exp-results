@@ -1,0 +1,22 @@
+=== 2026-10-10 14:49:18 uid=26e99c95-ba23-4a81-92a0-5421a69ac5e6 ===
+Adding: session-14_2024-01-04.md
+  Compiling short doc...
+    summary......... 9.2s (in=2306, out=728, cached=64)
+    concepts-plan. 2.0s (in=3418, out=220)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-14_2024-01-04 — no concept pages generated. See log (stderr) for details.
+  [OK] session-14_2024-01-04.md added to knowledge base.
+Adding: session-40_2024-10-04.md
+  Compiling short doc...
+    summary.............. 14.0s (in=3653, out=1262)
+    concepts-plan....... 8.0s (in=4531, out=190)
+    Generating 6 concept(s) (concurrency=4)...
+    concept: childcare-selection... 5.5s (in=4440, out=900, cached=768)
+    concept: turnover-red-flags... 2.9s (in=4441, out=915, cached=768)
+    concept: start-date-logistics... 11.6s (in=4400, out=1196)
+    concept: parental-email-template... 4.6s (in=4441, out=1014, cached=768)
+    concept: daycare-checklist... 13.2s (in=4399, out=1064)
+    concept: contract-gotchas... 15.9s (in=4412, out=1296, cached=64)
+    summary-rewrite. 1.9s (in=4443, out=675, cached=768)
+  [OK] session-40_2024-10-04.md added to knowledge base.
+done.

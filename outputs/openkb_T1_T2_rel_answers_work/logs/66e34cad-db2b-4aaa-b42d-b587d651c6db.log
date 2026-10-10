@@ -1,0 +1,26 @@
+=== 2026-10-10 15:33:32 uid=66e34cad-db2b-4aaa-b42d-b587d651c6db ===
+Adding: session-10_2024-10-13.md
+  Compiling short doc...
+    summary............. 13.3s (in=2616, out=940)
+    concepts-plan. 1.9s (in=3630, out=149)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-10_2024-10-13 — no concept pages generated. See log (stderr) for details.
+  [OK] session-10_2024-10-13.md added to knowledge base.
+Adding: session-31_2025-04-14.md
+  Compiling short doc...
+    summary......... 9.4s (in=2857, out=1323)
+    concepts-plan.................. 18.5s (in=4072, out=1182, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: entry-zone... 5.4s (in=3970, out=1011, cached=784)
+    concept: low-energy-routine... 7.0s (in=3972, out=1342, cached=784)
+    entity: tj-maxx... 2.8s (in=4003, out=693, cached=768)
+    entity: goodwill... 9.2s (in=4005, out=365, cached=768)
+    entity: pothos-plant... 3.9s (in=4007, out=773, cached=784)
+    concept: welcome-home-ritual... 15.8s (in=3971, out=1012, cached=784)
+    entity: dollar-tree... 10.6s (in=3992, out=799)
+    entity: ross-stores... 12.6s (in=4005, out=755, cached=64)
+    entity: snake-plant... 12.5s (in=4005, out=874)
+    summary-rewrite....... 7.5s (in=4002, out=1140, cached=784)
+  [OK] session-31_2025-04-14.md added to knowledge base.
+done.

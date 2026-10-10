@@ -1,0 +1,41 @@
+=== 2026-10-10 15:59:36 uid=c03f7b53-b56b-4544-a486-a5b36ffc3e65 ===
+Adding: session-11_2025-07-14.md
+  Compiling short doc...
+    summary.. 2.6s (in=1756, out=666, cached=784)
+    concepts-plan......... 9.3s (in=2621, out=1032, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: cloud-backup... 3.7s (in=2502, out=515, cached=64)
+    concept: encryption... 5.4s (in=2501, out=1305, cached=784)
+    entity: time-machine... 5.6s (in=2537, out=634, cached=784)
+    entity: backup-and-restore-windows-7... 4.3s (in=2543, out=706, cached=784)
+    entity: windows... 3.4s (in=2536, out=793, cached=784)
+    concept: backup-strategy... 15.2s (in=2489, out=1023)
+    entity: file-history... 12.1s (in=2537, out=729, cached=784)
+    entity: macos... 10.4s (in=2524, out=646)
+    entity: bitlocker... 4.1s (in=2537, out=749, cached=784)
+    entity: filevault... 4.5s (in=2537, out=774, cached=2368)
+    summary-rewrite... 3.1s (in=2534, out=740, cached=2368)
+  [OK] session-11_2025-07-14.md added to knowledge base.
+Adding: session-37_2025-10-14.md
+  Compiling short doc...
+    summary.... 4.4s (in=2346, out=1056, cached=784)
+    concepts-plan....... 7.0s (in=3697, out=1392, cached=2336)
+    Generating 6 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: password-manager... 4.3s (in=3441, out=974, cached=784)
+    concept: offsite-backup... 6.0s (in=3442, out=1067, cached=2336)
+    concept: system-image-backup... 7.3s (in=3442, out=1280, cached=3024)
+    update: backup-strategy... 10.0s (in=4086, out=1723, cached=3312)
+    update: cloud-backup... 6.4s (in=3791, out=993, cached=3312)
+    update: encryption... 7.6s (in=3754, out=1182, cached=3312)
+    entity: windows-11... 7.7s (in=3477, out=1289, cached=3312)
+    entity: bitwarden... 5.1s (in=3476, out=899, cached=3312)
+    entity: 1password... 5.1s (in=3477, out=875, cached=784)
+    entity: keepassxc... 5.3s (in=3477, out=845, cached=3312)
+    entity: syncthing... 5.1s (in=3477, out=830, cached=3312)
+    entity: tpm... 6.8s (in=3480, out=1006, cached=3312)
+    entity: microsoft-account... 7.5s (in=3476, out=1235, cached=3312)
+    summary-rewrite......... 9.6s (in=3473, out=1090, cached=3312)
+  [OK] session-37_2025-10-14.md added to knowledge base.
+done.

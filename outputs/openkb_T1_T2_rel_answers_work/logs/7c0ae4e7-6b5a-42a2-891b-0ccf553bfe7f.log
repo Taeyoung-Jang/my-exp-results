@@ -1,0 +1,45 @@
+=== 2026-10-10 14:18:55 uid=7c0ae4e7-6b5a-42a2-891b-0ccf553bfe7f ===
+Adding: session-14_2021-06-15.md
+  Compiling short doc...
+    summary....... 7.2s (in=2950, out=1021)
+    concepts-plan..... 5.8s (in=4094, out=999, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    entity: seattle... 3.3s (in=4031, out=753, cached=784)
+    concept: walkability... 7.1s (in=3984, out=975)
+    concept: transit-reliability... 7.5s (in=3997, out=539, cached=64)
+    concept: car-light-lifestyle... 9.3s (in=3999, out=700, cached=64)
+    entity: ballard... 6.3s (in=4032, out=1359, cached=3872)
+    entity: fremont... 9.6s (in=4031, out=914, cached=64)
+    entity: greenwood... 11.3s (in=4018, out=787)
+    entity: seattle-light-rail... 6.3s (in=4050, out=754, cached=768)
+    entity: d-line-bus... 4.7s (in=4051, out=693, cached=3872)
+    entity: 44th-street... 4.0s (in=4034, out=278, cached=3872)
+    entity: capitol-hill... 29.5s (in=4032, out=937, cached=32)
+    entity: columbia-city... 21.7s (in=4032, out=797, cached=784)
+    summary-rewrite................ 16.1s (in=4029, out=1037, cached=784)
+  [OK] session-14_2021-06-15.md added to knowledge base.
+Adding: session-34_2023-06-15.md
+  Compiling short doc...
+    summary.......... 10.7s (in=3772, out=1376)
+    concepts-plan......... 9.9s (in=5219, out=1128, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 12 entity(ies) (concurrency=4)...
+    entity: austin-energy... 6.2s (in=4964, out=638, cached=784)
+    concept: address-lookup... 9.8s (in=4933, out=1083, cached=4800)
+    concept: service-start-timeline... 13.7s (in=4930, out=1540, cached=4464)
+    concept: utility-setup... 13.7s (in=4930, out=1542, cached=4800)
+    entity: texas-gas-service... 8.4s (in=4965, out=903, cached=4800)
+    entity: austin-water... 13.0s (in=4964, out=1471, cached=4800)
+    entity: google-fiber... 7.2s (in=4964, out=337, cached=64)
+    entity: att-fiber... 8.1s (in=4965, out=884, cached=4800)
+    entity: austin-resource-recovery... 5.1s (in=4965, out=577, cached=4800)
+    entity: spectrum... 7.7s (in=4968, out=783, cached=64)
+    entity: lemonade... 6.1s (in=4967, out=713, cached=4800)
+    entity: state-farm... 4.4s (in=4961, out=665, cached=64)
+    entity: city-of-austin-parking-division... 8.2s (in=4967, out=980, cached=4800)
+    entity: austin... 4.6s (in=4965, out=524, cached=4800)
+    entity: usaa... 14.0s (in=4964, out=707, cached=784)
+    summary-rewrite........ 8.7s (in=4961, out=1106, cached=4800)
+  [OK] session-34_2023-06-15.md added to knowledge base.
+done.

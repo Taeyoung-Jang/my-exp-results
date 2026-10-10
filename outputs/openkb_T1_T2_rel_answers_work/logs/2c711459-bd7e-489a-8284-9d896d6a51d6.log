@@ -1,0 +1,41 @@
+=== 2026-10-10 15:43:09 uid=2c711459-bd7e-489a-8284-9d896d6a51d6 ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.3s (in=2495, out=975, cached=64)
+    concepts-plan..................... 21.3s (in=3586, out=1071, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 10 entity(ies) (concurrency=4)...
+    entity: garmin... 4.1s (in=3545, out=983, cached=784)
+    concept: health-tracking-accuracy... 4.2s (in=3511, out=739)
+    concept: battery-life-optimization... 5.1s (in=3511, out=743)
+    entity: garmin-forerunner-255... 10.8s (in=3550, out=1006, cached=784)
+    entity: garmin-forerunner-165... 12.6s (in=3550, out=1243, cached=816)
+    concept: smartwatch-vs-fitness-band... 17.8s (in=3515, out=1687, cached=784)
+    entity: garmin-vivoactive... 14.6s (in=3547, out=1117, cached=64)
+    entity: fitbit-charge... 4.2s (in=3563, out=725, cached=768)
+    entity: amoled... 4.0s (in=3542, out=1100, cached=768)
+    entity: fitbit... 12.2s (in=3532, out=871)
+    entity: withings-hybrid-watch... 7.7s (in=3548, out=719, cached=816)
+    entity: withings... 15.8s (in=3546, out=863)
+    entity: gps... 14.0s (in=3545, out=776, cached=784)
+Concept generation failed: LLM returned empty content for concept 'battery-life-optimization'
+Concept generation failed: LLM returned empty content for concept 'health-tracking-accuracy'
+    [WARN] 3 concept(s) planned but only 1 written for session-04_2024-06-15 (ValueError).
+    summary-rewrite................... 19.2s (in=3543, out=1313, cached=784)
+  [OK] session-04_2024-06-15.md added to knowledge base.
+Adding: session-35_2024-12-16.md
+  Compiling short doc...
+    summary............. 13.5s (in=2789, out=712)
+    concepts-plan.. 3.0s (in=3943, out=737, cached=784)
+    Generating 6 concept(s) (concurrency=4)...
+    concept: data-recovery-policy... 2.5s (in=3586, out=802)
+    concept: customer-complaint... 3.3s (in=3601, out=610)
+    concept: attachment-guidelines... 7.7s (in=3589, out=666)
+    concept: email-drafting... 11.2s (in=3603, out=865, cached=784)
+    concept: swollen-lithium-battery-handling... 11.4s (in=3606, out=486, cached=768)
+    concept: response-deadline... 18.8s (in=3602, out=1167, cached=64)
+Concept generation failed: LLM returned empty content for concept 'customer-complaint'
+    [WARN] 6 concept(s) planned but only 5 written for session-35_2024-12-16 (ValueError).
+    summary-rewrite..... 5.2s (in=3634, out=647, cached=784)
+  [OK] session-35_2024-12-16.md added to knowledge base.
+done.

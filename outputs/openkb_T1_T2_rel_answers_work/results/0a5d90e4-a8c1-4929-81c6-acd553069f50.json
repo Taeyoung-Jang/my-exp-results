@@ -1,0 +1,32 @@
+{
+  "uid": "0a5d90e4-a8c1-4929-81c6-acd553069f50",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    13,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the available conversation summaries, there is no indication that the user **still** keeps all weeknights completely open and restricts recurring engagements only to Saturday or Sunday.  \n\n- The **session‑14 (2024‑07‑11)** summary offers a general framework for weekly planning, suggesting that recurring social slots can be placed on “late‑week (Thu evenings)” **or** on a weekend day (Saturday afternoon or Sunday midday) depending on the user’s energy pattern. It does not state that the user has decided to leave every weeknight free. [[summaries/session-14_2024-07-11.md]]  \n\n- The **session‑34 (2025‑01‑10)** summary focuses on night‑shift sleep hygiene and does not mention any scheduling preferences for weeknights versus weekends. [[summaries/session-34_2025-01-10.md]]  \n\nSince none of the recorded sessions explicitly confirm that the user has maintained a policy of keeping all weeknights open and limiting recurring events to Saturday or Sunday, we cannot affirm that this is still the case.",
+    "dim2_response": "**Weekend‑focused, recurring activities**\n\n| Activity | Why it works on the weekend | How it fits into the day |\n|----------|----------------------------|--------------------------|\n| **Saturday Afternoon Outdoor Walk or Hike** | Low‑intensity, restorative, and can be done right after the protected morning routine you already have. [[concepts/energy-management]] | • **Morning** – finish your wake‑up routine (light exposure, light breakfast). <br>• **12 pm‑2 pm** – walk/hike (30‑90 min). <br>• **Afternoon free** – use remaining time for flexible tasks or relaxation. |\n| **Saturday Evening Group Fitness Class** (e.g., yoga, spin) | Provides a concrete “anchor” for the weekend while still leaving the evening open for optional socializing. [[concepts/recurring-planning]] | • **4 pm‑5 pm** – class (60 min). <br>• **5 pm‑7 pm** – wind‑down (shower, light snack). <br>• **7 pm onward** – free window; you can keep the night open or add a low‑key hang‑out. |\n| **Sunday Midday Community Activity** (book club, volunteer shift, cooking workshop) | Mid‑day slot respects the “restful start” guidance for Sunday and keeps the evening free for wind‑down. [[entities/sunday]] | • **10 am‑11 am** – relaxed breakfast & personal prep. <br>• **12 pm‑2 pm** – recurring activity (same group each week). <br>• **2 pm‑4 pm** – gentle post‑activity cooldown (tea, reading). <br>• **Evening** – keep open for low‑stimulus wind‑down before the work week. |\n| **Sunday Evening Family Meal or Quiet Social Catch‑up** | Provides a gentle “closing” ritual that signals the end of the weekend and prepares you for the upcoming week. [[concepts/flexible-scheduling]] | • **5 pm‑6 pm** – prep / light exercise (optional). <br>• **6 pm‑8 pm** – shared meal or video call. <br>• **After 8 pm** – start bedtime routine (dim light, melatonin if needed). |\n\n**Putting the two days together**\n\n1. **Anchor each day with a fixed slot** – Saturday afternoon walk (or hike) + Saturday evening fitness class; Sunday midday community activity + Sunday evening family/social catch‑up.  \n2. **Create “gentle edges”** around each slot (as suggested in the session‑14 guide): start after a protected morning routine and finish before an evening wind‑down activity. This prevents stacking commitments and keeps energy stable. [[summaries/session-14_2024-07-11]]\n3. **Leave buffer time** before and after each activity for preparation, travel, and unstructured relaxation—this preserves the open‑time you value on weeknights.  \n4. **Review after 3‑4 weeks** – note how the activities affect your energy and adjust timing or choice of activity if needed, following the “trial and adjust” step from the same guide.  \n\nThese recurring weekend activities respect your open weeknights, give you consistent, low‑pressure social and wellness touch‑points, and align with the energy‑centric planning framework outlined in the knowledge base.",
+    "dim3_response": "Hey Mark!  \n\nI’m pumped about the amateur bowling crew meeting every weekend at 1 PM – sounds like a blast! I just wanted to double‑check that the 1 PM slot still works for me lately. If it’s a bit tight, is there any flexibility or an alternate time we could consider?  \n\nAlso, have we settled on a team name yet? Can’t wait to find out!  \n\nLet me know, and see you on the lanes! 🎳"
+  },
+  "build_seconds": 108.2,
+  "total_seconds": 137.1,
+  "usage": {
+    "compile": {
+      "calls": 16,
+      "prompt_tokens": 41166,
+      "completion_tokens": 10776,
+      "cost_usd": 0.005511032999999999
+    },
+    "query": {
+      "calls": 8,
+      "prompt_tokens": 16040,
+      "completion_tokens": 2181,
+      "cost_usd": 0.00087378
+    }
+  }
+}

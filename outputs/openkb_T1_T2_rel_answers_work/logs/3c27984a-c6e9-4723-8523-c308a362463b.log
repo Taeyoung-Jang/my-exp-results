@@ -1,0 +1,34 @@
+=== 2026-10-10 14:29:05 uid=3c27984a-c6e9-4723-8523-c308a362463b ===
+Adding: session-13_2024-06-15.md
+  Compiling short doc...
+    summary....... 7.6s (in=3200, out=1880, cached=784)
+    concepts-plan.. 2.8s (in=3969, out=120, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: hidden-costs... 4.5s (in=3828, out=698, cached=784)
+    concept: cost-analysis... 4.7s (in=3864, out=1023)
+    entity: cloud-compute... 5.0s (in=3863, out=692, cached=3696)
+    concept: utilization-break-even... 6.4s (in=3831, out=901, cached=784)
+    entity: gpu-instance... 7.3s (in=3863, out=330, cached=768)
+    entity: local-workstation... 8.3s (in=3864, out=356, cached=64)
+    summary-rewrite.. 2.7s (in=3860, out=623, cached=3200)
+  [OK] session-13_2024-06-15.md added to knowledge base.
+Adding: session-39_2025-06-15.md
+  Compiling short doc...
+    summary............. 13.3s (in=2518, out=874, cached=64)
+    concepts-plan............................. 29.9s (in=3701, out=1057, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    entity: slack... 7.4s (in=3550, out=752, cached=784)
+    concept: tab-management... 8.9s (in=3516, out=1007, cached=784)
+    entity: chrome... 4.3s (in=3568, out=792, cached=768)
+    concept: resource-management... 12.8s (in=3516, out=597, cached=768)
+    entity: auto-tab-discard... 9.7s (in=3553, out=833, cached=784)
+    concept: lightweight-workflow... 18.6s (in=3516, out=568, cached=768)
+    entity: tab-session-manager... 8.3s (in=3552, out=960, cached=784)
+    entity: google-meet... 3.1s (in=3548, out=775, cached=768)
+    entity: google-docs... 12.3s (in=3538, out=772)
+    entity: google-sheets... 9.8s (in=3538, out=624)
+    summary-rewrite..... 5.3s (in=3552, out=1001, cached=768)
+  [OK] session-39_2025-06-15.md added to knowledge base.
+done.

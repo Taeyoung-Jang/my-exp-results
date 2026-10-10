@@ -1,0 +1,25 @@
+=== 2026-10-10 14:35:53 uid=6e8a7e72-3158-4676-9aa4-a4ce492015fd ===
+Adding: session-10_2024-07-15.md
+  Compiling short doc...
+    summary..................... 21.9s (in=1944, out=581, cached=64)
+    concepts-plan.. 2.8s (in=2920, out=602, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: trial-off-experiments... 4.5s (in=2775, out=889, cached=40)
+    concept: productivity-impact-metrics... 4.7s (in=2774, out=770, cached=784)
+    entity: premium-subscription... 10.8s (in=2808, out=706, cached=64)
+    concept: premium-value-assessment... 16.4s (in=2774, out=544, cached=64)
+    summary-rewrite..... 5.9s (in=2805, out=738)
+  [OK] session-10_2024-07-15.md added to knowledge base.
+Adding: session-39_2025-03-14.md
+  Compiling short doc...
+    summary........ 8.8s (in=1854, out=1081, cached=784)
+    concepts-plan......... 9.9s (in=2734, out=856)
+    Generating 4 concept(s) (concurrency=4)...
+    concept: subscription-tracking... 5.4s (in=2545, out=864, cached=784)
+    concept: subscription-evaluation... 5.4s (in=2545, out=898, cached=784)
+    update: premium-value-assessment... 6.7s (in=3071, out=1393, cached=64)
+    concept: subscription-categories... 11.5s (in=2532, out=831)
+    summary-rewrite............. 13.2s (in=2577, out=643, cached=784)
+  [OK] session-39_2025-03-14.md added to knowledge base.
+done.

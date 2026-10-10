@@ -1,0 +1,32 @@
+{
+  "uid": "e0200873-f788-4c31-8744-d5ac06d2e8f6",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    4,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "I’m unable to find any statement in the conversation history that indicates the user is still highly confident that their endurance is solid enough for the climb because they’ve reliably kept up with their routine for the past year. The available summary (session 05 – 2025‑07‑10) describes a 6‑week hill‑training plan and its structure, but it does not mention the user’s longer‑term adherence, a year‑long track record, or their current confidence level. Consequently, the knowledge base does not contain enough information to answer the question affirmatively.",
+    "dim2_response": "**Week‑Long “Peak‑Ready” Training Plan**  \n*(Designed for a hiker who has been consistent for the past year, with solid base endurance. The goal is to sharpen leg stamina, steep‑climb technique, and pacing for a demanding ascent.)*\n\n| Day | Session | Details & Pacing | Why it Helps |\n|-----|---------|-------------------|--------------|\n| **Mon** | **Active Recovery / Mobility** | 10 min easy walk, 10 min dynamic lower‑body mobility (hip circles, ankle pumps, walking lunges). Finish with 5 min of light stretching. | Keeps circulation flowing while preserving the leg strength built over the week. |\n| **Tue** | **Steady Uphill – “Endurance Block”** | Warm‑up 5 min easy jog/walk → **30 min continuous climb** on a hill or treadmill @ 10‑12 % grade. Maintain a *talk‑test* level where you can speak in short sentences (≈ RPE 5‑6). Cool‑down 5 min walk. | Extends the “steady uphill” model from the 6‑week plan [[summaries/session-05_2025-07-10]] to push the 45‑min target in a single day, sharpening aerobic endurance. |\n| **Wed** | **Strength & Technique** | 3 × 12 step‑ups (or box‑steps) per leg, 3 × 15 walking lunges, 3 × 30‑sec single‑leg wall sits. Follow with technique drills: 5 min of **short‑step, torso‑forward** climbs on a low‑grade hill, focusing on rhythmic breathing and brief recovery pauses. | Directly applies the “strength work” and “technique for steep climbs” recommendations [[summaries/session-05_2025-07-10]]. |\n| **Thu** | **Repeat Intervals – “Hard‑Effort Bursts”** | Warm‑up 5 min → **4 × 6‑min uphill repeats** (10‑15 % incline) with **3 min active recovery** (easy walking) between each. Keep the repeat effort at a moderate‑talk‑test level (you can speak in short phrases; RPE ≈ 7). Cool‑down 5 min. | Mirrors the “repeat session” from the 6‑week plan, but packs the volume into a single day to raise lactate tolerance and pacing confidence. |\n| **Fri** | **Cross‑Training (Low‑Impact)** | 45 min cycling or swimming at a comfortable conversational pace. | Provides cardiovascular load without additional impact on the legs, facilitating recovery while maintaining aerobic capacity. |\n| **Sat** | **Long Steady + Technical Focus** | Warm‑up 5 min → **45 min continuous climb** (or treadmill @ 12‑14 % grade) maintaining a steady, conversational effort throughout. Mid‑way (≈ 20 min) insert **2 × 2‑min “tech bursts”**: shorter steps, torso slightly forward, brief recovery pauses. Cool‑down 5 min. | Pushes the weekly steady‑climb ceiling toward the 45‑60 min goal in the original plan, while integrating the technique cues for steep terrain. |\n| **Sun** | **Full Rest** | No structured activity. Light walking or gentle yoga only if desired. | Allows muscle repair and mental reset before the next training cycle. |\n\n### Core Principles (drawn from the source)\n\n1. **Progressive Overload** – Each session adds either duration, vertical gain, or repeat count, echoing the 5‑10 % weekly increase described in the 6‑week hill‑training guide [[summaries/session-05_2025-07-10]].\n2. **Breath‑Based Pacing** – Use the *talk test* and RPE instead of heart‑rate monitors, as recommended for steep climbs.\n3. **Technique Emphasis** – Shorter steps, forward torso, rhythmic breathing, and brief recovery pauses are practiced on both steady and repeat days.\n4. **Strength Integration** – Simple step‑ups and lunges complement the hill work without needing a separate gym program.\n5. **Indoor Alternatives** – If weather or terrain limits outdoor hills, replace up‑hill work with treadmill or stair‑machine intervals at the same inclines and durations.\n\n### Tips for Execution\n\n* **Log Each Session** – Note perceived effort, weather, and any discomfort to fine‑tune subsequent weeks.  \n* **Hydration & Nutrition** – Prior to long sessions, consume a balanced snack (carb‑protein) 60 min beforehand; stay hydrated throughout.  \n* **Footwear** – Use the shoes you’ll wear on the climb to ensure fit and traction are optimal.  \n\nFollowing this concentrated, seven‑day schedule will sharpen the specific endurance, strength, and climbing technique needed for a demanding ascent while respecting the user’s already solid fitness foundation. Happy climbing!",
+    "dim3_response": "I’m sorry, but the knowledge base doesn’t contain any information about your current schedule, physical condition, or past experiences that would let me assess whether a three‑hour volunteer guide shift on unpaved woodland paths is realistic for you right now. Without those details, I can’t provide a reliable answer. If you can share more about your availability, fitness level, or any relevant constraints, I’d be happy to help evaluate the fit."
+  },
+  "build_seconds": 65.2,
+  "total_seconds": 91.9,
+  "usage": {
+    "compile": {
+      "calls": 13,
+      "prompt_tokens": 43872,
+      "completion_tokens": 9157,
+      "cost_usd": 0.005273353000000001
+    },
+    "query": {
+      "calls": 8,
+      "prompt_tokens": 15191,
+      "completion_tokens": 2290,
+      "cost_usd": 0.000869603
+    }
+  }
+}

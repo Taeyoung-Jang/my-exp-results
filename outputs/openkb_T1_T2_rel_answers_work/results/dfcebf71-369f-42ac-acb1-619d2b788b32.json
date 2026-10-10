@@ -1,0 +1,32 @@
+{
+  "uid": "dfcebf71-369f-42ac-acb1-619d2b788b32",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    8,
+    34
+  ],
+  "target_model_responses": {
+    "dim1_response": "The knowledge base does not contain any explicit statement about the user’s present social situation. The only relevant entry (session‑09 2024‑06‑12) provides *guidance* for keeping existing friendships strong—suggesting “anchor moments” and regular low‑effort check‑ins—but it does not indicate whether the user actually maintains a steady circle of friends or how frequently they currently hang out with them. Therefore, based on the available conversation history, we cannot confirm that the user still has a steady circle of friends they meet with frequently.",
+    "dim2_response": "**Weekly Social Schedule (Commit‑to‑a‑Plan)**  \n\n| Day | Theme | Suggested Activity (group‑focused) | Why it works |\n|-----|-------|-------------------------------------|--------------|\n| **Monday** | *Reset* | No scheduled social event – use the day for personal rest, chores, or solo hobbies. | Gives the brain a break, preventing burnout. |\n| **Tuesday** | *Anchor‑friend day* | **Cook‑together night** – rotate who hosts; keep it simple (pasta, tacos, pizza). <br>**Game‑swap** – each friend brings a board/card game they love. | Regular “anchor moments” nurture **friendship stickiness** by offering low‑effort, repeatable contact [[summaries/session-09_2024-06-12]]. |\n| **Wednesday** | *Buffer* | No obligations; optional quick coffee catch‑up if a friend reaches out. | Provides flexibility for unexpected life demands. |\n| **Thursday** | *Low‑pressure new‑people window* (optional, but can be used with the same circle for variety) | **Mini‑workshop series** – one friend teaches a skill (mixology, photography, yoga) for 45 min, followed by snacks. <br>**Community‑class outing** – attend a local pottery or language class together. | Keeps the group’s routine fresh while still low‑pressure, leveraging the **low‑pressure meeting** concept [[summaries/session-09_2024-06-12]]. |\n| **Friday** | *Free‑flow* | **Pop‑up movie night** – vote on a film, stream together (or use a projector in a friend’s living room). <br>**Open‑mic jam** – anyone can sing, play an instrument, read poetry. | Encourages spontaneous fun and lets the group decide the vibe. |\n| **Saturday** | *Flexible social* | **Outdoor adventure** – hike, bike ride, or park picnic (rotate the leader). <br>**Volunteer sprint** – 2‑hour community service (food bank, park clean‑up). | Mixes active bonding with purposeful engagement; easy to adjust based on energy levels. |\n| **Sunday** | *Mellow reset* | **Walk‑and‑talk** – group stroll through a farmer’s market or botanical garden. <br>**Brunch & board‑games** – relaxed setting to recap the week. | Ends the week with low‑key interaction, reinforcing the **anchor‑moment** idea and preparing for the next cycle. |\n\n### Key Group Activities to Keep Everyone Engaged\n1. **Rotating Cook‑Together Nights** – simple meals, shared recipes, and the ritual of “who’s hosting this week?” build consistent touchpoints.  \n2. **Game‑Swap / Board‑Game Marathon** – low‑effort, conversation‑rich, and can accommodate varying skill levels.  \n3. **Mini‑Workshop Sessions** – friends teach each other a hobby (crafts, digital tools, fitness) in short, 45‑minute bursts; creates reciprocity and fresh talking points.  \n4. **Pop‑Up Movie or TV‑Binge Sessions** – voting on content gives everyone agency and guarantees a shared experience.  \n5. **Outdoor/Active Outings** – walks, hikes, or bike rides that double as casual talk time; nature reduces stress and fosters bonding.  \n6. **Community‑Service Sprints** – short volunteer slots give the group a sense of purpose together, strengthening collective identity.\n\n### How This Fits the Underlying Concepts\n- **Friendship stickiness** comes from repeated, low‑effort contact; the schedule provides two anchor slots (Tuesday & Sunday) plus micro‑fallbacks (Wednesday coffee, quick check‑ins).  \n- **Low‑pressure meeting** principles are applied through activity choice: cooking, games, and mini‑workshops require minimal preparation and naturally spark conversation.  \n- The **two‑window model** (anchor vs. new‑people/variety) keeps the social load manageable while still allowing novelty and growth.  \n\nStick to the schedule for at least four weeks, adjusting only the specific activities to keep them fresh. Consistency over intensity will keep the circle tight and the group consistently engaged.  ",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information related to financial decisions, travel bookings, or advice about deposits for a ski cabin. Consequently, I can’t provide a recommendation on whether you should secure this reservation."
+  },
+  "build_seconds": 107.4,
+  "total_seconds": 133.7,
+  "usage": {
+    "compile": {
+      "calls": 19,
+      "prompt_tokens": 71758,
+      "completion_tokens": 15483,
+      "cost_usd": 0.008241038999999999
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 18735,
+      "completion_tokens": 1940,
+      "cost_usd": 0.00091125
+    }
+  }
+}

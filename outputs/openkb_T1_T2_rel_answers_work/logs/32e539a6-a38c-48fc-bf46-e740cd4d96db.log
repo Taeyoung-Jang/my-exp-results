@@ -1,0 +1,27 @@
+=== 2026-10-10 14:47:23 uid=32e539a6-a38c-48fc-bf46-e740cd4d96db ===
+Adding: session-07_2021-05-15.md
+  Compiling short doc...
+    summary....... 7.5s (in=2031, out=773, cached=64)
+    concepts-plan...... 6.6s (in=3176, out=755, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: scoring-rubric-template... 6.8s (in=3040, out=654, cached=2016)
+    entity: wifi... 5.0s (in=3073, out=608, cached=784)
+    entity: blue-ridge-mountains... 13.9s (in=3073, out=781, cached=784)
+    concept: host-communication-checklist... 19.3s (in=3038, out=837, cached=784)
+    concept: cabin-selection-criteria... 35.2s (in=3038, out=1071, cached=64)
+    summary-rewrite...... 6.2s (in=3068, out=1048)
+  [OK] session-07_2021-05-15.md added to knowledge base.
+Adding: session-36_2024-05-15.md
+  Compiling short doc...
+    summary....... 7.1s (in=2263, out=788, cached=64)
+    concepts-plan........ 8.7s (in=3525, out=755)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: authentic-communication... 4.7s (in=3360, out=817, cached=768)
+    concept: early-meetup-transition... 6.4s (in=3344, out=655, cached=2240)
+    entity: bumble... 16.3s (in=3377, out=860)
+    concept: conversation-load-management... 17.7s (in=3344, out=701, cached=64)
+    summary-rewrite... 3.7s (in=3375, out=969, cached=784)
+  [OK] session-36_2024-05-15.md added to knowledge base.
+done.

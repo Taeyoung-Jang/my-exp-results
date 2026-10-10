@@ -1,0 +1,30 @@
+=== 2026-10-10 14:39:53 uid=d74f7f3e-8b1f-40fb-be36-2359725990d9 ===
+Adding: session-06_2022-07-02.md
+  Compiling short doc...
+    summary.... 4.3s (in=1738, out=874, cached=768)
+    concepts-plan... 3.8s (in=2682, out=391, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: door-to-door-travel-time... 11.1s (in=2519, out=742)
+    concept: travel-mode-comparison... 15.0s (in=2515, out=1004)
+    concept: time-add-ons... 18.0s (in=2518, out=1206)
+    summary-rewrite... 3.3s (in=2563, out=695, cached=768)
+  [OK] session-06_2022-07-02.md added to knowledge base.
+Adding: session-36_2024-07-02.md
+  Compiling short doc...
+    summary................ 16.6s (in=2655, out=946)
+    concepts-plan........ 8.2s (in=3856, out=1019, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    entity: philadelphia-international-airport... 15.2s (in=3747, out=858)
+    concept: low-stress-weekend-planning... 17.2s (in=3727, out=733, cached=32)
+    concept: walkable-destinations... 19.2s (in=3726, out=708, cached=64)
+    entity: baltimore... 8.0s (in=3760, out=870, cached=784)
+    entity: risd-museum... 12.6s (in=3747, out=793)
+    entity: richmond... 18.9s (in=3747, out=1035)
+    entity: virginia-museum-of-fine-arts... 5.5s (in=3762, out=1113, cached=784)
+    entity: baltimore-museum-of-art... 8.4s (in=3761, out=377, cached=64)
+    entity: providence... 31.9s (in=3748, out=1983)
+    concept: car-free-travel... 54.7s (in=3726, out=1619, cached=64)
+    summary-rewrite........ 8.6s (in=3756, out=924)
+  [OK] session-36_2024-07-02.md added to knowledge base.
+done.

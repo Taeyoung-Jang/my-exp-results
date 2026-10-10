@@ -1,0 +1,32 @@
+{
+  "uid": "704cac18-885e-4437-b136-a7600650ba01",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    9,
+    35
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the available conversation history, the only information about the user’s location is that they **refer to Portland as the city where they have become accustomed to the local pace of life** (see the [[entities/portland]] page). No later session mentions a move or a change of residence, and the most recent session (the scorpion‑proofing discussion) does not address the user’s current city at all.  \n\n**Therefore, we cannot confirm that the user still lives in Portland; the knowledge base only indicates that Portland has been used as a reference point, not that it remains the user’s present place of residence.**",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain information about specific Portland neighborhoods, cafés, or rainy‑day activities. Consequently, I can’t generate a detailed week‑long itinerary based on the available wiki content.",
+    "dim3_response": "I’m sorry—I don’t have any information in the knowledge base that addresses making a home comfortable year‑round for your specific location, nor any list of recommended supplies for that purpose. If you can provide more details (e.g., your climate, region, or any relevant documents), I can try to find a suitable answer."
+  },
+  "build_seconds": 98.7,
+  "total_seconds": 110.7,
+  "usage": {
+    "compile": {
+      "calls": 18,
+      "prompt_tokens": 67645,
+      "completion_tokens": 14906,
+      "cost_usd": 0.00627725
+    },
+    "query": {
+      "calls": 11,
+      "prompt_tokens": 25743,
+      "completion_tokens": 1544,
+      "cost_usd": 0.0010513649999999999
+    }
+  }
+}

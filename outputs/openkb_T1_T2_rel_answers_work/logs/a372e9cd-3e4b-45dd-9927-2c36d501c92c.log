@@ -1,0 +1,26 @@
+=== 2026-10-10 14:47:10 uid=a372e9cd-3e4b-45dd-9927-2c36d501c92c ===
+Adding: session-06_2024-07-15.md
+  Compiling short doc...
+    summary............. 13.8s (in=1844, out=858)
+    concepts-plan..... 5.1s (in=2813, out=413)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: capsule_wardrobe... 5.3s (in=2671, out=526, cached=64)
+    concept: breathable_fabrics... 6.6s (in=2672, out=551)
+    concept: color_palette... 8.5s (in=2676, out=692, cached=784)
+    summary-rewrite........ 8.1s (in=2702, out=866, cached=64)
+  [OK] session-06_2024-07-15.md added to knowledge base.
+Adding: session-39_2025-07-15.md
+  Compiling short doc...
+    summary.......... 10.3s (in=2089, out=905, cached=784)
+    concepts-plan.. 2.8s (in=3249, out=185, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: cold-water-washing... 0.5s (in=3079, out=2, cached=2720)
+    entity: white_vinegar... 3.2s (in=3113, out=742, cached=784)
+    concept: mild-detergent... 6.1s (in=3079, out=822, cached=784)
+    concept: vinegar-rinse... 7.5s (in=3083, out=539, cached=768)
+Concept generation failed: LLM returned empty content for concept 'cold-water-washing'
+    [WARN] 3 concept(s) planned but only 2 written for session-39_2025-07-15 (ValueError).
+    summary-rewrite.......... 10.4s (in=3109, out=951)
+  [OK] session-39_2025-07-15.md added to knowledge base.
+done.

@@ -1,0 +1,24 @@
+=== 2026-10-10 14:27:05 uid=8aeb8778-861e-45f7-b8b5-224ff5eece63 ===
+Adding: session-10_2021-07-24.md
+  Compiling short doc...
+    summary......... 9.4s (in=2878, out=796)
+    concepts-plan.... 4.9s (in=3800, out=462, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: timeline_planning... 3.8s (in=3644, out=538)
+    concept: event_planning_checklist... 5.9s (in=3643, out=959, cached=784)
+    concept: community_budgeting... 18.2s (in=3646, out=1065, cached=784)
+Concept generation failed: LLM returned empty content for concept 'timeline_planning'
+    [WARN] 3 concept(s) planned but only 2 written for session-10_2021-07-24 (ValueError).
+    summary-rewrite............. 13.8s (in=3674, out=607, cached=768)
+  [OK] session-10_2021-07-24.md added to knowledge base.
+Adding: session-31_2023-07-24.md
+  Compiling short doc...
+    summary..... 5.9s (in=2072, out=907)
+    concepts-plan............ 12.0s (in=2984, out=793, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: verification_process... 3.3s (in=2812, out=697, cached=2688)
+    concept: follow_up_email... 3.9s (in=2814, out=860, cached=784)
+    concept: email_tone... 4.0s (in=2799, out=762)
+    summary-rewrite................. 17.0s (in=2844, out=631, cached=768)
+  [OK] session-31_2023-07-24.md added to knowledge base.
+done.

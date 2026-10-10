@@ -1,0 +1,38 @@
+=== 2026-10-10 14:45:08 uid=773312aa-620e-4ab2-b7eb-905d558e5567 ===
+Adding: session-02_2024-10-24.md
+  Compiling short doc...
+    summary.................. 18.2s (in=2434, out=1055, cached=64)
+    concepts-plan............. 13.7s (in=3865, out=1545, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 12 entity(ies) (concurrency=4)...
+    concept: scandinavian-noir... 19.4s (in=3815, out=788, cached=64)
+    concept: atmospheric-crime... 19.9s (in=3815, out=715, cached=784)
+    concept: slow-burn-mystery... 22.5s (in=3817, out=570)
+    entity: arnaldur-indridason... 23.1s (in=3854, out=1303)
+    entity: he-who-fears-the-wolf... 3.1s (in=3853, out=460)
+    entity: jar-city... 6.4s (in=3850, out=469, cached=2432)
+    entity: sun-storm... 1.2s (in=3849, out=116)
+    entity: hakan-nesser... 4.6s (in=3853, out=720, cached=784)
+    entity: karin-fossum... 11.0s (in=3851, out=749)
+    entity: the-winter-of-the-lions... 4.8s (in=3853, out=900, cached=784)
+    entity: blackwater... 2.6s (in=3850, out=544, cached=784)
+    entity: vidar-sundstol... 4.9s (in=3853, out=900, cached=784)
+    entity: asa-larsson... 15.6s (in=3839, out=1090)
+    entity: the-land-of-dreams... 7.4s (in=3852, out=815, cached=784)
+    entity: kerstin-ekman... 12.7s (in=3839, out=862)
+Entity generation failed: LLM returned empty content for concept 'he-who-fears-the-wolf'
+Entity generation failed: LLM returned empty content for concept 'sun-storm'
+    [WARN] 12 entity(ies) planned but only 10 written for session-02_2024-10-24 (ValueError).
+    summary-rewrite........... 11.6s (in=3847, out=1506, cached=3680)
+  [OK] session-02_2024-10-24.md added to knowledge base.
+Adding: session-36_2025-06-23.md
+  Compiling short doc...
+    summary......... 9.1s (in=2075, out=1560, cached=784)
+    concepts-plan........... 11.3s (in=3294, out=651)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: intentional-reading-habit... 0.9s (in=2941, out=686, cached=768)
+    concept: reading-ritual... 5.3s (in=2920, out=682, cached=784)
+    concept: tracking-template... 6.1s (in=2920, out=794, cached=784)
+    summary-rewrite...... 6.1s (in=2952, out=771, cached=2784)
+  [OK] session-36_2025-06-23.md added to knowledge base.
+done.

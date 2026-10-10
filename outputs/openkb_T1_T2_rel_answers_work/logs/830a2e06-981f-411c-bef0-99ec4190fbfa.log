@@ -1,0 +1,37 @@
+=== 2026-10-10 15:29:49 uid=830a2e06-981f-411c-bef0-99ec4190fbfa ===
+Adding: session-05_2022-06-15.md
+  Compiling short doc...
+    summary...... 6.9s (in=2298, out=1826, cached=784)
+    concepts-plan.... 4.3s (in=3441, out=881, cached=768)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: below-sea-level-flood-management... 4.6s (in=3343, out=1046, cached=2288)
+    concept: pump-levy-maintenance-checklist... 6.0s (in=3342, out=1353, cached=3216)
+    concept: flood-preparedness-indicators... 8.4s (in=3340, out=488, cached=768)
+    entity: us-army-corps-of-engineers... 6.5s (in=3378, out=348, cached=768)
+    entity: fema... 12.3s (in=3372, out=965)
+    entity: city-council... 7.0s (in=3373, out=677)
+    entity: city-public-works-department... 10.6s (in=3362, out=831)
+    entity: stormwater-master-plan... 8.1s (in=3375, out=1095, cached=3200)
+    entity: capital-improvement-plan... 7.3s (in=3374, out=1126, cached=784)
+    entity: fema-flood-zone-maps... 12.4s (in=3362, out=983)
+    summary-rewrite........ 8.0s (in=3374, out=1444, cached=768)
+  [OK] session-05_2022-06-15.md added to knowledge base.
+Adding: session-33_2024-06-15.md
+  Compiling short doc...
+    summary....................... 23.5s (in=2514, out=752, cached=768)
+    concepts-plan...................... 22.9s (in=3897, out=1247, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    entity: pressure-cooker... 4.2s (in=3679, out=801, cached=784)
+    entity: baking-soda... 7.2s (in=3679, out=289, cached=768)
+    concept: altitude-effects-on-cooking... 15.0s (in=3634, out=1180)
+    entity: black-beans... 4.7s (in=3679, out=769, cached=784)
+    concept: bean-preparation-at-elevation... 18.5s (in=3647, out=1025, cached=3184)
+    concept: high-elevation-baking-adjustments... 18.8s (in=3648, out=771, cached=64)
+    entity: chickpeas... 9.5s (in=3679, out=379, cached=768)
+    entity: chocolate-chip-cookies... 12.2s (in=3667, out=900)
+    entity: sandwich-loaf... 10.4s (in=3680, out=412, cached=768)
+    summary-rewrite............... 15.8s (in=3663, out=1202)
+  [OK] session-33_2024-06-15.md added to knowledge base.
+done.

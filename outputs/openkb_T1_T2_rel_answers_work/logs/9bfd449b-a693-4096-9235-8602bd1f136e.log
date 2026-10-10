@@ -1,0 +1,31 @@
+=== 2026-10-10 15:42:29 uid=9bfd449b-a693-4096-9235-8602bd1f136e ===
+Adding: session-12_2024-06-15.md
+  Compiling short doc...
+    summary.............. 14.3s (in=2213, out=874, cached=64)
+    concepts-plan..... 5.7s (in=3388, out=184, cached=768)
+    Generating 6 concept(s) (concurrency=4)...
+    concept: protected_focus_time... 9.9s (in=3253, out=774, cached=784)
+    concept: message_sweep... 13.1s (in=3252, out=487, cached=768)
+    concept: urgent_message_scripts... 8.4s (in=3241, out=762)
+    concept: deep_work... 19.4s (in=3252, out=1475, cached=784)
+    concept: warm_up_ritual... 19.5s (in=3254, out=1319)
+    concept: triage_checklist... 16.0s (in=3253, out=597, cached=2912)
+    summary-rewrite.... 4.5s (in=3283, out=983)
+  [OK] session-12_2024-06-15.md added to knowledge base.
+Adding: session-34_2024-10-15.md
+  Compiling short doc...
+    summary............ 12.3s (in=2022, out=931, cached=784)
+    concepts-plan... 3.5s (in=3199, out=802, cached=786)
+    Generating 6 concept(s) (concurrency=4)...
+    update: deep_work... 3.3s (in=3423, out=618)
+    concept: overrun_adjustment... 4.1s (in=2975, out=635)
+    concept: meeting_window... 4.4s (in=2975, out=1096, cached=784)
+    concept: reset_break... 11.1s (in=2975, out=512, cached=768)
+    update: warm_up_ritual... 15.4s (in=3401, out=1288)
+    update: message_sweep... 19.9s (in=3459, out=1455, cached=784)
+Concept generation failed: LLM returned empty content for concept 'overrun_adjustment'
+Concept generation failed: LLM returned empty content for concept 'deep_work'
+    [WARN] 6 concept(s) planned but only 4 written for session-34_2024-10-15 (ValueError).
+    summary-rewrite.................. 18.8s (in=3007, out=843, cached=784)
+  [OK] session-34_2024-10-15.md added to knowledge base.
+done.

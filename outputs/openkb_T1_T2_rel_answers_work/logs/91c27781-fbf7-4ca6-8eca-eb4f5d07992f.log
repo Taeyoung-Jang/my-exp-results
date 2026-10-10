@@ -1,0 +1,19 @@
+=== 2026-10-10 15:31:44 uid=91c27781-fbf7-4ca6-8eca-eb4f5d07992f ===
+Adding: session-13_2024-06-15.md
+  Compiling short doc...
+    summary... 3.3s (in=3545, out=992, cached=768)
+    concepts-plan............ 12.9s (in=4658, out=496, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: weekly-routine-design... 11.5s (in=4488, out=933)
+    concept: anchor-recovery... 15.6s (in=4487, out=1011)
+    concept: time-blocking... 17.7s (in=4500, out=702, cached=784)
+    summary-rewrite............................ 29.0s (in=4532, out=915, cached=64)
+  [OK] session-13_2024-06-15.md added to knowledge base.
+Adding: session-34_2024-12-13.md
+  Compiling short doc...
+    summary....... 7.3s (in=2596, out=1202, cached=784)
+    concepts-plan.. 2.7s (in=3800, out=223)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-34_2024-12-13 — no concept pages generated. See log (stderr) for details.
+  [OK] session-34_2024-12-13.md added to knowledge base.
+done.

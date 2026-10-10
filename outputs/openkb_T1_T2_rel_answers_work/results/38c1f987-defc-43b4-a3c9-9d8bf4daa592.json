@@ -1,0 +1,32 @@
+{
+  "uid": "38c1f987-defc-43b4-a3c9-9d8bf4daa592",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    5,
+    32
+  ],
+  "target_model_responses": {
+    "dim1_response": "Based on the stored conversation history, the user was described as an **INFP** in the 2022‑06‑15 session (see the summary of Session 6, which gives coping strategies specifically “for an INFP”). No later document in the knowledge base indicates that the user changed or rejected that identification. Therefore, the most recent information we have still shows the user identifying as an INFP.",
+    "dim2_response": "**Daily Routine & Coping Toolkit for an INFP Who Tends to Dwell on Criticism**\n\nBelow is a concise, step‑by‑step routine that blends the “buffer‑pause” and “reframe” techniques from the INFP‑specific guidance (see [[summaries/session-06_2022-06-15]]) with general emotional‑regulation habits. Follow it each day; the built‑in checkpoints keep criticism from looping in your mind and help you shift quickly to constructive action.\n\n---\n\n### 1️⃣ Morning – Ground & Prepare\n\n| Time | Action | Why it works |\n|------|--------|--------------|\n| **6:30 – 7:00** | **Gentle wake‑up + 5‑min breathing** (4‑7‑8 inhale‑exhale). | Lowers baseline arousal, giving a calmer “starting point” for later feedback (stress‑management improves resilience). |\n| **7:00 – 7:30** | **Journaling prompt:** “What am I grateful for today? What intention do I set to stay open yet detached when feedback arrives?” | Frames the day with self‑worth separate from external evaluation. |\n| **7:30 – 8:00** | **Physical movement** (walk, yoga, or light cardio). | Releases tension that amplifies emotional re‑activity. |\n\n---\n\n### 2️⃣ Work/Study – Buffer & Reframe (the core INFP script)\n\n| Situation | Immediate Buffer | Reframe Script |\n|-----------|------------------|----------------|\n| **Receiving verbal feedback** | **Pause 5 seconds** – mentally say, “Let me sit with that.” (creates a buffer; see “Create a buffer” in the summary). | **Script:** “Thanks for telling me. I want to make sure I understand, so I’m going to take a little time to think it over. I’ll follow up once I’ve had a chance to look at it more clearly.” |\n| **Reading written critique** | **Mark the email/notes, then step away for 2–3 minutes** (drink water, glance outside). | **Reframe:** Translate the comment into neutral language, e.g., “The report needs clearer headings” → “Actionable: add headings to improve readability.” |\n| **Vague or harsh comment** | **Buffer + ask for clarification** (schedule a brief follow‑up). | **Ground it:** Restate in plain terms, “You mentioned my presentation felt rushed; could you give an example of where it felt that way?” |\n\n**Key habit:** after each feedback episode, **run the 5‑7‑question post‑feedback checklist** (see the summary) before moving on:\n\n1. What exact behavior was mentioned?  \n2. Which part is actionable?  \n3. What emotion did it trigger, and why?  \n4. Stripping the emotion, what’s the simplest next step?  \n5. Does it align with my self‑knowledge or reflect the giver’s preferences?  \n6. Do I need clarification?  \n7. How will I release any remaining charge?\n\n---\n\n### 3️⃣ Mid‑Day – Reset & Recharge\n\n| Time | Action | Effect |\n|------|--------|--------|\n| **12:00 – 12:30** | **Mindful lunch** – eat without screens, notice flavors. | Reinforces present‑moment focus, breaking any rumination loop. |\n| **12:30 – 13:00** | **Brief “mental declutter”** – write down any lingering criticism thoughts, then close the page and label it “processed.” | Externalizing the thought removes it from working memory, making it easier to let go. |\n\n---\n\n### 4️⃣ Afternoon – Apply & Reflect\n\n| Time | Action | Why |\n|------|--------|-----|\n| **15:00 – 15:15** | **Micro‑review** of any feedback received earlier: check the checklist, decide on one concrete action, schedule it. | Turns abstract criticism into a concrete task, preventing mental replay. |\n| **16:30 – 16:45** | **Positive‑self‑affirmation break** (e.g., “I am a caring, capable creator; feedback is a tool, not a verdict”). | Re‑anchors self‑worth separate from the critique. |\n\n---\n\n### 5️⃣ Evening – Wind‑Down & Release\n\n| Time | Action | Benefit |\n|------|--------|---------|\n| **18:30 – 19:00** | **Physical release** – light exercise, stretch, or a short walk. | Helps metabolize lingering stress hormones. |\n| **19:30 – 20:00** | **Reflection journal** – answer two prompts: “What did I learn from today’s feedback?” and “How did I stay present rather than ruminate?” | Consolidates learning and solidifies the habit of separating behavior from self‑value. |\n| **20:30 – 21:00** | **Relaxation ritual** (reading fiction, listening to calming music, or a warm bath). | Signals the brain that the day’s evaluative mode is over, facilitating sleep. |\n\n---\n\n### 6️⃣ Weekly Review (Saturday or Sunday)\n\n1. **Collect all checklist entries** from the week.  \n2. **Identify patterns** – Are certain sources of criticism more triggering?  \n3. **Adjust the buffer script** if needed (e.g., add a line about “I’m open to growth”).  \n4. **Celebrate successes** – note any moments you let go quickly.\n\n---\n\n## Quick‑Reference Cheat Sheet (post‑feedback)\n\n```\n1️⃣ Pause 5‑sec → “I’ll sit with that.”\n2️⃣ Reframe → neutral, actionable phrase.\n3️⃣ Checklist (7 Qs) → decide next step.\n4️⃣ Close the loop → schedule action, then mentally “file it.”\n5️⃣ Positive affirmation → self‑worth ≠ feedback.\n```\n\nBy **embedding the buffer pause, the structured script, and the 5‑7‑question checklist into a daily rhythm**, the INFP can shift from ruminating on criticism to using it as concrete, growth‑oriented information—reducing mental replay and moving on more quickly.",
+    "dim3_response": "I’m sorry, but the knowledge base does not contain any information about the “The INFP Advantage” masterclass, its curriculum, outcomes, or reviews, so I can’t evaluate whether it’s a worthwhile $250 investment."
+  },
+  "build_seconds": 51.3,
+  "total_seconds": 82.4,
+  "usage": {
+    "compile": {
+      "calls": 12,
+      "prompt_tokens": 43639,
+      "completion_tokens": 7385,
+      "cost_usd": 0.004323045
+    },
+    "query": {
+      "calls": 10,
+      "prompt_tokens": 19371,
+      "completion_tokens": 2678,
+      "cost_usd": 0.001064969
+    }
+  }
+}

@@ -1,0 +1,26 @@
+=== 2026-10-10 15:33:16 uid=67eeb06a-3d17-421b-8845-270129a07caf ===
+Adding: session-14_2024-06-12.md
+  Compiling short doc...
+    summary....... 7.1s (in=2085, out=997, cached=784)
+    concepts-plan.. 2.6s (in=3128, out=522, cached=69)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: conversation-steering... 2.7s (in=2966, out=604, cached=768)
+    concept: event-screening... 3.4s (in=2968, out=409)
+    concept: polite-decline... 10.8s (in=2958, out=721)
+Concept generation failed: LLM returned empty content for concept 'event-screening'
+    [WARN] 3 concept(s) planned but only 2 written for session-14_2024-06-12 (ValueError).
+    summary-rewrite............ 12.0s (in=2988, out=866)
+  [OK] session-14_2024-06-12.md added to knowledge base.
+Adding: session-34_2025-02-11.md
+  Compiling short doc...
+    summary.......... 10.4s (in=2866, out=1277, cached=784)
+    concepts-plan....... 7.8s (in=4113, out=555)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: clerk-office-inquiry... 4.0s (in=3995, out=791)
+    concept: local-civic-engagement... 4.7s (in=3957, out=651)
+    concept: boards-and-commissions... 6.5s (in=3966, out=951, cached=2864)
+Concept generation failed: LLM returned empty content for concept 'local-civic-engagement'
+    [WARN] 3 concept(s) planned but only 2 written for session-34_2025-02-11 (ValueError).
+    summary-rewrite....... 7.3s (in=3989, out=1398, cached=3824)
+  [OK] session-34_2025-02-11.md added to knowledge base.
+done.

@@ -1,0 +1,32 @@
+{
+  "uid": "60604200-1c82-43a8-9613-b4f2efdd514a",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    4,
+    37
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. Based on the earlier conversation (session 05 – 2023‑06‑15), the user was reassured that, provided they keep at least 730 days of physical presence in any rolling five‑year window and retain the required documentation (e.g., Canadian address, tax filings, employer posting letter), they can safely maintain their permanent‑resident status without having to rush an application for citizenship. The guidance even includes an example timeline showing that a long‑term overseas assignment can be compatible with PR obligations, reinforcing the user’s belief that they can remain a permanent resident comfortably for now.【summaries/session-05_2023-06-15.md】",
+    "dim2_response": "**Long‑term plan to keep your Canadian permanent‑resident (PR) status — no citizenship intent**\n\nBelow is a step‑by‑step roadmap (2025‑2029) built from the PR‑residency guidance in the knowledge base [[summaries/session-05_2023-06-15]] and the related concepts [[concepts/residency_obligation]], [[concepts/physical_presence_tracking]], [[concepts/citizenship_vs_permanent_residency]].\n\n| Year | Goal / Action | Why it matters | How to do it |\n|------|---------------|----------------|--------------|\n| **2025 (now)** | **Audit your current physical‑presence count** | You must have **≥ 730 days** in the **rolling 5‑year window** at any point you renew your PR card or re‑enter Canada. | • Use a spreadsheet or calendar to total days spent in Canada from **July 1 2022 – today**. <br>• Count any days abroad that qualify under the “employment‑outside‑Canada for a Canadian employer” exception (keep the posting letter). |\n| **2025 Q2** | **Secure documentation of Canadian ties** | IRCC officers may ask for proof that Canada remains your primary residence. | • Gather lease/mortgage statements, utility bills, Canadian bank statements. <br>• Keep copies of your federal/ provincial tax returns (even if zero). <br>• Store digital scans in a cloud folder you can access abroad. |\n| **2025 Q3‑Q4** | **Plan any extended travel or overseas assignment** | Long absences erase days from the rolling window; > 2 years abroad will usually drop you below 730 days. | • Before leaving, verify you still have ≥ 730 days remaining in the next 5‑year window (use the “days‑before‑departure” calculator in the summary). <br>• If the trip is work‑related, obtain a **formal assignment letter** from your Canadian employer stating the duration and that the posting qualifies under IRCC rules. |\n| **2026** | **Maintain a daily travel log** | Precise entry/exit dates are needed to demonstrate compliance at the border or during a PR‑card renewal. | • Record each border crossing (date, airport, passport stamp). <br>• Keep electronic copies of airline itineraries and e‑visas. |\n| **2026‑2027** | **Renew PR card before expiry (typically every 5 years)** | A valid PR card is required for re‑entry; renewal triggers a fresh 5‑year residency assessment. | • Submit the renewal **no later than 6 months before expiry**. <br>• Ensure the 5‑year window preceding the renewal date contains ≥ 730 days in Canada (e.g., for a June 2027 renewal, the window is June 2022‑June 2027). <br>• If you’ll be abroad during the renewal, plan a brief return to log enough days, or request a **temporary travel document** from IRCC. |\n| **2027‑2028** | **Re‑establish or strengthen Canadian ties after any long absence** | Even short trips can erode your day total; you need fresh days to replace those lost. | • Spend at least 100‑150 days per year physically in Canada. <br>• Continue filing tax returns, keeping a Canadian address, and maintaining financial accounts. |\n| **2028‑2029** | **Periodic “self‑audit” every 12 months** | Proactive monitoring avoids a surprise shortfall at the next renewal. | • Re‑calculate days in the most recent 5‑year window each year. <br>• Adjust travel or work plans if you’re under the 730‑day threshold. |\n| **Ongoing** | **Stay aware of policy updates** | IRCC occasionally tweaks the residency‑obligation rules or the qualifying‑employment exception. | • Subscribe to IRCC news alerts or check the **Residency Obligation** concept page for updates. |\n\n### Key take‑aways\n\n1. **730‑day rule is rolling** – the count is always based on the *most recent* five years, not a fixed calendar period.  \n2. **Employers can help** – a legitimate Canadian‑employer posting abroad can let those overseas days count, but you need a written assignment letter.  \n3. **Documentation is your safety net** – lease agreements, tax filings, bank statements, and a meticulous travel log are the evidence IRCC expects.  \n4. **Renew early and on‑shore if possible** – renewing from abroad is riskier; a brief return trip to log enough days smooths the process.  \n\nFollow this schedule, keep your records tidy, and you’ll stay comfortably in PR status without needing to rush toward citizenship.",
+    "dim3_response": "I’m sorry, but the knowledge base you’re using does not contain any information about voter registration or the steps needed to sign up to vote in an upcoming election. It focuses on topics such as federal employment onboarding, eligibility‑verification documents, background‑check processes, and Canadian permanent‑resident residency requirements. Without relevant content in the wiki, I can’t provide a specific checklist for voting registration. If you have a source that covers that subject, you could add it to the wiki for future reference."
+  },
+  "build_seconds": 167.2,
+  "total_seconds": 202.9,
+  "usage": {
+    "compile": {
+      "calls": 22,
+      "prompt_tokens": 97728,
+      "completion_tokens": 21090,
+      "cost_usd": 0.008660718999999999
+    },
+    "query": {
+      "calls": 13,
+      "prompt_tokens": 28801,
+      "completion_tokens": 2777,
+      "cost_usd": 0.00136389
+    }
+  }
+}

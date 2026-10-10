@@ -1,0 +1,19 @@
+{
+  "uid": "9ce11bb3-9680-4e92-86fc-5f450d36405b",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    11,
+    37
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. From the conversation the user consistently emphasizes that they get winded easily and need structured breaks, pacing strategies, and “Plan B” contingencies for everyday tasks. They are actively seeking ways to limit long, continuous exertion rather than trusting that their stamina will hold up for extended physical effort.",
+    "dim2_response": "I’m sorry, but the knowledge base does not contain any information on high‑intensity, full‑day physical‑activity schedules or guidance for intentionally minimizing rest periods. The available documents focus on energy‑conserving routines, time‑blocking for health, and moderate‑effort plans (e.g., a “Grocery Day” schedule). Without relevant source material, I cannot create a demanding, low‑break itinerary that is grounded in the wiki content.",
+    "dim3_response": "When you have a full day of tasks, aim for a **balanced, energy‑conserving schedule** rather than trying to cram everything in.  \n\n### 1. Use the “main + supporting + break” pattern  \n1. **Pick one “main” task** that requires the most sustained effort (e.g., the grocery run, a big work deliverable).  \n2. **Pair it with a lighter “supporting” task** you can finish quickly if you still have energy (e.g., filing a few papers, wiping a countertop).  \n3. **Insert a true “real break”** afterward – no screens, no mental work, just a brief pause (single song, tea, short stretch) [[concepts/real-break-definition]].  \n\n### 2. Size your blocks to your expected energy level  \n| Energy feeling | Block length (approx.) | Example for tomorrow |\n|----------------|------------------------|----------------------|\n| **Good day** (you feel rested) | Main 2 h → break 30 min → supporting 1 h → break 30 min → light tasks 1 h | 8 am‑10 am: write report (main) → 10‑10:30 am: tea break → 10:30‑11:30 am: file emails (support) → 11:30‑12 pm: short walk → 12‑1 pm: lunch |\n| **Tired day** (you anticipate fatigue) | Main 1 h → break 20 min → supporting 30 min → break 20 min | 9 am‑10 am: grocery trip (main) → 10‑10:20 am: sit & hydrate break → 10:20‑10:50 am: unload pantry (support) → 10:50‑11:10 am: rest |\n\nAdjust block lengths up or down based on how you feel mid‑day; the schedule is flexible as long as each effort block is followed by a genuine pause [[concepts/time-blocking-for-health]].\n\n### 3. Prioritize safety‑critical steps first  \nIf a task involves perishables, health, or safety, put it at the start of the day (or early in the block) so you can stop later without risk [[summaries/session-38_2025-03-12]].\n\n### 4. Build a “Plan B”  \nIdentify a minimal‑effort fallback (e.g., postpone non‑essential items, keep groceries in bags for a few hours) in case breathlessness or fatigue spikes [[summaries/session-38_2025-03-12]].\n\n### 5. Check for warning signs  \nIf during any block you notice persistent breathlessness, light‑headedness, or chest discomfort, stop the block, take a longer rest, and consider contacting a clinician [[summaries/session-38_2025-03-12]].\n\n---\n\n**Bottom line:** Schedule **one main activity**, a **supporting activity**, and a **real break** after each. Keep the blocks **shorter on low‑energy days** and **longer on good‑energy days**, and always have a simple fallback. This approach lets you be productive without over‑ambition, preserving energy and safety."
+  },
+  "build_seconds": 91.8,
+  "total_seconds": 121.1,
+  "usage": {}
+}

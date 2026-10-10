@@ -1,0 +1,44 @@
+=== 2026-10-10 15:47:18 uid=1503dba8-2831-40b9-8628-15c81655250d ===
+Adding: session-06_2024-07-10.md
+  Compiling short doc...
+    summary........ 8.6s (in=2463, out=992, cached=784)
+    concepts-plan............. 13.6s (in=3652, out=795)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: budget-friendly-meals... 5.2s (in=3527, out=676)
+    entity: tofu... 6.9s (in=3561, out=377, cached=768)
+    concept: meal-planning... 7.3s (in=3554, out=964, cached=768)
+    concept: batch-cooking... 8.0s (in=3526, out=1043, cached=2464)
+    entity: lentils... 2.2s (in=3589, out=721)
+    entity: rice... 2.6s (in=3559, out=385)
+    entity: soy-sauce... 2.1s (in=3589, out=712, cached=3328)
+    entity: chicken-thighs... 25.2s (in=3563, out=766, cached=64)
+Concept generation failed: LLM returned empty content for concept 'budget-friendly-meals'
+    [WARN] 3 concept(s) planned but only 2 written for session-06_2024-07-10 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'rice'
+    [WARN] 5 entity(ies) planned but only 4 written for session-06_2024-07-10 (ValueError).
+    summary-rewrite... 3.5s (in=3558, out=1003, cached=768)
+  [OK] session-06_2024-07-10.md added to knowledge base.
+Adding: session-33_2025-03-09.md
+  Compiling short doc...
+    summary................................... 35.9s (in=3246, out=863, cached=32)
+    concepts-plan.............. 14.6s (in=4481, out=1104, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 11 entity(ies) (concurrency=4)...
+    concept: low-smoke-cooking... 4.3s (in=4314, out=1087, cached=4192)
+    concept: smell-reduction-techniques... 4.8s (in=4314, out=1202, cached=784)
+    concept: one-pot-meals... 6.9s (in=4331, out=1311, cached=768)
+    entity: mini-fridge... 7.6s (in=4376, out=921, cached=768)
+    entity: hot-plate... 12.1s (in=4347, out=475, cached=64)
+    entity: butter... 9.6s (in=4346, out=1013, cached=784)
+    entity: parmesan... 5.7s (in=4374, out=1287, cached=768)
+    entity: cream-cheese... 7.7s (in=4375, out=852, cached=768)
+    entity: egg... 3.3s (in=4374, out=1258)
+    entity: dry-pasta... 3.0s (in=4375, out=899, cached=768)
+    entity: instant-rice... 5.4s (in=4375, out=1095, cached=768)
+    entity: frozen-vegetables... 4.0s (in=4376, out=1288, cached=768)
+    entity: prewashed-greens... 3.3s (in=4376, out=1338, cached=4096)
+    entity: lemon... 40.0s (in=4346, out=1211, cached=48)
+    summary-rewrite.... 4.1s (in=4344, out=1454, cached=768)
+  [OK] session-33_2025-03-09.md added to knowledge base.
+done.

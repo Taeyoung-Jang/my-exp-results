@@ -1,0 +1,25 @@
+=== 2026-10-10 15:34:07 uid=aee02e68-2b1a-4c3c-adad-2ec30a155794 ===
+Adding: session-15_2024-09-14.md
+  Compiling short doc...
+    summary................ 16.1s (in=2007, out=845, cached=64)
+    concepts-plan... 3.2s (in=3030, out=491, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: communication_templates... 3.6s (in=2877, out=2, cached=768)
+    entity: slack... 4.7s (in=2909, out=552, cached=784)
+    concept: scheduling_boundaries... 11.3s (in=2876, out=616, cached=64)
+    concept: team_norms... 18.3s (in=2879, out=732)
+Concept generation failed: LLM returned empty content for concept 'communication_templates'
+    [WARN] 3 concept(s) planned but only 2 written for session-15_2024-09-14 (ValueError).
+    summary-rewrite. 2.0s (in=2907, out=817)
+  [OK] session-15_2024-09-14.md added to knowledge base.
+Adding: session-35_2025-03-16.md
+  Compiling short doc...
+    summary................... 19.0s (in=2334, out=2677)
+    concepts-plan. 1.9s (in=3453, out=159)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-35_2025-03-16 — no concept pages generated. See log (stderr) for details.
+  [OK] session-35_2025-03-16.md added to knowledge base.
+=== 2026-10-10 15:35:54 uid=aee02e68-2b1a-4c3c-adad-2ec30a155794 ===
+KB already built; reusing it for queries.
+done.

@@ -1,0 +1,31 @@
+=== 2026-10-10 15:40:03 uid=0fcd704e-7b09-4580-87ad-07604828cd40 ===
+Adding: session-07_2025-06-15.md
+  Compiling short doc...
+    summary................ 16.5s (in=2276, out=849, cached=64)
+    concepts-plan.. 2.3s (in=3396, out=482)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: wind-down-window... 6.1s (in=3205, out=736, cached=784)
+    concept: sleep-hygiene... 8.0s (in=3203, out=485, cached=768)
+    concept: quiet-activity... 10.6s (in=3203, out=609, cached=784)
+    summary-rewrite... 3.6s (in=3235, out=758, cached=784)
+  [OK] session-07_2025-06-15.md added to knowledge base.
+Adding: session-31_2025-08-15.md
+  Compiling short doc...
+    summary.......................... 26.5s (in=3305, out=949, cached=784)
+    concepts-plan......... 9.6s (in=4534, out=865)
+    Generating 9 concept(s) (concurrency=4)...
+    concept: shifted-sleep-window... 3.2s (in=4404, out=652)
+    concept: last-bus-buffer... 4.9s (in=4404, out=935)
+    concept: social-sync... 8.8s (in=4407, out=649, cached=768)
+    concept: transport-backup-plans... 6.9s (in=4409, out=945, cached=784)
+    concept: meal-timing-night-shift... 21.3s (in=4406, out=1239, cached=64)
+    concept: commute-safety-checklist... 25.4s (in=4405, out=704, cached=64)
+    concept: wind-down-routine... 18.8s (in=4409, out=1059, cached=768)
+    update: sleep-hygiene... 33.9s (in=4894, out=1944)
+    update: wind-down-window... 28.7s (in=4804, out=1216, cached=64)
+Concept generation failed: LLM returned empty content for concept 'shifted-sleep-window'
+Concept generation failed: LLM returned empty content for concept 'last-bus-buffer'
+    [WARN] 9 concept(s) planned but only 7 written for session-31_2025-08-15 (ValueError).
+    summary-rewrite.............. 14.3s (in=4422, out=1237)
+  [OK] session-31_2025-08-15.md added to knowledge base.
+done.

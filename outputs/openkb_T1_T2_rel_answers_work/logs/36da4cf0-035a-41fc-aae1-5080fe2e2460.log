@@ -1,0 +1,58 @@
+=== 2026-10-10 15:34:16 uid=36da4cf0-035a-41fc-aae1-5080fe2e2460 ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary..... 5.2s (in=2658, out=1006, cached=816)
+    concepts-plan... 3.6s (in=3820, out=518, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: weekend-planning-framework... 1.0s (in=3684, out=998)
+    concept: energy-based-planning... 4.8s (in=3665, out=773, cached=784)
+    concept: partner-coordination... 15.3s (in=3651, out=1079)
+    summary-rewrite...... 6.1s (in=3696, out=979, cached=784)
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-37_2025-02-13.md
+  Compiling short doc...
+    summary............ 12.8s (in=2325, out=791)
+    concepts-plan.... 4.8s (in=3326, out=611, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: emergency-contact-criteria... 7.5s (in=3152, out=400, cached=768)
+    concept: choosing-emergency-contacts... 14.9s (in=3152, out=766)
+    concept: privacy-considerations... 39.2s (in=3156, out=938, cached=64)
+    summary-rewrite..=== 2026-10-10 15:35:54 uid=36da4cf0-035a-41fc-aae1-5080fe2e2460 ===
+Adding: session-06_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.5s (in=2658, out=999, cached=768)
+    concepts-plan. 1.2s (in=4054, out=378)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: partner-check-sync... 8.9s (in=3871, out=744, cached=69)
+    concept: energy-budget-planning... 29.3s (in=3871, out=1309, cached=64)
+    concept: weekend-shelf-space... 144.1s (in=3871, out=884, cached=69)
+    summary-rewrite........................... 27.5s (in=3902, out=1383, cached=768)
+[92m15:38:59 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-06_2024-06-15.md added to knowledge base.
+Adding: session-37_2025-02-13.md
+  Compiling short doc...
+    summary........ 8.4s (in=2324, out=1456)
+    concepts-plan............. 13.3s (in=3650, out=457, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: emergency-contact-criteria... 6.9s (in=3477, out=819, cached=784)
+    concept: emergency-contact-privacy... 7.2s (in=3478, out=865, cached=784)
+    concept: emergency-contact-info-tiers... 13.1s (in=3469, out=946)
+    summary-rewrite........ 8.3s (in=3505, out=969, cached=784)
+  [OK] session-37_2025-02-13.md added to knowledge base.
+done.

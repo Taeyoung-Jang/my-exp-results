@@ -1,0 +1,22 @@
+=== 2026-10-10 15:37:36 uid=f50107f1-364f-4c07-bdd6-bf144c6da875 ===
+Adding: session-15_2025-02-15.md
+  Compiling short doc...
+    summary...... 6.2s (in=1724, out=623, cached=784)
+    concepts-plan... 3.5s (in=2498, out=498, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: borrowed-item-tracking... 4.7s (in=2345, out=725, cached=784)
+    concept: reminder-system... 5.0s (in=2379, out=1243)
+    concept: visual-cue-logging... 34.0s (in=2344, out=1103, cached=64)
+    summary-rewrite.. 2.6s (in=2374, out=498, cached=68)
+  [OK] session-15_2025-02-15.md added to knowledge base.
+Adding: session-33_2025-06-17.md
+  Compiling short doc...
+    summary....... 7.9s (in=1929, out=810)
+    concepts-plan.... 4.5s (in=2956, out=507, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: priority-scheme... 3.0s (in=2774, out=683, cached=784)
+    concept: packing-system... 4.2s (in=2791, out=862, cached=768)
+    concept: open-first-box... 6.6s (in=2775, out=1268, cached=68)
+    summary-rewrite.............. 14.9s (in=2806, out=675, cached=784)
+  [OK] session-33_2025-06-17.md added to knowledge base.
+done.

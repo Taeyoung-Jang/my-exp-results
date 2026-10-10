@@ -1,0 +1,29 @@
+=== 2026-10-10 14:21:29 uid=b3613ccd-3ae7-4a9c-8a77-b2b912dcc4df ===
+Adding: session-04_2024-06-15.md
+  Compiling short doc...
+    summary.................. 18.9s (in=2157, out=1002)
+    concepts-plan.......... 10.6s (in=3305, out=789, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    concept: mail-organization... 3.9s (in=3169, out=946, cached=784)
+    entity: ups... 2.7s (in=3206, out=370)
+    entity: usps... 10.9s (in=3205, out=792, cached=784)
+    concept: unified-tracking... 11.6s (in=3169, out=800, cached=784)
+    entity: fedex... 7.3s (in=3203, out=592, cached=784)
+    entity: dmv... 3.1s (in=3205, out=724, cached=3040)
+    concept: permanent-address-strategy... 24.8s (in=3170, out=1023)
+Entity generation failed: LLM returned empty content for concept 'ups'
+    [WARN] 4 entity(ies) planned but only 3 written for session-04_2024-06-15 (ValueError).
+    summary-rewrite..... 5.8s (in=3199, out=821)
+  [OK] session-04_2024-06-15.md added to knowledge base.
+Adding: session-32_2025-03-16.md
+  Compiling short doc...
+    summary............. 13.5s (in=1903, out=573, cached=64)
+    concepts-plan. 1.8s (in=3019, out=671)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: regular-anchor-spot... 11.5s (in=2752, out=817)
+    concept: low-effort-social-connection... 17.7s (in=2768, out=799, cached=64)
+    concept: settling-routine... 24.1s (in=2765, out=1385, cached=784)
+    summary-rewrite............... 15.4s (in=2796, out=806, cached=784)
+  [OK] session-32_2025-03-16.md added to knowledge base.
+done.

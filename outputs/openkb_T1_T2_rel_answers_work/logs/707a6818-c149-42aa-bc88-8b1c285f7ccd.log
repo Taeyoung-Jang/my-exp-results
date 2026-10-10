@@ -1,0 +1,28 @@
+=== 2026-10-10 14:34:08 uid=707a6818-c149-42aa-bc88-8b1c285f7ccd ===
+Adding: session-09_2022-06-15.md
+  Compiling short doc...
+    summary........... 11.5s (in=2141, out=1049)
+    concepts-plan. 1.8s (in=3406, out=242)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-09_2022-06-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-09_2022-06-15.md added to knowledge base.
+Adding: session-33_2024-06-15.md
+  Compiling short doc...
+    summary........... 11.7s (in=1729, out=734, cached=784)
+    concepts-plan....... 7.1s (in=2592, out=282, cached=768)
+    Generating 6 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: password_manager_storage... 2.1s (in=2489, out=388)
+    concept: auto_reload... 4.2s (in=2494, out=973, cached=784)
+    concept: vehicle_info_requirements... 9.8s (in=2477, out=774)
+    concept: rental_vehicle_handling... 8.3s (in=2490, out=854, cached=784)
+    concept: consistent_user_info... 11.0s (in=2491, out=1054, cached=784)
+    concept: double_billing_prevention... 11.9s (in=2491, out=553, cached=768)
+    entity: rental_company... 6.1s (in=2524, out=277, cached=768)
+    entity: subaru_outback... 9.5s (in=2512, out=715)
+    entity: toll_tag... 33.6s (in=2524, out=878, cached=784)
+Concept generation failed: LLM returned empty content for concept 'password_manager_storage'
+    [WARN] 6 concept(s) planned but only 5 written for session-33_2024-06-15 (ValueError).
+    summary-rewrite......... 9.6s (in=2521, out=553, cached=64)
+  [OK] session-33_2024-06-15.md added to knowledge base.
+done.

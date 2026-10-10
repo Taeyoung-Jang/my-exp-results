@@ -1,0 +1,32 @@
+{
+  "uid": "7c0ae4e7-6b5a-42a2-891b-0ccf553bfe7f",
+  "type": "T1",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    13,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "No. The most recent conversation (Session 34 – 2023‑06‑15) shows the user is setting up utilities for a new rental in Austin, Texas (near S Lamar Blvd & Barton Springs Rd, Austin 78704). This indicates they have moved to Austin and are no longer residing in Seattle.【sources/summaries/session-34_2023-06-15.md】",
+    "dim2_response": "Here are a few Seattle‑specific neighborhood resources that make sense for someone who’s been living in the city and wants to stay connected to the areas they frequent most:\n\n| Resource | Why it’s useful for a Seattle‑based, car‑light resident | How to sign up (based on the wiki) |\n|----------|--------------------------------------------------------|-----------------------------------|\n| **Seattle Light Rail service alerts** | The light‑rail line is the backbone of transit on Capitol Hill and connects to many walkable neighborhoods. Timely alerts keep you aware of service changes, rain‑related delays, and weekend schedule tweaks – all critical for a car‑light lifestyle. | Follow the official alert channel for the [[entities/seattle-light-rail]] system (e.g., the “Alerts” page on the Sound Transit website) and subscribe via email or the Transit app. |\n| **D‑Line bus notifications** | The D‑Line is the primary bus route that serves Ballard’s central commercial corridor (44th St) and provides frequent, rain‑proof service across the neighborhood. | Subscribe to the D‑Line alerts through the King County Metro app or the “Transit Alerts” page for [[entities/d-line-bus]]. |\n| **Neighborhood‑specific community newsletters** (Capitol Hill & Ballard) | Both Capitol Hill and Ballard have active, amenity‑dense cores where “third places” (cafés, bookstores, bars) pop up regularly. Local newsletters highlight events, pop‑up markets, and neighborhood meetings that keep you plugged into the micro‑areas you’re likely to walk to. | Look for the “Capitol Hill Community Council” or “Ballard Community Association” newsletters (they are linked from the respective neighborhood pages [[entities/capitol-hill]] and [[entities/ballard]]) and sign up with your email. |\n| **Seattle Department of Transportation (SDOT) updates** | SDOT posts road‑maintenance schedules, sidewalk‑repair projects, and flood‑risk notices – all of which affect walkability on rainy days. | Visit the SDOT “Stay Informed” page and opt‑in to receive city‑wide or neighborhood‑specific updates (the page is referenced from the overall Seattle entity [[entities/seattle]]). |\n\n**How to get started**\n\n1. **Open the Seattle Light Rail alerts page** – look for the “Alerts” link on the Sound Transit site and enter your email (or enable push notifications in the Transit app).  \n2. **Add the D‑Line bus to your King County Metro app** – enable “Service Alerts” for route D‑Line.  \n3. **Find the Capitol Hill and Ballard community newsletters** – navigate from the neighborhood pages in the wiki (Capitol Hill and Ballard) to their community‑association sites and subscribe.  \n4. **Subscribe to SDOT updates** – go to the SDOT “Stay Informed” portal (linked from the Seattle entity) and select the neighborhoods you care about.\n\nThese sign‑ups will keep you posted on transit reliability, sidewalk conditions, and local happenings—exactly the information a car‑light resident in Seattle needs to stay comfortable and connected year‑round.",
+    "dim3_response": "I’m sorry—I don’t have any information in the knowledge base about local weekend‑relaxation spots for your area."
+  },
+  "build_seconds": 137.2,
+  "total_seconds": 186.5,
+  "usage": {
+    "compile": {
+      "calls": 33,
+      "prompt_tokens": 147688,
+      "completion_tokens": 29500,
+      "cost_usd": 0.022748976
+    },
+    "query": {
+      "calls": 16,
+      "prompt_tokens": 39379,
+      "completion_tokens": 3005,
+      "cost_usd": 0.0017222700000000001
+    }
+  }
+}

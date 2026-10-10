@@ -1,0 +1,24 @@
+=== 2026-10-10 14:38:41 uid=4b048bf7-5a35-404a-a9ea-c05f237ec3ab ===
+Adding: session-13_2023-06-15.md
+  Compiling short doc...
+    summary................. 17.3s (in=1841, out=679, cached=64)
+    concepts-plan.... 4.1s (in=2910, out=448, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: social-calendar-baseline... 5.3s (in=2756, out=618, cached=784)
+    concept: polite-decline-scripts... 9.9s (in=2757, out=879, cached=784)
+    concept: notice-preference... 15.3s (in=2754, out=464, cached=64)
+    summary-rewrite........ 8.0s (in=2786, out=946, cached=784)
+  [OK] session-13_2023-06-15.md added to knowledge base.
+Adding: session-32_2024-06-15.md
+  Compiling short doc...
+    summary.............. 14.8s (in=1629, out=575, cached=64)
+    concepts-plan.... 4.7s (in=2650, out=1150, cached=784)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: flexibility-vs-overcommitment... 3.9s (in=2517, out=755, cached=768)
+    concept: communication-of-preference... 6.4s (in=2497, out=831, cached=784)
+    concept: plan-commitment... 11.9s (in=2496, out=404, cached=64)
+    concept: text-message-scripts... 13.9s (in=2484, out=949)
+    update: polite-decline-scripts... 29.5s (in=3100, out=1002, cached=768)
+    summary-rewrite.......... 10.1s (in=2528, out=1029, cached=784)
+  [OK] session-32_2024-06-15.md added to knowledge base.
+done.

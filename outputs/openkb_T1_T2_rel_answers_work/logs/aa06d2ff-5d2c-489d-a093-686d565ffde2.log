@@ -1,0 +1,31 @@
+=== 2026-10-10 15:58:08 uid=aa06d2ff-5d2c-489d-a093-686d565ffde2 ===
+Adding: session-09_2024-06-15.md
+  Compiling short doc...
+    summary....... 7.0s (in=2263, out=1616)
+    concepts-plan... 3.4s (in=3340, out=727, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    entity: smartphone... 3.0s (in=3223, out=458, cached=68)
+    concept: app-decluttering-process... 4.1s (in=3191, out=536)
+    concept: app-scoring-rubric... 14.8s (in=3193, out=592, cached=64)
+    concept: staging-folder... 14.9s (in=3191, out=967, cached=784)
+Concept generation failed: LLM returned empty content for concept 'app-decluttering-process'
+    [WARN] 3 concept(s) planned but only 2 written for session-09_2024-06-15 (ValueError).
+    summary-rewrite.............. 14.1s (in=3222, out=1111, cached=784)
+  [OK] session-09_2024-06-15.md added to knowledge base.
+Adding: session-39_2024-12-13.md
+  Compiling short doc...
+    summary..... 5.8s (in=2549, out=1427, cached=784)
+    concepts-plan........... 11.5s (in=3564, out=786)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 4 entity(ies) (concurrency=4)...
+    entity: iphone... 8.6s (in=3457, out=424, cached=64)
+    entity: android... 5.6s (in=3456, out=1315, cached=2544)
+    concept: supervised-mode... 14.9s (in=3426, out=988, cached=64)
+    entity: it-department... 6.9s (in=3457, out=363, cached=768)
+    concept: mobile-device-management... 23.6s (in=3423, out=883)
+    entity: ios... 26.0s (in=3457, out=852)
+    concept: home-screen-organization... 57.5s (in=3423, out=1070, cached=784)
+    summary-rewrite....... 7.5s (in=3454, out=874, cached=784)
+  [OK] session-39_2024-12-13.md added to knowledge base.
+done.

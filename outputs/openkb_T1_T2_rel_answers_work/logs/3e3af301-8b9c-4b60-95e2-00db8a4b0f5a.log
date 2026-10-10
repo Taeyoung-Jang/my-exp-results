@@ -1,0 +1,45 @@
+=== 2026-10-10 15:43:04 uid=3e3af301-8b9c-4b60-95e2-00db8a4b0f5a ===
+Adding: session-08_2024-03-31.md
+  Compiling short doc...
+    summary........ 8.4s (in=2592, out=1609, cached=768)
+    concepts-plan........ 8.6s (in=3749, out=776, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 5 entity(ies) (concurrency=4)...
+    concept: software-inventory-management... 0.5s (in=3628, out=2, cached=768)
+    concept: cloud-storage-organization... 2.5s (in=3627, out=495)
+    concept: license-tracking... 6.2s (in=3614, out=1113)
+    entity: retro-sound-pack... 4.4s (in=3680, out=753, cached=2560)
+    entity: flowwrite-studio... 9.6s (in=3663, out=700, cached=784)
+    entity: pixelfocus-pro... 13.5s (in=3663, out=531, cached=784)
+    entity: humble-bundle... 8.7s (in=3663, out=840, cached=784)
+    entity: pixelstore... 11.1s (in=3662, out=716, cached=784)
+Concept generation failed: LLM returned empty content for concept 'software-inventory-management'
+Concept generation failed: LLM returned empty content for concept 'cloud-storage-organization'
+    [WARN] 3 concept(s) planned but only 1 written for session-08_2024-03-31 (ValueError).
+    summary-rewrite............. 13.9s (in=3659, out=1076, cached=64)
+  [OK] session-08_2024-03-31.md added to knowledge base.
+Adding: session-37_2024-12-01.md
+  Compiling short doc...
+    summary....................... 23.4s (in=3002, out=1104, cached=784)
+    concepts-plan........................ 24.3s (in=4426, out=1203, cached=784)
+    Generating 4 concept(s) (concurrency=4)...
+    Generating 10 entity(ies) (concurrency=4)...
+    concept: data-migration-safety... 5.8s (in=4239, out=1498, cached=784)
+    update: license-tracking... 8.1s (in=5098, out=1337)
+    concept: fresh-start-decision... 10.1s (in=4226, out=1150)
+    concept: backup-checklist... 13.3s (in=4225, out=1360)
+    entity: windows... 9.7s (in=4258, out=975)
+    entity: thunderbird... 4.5s (in=4271, out=773, cached=68)
+    entity: macos... 12.8s (in=4272, out=1069, cached=784)
+    entity: onedrive... 3.0s (in=4273, out=776, cached=4112)
+    entity: apple-mail... 9.0s (in=4272, out=365, cached=64)
+    entity: outlook... 17.7s (in=4272, out=941, cached=64)
+    entity: icloud... 9.1s (in=4273, out=430, cached=64)
+    entity: google-drive... 10.1s (in=4272, out=759, cached=784)
+    entity: adobe... 8.2s (in=4273, out=642, cached=784)
+    entity: dropbox... 14.5s (in=4271, out=917, cached=784)
+Concept generation failed: LLM returned empty content for concept 'license-tracking'
+    [WARN] 4 concept(s) planned but only 3 written for session-37_2024-12-01 (ValueError).
+    summary-rewrite................ 16.7s (in=4256, out=1488)
+  [OK] session-37_2024-12-01.md added to knowledge base.
+done.

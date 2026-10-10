@@ -1,0 +1,50 @@
+=== 2026-10-10 15:38:26 uid=473ffdfd-3e2d-4ed8-af84-d1bf02ac8e8e ===
+Adding: session-07_2025-06-15.md
+  Compiling short doc...
+    summary........................... 27.7s (in=4626, out=1027, cached=64)
+    concepts-plan......... 9.6s (in=5818, out=888, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: shadowing-practice... 4.7s (in=5730, out=791)
+    entity: easy-german-podcast... 9.3s (in=5766, out=447, cached=768)
+    entity: kurzgesagt-deutsch... 8.9s (in=5768, out=1040, cached=784)
+    concept: supported-listening... 14.2s (in=5730, out=1252, cached=784)
+    entity: deutsche-welle... 9.4s (in=5753, out=853)
+    entity: dark-tv... 5.7s (in=5768, out=826, cached=784)
+    concept: progressive-speed-adjustment... 23.1s (in=5718, out=1787)
+    entity: mr-wissen2go... 10.3s (in=5768, out=500, cached=768)
+    entity: tatort-tv... 6.0s (in=5769, out=823, cached=5360)
+    entity: charite-tv... 4.2s (in=5786, out=850, cached=768)
+    entity: die-sendung-mit-der-maus... 16.1s (in=5769, out=753, cached=784)
+Concept generation failed: LLM returned empty content for concept 'shadowing-practice'
+    [WARN] 3 concept(s) planned but only 2 written for session-07_2025-06-15 (ValueError).
+    summary-rewrite.................... 20.5s (in=5762, out=1446, cached=5600)
+[92m15:40:00 - LiteLLM:ERROR[0m: logging_worker.py:103 - LoggingWorker error: 
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tae0jang/Documents/Workspace/OpenKB/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/logging_worker.py", line 98, in _process_log_task
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "/usr/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+  [OK] session-07_2025-06-15.md added to knowledge base.
+Adding: session-39_2025-12-13.md
+  Compiling short doc...
+    summary........ 8.2s (in=1916, out=422, cached=768)
+    concepts-plan.. 2.1s (in=2988, out=143, cached=1888)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: exit_strategies... 11.7s (in=2679, out=688, cached=784)
+    concept: shared_vulnerability... 13.7s (in=2667, out=1062)
+    concept: accidental_mediator... 15.9s (in=2681, out=729)
+    summary-rewrite. 1.6s (in=2708, out=524)
+  [OK] session-39_2025-12-13.md added to knowledge base.
+done.

@@ -1,0 +1,33 @@
+=== 2026-10-10 14:18:55 uid=35385383-7d6b-415d-9d03-4efec88263da ===
+Adding: session-05_2025-06-15.md
+  Compiling short doc...
+    summary.... 5.0s (in=2084, out=934)
+    concepts-plan..................... 21.3s (in=3062, out=1491)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 10 entity(ies) (concurrency=4)...
+    entity: stuff-you-should-know... 3.9s (in=3065, out=757, cached=64)
+    concept: travel_time_management... 6.0s (in=3012, out=1171, cached=784)
+    entity: conan-obrien-needs-a-friend... 3.6s (in=3050, out=830, cached=784)
+    entity: armchair-expert... 3.6s (in=3047, out=569, cached=64)
+    entity: ologies... 9.0s (in=3047, out=1013, cached=64)
+    concept: attention_drift... 15.6s (in=3011, out=939)
+    entity: the-no-1-ladies-detective-agency... 5.5s (in=3053, out=727, cached=784)
+    entity: the-house-in-the-cerulean-sea... 5.7s (in=3052, out=615, cached=64)
+    concept: offline_entertainment... 21.2s (in=3011, out=841, cached=784)
+    entity: monument-valley... 7.6s (in=3046, out=827, cached=2880)
+    entity: altos-odyssey... 9.4s (in=3047, out=1069, cached=2880)
+    entity: solitaire... 5.5s (in=3045, out=593, cached=2880)
+    entity: mini-metro... 8.2s (in=3046, out=973, cached=2880)
+    summary-rewrite....... 7.6s (in=3043, out=810, cached=64)
+  [OK] session-05_2025-06-15.md added to knowledge base.
+Adding: session-34_2025-12-13.md
+  Compiling short doc...
+    summary.... 4.7s (in=1284, out=554, cached=784)
+    concepts-plan........ 8.4s (in=2405, out=633)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: yoga_intention... 5.2s (in=2063, out=708, cached=768)
+    update: attention_drift... 5.5s (in=2575, out=1243, cached=784)
+    concept: breathing_pattern... 11.5s (in=2046, out=819, cached=64)
+    summary-rewrite............... 15.6s (in=2077, out=1148, cached=784)
+  [OK] session-34_2025-12-13.md added to knowledge base.
+done.

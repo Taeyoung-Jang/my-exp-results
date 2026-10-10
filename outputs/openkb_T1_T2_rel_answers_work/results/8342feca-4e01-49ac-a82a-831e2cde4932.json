@@ -1,0 +1,32 @@
+{
+  "uid": "8342feca-4e01-49ac-a82a-831e2cde4932",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    0,
+    36
+  ],
+  "target_model_responses": {
+    "dim1_response": "**Yes – the user’s long‑standing pattern is still to turn down most evening invitations in favor of quiet, home‑based downtime.**  \n\n- In the May 2024 session the user created a personal rule *“evenings = downtime”* and explicitly said they *“usually keep my evenings quiet because that’s how I recharge, so I end up saying no to most after‑work plans.”* This was reinforced with checkpoint questions and gentle‑communication templates for declining invitations. [[summaries/session-01_2024-05-12.md]]\n\n- The January 2025 session shows the user is **trying to change that habit for one specific activity** – a weekday salsa class – by building cue‑based after‑work routines and a minimum‑viable fallback. The new scripts are meant to help them *“turn the home‑arrival‑to‑couch trap into a brief, purposeful pit stop,”* indicating that the default preference for staying home still exists, and the user must deliberately overcome it for this class. [[summaries/session-37_2025-01-11.md]]\n\n**Therefore, the user continues to decline most evening invitations because they prefer spending their free time at home, although they are now working on a targeted exception (the salsa class) that requires extra cues and routines.**",
+    "dim2_response": "**Polite “No‑but‑maybe later” template (for a coworker’s after‑work meetup)**  \n\n> *Hey [Name], thanks for the invite! I usually keep my evenings quiet so I can recharge at home, so I’ll have to pass on tonight’s meetup. I’d love to catch up another time—maybe a lunch break or a coffee during the day later this week? Let me know what works for you.*  \n\n*Why it works*  \n- Starts with appreciation (“thanks for the invite”).  \n- States the personal rule (“I usually keep my evenings quiet”) rather than judging the invitation. [[concepts/gentle-communication]]  \n- Offers concrete alternatives (lunch, daytime coffee) to keep the relationship open. [[summaries/session-01_2024-05-12]]\n\nFeel free to swap “lunch” for “a quick coffee” or adjust the day‑of‑week wording to fit your schedule. This keeps the tone friendly, honest, and respectful of both your need for evening downtime and your coworker’s desire to connect.  ",
+    "dim3_response": "Based on the guidance we’ve compiled in the knowledge base, there are a few potential downs‑ides to lock‑in a non‑refundable, webcam‑required evening commitment—even if your current schedule looks empty:\n\n| Potential issue | Why it matters (from the KB) | How to mitigate |\n|----------------|-----------------------------|-----------------|\n| **Evening‑time energy drain** | The “evenings = downtime” rule in [[concepts/energy-management]] highlights that many people need the 6‑8 pm window to decompress after work. A mandatory, camera‑on session can turn a restorative period into a cognitively‑heavy activity, increasing fatigue. | Run a quick **emotional‑checkpoint** before you pay (see [[concepts/emotional-checkpoints]]): 1️⃣ How do you feel about a webcam‑on class right now? 2️⃣ How intense is your current workload? 3️⃣ Will the class recharge you or drain you? |\n| **Webcam fatigue / self‑monitoring stress** | Continuous visual presence can raise self‑consciousness and mental load, especially for several hours each weekday. This is an example of the “recharge value” factor mentioned in the same session notes. | Build a **minimum‑viable‑fallback** habit (see [[concepts/minimum-viable-fallback]]): schedule a short 5‑minute “screen‑off” or eye‑break ritual each hour to keep the load manageable. |\n| **Future schedule volatility** | Even if your calendar is open now, work demands, family obligations, or health issues often shift. A non‑refundable deposit removes the safety net. | Keep a **fallback plan** (concept: [[concepts/minimum-viable-fallback]]): identify a low‑effort way to stay engaged (e.g., watching recorded sessions, participating only a few days per week) and confirm the provider’s policy on partial attendance before you commit. |\n| **Social‑relationship impact** | If you later need to step back, you’ll have to decline or renegotiate. The “gentle‑communication” guidelines ([[concepts/gentle-communication]]) suggest framing any future change as a personal energy need rather than a judgment of the course. | Draft a short template now (similar to those in session‑01) so you can politely request an alternative schedule if needed:  \n\n> “I’m really excited about the language class, but I’ve learned that my evenings are essential for my recharge. Could we explore a later‑day or weekend option for me, or a way for me to attend a few sessions remotely without the webcam?”  \n\n---\n\n### Bottom‑line recommendation\n- **Do a quick self‑audit** with the three emotional‑checkpoints before you hand over the deposit. If the answer is “yes, this feels energizing and fits my current workload,” the risk is low.  \n- **Prepare a fallback communication** now, using the gentle‑communication templates, in case your evenings become less available later.  \n- **Ask the provider** about any flexibility (e.g., optional webcam‑off days, recorded content, or a trial period). If they’re rigid, the non‑refundable commitment may be too risky.  \n\nIf after the checkpoints you still feel confident, the open schedule alone isn’t a red flag—but keeping the above safeguards in place will protect you from unexpected burnout or schedule changes."
+  },
+  "build_seconds": 224.3,
+  "total_seconds": 256.2,
+  "usage": {
+    "compile": {
+      "calls": 16,
+      "prompt_tokens": 52374,
+      "completion_tokens": 16646,
+      "cost_usd": 0.006075129999999999
+    },
+    "query": {
+      "calls": 12,
+      "prompt_tokens": 24397,
+      "completion_tokens": 2865,
+      "cost_usd": 0.0012476100000000001
+    }
+  }
+}

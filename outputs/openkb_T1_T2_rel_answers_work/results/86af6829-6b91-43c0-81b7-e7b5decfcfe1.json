@@ -1,0 +1,32 @@
+{
+  "uid": "86af6829-6b91-43c0-81b7-e7b5decfcfe1",
+  "type": "T2",
+  "target_model": "openrouter/openai/gpt-oss-120b",
+  "method": "openkb",
+  "session_mode": "relevant_only",
+  "session_indices": [
+    11,
+    33
+  ],
+  "target_model_responses": {
+    "dim1_response": "Yes. In the June 2023 conversation (see [[summaries/session-12_2023-06-15]]), the user was given a structured 2–3‑year plan for a coastal relocation, emphasizing that they wanted to be settled on the coast “within a few years.” There is no later session that revises or abandons that goal, so the user’s priority to relocate to the coast within a few years remains in place.",
+    "dim2_response": "**24‑Month Coastal‑Relocation Plan**  \n*(Based on the “Guidelines and tools for planning a coastal relocation” summary from session‑12 2023‑06‑15)*  \n\n---\n\n## 1️⃣ Month 0‑3 – Foundations & Exploration\n| Week | Action | Checklist Item |\n|------|--------|----------------|\n| 1‑2 | **Define must‑haves** (coast access, climate limits, job compatibility, budget) | ✔️ Complete the 10‑15‑question relocation checklist (see Checklist below) |\n| 2‑4 | **Generate candidate regions** using the must‑have filter | ✔️ List 2‑3 coastal areas that satisfy all must‑haves |\n| 4‑12 | **Short exploratory visits** – 3‑5 day trips to each region | ✔️ Assess vibe, walkability, basic cost of living, local amenities |\n| 12 | **First pruning** – keep 1‑2 regions that feel most promising | ✔️ Record rent ranges, commute times, climate snapshots, social comfort |\n\n---\n\n## 2️⃣ Month 4‑12 – Deep Dives & Data Collection\n| Month | Action | Checklist Item |\n|-------|--------|----------------|\n| 4‑6 | **Long‑term trial stays** – rent a short‑term (2‑4 week) place in each remaining region | ✔️ Track metrics: rent, utilities, internet speed, daily‑life convenience, seasonal weather |\n| 6‑9 | **Remote‑work test** – work from the trial location 2‑3 days/week to gauge productivity & community fit | ✔️ Note commute (if any), cowork‑space options, time‑zone impact |\n| 9‑12 | **Informational interviews** with local employers, recruiters, or remote‑work peers | ✔️ Gather job‑market data (average salaries, vacancy volume, remote‑friendly firms) |\n| 12 | **Scorecard crunch** – populate the weighted decision template (housing 0.25, job 0.30, climate 0.15, daily‑life 0.10, social 0.10, sustainability 0.10) | ✔️ Compute total scores; aim for ≥ 70 % confidence in one location |\n\n---\n\n## 3️⃣ Month 13‑24 – Commitment & Transition\n| Month | Action | Checklist Item |\n|-------|--------|----------------|\n| 13‑15 | **Select top contender** based on scorecard | ✔️ Finalize choice; start a mid‑term lease (6‑12 mo) |\n| 16‑18 | **Intensify job search** – apply to targeted roles, schedule onsite/interview trips if needed | ✔️ Secure at least one solid employment offer or remote‑work contract |\n| 19‑21 | **Logistics prep** – arrange moving company, transfer utilities, update address, obtain local permits/driver’s license | ✔️ Create moving‑timeline checklist (packing, shipment, insurance) |\n| 22‑24 | **Final move** – relocate, set up permanent housing, onboard new job | ✔️ Celebrate! Conduct a “first‑month review” using the same metrics to ensure the move meets expectations |\n\n---\n\n## 📋 Core Relocation Checklist (from the original 10‑15‑question tool)\n\n| # | Question / Area | Why It Matters |\n|---|-----------------|----------------|\n| 1 | **Ideal day** – visualise your perfect coastal routine | Clarifies daily‑life fit |\n| 2 | **Climate limits** – temperature, humidity, hurricane risk | Avoids health/comfort surprises |\n| 3 | **Nature access** – beaches, trails, water sports | Aligns with lifestyle priorities |\n| 4 | **Work flexibility** – remote‑work policy, local job market | Determines income viability |\n| 5 | **Housing budget** – rent/mortgage ceiling | Filters out unaffordable areas |\n| 6 | **Walkability / transit** – distance to grocery, health services | Impacts cost of living & time |\n| 7 | **Community vibe** – diversity, cultural scene, social clubs | Supports long‑term satisfaction |\n| 8 | **Family proximity** – closeness to relatives or support network | Influences emotional wellbeing |\n| 9 | **Cultural/entertainment options** – arts, dining, events | Enriches quality of life |\n|10| **Pace of life** – fast‑city vs laid‑back town | Matches personal energy rhythm |\n|11| **Problems to solve** – e.g., flood risk, housing scarcity | Pre‑emptively addresses deal‑breakers |\n|12| **Coastal importance weight** – how essential ocean access is | Drives weighting in scorecard |\n|13‑15| **Nice‑to‑have extras** – pet‑friendly, schools, nightlife, etc. | Helps rank final options |\n\n*Complete this checklist early (Month 0‑1) and mark each answer as **Must‑Have** or **Nice‑to‑Have**; the must‑haves become hard filters for candidate generation.*\n\n---\n\n### How to Use the Timeline & Checklist\n1. **Follow the chronological blocks** – each step builds on data collected in the previous one.  \n2. **Update the scorecard continuously** – after every visit or remote‑work trial, enter the new metrics; the weighted total will guide you toward the 70 % confidence threshold.  \n3. **Keep a simple spreadsheet** with columns for each metric and a “confidence” column; link it to the checklist answers for quick reference.  \n4. **Review at month 12** (mid‑point) to decide whether to stay on the 2‑year plan or accelerate (if confidence > 90 %).  \n\nBy adhering to this 24‑month roadmap and the attached checklist, you’ll systematically reduce uncertainty, secure a viable job, and lock in housing—ensuring the coastal relocation is both realistic and aligned with your priorities.",
+    "dim3_response": "I’m sorry—I couldn’t find any information in the knowledge base that addresses lease‑renewal decisions or compares long‑term versus month‑to‑month rental options. Without relevant content to draw on, I can’t provide a data‑based recommendation for your situation."
+  },
+  "build_seconds": 100.3,
+  "total_seconds": 117.9,
+  "usage": {
+    "compile": {
+      "calls": 8,
+      "prompt_tokens": 33426,
+      "completion_tokens": 6459,
+      "cost_usd": 0.002515743
+    },
+    "query": {
+      "calls": 9,
+      "prompt_tokens": 17145,
+      "completion_tokens": 2376,
+      "cost_usd": 0.0009420300000000001
+    }
+  }
+}

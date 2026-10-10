@@ -1,0 +1,28 @@
+=== 2026-10-10 15:27:01 uid=50a64d0c-a3a5-45c1-90ab-80a465ff58e9 ===
+Adding: session-08_2024-06-15.md
+  Compiling short doc...
+    summary.......................... 26.8s (in=2386, out=1349, cached=64)
+    concepts-plan..... 5.6s (in=3363, out=436)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: batching... 3.6s (in=3214, out=593)
+    concept: theme-days... 11.2s (in=3214, out=710, cached=768)
+    concept: flexible-scheduling... 12.4s (in=3201, out=859)
+Concept generation failed: LLM returned empty content for concept 'batching'
+    [WARN] 3 concept(s) planned but only 2 written for session-08_2024-06-15 (ValueError).
+    summary-rewrite................... 19.7s (in=3246, out=852, cached=64)
+  [OK] session-08_2024-06-15.md added to knowledge base.
+Adding: session-36_2024-12-13.md
+  Compiling short doc...
+    summary..... 5.7s (in=2178, out=966, cached=784)
+    concepts-plan. 1.7s (in=3377, out=94, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    concept: social_rhythm... 2.7s (in=3218, out=476)
+    concept: energy_management... 5.2s (in=3219, out=1005, cached=784)
+    concept: boundary_setting... 11.2s (in=3219, out=568, cached=768)
+    concept: low_effort_connection... 14.2s (in=3222, out=1001, cached=784)
+    concept: night_shift_lifestyle... 14.3s (in=3208, out=1257)
+Concept generation failed: LLM returned empty content for concept 'social_rhythm'
+    [WARN] 5 concept(s) planned but only 4 written for session-36_2024-12-13 (ValueError).
+    summary-rewrite............. 13.7s (in=3238, out=1224)
+  [OK] session-36_2024-12-13.md added to knowledge base.
+done.

@@ -1,0 +1,32 @@
+=== 2026-10-10 14:37:36 uid=a26a5533-f0e3-46f0-af65-ab611c26f56f ===
+Adding: session-10_2024-06-15.md
+  Compiling short doc...
+    summary........................... 27.3s (in=2027, out=765, cached=64)
+    concepts-plan.. 2.3s (in=3170, out=499, cached=800)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: triage-rule... 7.7s (in=3013, out=707, cached=784)
+    concept: purposeful-preview... 12.8s (in=3013, out=368, cached=64)
+    concept: selective-note-taking... 13.2s (in=3001, out=854)
+    summary-rewrite.......... 10.4s (in=3044, out=973, cached=784)
+  [OK] session-10_2024-06-15.md added to knowledge base.
+Adding: session-34_2024-12-16.md
+  Compiling short doc...
+    summary................... 19.3s (in=2458, out=1123, cached=784)
+    concepts-plan.............. 15.0s (in=3658, out=1193, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 9 entity(ies) (concurrency=4)...
+    entity: voice-dream-reader... 8.5s (in=3568, out=790, cached=784)
+    concept: text-to-speech... 12.4s (in=3542, out=1179, cached=784)
+    concept: active-listening... 13.9s (in=3532, out=1073, cached=784)
+    concept: shortcuts-workflow... 14.0s (in=3536, out=1084, cached=3152)
+    entity: overcast... 6.8s (in=3567, out=766, cached=784)
+    entity: airr... 7.7s (in=3567, out=903, cached=784)
+    entity: noted... 6.3s (in=3567, out=727, cached=784)
+    entity: audio-pen... 9.1s (in=3567, out=1032, cached=784)
+    entity: apple... 10.5s (in=3566, out=1040, cached=3408)
+    entity: iphone... 10.4s (in=3567, out=1027, cached=3408)
+    entity: apple-shortcuts... 10.9s (in=3568, out=1074, cached=3408)
+    entity: apple-notes... 13.9s (in=3567, out=1058, cached=3408)
+    summary-rewrite........... 11.0s (in=3564, out=1159, cached=784)
+  [OK] session-34_2024-12-16.md added to knowledge base.
+done.

@@ -1,0 +1,35 @@
+=== 2026-10-10 15:28:52 uid=a96178b7-620b-4598-9509-4a099d457e28 ===
+Adding: session-08_2024-07-14.md
+  Compiling short doc...
+    summary.... 4.5s (in=2461, out=912)
+    concepts-plan....... 8.0s (in=3529, out=566)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: sound_masking_strategies... 3.5s (in=3381, out=890, cached=784)
+    concept: window_acoustic_mitigation... 6.0s (in=3381, out=859, cached=784)
+    concept: indoor_noise_diagnosis... 12.9s (in=3368, out=1036)
+    summary-rewrite......... 9.2s (in=3411, out=838)
+  [OK] session-08_2024-07-14.md added to knowledge base.
+Adding: session-34_2025-03-15.md
+  Compiling short doc...
+    summary........... 11.5s (in=3010, out=1186)
+    concepts-plan............... 15.4s (in=4292, out=563, cached=768)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: invasive_species_awareness... 4.3s (in=4221, out=764, cached=784)
+    concept: low_maintenance_plant_selection... 4.5s (in=4222, out=1090, cached=784)
+    concept: spacing_guidelines... 5.3s (in=4240, out=1143, cached=768)
+    entity: dwarf_inkberry_holly_strongbox... 5.8s (in=4260, out=1415, cached=64)
+    concept: modern_trellis_design... 12.4s (in=4221, out=614, cached=64)
+    concept: privacy_landscaping... 15.2s (in=4219, out=674, cached=64)
+    entity: compact_abelia_kaleidoscope... 5.8s (in=4261, out=940, cached=64)
+    entity: feather_reed_grass_avalanche... 5.8s (in=4259, out=940, cached=64)
+    entity: wisteria... 5.3s (in=4255, out=834, cached=64)
+    entity: evergreen_clematis_armandii... 10.2s (in=4263, out=1087, cached=784)
+    entity: honeysuckle... 3.3s (in=4254, out=444)
+    entity: compact_viticella_clematis... 11.5s (in=4247, out=1158)
+    entity: running_bamboo... 14.9s (in=4254, out=742, cached=784)
+Entity generation failed: LLM returned empty content for concept 'honeysuckle'
+    [WARN] 8 entity(ies) planned but only 7 written for session-34_2025-03-15 (ValueError).
+    summary-rewrite............................... 31.7s (in=4251, out=1347, cached=768)
+  [OK] session-34_2025-03-15.md added to knowledge base.
+done.

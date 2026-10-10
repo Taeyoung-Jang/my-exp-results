@@ -1,0 +1,41 @@
+=== 2026-10-10 14:47:40 uid=e1703b4d-f093-43cf-8003-75f8949c69d0 ===
+Adding: session-14_2023-07-15.md
+  Compiling short doc...
+    summary........... 11.3s (in=3680, out=1177)
+    concepts-plan............. 14.0s (in=4795, out=1201, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 8 entity(ies) (concurrency=4)...
+    concept: homeownership-disaster-prevention... 5.1s (in=4716, out=696)
+    concept: cold-climate-water-risk-mitigation... 9.7s (in=4720, out=1411, cached=784)
+    concept: maintenance-scheduling... 9.9s (in=4715, out=768, cached=768)
+    entity: automatic-shutoff-valve... 5.9s (in=4753, out=862, cached=784)
+    entity: water-leak-sensor... 12.4s (in=4738, out=915)
+    entity: battery-backup... 4.0s (in=4754, out=578)
+    entity: heat-trace-cable... 25.3s (in=4752, out=1055, cached=784)
+    entity: impact-rated-storm-shutters... 6.5s (in=4754, out=417, cached=768)
+    entity: whole-house-surge-protector... 13.4s (in=4740, out=998)
+    entity: sump-pump... 28.5s (in=4751, out=817, cached=64)
+    entity: attic-insulation... 15.0s (in=4752, out=781, cached=784)
+Concept generation failed: LLM returned empty content for concept 'homeownership-disaster-prevention'
+    [WARN] 3 concept(s) planned but only 2 written for session-14_2023-07-15 (ValueError).
+Entity generation failed: LLM returned empty content for concept 'battery-backup'
+    [WARN] 8 entity(ies) planned but only 7 written for session-14_2023-07-15 (ValueError).
+    summary-rewrite........ 8.2s (in=4747, out=1059, cached=784)
+  [OK] session-14_2023-07-15.md added to knowledge base.
+Adding: session-36_2024-07-15.md
+  Compiling short doc...
+    summary............................. 29.8s (in=2751, out=1264, cached=64)
+    concepts-plan.......... 11.0s (in=3861, out=955)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: smart-home-transfer... 0.7s (in=3604, out=2)
+    entity: smart-thermostat... 5.6s (in=3640, out=370, cached=768)
+    entity: doorbell-camera... 8.7s (in=3627, out=753)
+    concept: homeownership-handoff... 13.5s (in=3606, out=1248, cached=784)
+    entity: garage-door-opener... 15.0s (in=3641, out=898)
+    concept: utility-management... 22.0s (in=3591, out=1840)
+Concept generation failed: LLM returned empty content for concept 'smart-home-transfer'
+    [WARN] 3 concept(s) planned but only 2 written for session-36_2024-07-15 (ValueError).
+    summary-rewrite....... 7.9s (in=3636, out=769, cached=784)
+  [OK] session-36_2024-07-15.md added to knowledge base.
+done.

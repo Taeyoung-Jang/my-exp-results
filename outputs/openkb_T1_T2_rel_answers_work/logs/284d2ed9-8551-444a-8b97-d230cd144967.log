@@ -1,0 +1,37 @@
+=== 2026-10-10 14:45:23 uid=284d2ed9-8551-444a-8b97-d230cd144967 ===
+Adding: session-07_2024-07-14.md
+  Compiling short doc...
+    summary...... 6.4s (in=2084, out=783, cached=784)
+    concepts-plan....... 7.6s (in=2981, out=848, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 7 entity(ies) (concurrency=4)...
+    concept: background_activity_restriction... 6.5s (in=2859, out=1019, cached=784)
+    entity: iphone... 11.3s (in=2879, out=727)
+    entity: uber... 2.0s (in=2910, out=484, cached=768)
+    entity: android... 8.4s (in=2878, out=552)
+    concept: location_permissions... 18.3s (in=2857, out=876, cached=784)
+    entity: apple... 2.3s (in=2890, out=348)
+    concept: ad_personalization... 20.9s (in=2858, out=637, cached=64)
+    entity: google... 7.0s (in=2891, out=261, cached=768)
+    entity: apple_advertising... 5.9s (in=2892, out=271, cached=768)
+    entity: lyft... 20.0s (in=2891, out=783, cached=2720)
+Entity generation failed: LLM returned empty content for concept 'apple'
+    [WARN] 7 entity(ies) planned but only 6 written for session-07_2024-07-14 (ValueError).
+    summary-rewrite..... 5.5s (in=2889, out=911, cached=784)
+  [OK] session-07_2024-07-14.md added to knowledge base.
+Adding: session-36_2025-01-14.md
+  Compiling short doc...
+    summary........... 11.9s (in=2189, out=754)
+    concepts-plan............................. 30.0s (in=3289, out=1186, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: location_privacy_tradeoff... 4.5s (in=3019, out=1086, cached=784)
+    concept: geofencing... 6.6s (in=3039, out=1474, cached=800)
+    entity: apple... 4.6s (in=3050, out=785, cached=784)
+    concept: precise_vs_approximate_location... 12.8s (in=3020, out=1024)
+    concept: ios_location_settings... 13.2s (in=3022, out=928)
+    entity-update: iphone... 5.1s (in=3439, out=1046, cached=768)
+    update: location_permissions... 32.7s (in=3508, out=1188, cached=784)
+    summary-rewrite.. 2.7s (in=3048, out=924)
+  [OK] session-36_2025-01-14.md added to knowledge base.
+done.

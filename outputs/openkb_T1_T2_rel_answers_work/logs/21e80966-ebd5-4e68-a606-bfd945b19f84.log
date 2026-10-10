@@ -1,0 +1,30 @@
+=== 2026-10-10 15:27:01 uid=21e80966-ebd5-4e68-a606-bfd945b19f84 ===
+Adding: session-14_2020-06-13.md
+  Compiling short doc...
+    summary....... 7.2s (in=1780, out=600)
+    concepts-plan........ 8.8s (in=2586, out=751)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 3 entity(ies) (concurrency=4)...
+    concept: message-drafting... 5.1s (in=2448, out=886, cached=784)
+    entity: choir... 2.9s (in=2480, out=574, cached=68)
+    entity: sunday-morning... 4.2s (in=2482, out=643, cached=784)
+    concept: humor-in-communication... 12.8s (in=2435, out=778)
+    entity: parish... 13.5s (in=2481, out=540, cached=784)
+    concept: timing-suggestions... 16.5s (in=2447, out=897, cached=64)
+    summary-rewrite.......... 10.4s (in=2479, out=665, cached=768)
+  [OK] session-14_2020-06-13.md added to knowledge base.
+Adding: session-36_2023-06-13.md
+  Compiling short doc...
+    summary......... 9.1s (in=1707, out=547, cached=64)
+    concepts-plan... 3.6s (in=2615, out=117, cached=64)
+    Generating 5 concept(s) (concurrency=4)...
+    Generating 1 entity(ies) (concurrency=4)...
+    concept: prayer-time-synchronization... 2.7s (in=2418, out=650, cached=784)
+    concept: travel-prayer-tips... 6.2s (in=2417, out=1043, cached=784)
+    entity: prayer-app... 1.5s (in=2479, out=532)
+    concept: prayer-apps... 6.6s (in=2416, out=1098, cached=784)
+    concept: qibla-direction... 10.5s (in=2418, out=799)
+    concept: daily-prayer-routine... 136.4s (in=2417, out=864, cached=69)
+    summary-rewrite...... 6.1s (in=2448, out=719, cached=64)
+  [OK] session-36_2023-06-13.md added to knowledge base.
+done.

@@ -1,0 +1,28 @@
+=== 2026-10-10 15:28:55 uid=8e292729-a8c9-4316-a8e8-9a5ee3d9a3e4 ===
+Adding: session-03_2025-06-15.md
+  Compiling short doc...
+    summary...... 6.9s (in=1712, out=367, cached=64)
+    concepts-plan............ 12.6s (in=2495, out=701, cached=784)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 6 entity(ies) (concurrency=4)...
+    concept: reference_time_zone... 4.5s (in=2371, out=732, cached=784)
+    concept: time_zone_offset... 7.5s (in=2371, out=473, cached=64)
+    entity: eastern-time... 8.2s (in=2392, out=777)
+    entity: pacific-time... 3.8s (in=2405, out=733, cached=784)
+    entity: arizona... 2.2s (in=2403, out=257)
+    entity: central-time... 11.0s (in=2405, out=766, cached=64)
+    entity: mountain-time... 8.7s (in=2392, out=797)
+    concept: daylight_saving_time... 19.7s (in=2359, out=1401)
+    entity: hawaii... 18.1s (in=2404, out=978)
+Entity generation failed: LLM returned empty content for concept 'arizona'
+    [WARN] 6 entity(ies) planned but only 5 written for session-03_2025-06-15 (ValueError).
+    summary-rewrite.............. 14.7s (in=2389, out=1188)
+  [OK] session-03_2025-06-15.md added to knowledge base.
+Adding: session-32_2025-09-15.md
+  Compiling short doc...
+    summary............... 15.8s (in=1995, out=834, cached=768)
+    concepts-plan.. 2.5s (in=3377, out=367)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-32_2025-09-15 — no concept pages generated. See log (stderr) for details.
+  [OK] session-32_2025-09-15.md added to knowledge base.
+done.

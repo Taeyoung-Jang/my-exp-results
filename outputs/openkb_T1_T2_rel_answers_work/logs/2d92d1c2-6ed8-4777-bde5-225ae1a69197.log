@@ -1,0 +1,17 @@
+=== 2026-10-10 15:40:09 uid=2d92d1c2-6ed8-4777-bde5-225ae1a69197 ===
+Adding: session-13_2025-06-15.md
+  Compiling short doc...
+    summary.... 4.2s (in=1791, out=197, cached=768)
+    concepts-plan. 1.9s (in=2442, out=99, cached=768)
+  [OK] session-13_2025-06-15.md added to knowledge base.
+Adding: session-39_2025-09-15.md
+  Compiling short doc...
+    summary................ 16.8s (in=2041, out=1225, cached=768)
+    concepts-plan............ 12.8s (in=3185, out=618, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    concept: non_perishable_fuel... 7.4s (in=3045, out=718, cached=784)
+    concept: pre_workout_timing... 9.1s (in=3043, out=867, cached=784)
+    concept: macro_balance... 9.1s (in=3041, out=554, cached=64)
+    summary-rewrite... 3.9s (in=3073, out=910, cached=64)
+  [OK] session-39_2025-09-15.md added to knowledge base.
+done.

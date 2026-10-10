@@ -1,0 +1,22 @@
+=== 2026-10-10 15:31:01 uid=ba60203c-808b-4ab3-85b4-4200ec27c90c ===
+Adding: session-12_2020-04-14.md
+  Compiling short doc...
+    summary.... 5.0s (in=2322, out=1051, cached=69)
+    concepts-plan............ 13.0s (in=3521, out=681, cached=64)
+    Generating 3 concept(s) (concurrency=4)...
+    Generating 2 entity(ies) (concurrency=4)...
+    concept: career-decision-making... 4.5s (in=3380, out=778, cached=784)
+    concept: reflection-tracking... 5.7s (in=3379, out=925, cached=64)
+    entity: linkedin... 12.4s (in=3401, out=870)
+    entity: career-center... 9.4s (in=3414, out=315, cached=64)
+    concept: low-commitment-experiments... 19.0s (in=3383, out=1043, cached=784)
+    summary-rewrite.............. 14.1s (in=3411, out=1058, cached=3248)
+  [OK] session-12_2020-04-14.md added to knowledge base.
+Adding: session-35_2023-04-14.md
+  Compiling short doc...
+    summary....... 7.7s (in=2331, out=1037)
+    concepts-plan.............. 14.8s (in=3649, out=2)
+Failed to parse concepts plan: Expecting value: line 1 column 1 (char 0). Raw output (first 500 chars): ''
+    [WARN] concepts plan unparseable for session-35_2023-04-14 — no concept pages generated. See log (stderr) for details.
+  [OK] session-35_2023-04-14.md added to knowledge base.
+done.

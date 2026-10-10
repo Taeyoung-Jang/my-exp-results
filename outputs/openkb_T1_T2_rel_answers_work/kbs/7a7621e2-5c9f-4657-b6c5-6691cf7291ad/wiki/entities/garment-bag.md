@@ -1,0 +1,7 @@
+---
+sources: ["summaries/session-31_2025-04-13.md"]
+type: "Product"
+description: "A breathable bag used to store winter coats and prevent mustiness."
+---
+
+# Garment Bag\n\n**Type:** Product\n\nA garment bag is a protective, often breathable, storage container designed to keep clothing—especially outerwear like winter coats—clean, free from moisture, and free of wrinkle or shape loss during off‑season storage.\n\n## Key points from [[summaries/session-31_2025-04-13]]\n- Recommended as a **breathable** alternative to plastic covers for winter coat storage.\n- Helps maintain airflow, reducing musty odors and preserving the coat’s shape.\n- Useful for hanging coats on **sturdy hangers** inside the bag to avoid shoulder sagging.\n\n## Related concepts\n- [[concepts/winter-outerwear-storage]]: Guidelines for storing seasonal outerwear, where the garment bag is a primary tool.\n- [[concepts/closet-decluttering]]: The bag assists in the seasonal rotation phase of decluttering by safely storing items you plan to keep.\n\n## Related entities\n- [[entities/winter-coat]]: The primary item the garment bag is used to protect.\n- [[entities/down-parka]]: Example of a heavy winter coat that benefits from breathable storage.\n\n## Usage tips\n1. Ensure the coat is **clean** before placing it in the bag.\n2. Store the bag in a **well‑ventilated area**; avoid sealed containers.\n3. Use a **sturdy hanger** inside the bag to keep shoulders from sagging.\n\n---\n*Page created referencing [[summaries/session-31_2025-04-13]].*
