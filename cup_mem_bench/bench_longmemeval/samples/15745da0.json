@@ -1,0 +1,227 @@
+{
+  "uid": "15745da0",
+  "num_sessions": 47,
+  "answers": {
+    "15745da0": {
+      "response": "I don’t have enough current information to determine how long you’ve been collecting vintage cameras. The only confirmed fact is that you own a 1960s Rolleiflex TLR, which doesn’t establish an ongoing collecting timeline.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 146.2
+    }
+  },
+  "profile_snapshot_size": 60548,
+  "elapsed_seconds": 4876.1,
+  "usage_summary": {
+    "total_calls": 562,
+    "cache_hits": 2,
+    "cache_misses": 560,
+    "logical_usage": {
+      "prompt_tokens": 1335718,
+      "completion_tokens": 252277,
+      "total_tokens": 1587995
+    },
+    "billed_usage": {
+      "prompt_tokens": 1333198,
+      "completion_tokens": 251167,
+      "total_tokens": 1584365
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 47,
+        "cache_hits": 0,
+        "cache_misses": 47,
+        "logical_usage": {
+          "prompt_tokens": 92683,
+          "completion_tokens": 32124,
+          "total_tokens": 124807
+        },
+        "billed_usage": {
+          "prompt_tokens": 92683,
+          "completion_tokens": 32124,
+          "total_tokens": 124807
+        }
+      },
+      "delta_extractor": {
+        "calls": 34,
+        "cache_hits": 0,
+        "cache_misses": 34,
+        "logical_usage": {
+          "prompt_tokens": 115235,
+          "completion_tokens": 17348,
+          "total_tokens": 132583
+        },
+        "billed_usage": {
+          "prompt_tokens": 115235,
+          "completion_tokens": 17348,
+          "total_tokens": 132583
+        }
+      },
+      "update_judge": {
+        "calls": 56,
+        "cache_hits": 0,
+        "cache_misses": 56,
+        "logical_usage": {
+          "prompt_tokens": 166490,
+          "completion_tokens": 14436,
+          "total_tokens": 180926
+        },
+        "billed_usage": {
+          "prompt_tokens": 166490,
+          "completion_tokens": 14436,
+          "total_tokens": 180926
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 30,
+        "cache_hits": 0,
+        "cache_misses": 30,
+        "logical_usage": {
+          "prompt_tokens": 52555,
+          "completion_tokens": 21555,
+          "total_tokens": 74110
+        },
+        "billed_usage": {
+          "prompt_tokens": 52555,
+          "completion_tokens": 21555,
+          "total_tokens": 74110
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 148,
+        "cache_hits": 0,
+        "cache_misses": 148,
+        "logical_usage": {
+          "prompt_tokens": 493178,
+          "completion_tokens": 81790,
+          "total_tokens": 574968
+        },
+        "billed_usage": {
+          "prompt_tokens": 493178,
+          "completion_tokens": 81790,
+          "total_tokens": 574968
+        }
+      },
+      "invalidation_judge": {
+        "calls": 43,
+        "cache_hits": 0,
+        "cache_misses": 43,
+        "logical_usage": {
+          "prompt_tokens": 171412,
+          "completion_tokens": 23535,
+          "total_tokens": 194947
+        },
+        "billed_usage": {
+          "prompt_tokens": 171412,
+          "completion_tokens": 23535,
+          "total_tokens": 194947
+        }
+      },
+      "stale_support_judge": {
+        "calls": 196,
+        "cache_hits": 0,
+        "cache_misses": 196,
+        "logical_usage": {
+          "prompt_tokens": 195816,
+          "completion_tokens": 55326,
+          "total_tokens": 251142
+        },
+        "billed_usage": {
+          "prompt_tokens": 195816,
+          "completion_tokens": 55326,
+          "total_tokens": 251142
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1476,
+          "completion_tokens": 1018,
+          "total_tokens": 2494
+        },
+        "billed_usage": {
+          "prompt_tokens": 1476,
+          "completion_tokens": 1018,
+          "total_tokens": 2494
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 17650,
+          "completion_tokens": 1412,
+          "total_tokens": 19062
+        },
+        "billed_usage": {
+          "prompt_tokens": 17650,
+          "completion_tokens": 1412,
+          "total_tokens": 19062
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 5040,
+          "completion_tokens": 2220,
+          "total_tokens": 7260
+        },
+        "billed_usage": {
+          "prompt_tokens": 2520,
+          "completion_tokens": 1110,
+          "total_tokens": 3630
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 22646,
+          "completion_tokens": 1312,
+          "total_tokens": 23958
+        },
+        "billed_usage": {
+          "prompt_tokens": 22646,
+          "completion_tokens": 1312,
+          "total_tokens": 23958
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1537,
+          "completion_tokens": 201,
+          "total_tokens": 1738
+        },
+        "billed_usage": {
+          "prompt_tokens": 1537,
+          "completion_tokens": 201,
+          "total_tokens": 1738
+        }
+      }
+    },
+    "by_query_label": {
+      "15745da0": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43309,
+          "completion_tokens": 3943,
+          "total_tokens": 47252
+        },
+        "billed_usage": {
+          "prompt_tokens": 43309,
+          "completion_tokens": 3943,
+          "total_tokens": 47252
+        }
+      }
+    }
+  }
+}

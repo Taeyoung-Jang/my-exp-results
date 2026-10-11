@@ -1,0 +1,227 @@
+{
+  "uid": "29f2956b_abs",
+  "num_sessions": 50,
+  "answers": {
+    "29f2956b_abs": {
+      "response": "Your previous assumption of a regular daily violin practice is no longer safe—there’s no current information about any violin practice duration. Since the available data only mentions that new commitments have reduced time for other habits, you’ll need to review your present schedule to determine how much, if any, time you can allocate to violin each day.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 147.8
+    }
+  },
+  "profile_snapshot_size": 82576,
+  "elapsed_seconds": 6257.1,
+  "usage_summary": {
+    "total_calls": 667,
+    "cache_hits": 0,
+    "cache_misses": 667,
+    "logical_usage": {
+      "prompt_tokens": 1687231,
+      "completion_tokens": 336037,
+      "total_tokens": 2023268
+    },
+    "billed_usage": {
+      "prompt_tokens": 1687231,
+      "completion_tokens": 336037,
+      "total_tokens": 2023268
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 50,
+        "cache_hits": 0,
+        "cache_misses": 50,
+        "logical_usage": {
+          "prompt_tokens": 96422,
+          "completion_tokens": 33918,
+          "total_tokens": 130340
+        },
+        "billed_usage": {
+          "prompt_tokens": 96422,
+          "completion_tokens": 33918,
+          "total_tokens": 130340
+        }
+      },
+      "delta_extractor": {
+        "calls": 39,
+        "cache_hits": 0,
+        "cache_misses": 39,
+        "logical_usage": {
+          "prompt_tokens": 150942,
+          "completion_tokens": 18746,
+          "total_tokens": 169688
+        },
+        "billed_usage": {
+          "prompt_tokens": 150942,
+          "completion_tokens": 18746,
+          "total_tokens": 169688
+        }
+      },
+      "update_judge": {
+        "calls": 64,
+        "cache_hits": 0,
+        "cache_misses": 64,
+        "logical_usage": {
+          "prompt_tokens": 215686,
+          "completion_tokens": 16430,
+          "total_tokens": 232116
+        },
+        "billed_usage": {
+          "prompt_tokens": 215686,
+          "completion_tokens": 16430,
+          "total_tokens": 232116
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 38,
+        "cache_hits": 0,
+        "cache_misses": 38,
+        "logical_usage": {
+          "prompt_tokens": 65153,
+          "completion_tokens": 28323,
+          "total_tokens": 93476
+        },
+        "billed_usage": {
+          "prompt_tokens": 65153,
+          "completion_tokens": 28323,
+          "total_tokens": 93476
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 182,
+        "cache_hits": 0,
+        "cache_misses": 182,
+        "logical_usage": {
+          "prompt_tokens": 651592,
+          "completion_tokens": 131492,
+          "total_tokens": 783084
+        },
+        "billed_usage": {
+          "prompt_tokens": 651592,
+          "completion_tokens": 131492,
+          "total_tokens": 783084
+        }
+      },
+      "invalidation_judge": {
+        "calls": 67,
+        "cache_hits": 0,
+        "cache_misses": 67,
+        "logical_usage": {
+          "prompt_tokens": 245547,
+          "completion_tokens": 35353,
+          "total_tokens": 280900
+        },
+        "billed_usage": {
+          "prompt_tokens": 245547,
+          "completion_tokens": 35353,
+          "total_tokens": 280900
+        }
+      },
+      "stale_support_judge": {
+        "calls": 219,
+        "cache_hits": 0,
+        "cache_misses": 219,
+        "logical_usage": {
+          "prompt_tokens": 213384,
+          "completion_tokens": 65699,
+          "total_tokens": 279083
+        },
+        "billed_usage": {
+          "prompt_tokens": 213384,
+          "completion_tokens": 65699,
+          "total_tokens": 279083
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 765,
+          "total_tokens": 2244
+        },
+        "billed_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 765,
+          "total_tokens": 2244
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18085,
+          "completion_tokens": 1031,
+          "total_tokens": 19116
+        },
+        "billed_usage": {
+          "prompt_tokens": 18085,
+          "completion_tokens": 1031,
+          "total_tokens": 19116
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 4703,
+          "completion_tokens": 2844,
+          "total_tokens": 7547
+        },
+        "billed_usage": {
+          "prompt_tokens": 4703,
+          "completion_tokens": 2844,
+          "total_tokens": 7547
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 22697,
+          "completion_tokens": 1203,
+          "total_tokens": 23900
+        },
+        "billed_usage": {
+          "prompt_tokens": 22697,
+          "completion_tokens": 1203,
+          "total_tokens": 23900
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1541,
+          "completion_tokens": 233,
+          "total_tokens": 1774
+        },
+        "billed_usage": {
+          "prompt_tokens": 1541,
+          "completion_tokens": 233,
+          "total_tokens": 1774
+        }
+      }
+    },
+    "by_query_label": {
+      "29f2956b_abs": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43802,
+          "completion_tokens": 3232,
+          "total_tokens": 47034
+        },
+        "billed_usage": {
+          "prompt_tokens": 43802,
+          "completion_tokens": 3232,
+          "total_tokens": 47034
+        }
+      }
+    }
+  }
+}

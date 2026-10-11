@@ -1,0 +1,2902 @@
+{
+  "uid": "conv-50",
+  "num_sessions": 30,
+  "answers": {
+    "conv9_q000": {
+      "response": "We have no confirmed evidence that Calvin has already traveled to Tokyo, so the date of his first trip cannot be determined.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 139.2
+    },
+    "conv9_q001": {
+      "response": "I don’t have any record of what Calvin purchased in March 2023, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 107.8
+    },
+    "conv9_q002": {
+      "response": "I don’t have information about when Dave saw Aerosmith perform live.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 113.3
+    },
+    "conv9_q003": {
+      "response": "I don’t have current information about which bands Dave enjoys, so I can’t provide a list.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 184.3
+    },
+    "conv9_q004": {
+      "response": "I don’t have any information about Calvin and Dave’s meeting plans, so I can’t tell which country they want to meet in.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.3
+    },
+    "conv9_q005": {
+      "response": "I don't have enough information to say what Dave's dreams are.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 134.3
+    },
+    "conv9_q006": {
+      "response": "I’m sorry, but I don’t have any current information about Dave’s car preferences, so I can’t say which types of cars he likes the most.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 176.7
+    },
+    "conv9_q007": {
+      "response": "I don’t have any current information about how many people work at Dave’s shop, so I can’t confirm whether it employs a lot of people.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 116.4
+    },
+    "conv9_q008": {
+      "response": "I don’t have information on when Dave started his car maintenance shop.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.4
+    },
+    "conv9_q009": {
+      "response": "I don’t have any information about when the mishap with Calvin’s musical gear and favorite mic occurred.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.5
+    },
+    "conv9_q010": {
+      "response": "I don’t have any confirmed information about a flood at Calvin’s place in Tokyo, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 107.3
+    },
+    "conv9_q011": {
+      "response": "Calvin recently lost a car‑maintenance contract to a competing shop, and his car is currently being repaired.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.6
+    },
+    "conv9_q012": {
+      "response": "There’s no current information confirming that Calvin had a concert in Tokyo, so I can’t provide a date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 87.0
+    },
+    "conv9_q013": {
+      "response": "I don’t have current evidence that Calvin would enjoy performing at the Hollywood Bowl; his prior preference for live performances is now considered outdated and superseded by a focus on screen‑based music consumption.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 223.4
+    },
+    "conv9_q014": {
+      "response": "I don’t have any confirmed information about when Calvin met with the creative team, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 127.7
+    },
+    "conv9_q015": {
+      "response": "I don’t have enough information to determine why Dave regularly visits parks.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 143.8
+    },
+    "conv9_q016": {
+      "response": "There’s no current information confirming that Dave has taken a trip to mountainous regions, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 199.0
+    },
+    "conv9_q017": {
+      "response": "There is no confirmed record of Calvin having a car incident, so a date cannot be provided.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 97.2
+    },
+    "conv9_q018": {
+      "response": "I don’t have current information on how many times Calvin has dealt with insurance paperwork.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 115.9
+    },
+    "conv9_q019": {
+      "response": "I don’t have any information about places or events that Calvin has visited in Tokyo.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 222.5
+    },
+    "conv9_q020": {
+      "response": "I don’t have information about who originally inspired Dave’s passion for car engineering.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 142.0
+    },
+    "conv9_q021": {
+      "response": "There is no current evidence that Calvin wishes to become more popular, so we cannot confirm that desire.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 105.0
+    },
+    "conv9_q022": {
+      "response": "Yes, Calvin wants to expand his brand.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 134.5
+    },
+    "conv9_q023": {
+      "response": "Dave's main passion now is cars—he's very interested in them and enjoys building new, powerful car models.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 235.6
+    },
+    "conv9_q024": {
+      "response": "Yes, Dave can work with engines. He’s an automotive engineer and is currently doing engine swaps and related modifications.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 67.4
+    },
+    "conv9_q025": {
+      "response": "I don’t have any information about when Dave hosted a card‑playing night with his friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 95.7
+    },
+    "conv9_q026": {
+      "response": "I don’t have any information about when Calvin recorded a podcast with his friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 95.0
+    },
+    "conv9_q027": {
+      "response": "I’m sorry, but I don’t have enough information to determine which city Calvin was visiting in August 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 193.9
+    },
+    "conv9_q028": {
+      "response": "Calvin relaxes by watching TV in his separate, cozy TV relaxation room.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 99.1
+    },
+    "conv9_q029": {
+      "response": "I don’t have information about any other hobbies Dave may have besides fixing cars.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 107.4
+    },
+    "conv9_q030": {
+      "response": "The previously recorded preference for Dave’s music taste is outdated, and the available current information only indicates that he is actively collaborating on music projects with Japanese artists and is available to jam; it does not specify the kind of music he listens to.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 199.5
+    },
+    "conv9_q031": {
+      "response": "I don’t have enough information to determine where Dave was during the last two weeks of August 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 190.8
+    },
+    "conv9_q032": {
+      "response": "The premise that Dave returned with new car‑restoration techniques is no longer supported. All we know from current information is that the user has returned from a road trip and is now at their home base; no specific location or new restoration knowledge is mentioned.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 217.2
+    },
+    "conv9_q033": {
+      "response": "I don’t have any information about what Dave was doing in San Francisco.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.4
+    },
+    "conv9_q034": {
+      "response": "I don’t have information about when Dave returned from San Francisco.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 152.3
+    },
+    "conv9_q035": {
+      "response": "I don’t have any information about when Calvin booked flight tickets to Boston—the premise is currently unresolved.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.8
+    },
+    "conv9_q036": {
+      "response": "Calvin's album was released on the 11th.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 33.3
+    },
+    "conv9_q037": {
+      "response": "We don't have evidence that Calvin loves music tours; the only confirmed fact is that he loves performing live, which fuels his soul.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.5
+    },
+    "conv9_q038": {
+      "response": "I don’t have any information about when Dave had a great jam session with his band, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 61.9
+    },
+    "conv9_q039": {
+      "response": "I don’t have enough information to say whether Dave would prefer the Dodge Charger or the Subaru Forester; the only current data is that he’s enthusiastic about cars and wants to work on them in general.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.7
+    },
+    "conv9_q040": {
+      "response": "I don’t have any information about which artists Calvin listened to when he was a kid.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 69.3
+    },
+    "conv9_q041": {
+      "response": "I’m not aware of any information about which family member Calvin and Dave have nostalgic memories about.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 58.8
+    },
+    "conv9_q042": {
+      "response": "No",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 192.3
+    },
+    "conv9_q043": {
+      "response": "I don’t have enough information to determine which city Calvin was in on October 3, 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.6
+    },
+    "conv9_q044": {
+      "response": "There is no current information confirming that Calvin met with local artists in Boston, so I can’t provide a date. The only known fact is that he has accepted a commitment to perform at an upcoming show in Boston.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 64.0
+    },
+    "conv9_q045": {
+      "response": "I don’t have information about any activities that Dave and Calvin share, so I can’t determine any overlap.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.7
+    },
+    "conv9_q046": {
+      "response": "I don’t have enough current information to determine Dave’s favorite activity.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 95.6
+    },
+    "conv9_q047": {
+      "response": "I don’t have any information about how many car shows Dave has attended.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.7
+    },
+    "conv9_q048": {
+      "response": "Dave was working on engine swaps, suspension modifications, and learning body modifications for a car during the first weekend of October 2023.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 78.2
+    },
+    "conv9_q049": {
+      "response": "I don’t have any current information about what Dave and his father did in the garage when he was a child.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 59.9
+    },
+    "conv9_q050": {
+      "response": "I’m sorry, but there’s no current information indicating that Calvin bought a second Ferrari, so I can’t provide a purchase date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 160.8
+    },
+    "conv9_q051": {
+      "response": "There’s no confirmed information that Calvin and Frank Ocean have collaborated, so I can’t provide a start date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.5
+    },
+    "conv9_q052": {
+      "response": "There is no current information about Calvin planning a second trip to Tokyo; the earlier plan is outdated and no longer supported.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 779.2
+    },
+    "conv9_q053": {
+      "response": "Calvin is supported by a great friend who offers ongoing positivity, and he also has new contacts who are helping him build his fan base.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 70.7
+    },
+    "conv9_q054": {
+      "response": "Calvin stays connected to his creative process by leaning on a supportive friend who offers ongoing positivity and by regularly watching music videos, concerts, and artist documentaries for inspiration.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 118.7
+    },
+    "conv9_q055": {
+      "response": "I don’t have information about when Calvin visited Boston with a former high‑school friend.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.0
+    },
+    "conv9_q056": {
+      "response": "I don’t have current information about the cities Dave visited in 2023, so I can’t answer that.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 110.0
+    },
+    "conv9_q057": {
+      "response": "I don’t have information about a hobby Dave started specifically in October 2023; the only current information is that he is practicing photography as a primary hobby.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.9
+    },
+    "conv9_q058": {
+      "response": "I don’t have information about specific events in your past that inspired you to take up auto engineering.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 126.2
+    },
+    "conv9_q059": {
+      "response": "I don’t have current information on how many Ferraris Calvin owns.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 182.0
+    },
+    "conv9_q060": {
+      "response": "I don’t have any information confirming gifts that Calvin has received from his artist friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.4
+    },
+    "conv9_q061": {
+      "response": "I don’t have any information on how long Dave’s work on the Ford Mustang took.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.6
+    },
+    "conv9_q062": {
+      "response": "There’s no current evidence that a car‑modification workshop ever occurred in San Francisco, so its duration can’t be provided. You might instead ask about the user’s present work on engine swaps.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 106.4
+    },
+    "conv9_q063": {
+      "response": "I don’t have any information about the style of guitars Calvin owns.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 85.9
+    },
+    "conv9_q064": {
+      "response": "I don’t have enough information to tell which activities Dave has participated in with his friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.2
+    },
+    "conv9_q065": {
+      "response": "I don’t have enough information to say when Dave took a photo of a Boston clock tower; the premise isn’t supported by the current facts.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 58.3
+    },
+    "conv9_q066": {
+      "response": "We can't say that all of Dave's car restoration projects go smoothly—there's no current evidence confirming that universal claim.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 104.5
+    },
+    "conv9_q067": {
+      "response": "I don’t have information about Calvin’s location during the last week of October 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 305.3
+    },
+    "conv9_q068": {
+      "response": "I don’t have information about when Dave found the car or began sharing about it in his blog.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 268.5
+    },
+    "conv9_q069": {
+      "response": "I don’t have reliable information confirming that Dave bought a vintage camera, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 155.0
+    },
+    "conv9_q070": {
+      "response": "There’s no information confirming that Calvin attended a gala in Boston, so I can’t provide a date. The only current detail is that he has accepted a commitment to perform at an upcoming show in Boston, but no date for that event is known.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.4
+    },
+    "conv9_q071": {
+      "response": "There is no current information about how long Calvin planned to stay in Japan; the previous details are outdated.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 177.5
+    },
+    "conv9_q072": {
+      "response": "I’m sorry, but I don’t have any information about which band was Dave’s favorite at the April 2023 music festival.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 55.1
+    },
+    "conv9_q073": {
+      "response": "I don’t have enough information to determine where Calvin attended a music festival in April 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 208.4
+    },
+    "conv9_q074": {
+      "response": "I’m not able to provide that information—the available data does not mention Calvin, the producer, or any advice given at a music festival.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 101.8
+    },
+    "conv9_q075": {
+      "response": "The earlier assumption about Dave’s prior venture is no longer valid; current information indicates that Dave’s new business venture is owning and operating a car‑maintenance shop.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 156.4
+    },
+    "conv9_q076": {
+      "response": "Dave works on cars that need engine swaps, suspension and body modifications, and he’s also restoring a vintage car with performance upgrades.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 150.7
+    },
+    "conv9_q077": {
+      "response": "I don’t have enough information to know what gift Calvin received from another artist.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 50.9
+    },
+    "conv9_q078": {
+      "response": "There’s no available information confirming what the necklace Calvin received was intended to remind him of.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 127.8
+    },
+    "conv9_q079": {
+      "response": "When his creativity feels frozen, Dave has begun shooting a video for his new album and is also collaborating on music projects with Japanese artists.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 61.8
+    },
+    "conv9_q080": {
+      "response": "Calvin intends to boost his inspiration by regularly watching music videos, concerts, and artist documentaries.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 93.7
+    },
+    "conv9_q081": {
+      "response": "I’m not aware of any details about what Calvin managed to save during the flood incident.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 100.0
+    },
+    "conv9_q082": {
+      "response": "There is no available information confirming that Dave opened anything in May 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.6
+    },
+    "conv9_q083": {
+      "response": "Dave feels achievement and purpose from several current sources: tackling a new, challenging work task; pursuing his lifelong goal of working on cars; his love of performing live, which energizes him; and the ongoing support and positivity he receives from his great friend.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 110.0
+    },
+    "conv9_q084": {
+      "response": "Calvin’s soul is fueled by performing live — his love of live performance consistently energizes him.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 76.2
+    },
+    "conv9_q085": {
+      "response": "I don’t have any current information about what Dave does to relax on weekends, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 248.4
+    },
+    "conv9_q086": {
+      "response": "The previous information about Calvin planning a sport after the Frank Ocean tour is outdated, and there’s no current data indicating what activity he intends to try.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 259.9
+    },
+    "conv9_q087": {
+      "response": "I don’t have information about what Calvin was excited to do after his car was fixed on 7 July 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 166.1
+    },
+    "conv9_q088": {
+      "response": "I don’t have any information about what Calvin and his friends arranged for in the park.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 44.0
+    },
+    "conv9_q089": {
+      "response": "Calvin has been active in music, currently collaborating on projects with Japanese artists, but the specific genre or style of his recent creations hasn't been disclosed.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 149.9
+    },
+    "conv9_q090": {
+      "response": "I’m sorry, but I don’t have any information on how Calvin describes his process of adding electronic elements to his songs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 156.4
+    },
+    "conv9_q091": {
+      "response": "I don’t have any current information about what car brand Calvin owns or whether he’s proud of it.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 417.4
+    },
+    "conv9_q092": {
+      "response": "I don’t have enough current information to identify a single biggest goal for Calvin. The active data shows his primary focus is fulfilling his lifelong goal of working on cars, which appears to be his top priority right now.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 174.6
+    },
+    "conv9_q093": {
+      "response": "I don’t have any information about what Dave might have advised Calvin regarding his dreams.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.5
+    },
+    "conv9_q094": {
+      "response": "The claim that Dave was selected for a workshop on 11 August 2023 is no longer supported by current information, and there is no available record of any workshop name for that date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 269.4
+    },
+    "conv9_q095": {
+      "response": "Dave is currently working on engine swaps, suspension modifications, and learning how to do body modifications for a car.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 146.9
+    },
+    "conv9_q096": {
+      "response": "I don’t have current information about what type of car Dave worked on during the workshop, as the previous premise is outdated and there are no active facts specifying it.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 110.3
+    },
+    "conv9_q097": {
+      "response": "I don’t have current information about what Dave says is important for making his custom cars unique.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.8
+    },
+    "conv9_q098": {
+      "response": "There is no current information about a Tokyo performance or the audience’s reaction, so the premise is outdated and cannot be answered.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 162.2
+    },
+    "conv9_q099": {
+      "response": "I don’t have any information about how Calvin met Frank Ocean, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.3
+    },
+    "conv9_q100": {
+      "response": "I’m not aware of any confirmed location where Calvin and Frank Ocean recorded a song together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 53.6
+    },
+    "conv9_q101": {
+      "response": "There’s no verified information indicating that Calvin and his friends made any recording in August 2023, so I can’t say what they might have recorded.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.4
+    },
+    "conv9_q102": {
+      "response": "The earlier information that Calvin began filming on a Miami beach is no longer valid; the only current fact confirms the shoot has started, but the location is unknown because the car needed for travel is in maintenance.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 63.5
+    },
+    "conv9_q103": {
+      "response": "I don’t have any information about the design on Calvin’s guitar, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 189.2
+    },
+    "conv9_q104": {
+      "response": "I’m sorry, but there’s no reliable information available about Calvin’s guitar or why it might have been customized with a shiny finish, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.1
+    },
+    "conv9_q105": {
+      "response": "I don’t have information on what color glow Calvin customized his guitar with.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 50.9
+    },
+    "conv9_q106": {
+      "response": "The only current information is that Dave returned from a road trip and is now at his home base; there’s no reliable data about where he obtained car‑modification insights on 1 September 2023.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 199.8
+    },
+    "conv9_q107": {
+      "response": "I don’t have information about the specific emotion Dave mentions feeling in that situation.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.8
+    },
+    "conv9_q108": {
+      "response": "There’s no current information confirming that Calvin booked a flight ticket on 1 September 2023, so we cannot determine what, if anything, he booked for that date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 135.6
+    },
+    "conv9_q109": {
+      "response": "Calvin is excited about getting back to performing live after the tour.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 96.2
+    },
+    "conv9_q110": {
+      "response": "Calvin will be in Boston to perform at an upcoming show; there is no available information about any plans Dave may have for that visit.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 99.8
+    },
+    "conv9_q111": {
+      "response": "I don’t have enough information to know which Disney movie Dave mentioned as a favorite.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 58.5
+    },
+    "conv9_q112": {
+      "response": "I don’t have any information about how Dave feels regarding people’s reactions to the finished restoration project.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 105.9
+    },
+    "conv9_q113": {
+      "response": "I don’t have information about a specific activity Calvin enjoyed during his summer drives; the available current facts only mention his enjoyment of working with mechanics and sharing car knowledge.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.5
+    },
+    "conv9_q114": {
+      "response": "I don’t have any information about a particular song from Calvin’s childhood that is linked to a road‑trip memory with his dad.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.5
+    },
+    "conv9_q115": {
+      "response": "I don’t have any information about a project that Calvin worked on to chill out.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 64.5
+    },
+    "conv9_q116": {
+      "response": "I don’t have information about which specific car Dave worked on in the junkyard; the current data doesn’t specify a make or model.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 141.8
+    },
+    "conv9_q117": {
+      "response": "Dave finds restoring old cars satisfying because it lets him pursue his lifelong goal of working on cars, fuels his enthusiasm for cars, and lets him create powerful, customized models – for example, adding a custom exhaust and performance upgrades to his vintage car.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 106.5
+    },
+    "conv9_q118": {
+      "response": "I don’t have enough information about Calvin’s and Dave’s goals or the methods they use, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.9
+    },
+    "conv9_q119": {
+      "response": "For Dave, working on cars is a core part of his identity and purpose: it fulfills a lifelong goal, aligns with his role as an automotive engineer, and is his primary focus and hobby, evidenced by his active involvement in engine swaps, suspension and body modifications, and his enthusiasm for creating powerful car models.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 111.4
+    },
+    "conv9_q120": {
+      "response": "Dave aims to work on cars—specifically to create new, powerful car models and fulfill his lifelong goal of working on cars.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 34.7
+    },
+    "conv9_q121": {
+      "response": "The earlier claim that Calvin recently acquired a \"masterpiece on wheels\" (a new Ferrari) is outdated, and there is no current information confirming any such recent acquisition.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 91.9
+    },
+    "conv9_q122": {
+      "response": "I don’t have enough information to confirm that Dave attended a music festival in October, so I can’t provide the headliner.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.5
+    },
+    "conv9_q123": {
+      "response": "I don’t have specific information on how Calvin handles setbacks, but the current facts show he’s backed by a supportive friend, driven by a lifelong goal of working on cars, engaged in a challenging new task, and energized by live performance—all of which can help keep him motivated.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 62.3
+    },
+    "conv9_q124": {
+      "response": "Dave finds performing live to be a particularly fulfilling activity.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 29.1
+    },
+    "conv9_q125": {
+      "response": "There’s no current information available about where Calvin and Dave met Frank Ocean to start collaborating.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 113.4
+    },
+    "conv9_q126": {
+      "response": "I don’t have any reliable information indicating that Calvin described any part of Tokyo as “Tokyo’s Times Square,” so I can’t identify which area he might be referring to.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 44.6
+    },
+    "conv9_q127": {
+      "response": "There’s no information about a specific Tokyo location Calvin is excited to explore; the only detail we have is that he intends to try local specialties such as ramen while in Tokyo.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.2
+    },
+    "conv9_q128": {
+      "response": "I don’t have any information about a recommendation from Dave to Calvin, so I can’t say which dish was suggested.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.5
+    },
+    "conv9_q129": {
+      "response": "Calvin finds the live music experience—performing on stage and watching concerts or music videos—energizing during the tour.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 70.0
+    },
+    "conv9_q130": {
+      "response": "I don’t have enough current information to describe how Calvin balances his job and personal life.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 254.3
+    },
+    "conv9_q131": {
+      "response": "There’s no available information about a specific inspiration for Calvin’s recent music; the only current detail is that he’s collaborating with Japanese artists, which may be influencing his work.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.0
+    },
+    "conv9_q132": {
+      "response": "I’m sorry, but I don’t have any information about how Calvin describes his music in relation to capturing feelings.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.6
+    },
+    "conv9_q133": {
+      "response": "Dave began working on cars because he has a lifelong goal of working with cars and a strong enthusiasm for creating new, powerful car models, which led him to become an automotive engineer.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 127.9
+    },
+    "conv9_q134": {
+      "response": "I don’t have any information about what Dave considers the toughest part of car restoration.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.6
+    },
+    "conv9_q135": {
+      "response": "I’m sorry, but I don’t have any information about Calvin’s belief on what makes an artist create something extraordinary, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 47.4
+    },
+    "conv9_q136": {
+      "response": "The premise that Dave sold the car is no longer valid—current information shows the car is still being restored and upgraded, so there is no sale date to provide.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 184.8
+    },
+    "conv9_q137": {
+      "response": "I don’t have any information about when Calvin first became interested in cars.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 104.2
+    },
+    "conv9_q138": {
+      "response": "I don’t have any information about Calvin’s emotions when performing with someone he admires, so I can’t answer that specific question. What I do know is that the user loves performing live and says it consistently fuels their soul, which indicates a generally positive, energizing feeling about live performance.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 93.0
+    },
+    "conv9_q139": {
+      "response": "I’m unable to say what realization Calvin had from a nightclub experience, as there’s no reliable current information about that event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.8
+    },
+    "conv9_q140": {
+      "response": "I don’t have enough information to determine what Dave and Calvin agree on regarding their pursuits.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.1
+    },
+    "conv9_q141": {
+      "response": "I’m unable to determine which city is in the photograph because there’s no confirmed information about Dave showing a specific photo to Calvin.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 73.9
+    },
+    "conv9_q142": {
+      "response": "He has been working on converting the Japanese mansion into a recording studio.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 80.8
+    },
+    "conv9_q143": {
+      "response": "I don’t have any current information confirming that Dave recently started a blog, so I can’t say what its topic would be.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.3
+    },
+    "conv9_q144": {
+      "response": "The assumption that Dave shares his car‑modification passion is outdated; presently, he expresses his passion by performing live music and is ready to jam now.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 208.7
+    },
+    "conv9_q145": {
+      "response": "Calvin usually watches music videos, concerts, and artist documentaries.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 67.8
+    },
+    "conv9_q146": {
+      "response": "He’s currently collaborating with Japanese artists, so he’s been getting into Japanese‑style music.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 112.4
+    },
+    "conv9_q147": {
+      "response": "I don’t have any information about specific tools Calvin uses to boost his motivation for music. The current data only indicates that he is motivated by his love of live performance and his willingness to jam right now.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 96.3
+    },
+    "conv9_q148": {
+      "response": "I don’t have current information about what Dave posts on his blog, so I can’t say what type of content has inspired others.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.9
+    },
+    "conv9_q149": {
+      "response": "The claim that Dave runs a car‑modification blog isn’t supported by any current information, so we can’t assess its impact on people. If you’re asking about your own car‑mod work, let me know how I can help.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 284.1
+    },
+    "conv9_q150": {
+      "response": "I’m sorry, but there’s no information about who Calvin invited to see his performance in Boston on 13 November 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.9
+    },
+    "conv9_q151": {
+      "response": "Calvin recently took up photography as his primary hobby.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 53.7
+    },
+    "conv9_q152": {
+      "response": "The premise that Dave recently bought a new item is no longer supported by current information, and there is no up‑to‑date record of any recent purchase.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 97.6
+    },
+    "conv9_q153": {
+      "response": "I don’t have any information about what kinds of photos Dave prefers to take with his new camera.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 93.7
+    },
+    "conv9_q154": {
+      "response": "We don’t have any information confirming that Calvin attended a past event in Boston; the only current fact is that he has accepted a commitment to perform at an upcoming show in Boston.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 128.4
+    },
+    "conv9_q155": {
+      "response": "I don’t have any information about what Calvin discussed with the cool artist at the gala; the premise isn’t confirmed by current data.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 109.4
+    },
+    "conv9_q156": {
+      "response": "I don’t have information about where Dave took the waterfall photo; the available facts only indicate that a photo exists and that photography is a current focus.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 116.0
+    },
+    "conv9_q157": {
+      "response": "I’m not aware of any statement from Calvin about nature’s positive impact during tough times, so I can’t provide that information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.1
+    }
+  },
+  "profile_snapshot_size": 88753,
+  "elapsed_seconds": 20601.1,
+  "usage_summary": {
+    "total_calls": 1530,
+    "cache_hits": 216,
+    "cache_misses": 1314,
+    "logical_usage": {
+      "prompt_tokens": 6743461,
+      "completion_tokens": 939397,
+      "total_tokens": 7682858
+    },
+    "billed_usage": {
+      "prompt_tokens": 6437699,
+      "completion_tokens": 811237,
+      "total_tokens": 7248936
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 30,
+        "cache_hits": 30,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 81468,
+          "completion_tokens": 28672,
+          "total_tokens": 110140
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "delta_extractor": {
+        "calls": 33,
+        "cache_hits": 7,
+        "cache_misses": 26,
+        "logical_usage": {
+          "prompt_tokens": 132339,
+          "completion_tokens": 20081,
+          "total_tokens": 152420
+        },
+        "billed_usage": {
+          "prompt_tokens": 120582,
+          "completion_tokens": 15631,
+          "total_tokens": 136213
+        }
+      },
+      "update_judge": {
+        "calls": 59,
+        "cache_hits": 7,
+        "cache_misses": 52,
+        "logical_usage": {
+          "prompt_tokens": 175839,
+          "completion_tokens": 18871,
+          "total_tokens": 194710
+        },
+        "billed_usage": {
+          "prompt_tokens": 166885,
+          "completion_tokens": 17453,
+          "total_tokens": 184338
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 30,
+        "cache_hits": 7,
+        "cache_misses": 23,
+        "logical_usage": {
+          "prompt_tokens": 53814,
+          "completion_tokens": 23565,
+          "total_tokens": 77379
+        },
+        "billed_usage": {
+          "prompt_tokens": 41359,
+          "completion_tokens": 18143,
+          "total_tokens": 59502
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 167,
+        "cache_hits": 0,
+        "cache_misses": 167,
+        "logical_usage": {
+          "prompt_tokens": 555455,
+          "completion_tokens": 111304,
+          "total_tokens": 666759
+        },
+        "billed_usage": {
+          "prompt_tokens": 555455,
+          "completion_tokens": 111304,
+          "total_tokens": 666759
+        }
+      },
+      "invalidation_judge": {
+        "calls": 55,
+        "cache_hits": 0,
+        "cache_misses": 55,
+        "logical_usage": {
+          "prompt_tokens": 168095,
+          "completion_tokens": 28777,
+          "total_tokens": 196872
+        },
+        "billed_usage": {
+          "prompt_tokens": 168095,
+          "completion_tokens": 28777,
+          "total_tokens": 196872
+        }
+      },
+      "stale_support_judge": {
+        "calls": 214,
+        "cache_hits": 0,
+        "cache_misses": 214,
+        "logical_usage": {
+          "prompt_tokens": 215470,
+          "completion_tokens": 71106,
+          "total_tokens": 286576
+        },
+        "billed_usage": {
+          "prompt_tokens": 215470,
+          "completion_tokens": 71106,
+          "total_tokens": 286576
+        }
+      },
+      "query_parser": {
+        "calls": 126,
+        "cache_hits": 1,
+        "cache_misses": 125,
+        "logical_usage": {
+          "prompt_tokens": 184066,
+          "completion_tokens": 105485,
+          "total_tokens": 289551
+        },
+        "billed_usage": {
+          "prompt_tokens": 182602,
+          "completion_tokens": 104224,
+          "total_tokens": 286826
+        }
+      },
+      "premise_verifier": {
+        "calls": 128,
+        "cache_hits": 0,
+        "cache_misses": 128,
+        "logical_usage": {
+          "prompt_tokens": 1970745,
+          "completion_tokens": 126097,
+          "total_tokens": 2096842
+        },
+        "billed_usage": {
+          "prompt_tokens": 1970745,
+          "completion_tokens": 126097,
+          "total_tokens": 2096842
+        }
+      },
+      "query_lane_filter": {
+        "calls": 431,
+        "cache_hits": 164,
+        "cache_misses": 267,
+        "logical_usage": {
+          "prompt_tokens": 502286,
+          "completion_tokens": 240827,
+          "total_tokens": 743113
+        },
+        "billed_usage": {
+          "prompt_tokens": 312622,
+          "completion_tokens": 153890,
+          "total_tokens": 466512
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 125,
+        "cache_hits": 0,
+        "cache_misses": 125,
+        "logical_usage": {
+          "prompt_tokens": 2515095,
+          "completion_tokens": 133113,
+          "total_tokens": 2648208
+        },
+        "billed_usage": {
+          "prompt_tokens": 2515095,
+          "completion_tokens": 133113,
+          "total_tokens": 2648208
+        }
+      },
+      "answer_composer": {
+        "calls": 126,
+        "cache_hits": 0,
+        "cache_misses": 126,
+        "logical_usage": {
+          "prompt_tokens": 171769,
+          "completion_tokens": 28107,
+          "total_tokens": 199876
+        },
+        "billed_usage": {
+          "prompt_tokens": 171769,
+          "completion_tokens": 28107,
+          "total_tokens": 199876
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 6,
+        "cache_hits": 0,
+        "cache_misses": 6,
+        "logical_usage": {
+          "prompt_tokens": 17020,
+          "completion_tokens": 3392,
+          "total_tokens": 20412
+        },
+        "billed_usage": {
+          "prompt_tokens": 17020,
+          "completion_tokens": 3392,
+          "total_tokens": 20412
+        }
+      }
+    },
+    "by_query_label": {
+      "conv9_q032": {
+        "calls": 4,
+        "cache_hits": 1,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 31769,
+          "completion_tokens": 4282,
+          "total_tokens": 36051
+        },
+        "billed_usage": {
+          "prompt_tokens": 30305,
+          "completion_tokens": 3021,
+          "total_tokens": 33326
+        }
+      },
+      "conv9_q033": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35230,
+          "completion_tokens": 2213,
+          "total_tokens": 37443
+        },
+        "billed_usage": {
+          "prompt_tokens": 35230,
+          "completion_tokens": 2213,
+          "total_tokens": 37443
+        }
+      },
+      "conv9_q034": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37423,
+          "completion_tokens": 3275,
+          "total_tokens": 40698
+        },
+        "billed_usage": {
+          "prompt_tokens": 37423,
+          "completion_tokens": 3275,
+          "total_tokens": 40698
+        }
+      },
+      "conv9_q035": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44405,
+          "completion_tokens": 2785,
+          "total_tokens": 47190
+        },
+        "billed_usage": {
+          "prompt_tokens": 44405,
+          "completion_tokens": 2785,
+          "total_tokens": 47190
+        }
+      },
+      "conv9_q036": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37532,
+          "completion_tokens": 2799,
+          "total_tokens": 40331
+        },
+        "billed_usage": {
+          "prompt_tokens": 37532,
+          "completion_tokens": 2799,
+          "total_tokens": 40331
+        }
+      },
+      "conv9_q037": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41860,
+          "completion_tokens": 3104,
+          "total_tokens": 44964
+        },
+        "billed_usage": {
+          "prompt_tokens": 41860,
+          "completion_tokens": 3104,
+          "total_tokens": 44964
+        }
+      },
+      "conv9_q038": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38497,
+          "completion_tokens": 3984,
+          "total_tokens": 42481
+        },
+        "billed_usage": {
+          "prompt_tokens": 38497,
+          "completion_tokens": 3984,
+          "total_tokens": 42481
+        }
+      },
+      "conv9_q039": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41274,
+          "completion_tokens": 3611,
+          "total_tokens": 44885
+        },
+        "billed_usage": {
+          "prompt_tokens": 41274,
+          "completion_tokens": 3611,
+          "total_tokens": 44885
+        }
+      },
+      "conv9_q040": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39845,
+          "completion_tokens": 2620,
+          "total_tokens": 42465
+        },
+        "billed_usage": {
+          "prompt_tokens": 39845,
+          "completion_tokens": 2620,
+          "total_tokens": 42465
+        }
+      },
+      "conv9_q041": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35878,
+          "completion_tokens": 1847,
+          "total_tokens": 37725
+        },
+        "billed_usage": {
+          "prompt_tokens": 35878,
+          "completion_tokens": 1847,
+          "total_tokens": 37725
+        }
+      },
+      "conv9_q042": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42742,
+          "completion_tokens": 2855,
+          "total_tokens": 45597
+        },
+        "billed_usage": {
+          "prompt_tokens": 42742,
+          "completion_tokens": 2855,
+          "total_tokens": 45597
+        }
+      },
+      "conv9_q043": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42200,
+          "completion_tokens": 3755,
+          "total_tokens": 45955
+        },
+        "billed_usage": {
+          "prompt_tokens": 42200,
+          "completion_tokens": 3755,
+          "total_tokens": 45955
+        }
+      },
+      "conv9_q044": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37818,
+          "completion_tokens": 2865,
+          "total_tokens": 40683
+        },
+        "billed_usage": {
+          "prompt_tokens": 37818,
+          "completion_tokens": 2865,
+          "total_tokens": 40683
+        }
+      },
+      "conv9_q045": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37007,
+          "completion_tokens": 2357,
+          "total_tokens": 39364
+        },
+        "billed_usage": {
+          "prompt_tokens": 37007,
+          "completion_tokens": 2357,
+          "total_tokens": 39364
+        }
+      },
+      "conv9_q046": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35086,
+          "completion_tokens": 2440,
+          "total_tokens": 37526
+        },
+        "billed_usage": {
+          "prompt_tokens": 35086,
+          "completion_tokens": 2440,
+          "total_tokens": 37526
+        }
+      },
+      "conv9_q047": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33496,
+          "completion_tokens": 2806,
+          "total_tokens": 36302
+        },
+        "billed_usage": {
+          "prompt_tokens": 33496,
+          "completion_tokens": 2806,
+          "total_tokens": 36302
+        }
+      },
+      "conv9_q048": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32726,
+          "completion_tokens": 3087,
+          "total_tokens": 35813
+        },
+        "billed_usage": {
+          "prompt_tokens": 32726,
+          "completion_tokens": 3087,
+          "total_tokens": 35813
+        }
+      },
+      "conv9_q049": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38588,
+          "completion_tokens": 4144,
+          "total_tokens": 42732
+        },
+        "billed_usage": {
+          "prompt_tokens": 38588,
+          "completion_tokens": 4144,
+          "total_tokens": 42732
+        }
+      },
+      "conv9_q050": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 36938,
+          "completion_tokens": 4011,
+          "total_tokens": 40949
+        },
+        "billed_usage": {
+          "prompt_tokens": 36938,
+          "completion_tokens": 4011,
+          "total_tokens": 40949
+        }
+      },
+      "conv9_q051": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37483,
+          "completion_tokens": 2659,
+          "total_tokens": 40142
+        },
+        "billed_usage": {
+          "prompt_tokens": 37483,
+          "completion_tokens": 2659,
+          "total_tokens": 40142
+        }
+      },
+      "conv9_q052": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43117,
+          "completion_tokens": 3881,
+          "total_tokens": 46998
+        },
+        "billed_usage": {
+          "prompt_tokens": 43117,
+          "completion_tokens": 3881,
+          "total_tokens": 46998
+        }
+      },
+      "conv9_q053": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32986,
+          "completion_tokens": 2570,
+          "total_tokens": 35556
+        },
+        "billed_usage": {
+          "prompt_tokens": 32986,
+          "completion_tokens": 2570,
+          "total_tokens": 35556
+        }
+      },
+      "conv9_q054": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33521,
+          "completion_tokens": 3645,
+          "total_tokens": 37166
+        },
+        "billed_usage": {
+          "prompt_tokens": 33521,
+          "completion_tokens": 3645,
+          "total_tokens": 37166
+        }
+      },
+      "conv9_q055": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 45734,
+          "completion_tokens": 3189,
+          "total_tokens": 48923
+        },
+        "billed_usage": {
+          "prompt_tokens": 45734,
+          "completion_tokens": 3189,
+          "total_tokens": 48923
+        }
+      },
+      "conv9_q056": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43667,
+          "completion_tokens": 3565,
+          "total_tokens": 47232
+        },
+        "billed_usage": {
+          "prompt_tokens": 43667,
+          "completion_tokens": 3565,
+          "total_tokens": 47232
+        }
+      },
+      "conv9_q057": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33833,
+          "completion_tokens": 3160,
+          "total_tokens": 36993
+        },
+        "billed_usage": {
+          "prompt_tokens": 33833,
+          "completion_tokens": 3160,
+          "total_tokens": 36993
+        }
+      },
+      "conv9_q058": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37166,
+          "completion_tokens": 3815,
+          "total_tokens": 40981
+        },
+        "billed_usage": {
+          "prompt_tokens": 37166,
+          "completion_tokens": 3815,
+          "total_tokens": 40981
+        }
+      },
+      "conv9_q059": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32744,
+          "completion_tokens": 3111,
+          "total_tokens": 35855
+        },
+        "billed_usage": {
+          "prompt_tokens": 32744,
+          "completion_tokens": 3111,
+          "total_tokens": 35855
+        }
+      },
+      "conv9_q060": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40461,
+          "completion_tokens": 2539,
+          "total_tokens": 43000
+        },
+        "billed_usage": {
+          "prompt_tokens": 40461,
+          "completion_tokens": 2539,
+          "total_tokens": 43000
+        }
+      },
+      "conv9_q061": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42916,
+          "completion_tokens": 3093,
+          "total_tokens": 46009
+        },
+        "billed_usage": {
+          "prompt_tokens": 42916,
+          "completion_tokens": 3093,
+          "total_tokens": 46009
+        }
+      },
+      "conv9_q062": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 34561,
+          "completion_tokens": 4090,
+          "total_tokens": 38651
+        },
+        "billed_usage": {
+          "prompt_tokens": 34561,
+          "completion_tokens": 4090,
+          "total_tokens": 38651
+        }
+      },
+      "conv9_q063": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38011,
+          "completion_tokens": 2528,
+          "total_tokens": 40539
+        },
+        "billed_usage": {
+          "prompt_tokens": 38011,
+          "completion_tokens": 2528,
+          "total_tokens": 40539
+        }
+      },
+      "conv9_q064": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36515,
+          "completion_tokens": 2616,
+          "total_tokens": 39131
+        },
+        "billed_usage": {
+          "prompt_tokens": 36515,
+          "completion_tokens": 2616,
+          "total_tokens": 39131
+        }
+      },
+      "conv9_q065": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32343,
+          "completion_tokens": 2690,
+          "total_tokens": 35033
+        },
+        "billed_usage": {
+          "prompt_tokens": 32343,
+          "completion_tokens": 2690,
+          "total_tokens": 35033
+        }
+      },
+      "conv9_q066": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42807,
+          "completion_tokens": 4994,
+          "total_tokens": 47801
+        },
+        "billed_usage": {
+          "prompt_tokens": 42807,
+          "completion_tokens": 4994,
+          "total_tokens": 47801
+        }
+      },
+      "conv9_q067": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43613,
+          "completion_tokens": 3854,
+          "total_tokens": 47467
+        },
+        "billed_usage": {
+          "prompt_tokens": 43613,
+          "completion_tokens": 3854,
+          "total_tokens": 47467
+        }
+      },
+      "conv9_q068": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39874,
+          "completion_tokens": 5273,
+          "total_tokens": 45147
+        },
+        "billed_usage": {
+          "prompt_tokens": 39874,
+          "completion_tokens": 5273,
+          "total_tokens": 45147
+        }
+      },
+      "conv9_q069": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34047,
+          "completion_tokens": 2244,
+          "total_tokens": 36291
+        },
+        "billed_usage": {
+          "prompt_tokens": 34047,
+          "completion_tokens": 2244,
+          "total_tokens": 36291
+        }
+      },
+      "conv9_q070": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42322,
+          "completion_tokens": 2719,
+          "total_tokens": 45041
+        },
+        "billed_usage": {
+          "prompt_tokens": 42322,
+          "completion_tokens": 2719,
+          "total_tokens": 45041
+        }
+      },
+      "conv9_q071": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42037,
+          "completion_tokens": 2952,
+          "total_tokens": 44989
+        },
+        "billed_usage": {
+          "prompt_tokens": 42037,
+          "completion_tokens": 2952,
+          "total_tokens": 44989
+        }
+      },
+      "conv9_q072": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33325,
+          "completion_tokens": 2364,
+          "total_tokens": 35689
+        },
+        "billed_usage": {
+          "prompt_tokens": 33325,
+          "completion_tokens": 2364,
+          "total_tokens": 35689
+        }
+      },
+      "conv9_q073": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40702,
+          "completion_tokens": 3378,
+          "total_tokens": 44080
+        },
+        "billed_usage": {
+          "prompt_tokens": 40702,
+          "completion_tokens": 3378,
+          "total_tokens": 44080
+        }
+      },
+      "conv9_q074": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38485,
+          "completion_tokens": 2183,
+          "total_tokens": 40668
+        },
+        "billed_usage": {
+          "prompt_tokens": 38485,
+          "completion_tokens": 2183,
+          "total_tokens": 40668
+        }
+      },
+      "conv9_q075": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36327,
+          "completion_tokens": 3553,
+          "total_tokens": 39880
+        },
+        "billed_usage": {
+          "prompt_tokens": 36327,
+          "completion_tokens": 3553,
+          "total_tokens": 39880
+        }
+      },
+      "conv9_q076": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41117,
+          "completion_tokens": 4696,
+          "total_tokens": 45813
+        },
+        "billed_usage": {
+          "prompt_tokens": 41117,
+          "completion_tokens": 4696,
+          "total_tokens": 45813
+        }
+      },
+      "conv9_q077": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36980,
+          "completion_tokens": 2080,
+          "total_tokens": 39060
+        },
+        "billed_usage": {
+          "prompt_tokens": 36980,
+          "completion_tokens": 2080,
+          "total_tokens": 39060
+        }
+      },
+      "conv9_q078": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36678,
+          "completion_tokens": 1817,
+          "total_tokens": 38495
+        },
+        "billed_usage": {
+          "prompt_tokens": 36678,
+          "completion_tokens": 1817,
+          "total_tokens": 38495
+        }
+      },
+      "conv9_q079": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37608,
+          "completion_tokens": 3708,
+          "total_tokens": 41316
+        },
+        "billed_usage": {
+          "prompt_tokens": 37608,
+          "completion_tokens": 3708,
+          "total_tokens": 41316
+        }
+      },
+      "conv9_q080": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41734,
+          "completion_tokens": 4081,
+          "total_tokens": 45815
+        },
+        "billed_usage": {
+          "prompt_tokens": 41734,
+          "completion_tokens": 4081,
+          "total_tokens": 45815
+        }
+      },
+      "conv9_q081": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33948,
+          "completion_tokens": 2067,
+          "total_tokens": 36015
+        },
+        "billed_usage": {
+          "prompt_tokens": 33948,
+          "completion_tokens": 2067,
+          "total_tokens": 36015
+        }
+      },
+      "conv9_q082": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34892,
+          "completion_tokens": 2424,
+          "total_tokens": 37316
+        },
+        "billed_usage": {
+          "prompt_tokens": 34892,
+          "completion_tokens": 2424,
+          "total_tokens": 37316
+        }
+      },
+      "conv9_q083": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34454,
+          "completion_tokens": 4266,
+          "total_tokens": 38720
+        },
+        "billed_usage": {
+          "prompt_tokens": 34454,
+          "completion_tokens": 4266,
+          "total_tokens": 38720
+        }
+      },
+      "conv9_q084": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35441,
+          "completion_tokens": 2939,
+          "total_tokens": 38380
+        },
+        "billed_usage": {
+          "prompt_tokens": 35441,
+          "completion_tokens": 2939,
+          "total_tokens": 38380
+        }
+      },
+      "conv9_q085": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44150,
+          "completion_tokens": 3274,
+          "total_tokens": 47424
+        },
+        "billed_usage": {
+          "prompt_tokens": 44150,
+          "completion_tokens": 3274,
+          "total_tokens": 47424
+        }
+      },
+      "conv9_q086": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41767,
+          "completion_tokens": 4099,
+          "total_tokens": 45866
+        },
+        "billed_usage": {
+          "prompt_tokens": 41767,
+          "completion_tokens": 4099,
+          "total_tokens": 45866
+        }
+      },
+      "conv9_q087": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43216,
+          "completion_tokens": 3989,
+          "total_tokens": 47205
+        },
+        "billed_usage": {
+          "prompt_tokens": 43216,
+          "completion_tokens": 3989,
+          "total_tokens": 47205
+        }
+      },
+      "conv9_q088": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41482,
+          "completion_tokens": 1870,
+          "total_tokens": 43352
+        },
+        "billed_usage": {
+          "prompt_tokens": 41482,
+          "completion_tokens": 1870,
+          "total_tokens": 43352
+        }
+      },
+      "conv9_q089": {
+        "calls": 6,
+        "cache_hits": 0,
+        "cache_misses": 6,
+        "logical_usage": {
+          "prompt_tokens": 65815,
+          "completion_tokens": 4981,
+          "total_tokens": 70796
+        },
+        "billed_usage": {
+          "prompt_tokens": 65815,
+          "completion_tokens": 4981,
+          "total_tokens": 70796
+        }
+      },
+      "conv9_q090": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42998,
+          "completion_tokens": 1990,
+          "total_tokens": 44988
+        },
+        "billed_usage": {
+          "prompt_tokens": 42998,
+          "completion_tokens": 1990,
+          "total_tokens": 44988
+        }
+      },
+      "conv9_q091": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39130,
+          "completion_tokens": 3925,
+          "total_tokens": 43055
+        },
+        "billed_usage": {
+          "prompt_tokens": 39130,
+          "completion_tokens": 3925,
+          "total_tokens": 43055
+        }
+      },
+      "conv9_q092": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45162,
+          "completion_tokens": 2691,
+          "total_tokens": 47853
+        },
+        "billed_usage": {
+          "prompt_tokens": 45162,
+          "completion_tokens": 2691,
+          "total_tokens": 47853
+        }
+      },
+      "conv9_q093": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38684,
+          "completion_tokens": 2368,
+          "total_tokens": 41052
+        },
+        "billed_usage": {
+          "prompt_tokens": 38684,
+          "completion_tokens": 2368,
+          "total_tokens": 41052
+        }
+      },
+      "conv9_q094": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38771,
+          "completion_tokens": 3421,
+          "total_tokens": 42192
+        },
+        "billed_usage": {
+          "prompt_tokens": 38771,
+          "completion_tokens": 3421,
+          "total_tokens": 42192
+        }
+      },
+      "conv9_q095": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36824,
+          "completion_tokens": 2889,
+          "total_tokens": 39713
+        },
+        "billed_usage": {
+          "prompt_tokens": 36824,
+          "completion_tokens": 2889,
+          "total_tokens": 39713
+        }
+      },
+      "conv9_q096": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44533,
+          "completion_tokens": 3707,
+          "total_tokens": 48240
+        },
+        "billed_usage": {
+          "prompt_tokens": 44533,
+          "completion_tokens": 3707,
+          "total_tokens": 48240
+        }
+      },
+      "conv9_q097": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32790,
+          "completion_tokens": 3486,
+          "total_tokens": 36276
+        },
+        "billed_usage": {
+          "prompt_tokens": 32790,
+          "completion_tokens": 3486,
+          "total_tokens": 36276
+        }
+      },
+      "conv9_q098": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42708,
+          "completion_tokens": 3932,
+          "total_tokens": 46640
+        },
+        "billed_usage": {
+          "prompt_tokens": 42708,
+          "completion_tokens": 3932,
+          "total_tokens": 46640
+        }
+      },
+      "conv9_q099": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34831,
+          "completion_tokens": 2010,
+          "total_tokens": 36841
+        },
+        "billed_usage": {
+          "prompt_tokens": 34831,
+          "completion_tokens": 2010,
+          "total_tokens": 36841
+        }
+      },
+      "conv9_q100": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38464,
+          "completion_tokens": 2754,
+          "total_tokens": 41218
+        },
+        "billed_usage": {
+          "prompt_tokens": 38464,
+          "completion_tokens": 2754,
+          "total_tokens": 41218
+        }
+      },
+      "conv9_q101": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39277,
+          "completion_tokens": 2287,
+          "total_tokens": 41564
+        },
+        "billed_usage": {
+          "prompt_tokens": 39277,
+          "completion_tokens": 2287,
+          "total_tokens": 41564
+        }
+      },
+      "conv9_q102": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41065,
+          "completion_tokens": 3532,
+          "total_tokens": 44597
+        },
+        "billed_usage": {
+          "prompt_tokens": 41065,
+          "completion_tokens": 3532,
+          "total_tokens": 44597
+        }
+      },
+      "conv9_q103": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37859,
+          "completion_tokens": 2250,
+          "total_tokens": 40109
+        },
+        "billed_usage": {
+          "prompt_tokens": 37859,
+          "completion_tokens": 2250,
+          "total_tokens": 40109
+        }
+      },
+      "conv9_q104": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38018,
+          "completion_tokens": 2326,
+          "total_tokens": 40344
+        },
+        "billed_usage": {
+          "prompt_tokens": 38018,
+          "completion_tokens": 2326,
+          "total_tokens": 40344
+        }
+      },
+      "conv9_q105": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39336,
+          "completion_tokens": 2057,
+          "total_tokens": 41393
+        },
+        "billed_usage": {
+          "prompt_tokens": 39336,
+          "completion_tokens": 2057,
+          "total_tokens": 41393
+        }
+      },
+      "conv9_q106": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32583,
+          "completion_tokens": 4412,
+          "total_tokens": 36995
+        },
+        "billed_usage": {
+          "prompt_tokens": 32583,
+          "completion_tokens": 4412,
+          "total_tokens": 36995
+        }
+      },
+      "conv9_q107": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37658,
+          "completion_tokens": 2897,
+          "total_tokens": 40555
+        },
+        "billed_usage": {
+          "prompt_tokens": 37658,
+          "completion_tokens": 2897,
+          "total_tokens": 40555
+        }
+      },
+      "conv9_q108": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36338,
+          "completion_tokens": 3802,
+          "total_tokens": 40140
+        },
+        "billed_usage": {
+          "prompt_tokens": 36338,
+          "completion_tokens": 3802,
+          "total_tokens": 40140
+        }
+      },
+      "conv9_q109": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 45246,
+          "completion_tokens": 4853,
+          "total_tokens": 50099
+        },
+        "billed_usage": {
+          "prompt_tokens": 45246,
+          "completion_tokens": 4853,
+          "total_tokens": 50099
+        }
+      },
+      "conv9_q110": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44426,
+          "completion_tokens": 3904,
+          "total_tokens": 48330
+        },
+        "billed_usage": {
+          "prompt_tokens": 44426,
+          "completion_tokens": 3904,
+          "total_tokens": 48330
+        }
+      },
+      "conv9_q111": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34384,
+          "completion_tokens": 2446,
+          "total_tokens": 36830
+        },
+        "billed_usage": {
+          "prompt_tokens": 34384,
+          "completion_tokens": 2446,
+          "total_tokens": 36830
+        }
+      },
+      "conv9_q112": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42149,
+          "completion_tokens": 3092,
+          "total_tokens": 45241
+        },
+        "billed_usage": {
+          "prompt_tokens": 42149,
+          "completion_tokens": 3092,
+          "total_tokens": 45241
+        }
+      },
+      "conv9_q113": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36827,
+          "completion_tokens": 2934,
+          "total_tokens": 39761
+        },
+        "billed_usage": {
+          "prompt_tokens": 36827,
+          "completion_tokens": 2934,
+          "total_tokens": 39761
+        }
+      },
+      "conv9_q114": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36703,
+          "completion_tokens": 2724,
+          "total_tokens": 39427
+        },
+        "billed_usage": {
+          "prompt_tokens": 36703,
+          "completion_tokens": 2724,
+          "total_tokens": 39427
+        }
+      },
+      "conv9_q115": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39973,
+          "completion_tokens": 2867,
+          "total_tokens": 42840
+        },
+        "billed_usage": {
+          "prompt_tokens": 39973,
+          "completion_tokens": 2867,
+          "total_tokens": 42840
+        }
+      },
+      "conv9_q116": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42451,
+          "completion_tokens": 4219,
+          "total_tokens": 46670
+        },
+        "billed_usage": {
+          "prompt_tokens": 42451,
+          "completion_tokens": 4219,
+          "total_tokens": 46670
+        }
+      },
+      "conv9_q117": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36447,
+          "completion_tokens": 4088,
+          "total_tokens": 40535
+        },
+        "billed_usage": {
+          "prompt_tokens": 36447,
+          "completion_tokens": 4088,
+          "total_tokens": 40535
+        }
+      },
+      "conv9_q118": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39807,
+          "completion_tokens": 2543,
+          "total_tokens": 42350
+        },
+        "billed_usage": {
+          "prompt_tokens": 39807,
+          "completion_tokens": 2543,
+          "total_tokens": 42350
+        }
+      },
+      "conv9_q119": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41013,
+          "completion_tokens": 4538,
+          "total_tokens": 45551
+        },
+        "billed_usage": {
+          "prompt_tokens": 41013,
+          "completion_tokens": 4538,
+          "total_tokens": 45551
+        }
+      },
+      "conv9_q120": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42215,
+          "completion_tokens": 3361,
+          "total_tokens": 45576
+        },
+        "billed_usage": {
+          "prompt_tokens": 42215,
+          "completion_tokens": 3361,
+          "total_tokens": 45576
+        }
+      },
+      "conv9_q121": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35069,
+          "completion_tokens": 4353,
+          "total_tokens": 39422
+        },
+        "billed_usage": {
+          "prompt_tokens": 35069,
+          "completion_tokens": 4353,
+          "total_tokens": 39422
+        }
+      },
+      "conv9_q122": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34803,
+          "completion_tokens": 2464,
+          "total_tokens": 37267
+        },
+        "billed_usage": {
+          "prompt_tokens": 34803,
+          "completion_tokens": 2464,
+          "total_tokens": 37267
+        }
+      },
+      "conv9_q123": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30437,
+          "completion_tokens": 3502,
+          "total_tokens": 33939
+        },
+        "billed_usage": {
+          "prompt_tokens": 30437,
+          "completion_tokens": 3502,
+          "total_tokens": 33939
+        }
+      },
+      "conv9_q124": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 16296,
+          "completion_tokens": 1875,
+          "total_tokens": 18171
+        },
+        "billed_usage": {
+          "prompt_tokens": 16296,
+          "completion_tokens": 1875,
+          "total_tokens": 18171
+        }
+      },
+      "conv9_q125": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42866,
+          "completion_tokens": 2626,
+          "total_tokens": 45492
+        },
+        "billed_usage": {
+          "prompt_tokens": 42866,
+          "completion_tokens": 2626,
+          "total_tokens": 45492
+        }
+      },
+      "conv9_q126": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42260,
+          "completion_tokens": 2216,
+          "total_tokens": 44476
+        },
+        "billed_usage": {
+          "prompt_tokens": 42260,
+          "completion_tokens": 2216,
+          "total_tokens": 44476
+        }
+      },
+      "conv9_q127": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42752,
+          "completion_tokens": 3998,
+          "total_tokens": 46750
+        },
+        "billed_usage": {
+          "prompt_tokens": 42752,
+          "completion_tokens": 3998,
+          "total_tokens": 46750
+        }
+      },
+      "conv9_q128": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42665,
+          "completion_tokens": 3132,
+          "total_tokens": 45797
+        },
+        "billed_usage": {
+          "prompt_tokens": 42665,
+          "completion_tokens": 3132,
+          "total_tokens": 45797
+        }
+      },
+      "conv9_q129": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34458,
+          "completion_tokens": 2642,
+          "total_tokens": 37100
+        },
+        "billed_usage": {
+          "prompt_tokens": 34458,
+          "completion_tokens": 2642,
+          "total_tokens": 37100
+        }
+      },
+      "conv9_q130": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35409,
+          "completion_tokens": 4857,
+          "total_tokens": 40266
+        },
+        "billed_usage": {
+          "prompt_tokens": 35409,
+          "completion_tokens": 4857,
+          "total_tokens": 40266
+        }
+      },
+      "conv9_q131": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38653,
+          "completion_tokens": 2883,
+          "total_tokens": 41536
+        },
+        "billed_usage": {
+          "prompt_tokens": 38653,
+          "completion_tokens": 2883,
+          "total_tokens": 41536
+        }
+      },
+      "conv9_q132": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40203,
+          "completion_tokens": 2088,
+          "total_tokens": 42291
+        },
+        "billed_usage": {
+          "prompt_tokens": 40203,
+          "completion_tokens": 2088,
+          "total_tokens": 42291
+        }
+      },
+      "conv9_q133": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41155,
+          "completion_tokens": 3281,
+          "total_tokens": 44436
+        },
+        "billed_usage": {
+          "prompt_tokens": 41155,
+          "completion_tokens": 3281,
+          "total_tokens": 44436
+        }
+      },
+      "conv9_q134": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32900,
+          "completion_tokens": 2443,
+          "total_tokens": 35343
+        },
+        "billed_usage": {
+          "prompt_tokens": 32900,
+          "completion_tokens": 2443,
+          "total_tokens": 35343
+        }
+      },
+      "conv9_q135": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40972,
+          "completion_tokens": 1689,
+          "total_tokens": 42661
+        },
+        "billed_usage": {
+          "prompt_tokens": 40972,
+          "completion_tokens": 1689,
+          "total_tokens": 42661
+        }
+      },
+      "conv9_q136": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39016,
+          "completion_tokens": 4035,
+          "total_tokens": 43051
+        },
+        "billed_usage": {
+          "prompt_tokens": 39016,
+          "completion_tokens": 4035,
+          "total_tokens": 43051
+        }
+      },
+      "conv9_q137": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37304,
+          "completion_tokens": 2345,
+          "total_tokens": 39649
+        },
+        "billed_usage": {
+          "prompt_tokens": 37304,
+          "completion_tokens": 2345,
+          "total_tokens": 39649
+        }
+      },
+      "conv9_q138": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33526,
+          "completion_tokens": 3115,
+          "total_tokens": 36641
+        },
+        "billed_usage": {
+          "prompt_tokens": 33526,
+          "completion_tokens": 3115,
+          "total_tokens": 36641
+        }
+      },
+      "conv9_q139": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33383,
+          "completion_tokens": 2340,
+          "total_tokens": 35723
+        },
+        "billed_usage": {
+          "prompt_tokens": 33383,
+          "completion_tokens": 2340,
+          "total_tokens": 35723
+        }
+      },
+      "conv9_q140": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33383,
+          "completion_tokens": 2369,
+          "total_tokens": 35752
+        },
+        "billed_usage": {
+          "prompt_tokens": 33383,
+          "completion_tokens": 2369,
+          "total_tokens": 35752
+        }
+      },
+      "conv9_q141": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36488,
+          "completion_tokens": 2512,
+          "total_tokens": 39000
+        },
+        "billed_usage": {
+          "prompt_tokens": 36488,
+          "completion_tokens": 2512,
+          "total_tokens": 39000
+        }
+      },
+      "conv9_q142": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41621,
+          "completion_tokens": 3645,
+          "total_tokens": 45266
+        },
+        "billed_usage": {
+          "prompt_tokens": 41621,
+          "completion_tokens": 3645,
+          "total_tokens": 45266
+        }
+      },
+      "conv9_q143": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30690,
+          "completion_tokens": 2188,
+          "total_tokens": 32878
+        },
+        "billed_usage": {
+          "prompt_tokens": 30690,
+          "completion_tokens": 2188,
+          "total_tokens": 32878
+        }
+      },
+      "conv9_q144": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44247,
+          "completion_tokens": 3575,
+          "total_tokens": 47822
+        },
+        "billed_usage": {
+          "prompt_tokens": 44247,
+          "completion_tokens": 3575,
+          "total_tokens": 47822
+        }
+      },
+      "conv9_q145": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40320,
+          "completion_tokens": 2883,
+          "total_tokens": 43203
+        },
+        "billed_usage": {
+          "prompt_tokens": 40320,
+          "completion_tokens": 2883,
+          "total_tokens": 43203
+        }
+      },
+      "conv9_q146": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38654,
+          "completion_tokens": 3092,
+          "total_tokens": 41746
+        },
+        "billed_usage": {
+          "prompt_tokens": 38654,
+          "completion_tokens": 3092,
+          "total_tokens": 41746
+        }
+      },
+      "conv9_q147": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39549,
+          "completion_tokens": 3309,
+          "total_tokens": 42858
+        },
+        "billed_usage": {
+          "prompt_tokens": 39549,
+          "completion_tokens": 3309,
+          "total_tokens": 42858
+        }
+      },
+      "conv9_q148": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33505,
+          "completion_tokens": 2750,
+          "total_tokens": 36255
+        },
+        "billed_usage": {
+          "prompt_tokens": 33505,
+          "completion_tokens": 2750,
+          "total_tokens": 36255
+        }
+      },
+      "conv9_q149": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33445,
+          "completion_tokens": 4287,
+          "total_tokens": 37732
+        },
+        "billed_usage": {
+          "prompt_tokens": 33445,
+          "completion_tokens": 4287,
+          "total_tokens": 37732
+        }
+      },
+      "conv9_q150": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 62225,
+          "completion_tokens": 3342,
+          "total_tokens": 65567
+        },
+        "billed_usage": {
+          "prompt_tokens": 62225,
+          "completion_tokens": 3342,
+          "total_tokens": 65567
+        }
+      },
+      "conv9_q151": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 43097,
+          "completion_tokens": 3651,
+          "total_tokens": 46748
+        },
+        "billed_usage": {
+          "prompt_tokens": 43097,
+          "completion_tokens": 3651,
+          "total_tokens": 46748
+        }
+      },
+      "conv9_q152": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32873,
+          "completion_tokens": 4079,
+          "total_tokens": 36952
+        },
+        "billed_usage": {
+          "prompt_tokens": 32873,
+          "completion_tokens": 4079,
+          "total_tokens": 36952
+        }
+      },
+      "conv9_q153": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35720,
+          "completion_tokens": 3207,
+          "total_tokens": 38927
+        },
+        "billed_usage": {
+          "prompt_tokens": 35720,
+          "completion_tokens": 3207,
+          "total_tokens": 38927
+        }
+      },
+      "conv9_q154": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36361,
+          "completion_tokens": 3229,
+          "total_tokens": 39590
+        },
+        "billed_usage": {
+          "prompt_tokens": 36361,
+          "completion_tokens": 3229,
+          "total_tokens": 39590
+        }
+      },
+      "conv9_q155": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41429,
+          "completion_tokens": 2512,
+          "total_tokens": 43941
+        },
+        "billed_usage": {
+          "prompt_tokens": 41429,
+          "completion_tokens": 2512,
+          "total_tokens": 43941
+        }
+      },
+      "conv9_q156": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40552,
+          "completion_tokens": 3813,
+          "total_tokens": 44365
+        },
+        "billed_usage": {
+          "prompt_tokens": 40552,
+          "completion_tokens": 3813,
+          "total_tokens": 44365
+        }
+      },
+      "conv9_q157": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33546,
+          "completion_tokens": 1766,
+          "total_tokens": 35312
+        },
+        "billed_usage": {
+          "prompt_tokens": 33546,
+          "completion_tokens": 1766,
+          "total_tokens": 35312
+        }
+      }
+    }
+  }
+}

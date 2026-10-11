@@ -1,0 +1,227 @@
+{
+  "uid": "bf659f65",
+  "num_sessions": 52,
+  "answers": {
+    "bf659f65": {
+      "response": "I don’t have enough information to determine how many music albums or EPs you’ve purchased or downloaded; the only concrete detail I have is that you have access to the EP “Midnight Sky”.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 113.6
+    }
+  },
+  "profile_snapshot_size": 83436,
+  "elapsed_seconds": 6831.6,
+  "usage_summary": {
+    "total_calls": 692,
+    "cache_hits": 2,
+    "cache_misses": 690,
+    "logical_usage": {
+      "prompt_tokens": 1784970,
+      "completion_tokens": 338397,
+      "total_tokens": 2123367
+    },
+    "billed_usage": {
+      "prompt_tokens": 1782605,
+      "completion_tokens": 337419,
+      "total_tokens": 2120024
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 52,
+        "cache_hits": 0,
+        "cache_misses": 52,
+        "logical_usage": {
+          "prompt_tokens": 102011,
+          "completion_tokens": 36900,
+          "total_tokens": 138911
+        },
+        "billed_usage": {
+          "prompt_tokens": 102011,
+          "completion_tokens": 36900,
+          "total_tokens": 138911
+        }
+      },
+      "delta_extractor": {
+        "calls": 42,
+        "cache_hits": 0,
+        "cache_misses": 42,
+        "logical_usage": {
+          "prompt_tokens": 150459,
+          "completion_tokens": 20193,
+          "total_tokens": 170652
+        },
+        "billed_usage": {
+          "prompt_tokens": 150459,
+          "completion_tokens": 20193,
+          "total_tokens": 170652
+        }
+      },
+      "update_judge": {
+        "calls": 66,
+        "cache_hits": 0,
+        "cache_misses": 66,
+        "logical_usage": {
+          "prompt_tokens": 236959,
+          "completion_tokens": 17897,
+          "total_tokens": 254856
+        },
+        "billed_usage": {
+          "prompt_tokens": 236959,
+          "completion_tokens": 17897,
+          "total_tokens": 254856
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 65017,
+          "completion_tokens": 26439,
+          "total_tokens": 91456
+        },
+        "billed_usage": {
+          "prompt_tokens": 65017,
+          "completion_tokens": 26439,
+          "total_tokens": 91456
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 179,
+        "cache_hits": 0,
+        "cache_misses": 179,
+        "logical_usage": {
+          "prompt_tokens": 664793,
+          "completion_tokens": 121187,
+          "total_tokens": 785980
+        },
+        "billed_usage": {
+          "prompt_tokens": 664793,
+          "completion_tokens": 121187,
+          "total_tokens": 785980
+        }
+      },
+      "invalidation_judge": {
+        "calls": 67,
+        "cache_hits": 0,
+        "cache_misses": 67,
+        "logical_usage": {
+          "prompt_tokens": 277749,
+          "completion_tokens": 35349,
+          "total_tokens": 313098
+        },
+        "billed_usage": {
+          "prompt_tokens": 277749,
+          "completion_tokens": 35349,
+          "total_tokens": 313098
+        }
+      },
+      "stale_support_judge": {
+        "calls": 241,
+        "cache_hits": 0,
+        "cache_misses": 241,
+        "logical_usage": {
+          "prompt_tokens": 244150,
+          "completion_tokens": 75210,
+          "total_tokens": 319360
+        },
+        "billed_usage": {
+          "prompt_tokens": 244150,
+          "completion_tokens": 75210,
+          "total_tokens": 319360
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 557,
+          "total_tokens": 2037
+        },
+        "billed_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 557,
+          "total_tokens": 2037
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 15766,
+          "completion_tokens": 1357,
+          "total_tokens": 17123
+        },
+        "billed_usage": {
+          "prompt_tokens": 15766,
+          "completion_tokens": 1357,
+          "total_tokens": 17123
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4730,
+          "completion_tokens": 1956,
+          "total_tokens": 6686
+        },
+        "billed_usage": {
+          "prompt_tokens": 2365,
+          "completion_tokens": 978,
+          "total_tokens": 3343
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 20542,
+          "completion_tokens": 1149,
+          "total_tokens": 21691
+        },
+        "billed_usage": {
+          "prompt_tokens": 20542,
+          "completion_tokens": 1149,
+          "total_tokens": 21691
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1314,
+          "completion_tokens": 203,
+          "total_tokens": 1517
+        },
+        "billed_usage": {
+          "prompt_tokens": 1314,
+          "completion_tokens": 203,
+          "total_tokens": 1517
+        }
+      }
+    },
+    "by_query_label": {
+      "bf659f65": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39102,
+          "completion_tokens": 3266,
+          "total_tokens": 42368
+        },
+        "billed_usage": {
+          "prompt_tokens": 39102,
+          "completion_tokens": 3266,
+          "total_tokens": 42368
+        }
+      }
+    }
+  }
+}

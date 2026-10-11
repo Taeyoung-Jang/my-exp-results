@@ -1,0 +1,242 @@
+{
+  "uid": "caf9ead2",
+  "num_sessions": 43,
+  "answers": {
+    "caf9ead2": {
+      "response": "I don’t have enough current information to say how long the move took. The only mention of the move is a stale statement that it happened a few weeks ago, which isn’t sufficient to answer the question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 241.5
+    }
+  },
+  "profile_snapshot_size": 81630,
+  "elapsed_seconds": 7079.0,
+  "usage_summary": {
+    "total_calls": 656,
+    "cache_hits": 0,
+    "cache_misses": 656,
+    "logical_usage": {
+      "prompt_tokens": 1723540,
+      "completion_tokens": 316461,
+      "total_tokens": 2040001
+    },
+    "billed_usage": {
+      "prompt_tokens": 1723540,
+      "completion_tokens": 316461,
+      "total_tokens": 2040001
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 43,
+        "cache_hits": 0,
+        "cache_misses": 43,
+        "logical_usage": {
+          "prompt_tokens": 83955,
+          "completion_tokens": 34139,
+          "total_tokens": 118094
+        },
+        "billed_usage": {
+          "prompt_tokens": 83955,
+          "completion_tokens": 34139,
+          "total_tokens": 118094
+        }
+      },
+      "delta_extractor": {
+        "calls": 36,
+        "cache_hits": 0,
+        "cache_misses": 36,
+        "logical_usage": {
+          "prompt_tokens": 157060,
+          "completion_tokens": 20709,
+          "total_tokens": 177769
+        },
+        "billed_usage": {
+          "prompt_tokens": 157060,
+          "completion_tokens": 20709,
+          "total_tokens": 177769
+        }
+      },
+      "update_judge": {
+        "calls": 69,
+        "cache_hits": 0,
+        "cache_misses": 69,
+        "logical_usage": {
+          "prompt_tokens": 268308,
+          "completion_tokens": 18476,
+          "total_tokens": 286784
+        },
+        "billed_usage": {
+          "prompt_tokens": 268308,
+          "completion_tokens": 18476,
+          "total_tokens": 286784
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 36,
+        "cache_hits": 0,
+        "cache_misses": 36,
+        "logical_usage": {
+          "prompt_tokens": 63610,
+          "completion_tokens": 27980,
+          "total_tokens": 91590
+        },
+        "billed_usage": {
+          "prompt_tokens": 63610,
+          "completion_tokens": 27980,
+          "total_tokens": 91590
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 173,
+        "cache_hits": 0,
+        "cache_misses": 173,
+        "logical_usage": {
+          "prompt_tokens": 651363,
+          "completion_tokens": 106373,
+          "total_tokens": 757736
+        },
+        "billed_usage": {
+          "prompt_tokens": 651363,
+          "completion_tokens": 106373,
+          "total_tokens": 757736
+        }
+      },
+      "invalidation_judge": {
+        "calls": 57,
+        "cache_hits": 0,
+        "cache_misses": 57,
+        "logical_usage": {
+          "prompt_tokens": 231680,
+          "completion_tokens": 30361,
+          "total_tokens": 262041
+        },
+        "billed_usage": {
+          "prompt_tokens": 231680,
+          "completion_tokens": 30361,
+          "total_tokens": 262041
+        }
+      },
+      "stale_support_judge": {
+        "calls": 232,
+        "cache_hits": 0,
+        "cache_misses": 232,
+        "logical_usage": {
+          "prompt_tokens": 227245,
+          "completion_tokens": 70776,
+          "total_tokens": 298021
+        },
+        "billed_usage": {
+          "prompt_tokens": 227245,
+          "completion_tokens": 70776,
+          "total_tokens": 298021
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 696,
+          "total_tokens": 2175
+        },
+        "billed_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 696,
+          "total_tokens": 2175
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 12047,
+          "completion_tokens": 1601,
+          "total_tokens": 13648
+        },
+        "billed_usage": {
+          "prompt_tokens": 12047,
+          "completion_tokens": 1601,
+          "total_tokens": 13648
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 4966,
+          "completion_tokens": 3160,
+          "total_tokens": 8126
+        },
+        "billed_usage": {
+          "prompt_tokens": 4966,
+          "completion_tokens": 3160,
+          "total_tokens": 8126
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 16242,
+          "completion_tokens": 1326,
+          "total_tokens": 17568
+        },
+        "billed_usage": {
+          "prompt_tokens": 16242,
+          "completion_tokens": 1326,
+          "total_tokens": 17568
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 2,
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4140,
+          "completion_tokens": 713,
+          "total_tokens": 4853
+        },
+        "billed_usage": {
+          "prompt_tokens": 4140,
+          "completion_tokens": 713,
+          "total_tokens": 4853
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1445,
+          "completion_tokens": 151,
+          "total_tokens": 1596
+        },
+        "billed_usage": {
+          "prompt_tokens": 1445,
+          "completion_tokens": 151,
+          "total_tokens": 1596
+        }
+      }
+    },
+    "by_query_label": {
+      "caf9ead2": {
+        "calls": 6,
+        "cache_hits": 0,
+        "cache_misses": 6,
+        "logical_usage": {
+          "prompt_tokens": 35353,
+          "completion_tokens": 4487,
+          "total_tokens": 39840
+        },
+        "billed_usage": {
+          "prompt_tokens": 35353,
+          "completion_tokens": 4487,
+          "total_tokens": 39840
+        }
+      }
+    }
+  }
+}

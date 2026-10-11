@@ -1,0 +1,2157 @@
+{
+  "uid": "conv-44",
+  "num_sessions": 28,
+  "answers": {
+    "conv5_q000": {
+      "response": "I don’t have enough information to know what year Audrey adopted her first three dogs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 84.3
+    },
+    "conv5_q001": {
+      "response": "I don’t have information on when Andrew started his new job as a financial analyst.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 60.4
+    },
+    "conv5_q002": {
+      "response": "I don’t have any current information confirming what indoor activities Andrew may have done with his girlfriend.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 84.9
+    },
+    "conv5_q003": {
+      "response": "I don’t have any information about places Andrew and his girlfriend have checked out around the city.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.2
+    },
+    "conv5_q004": {
+      "response": "I don’t have any information about when Audrey made muffins for herself.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 80.7
+    },
+    "conv5_q005": {
+      "response": "I don’t have any information about Audrey seeing a hummingbird, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.6
+    },
+    "conv5_q006": {
+      "response": "I don’t have any information about when—or even if—Audrey adopted Pixie, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 112.6
+    },
+    "conv5_q007": {
+      "response": "I don’t have the adoption dates for Pixie or the other three dogs, so I can’t determine the number of years between those adoptions.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 131.0
+    },
+    "conv5_q008": {
+      "response": "We cannot determine whether Andrew had a pet dog in March 2023 based on the available information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 151.1
+    },
+    "conv5_q009": {
+      "response": "Audrey currently joins a weekly meet‑up with other dog owners where they share advice and have group play sessions. No other specific classes or groups are documented.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 139.9
+    },
+    "conv5_q010": {
+      "response": "I don’t have a confirmed, current record of when Audrey’s positive‑reinforcement dog training course took place, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 178.6
+    },
+    "conv5_q011": {
+      "response": "I don’t have any information about when Andrew went rock climbing.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 96.9
+    },
+    "conv5_q012": {
+      "response": "I don’t have information about other outdoor activities Andrew has done beyond hiking.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 136.8
+    },
+    "conv5_q013": {
+      "response": "The available information confirms that Audrey has relocated and is now living in a dog‑friendly arrangement, but it does not specify when the move occurred.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 115.2
+    },
+    "conv5_q014": {
+      "response": "Andrew really misses being near the beach and enjoying outdoor nature experiences while he works in the city.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 185.6
+    },
+    "conv5_q015": {
+      "response": "There is no current evidence of a shared frustration about dog ownership for Audrey and Andrew; the premise is not supported by the available information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 99.7
+    },
+    "conv5_q016": {
+      "response": "There is no current schedule for a hike with Audrey; the only known plan is a short‑horizon goal to visit a nature reserve this weekend.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 139.6
+    },
+    "conv5_q017": {
+      "response": "There’s no information available about how many times Audrey and Andew planned to hike together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.7
+    },
+    "conv5_q018": {
+      "response": "I don’t have enough information to know where Audrey got Pixie. Could you provide more details?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 63.0
+    },
+    "conv5_q019": {
+      "response": "I don’t have evidence that Andrew prefers indoor hobbies, but because he loves his dog and uses positive‑reinforcement training, a safe indoor option would be a scent‑search or puzzle‑toy game that lets him reward the dog while they both have fun.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 147.3
+    },
+    "conv5_q020": {
+      "response": "I don't have current information about Audrey's meat preference, so I can't say which meat she prefers.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 117.3
+    },
+    "conv5_q021": {
+      "response": "The premise that Audrey took classes for her dogs is outdated, and there’s no current information about any such classes, so I can’t provide a list.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 148.2
+    },
+    "conv5_q022": {
+      "response": "I don’t have any information about where Andrew was during the first weekend of August 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.1
+    },
+    "conv5_q023": {
+      "response": "I don’t have current information about the specific problems Andrew faced before adopting Toby, so I can’t provide a reliable list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 153.3
+    },
+    "conv5_q024": {
+      "response": "There’s no current information confirming or denying that Audrey and Andrew grew up with a pet dog.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.2
+    },
+    "conv5_q025": {
+      "response": "I don’t have any information about when Andrew and his girlfriend went fishing.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 130.4
+    },
+    "conv5_q026": {
+      "response": "The assumption that Andrew’s inability to hike is a known stressor is no longer safe, and there’s no current information identifying another primary stressor in his life. The only mention of a possible stressor (work‑related stress) comes from a stale source, so we can’t reliably name the biggest current stressor.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 167.2
+    },
+    "conv5_q027": {
+      "response": "I don’t have enough current information to determine how Andrew feels about his work.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 172.1
+    },
+    "conv5_q028": {
+      "response": "There’s no current information about what Audrey typically dresses her dogs in – the only known fact is that you currently have a special item for your pets, but its nature isn’t specified.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 125.0
+    },
+    "conv5_q029": {
+      "response": "I don’t have information about the names of your dogs.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 100.5
+    },
+    "conv5_q030": {
+      "response": "There’s no current information about a beach outing; the only confirmed plan is a camping trip with his girlfriend and their dog Toby.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 143.4
+    },
+    "conv5_q031": {
+      "response": "Andrew cares for his dogs—keeping them happy, settled, loved, and safe—owns a special item for them, and joins a weekly meetup with other dog owners for advice and group play.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 202.4
+    },
+    "conv5_q032": {
+      "response": "I don’t have any information about Audrey’s tattoo on her arm.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 155.4
+    },
+    "conv5_q033": {
+      "response": "The assumption that Andrew’s living situation with his dogs is problematic is no longer accurate—current information shows he’s successfully living in the city with happy, well‑settled dogs and uses positive‑reinforcement training. To help Andrew further lower his stress while keeping the dogs comfortable, he can:\n1. Schedule daily walks or play sessions (or hire a dog‑walker a few times a week) to give himself regular personal time and give the dogs exercise.\n2. Add enrichment toys or puzzle feeders that keep the dogs occupied while he works or relaxes.\n3. Set aside a quiet corner or small indoor area with a bed and toys as a dedicated dog‑friendly spot, which can reduce clutter and provide the dogs a safe retreat.\n4. Use short, daily stress‑management practices such as meditation apps, breathing exercises, or brief journaling that fit around his dog‑care routine.\n5. If he needs occasional personal space, consider a pet‑sitter for a few hours so he can engage in self‑care activities.\nThese steps address stress relief and dog enrichment without altering his already satisfactory living arrangement.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 333.0
+    },
+    "conv5_q034": {
+      "response": "I don’t have enough information to determine how many months passed between Andrew adopting Toby and Buddy.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 89.5
+    },
+    "conv5_q035": {
+      "response": "I don’t have current information about the names of your dogs.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 300.2
+    },
+    "conv5_q036": {
+      "response": "I don’t have any information about Audrey’s food preferences, so I can’t list foods she likes.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 38.9
+    },
+    "conv5_q037": {
+      "response": "I don’t have any information about Audrey having an accident in the park, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 64.3
+    },
+    "conv5_q038": {
+      "response": "I don’t have information about when Andrew and his girlfriend went on a wine tasting trip.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 100.2
+    },
+    "conv5_q039": {
+      "response": "Audrey’s many dogs are happy, settled, and feel loved and safe; she enjoys the joy they bring her, and she even commemorated them with a tattoo of four dogs on her arm.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 181.1
+    },
+    "conv5_q040": {
+      "response": "Your backyard dog‑play area, equipped with agility gear, already gives your dog a safe place to run freely, and your weekly meet‑ups with other dog owners provide the social interaction you’re looking for.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 39.5
+    },
+    "conv5_q041": {
+      "response": "The available information only confirms that Audrey has dogs; their specific breeds are not provided.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 88.5
+    },
+    "conv5_q042": {
+      "response": "Audrey is using positive‑reinforcement techniques to train and discipline her dogs.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 55.0
+    },
+    "conv5_q043": {
+      "response": "There isn’t enough current information to determine which U.S. state Audrey and Andrew might live in.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 97.0
+    },
+    "conv5_q044": {
+      "response": "I’m unable to determine which national park Audrey and Andrew might be referring to, as there’s no current information about them or a specific park.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 182.7
+    },
+    "conv5_q045": {
+      "response": "I don’t have enough current information to determine how many pets Andrew will have as of December 2023.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 129.0
+    },
+    "conv5_q046": {
+      "response": "I don’t have current information on how many pets Andrew had as of September 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 176.6
+    },
+    "conv5_q047": {
+      "response": "I don’t have any information about when Andrew adopted Buddy or Scout, so I can’t determine the number of months between those adoptions.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.4
+    },
+    "conv5_q048": {
+      "response": "Andrew views his pets as part of his life, essentially like family members.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 87.7
+    },
+    "conv5_q049": {
+      "response": "Audrey sees her dogs as loved companions that are an integral part of her life.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 65.3
+    },
+    "conv5_q050": {
+      "response": "The earlier premise isn’t confirmed, but current information shows Audrey has learned to use positive‑reinforcement techniques for dog training.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 131.0
+    },
+    "conv5_q051": {
+      "response": "Audrey currently has a special item for her pets and has set up a backyard doggy play area that includes agility equipment and toys.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 143.1
+    },
+    "conv5_q052": {
+      "response": "I can’t safely suggest a specific habit change because we don’t have current details about Andrew’s workload or living situation—those factors are unknown. Could you provide more information about his typical free windows or commuting routine?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 207.8
+    },
+    "conv5_q053": {
+      "response": "I only have current evidence that you love dogs; there’s no confirmed love of nature, so I can’t safely suggest a nature‑focused career right now. If you’re interested in building a nature connection, consider exploring activities that combine your dog passion with outdoor work, like dog‑training for rescue or outdoor therapy programs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.0
+    },
+    "conv5_q054": {
+      "response": "I don’t have current information about what activity Audrey’s dogs enjoy at the dog park; the only recent detail is that a doggy play area with agility equipment and toys has been set up in the backyard.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.7
+    },
+    "conv5_q055": {
+      "response": "I don’t have any information about when Andrew created an indoor play area for his dogs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 99.3
+    },
+    "conv5_q056": {
+      "response": "There’s no current information confirming that Andrew has moved into a new apartment for his dogs; the previous premise is outdated.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 153.8
+    },
+    "conv5_q057": {
+      "response": "I don’t have any information about when Andrew adopted Scout.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.8
+    },
+    "conv5_q058": {
+      "response": "I don’t have any record of what Audrey ate for dinner on October 24, 2023, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 85.2
+    },
+    "conv5_q059": {
+      "response": "I don’t have any information about when Andrew adopted his first pet, so I can’t calculate the elapsed time as of November 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 96.6
+    },
+    "conv5_q060": {
+      "response": "I don’t have current information on how many dogs Andrew has.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.1
+    },
+    "conv5_q061": {
+      "response": "I don’t have any information about a bird that mesmerizes Andrew—there’s no current evidence on that. The only relevant fact I have is that the user loves dogs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 47.4
+    },
+    "conv5_q062": {
+      "response": "There’s no current information about what Andrew said he misses when exploring nature trails with his family’s dog.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 136.1
+    },
+    "conv5_q063": {
+      "response": "I don’t have information about which pastries Andrew and his girlfriend ate at the cafe, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 73.1
+    },
+    "conv5_q064": {
+      "response": "I’m not aware of any information confirming that Audrey has a flower tattoo, so I can’t say what kind of flowers it might depict.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 85.2
+    },
+    "conv5_q065": {
+      "response": "I don’t have any current information about Audrey’s actions during dog playdates in the park, so I can’t answer that.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 117.6
+    },
+    "conv5_q066": {
+      "response": "I don’t have enough current information to determine what type of dog Andrew was looking to adopt based on his living space.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 249.1
+    },
+    "conv5_q067": {
+      "response": "The premise that Andrew wants a large, open space for his dog is outdated – currently the only known fact is that he has a dog (Toby) and can keep it while living in the city, with no stated desire for a big yard or open area.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 273.3
+    },
+    "conv5_q068": {
+      "response": "The premise that Audrey has actually signed up for a pet‑bonding workshop is no longer supported by current information. While we can’t confirm a workshop enrollment, we do know she loves dogs and feels joy from them, meets with other dog owners regularly, and even has a tattoo of four dogs. Given those strong preferences, it’s reasonable to infer that she might be interested in attending a workshop about bonding with pets to deepen her connection with her dogs and learn new ways to keep them happy and safe.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 103.6
+    },
+    "conv5_q069": {
+      "response": "I’m sorry, but I don’t have information about how Audrey heard about the pet‑bonding workshop.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.5
+    },
+    "conv5_q070": {
+      "response": "The premise that Audrey signed up for a workshop in May 2023 is no longer supported, so we can’t say what that workshop’s training type was. The only current information is that the relevant training involves using positive‑reinforcement techniques for dog training.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 249.1
+    },
+    "conv5_q071": {
+      "response": "I’m sorry, but I don’t have any information about how Audrey described the dog she met at the pet store.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.3
+    },
+    "conv5_q072": {
+      "response": "Audrey believes positive‑reinforcement training is important for pets because she actively uses positive‑reinforcement techniques when training her dog, indicating she values that approach.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 60.5
+    },
+    "conv5_q073": {
+      "response": "The premise is outdated—Andrew is no longer searching for a pet; he already has a dog named Toby, so there is no current challenge in a pet search.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 124.7
+    },
+    "conv5_q074": {
+      "response": "I don’t have information about how Andrew feels regarding his search for a pet‑friendly place.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 199.7
+    },
+    "conv5_q075": {
+      "response": "The premise about Andrew’s planned outdoor activities after the rock‑climbing class is outdated, and there’s no current information on those plans. The only up‑to‑date detail is that you’ve set up a doggy play area with agility equipment and toys in the backyard, so you might focus on using that instead.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 437.6
+    },
+    "conv5_q076": {
+      "response": "I don’t have any information about how long Audrey typically walks her dogs, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 105.9
+    },
+    "conv5_q077": {
+      "response": "Audrey set up a doggy play area with agility equipment and toys in the backyard.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 108.9
+    },
+    "conv5_q078": {
+      "response": "I’m sorry, but I don’t have any information about what Audrey and her friends stumbled across during that hike.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 112.6
+    },
+    "conv5_q079": {
+      "response": "I’m sorry, but I don’t have any information about Audrey’s favorite recipe or a sharing event on 3 July 2023, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 53.8
+    },
+    "conv5_q080": {
+      "response": "I don't have enough information to identify a dish that meets those criteria; there’s no current evidence confirming a garlic‑containing favorite of Audrey that was shared with Andrew on 3 July 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 105.1
+    },
+    "conv5_q081": {
+      "response": "I don’t have any information about what Andrew and his girlfriend did on the Monday before July 24 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.5
+    },
+    "conv5_q082": {
+      "response": "I don’t have information about the name of Audrey’s childhood dog.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.2
+    },
+    "conv5_q083": {
+      "response": "I’m not able to provide details about Audrey’s memories with a dog named Max, as there’s no verified information confirming that she had such a pet.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.6
+    },
+    "conv5_q084": {
+      "response": "I don’t have specific personality details for each of Audrey’s four fur babies. The current information only indicates that the dogs are happy, settled, feeling loved and safe, and that the user loves and enjoys having them.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 227.3
+    },
+    "conv5_q085": {
+      "response": "The claim that Audrey started classes with her pups on 4 August 2023 is not supported by current information; that premise is outdated. Currently, Audrey is focusing on positive‑reinforcement dog training and meets with other dog owners once a week.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 176.3
+    },
+    "conv5_q086": {
+      "response": "I don’t have any current information about how often Audrey takes her pups to the park for practice, so the frequency is unknown.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.7
+    },
+    "conv5_q087": {
+      "response": "I don’t have any current information about a trail hike Audrey did with her pups, so I can’t say how long it took.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 128.9
+    },
+    "conv5_q088": {
+      "response": "I don’t have any information about advice Audrey gave Andrew regarding grooming Toby, so I can’t provide that content.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.0
+    },
+    "conv5_q089": {
+      "response": "I don’t have current information about what Audrey says is essential for keeping the dogs looking good.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.9
+    },
+    "conv5_q090": {
+      "response": "I don't have any information about what Audrey organized with the neighbors' dogs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 143.8
+    },
+    "conv5_q091": {
+      "response": "There’s no available information confirming what, if anything, Audrey did to give her dogs extra comfort as the weather cooled.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 93.9
+    },
+    "conv5_q092": {
+      "response": "I don’t have current information on how Audrey describes the new beds for her dogs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 63.9
+    },
+    "conv5_q093": {
+      "response": "There’s no current information about the exact method Audrey used to calm her dog after the leash incident. In general, using positive‑reinforcement techniques—such as praise, treats, and gentle soothing—can help a dog settle down after a stressful event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.9
+    },
+    "conv5_q094": {
+      "response": "There’s no current information about how often Audrey walks her dogs, so the frequency cannot be determined.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.2
+    },
+    "conv5_q095": {
+      "response": "We know Audrey’s garden has flourishing, healthy flowers, but the specific types of flowers she tends are not mentioned in the current information.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 70.8
+    },
+    "conv5_q096": {
+      "response": "I don’t have any confirmed information about what Andrew learned from reading books about ecological systems.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.6
+    },
+    "conv5_q097": {
+      "response": "I’m not aware of any suggestion from Andrew about reducing carbon footprints.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.8
+    },
+    "conv5_q098": {
+      "response": "I don’t have any information about how Andrew suggests helping the planet while training the body, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 54.8
+    },
+    "conv5_q099": {
+      "response": "I don’t have any information about what Audrey did with her pups over the weekend before October 4 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 541.2
+    },
+    "conv5_q100": {
+      "response": "Audrey couldn't walk her dogs because she was limited to using only one arm.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 76.3
+    },
+    "conv5_q101": {
+      "response": "The only confirmed information is that Audrey sells handmade jewelry; no specific type of jewelry she specializes in is currently known.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.0
+    },
+    "conv5_q102": {
+      "response": "I don’t have evidence that Audrey makes jewelry from recycled objects, so I can’t explain why she would do that.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 195.6
+    },
+    "conv5_q103": {
+      "response": "Audrey donates a portion of his profits to an animal shelter.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 114.6
+    },
+    "conv5_q104": {
+      "response": "Audrey helps the animal shelter by selling handmade jewelry and donating a portion of the profits to the shelter.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 38.6
+    },
+    "conv5_q105": {
+      "response": "I don’t have information on the specific games Audrey’s dogs like to play at the park. The only current detail is that you’ve set up a backyard play area with agility equipment and toys, which they enjoy.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 139.2
+    },
+    "conv5_q106": {
+      "response": "I don’t have any information about what Audrey might have made to thank her neighbors.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.4
+    },
+    "conv5_q107": {
+      "response": "I don’t have any information about how Audrey’s dogs react to snow.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 45.9
+    },
+    "conv5_q108": {
+      "response": "I don’t have current information about how Audrey describes her dogs' response to snow.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 111.2
+    },
+    "conv5_q109": {
+      "response": "Audrey's dogs are happiest as companions during relaxed home time, on walks and the weekly meet‑ups with other dog owners, and during playful moments like dressing Toby in cute sweaters.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 223.3
+    },
+    "conv5_q110": {
+      "response": "I don't have information about a specific activity that Andrew and Buddy enjoy together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 212.6
+    },
+    "conv5_q111": {
+      "response": "I don’t have current information about what Andrew and Buddy enjoy doing on walks.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 172.6
+    },
+    "conv5_q112": {
+      "response": "I’m not aware of what cuisine Andrew tried at a new spot in town.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 124.8
+    },
+    "conv5_q113": {
+      "response": "I don’t have current information about Audrey’s sushi recommendation; the prior premise isn’t confirmed as safe or valid now.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 85.3
+    },
+    "conv5_q114": {
+      "response": "I don’t have enough information to determine what type of date Andrew has on Sunday.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 58.7
+    },
+    "conv5_q115": {
+      "response": "I’m sorry, but I don’t have any information about what Andrew and Audrey planned to do on the Saturday after October 28 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 156.2
+    },
+    "conv5_q116": {
+      "response": "I don’t have any information about what aspect of autumn Andrew finds beautiful.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 115.4
+    },
+    "conv5_q117": {
+      "response": "I don’t have any information about a specific action Audrey took in November 2023 to improve the care of her dogs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 95.3
+    },
+    "conv5_q118": {
+      "response": "Audrey meets up with other dog owners once a week for tips and playdates.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 121.5
+    },
+    "conv5_q119": {
+      "response": "I don’t have information about what Audrey shared regarding ways to keep dogs active in the city.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.3
+    },
+    "conv5_q120": {
+      "response": "I don’t have any record of Audrey’s suggested activities for mentally stimulating the dogs, so I can’t provide that information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 107.3
+    },
+    "conv5_q121": {
+      "response": "There is no current information indicating that Andrew has any plan involving Scout, Toby, and Buddy—the earlier premise is outdated and unsupported.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 232.6
+    },
+    "conv5_q122": {
+      "response": "Andrew got a special item for Scout and set up a backyard doggy play area equipped with agility gear and toys.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 56.5
+    }
+  },
+  "profile_snapshot_size": 87126,
+  "elapsed_seconds": 15822.0,
+  "usage_summary": {
+    "total_calls": 1154,
+    "cache_hits": 162,
+    "cache_misses": 992,
+    "logical_usage": {
+      "prompt_tokens": 4734426,
+      "completion_tokens": 717071,
+      "total_tokens": 5451497
+    },
+    "billed_usage": {
+      "prompt_tokens": 4486662,
+      "completion_tokens": 615322,
+      "total_tokens": 5101984
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 29,
+        "cache_hits": 29,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 85214,
+          "completion_tokens": 27564,
+          "total_tokens": 112778
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "delta_extractor": {
+        "calls": 28,
+        "cache_hits": 7,
+        "cache_misses": 21,
+        "logical_usage": {
+          "prompt_tokens": 79950,
+          "completion_tokens": 16642,
+          "total_tokens": 96592
+        },
+        "billed_usage": {
+          "prompt_tokens": 68954,
+          "completion_tokens": 12160,
+          "total_tokens": 81114
+        }
+      },
+      "update_judge": {
+        "calls": 51,
+        "cache_hits": 5,
+        "cache_misses": 46,
+        "logical_usage": {
+          "prompt_tokens": 123993,
+          "completion_tokens": 17065,
+          "total_tokens": 141058
+        },
+        "billed_usage": {
+          "prompt_tokens": 117610,
+          "completion_tokens": 16014,
+          "total_tokens": 133624
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 27,
+        "cache_hits": 7,
+        "cache_misses": 20,
+        "logical_usage": {
+          "prompt_tokens": 48336,
+          "completion_tokens": 20194,
+          "total_tokens": 68530
+        },
+        "billed_usage": {
+          "prompt_tokens": 35960,
+          "completion_tokens": 14938,
+          "total_tokens": 50898
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 142,
+        "cache_hits": 0,
+        "cache_misses": 142,
+        "logical_usage": {
+          "prompt_tokens": 445051,
+          "completion_tokens": 93922,
+          "total_tokens": 538973
+        },
+        "billed_usage": {
+          "prompt_tokens": 445051,
+          "completion_tokens": 93922,
+          "total_tokens": 538973
+        }
+      },
+      "invalidation_judge": {
+        "calls": 51,
+        "cache_hits": 0,
+        "cache_misses": 51,
+        "logical_usage": {
+          "prompt_tokens": 153659,
+          "completion_tokens": 27320,
+          "total_tokens": 180979
+        },
+        "billed_usage": {
+          "prompt_tokens": 153659,
+          "completion_tokens": 27320,
+          "total_tokens": 180979
+        }
+      },
+      "stale_support_judge": {
+        "calls": 181,
+        "cache_hits": 1,
+        "cache_misses": 180,
+        "logical_usage": {
+          "prompt_tokens": 177094,
+          "completion_tokens": 58650,
+          "total_tokens": 235744
+        },
+        "billed_usage": {
+          "prompt_tokens": 176191,
+          "completion_tokens": 58268,
+          "total_tokens": 234459
+        }
+      },
+      "query_parser": {
+        "calls": 87,
+        "cache_hits": 1,
+        "cache_misses": 86,
+        "logical_usage": {
+          "prompt_tokens": 127212,
+          "completion_tokens": 76682,
+          "total_tokens": 203894
+        },
+        "billed_usage": {
+          "prompt_tokens": 125754,
+          "completion_tokens": 75908,
+          "total_tokens": 201662
+        }
+      },
+      "premise_verifier": {
+        "calls": 87,
+        "cache_hits": 0,
+        "cache_misses": 87,
+        "logical_usage": {
+          "prompt_tokens": 1309087,
+          "completion_tokens": 87489,
+          "total_tokens": 1396576
+        },
+        "billed_usage": {
+          "prompt_tokens": 1309087,
+          "completion_tokens": 87489,
+          "total_tokens": 1396576
+        }
+      },
+      "query_lane_filter": {
+        "calls": 292,
+        "cache_hits": 112,
+        "cache_misses": 180,
+        "logical_usage": {
+          "prompt_tokens": 344053,
+          "completion_tokens": 178383,
+          "total_tokens": 522436
+        },
+        "billed_usage": {
+          "prompt_tokens": 213619,
+          "completion_tokens": 116143,
+          "total_tokens": 329762
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 86,
+        "cache_hits": 0,
+        "cache_misses": 86,
+        "logical_usage": {
+          "prompt_tokens": 1688875,
+          "completion_tokens": 89416,
+          "total_tokens": 1778291
+        },
+        "billed_usage": {
+          "prompt_tokens": 1688875,
+          "completion_tokens": 89416,
+          "total_tokens": 1778291
+        }
+      },
+      "answer_composer": {
+        "calls": 87,
+        "cache_hits": 0,
+        "cache_misses": 87,
+        "logical_usage": {
+          "prompt_tokens": 127544,
+          "completion_tokens": 19831,
+          "total_tokens": 147375
+        },
+        "billed_usage": {
+          "prompt_tokens": 127544,
+          "completion_tokens": 19831,
+          "total_tokens": 147375
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 22001,
+          "completion_tokens": 3400,
+          "total_tokens": 25401
+        },
+        "billed_usage": {
+          "prompt_tokens": 22001,
+          "completion_tokens": 3400,
+          "total_tokens": 25401
+        }
+      },
+      "constraint_builder": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 2357,
+          "completion_tokens": 513,
+          "total_tokens": 2870
+        },
+        "billed_usage": {
+          "prompt_tokens": 2357,
+          "completion_tokens": 513,
+          "total_tokens": 2870
+        }
+      }
+    },
+    "by_query_label": {
+      "conv5_q036": {
+        "calls": 4,
+        "cache_hits": 1,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 42725,
+          "completion_tokens": 2953,
+          "total_tokens": 45678
+        },
+        "billed_usage": {
+          "prompt_tokens": 41267,
+          "completion_tokens": 2179,
+          "total_tokens": 43446
+        }
+      },
+      "conv5_q037": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40818,
+          "completion_tokens": 2418,
+          "total_tokens": 43236
+        },
+        "billed_usage": {
+          "prompt_tokens": 40818,
+          "completion_tokens": 2418,
+          "total_tokens": 43236
+        }
+      },
+      "conv5_q038": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43971,
+          "completion_tokens": 2107,
+          "total_tokens": 46078
+        },
+        "billed_usage": {
+          "prompt_tokens": 43971,
+          "completion_tokens": 2107,
+          "total_tokens": 46078
+        }
+      },
+      "conv5_q039": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 53516,
+          "completion_tokens": 3871,
+          "total_tokens": 57387
+        },
+        "billed_usage": {
+          "prompt_tokens": 53516,
+          "completion_tokens": 3871,
+          "total_tokens": 57387
+        }
+      },
+      "conv5_q040": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42382,
+          "completion_tokens": 4176,
+          "total_tokens": 46558
+        },
+        "billed_usage": {
+          "prompt_tokens": 42382,
+          "completion_tokens": 4176,
+          "total_tokens": 46558
+        }
+      },
+      "conv5_q041": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31658,
+          "completion_tokens": 3560,
+          "total_tokens": 35218
+        },
+        "billed_usage": {
+          "prompt_tokens": 31658,
+          "completion_tokens": 3560,
+          "total_tokens": 35218
+        }
+      },
+      "conv5_q042": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35374,
+          "completion_tokens": 2582,
+          "total_tokens": 37956
+        },
+        "billed_usage": {
+          "prompt_tokens": 35374,
+          "completion_tokens": 2582,
+          "total_tokens": 37956
+        }
+      },
+      "conv5_q043": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33142,
+          "completion_tokens": 2679,
+          "total_tokens": 35821
+        },
+        "billed_usage": {
+          "prompt_tokens": 33142,
+          "completion_tokens": 2679,
+          "total_tokens": 35821
+        }
+      },
+      "conv5_q044": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39689,
+          "completion_tokens": 2058,
+          "total_tokens": 41747
+        },
+        "billed_usage": {
+          "prompt_tokens": 39689,
+          "completion_tokens": 2058,
+          "total_tokens": 41747
+        }
+      },
+      "conv5_q045": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42148,
+          "completion_tokens": 4352,
+          "total_tokens": 46500
+        },
+        "billed_usage": {
+          "prompt_tokens": 42148,
+          "completion_tokens": 4352,
+          "total_tokens": 46500
+        }
+      },
+      "conv5_q046": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38441,
+          "completion_tokens": 3882,
+          "total_tokens": 42323
+        },
+        "billed_usage": {
+          "prompt_tokens": 38441,
+          "completion_tokens": 3882,
+          "total_tokens": 42323
+        }
+      },
+      "conv5_q047": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39524,
+          "completion_tokens": 2603,
+          "total_tokens": 42127
+        },
+        "billed_usage": {
+          "prompt_tokens": 39524,
+          "completion_tokens": 2603,
+          "total_tokens": 42127
+        }
+      },
+      "conv5_q048": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38142,
+          "completion_tokens": 4138,
+          "total_tokens": 42280
+        },
+        "billed_usage": {
+          "prompt_tokens": 38142,
+          "completion_tokens": 4138,
+          "total_tokens": 42280
+        }
+      },
+      "conv5_q049": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 40202,
+          "completion_tokens": 4040,
+          "total_tokens": 44242
+        },
+        "billed_usage": {
+          "prompt_tokens": 40202,
+          "completion_tokens": 4040,
+          "total_tokens": 44242
+        }
+      },
+      "conv5_q050": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 40585,
+          "completion_tokens": 4491,
+          "total_tokens": 45076
+        },
+        "billed_usage": {
+          "prompt_tokens": 40585,
+          "completion_tokens": 4491,
+          "total_tokens": 45076
+        }
+      },
+      "conv5_q051": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30200,
+          "completion_tokens": 3103,
+          "total_tokens": 33303
+        },
+        "billed_usage": {
+          "prompt_tokens": 30200,
+          "completion_tokens": 3103,
+          "total_tokens": 33303
+        }
+      },
+      "conv5_q052": {
+        "calls": 6,
+        "cache_hits": 0,
+        "cache_misses": 6,
+        "logical_usage": {
+          "prompt_tokens": 51227,
+          "completion_tokens": 5004,
+          "total_tokens": 56231
+        },
+        "billed_usage": {
+          "prompt_tokens": 51227,
+          "completion_tokens": 5004,
+          "total_tokens": 56231
+        }
+      },
+      "conv5_q053": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36140,
+          "completion_tokens": 3506,
+          "total_tokens": 39646
+        },
+        "billed_usage": {
+          "prompt_tokens": 36140,
+          "completion_tokens": 3506,
+          "total_tokens": 39646
+        }
+      },
+      "conv5_q054": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36794,
+          "completion_tokens": 3036,
+          "total_tokens": 39830
+        },
+        "billed_usage": {
+          "prompt_tokens": 36794,
+          "completion_tokens": 3036,
+          "total_tokens": 39830
+        }
+      },
+      "conv5_q055": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31168,
+          "completion_tokens": 2912,
+          "total_tokens": 34080
+        },
+        "billed_usage": {
+          "prompt_tokens": 31168,
+          "completion_tokens": 2912,
+          "total_tokens": 34080
+        }
+      },
+      "conv5_q056": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36329,
+          "completion_tokens": 5044,
+          "total_tokens": 41373
+        },
+        "billed_usage": {
+          "prompt_tokens": 36329,
+          "completion_tokens": 5044,
+          "total_tokens": 41373
+        }
+      },
+      "conv5_q057": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38718,
+          "completion_tokens": 2806,
+          "total_tokens": 41524
+        },
+        "billed_usage": {
+          "prompt_tokens": 38718,
+          "completion_tokens": 2806,
+          "total_tokens": 41524
+        }
+      },
+      "conv5_q058": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42919,
+          "completion_tokens": 2115,
+          "total_tokens": 45034
+        },
+        "billed_usage": {
+          "prompt_tokens": 42919,
+          "completion_tokens": 2115,
+          "total_tokens": 45034
+        }
+      },
+      "conv5_q059": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38462,
+          "completion_tokens": 2819,
+          "total_tokens": 41281
+        },
+        "billed_usage": {
+          "prompt_tokens": 38462,
+          "completion_tokens": 2819,
+          "total_tokens": 41281
+        }
+      },
+      "conv5_q060": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37566,
+          "completion_tokens": 2763,
+          "total_tokens": 40329
+        },
+        "billed_usage": {
+          "prompt_tokens": 37566,
+          "completion_tokens": 2763,
+          "total_tokens": 40329
+        }
+      },
+      "conv5_q061": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30146,
+          "completion_tokens": 3227,
+          "total_tokens": 33373
+        },
+        "billed_usage": {
+          "prompt_tokens": 30146,
+          "completion_tokens": 3227,
+          "total_tokens": 33373
+        }
+      },
+      "conv5_q062": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45908,
+          "completion_tokens": 3910,
+          "total_tokens": 49818
+        },
+        "billed_usage": {
+          "prompt_tokens": 45908,
+          "completion_tokens": 3910,
+          "total_tokens": 49818
+        }
+      },
+      "conv5_q063": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44870,
+          "completion_tokens": 2208,
+          "total_tokens": 47078
+        },
+        "billed_usage": {
+          "prompt_tokens": 44870,
+          "completion_tokens": 2208,
+          "total_tokens": 47078
+        }
+      },
+      "conv5_q064": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32621,
+          "completion_tokens": 2202,
+          "total_tokens": 34823
+        },
+        "billed_usage": {
+          "prompt_tokens": 32621,
+          "completion_tokens": 2202,
+          "total_tokens": 34823
+        }
+      },
+      "conv5_q065": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43008,
+          "completion_tokens": 2599,
+          "total_tokens": 45607
+        },
+        "billed_usage": {
+          "prompt_tokens": 43008,
+          "completion_tokens": 2599,
+          "total_tokens": 45607
+        }
+      },
+      "conv5_q066": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43944,
+          "completion_tokens": 4160,
+          "total_tokens": 48104
+        },
+        "billed_usage": {
+          "prompt_tokens": 43944,
+          "completion_tokens": 4160,
+          "total_tokens": 48104
+        }
+      },
+      "conv5_q067": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33294,
+          "completion_tokens": 4912,
+          "total_tokens": 38206
+        },
+        "billed_usage": {
+          "prompt_tokens": 33294,
+          "completion_tokens": 4912,
+          "total_tokens": 38206
+        }
+      },
+      "conv5_q068": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 50631,
+          "completion_tokens": 5306,
+          "total_tokens": 55937
+        },
+        "billed_usage": {
+          "prompt_tokens": 50631,
+          "completion_tokens": 5306,
+          "total_tokens": 55937
+        }
+      },
+      "conv5_q069": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36929,
+          "completion_tokens": 2805,
+          "total_tokens": 39734
+        },
+        "billed_usage": {
+          "prompt_tokens": 36929,
+          "completion_tokens": 2805,
+          "total_tokens": 39734
+        }
+      },
+      "conv5_q070": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41012,
+          "completion_tokens": 3230,
+          "total_tokens": 44242
+        },
+        "billed_usage": {
+          "prompt_tokens": 41012,
+          "completion_tokens": 3230,
+          "total_tokens": 44242
+        }
+      },
+      "conv5_q071": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40912,
+          "completion_tokens": 2150,
+          "total_tokens": 43062
+        },
+        "billed_usage": {
+          "prompt_tokens": 40912,
+          "completion_tokens": 2150,
+          "total_tokens": 43062
+        }
+      },
+      "conv5_q072": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 15695,
+          "completion_tokens": 2208,
+          "total_tokens": 17903
+        },
+        "billed_usage": {
+          "prompt_tokens": 15695,
+          "completion_tokens": 2208,
+          "total_tokens": 17903
+        }
+      },
+      "conv5_q073": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41532,
+          "completion_tokens": 5112,
+          "total_tokens": 46644
+        },
+        "billed_usage": {
+          "prompt_tokens": 41532,
+          "completion_tokens": 5112,
+          "total_tokens": 46644
+        }
+      },
+      "conv5_q074": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41735,
+          "completion_tokens": 4514,
+          "total_tokens": 46249
+        },
+        "billed_usage": {
+          "prompt_tokens": 41735,
+          "completion_tokens": 4514,
+          "total_tokens": 46249
+        }
+      },
+      "conv5_q075": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 52731,
+          "completion_tokens": 4092,
+          "total_tokens": 56823
+        },
+        "billed_usage": {
+          "prompt_tokens": 52731,
+          "completion_tokens": 4092,
+          "total_tokens": 56823
+        }
+      },
+      "conv5_q076": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44447,
+          "completion_tokens": 3002,
+          "total_tokens": 47449
+        },
+        "billed_usage": {
+          "prompt_tokens": 44447,
+          "completion_tokens": 3002,
+          "total_tokens": 47449
+        }
+      },
+      "conv5_q077": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40461,
+          "completion_tokens": 3428,
+          "total_tokens": 43889
+        },
+        "billed_usage": {
+          "prompt_tokens": 40461,
+          "completion_tokens": 3428,
+          "total_tokens": 43889
+        }
+      },
+      "conv5_q078": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 47795,
+          "completion_tokens": 2611,
+          "total_tokens": 50406
+        },
+        "billed_usage": {
+          "prompt_tokens": 47795,
+          "completion_tokens": 2611,
+          "total_tokens": 50406
+        }
+      },
+      "conv5_q079": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35760,
+          "completion_tokens": 2461,
+          "total_tokens": 38221
+        },
+        "billed_usage": {
+          "prompt_tokens": 35760,
+          "completion_tokens": 2461,
+          "total_tokens": 38221
+        }
+      },
+      "conv5_q080": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45394,
+          "completion_tokens": 3858,
+          "total_tokens": 49252
+        },
+        "billed_usage": {
+          "prompt_tokens": 45394,
+          "completion_tokens": 3858,
+          "total_tokens": 49252
+        }
+      },
+      "conv5_q081": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39253,
+          "completion_tokens": 3596,
+          "total_tokens": 42849
+        },
+        "billed_usage": {
+          "prompt_tokens": 39253,
+          "completion_tokens": 3596,
+          "total_tokens": 42849
+        }
+      },
+      "conv5_q082": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 27535,
+          "completion_tokens": 3235,
+          "total_tokens": 30770
+        },
+        "billed_usage": {
+          "prompt_tokens": 27535,
+          "completion_tokens": 3235,
+          "total_tokens": 30770
+        }
+      },
+      "conv5_q083": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 29514,
+          "completion_tokens": 2427,
+          "total_tokens": 31941
+        },
+        "billed_usage": {
+          "prompt_tokens": 29514,
+          "completion_tokens": 2427,
+          "total_tokens": 31941
+        }
+      },
+      "conv5_q084": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35151,
+          "completion_tokens": 4673,
+          "total_tokens": 39824
+        },
+        "billed_usage": {
+          "prompt_tokens": 35151,
+          "completion_tokens": 4673,
+          "total_tokens": 39824
+        }
+      },
+      "conv5_q085": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42030,
+          "completion_tokens": 4513,
+          "total_tokens": 46543
+        },
+        "billed_usage": {
+          "prompt_tokens": 42030,
+          "completion_tokens": 4513,
+          "total_tokens": 46543
+        }
+      },
+      "conv5_q086": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 32381,
+          "completion_tokens": 3982,
+          "total_tokens": 36363
+        },
+        "billed_usage": {
+          "prompt_tokens": 32381,
+          "completion_tokens": 3982,
+          "total_tokens": 36363
+        }
+      },
+      "conv5_q087": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37435,
+          "completion_tokens": 3422,
+          "total_tokens": 40857
+        },
+        "billed_usage": {
+          "prompt_tokens": 37435,
+          "completion_tokens": 3422,
+          "total_tokens": 40857
+        }
+      },
+      "conv5_q088": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43313,
+          "completion_tokens": 2085,
+          "total_tokens": 45398
+        },
+        "billed_usage": {
+          "prompt_tokens": 43313,
+          "completion_tokens": 2085,
+          "total_tokens": 45398
+        }
+      },
+      "conv5_q089": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35910,
+          "completion_tokens": 2522,
+          "total_tokens": 38432
+        },
+        "billed_usage": {
+          "prompt_tokens": 35910,
+          "completion_tokens": 2522,
+          "total_tokens": 38432
+        }
+      },
+      "conv5_q090": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36650,
+          "completion_tokens": 2582,
+          "total_tokens": 39232
+        },
+        "billed_usage": {
+          "prompt_tokens": 36650,
+          "completion_tokens": 2582,
+          "total_tokens": 39232
+        }
+      },
+      "conv5_q091": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31104,
+          "completion_tokens": 3219,
+          "total_tokens": 34323
+        },
+        "billed_usage": {
+          "prompt_tokens": 31104,
+          "completion_tokens": 3219,
+          "total_tokens": 34323
+        }
+      },
+      "conv5_q092": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36126,
+          "completion_tokens": 2496,
+          "total_tokens": 38622
+        },
+        "billed_usage": {
+          "prompt_tokens": 36126,
+          "completion_tokens": 2496,
+          "total_tokens": 38622
+        }
+      },
+      "conv5_q093": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37887,
+          "completion_tokens": 2717,
+          "total_tokens": 40604
+        },
+        "billed_usage": {
+          "prompt_tokens": 37887,
+          "completion_tokens": 2717,
+          "total_tokens": 40604
+        }
+      },
+      "conv5_q094": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31028,
+          "completion_tokens": 3774,
+          "total_tokens": 34802
+        },
+        "billed_usage": {
+          "prompt_tokens": 31028,
+          "completion_tokens": 3774,
+          "total_tokens": 34802
+        }
+      },
+      "conv5_q095": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39760,
+          "completion_tokens": 2933,
+          "total_tokens": 42693
+        },
+        "billed_usage": {
+          "prompt_tokens": 39760,
+          "completion_tokens": 2933,
+          "total_tokens": 42693
+        }
+      },
+      "conv5_q096": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30311,
+          "completion_tokens": 2813,
+          "total_tokens": 33124
+        },
+        "billed_usage": {
+          "prompt_tokens": 30311,
+          "completion_tokens": 2813,
+          "total_tokens": 33124
+        }
+      },
+      "conv5_q097": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37141,
+          "completion_tokens": 2012,
+          "total_tokens": 39153
+        },
+        "billed_usage": {
+          "prompt_tokens": 37141,
+          "completion_tokens": 2012,
+          "total_tokens": 39153
+        }
+      },
+      "conv5_q098": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30851,
+          "completion_tokens": 2414,
+          "total_tokens": 33265
+        },
+        "billed_usage": {
+          "prompt_tokens": 30851,
+          "completion_tokens": 2414,
+          "total_tokens": 33265
+        }
+      },
+      "conv5_q099": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34075,
+          "completion_tokens": 2703,
+          "total_tokens": 36778
+        },
+        "billed_usage": {
+          "prompt_tokens": 34075,
+          "completion_tokens": 2703,
+          "total_tokens": 36778
+        }
+      },
+      "conv5_q100": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38315,
+          "completion_tokens": 3418,
+          "total_tokens": 41733
+        },
+        "billed_usage": {
+          "prompt_tokens": 38315,
+          "completion_tokens": 3418,
+          "total_tokens": 41733
+        }
+      },
+      "conv5_q101": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32588,
+          "completion_tokens": 3628,
+          "total_tokens": 36216
+        },
+        "billed_usage": {
+          "prompt_tokens": 32588,
+          "completion_tokens": 3628,
+          "total_tokens": 36216
+        }
+      },
+      "conv5_q102": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32084,
+          "completion_tokens": 3182,
+          "total_tokens": 35266
+        },
+        "billed_usage": {
+          "prompt_tokens": 32084,
+          "completion_tokens": 3182,
+          "total_tokens": 35266
+        }
+      },
+      "conv5_q103": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33293,
+          "completion_tokens": 2849,
+          "total_tokens": 36142
+        },
+        "billed_usage": {
+          "prompt_tokens": 33293,
+          "completion_tokens": 2849,
+          "total_tokens": 36142
+        }
+      },
+      "conv5_q104": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 15777,
+          "completion_tokens": 2397,
+          "total_tokens": 18174
+        },
+        "billed_usage": {
+          "prompt_tokens": 15777,
+          "completion_tokens": 2397,
+          "total_tokens": 18174
+        }
+      },
+      "conv5_q105": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37967,
+          "completion_tokens": 3633,
+          "total_tokens": 41600
+        },
+        "billed_usage": {
+          "prompt_tokens": 37967,
+          "completion_tokens": 3633,
+          "total_tokens": 41600
+        }
+      },
+      "conv5_q106": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34721,
+          "completion_tokens": 1950,
+          "total_tokens": 36671
+        },
+        "billed_usage": {
+          "prompt_tokens": 34721,
+          "completion_tokens": 1950,
+          "total_tokens": 36671
+        }
+      },
+      "conv5_q107": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31614,
+          "completion_tokens": 2486,
+          "total_tokens": 34100
+        },
+        "billed_usage": {
+          "prompt_tokens": 31614,
+          "completion_tokens": 2486,
+          "total_tokens": 34100
+        }
+      },
+      "conv5_q108": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36215,
+          "completion_tokens": 2490,
+          "total_tokens": 38705
+        },
+        "billed_usage": {
+          "prompt_tokens": 36215,
+          "completion_tokens": 2490,
+          "total_tokens": 38705
+        }
+      },
+      "conv5_q109": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35303,
+          "completion_tokens": 5024,
+          "total_tokens": 40327
+        },
+        "billed_usage": {
+          "prompt_tokens": 35303,
+          "completion_tokens": 5024,
+          "total_tokens": 40327
+        }
+      },
+      "conv5_q110": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39229,
+          "completion_tokens": 2794,
+          "total_tokens": 42023
+        },
+        "billed_usage": {
+          "prompt_tokens": 39229,
+          "completion_tokens": 2794,
+          "total_tokens": 42023
+        }
+      },
+      "conv5_q111": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38392,
+          "completion_tokens": 3450,
+          "total_tokens": 41842
+        },
+        "billed_usage": {
+          "prompt_tokens": 38392,
+          "completion_tokens": 3450,
+          "total_tokens": 41842
+        }
+      },
+      "conv5_q112": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42580,
+          "completion_tokens": 2027,
+          "total_tokens": 44607
+        },
+        "billed_usage": {
+          "prompt_tokens": 42580,
+          "completion_tokens": 2027,
+          "total_tokens": 44607
+        }
+      },
+      "conv5_q113": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40245,
+          "completion_tokens": 2651,
+          "total_tokens": 42896
+        },
+        "billed_usage": {
+          "prompt_tokens": 40245,
+          "completion_tokens": 2651,
+          "total_tokens": 42896
+        }
+      },
+      "conv5_q114": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32755,
+          "completion_tokens": 2348,
+          "total_tokens": 35103
+        },
+        "billed_usage": {
+          "prompt_tokens": 32755,
+          "completion_tokens": 2348,
+          "total_tokens": 35103
+        }
+      },
+      "conv5_q115": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46059,
+          "completion_tokens": 1981,
+          "total_tokens": 48040
+        },
+        "billed_usage": {
+          "prompt_tokens": 46059,
+          "completion_tokens": 1981,
+          "total_tokens": 48040
+        }
+      },
+      "conv5_q116": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33215,
+          "completion_tokens": 2153,
+          "total_tokens": 35368
+        },
+        "billed_usage": {
+          "prompt_tokens": 33215,
+          "completion_tokens": 2153,
+          "total_tokens": 35368
+        }
+      },
+      "conv5_q117": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38829,
+          "completion_tokens": 4364,
+          "total_tokens": 43193
+        },
+        "billed_usage": {
+          "prompt_tokens": 38829,
+          "completion_tokens": 4364,
+          "total_tokens": 43193
+        }
+      },
+      "conv5_q118": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32030,
+          "completion_tokens": 2540,
+          "total_tokens": 34570
+        },
+        "billed_usage": {
+          "prompt_tokens": 32030,
+          "completion_tokens": 2540,
+          "total_tokens": 34570
+        }
+      },
+      "conv5_q119": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35517,
+          "completion_tokens": 2356,
+          "total_tokens": 37873
+        },
+        "billed_usage": {
+          "prompt_tokens": 35517,
+          "completion_tokens": 2356,
+          "total_tokens": 37873
+        }
+      },
+      "conv5_q120": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35123,
+          "completion_tokens": 2518,
+          "total_tokens": 37641
+        },
+        "billed_usage": {
+          "prompt_tokens": 35123,
+          "completion_tokens": 2518,
+          "total_tokens": 37641
+        }
+      },
+      "conv5_q121": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40286,
+          "completion_tokens": 4338,
+          "total_tokens": 44624
+        },
+        "billed_usage": {
+          "prompt_tokens": 40286,
+          "completion_tokens": 4338,
+          "total_tokens": 44624
+        }
+      },
+      "conv5_q122": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36819,
+          "completion_tokens": 3623,
+          "total_tokens": 40442
+        },
+        "billed_usage": {
+          "prompt_tokens": 36819,
+          "completion_tokens": 3623,
+          "total_tokens": 40442
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "uid": "gpt4_2ba83207",
+  "num_sessions": 53,
+  "answers": {
+    "gpt4_2ba83207": {
+      "response": "I don’t have enough information to determine which grocery store you spent the most money at, because there’s no confirmed record of your spending data for the past month.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.7
+    }
+  },
+  "profile_snapshot_size": 88103,
+  "elapsed_seconds": 6934.5,
+  "usage_summary": {
+    "total_calls": 763,
+    "cache_hits": 3,
+    "cache_misses": 760,
+    "logical_usage": {
+      "prompt_tokens": 1944740,
+      "completion_tokens": 368336,
+      "total_tokens": 2313076
+    },
+    "billed_usage": {
+      "prompt_tokens": 1940449,
+      "completion_tokens": 366205,
+      "total_tokens": 2306654
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 52,
+        "cache_hits": 1,
+        "cache_misses": 51,
+        "logical_usage": {
+          "prompt_tokens": 101135,
+          "completion_tokens": 41184,
+          "total_tokens": 142319
+        },
+        "billed_usage": {
+          "prompt_tokens": 99233,
+          "completion_tokens": 40256,
+          "total_tokens": 139489
+        }
+      },
+      "delta_extractor": {
+        "calls": 45,
+        "cache_hits": 0,
+        "cache_misses": 45,
+        "logical_usage": {
+          "prompt_tokens": 171685,
+          "completion_tokens": 23646,
+          "total_tokens": 195331
+        },
+        "billed_usage": {
+          "prompt_tokens": 171685,
+          "completion_tokens": 23646,
+          "total_tokens": 195331
+        }
+      },
+      "update_judge": {
+        "calls": 81,
+        "cache_hits": 0,
+        "cache_misses": 81,
+        "logical_usage": {
+          "prompt_tokens": 281122,
+          "completion_tokens": 22813,
+          "total_tokens": 303935
+        },
+        "billed_usage": {
+          "prompt_tokens": 281122,
+          "completion_tokens": 22813,
+          "total_tokens": 303935
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 43,
+        "cache_hits": 0,
+        "cache_misses": 43,
+        "logical_usage": {
+          "prompt_tokens": 75350,
+          "completion_tokens": 32751,
+          "total_tokens": 108101
+        },
+        "billed_usage": {
+          "prompt_tokens": 75350,
+          "completion_tokens": 32751,
+          "total_tokens": 108101
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 191,
+        "cache_hits": 0,
+        "cache_misses": 191,
+        "logical_usage": {
+          "prompt_tokens": 741496,
+          "completion_tokens": 129394,
+          "total_tokens": 870890
+        },
+        "billed_usage": {
+          "prompt_tokens": 741496,
+          "completion_tokens": 129394,
+          "total_tokens": 870890
+        }
+      },
+      "invalidation_judge": {
+        "calls": 62,
+        "cache_hits": 0,
+        "cache_misses": 62,
+        "logical_usage": {
+          "prompt_tokens": 253369,
+          "completion_tokens": 31100,
+          "total_tokens": 284469
+        },
+        "billed_usage": {
+          "prompt_tokens": 253369,
+          "completion_tokens": 31100,
+          "total_tokens": 284469
+        }
+      },
+      "stale_support_judge": {
+        "calls": 281,
+        "cache_hits": 0,
+        "cache_misses": 281,
+        "logical_usage": {
+          "prompt_tokens": 270208,
+          "completion_tokens": 82529,
+          "total_tokens": 352737
+        },
+        "billed_usage": {
+          "prompt_tokens": 270208,
+          "completion_tokens": 82529,
+          "total_tokens": 352737
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1482,
+          "completion_tokens": 740,
+          "total_tokens": 2222
+        },
+        "billed_usage": {
+          "prompt_tokens": 1482,
+          "completion_tokens": 740,
+          "total_tokens": 2222
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 19265,
+          "completion_tokens": 739,
+          "total_tokens": 20004
+        },
+        "billed_usage": {
+          "prompt_tokens": 19265,
+          "completion_tokens": 739,
+          "total_tokens": 20004
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4778,
+          "completion_tokens": 2406,
+          "total_tokens": 7184
+        },
+        "billed_usage": {
+          "prompt_tokens": 2389,
+          "completion_tokens": 1203,
+          "total_tokens": 3592
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 23738,
+          "completion_tokens": 789,
+          "total_tokens": 24527
+        },
+        "billed_usage": {
+          "prompt_tokens": 23738,
+          "completion_tokens": 789,
+          "total_tokens": 24527
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1112,
+          "completion_tokens": 245,
+          "total_tokens": 1357
+        },
+        "billed_usage": {
+          "prompt_tokens": 1112,
+          "completion_tokens": 245,
+          "total_tokens": 1357
+        }
+      }
+    },
+    "by_query_label": {
+      "gpt4_2ba83207": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45597,
+          "completion_tokens": 2513,
+          "total_tokens": 48110
+        },
+        "billed_usage": {
+          "prompt_tokens": 45597,
+          "completion_tokens": 2513,
+          "total_tokens": 48110
+        }
+      }
+    }
+  }
+}

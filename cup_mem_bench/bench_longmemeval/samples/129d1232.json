@@ -1,0 +1,227 @@
+{
+  "uid": "129d1232",
+  "num_sessions": 48,
+  "answers": {
+    "129d1232": {
+      "response": "I don’t have any current information confirming how much money you raised at charity events, so I can’t calculate a total for you.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 93.3
+    }
+  },
+  "profile_snapshot_size": 81230,
+  "elapsed_seconds": 6162.1,
+  "usage_summary": {
+    "total_calls": 684,
+    "cache_hits": 4,
+    "cache_misses": 680,
+    "logical_usage": {
+      "prompt_tokens": 1669530,
+      "completion_tokens": 329491,
+      "total_tokens": 1999021
+    },
+    "billed_usage": {
+      "prompt_tokens": 1663096,
+      "completion_tokens": 326652,
+      "total_tokens": 1989748
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 49,
+        "cache_hits": 2,
+        "cache_misses": 47,
+        "logical_usage": {
+          "prompt_tokens": 98701,
+          "completion_tokens": 37152,
+          "total_tokens": 135853
+        },
+        "billed_usage": {
+          "prompt_tokens": 94668,
+          "completion_tokens": 35398,
+          "total_tokens": 130066
+        }
+      },
+      "delta_extractor": {
+        "calls": 44,
+        "cache_hits": 0,
+        "cache_misses": 44,
+        "logical_usage": {
+          "prompt_tokens": 149846,
+          "completion_tokens": 21883,
+          "total_tokens": 171729
+        },
+        "billed_usage": {
+          "prompt_tokens": 149846,
+          "completion_tokens": 21883,
+          "total_tokens": 171729
+        }
+      },
+      "update_judge": {
+        "calls": 68,
+        "cache_hits": 0,
+        "cache_misses": 68,
+        "logical_usage": {
+          "prompt_tokens": 233693,
+          "completion_tokens": 18684,
+          "total_tokens": 252377
+        },
+        "billed_usage": {
+          "prompt_tokens": 233693,
+          "completion_tokens": 18684,
+          "total_tokens": 252377
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 64872,
+          "completion_tokens": 28380,
+          "total_tokens": 93252
+        },
+        "billed_usage": {
+          "prompt_tokens": 64872,
+          "completion_tokens": 28380,
+          "total_tokens": 93252
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 176,
+        "cache_hits": 0,
+        "cache_misses": 176,
+        "logical_usage": {
+          "prompt_tokens": 638542,
+          "completion_tokens": 112473,
+          "total_tokens": 751015
+        },
+        "billed_usage": {
+          "prompt_tokens": 638542,
+          "completion_tokens": 112473,
+          "total_tokens": 751015
+        }
+      },
+      "invalidation_judge": {
+        "calls": 59,
+        "cache_hits": 0,
+        "cache_misses": 59,
+        "logical_usage": {
+          "prompt_tokens": 201246,
+          "completion_tokens": 34452,
+          "total_tokens": 235698
+        },
+        "billed_usage": {
+          "prompt_tokens": 201246,
+          "completion_tokens": 34452,
+          "total_tokens": 235698
+        }
+      },
+      "stale_support_judge": {
+        "calls": 243,
+        "cache_hits": 0,
+        "cache_misses": 243,
+        "logical_usage": {
+          "prompt_tokens": 240117,
+          "completion_tokens": 71809,
+          "total_tokens": 311926
+        },
+        "billed_usage": {
+          "prompt_tokens": 240117,
+          "completion_tokens": 71809,
+          "total_tokens": 311926
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1484,
+          "completion_tokens": 914,
+          "total_tokens": 2398
+        },
+        "billed_usage": {
+          "prompt_tokens": 1484,
+          "completion_tokens": 914,
+          "total_tokens": 2398
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 15294,
+          "completion_tokens": 743,
+          "total_tokens": 16037
+        },
+        "billed_usage": {
+          "prompt_tokens": 15294,
+          "completion_tokens": 743,
+          "total_tokens": 16037
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4802,
+          "completion_tokens": 2170,
+          "total_tokens": 6972
+        },
+        "billed_usage": {
+          "prompt_tokens": 2401,
+          "completion_tokens": 1085,
+          "total_tokens": 3486
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 19824,
+          "completion_tokens": 650,
+          "total_tokens": 20474
+        },
+        "billed_usage": {
+          "prompt_tokens": 19824,
+          "completion_tokens": 650,
+          "total_tokens": 20474
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1109,
+          "completion_tokens": 181,
+          "total_tokens": 1290
+        },
+        "billed_usage": {
+          "prompt_tokens": 1109,
+          "completion_tokens": 181,
+          "total_tokens": 1290
+        }
+      }
+    },
+    "by_query_label": {
+      "129d1232": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37711,
+          "completion_tokens": 2488,
+          "total_tokens": 40199
+        },
+        "billed_usage": {
+          "prompt_tokens": 37711,
+          "completion_tokens": 2488,
+          "total_tokens": 40199
+        }
+      }
+    }
+  }
+}

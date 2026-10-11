@@ -1,0 +1,227 @@
+{
+  "uid": "2e6d26dc",
+  "num_sessions": 54,
+  "answers": {
+    "2e6d26dc": {
+      "response": "I don’t have any information about recent births among your friends or family, so I can’t provide a count.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.6
+    }
+  },
+  "profile_snapshot_size": 65579,
+  "elapsed_seconds": 5183.1,
+  "usage_summary": {
+    "total_calls": 582,
+    "cache_hits": 0,
+    "cache_misses": 582,
+    "logical_usage": {
+      "prompt_tokens": 1387237,
+      "completion_tokens": 274750,
+      "total_tokens": 1661987
+    },
+    "billed_usage": {
+      "prompt_tokens": 1387237,
+      "completion_tokens": 274750,
+      "total_tokens": 1661987
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 52,
+        "cache_hits": 0,
+        "cache_misses": 52,
+        "logical_usage": {
+          "prompt_tokens": 109016,
+          "completion_tokens": 35777,
+          "total_tokens": 144793
+        },
+        "billed_usage": {
+          "prompt_tokens": 109016,
+          "completion_tokens": 35777,
+          "total_tokens": 144793
+        }
+      },
+      "delta_extractor": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 108796,
+          "completion_tokens": 17824,
+          "total_tokens": 126620
+        },
+        "billed_usage": {
+          "prompt_tokens": 108796,
+          "completion_tokens": 17824,
+          "total_tokens": 126620
+        }
+      },
+      "update_judge": {
+        "calls": 59,
+        "cache_hits": 0,
+        "cache_misses": 59,
+        "logical_usage": {
+          "prompt_tokens": 181529,
+          "completion_tokens": 15829,
+          "total_tokens": 197358
+        },
+        "billed_usage": {
+          "prompt_tokens": 181529,
+          "completion_tokens": 15829,
+          "total_tokens": 197358
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 33,
+        "cache_hits": 0,
+        "cache_misses": 33,
+        "logical_usage": {
+          "prompt_tokens": 56950,
+          "completion_tokens": 24596,
+          "total_tokens": 81546
+        },
+        "billed_usage": {
+          "prompt_tokens": 56950,
+          "completion_tokens": 24596,
+          "total_tokens": 81546
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 153,
+        "cache_hits": 0,
+        "cache_misses": 153,
+        "logical_usage": {
+          "prompt_tokens": 504507,
+          "completion_tokens": 91895,
+          "total_tokens": 596402
+        },
+        "billed_usage": {
+          "prompt_tokens": 504507,
+          "completion_tokens": 91895,
+          "total_tokens": 596402
+        }
+      },
+      "invalidation_judge": {
+        "calls": 49,
+        "cache_hits": 0,
+        "cache_misses": 49,
+        "logical_usage": {
+          "prompt_tokens": 192216,
+          "completion_tokens": 26725,
+          "total_tokens": 218941
+        },
+        "billed_usage": {
+          "prompt_tokens": 192216,
+          "completion_tokens": 26725,
+          "total_tokens": 218941
+        }
+      },
+      "stale_support_judge": {
+        "calls": 193,
+        "cache_hits": 0,
+        "cache_misses": 193,
+        "logical_usage": {
+          "prompt_tokens": 188842,
+          "completion_tokens": 58240,
+          "total_tokens": 247082
+        },
+        "billed_usage": {
+          "prompt_tokens": 188842,
+          "completion_tokens": 58240,
+          "total_tokens": 247082
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1483,
+          "completion_tokens": 807,
+          "total_tokens": 2290
+        },
+        "billed_usage": {
+          "prompt_tokens": 1483,
+          "completion_tokens": 807,
+          "total_tokens": 2290
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 17725,
+          "completion_tokens": 871,
+          "total_tokens": 18596
+        },
+        "billed_usage": {
+          "prompt_tokens": 17725,
+          "completion_tokens": 871,
+          "total_tokens": 18596
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 22472,
+          "completion_tokens": 821,
+          "total_tokens": 23293
+        },
+        "billed_usage": {
+          "prompt_tokens": 22472,
+          "completion_tokens": 821,
+          "total_tokens": 23293
+        }
+      },
+      "query_lane_filter": {
+        "calls": 2,
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 2402,
+          "completion_tokens": 1142,
+          "total_tokens": 3544
+        },
+        "billed_usage": {
+          "prompt_tokens": 2402,
+          "completion_tokens": 1142,
+          "total_tokens": 3544
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1299,
+          "completion_tokens": 223,
+          "total_tokens": 1522
+        },
+        "billed_usage": {
+          "prompt_tokens": 1299,
+          "completion_tokens": 223,
+          "total_tokens": 1522
+        }
+      }
+    },
+    "by_query_label": {
+      "2e6d26dc": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42979,
+          "completion_tokens": 2722,
+          "total_tokens": 45701
+        },
+        "billed_usage": {
+          "prompt_tokens": 42979,
+          "completion_tokens": 2722,
+          "total_tokens": 45701
+        }
+      }
+    }
+  }
+}

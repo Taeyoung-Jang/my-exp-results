@@ -1,0 +1,258 @@
+{
+  "uid": "06f04340",
+  "num_sessions": 55,
+  "answers": {
+    "06f04340": {
+      "response": "I can’t safely plan a weekend dinner without knowing which homegrown ingredients you actually have right now. Could you list the fresh produce you’ve harvested and any specific dietary restrictions for your mother? Once I have that, I can suggest a health‑friendly menu that includes your preferred quinoa salad with roasted vegetables, mixed greens, and vinaigrette while avoiding high‑sodium, high‑fat, or high‑cholesterol dishes.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 157.9
+    }
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/bench/run_bench.py\", line 184, in run_one\n    engine.process_session(session=session, session_index=idx, session_time=str(session_time))\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/writer.py\", line 168, in process_session\n    stale_support_result = self.link_stale_support(\n                           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/stale_linker.py\", line 129, in link_stale_support\n    candidate_result = self._retrieve_stale_link_candidates(\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/stale_linker.py\", line 62, in _retrieve_stale_link_candidates\n    _rank_group(\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/stale_linker.py\", line 23, in _rank_group\n    ranked = self.embedding.rank(\n             ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/retrieval/embedding.py\", line 155, in rank\n    embeddings = self._encode([query_text] + [text_getter(candidate) for candidate in candidates])\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/retrieval/embedding.py\", line 137, in _encode\n    vectors = self._embed_batch(batch)\n              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/retrieval/embedding.py\", line 118, in _embed_batch\n    resp = self.client.embeddings.create(model=self.model, input=texts)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/NC_Upload/.venv/lib/python3.12/site-packages/openai/resources/embeddings.py\", line 132, in create\n    return self._post(\n           ^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/NC_Upload/.venv/lib/python3.12/site-packages/openai/_base_client.py\", line 1259, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/NC_Upload/.venv/lib/python3.12/site-packages/openai/_base_client.py\", line 1047, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/ad7faa10fd2dfb757a6850c1724bca35e8ea397f6c73b7bc27ebee654873564d', 'code': 403}}\n",
+  "elapsed_seconds": 6921.0,
+  "usage_summary": {
+    "total_calls": 662,
+    "cache_hits": 56,
+    "cache_misses": 606,
+    "logical_usage": {
+      "prompt_tokens": 1559383,
+      "completion_tokens": 318407,
+      "total_tokens": 1877790
+    },
+    "billed_usage": {
+      "prompt_tokens": 1461137,
+      "completion_tokens": 285488,
+      "total_tokens": 1746625
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 54,
+        "cache_hits": 37,
+        "cache_misses": 17,
+        "logical_usage": {
+          "prompt_tokens": 103564,
+          "completion_tokens": 35780,
+          "total_tokens": 139344
+        },
+        "billed_usage": {
+          "prompt_tokens": 32619,
+          "completion_tokens": 11459,
+          "total_tokens": 44078
+        }
+      },
+      "delta_extractor": {
+        "calls": 37,
+        "cache_hits": 9,
+        "cache_misses": 28,
+        "logical_usage": {
+          "prompt_tokens": 110210,
+          "completion_tokens": 20427,
+          "total_tokens": 130637
+        },
+        "billed_usage": {
+          "prompt_tokens": 96720,
+          "completion_tokens": 16341,
+          "total_tokens": 113061
+        }
+      },
+      "update_judge": {
+        "calls": 67,
+        "cache_hits": 5,
+        "cache_misses": 62,
+        "logical_usage": {
+          "prompt_tokens": 204754,
+          "completion_tokens": 19434,
+          "total_tokens": 224188
+        },
+        "billed_usage": {
+          "prompt_tokens": 198378,
+          "completion_tokens": 18343,
+          "total_tokens": 216721
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 35,
+        "cache_hits": 3,
+        "cache_misses": 32,
+        "logical_usage": {
+          "prompt_tokens": 62576,
+          "completion_tokens": 24672,
+          "total_tokens": 87248
+        },
+        "billed_usage": {
+          "prompt_tokens": 57564,
+          "completion_tokens": 22667,
+          "total_tokens": 80231
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 165,
+        "cache_hits": 0,
+        "cache_misses": 165,
+        "logical_usage": {
+          "prompt_tokens": 584360,
+          "completion_tokens": 105171,
+          "total_tokens": 689531
+        },
+        "billed_usage": {
+          "prompt_tokens": 584360,
+          "completion_tokens": 105171,
+          "total_tokens": 689531
+        }
+      },
+      "invalidation_judge": {
+        "calls": 60,
+        "cache_hits": 0,
+        "cache_misses": 60,
+        "logical_usage": {
+          "prompt_tokens": 208430,
+          "completion_tokens": 35503,
+          "total_tokens": 243933
+        },
+        "billed_usage": {
+          "prompt_tokens": 208430,
+          "completion_tokens": 35503,
+          "total_tokens": 243933
+        }
+      },
+      "stale_support_judge": {
+        "calls": 234,
+        "cache_hits": 0,
+        "cache_misses": 234,
+        "logical_usage": {
+          "prompt_tokens": 228202,
+          "completion_tokens": 68283,
+          "total_tokens": 296485
+        },
+        "billed_usage": {
+          "prompt_tokens": 228202,
+          "completion_tokens": 68283,
+          "total_tokens": 296485
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1481,
+          "completion_tokens": 1482,
+          "total_tokens": 2963
+        },
+        "billed_usage": {
+          "prompt_tokens": 1481,
+          "completion_tokens": 1482,
+          "total_tokens": 2963
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18633,
+          "completion_tokens": 1209,
+          "total_tokens": 19842
+        },
+        "billed_usage": {
+          "prompt_tokens": 18633,
+          "completion_tokens": 1209,
+          "total_tokens": 19842
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4846,
+          "completion_tokens": 2832,
+          "total_tokens": 7678
+        },
+        "billed_usage": {
+          "prompt_tokens": 2423,
+          "completion_tokens": 1416,
+          "total_tokens": 3839
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 23347,
+          "completion_tokens": 1340,
+          "total_tokens": 24687
+        },
+        "billed_usage": {
+          "prompt_tokens": 23347,
+          "completion_tokens": 1340,
+          "total_tokens": 24687
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 4510,
+          "completion_tokens": 866,
+          "total_tokens": 5376
+        },
+        "billed_usage": {
+          "prompt_tokens": 4510,
+          "completion_tokens": 866,
+          "total_tokens": 5376
+        }
+      },
+      "constraint_builder": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 2105,
+          "completion_tokens": 1124,
+          "total_tokens": 3229
+        },
+        "billed_usage": {
+          "prompt_tokens": 2105,
+          "completion_tokens": 1124,
+          "total_tokens": 3229
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 2365,
+          "completion_tokens": 284,
+          "total_tokens": 2649
+        },
+        "billed_usage": {
+          "prompt_tokens": 2365,
+          "completion_tokens": 284,
+          "total_tokens": 2649
+        }
+      }
+    },
+    "by_query_label": {
+      "06f04340": {
+        "calls": 6,
+        "cache_hits": 0,
+        "cache_misses": 6,
+        "logical_usage": {
+          "prompt_tokens": 52441,
+          "completion_tokens": 6305,
+          "total_tokens": 58746
+        },
+        "billed_usage": {
+          "prompt_tokens": 52441,
+          "completion_tokens": 6305,
+          "total_tokens": 58746
+        }
+      }
+    }
+  },
+  "profile_snapshot_size": 70900
+}

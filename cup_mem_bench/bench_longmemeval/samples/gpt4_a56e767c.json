@@ -1,0 +1,227 @@
+{
+  "uid": "gpt4_a56e767c",
+  "num_sessions": 48,
+  "answers": {
+    "gpt4_a56e767c": {
+      "response": "The old assumption that you have a complete tracked list of festivals isn’t safe – we only have current evidence of three festival involvements (Austin Film Festival, Portland Film Festival, Seattle International Film Festival). So you’ve attended at least three, but we can’t give an exact total.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.3
+    }
+  },
+  "profile_snapshot_size": 80519,
+  "elapsed_seconds": 5622.4,
+  "usage_summary": {
+    "total_calls": 633,
+    "cache_hits": 2,
+    "cache_misses": 631,
+    "logical_usage": {
+      "prompt_tokens": 1542628,
+      "completion_tokens": 294765,
+      "total_tokens": 1837393
+    },
+    "billed_usage": {
+      "prompt_tokens": 1540267,
+      "completion_tokens": 293334,
+      "total_tokens": 1833601
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 50,
+        "cache_hits": 0,
+        "cache_misses": 50,
+        "logical_usage": {
+          "prompt_tokens": 103346,
+          "completion_tokens": 36845,
+          "total_tokens": 140191
+        },
+        "billed_usage": {
+          "prompt_tokens": 103346,
+          "completion_tokens": 36845,
+          "total_tokens": 140191
+        }
+      },
+      "delta_extractor": {
+        "calls": 41,
+        "cache_hits": 0,
+        "cache_misses": 41,
+        "logical_usage": {
+          "prompt_tokens": 156206,
+          "completion_tokens": 21851,
+          "total_tokens": 178057
+        },
+        "billed_usage": {
+          "prompt_tokens": 156206,
+          "completion_tokens": 21851,
+          "total_tokens": 178057
+        }
+      },
+      "update_judge": {
+        "calls": 64,
+        "cache_hits": 0,
+        "cache_misses": 64,
+        "logical_usage": {
+          "prompt_tokens": 198412,
+          "completion_tokens": 17418,
+          "total_tokens": 215830
+        },
+        "billed_usage": {
+          "prompt_tokens": 198412,
+          "completion_tokens": 17418,
+          "total_tokens": 215830
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 35,
+        "cache_hits": 0,
+        "cache_misses": 35,
+        "logical_usage": {
+          "prompt_tokens": 61196,
+          "completion_tokens": 25167,
+          "total_tokens": 86363
+        },
+        "billed_usage": {
+          "prompt_tokens": 61196,
+          "completion_tokens": 25167,
+          "total_tokens": 86363
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 168,
+        "cache_hits": 0,
+        "cache_misses": 168,
+        "logical_usage": {
+          "prompt_tokens": 566745,
+          "completion_tokens": 96258,
+          "total_tokens": 663003
+        },
+        "billed_usage": {
+          "prompt_tokens": 566745,
+          "completion_tokens": 96258,
+          "total_tokens": 663003
+        }
+      },
+      "invalidation_judge": {
+        "calls": 53,
+        "cache_hits": 0,
+        "cache_misses": 53,
+        "logical_usage": {
+          "prompt_tokens": 198984,
+          "completion_tokens": 27337,
+          "total_tokens": 226321
+        },
+        "billed_usage": {
+          "prompt_tokens": 198984,
+          "completion_tokens": 27337,
+          "total_tokens": 226321
+        }
+      },
+      "stale_support_judge": {
+        "calls": 214,
+        "cache_hits": 0,
+        "cache_misses": 214,
+        "logical_usage": {
+          "prompt_tokens": 206780,
+          "completion_tokens": 63289,
+          "total_tokens": 270069
+        },
+        "billed_usage": {
+          "prompt_tokens": 206780,
+          "completion_tokens": 63289,
+          "total_tokens": 270069
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1475,
+          "completion_tokens": 844,
+          "total_tokens": 2319
+        },
+        "billed_usage": {
+          "prompt_tokens": 1475,
+          "completion_tokens": 844,
+          "total_tokens": 2319
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 19214,
+          "completion_tokens": 1489,
+          "total_tokens": 20703
+        },
+        "billed_usage": {
+          "prompt_tokens": 19214,
+          "completion_tokens": 1489,
+          "total_tokens": 20703
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4722,
+          "completion_tokens": 2862,
+          "total_tokens": 7584
+        },
+        "billed_usage": {
+          "prompt_tokens": 2361,
+          "completion_tokens": 1431,
+          "total_tokens": 3792
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 23844,
+          "completion_tokens": 970,
+          "total_tokens": 24814
+        },
+        "billed_usage": {
+          "prompt_tokens": 23844,
+          "completion_tokens": 970,
+          "total_tokens": 24814
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1704,
+          "completion_tokens": 435,
+          "total_tokens": 2139
+        },
+        "billed_usage": {
+          "prompt_tokens": 1704,
+          "completion_tokens": 435,
+          "total_tokens": 2139
+        }
+      }
+    },
+    "by_query_label": {
+      "gpt4_a56e767c": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46237,
+          "completion_tokens": 3738,
+          "total_tokens": 49975
+        },
+        "billed_usage": {
+          "prompt_tokens": 46237,
+          "completion_tokens": 3738,
+          "total_tokens": 49975
+        }
+      }
+    }
+  }
+}

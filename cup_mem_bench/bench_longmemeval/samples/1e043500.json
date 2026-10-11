@@ -1,0 +1,227 @@
+{
+  "uid": "1e043500",
+  "num_sessions": 50,
+  "answers": {
+    "1e043500": {
+      "response": "I don’t have current information about any playlist you’ve created on Spotify, so I can’t provide its name.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 172.1
+    }
+  },
+  "profile_snapshot_size": 69636,
+  "elapsed_seconds": 5740.1,
+  "usage_summary": {
+    "total_calls": 700,
+    "cache_hits": 68,
+    "cache_misses": 632,
+    "logical_usage": {
+      "prompt_tokens": 1857490,
+      "completion_tokens": 316363,
+      "total_tokens": 2173853
+    },
+    "billed_usage": {
+      "prompt_tokens": 1743038,
+      "completion_tokens": 274026,
+      "total_tokens": 2017064
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 51,
+        "cache_hits": 31,
+        "cache_misses": 20,
+        "logical_usage": {
+          "prompt_tokens": 99519,
+          "completion_tokens": 41026,
+          "total_tokens": 140545
+        },
+        "billed_usage": {
+          "prompt_tokens": 38478,
+          "completion_tokens": 15612,
+          "total_tokens": 54090
+        }
+      },
+      "delta_extractor": {
+        "calls": 43,
+        "cache_hits": 12,
+        "cache_misses": 31,
+        "logical_usage": {
+          "prompt_tokens": 182094,
+          "completion_tokens": 22932,
+          "total_tokens": 205026
+        },
+        "billed_usage": {
+          "prompt_tokens": 163442,
+          "completion_tokens": 16958,
+          "total_tokens": 180400
+        }
+      },
+      "update_judge": {
+        "calls": 74,
+        "cache_hits": 9,
+        "cache_misses": 65,
+        "logical_usage": {
+          "prompt_tokens": 301225,
+          "completion_tokens": 20527,
+          "total_tokens": 321752
+        },
+        "billed_usage": {
+          "prompt_tokens": 289700,
+          "completion_tokens": 18442,
+          "total_tokens": 308142
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 39,
+        "cache_hits": 10,
+        "cache_misses": 29,
+        "logical_usage": {
+          "prompt_tokens": 68639,
+          "completion_tokens": 27588,
+          "total_tokens": 96227
+        },
+        "billed_usage": {
+          "prompt_tokens": 51397,
+          "completion_tokens": 20294,
+          "total_tokens": 71691
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 182,
+        "cache_hits": 0,
+        "cache_misses": 182,
+        "logical_usage": {
+          "prompt_tokens": 663901,
+          "completion_tokens": 100554,
+          "total_tokens": 764455
+        },
+        "billed_usage": {
+          "prompt_tokens": 663901,
+          "completion_tokens": 100554,
+          "total_tokens": 764455
+        }
+      },
+      "invalidation_judge": {
+        "calls": 61,
+        "cache_hits": 0,
+        "cache_misses": 61,
+        "logical_usage": {
+          "prompt_tokens": 246694,
+          "completion_tokens": 34039,
+          "total_tokens": 280733
+        },
+        "billed_usage": {
+          "prompt_tokens": 246694,
+          "completion_tokens": 34039,
+          "total_tokens": 280733
+        }
+      },
+      "stale_support_judge": {
+        "calls": 242,
+        "cache_hits": 6,
+        "cache_misses": 236,
+        "logical_usage": {
+          "prompt_tokens": 239249,
+          "completion_tokens": 64924,
+          "total_tokens": 304173
+        },
+        "billed_usage": {
+          "prompt_tokens": 233257,
+          "completion_tokens": 63354,
+          "total_tokens": 296611
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 677,
+          "total_tokens": 2156
+        },
+        "billed_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 677,
+          "total_tokens": 2156
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 21798,
+          "completion_tokens": 885,
+          "total_tokens": 22683
+        },
+        "billed_usage": {
+          "prompt_tokens": 21798,
+          "completion_tokens": 885,
+          "total_tokens": 22683
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 4933,
+          "completion_tokens": 2082,
+          "total_tokens": 7015
+        },
+        "billed_usage": {
+          "prompt_tokens": 4933,
+          "completion_tokens": 2082,
+          "total_tokens": 7015
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 26642,
+          "completion_tokens": 905,
+          "total_tokens": 27547
+        },
+        "billed_usage": {
+          "prompt_tokens": 26642,
+          "completion_tokens": 905,
+          "total_tokens": 27547
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1317,
+          "completion_tokens": 224,
+          "total_tokens": 1541
+        },
+        "billed_usage": {
+          "prompt_tokens": 1317,
+          "completion_tokens": 224,
+          "total_tokens": 1541
+        }
+      }
+    },
+    "by_query_label": {
+      "1e043500": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 51236,
+          "completion_tokens": 2691,
+          "total_tokens": 53927
+        },
+        "billed_usage": {
+          "prompt_tokens": 51236,
+          "completion_tokens": 2691,
+          "total_tokens": 53927
+        }
+      }
+    }
+  }
+}

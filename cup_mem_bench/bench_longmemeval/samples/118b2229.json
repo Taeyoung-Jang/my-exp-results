@@ -1,0 +1,227 @@
+{
+  "uid": "118b2229",
+  "num_sessions": 45,
+  "answers": {
+    "118b2229": {
+      "response": "I don’t have current information on how long your daily commute now takes—your previous 45‑minute car‑based figure is no longer valid because you’ve switched to biking.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 88.1
+    }
+  },
+  "profile_snapshot_size": 69095,
+  "elapsed_seconds": 4854.0,
+  "usage_summary": {
+    "total_calls": 624,
+    "cache_hits": 56,
+    "cache_misses": 568,
+    "logical_usage": {
+      "prompt_tokens": 1467941,
+      "completion_tokens": 286842,
+      "total_tokens": 1754783
+    },
+    "billed_usage": {
+      "prompt_tokens": 1373595,
+      "completion_tokens": 251892,
+      "total_tokens": 1625487
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 45,
+        "cache_hits": 27,
+        "cache_misses": 18,
+        "logical_usage": {
+          "prompt_tokens": 87517,
+          "completion_tokens": 34721,
+          "total_tokens": 122238
+        },
+        "billed_usage": {
+          "prompt_tokens": 34851,
+          "completion_tokens": 13039,
+          "total_tokens": 47890
+        }
+      },
+      "delta_extractor": {
+        "calls": 38,
+        "cache_hits": 10,
+        "cache_misses": 28,
+        "logical_usage": {
+          "prompt_tokens": 116178,
+          "completion_tokens": 19749,
+          "total_tokens": 135927
+        },
+        "billed_usage": {
+          "prompt_tokens": 100604,
+          "completion_tokens": 14895,
+          "total_tokens": 115499
+        }
+      },
+      "update_judge": {
+        "calls": 63,
+        "cache_hits": 6,
+        "cache_misses": 57,
+        "logical_usage": {
+          "prompt_tokens": 192314,
+          "completion_tokens": 18721,
+          "total_tokens": 211035
+        },
+        "billed_usage": {
+          "prompt_tokens": 184187,
+          "completion_tokens": 17571,
+          "total_tokens": 201758
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 34,
+        "cache_hits": 7,
+        "cache_misses": 27,
+        "logical_usage": {
+          "prompt_tokens": 59721,
+          "completion_tokens": 22824,
+          "total_tokens": 82545
+        },
+        "billed_usage": {
+          "prompt_tokens": 47538,
+          "completion_tokens": 17674,
+          "total_tokens": 65212
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 155,
+        "cache_hits": 0,
+        "cache_misses": 155,
+        "logical_usage": {
+          "prompt_tokens": 541641,
+          "completion_tokens": 95740,
+          "total_tokens": 637381
+        },
+        "billed_usage": {
+          "prompt_tokens": 541641,
+          "completion_tokens": 95740,
+          "total_tokens": 637381
+        }
+      },
+      "invalidation_judge": {
+        "calls": 56,
+        "cache_hits": 0,
+        "cache_misses": 56,
+        "logical_usage": {
+          "prompt_tokens": 218622,
+          "completion_tokens": 29104,
+          "total_tokens": 247726
+        },
+        "billed_usage": {
+          "prompt_tokens": 218622,
+          "completion_tokens": 29104,
+          "total_tokens": 247726
+        }
+      },
+      "stale_support_judge": {
+        "calls": 225,
+        "cache_hits": 4,
+        "cache_misses": 221,
+        "logical_usage": {
+          "prompt_tokens": 215223,
+          "completion_tokens": 60361,
+          "total_tokens": 275584
+        },
+        "billed_usage": {
+          "prompt_tokens": 211964,
+          "completion_tokens": 59401,
+          "total_tokens": 271365
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1476,
+          "completion_tokens": 1151,
+          "total_tokens": 2627
+        },
+        "billed_usage": {
+          "prompt_tokens": 1476,
+          "completion_tokens": 1151,
+          "total_tokens": 2627
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 12446,
+          "completion_tokens": 1070,
+          "total_tokens": 13516
+        },
+        "billed_usage": {
+          "prompt_tokens": 12446,
+          "completion_tokens": 1070,
+          "total_tokens": 13516
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 5074,
+          "completion_tokens": 2308,
+          "total_tokens": 7382
+        },
+        "billed_usage": {
+          "prompt_tokens": 2537,
+          "completion_tokens": 1154,
+          "total_tokens": 3691
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 16288,
+          "completion_tokens": 911,
+          "total_tokens": 17199
+        },
+        "billed_usage": {
+          "prompt_tokens": 16288,
+          "completion_tokens": 911,
+          "total_tokens": 17199
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1441,
+          "completion_tokens": 182,
+          "total_tokens": 1623
+        },
+        "billed_usage": {
+          "prompt_tokens": 1441,
+          "completion_tokens": 182,
+          "total_tokens": 1623
+        }
+      }
+    },
+    "by_query_label": {
+      "118b2229": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31651,
+          "completion_tokens": 3314,
+          "total_tokens": 34965
+        },
+        "billed_usage": {
+          "prompt_tokens": 31651,
+          "completion_tokens": 3314,
+          "total_tokens": 34965
+        }
+      }
+    }
+  }
+}

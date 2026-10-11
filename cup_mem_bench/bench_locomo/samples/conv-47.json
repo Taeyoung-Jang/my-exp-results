@@ -1,0 +1,2772 @@
+{
+  "uid": "conv-47",
+  "num_sessions": 31,
+  "answers": {
+    "conv6_q000": {
+      "response": "I don’t have any current information about John’s health, so I can’t identify any suspected health problems.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.2
+    },
+    "conv6_q001": {
+      "response": "There is no current information confirming what recreational activity James was pursuing on March 16 2022; the premise is unresolved and cannot be safely answered.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 141.7
+    },
+    "conv6_q002": {
+      "response": "There is no available information confirming any places or events that John and James have planned to meet at.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 94.2
+    },
+    "conv6_q003": {
+      "response": "I don’t have any current information indicating that James or John have pets, so I can’t confirm that both of them have pets.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 60.8
+    },
+    "conv6_q004": {
+      "response": "There’s no available information on when John resumed playing drums as an adult, so the date cannot be determined.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 199.4
+    },
+    "conv6_q005": {
+      "response": "I don’t have current information about John’s or James’s favorite games, so I can’t answer that question.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 142.1
+    },
+    "conv6_q006": {
+      "response": "I don't have current information confirming that James lives in Connecticut.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 192.2
+    },
+    "conv6_q007": {
+      "response": "I’m unable to determine the state of the shelter because the information about its location is outdated and no current data is available.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 97.3
+    },
+    "conv6_q008": {
+      "response": "I don’t have any information about how many pets James has.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 172.5
+    },
+    "conv6_q009": {
+      "response": "One of your dogs is named Ned; the names of the other two dogs aren’t available in the current information.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 173.6
+    },
+    "conv6_q010": {
+      "response": "I don’t have any current information about when James adopted Ned, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.8
+    },
+    "conv6_q011": {
+      "response": "I don’t have any information about how John was feeling on April 10 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.4
+    },
+    "conv6_q012": {
+      "response": "No. The prior claim that James had a girlfriend in April 2022 is outdated and has been invalidated by the current fact that she is now serving in the army, which is mutually exclusive with being his girlfriend.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 147.8
+    },
+    "conv6_q013": {
+      "response": "I don’t have information on when James visited Italy.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 94.3
+    },
+    "conv6_q014": {
+      "response": "I don’t have any information confirming that James purchased an adventure book, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.6
+    },
+    "conv6_q015": {
+      "response": "I don’t have any information about when James began playing Civilization VI, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.3
+    },
+    "conv6_q016": {
+      "response": "I don’t have enough information to identify the game John mentioned to James.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.2
+    },
+    "conv6_q017": {
+      "response": "I’m not aware of a specific board game where you find an impostor that John mentions to James; there’s no current information confirming such a game.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 120.4
+    },
+    "conv6_q018": {
+      "response": "I don’t have any information confirming that John has recommended books to James, so I can’t provide a list of such recommendations.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.3
+    },
+    "conv6_q019": {
+      "response": "There’s no current evidence confirming that James was feeling lonely before meeting Samantha, so we cannot determine whether that was the case.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 132.1
+    },
+    "conv6_q020": {
+      "response": "I don’t have enough information to determine how many charity tournaments John has organized to date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.0
+    },
+    "conv6_q021": {
+      "response": "There’s no available information confirming when John first organized a charity tournament with his friends; the premise is unresolved.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 62.2
+    },
+    "conv6_q022": {
+      "response": "I don’t have enough information to identify the organizations that have benefited from John’s charity tournaments.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.1
+    },
+    "conv6_q023": {
+      "response": "I don’t have any information about when John’s new job will begin; the only current fact is that he is already employed in a new position.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 137.0
+    },
+    "conv6_q024": {
+      "response": "James has already released a game – his first mobile game – and says he’s ready to make more games in different genres.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 81.7
+    },
+    "conv6_q025": {
+      "response": "I don’t have enough current information to determine whether John and James are fans of the same football team.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 98.8
+    },
+    "conv6_q026": {
+      "response": "I don’t have information about which countries James has visited.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 98.6
+    },
+    "conv6_q027": {
+      "response": "There’s no current information about James joining any classes; the only past record is outdated and no longer reliable.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 145.7
+    },
+    "conv6_q028": {
+      "response": "I don’t have any current information confirming that James volunteered at an organization, so I can’t provide a date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 178.9
+    },
+    "conv6_q029": {
+      "response": "He is scheduled to depart for Toronto the day after tomorrow evening.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 110.8
+    },
+    "conv6_q030": {
+      "response": "I’m unable to answer that because the information about James’s July 2022 ticket is outdated and no reliable current data is available.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 88.3
+    },
+    "conv6_q031": {
+      "response": "I don’t have current information on how many days James planned to spend on his Canada trip.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 133.2
+    },
+    "conv6_q032": {
+      "response": "I don’t have any information about James’s whereabouts on July 12 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 85.8
+    },
+    "conv6_q033": {
+      "response": "I don’t have enough information to determine whether John and James studied together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.2
+    },
+    "conv6_q034": {
+      "response": "I don't have any current information about James's travel in July 2022, so I can't say which countries he visited.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 145.7
+    },
+    "conv6_q035": {
+      "response": "We don’t have confirmed information that James visited Canada, so we can’t identify any additional country he might have visited as part of that trip.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 112.7
+    },
+    "conv6_q036": {
+      "response": "The prior assumption about Jill’s identity is not safe; current information shows she is a programming mentor for game developers, is serving in the army, is my girlfriend, and participates in an online programming group.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 203.4
+    },
+    "conv6_q037": {
+      "response": "I don’t have any information about John spending time with his sister and dogs. Could you clarify who John is and any relevant details?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 275.7
+    },
+    "conv6_q038": {
+      "response": "In 2022 John left his three‑year IT position and secured his dream job, moving into a new role that he now loves.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 170.5
+    },
+    "conv6_q039": {
+      "response": "The exact date John began his IT job isn’t provided; we only know he worked in IT for three years before leaving for a new position.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 103.1
+    },
+    "conv6_q040": {
+      "response": "I don’t have any information about tricks that James’s pets know. I only know that you have three dogs, one named Ned, and they are currently with you.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.6
+    },
+    "conv6_q041": {
+      "response": "I don’t have any information about when James and Samantha met, or even whether they have met.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.4
+    },
+    "conv6_q042": {
+      "response": "I don’t have any information about when James took three dogs to the beach.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 284.5
+    },
+    "conv6_q043": {
+      "response": "The assumption that John has already scheduled a meeting with his siblings is no longer safe—there’s no current record of such a plan. Consequently, the date of any planned sibling meeting is unknown.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 124.1
+    },
+    "conv6_q044": {
+      "response": "I don’t have enough current information about John’s preferences or situation to explain why he didn’t want to go to Starbucks.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 141.7
+    },
+    "conv6_q045": {
+      "response": "I’m sorry, I don’t have information on what kind of beer McGee’s bar serves.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 75.5
+    },
+    "conv6_q046": {
+      "response": "I don’t have information confirming that John and James met at McGee’s bar, so I can’t provide a date for their meeting.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 127.8
+    },
+    "conv6_q047": {
+      "response": "I’m not aware of when James asked Samantha to be his girlfriend, as there’s no available information on that date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 167.9
+    },
+    "conv6_q048": {
+      "response": "I don’t have any confirmed information that James, Samantha, and John attended a baseball game together, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.8
+    },
+    "conv6_q049": {
+      "response": "John has bought new gaming equipment, but the available information does not specify which items or any refurbishments.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 81.6
+    },
+    "conv6_q050": {
+      "response": "I don’t have information on when James started taking cooking classes.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 105.0
+    },
+    "conv6_q051": {
+      "response": "I don’t have any information about new games John started playing during his conversation with James.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 102.7
+    },
+    "conv6_q052": {
+      "response": "I don't have information about when John began working on his 2D Adventure mobile game.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 229.8
+    },
+    "conv6_q053": {
+      "response": "I don’t have current information about James completing a Witcher‑inspired game, so I can’t tell how long it took.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 275.9
+    },
+    "conv6_q054": {
+      "response": "There’s no current information indicating that John has hosted any programming‑related events; the only confirmed detail is that he serves as a programming mentor for game developers, teaching code and assisting with projects.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 175.1
+    },
+    "conv6_q055": {
+      "response": "I’m sorry, but I don’t have any confirmed information about when John and his programming friends hosted an online programming competition.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 156.2
+    },
+    "conv6_q056": {
+      "response": "I don't have current information about which of James's family members have visited him in the last year, so I cannot provide that list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.2
+    },
+    "conv6_q057": {
+      "response": "I don’t have any confirmed information about a visit by James’s mother and her friend, so I can’t provide a date or time for such an event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 133.7
+    },
+    "conv6_q058": {
+      "response": "There’s no available information on when James tried the game Cyberpunk 2077.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 93.4
+    },
+    "conv6_q059": {
+      "response": "I don’t have any information about when John and his gaming friends organized a charity tournament.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 54.7
+    },
+    "conv6_q060": {
+      "response": "There’s no available information confirming which games John has played with his friends at charity tournaments.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.0
+    },
+    "conv6_q061": {
+      "response": "I’m not aware of any documented big moment between James and Samantha in October 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 76.1
+    },
+    "conv6_q062": {
+      "response": "I don’t have information on how long James and Samantha dated before deciding to live together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.5
+    },
+    "conv6_q063": {
+      "response": "I don’t have information about when the road trip began.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 234.4
+    },
+    "conv6_q064": {
+      "response": "I don’t have enough information to say how long John practiced chess before winning the tournament.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.8
+    },
+    "conv6_q065": {
+      "response": "I don’t have any information indicating that James and his family visited Mark and Josh, so I can’t provide a date for that event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 127.4
+    },
+    "conv6_q066": {
+      "response": "The current information confirms that John has collaborated with game developers (he mentors them and has released a game), but it does not specify when that collaboration occurred.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 102.8
+    },
+    "conv6_q067": {
+      "response": "I don’t have any current information about which programming languages James has worked with.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 117.0
+    },
+    "conv6_q068": {
+      "response": "The current information only confirms that a mobile game has been completed and is being released; there’s no evidence that James and John are presently planning a joint app, so the type of app they might build together cannot be determined.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 62.9
+    },
+    "conv6_q069": {
+      "response": "There’s no current information about how James intends to make his dog‑sitting app unique, so the request can’t be answered.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.1
+    },
+    "conv6_q070": {
+      "response": "I don’t have any current information about what John has found with his metal detector, so I can’t say what he has mostly discovered.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 50.9
+    },
+    "conv6_q071": {
+      "response": "I don’t have any information about what James may have offered to do for John regarding pets.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 80.1
+    },
+    "conv6_q072": {
+      "response": "I don’t have any information about what instrument John is learning to play as of 27 March 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.3
+    },
+    "conv6_q073": {
+      "response": "I don’t have any confirmed information that John plays the drums, so I can’t determine how long he has been playing as of 27 March 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.6
+    },
+    "conv6_q074": {
+      "response": "I don’t have any information confirming which game John played in the March 2022 intense tournament, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 105.0
+    },
+    "conv6_q075": {
+      "response": "I don’t have verified information about James’s participation in the April 2022 online gaming tournament, so I can’t determine which game he was playing.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.7
+    },
+    "conv6_q076": {
+      "response": "I don’t have current information on how James communicates with his gaming team, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 203.7
+    },
+    "conv6_q077": {
+      "response": "I don’t have any current information about advice James received from famous players at the tournament.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.8
+    },
+    "conv6_q078": {
+      "response": "There is no current evidence confirming what James adopted in April 2022, so the premise cannot be answered.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 135.3
+    },
+    "conv6_q079": {
+      "response": "The pup is named Ned.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 54.6
+    },
+    "conv6_q080": {
+      "response": "I don’t have any evidence that James ever embodied a game‑character’s appearance after seeing a woman, so I can’t explain why that would have happened.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.8
+    },
+    "conv6_q081": {
+      "response": "I don’t have any information about what, if anything, inspired James to create the game character, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 135.7
+    },
+    "conv6_q082": {
+      "response": "I’m unable to determine which country James visited in 2021 because there’s no available information confirming his travel that year.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 57.8
+    },
+    "conv6_q083": {
+      "response": "John is impressed by Japan’s megacities, which he finds technologically advanced, and by the tasty street food.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 119.7
+    },
+    "conv6_q084": {
+      "response": "The current information doesn’t specify any particular assignment that’s giving John trouble; it only indicates he’s dealing with a high workload and strong schedule pressure.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 148.4
+    },
+    "conv6_q085": {
+      "response": "The premise that James has a dog named Daisy is not supported by the current information— the available data indicates his dog is named Ned—so I can’t provide Daisy’s breed.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 186.0
+    },
+    "conv6_q086": {
+      "response": "I don’t have any information about James’s favorite type of pizza.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 53.1
+    },
+    "conv6_q087": {
+      "response": "I don’t have any current information about John’s favorite type of pizza, so I can’t answer that.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 64.4
+    },
+    "conv6_q088": {
+      "response": "I don’t have information about what John organized with his friends on May 8 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 85.1
+    },
+    "conv6_q089": {
+      "response": "John and his friends decided to use the remaining money to buy groceries and cook food for homeless people.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 62.3
+    },
+    "conv6_q090": {
+      "response": "I don’t have enough current information to determine the main goal of the money raised from that tournament.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.1
+    },
+    "conv6_q091": {
+      "response": "I’m unable to say what the system helped the charitable foundation with because the premise that John created such a system is not confirmed by any available information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 76.9
+    },
+    "conv6_q092": {
+      "response": "I’m not aware of any reliable information about John creating a tool or resource for the charitable foundation that generated analysis reports.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 115.3
+    },
+    "conv6_q093": {
+      "response": "I don’t have any information about what John received for achieving second place in the tournament.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 133.1
+    },
+    "conv6_q094": {
+      "response": "The earlier claim that James is working on a specific game‑design‑course project is outdated, and there’s no current information about any such project. The only recent facts are that he mentors game‑dev programmers and has just finished a mobile game that’s about to launch.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 254.1
+    },
+    "conv6_q095": {
+      "response": "James supports Manchester City.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 71.1
+    },
+    "conv6_q096": {
+      "response": "John supports Manchester City.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 48.8
+    },
+    "conv6_q097": {
+      "response": "I don’t have enough information to determine what disagreement James and John have about their football teams.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 54.6
+    },
+    "conv6_q098": {
+      "response": "I don’t have any record of what James says about Max’s abilities. The only current information is that Max consistently catches frisbees in mid‑air without missing.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 215.0
+    },
+    "conv6_q099": {
+      "response": "I don’t have confirmed information that James volunteered with any specific organization, so I can’t tell you its main focus.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 111.2
+    },
+    "conv6_q100": {
+      "response": "I don’t have enough current information to know whether an interview is required; you’ll need to contact the organization directly.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 174.7
+    },
+    "conv6_q101": {
+      "response": "I don’t have any information about how John relaxed on 9 July 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 154.3
+    },
+    "conv6_q102": {
+      "response": "I don’t have enough information to know what James enjoyed doing on cold winter days.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 161.6
+    },
+    "conv6_q103": {
+      "response": "There’s no record confirming a hobby James started on 9 July 2022. The only current information we have is that James has developed an interest in board games.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.4
+    },
+    "conv6_q104": {
+      "response": "I don’t have current information about where James intended to go after Toronto—the earlier plan is no longer valid.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 206.0
+    },
+    "conv6_q105": {
+      "response": "The earlier plan for James’s return from the Toronto‑Vancouver trip is no longer valid; we have no current information about a planned return date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 91.7
+    },
+    "conv6_q106": {
+      "response": "John is currently playing an impostor‑type online game with friends (e.g., a game like Among Us).",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 206.3
+    },
+    "conv6_q107": {
+      "response": "John left his IT job after three years because he moved to a new job he loves.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 65.6
+    },
+    "conv6_q108": {
+      "response": "I don't have current information about any other tournaments John plans to organize; the only available fact is that you (the user) have connections to host Fortnite competitions.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.9
+    },
+    "conv6_q109": {
+      "response": "James's puppy returned from the clinic and is now safely at home with him, alongside his other two dogs.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 168.7
+    },
+    "conv6_q110": {
+      "response": "John is no longer focusing on shooters; he has shifted to exploring board games (and his current primary focus is the sports game FIFA 23).",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 147.9
+    },
+    "conv6_q111": {
+      "response": "The premise that John was playing and enjoying a specific RPG on 10 August 2022 is no longer supported. Current information indicates he is playing an impostor‑type game with friends, not an RPG, so the requested RPG cannot be identified.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 175.3
+    },
+    "conv6_q112": {
+      "response": "I don't have current information about John finding any aspect of \"The Witcher 3\" immersive—your recent activity shows you're playing a different game, so the premise is no longer valid.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 118.3
+    },
+    "conv6_q113": {
+      "response": "There is no information available about whose phone number James received during the beach outing.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 115.2
+    },
+    "conv6_q114": {
+      "response": "James plans to live together with Samantha.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 89.2
+    },
+    "conv6_q115": {
+      "response": "There’s no current information indicating that John is organizing anything with his siblings.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.0
+    },
+    "conv6_q116": {
+      "response": "I don’t have any information about John’s beer preferences, so I can’t say which type he doesn’t like.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 114.3
+    },
+    "conv6_q117": {
+      "response": "I don’t have information about specific difficulties James encountered during his game development.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 234.7
+    },
+    "conv6_q118": {
+      "response": "There’s no current information about John teaching his siblings; the only teaching role we have for John is as a programming mentor for game developers, where he teaches coding and assists with projects.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 99.4
+    },
+    "conv6_q119": {
+      "response": "I don’t have any information confirming that John’s siblings are making programs, so I can’t say what kind of programs they might be creating.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 114.3
+    },
+    "conv6_q120": {
+      "response": "I don’t have information about which company's headphones John chose for gaming.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.8
+    },
+    "conv6_q121": {
+      "response": "I don’t have information about what James and Samantha discovered they both enjoy at McGee’s bar.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.2
+    },
+    "conv6_q122": {
+      "response": "I don’t have information on how much James pays per cooking class, as there’s no confirmed data about his per‑class fee.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 144.6
+    },
+    "conv6_q123": {
+      "response": "I don’t have enough current information to confirm what other dish James learned to make in the class.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.1
+    },
+    "conv6_q124": {
+      "response": "I don’t have any current information confirming that James signed up for a cooking class, so I can’t say why he might have done so. Could you provide more details or clarify?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.3
+    },
+    "conv6_q125": {
+      "response": "I don’t have information about what James prepared for the first time in the cooking class.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.8
+    },
+    "conv6_q126": {
+      "response": "I don’t have information about which board game John tried in September 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 94.7
+    },
+    "conv6_q127": {
+      "response": "I don’t have information about where James gets his ideas.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.3
+    },
+    "conv6_q128": {
+      "response": "I don’t have any current information about a recent dream that James may have had.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 48.3
+    },
+    "conv6_q129": {
+      "response": "I don’t have any information about John’s music preferences.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.3
+    },
+    "conv6_q130": {
+      "response": "I’m not able to determine which instrument James played when he was younger because there’s no available information on that.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.9
+    },
+    "conv6_q131": {
+      "response": "I don’t have enough information to know what John used to play as a youngster to let off steam.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.0
+    },
+    "conv6_q132": {
+      "response": "In September 2022, John completed his first mobile game—a notable career milestone.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 51.1
+    },
+    "conv6_q133": {
+      "response": "I don’t have information about the genre of John’s upcoming mobile game.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 84.7
+    },
+    "conv6_q134": {
+      "response": "The available information only says that John mentors game developers and is preparing to make more games in various genres. It doesn’t specify any particular habits or activities he uses to stay informed or continuously learn about game design.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 155.3
+    },
+    "conv6_q135": {
+      "response": "John was offered a programming‑mentor gig, where he would teach coding and help game developers with their projects.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 73.4
+    },
+    "conv6_q136": {
+      "response": "I don’t have any information about how John feels about beginning his role as a programming mentor for game developers.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.4
+    },
+    "conv6_q137": {
+      "response": "I don’t have any current information about James being excited to play video‑card games. The only concrete detail I have is that he’s developed an interest in board games.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 139.5
+    },
+    "conv6_q138": {
+      "response": "I’m not aware of any information about what inspired James to create his game.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.0
+    },
+    "conv6_q139": {
+      "response": "I don’t have information about what sparked James’s passion for gaming when he was a child.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 55.4
+    },
+    "conv6_q140": {
+      "response": "I don't have any information about what James may have lost progress on due to a power outage; the current data doesn't confirm that premise.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 146.0
+    },
+    "conv6_q141": {
+      "response": "I don’t have any information about what games were played at a gaming tournament organized by John on 31 October 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.6
+    },
+    "conv6_q142": {
+      "response": "I don’t have information about the purpose of the gaming tournament John organized on 31 October 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 69.1
+    },
+    "conv6_q143": {
+      "response": "James and Samantha decided to live together on 31 October 2022.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 62.5
+    },
+    "conv6_q144": {
+      "response": "I don’t have reliable information about where James and Samantha decided to live together on 31 October 2022; the premise is outdated and no current location data is available.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 141.7
+    },
+    "conv6_q145": {
+      "response": "The claim that James and Samantha chose an apartment near McGee's bar is no longer supported by current information, so we cannot provide a reason for that choice. All we know now is that they intend to live together.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 96.8
+    },
+    "conv6_q146": {
+      "response": "John was hooked on playing FIFA 23 on 5 November 2022.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 40.9
+    },
+    "conv6_q147": {
+      "response": "I’m not aware of any suggestion John made to James about practicing before playing FIFA 23 together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 39.5
+    },
+    "conv6_q148": {
+      "response": "There’s no record of a specific project that John collaborated on with a game developer by 7 Nov 2022. The current information only notes that he mentors game‑development programmers, has released a game, and has completed a mobile game slated for launch soon.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 222.8
+    },
+    "conv6_q149": {
+      "response": "I don’t have enough information to tell you the name of John’s cousin’s dog.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 107.0
+    }
+  },
+  "profile_snapshot_size": 87114,
+  "elapsed_seconds": 19564.6,
+  "usage_summary": {
+    "total_calls": 1519,
+    "cache_hits": 215,
+    "cache_misses": 1304,
+    "logical_usage": {
+      "prompt_tokens": 6237774,
+      "completion_tokens": 902354,
+      "total_tokens": 7140128
+    },
+    "billed_usage": {
+      "prompt_tokens": 5930155,
+      "completion_tokens": 771361,
+      "total_tokens": 6701516
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 31,
+        "cache_hits": 31,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 84969,
+          "completion_tokens": 31181,
+          "total_tokens": 116150
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "delta_extractor": {
+        "calls": 31,
+        "cache_hits": 11,
+        "cache_misses": 20,
+        "logical_usage": {
+          "prompt_tokens": 87466,
+          "completion_tokens": 19512,
+          "total_tokens": 106978
+        },
+        "billed_usage": {
+          "prompt_tokens": 70672,
+          "completion_tokens": 12420,
+          "total_tokens": 83092
+        }
+      },
+      "update_judge": {
+        "calls": 63,
+        "cache_hits": 6,
+        "cache_misses": 57,
+        "logical_usage": {
+          "prompt_tokens": 162079,
+          "completion_tokens": 17140,
+          "total_tokens": 179219
+        },
+        "billed_usage": {
+          "prompt_tokens": 153977,
+          "completion_tokens": 16003,
+          "total_tokens": 169980
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 31,
+        "cache_hits": 9,
+        "cache_misses": 22,
+        "logical_usage": {
+          "prompt_tokens": 55716,
+          "completion_tokens": 23706,
+          "total_tokens": 79422
+        },
+        "billed_usage": {
+          "prompt_tokens": 39843,
+          "completion_tokens": 16442,
+          "total_tokens": 56285
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 168,
+        "cache_hits": 0,
+        "cache_misses": 168,
+        "logical_usage": {
+          "prompt_tokens": 544958,
+          "completion_tokens": 122756,
+          "total_tokens": 667714
+        },
+        "billed_usage": {
+          "prompt_tokens": 544958,
+          "completion_tokens": 122756,
+          "total_tokens": 667714
+        }
+      },
+      "invalidation_judge": {
+        "calls": 60,
+        "cache_hits": 0,
+        "cache_misses": 60,
+        "logical_usage": {
+          "prompt_tokens": 212006,
+          "completion_tokens": 29455,
+          "total_tokens": 241461
+        },
+        "billed_usage": {
+          "prompt_tokens": 212006,
+          "completion_tokens": 29455,
+          "total_tokens": 241461
+        }
+      },
+      "stale_support_judge": {
+        "calls": 228,
+        "cache_hits": 0,
+        "cache_misses": 228,
+        "logical_usage": {
+          "prompt_tokens": 222898,
+          "completion_tokens": 70445,
+          "total_tokens": 293343
+        },
+        "billed_usage": {
+          "prompt_tokens": 222898,
+          "completion_tokens": 70445,
+          "total_tokens": 293343
+        }
+      },
+      "query_parser": {
+        "calls": 120,
+        "cache_hits": 0,
+        "cache_misses": 120,
+        "logical_usage": {
+          "prompt_tokens": 175378,
+          "completion_tokens": 101559,
+          "total_tokens": 276937
+        },
+        "billed_usage": {
+          "prompt_tokens": 175378,
+          "completion_tokens": 101559,
+          "total_tokens": 276937
+        }
+      },
+      "premise_verifier": {
+        "calls": 120,
+        "cache_hits": 0,
+        "cache_misses": 120,
+        "logical_usage": {
+          "prompt_tokens": 1741309,
+          "completion_tokens": 106029,
+          "total_tokens": 1847338
+        },
+        "billed_usage": {
+          "prompt_tokens": 1741309,
+          "completion_tokens": 106029,
+          "total_tokens": 1847338
+        }
+      },
+      "query_lane_filter": {
+        "calls": 422,
+        "cache_hits": 158,
+        "cache_misses": 264,
+        "logical_usage": {
+          "prompt_tokens": 487852,
+          "completion_tokens": 243093,
+          "total_tokens": 730945
+        },
+        "billed_usage": {
+          "prompt_tokens": 305971,
+          "completion_tokens": 158774,
+          "total_tokens": 464745
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 120,
+        "cache_hits": 0,
+        "cache_misses": 120,
+        "logical_usage": {
+          "prompt_tokens": 2291467,
+          "completion_tokens": 109795,
+          "total_tokens": 2401262
+        },
+        "billed_usage": {
+          "prompt_tokens": 2291467,
+          "completion_tokens": 109795,
+          "total_tokens": 2401262
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 11599,
+          "completion_tokens": 2367,
+          "total_tokens": 13966
+        },
+        "billed_usage": {
+          "prompt_tokens": 11599,
+          "completion_tokens": 2367,
+          "total_tokens": 13966
+        }
+      },
+      "answer_composer": {
+        "calls": 121,
+        "cache_hits": 0,
+        "cache_misses": 121,
+        "logical_usage": {
+          "prompt_tokens": 160077,
+          "completion_tokens": 25316,
+          "total_tokens": 185393
+        },
+        "billed_usage": {
+          "prompt_tokens": 160077,
+          "completion_tokens": 25316,
+          "total_tokens": 185393
+        }
+      }
+    },
+    "by_query_label": {
+      "conv6_q030": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 44803,
+          "completion_tokens": 4552,
+          "total_tokens": 49355
+        },
+        "billed_usage": {
+          "prompt_tokens": 44803,
+          "completion_tokens": 4552,
+          "total_tokens": 49355
+        }
+      },
+      "conv6_q031": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41096,
+          "completion_tokens": 3810,
+          "total_tokens": 44906
+        },
+        "billed_usage": {
+          "prompt_tokens": 41096,
+          "completion_tokens": 3810,
+          "total_tokens": 44906
+        }
+      },
+      "conv6_q032": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40990,
+          "completion_tokens": 2666,
+          "total_tokens": 43656
+        },
+        "billed_usage": {
+          "prompt_tokens": 40990,
+          "completion_tokens": 2666,
+          "total_tokens": 43656
+        }
+      },
+      "conv6_q033": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31427,
+          "completion_tokens": 1735,
+          "total_tokens": 33162
+        },
+        "billed_usage": {
+          "prompt_tokens": 31427,
+          "completion_tokens": 1735,
+          "total_tokens": 33162
+        }
+      },
+      "conv6_q034": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39916,
+          "completion_tokens": 3367,
+          "total_tokens": 43283
+        },
+        "billed_usage": {
+          "prompt_tokens": 39916,
+          "completion_tokens": 3367,
+          "total_tokens": 43283
+        }
+      },
+      "conv6_q035": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36097,
+          "completion_tokens": 2937,
+          "total_tokens": 39034
+        },
+        "billed_usage": {
+          "prompt_tokens": 36097,
+          "completion_tokens": 2937,
+          "total_tokens": 39034
+        }
+      },
+      "conv6_q036": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33559,
+          "completion_tokens": 3465,
+          "total_tokens": 37024
+        },
+        "billed_usage": {
+          "prompt_tokens": 33559,
+          "completion_tokens": 3465,
+          "total_tokens": 37024
+        }
+      },
+      "conv6_q037": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 38642,
+          "completion_tokens": 3492,
+          "total_tokens": 42134
+        },
+        "billed_usage": {
+          "prompt_tokens": 38642,
+          "completion_tokens": 3492,
+          "total_tokens": 42134
+        }
+      },
+      "conv6_q038": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35974,
+          "completion_tokens": 3812,
+          "total_tokens": 39786
+        },
+        "billed_usage": {
+          "prompt_tokens": 35974,
+          "completion_tokens": 3812,
+          "total_tokens": 39786
+        }
+      },
+      "conv6_q039": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34560,
+          "completion_tokens": 4083,
+          "total_tokens": 38643
+        },
+        "billed_usage": {
+          "prompt_tokens": 34560,
+          "completion_tokens": 4083,
+          "total_tokens": 38643
+        }
+      },
+      "conv6_q040": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34094,
+          "completion_tokens": 3958,
+          "total_tokens": 38052
+        },
+        "billed_usage": {
+          "prompt_tokens": 34094,
+          "completion_tokens": 3958,
+          "total_tokens": 38052
+        }
+      },
+      "conv6_q041": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32014,
+          "completion_tokens": 2444,
+          "total_tokens": 34458
+        },
+        "billed_usage": {
+          "prompt_tokens": 32014,
+          "completion_tokens": 2444,
+          "total_tokens": 34458
+        }
+      },
+      "conv6_q042": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31469,
+          "completion_tokens": 3458,
+          "total_tokens": 34927
+        },
+        "billed_usage": {
+          "prompt_tokens": 31469,
+          "completion_tokens": 3458,
+          "total_tokens": 34927
+        }
+      },
+      "conv6_q043": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43000,
+          "completion_tokens": 3507,
+          "total_tokens": 46507
+        },
+        "billed_usage": {
+          "prompt_tokens": 43000,
+          "completion_tokens": 3507,
+          "total_tokens": 46507
+        }
+      },
+      "conv6_q044": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33248,
+          "completion_tokens": 3010,
+          "total_tokens": 36258
+        },
+        "billed_usage": {
+          "prompt_tokens": 33248,
+          "completion_tokens": 3010,
+          "total_tokens": 36258
+        }
+      },
+      "conv6_q045": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35709,
+          "completion_tokens": 2021,
+          "total_tokens": 37730
+        },
+        "billed_usage": {
+          "prompt_tokens": 35709,
+          "completion_tokens": 2021,
+          "total_tokens": 37730
+        }
+      },
+      "conv6_q046": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36396,
+          "completion_tokens": 2443,
+          "total_tokens": 38839
+        },
+        "billed_usage": {
+          "prompt_tokens": 36396,
+          "completion_tokens": 2443,
+          "total_tokens": 38839
+        }
+      },
+      "conv6_q047": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32039,
+          "completion_tokens": 2957,
+          "total_tokens": 34996
+        },
+        "billed_usage": {
+          "prompt_tokens": 32039,
+          "completion_tokens": 2957,
+          "total_tokens": 34996
+        }
+      },
+      "conv6_q048": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34513,
+          "completion_tokens": 2074,
+          "total_tokens": 36587
+        },
+        "billed_usage": {
+          "prompt_tokens": 34513,
+          "completion_tokens": 2074,
+          "total_tokens": 36587
+        }
+      },
+      "conv6_q049": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32061,
+          "completion_tokens": 2998,
+          "total_tokens": 35059
+        },
+        "billed_usage": {
+          "prompt_tokens": 32061,
+          "completion_tokens": 2998,
+          "total_tokens": 35059
+        }
+      },
+      "conv6_q050": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31786,
+          "completion_tokens": 2259,
+          "total_tokens": 34045
+        },
+        "billed_usage": {
+          "prompt_tokens": 31786,
+          "completion_tokens": 2259,
+          "total_tokens": 34045
+        }
+      },
+      "conv6_q051": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32411,
+          "completion_tokens": 2983,
+          "total_tokens": 35394
+        },
+        "billed_usage": {
+          "prompt_tokens": 32411,
+          "completion_tokens": 2983,
+          "total_tokens": 35394
+        }
+      },
+      "conv6_q052": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39350,
+          "completion_tokens": 2989,
+          "total_tokens": 42339
+        },
+        "billed_usage": {
+          "prompt_tokens": 39350,
+          "completion_tokens": 2989,
+          "total_tokens": 42339
+        }
+      },
+      "conv6_q053": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37983,
+          "completion_tokens": 3677,
+          "total_tokens": 41660
+        },
+        "billed_usage": {
+          "prompt_tokens": 37983,
+          "completion_tokens": 3677,
+          "total_tokens": 41660
+        }
+      },
+      "conv6_q054": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38307,
+          "completion_tokens": 2848,
+          "total_tokens": 41155
+        },
+        "billed_usage": {
+          "prompt_tokens": 38307,
+          "completion_tokens": 2848,
+          "total_tokens": 41155
+        }
+      },
+      "conv6_q055": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36016,
+          "completion_tokens": 2369,
+          "total_tokens": 38385
+        },
+        "billed_usage": {
+          "prompt_tokens": 36016,
+          "completion_tokens": 2369,
+          "total_tokens": 38385
+        }
+      },
+      "conv6_q056": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36520,
+          "completion_tokens": 2333,
+          "total_tokens": 38853
+        },
+        "billed_usage": {
+          "prompt_tokens": 36520,
+          "completion_tokens": 2333,
+          "total_tokens": 38853
+        }
+      },
+      "conv6_q057": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34921,
+          "completion_tokens": 2132,
+          "total_tokens": 37053
+        },
+        "billed_usage": {
+          "prompt_tokens": 34921,
+          "completion_tokens": 2132,
+          "total_tokens": 37053
+        }
+      },
+      "conv6_q058": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40106,
+          "completion_tokens": 2644,
+          "total_tokens": 42750
+        },
+        "billed_usage": {
+          "prompt_tokens": 40106,
+          "completion_tokens": 2644,
+          "total_tokens": 42750
+        }
+      },
+      "conv6_q059": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36293,
+          "completion_tokens": 2556,
+          "total_tokens": 38849
+        },
+        "billed_usage": {
+          "prompt_tokens": 36293,
+          "completion_tokens": 2556,
+          "total_tokens": 38849
+        }
+      },
+      "conv6_q060": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41689,
+          "completion_tokens": 3417,
+          "total_tokens": 45106
+        },
+        "billed_usage": {
+          "prompt_tokens": 41689,
+          "completion_tokens": 3417,
+          "total_tokens": 45106
+        }
+      },
+      "conv6_q061": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39593,
+          "completion_tokens": 2747,
+          "total_tokens": 42340
+        },
+        "billed_usage": {
+          "prompt_tokens": 39593,
+          "completion_tokens": 2747,
+          "total_tokens": 42340
+        }
+      },
+      "conv6_q062": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32561,
+          "completion_tokens": 2622,
+          "total_tokens": 35183
+        },
+        "billed_usage": {
+          "prompt_tokens": 32561,
+          "completion_tokens": 2622,
+          "total_tokens": 35183
+        }
+      },
+      "conv6_q063": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31011,
+          "completion_tokens": 2587,
+          "total_tokens": 33598
+        },
+        "billed_usage": {
+          "prompt_tokens": 31011,
+          "completion_tokens": 2587,
+          "total_tokens": 33598
+        }
+      },
+      "conv6_q064": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37487,
+          "completion_tokens": 2380,
+          "total_tokens": 39867
+        },
+        "billed_usage": {
+          "prompt_tokens": 37487,
+          "completion_tokens": 2380,
+          "total_tokens": 39867
+        }
+      },
+      "conv6_q065": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34673,
+          "completion_tokens": 2326,
+          "total_tokens": 36999
+        },
+        "billed_usage": {
+          "prompt_tokens": 34673,
+          "completion_tokens": 2326,
+          "total_tokens": 36999
+        }
+      },
+      "conv6_q066": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37991,
+          "completion_tokens": 3228,
+          "total_tokens": 41219
+        },
+        "billed_usage": {
+          "prompt_tokens": 37991,
+          "completion_tokens": 3228,
+          "total_tokens": 41219
+        }
+      },
+      "conv6_q067": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31865,
+          "completion_tokens": 2332,
+          "total_tokens": 34197
+        },
+        "billed_usage": {
+          "prompt_tokens": 31865,
+          "completion_tokens": 2332,
+          "total_tokens": 34197
+        }
+      },
+      "conv6_q068": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39974,
+          "completion_tokens": 3055,
+          "total_tokens": 43029
+        },
+        "billed_usage": {
+          "prompt_tokens": 39974,
+          "completion_tokens": 3055,
+          "total_tokens": 43029
+        }
+      },
+      "conv6_q069": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44171,
+          "completion_tokens": 2921,
+          "total_tokens": 47092
+        },
+        "billed_usage": {
+          "prompt_tokens": 44171,
+          "completion_tokens": 2921,
+          "total_tokens": 47092
+        }
+      },
+      "conv6_q070": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 29815,
+          "completion_tokens": 2420,
+          "total_tokens": 32235
+        },
+        "billed_usage": {
+          "prompt_tokens": 29815,
+          "completion_tokens": 2420,
+          "total_tokens": 32235
+        }
+      },
+      "conv6_q071": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30075,
+          "completion_tokens": 2462,
+          "total_tokens": 32537
+        },
+        "billed_usage": {
+          "prompt_tokens": 30075,
+          "completion_tokens": 2462,
+          "total_tokens": 32537
+        }
+      },
+      "conv6_q072": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32822,
+          "completion_tokens": 2569,
+          "total_tokens": 35391
+        },
+        "billed_usage": {
+          "prompt_tokens": 32822,
+          "completion_tokens": 2569,
+          "total_tokens": 35391
+        }
+      },
+      "conv6_q073": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 29728,
+          "completion_tokens": 1997,
+          "total_tokens": 31725
+        },
+        "billed_usage": {
+          "prompt_tokens": 29728,
+          "completion_tokens": 1997,
+          "total_tokens": 31725
+        }
+      },
+      "conv6_q074": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33919,
+          "completion_tokens": 2298,
+          "total_tokens": 36217
+        },
+        "billed_usage": {
+          "prompt_tokens": 33919,
+          "completion_tokens": 2298,
+          "total_tokens": 36217
+        }
+      },
+      "conv6_q075": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35153,
+          "completion_tokens": 3288,
+          "total_tokens": 38441
+        },
+        "billed_usage": {
+          "prompt_tokens": 35153,
+          "completion_tokens": 3288,
+          "total_tokens": 38441
+        }
+      },
+      "conv6_q076": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40267,
+          "completion_tokens": 2982,
+          "total_tokens": 43249
+        },
+        "billed_usage": {
+          "prompt_tokens": 40267,
+          "completion_tokens": 2982,
+          "total_tokens": 43249
+        }
+      },
+      "conv6_q077": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45370,
+          "completion_tokens": 2532,
+          "total_tokens": 47902
+        },
+        "billed_usage": {
+          "prompt_tokens": 45370,
+          "completion_tokens": 2532,
+          "total_tokens": 47902
+        }
+      },
+      "conv6_q078": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33332,
+          "completion_tokens": 2811,
+          "total_tokens": 36143
+        },
+        "billed_usage": {
+          "prompt_tokens": 33332,
+          "completion_tokens": 2811,
+          "total_tokens": 36143
+        }
+      },
+      "conv6_q079": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34863,
+          "completion_tokens": 2760,
+          "total_tokens": 37623
+        },
+        "billed_usage": {
+          "prompt_tokens": 34863,
+          "completion_tokens": 2760,
+          "total_tokens": 37623
+        }
+      },
+      "conv6_q080": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31242,
+          "completion_tokens": 4342,
+          "total_tokens": 35584
+        },
+        "billed_usage": {
+          "prompt_tokens": 31242,
+          "completion_tokens": 4342,
+          "total_tokens": 35584
+        }
+      },
+      "conv6_q081": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38639,
+          "completion_tokens": 3107,
+          "total_tokens": 41746
+        },
+        "billed_usage": {
+          "prompt_tokens": 38639,
+          "completion_tokens": 3107,
+          "total_tokens": 41746
+        }
+      },
+      "conv6_q082": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41088,
+          "completion_tokens": 2098,
+          "total_tokens": 43186
+        },
+        "billed_usage": {
+          "prompt_tokens": 41088,
+          "completion_tokens": 2098,
+          "total_tokens": 43186
+        }
+      },
+      "conv6_q083": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45681,
+          "completion_tokens": 2467,
+          "total_tokens": 48148
+        },
+        "billed_usage": {
+          "prompt_tokens": 45681,
+          "completion_tokens": 2467,
+          "total_tokens": 48148
+        }
+      },
+      "conv6_q084": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30110,
+          "completion_tokens": 4250,
+          "total_tokens": 34360
+        },
+        "billed_usage": {
+          "prompt_tokens": 30110,
+          "completion_tokens": 4250,
+          "total_tokens": 34360
+        }
+      },
+      "conv6_q085": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34153,
+          "completion_tokens": 3281,
+          "total_tokens": 37434
+        },
+        "billed_usage": {
+          "prompt_tokens": 34153,
+          "completion_tokens": 3281,
+          "total_tokens": 37434
+        }
+      },
+      "conv6_q086": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 40041,
+          "completion_tokens": 2256,
+          "total_tokens": 42297
+        },
+        "billed_usage": {
+          "prompt_tokens": 40041,
+          "completion_tokens": 2256,
+          "total_tokens": 42297
+        }
+      },
+      "conv6_q087": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32854,
+          "completion_tokens": 2118,
+          "total_tokens": 34972
+        },
+        "billed_usage": {
+          "prompt_tokens": 32854,
+          "completion_tokens": 2118,
+          "total_tokens": 34972
+        }
+      },
+      "conv6_q088": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37015,
+          "completion_tokens": 2594,
+          "total_tokens": 39609
+        },
+        "billed_usage": {
+          "prompt_tokens": 37015,
+          "completion_tokens": 2594,
+          "total_tokens": 39609
+        }
+      },
+      "conv6_q089": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37645,
+          "completion_tokens": 2932,
+          "total_tokens": 40577
+        },
+        "billed_usage": {
+          "prompt_tokens": 37645,
+          "completion_tokens": 2932,
+          "total_tokens": 40577
+        }
+      },
+      "conv6_q090": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38243,
+          "completion_tokens": 2470,
+          "total_tokens": 40713
+        },
+        "billed_usage": {
+          "prompt_tokens": 38243,
+          "completion_tokens": 2470,
+          "total_tokens": 40713
+        }
+      },
+      "conv6_q091": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42232,
+          "completion_tokens": 2733,
+          "total_tokens": 44965
+        },
+        "billed_usage": {
+          "prompt_tokens": 42232,
+          "completion_tokens": 2733,
+          "total_tokens": 44965
+        }
+      },
+      "conv6_q092": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42772,
+          "completion_tokens": 2755,
+          "total_tokens": 45527
+        },
+        "billed_usage": {
+          "prompt_tokens": 42772,
+          "completion_tokens": 2755,
+          "total_tokens": 45527
+        }
+      },
+      "conv6_q093": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36753,
+          "completion_tokens": 2384,
+          "total_tokens": 39137
+        },
+        "billed_usage": {
+          "prompt_tokens": 36753,
+          "completion_tokens": 2384,
+          "total_tokens": 39137
+        }
+      },
+      "conv6_q094": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41870,
+          "completion_tokens": 3165,
+          "total_tokens": 45035
+        },
+        "billed_usage": {
+          "prompt_tokens": 41870,
+          "completion_tokens": 3165,
+          "total_tokens": 45035
+        }
+      },
+      "conv6_q095": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35764,
+          "completion_tokens": 2245,
+          "total_tokens": 38009
+        },
+        "billed_usage": {
+          "prompt_tokens": 35764,
+          "completion_tokens": 2245,
+          "total_tokens": 38009
+        }
+      },
+      "conv6_q096": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33108,
+          "completion_tokens": 2196,
+          "total_tokens": 35304
+        },
+        "billed_usage": {
+          "prompt_tokens": 33108,
+          "completion_tokens": 2196,
+          "total_tokens": 35304
+        }
+      },
+      "conv6_q097": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32092,
+          "completion_tokens": 1819,
+          "total_tokens": 33911
+        },
+        "billed_usage": {
+          "prompt_tokens": 32092,
+          "completion_tokens": 1819,
+          "total_tokens": 33911
+        }
+      },
+      "conv6_q098": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33306,
+          "completion_tokens": 3460,
+          "total_tokens": 36766
+        },
+        "billed_usage": {
+          "prompt_tokens": 33306,
+          "completion_tokens": 3460,
+          "total_tokens": 36766
+        }
+      },
+      "conv6_q099": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42973,
+          "completion_tokens": 3151,
+          "total_tokens": 46124
+        },
+        "billed_usage": {
+          "prompt_tokens": 42973,
+          "completion_tokens": 3151,
+          "total_tokens": 46124
+        }
+      },
+      "conv6_q100": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36516,
+          "completion_tokens": 2957,
+          "total_tokens": 39473
+        },
+        "billed_usage": {
+          "prompt_tokens": 36516,
+          "completion_tokens": 2957,
+          "total_tokens": 39473
+        }
+      },
+      "conv6_q101": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33690,
+          "completion_tokens": 2492,
+          "total_tokens": 36182
+        },
+        "billed_usage": {
+          "prompt_tokens": 33690,
+          "completion_tokens": 2492,
+          "total_tokens": 36182
+        }
+      },
+      "conv6_q102": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30207,
+          "completion_tokens": 2610,
+          "total_tokens": 32817
+        },
+        "billed_usage": {
+          "prompt_tokens": 30207,
+          "completion_tokens": 2610,
+          "total_tokens": 32817
+        }
+      },
+      "conv6_q103": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39926,
+          "completion_tokens": 2667,
+          "total_tokens": 42593
+        },
+        "billed_usage": {
+          "prompt_tokens": 39926,
+          "completion_tokens": 2667,
+          "total_tokens": 42593
+        }
+      },
+      "conv6_q104": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37004,
+          "completion_tokens": 3803,
+          "total_tokens": 40807
+        },
+        "billed_usage": {
+          "prompt_tokens": 37004,
+          "completion_tokens": 3803,
+          "total_tokens": 40807
+        }
+      },
+      "conv6_q105": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43295,
+          "completion_tokens": 3567,
+          "total_tokens": 46862
+        },
+        "billed_usage": {
+          "prompt_tokens": 43295,
+          "completion_tokens": 3567,
+          "total_tokens": 46862
+        }
+      },
+      "conv6_q106": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43618,
+          "completion_tokens": 4662,
+          "total_tokens": 48280
+        },
+        "billed_usage": {
+          "prompt_tokens": 43618,
+          "completion_tokens": 4662,
+          "total_tokens": 48280
+        }
+      },
+      "conv6_q107": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35233,
+          "completion_tokens": 2338,
+          "total_tokens": 37571
+        },
+        "billed_usage": {
+          "prompt_tokens": 35233,
+          "completion_tokens": 2338,
+          "total_tokens": 37571
+        }
+      },
+      "conv6_q108": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42521,
+          "completion_tokens": 3200,
+          "total_tokens": 45721
+        },
+        "billed_usage": {
+          "prompt_tokens": 42521,
+          "completion_tokens": 3200,
+          "total_tokens": 45721
+        }
+      },
+      "conv6_q109": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33311,
+          "completion_tokens": 2843,
+          "total_tokens": 36154
+        },
+        "billed_usage": {
+          "prompt_tokens": 33311,
+          "completion_tokens": 2843,
+          "total_tokens": 36154
+        }
+      },
+      "conv6_q110": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30287,
+          "completion_tokens": 3395,
+          "total_tokens": 33682
+        },
+        "billed_usage": {
+          "prompt_tokens": 30287,
+          "completion_tokens": 3395,
+          "total_tokens": 33682
+        }
+      },
+      "conv6_q111": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37033,
+          "completion_tokens": 3644,
+          "total_tokens": 40677
+        },
+        "billed_usage": {
+          "prompt_tokens": 37033,
+          "completion_tokens": 3644,
+          "total_tokens": 40677
+        }
+      },
+      "conv6_q112": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35587,
+          "completion_tokens": 3377,
+          "total_tokens": 38964
+        },
+        "billed_usage": {
+          "prompt_tokens": 35587,
+          "completion_tokens": 3377,
+          "total_tokens": 38964
+        }
+      },
+      "conv6_q113": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36219,
+          "completion_tokens": 2291,
+          "total_tokens": 38510
+        },
+        "billed_usage": {
+          "prompt_tokens": 36219,
+          "completion_tokens": 2291,
+          "total_tokens": 38510
+        }
+      },
+      "conv6_q114": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32994,
+          "completion_tokens": 2890,
+          "total_tokens": 35884
+        },
+        "billed_usage": {
+          "prompt_tokens": 32994,
+          "completion_tokens": 2890,
+          "total_tokens": 35884
+        }
+      },
+      "conv6_q115": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41667,
+          "completion_tokens": 2556,
+          "total_tokens": 44223
+        },
+        "billed_usage": {
+          "prompt_tokens": 41667,
+          "completion_tokens": 2556,
+          "total_tokens": 44223
+        }
+      },
+      "conv6_q116": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32938,
+          "completion_tokens": 2434,
+          "total_tokens": 35372
+        },
+        "billed_usage": {
+          "prompt_tokens": 32938,
+          "completion_tokens": 2434,
+          "total_tokens": 35372
+        }
+      },
+      "conv6_q117": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38626,
+          "completion_tokens": 3810,
+          "total_tokens": 42436
+        },
+        "billed_usage": {
+          "prompt_tokens": 38626,
+          "completion_tokens": 3810,
+          "total_tokens": 42436
+        }
+      },
+      "conv6_q118": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38736,
+          "completion_tokens": 2800,
+          "total_tokens": 41536
+        },
+        "billed_usage": {
+          "prompt_tokens": 38736,
+          "completion_tokens": 2800,
+          "total_tokens": 41536
+        }
+      },
+      "conv6_q119": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31576,
+          "completion_tokens": 2764,
+          "total_tokens": 34340
+        },
+        "billed_usage": {
+          "prompt_tokens": 31576,
+          "completion_tokens": 2764,
+          "total_tokens": 34340
+        }
+      },
+      "conv6_q120": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35063,
+          "completion_tokens": 2275,
+          "total_tokens": 37338
+        },
+        "billed_usage": {
+          "prompt_tokens": 35063,
+          "completion_tokens": 2275,
+          "total_tokens": 37338
+        }
+      },
+      "conv6_q121": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 29968,
+          "completion_tokens": 2531,
+          "total_tokens": 32499
+        },
+        "billed_usage": {
+          "prompt_tokens": 29968,
+          "completion_tokens": 2531,
+          "total_tokens": 32499
+        }
+      },
+      "conv6_q122": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37507,
+          "completion_tokens": 2611,
+          "total_tokens": 40118
+        },
+        "billed_usage": {
+          "prompt_tokens": 37507,
+          "completion_tokens": 2611,
+          "total_tokens": 40118
+        }
+      },
+      "conv6_q123": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33501,
+          "completion_tokens": 2203,
+          "total_tokens": 35704
+        },
+        "billed_usage": {
+          "prompt_tokens": 33501,
+          "completion_tokens": 2203,
+          "total_tokens": 35704
+        }
+      },
+      "conv6_q124": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 35543,
+          "completion_tokens": 3090,
+          "total_tokens": 38633
+        },
+        "billed_usage": {
+          "prompt_tokens": 35543,
+          "completion_tokens": 3090,
+          "total_tokens": 38633
+        }
+      },
+      "conv6_q125": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34725,
+          "completion_tokens": 2510,
+          "total_tokens": 37235
+        },
+        "billed_usage": {
+          "prompt_tokens": 34725,
+          "completion_tokens": 2510,
+          "total_tokens": 37235
+        }
+      },
+      "conv6_q126": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42630,
+          "completion_tokens": 2648,
+          "total_tokens": 45278
+        },
+        "billed_usage": {
+          "prompt_tokens": 42630,
+          "completion_tokens": 2648,
+          "total_tokens": 45278
+        }
+      },
+      "conv6_q127": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39530,
+          "completion_tokens": 2720,
+          "total_tokens": 42250
+        },
+        "billed_usage": {
+          "prompt_tokens": 39530,
+          "completion_tokens": 2720,
+          "total_tokens": 42250
+        }
+      },
+      "conv6_q128": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37144,
+          "completion_tokens": 2037,
+          "total_tokens": 39181
+        },
+        "billed_usage": {
+          "prompt_tokens": 37144,
+          "completion_tokens": 2037,
+          "total_tokens": 39181
+        }
+      },
+      "conv6_q129": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31798,
+          "completion_tokens": 2093,
+          "total_tokens": 33891
+        },
+        "billed_usage": {
+          "prompt_tokens": 31798,
+          "completion_tokens": 2093,
+          "total_tokens": 33891
+        }
+      },
+      "conv6_q130": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32326,
+          "completion_tokens": 2224,
+          "total_tokens": 34550
+        },
+        "billed_usage": {
+          "prompt_tokens": 32326,
+          "completion_tokens": 2224,
+          "total_tokens": 34550
+        }
+      },
+      "conv6_q131": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33821,
+          "completion_tokens": 1927,
+          "total_tokens": 35748
+        },
+        "billed_usage": {
+          "prompt_tokens": 33821,
+          "completion_tokens": 1927,
+          "total_tokens": 35748
+        }
+      },
+      "conv6_q132": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42440,
+          "completion_tokens": 2560,
+          "total_tokens": 45000
+        },
+        "billed_usage": {
+          "prompt_tokens": 42440,
+          "completion_tokens": 2560,
+          "total_tokens": 45000
+        }
+      },
+      "conv6_q133": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35732,
+          "completion_tokens": 3123,
+          "total_tokens": 38855
+        },
+        "billed_usage": {
+          "prompt_tokens": 35732,
+          "completion_tokens": 3123,
+          "total_tokens": 38855
+        }
+      },
+      "conv6_q134": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39454,
+          "completion_tokens": 3823,
+          "total_tokens": 43277
+        },
+        "billed_usage": {
+          "prompt_tokens": 39454,
+          "completion_tokens": 3823,
+          "total_tokens": 43277
+        }
+      },
+      "conv6_q135": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41698,
+          "completion_tokens": 2991,
+          "total_tokens": 44689
+        },
+        "billed_usage": {
+          "prompt_tokens": 41698,
+          "completion_tokens": 2991,
+          "total_tokens": 44689
+        }
+      },
+      "conv6_q136": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43960,
+          "completion_tokens": 3390,
+          "total_tokens": 47350
+        },
+        "billed_usage": {
+          "prompt_tokens": 43960,
+          "completion_tokens": 3390,
+          "total_tokens": 47350
+        }
+      },
+      "conv6_q137": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39204,
+          "completion_tokens": 3371,
+          "total_tokens": 42575
+        },
+        "billed_usage": {
+          "prompt_tokens": 39204,
+          "completion_tokens": 3371,
+          "total_tokens": 42575
+        }
+      },
+      "conv6_q138": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38580,
+          "completion_tokens": 2650,
+          "total_tokens": 41230
+        },
+        "billed_usage": {
+          "prompt_tokens": 38580,
+          "completion_tokens": 2650,
+          "total_tokens": 41230
+        }
+      },
+      "conv6_q139": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31793,
+          "completion_tokens": 2708,
+          "total_tokens": 34501
+        },
+        "billed_usage": {
+          "prompt_tokens": 31793,
+          "completion_tokens": 2708,
+          "total_tokens": 34501
+        }
+      },
+      "conv6_q140": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39359,
+          "completion_tokens": 3932,
+          "total_tokens": 43291
+        },
+        "billed_usage": {
+          "prompt_tokens": 39359,
+          "completion_tokens": 3932,
+          "total_tokens": 43291
+        }
+      },
+      "conv6_q141": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39274,
+          "completion_tokens": 2184,
+          "total_tokens": 41458
+        },
+        "billed_usage": {
+          "prompt_tokens": 39274,
+          "completion_tokens": 2184,
+          "total_tokens": 41458
+        }
+      },
+      "conv6_q142": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34679,
+          "completion_tokens": 2540,
+          "total_tokens": 37219
+        },
+        "billed_usage": {
+          "prompt_tokens": 34679,
+          "completion_tokens": 2540,
+          "total_tokens": 37219
+        }
+      },
+      "conv6_q143": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 28014,
+          "completion_tokens": 2487,
+          "total_tokens": 30501
+        },
+        "billed_usage": {
+          "prompt_tokens": 28014,
+          "completion_tokens": 2487,
+          "total_tokens": 30501
+        }
+      },
+      "conv6_q144": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33779,
+          "completion_tokens": 3289,
+          "total_tokens": 37068
+        },
+        "billed_usage": {
+          "prompt_tokens": 33779,
+          "completion_tokens": 3289,
+          "total_tokens": 37068
+        }
+      },
+      "conv6_q145": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36359,
+          "completion_tokens": 3839,
+          "total_tokens": 40198
+        },
+        "billed_usage": {
+          "prompt_tokens": 36359,
+          "completion_tokens": 3839,
+          "total_tokens": 40198
+        }
+      },
+      "conv6_q146": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41425,
+          "completion_tokens": 2700,
+          "total_tokens": 44125
+        },
+        "billed_usage": {
+          "prompt_tokens": 41425,
+          "completion_tokens": 2700,
+          "total_tokens": 44125
+        }
+      },
+      "conv6_q147": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34183,
+          "completion_tokens": 2518,
+          "total_tokens": 36701
+        },
+        "billed_usage": {
+          "prompt_tokens": 34183,
+          "completion_tokens": 2518,
+          "total_tokens": 36701
+        }
+      },
+      "conv6_q148": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 43162,
+          "completion_tokens": 4952,
+          "total_tokens": 48114
+        },
+        "billed_usage": {
+          "prompt_tokens": 43162,
+          "completion_tokens": 4952,
+          "total_tokens": 48114
+        }
+      },
+      "conv6_q149": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32955,
+          "completion_tokens": 2904,
+          "total_tokens": 35859
+        },
+        "billed_usage": {
+          "prompt_tokens": 32955,
+          "completion_tokens": 2904,
+          "total_tokens": 35859
+        }
+      }
+    }
+  }
+}

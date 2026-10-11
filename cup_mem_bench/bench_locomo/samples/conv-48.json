@@ -1,0 +1,3577 @@
+{
+  "uid": "conv-48",
+  "num_sessions": 30,
+  "answers": {
+    "conv7_q000": {
+      "response": "I don’t have reliable current information about what project Jolene was working on at the beginning of January 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 280.3
+    },
+    "conv7_q001": {
+      "response": "Deborah's father has passed away.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 98.5
+    },
+    "conv7_q002": {
+      "response": "I don’t have information about the date of Deborah’s mother’s passing.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 111.6
+    },
+    "conv7_q003": {
+      "response": "I don’t have information on when Jolene’s mother passed away; the date is currently unknown.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 205.5
+    },
+    "conv7_q004": {
+      "response": "I’m not aware of any confirmed event where Jolene’s mom gifted her a pendant, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 259.4
+    },
+    "conv7_q005": {
+      "response": "I’m sorry, but I don’t have enough information to determine the country where Jolene’s mother bought the pendant.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 102.0
+    },
+    "conv7_q006": {
+      "response": "I’m sorry, but I don’t have any information about symbolic gifts that Deborah or Jolene received from their mothers.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 75.2
+    },
+    "conv7_q007": {
+      "response": "I’m sorry, but I don’t have enough information to determine which country Jolene and her mother were visiting in 2010.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 80.6
+    },
+    "conv7_q008": {
+      "response": "Deborah finds peace while grieving by actively practicing mindfulness and gratitude and by meditating at a nearby tranquil spot.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 201.6
+    },
+    "conv7_q009": {
+      "response": "I don’t have any record of when Deborah’s father passed away.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 135.8
+    },
+    "conv7_q010": {
+      "response": "I’m sorry, I don’t have that information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.2
+    },
+    "conv7_q011": {
+      "response": "I don't have enough information to determine whether Deborah is married.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 119.2
+    },
+    "conv7_q012": {
+      "response": "I don’t have any information about when Deborah received an appreciation letter from her community, as there’s no record confirming that she received one.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 106.5
+    },
+    "conv7_q013": {
+      "response": "Deborah finds peace when she meditates at a nearby tranquil spot.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 152.9
+    },
+    "conv7_q014": {
+      "response": "The assumption that Deborah's mother is alive and has hobbies is no longer valid—current information only notes that she is deceased—so there’s no available data about her hobbies.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 184.8
+    },
+    "conv7_q015": {
+      "response": "I don’t have information about Jolene’s pets.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.8
+    },
+    "conv7_q016": {
+      "response": "I don’t have any information about Jolene’s snakes or their names, so I can’t provide those details.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 35.9
+    },
+    "conv7_q017": {
+      "response": "I don’t have any information on when Jolene bought her pet Seraphim.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.2
+    },
+    "conv7_q018": {
+      "response": "I’m sorry, but I don’t have any information about the country where Jolene bought the snake named Seraphim.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 139.2
+    },
+    "conv7_q019": {
+      "response": "I don’t have any information about Jolene’s travel history, so I can’t say how many times she’s been to France.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 109.9
+    },
+    "conv7_q020": {
+      "response": "I don't have current information about any games that Jolene and her partner have played together, so I can't provide a list.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 138.0
+    },
+    "conv7_q021": {
+      "response": "There’s no current information about when Jolene and her partner plan to finish the Walking Dead game; the only known plan is to go out in nature next month.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 109.1
+    },
+    "conv7_q022": {
+      "response": "I don't have current information confirming that Deborah and Anna have met, so I can't provide a date for when they might have met.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 161.2
+    },
+    "conv7_q023": {
+      "response": "The premise that Jolene sometimes puts off doing yoga is no longer valid – she now has a regular yoga/meditation routine that occupies scheduled time (and intensive finals studying can temporarily crowd out that slot), so it’s inaccurate to say she routinely delays it.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 243.2
+    },
+    "conv7_q024": {
+      "response": "The premise that Deborah tried new yoga poses is no longer supported; the only current information is that she has started attending a yoga class in the neighborhood, and no specific poses are known.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 190.3
+    },
+    "conv7_q025": {
+      "response": "I don’t have any current information about Jolene’s favorite books, so I can’t provide a list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 123.4
+    },
+    "conv7_q026": {
+      "response": "I don’t have enough information to know which book Jolene read in January 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.4
+    },
+    "conv7_q027": {
+      "response": "I don’t have any information on when (or if) Jolene was in Bogotá, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 143.1
+    },
+    "conv7_q028": {
+      "response": "I don’t have enough current information to determine which country Jolene was in during the summer of 2022.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 149.8
+    },
+    "conv7_q089": {
+      "response": "I don’t have any information about Jolene’s snakes or their names, so I can’t provide those details.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q090": {
+      "response": "I don’t have any current information about Jolene’s favorite books, so I can’t provide a list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q029": {
+      "response": "I don’t have any record of when Jolene’s career‑reflection mini‑retreat occurred.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 62.8
+    },
+    "conv7_q030": {
+      "response": "I don’t have current information confirming that Jolene had a dinner and drinks with her friends, so I can’t provide a date for such an event.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 90.0
+    },
+    "conv7_q031": {
+      "response": "I don't have any information about a photo of Deborah and Karlie, so I can't tell when the most recent one was taken.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 132.8
+    },
+    "conv7_q032": {
+      "response": "I don't have information about when Deborah was in Bali, as there is no current evidence confirming she was there.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.8
+    },
+    "conv7_q033": {
+      "response": "There is no current information confirming Jolene has a partner or how long they have been together, so the duration cannot be determined.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 201.0
+    },
+    "conv7_q034": {
+      "response": "I’m sorry, but there’s no available information about the year Jolene and her partner started dating.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 165.7
+    },
+    "conv7_q035": {
+      "response": "There’s no available information about when Deborah made her first morning jog in a nearby park, so the date is currently unknown.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 171.7
+    },
+    "conv7_q036": {
+      "response": "I don’t have current information about Jolene’s age.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 258.3
+    },
+    "conv7_q037": {
+      "response": "I don't have any information about Jolene ever taking Seraphim to the park, so I can't provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.9
+    },
+    "conv7_q038": {
+      "response": "There is no current information about when Deborah began the neighborhood yoga class; the start date is unknown.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 45.6
+    },
+    "conv7_q039": {
+      "response": "I don’t have current information on Deborah’s or Jolene’s time‑management techniques, so I can’t answer that question.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 123.9
+    },
+    "conv7_q040": {
+      "response": "There’s no current information confirming whether Deborah lives near the beach or the mountains; the only fact is that she occasionally takes short trips to the beach, which doesn’t indicate her residence.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.5
+    },
+    "conv7_q041": {
+      "response": "I’m sorry, but I don’t have current information on the specific ways Deborah and Jolene enhance their yoga practice.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.1
+    },
+    "conv7_q042": {
+      "response": "Deborah currently prefers listening to music by Nils Frahm and Ólafur Arnalds during her yoga practice.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 44.1
+    },
+    "conv7_q043": {
+      "response": "I don’t have any confirmed information about when Deborah and Anna went on a bicycle ride, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 156.7
+    },
+    "conv7_q044": {
+      "response": "There’s no confirmed information about Deborah attending an art show with Anna, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.3
+    },
+    "conv7_q045": {
+      "response": "I don’t have any information about when Jolene finished her robotics project.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 125.5
+    },
+    "conv7_q046": {
+      "response": "The premise that we know how long Jolene worked on the robotics project is no longer valid—there is no current information on the project's duration, so it cannot be answered.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 84.7
+    },
+    "conv7_q047": {
+      "response": "I don’t have any current information confirming that Jolene did yoga in Talkeetna, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 97.9
+    },
+    "conv7_q048": {
+      "response": "There is no current information confirming which US state Jolene visited during her internship.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 164.3
+    },
+    "conv7_q049": {
+      "response": "I don’t have information on how long Jolene has been practicing yoga and meditation.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 105.3
+    },
+    "conv7_q050": {
+      "response": "I don’t have information about the year Jolene began practicing yoga.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 64.9
+    },
+    "conv7_q051": {
+      "response": "I don’t have any information about when Jolene bought a new aquarium for Seraphim.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 120.7
+    },
+    "conv7_q052": {
+      "response": "I don’t have any current information about a specific time when Jolene lost a lot of progress in her work, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 199.1
+    },
+    "conv7_q053": {
+      "response": "I’m not aware of when Jolene adopted her snake Susie; that information isn’t available.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 93.2
+    },
+    "conv7_q054": {
+      "response": "I don’t have information about which pet Jolene adopted first, Susie or Seraphim.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.1
+    },
+    "conv7_q055": {
+      "response": "I don’t have any information about when Jolene adopted Susie or Seraphim, so I can’t tell which adoption was more recent.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.1
+    },
+    "conv7_q056": {
+      "response": "I don’t have current information confirming that Deborah led a meditation session at sunset, so I can’t provide a date or time.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.6
+    },
+    "conv7_q057": {
+      "response": "I don’t have any confirmed information about when Jolene gave her partner a new console, and the premise that she did so is not established.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.2
+    },
+    "conv7_q058": {
+      "response": "I don’t have current information about any games that Jolene recommends for Deborah, so I can’t provide a list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 39.9
+    },
+    "conv7_q059": {
+      "response": "I don’t have current information about what Deborah and her husband do together.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 95.8
+    },
+    "conv7_q060": {
+      "response": "I don’t have information about the date of the yoga retreat.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 46.2
+    },
+    "conv7_q061": {
+      "response": "The previous information about Jolene’s planned projects for next year is no longer reliable. At present we only know she aims to spend time in nature next month and is leading a community cleanup project with fundraising, but there’s no current data on any projects she’s planning for the coming year.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 87.1
+    },
+    "conv7_q062": {
+      "response": "Deborah got her cat Max from her mother.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 69.2
+    },
+    "conv7_q063": {
+      "response": "I don’t have information about the ages of Deborah’s cats.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.2
+    },
+    "conv7_q064": {
+      "response": "There is no available information to determine whether Deborah likes cats.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 51.7
+    },
+    "conv7_q065": {
+      "response": "I don’t have enough information to determine which country Jolene was in during the last week of August 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 73.8
+    },
+    "conv7_q066": {
+      "response": "I’m not able to determine when Jolene and her partner returned home from Rio de Janeiro, as there’s no current information available on that event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.9
+    },
+    "conv7_q067": {
+      "response": "I don’t have current information about Jolene being in Rio de Janeiro or what she was doing there with her partner.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 260.0
+    },
+    "conv7_q068": {
+      "response": "I don’t have information on when Deborah visited Brazil.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.4
+    },
+    "conv7_q069": {
+      "response": "I don’t have enough information to confirm whether Deborah and Jolene have visited Rio de Janeiro.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.4
+    },
+    "conv7_q070": {
+      "response": "Yes, the friend is no longer alive.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.7
+    },
+    "conv7_q071": {
+      "response": "I don’t have any information confirming that Deborah attended a community meetup, so I can’t provide a date for when she might have gone.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.6
+    },
+    "conv7_q072": {
+      "response": "I don’t have enough information to determine when (or even if) Jolene’s parents gave her a first console.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.3
+    },
+    "conv7_q073": {
+      "response": "I don’t have enough information to determine whether Jolene taught herself how to play the console.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.4
+    },
+    "conv7_q074": {
+      "response": "The claim that Deborah and Jolene have a specific thing they’ll try at the new café isn’t supported by the current information; we only know they already have plans for that day, but no details about what they intend to try together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 116.3
+    },
+    "conv7_q075": {
+      "response": "I don’t have enough information to identify the card game Deborah was referring to.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 100.2
+    },
+    "conv7_q076": {
+      "response": "I don’t have a current, reliable date for when Jolene and her partner tried scuba diving lessons; the premise is outdated and unsafe to assume.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 106.0
+    },
+    "conv7_q077": {
+      "response": "I don’t have information about where Jolene and her partner found a cool diving spot.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.3
+    },
+    "conv7_q078": {
+      "response": "There is no current information confirming where Jolene and her partner spent most of September 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 114.6
+    },
+    "conv7_q079": {
+      "response": "There’s no definitive evidence that Deborah has tried surfing; the only current info is she’s arranging a beginner surfing lesson, which suggests she hasn’t yet done so, but it isn’t confirmed.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 155.3
+    },
+    "conv7_q080": {
+      "response": "Yes, Jolene has tried surfing.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 217.5
+    },
+    "conv7_q081": {
+      "response": "There is no current information confirming that Deboran and Jolene have agreed to go surfing, so a date cannot be provided.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.1
+    },
+    "conv7_q082": {
+      "response": "Deborah practices yoga at a yoga retreat near her mom's place.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 43.8
+    },
+    "conv7_q083": {
+      "response": "Jolene is gaining experience by actively studying engineering, handling a challenging workload, developing a prototype for aerial surveillance, and having recently achieved a breakthrough in that project.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 67.5
+    },
+    "conv7_q084": {
+      "response": "Jolette has a background in electrical‑engineering work and has led a large robotics project.  Currently she’s developing a prototype for aerial surveillance and pursuing a breakthrough in her ongoing engineering effort.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 142.6
+    },
+    "conv7_q085": {
+      "response": "There is no current information indicating that Deborah and Anna have participated together in any community activities; the earlier claim is outdated.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 113.1
+    },
+    "conv7_q086": {
+      "response": "I don’t have any information about gifts Deborah has received, so I can’t provide a list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.6
+    },
+    "conv7_q087": {
+      "response": "I don’t have any current information about which countries Deborah has visited, so I can’t provide a list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 112.3
+    },
+    "conv7_q088": {
+      "response": "Deborah spends time running her pets in the park twice a day, in the morning and again in the evening.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 99.7
+    },
+    "conv7_q091": {
+      "response": "Deborah currently prefers listening to music by Nils Frahm and Ólafur Arnalds during her yoga practice.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q092": {
+      "response": "I don’t have current information about any games that Jolene recommends for Deborah, so I can’t provide a list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q093": {
+      "response": "The previous information about Jolene’s planned projects for next year is no longer reliable. At present we only know she aims to spend time in nature next month and is leading a community cleanup project with fundraising, but there’s no current data on any projects she’s planning for the coming year.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q094": {
+      "response": "Deborah got her cat Max from her mother.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q095": {
+      "response": "I don’t have information about the ages of Deborah’s cats.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q096": {
+      "response": "I don’t have current information about Jolene being in Rio de Janeiro or what she was doing there with her partner.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q097": {
+      "response": "I don’t have enough information to confirm whether Deborah and Jolene have visited Rio de Janeiro.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q098": {
+      "response": "I don’t have enough information to determine when (or even if) Jolene’s parents gave her a first console.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q099": {
+      "response": "The claim that Deborah and Jolene have a specific thing they’ll try at the new café isn’t supported by the current information; we only know they already have plans for that day, but no details about what they intend to try together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 0.0
+    },
+    "conv7_q100": {
+      "response": "I don’t have any current information indicating that Jolene finished a project in the week before 23 January 2023, so I can’t provide a project name.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 107.9
+    },
+    "conv7_q101": {
+      "response": "I don't have any evidence that Jolene purchased a pet snake, so I can't provide a purchase date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 62.5
+    },
+    "conv7_q102": {
+      "response": "I don’t have a confirmed, current source indicating which project Jolene was working on on 1 February 2023. The only active information states she is now working on a prototype for aerial surveillance, but that does not verify her assignment on the earlier date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 134.9
+    },
+    "conv7_q103": {
+      "response": "I don’t have current information about where Deborah first met her new neighbor Anna.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 108.1
+    },
+    "conv7_q104": {
+      "response": "I don’t have any current information about what activity Jolene and her partner decided to do instead of resuming yoga, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 112.8
+    },
+    "conv7_q105": {
+      "response": "I don’t have any current information about a milestone Jolene achieved on 4 February 2023, so I can’t answer that question.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 193.8
+    },
+    "conv7_q106": {
+      "response": "I don’t have any record of Jolene mentioning a favorite book on 4 February 2023, so I can’t provide the title.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.9
+    },
+    "conv7_q107": {
+      "response": "I’m sorry, I don’t have that information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.0
+    },
+    "conv7_q108": {
+      "response": "The only current information available is that Jolene is now trying to be more mindful and grateful.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.9
+    },
+    "conv7_q109": {
+      "response": "I don’t have any information about specific things Jolene accomplished at the February 9 2023 retreat. The only current fact available is that the user attended a yoga retreat near their mom’s place.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 153.7
+    },
+    "conv7_q110": {
+      "response": "The earlier claim that Jolene had a specific volunteer‑program idea on 9 February 2023 is no longer supported by any current information, so that premise is unsafe and we cannot confirm the idea.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 154.4
+    },
+    "conv7_q111": {
+      "response": "The prior information about Jolene involving local engineers in her STEM‑teaching idea is no longer current, and there are no up‑to‑date details available. I can’t say how she plans to engage engineers at this time; you may need to consult a newer source or ask her directly for the latest plan.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 236.3
+    },
+    "conv7_q112": {
+      "response": "The garden is no longer a source of peace for Deborah—the previous coping routine there has been discontinued.  At present she finds calm by regularly meditating at a nearby tranquil spot.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 108.4
+    },
+    "conv7_q113": {
+      "response": "The claim that Deborah was in the garden for comfort after a loss is outdated – that coping routine has been discontinued. Right now her focus is on a future goal to spend time in nature next month, not on garden visits.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 166.3
+    },
+    "conv7_q114": {
+      "response": "I don’t have information on how Jolene and her partner first met.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 280.2
+    },
+    "conv7_q115": {
+      "response": "The assumption that Deborah follows a jog‑then‑something routine is no longer valid—current information shows she now regularly goes to the nearby park for yoga and reflection, often spending time on a special bench.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 299.4
+    },
+    "conv7_q116": {
+      "response": "Exercise helps Jolene feel better now.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.5
+    },
+    "conv7_q117": {
+      "response": "I don’t have enough information to know what Deb shared a photo of that made Jolene smile.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 216.0
+    },
+    "conv7_q118": {
+      "response": "I don’t have any information about Jolene’s favorite dishes, so I can’t provide an answer.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 100.2
+    },
+    "conv7_q119": {
+      "response": "There is no current information confirming that Jolene shared a picture related to feeling overwhelmed.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 119.8
+    },
+    "conv7_q120": {
+      "response": "I don’t have a confirmed record of what Jolene and Deb discussed as a study and time‑management strategy.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 69.9
+    },
+    "conv7_q121": {
+      "response": "I don’t have information about what Jolene asked Deb to help with on 13 March 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 60.5
+    },
+    "conv7_q122": {
+      "response": "I don’t have information about Deb suggesting a specific method to Jolene for organizing tasks by importance and urgency.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.3
+    },
+    "conv7_q123": {
+      "response": "I’m sorry, but I don’t have any information about what Jolene and Anna discussed while watching the sunset by the sea.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 60.9
+    },
+    "conv7_q124": {
+      "response": "Jolene’s earlier plan to find a beginner surfing lesson is no longer current – the only active goals are to spend time in nature next month and to be at a beach that’s personally special to her. As of now she has no concrete surfing plan, only a broader nature‑spending goal that could include a surf session if she chooses.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 135.0
+    },
+    "conv7_q125": {
+      "response": "I’m sorry, but I don’t have any information about what Deborah might have bought beyond her yoga props.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 55.2
+    },
+    "conv7_q126": {
+      "response": "Deborah finds listening to Nils Frahm and Ólafur Arnalds helpful during her yoga practice.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 42.9
+    },
+    "conv7_q127": {
+      "response": "The earlier claim about Jolene’s yoga music is outdated; she now prefers listening to Nils Frahm and Ólafur Arnalds during her yoga practice.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 50.8
+    },
+    "conv7_q128": {
+      "response": "I don’t have any current information about a recommendation from Deborah, so I can’t tell which album she suggests for meditation and deep relaxation.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 101.1
+    },
+    "conv7_q129": {
+      "response": "I don’t have enough information to determine which show Deborah attended with a friend on 9 April 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.0
+    },
+    "conv7_q130": {
+      "response": "I don’t have information about what Deborah finds comforting about going to art shows.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.1
+    },
+    "conv7_q131": {
+      "response": "I’m sorry, but there’s no available information describing how Jolene talks about the time she spends with her snakes and partner.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 152.8
+    },
+    "conv7_q132": {
+      "response": "The premise that Jolene enjoys a specific activity with her partner after a long day is no longer supported by current information. The only up‑to‑date details indicate she is now focusing on mindfulness, yoga, and meditation, so any activity she might share with her partner would likely involve those practices.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 230.2
+    },
+    "conv7_q133": {
+      "response": "There is no current evidence confirming what Jolene was specifically doing in June 2023. Based on her present situation, she is interested in yoga and meditation, has new yoga props, and is managing a challenging workload.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 178.2
+    },
+    "conv7_q134": {
+      "response": "I’m sorry, I don’t have information on how long Jolene has had Seraphim as a pet.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.4
+    },
+    "conv7_q135": {
+      "response": "We don’t have specific information about how Jolene feels when she spends time with Seraphim; the only current fact available is that she feels better now.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.7
+    },
+    "conv7_q136": {
+      "response": "I don’t have any confirmed information about a recent yoga‑pose photo that Deborah shared, so I can’t identify a new pose.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.4
+    },
+    "conv7_q137": {
+      "response": "There is no current information confirming that Deborah started any group activity with Anna, so the premise is no longer valid and the specific activity cannot be identified.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 163.5
+    },
+    "conv7_q138": {
+      "response": "The premise that a running group made staying motivated easy for Deborah is no longer supported; current information shows she is motivated by her goal to spend time in nature next month and by encouragement to keep going and make a difference.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 141.6
+    },
+    "conv7_q139": {
+      "response": "I don’t have any information about Jolene’s reasons for deciding to get a snake as a pet.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 143.2
+    },
+    "conv7_q140": {
+      "response": "I don’t have any information about Jolene’s favorite game to play with her partner.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.0
+    },
+    "conv7_q141": {
+      "response": "Deborah currently owns and provides caregiving for Max, her mother's cat.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 106.3
+    },
+    "conv7_q142": {
+      "response": "I don't have any information about Jolene or how she felt when she found her snake under the bed, so I can't provide a description.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.0
+    },
+    "conv7_q143": {
+      "response": "The claim that Deborah takes her cats out for a daily run in the park is no longer supported by current information, and there’s no active fact explaining why she would do that. Consequently, I can’t provide a reason for that habit.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 139.7
+    },
+    "conv7_q144": {
+      "response": "I don’t have any information about how Jolene came to have her pet Susie, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 112.4
+    },
+    "conv7_q145": {
+      "response": "Jolene is currently turning to yoga and meditation, along with a focus on mindfulness and gratitude practices, as her main ways to stay distracted during this challenging period.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 304.7
+    },
+    "conv7_q146": {
+      "response": "I don’t have any verified information about a yoga routine that Deborah may have recommended to Jolene.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.4
+    },
+    "conv7_q147": {
+      "response": "I don’t have any information about a design by Jolene inspired by space and engines, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.8
+    },
+    "conv7_q148": {
+      "response": "I don’t have current information about a specific journal Jolene is using for task tracking and organization; the previous detail about a bullet journal is outdated.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 101.3
+    },
+    "conv7_q149": {
+      "response": "I don’t have any confirmed information about a specific game that Jolene recommended as calming and cute.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 63.2
+    },
+    "conv7_q150": {
+      "response": "I don’t have any record of Jolene suggesting an open‑world game for the Nintendo Switch.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 55.0
+    },
+    "conv7_q151": {
+      "response": "I don't have current information about the specific activity Deborah and her husband used to play together for bonding and making memories.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 68.1
+    },
+    "conv7_q152": {
+      "response": "I don’t have current information about any special features of a bench near Deborah’s house, so I can’t answer that question.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 58.8
+    },
+    "conv7_q153": {
+      "response": "I’m sorry, but there’s no current information confirming that Deborah and her mom had a conversation at a special bench, so I can’t say what they talked about.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 95.8
+    },
+    "conv7_q154": {
+      "response": "The available information does not specify what feeling Deborah experiences when she thinks about the time spent with her mom at their special spot, so the answer cannot be determined from the current data.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.7
+    },
+    "conv7_q155": {
+      "response": "Jolene is focusing on mindfulness and gratitude as her habits to feel balanced.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 51.4
+    },
+    "conv7_q156": {
+      "response": "I don’t have information about which yoga pose Jolene prefers for rest and calmness.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 75.3
+    },
+    "conv7_q157": {
+      "response": "I don’t have information on how long Jolene has been doing yoga.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.7
+    },
+    "conv7_q158": {
+      "response": "Jolene recently attended a yoga retreat near her mom's place. There’s no current information confirming that this experience was rewarding.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 85.7
+    },
+    "conv7_q159": {
+      "response": "Jolene feels better now after receiving the positive feedback at the virtual conference.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 114.3
+    },
+    "conv7_q160": {
+      "response": "I don’t have information about any recent event where Jolene presented.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 36.1
+    },
+    "conv7_q161": {
+      "response": "I’m sorry, but I don’t have enough information to know what value Jolene’s mom emphasized for her engineering projects.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 111.1
+    },
+    "conv7_q162": {
+      "response": "Jolene is interested in projects that involve yoga and meditation, as well as those related to underwater life and nature/outdoor activities.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 90.9
+    },
+    "conv7_q163": {
+      "response": "I don’t have any reliable information about how Deborah acquired her cat Luna.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.8
+    },
+    "conv7_q164": {
+      "response": "I don’t have information about Max’s age.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.3
+    },
+    "conv7_q165": {
+      "response": "I don’t have current information about what classes Jolene and her partner looked at during a Rio trip on 30 August 2023. Could you provide more details or check your own records?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 221.7
+    },
+    "conv7_q166": {
+      "response": "Jolene meditates at a nearby tranquil spot.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 182.0
+    },
+    "conv7_q167": {
+      "response": "I’m not aware of what the new plant was used as a reminder for; the premise that it served as a reminder on 30 August 2023 isn’t supported by current information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 100.9
+    },
+    "conv7_q168": {
+      "response": "Jolene got the new plant on 30 August 2023 because she was planning to spend time in nature the following month, and the plant supports that goal.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 96.6
+    },
+    "conv7_q169": {
+      "response": "Jolene is currently focusing on yoga and meditation, and she’s working on being more mindful and grateful.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 97.9
+    },
+    "conv7_q170": {
+      "response": "I’m sorry, but I don’t have information on how Deborah’s mom supported her yoga practice when she first started.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 145.5
+    },
+    "conv7_q171": {
+      "response": "I’m sorry, but I don’t have information about which video game console Jolene’s parents gave her at age 10.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 55.5
+    },
+    "conv7_q172": {
+      "response": "I’m sorry, but I don’t have information about Jolene’s favorite Wii games she played with her mother.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 116.3
+    },
+    "conv7_q173": {
+      "response": "Jolene signed up for a meditation course at a retreat near a lake; the specific course name isn’t recorded in the current information.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 216.1
+    },
+    "conv7_q174": {
+      "response": "Jolene had to reschedule the September 8, 2023 meeting with Deborah because she already had other commitments that day, making her unavailable for the originally planned meeting.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 108.7
+    },
+    "conv7_q175": {
+      "response": "I don’t have any information about where Jolene and her partner traveled in September 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.5
+    },
+    "conv7_q176": {
+      "response": "I don’t have current information about the session that stood out to Jolene, so I can’t say what its main focus was.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 137.6
+    },
+    "conv7_q177": {
+      "response": "I don’t have current information on how Jolene feels about her progress with mindfulness and gratitude, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 124.1
+    },
+    "conv7_q178": {
+      "response": "There’s no confirmed specific positive change tied to the retreat; the only current information is that Jolene feels better now and is trying to be more mindful and grateful.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.5
+    },
+    "conv7_q179": {
+      "response": "There’s no available information about what Jolene recently played or described to Deb.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 48.8
+    },
+    "conv7_q180": {
+      "response": "Deborah reconnected with her mom's old friends.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 79.9
+    },
+    "conv7_q181": {
+      "response": "Deborah got married on a beach – specifically the beach where she discovered a love for surfing.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 27.7
+    },
+    "conv7_q182": {
+      "response": "We don’t have current evidence that Deborah practices yoga on the beach, so we can’t say what that specific setting would provide her. What we do know is that her yoga sessions—when her partner joins—offer bonding and relaxation, and they align with her goal of continuing to teach yoga and support her community.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 217.5
+    },
+    "conv7_q183": {
+      "response": "I don’t have any current information about how Jolene describes their home room.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 53.0
+    },
+    "conv7_q184": {
+      "response": "The premise that Deborah and her neighbor organized a new community activity on 16 September 2023 is not supported by current information; the only verified activity is that Deborah has started an ongoing running group with Anna.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 136.9
+    },
+    "conv7_q185": {
+      "response": "I don’t have information about what Deborah’s mom was passionate about.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.3
+    },
+    "conv7_q186": {
+      "response": "I don’t have information about what food Deborah’s mom makes for her on birthdays.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 109.7
+    },
+    "conv7_q187": {
+      "response": "I don’t have any information about what kind of cookies Jolene baked with a close person.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 104.1
+    },
+    "conv7_q188": {
+      "response": "I’m not aware of any record of Jolene suggesting an outdoor activity for her and Deborah, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 130.4
+    },
+    "conv7_q189": {
+      "response": "I don’t have any information about what activity Deborah enjoyed at the music festival on September 20 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 263.8
+    },
+    "conv7_q190": {
+      "response": "I don’t have information about what Deborah found freeing at the music festival.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.5
+    }
+  },
+  "profile_snapshot_size": 92180,
+  "elapsed_seconds": 22899.8,
+  "usage_summary": {
+    "total_calls": 1797,
+    "cache_hits": 321,
+    "cache_misses": 1476,
+    "logical_usage": {
+      "prompt_tokens": 8686684,
+      "completion_tokens": 1115880,
+      "total_tokens": 9802564
+    },
+    "billed_usage": {
+      "prompt_tokens": 7924703,
+      "completion_tokens": 918005,
+      "total_tokens": 8842708
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 30,
+        "cache_hits": 30,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 83332,
+          "completion_tokens": 32695,
+          "total_tokens": 116027
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "delta_extractor": {
+        "calls": 30,
+        "cache_hits": 4,
+        "cache_misses": 26,
+        "logical_usage": {
+          "prompt_tokens": 111522,
+          "completion_tokens": 18189,
+          "total_tokens": 129711
+        },
+        "billed_usage": {
+          "prompt_tokens": 105289,
+          "completion_tokens": 16233,
+          "total_tokens": 121522
+        }
+      },
+      "update_judge": {
+        "calls": 58,
+        "cache_hits": 4,
+        "cache_misses": 54,
+        "logical_usage": {
+          "prompt_tokens": 139069,
+          "completion_tokens": 16417,
+          "total_tokens": 155486
+        },
+        "billed_usage": {
+          "prompt_tokens": 133963,
+          "completion_tokens": 15742,
+          "total_tokens": 149705
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 30,
+        "cache_hits": 2,
+        "cache_misses": 28,
+        "logical_usage": {
+          "prompt_tokens": 53748,
+          "completion_tokens": 22489,
+          "total_tokens": 76237
+        },
+        "billed_usage": {
+          "prompt_tokens": 50151,
+          "completion_tokens": 20956,
+          "total_tokens": 71107
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 161,
+        "cache_hits": 0,
+        "cache_misses": 161,
+        "logical_usage": {
+          "prompt_tokens": 532544,
+          "completion_tokens": 119052,
+          "total_tokens": 651596
+        },
+        "billed_usage": {
+          "prompt_tokens": 532544,
+          "completion_tokens": 119052,
+          "total_tokens": 651596
+        }
+      },
+      "invalidation_judge": {
+        "calls": 56,
+        "cache_hits": 0,
+        "cache_misses": 56,
+        "logical_usage": {
+          "prompt_tokens": 172983,
+          "completion_tokens": 29057,
+          "total_tokens": 202040
+        },
+        "billed_usage": {
+          "prompt_tokens": 172983,
+          "completion_tokens": 29057,
+          "total_tokens": 202040
+        }
+      },
+      "stale_support_judge": {
+        "calls": 209,
+        "cache_hits": 0,
+        "cache_misses": 209,
+        "logical_usage": {
+          "prompt_tokens": 199770,
+          "completion_tokens": 68705,
+          "total_tokens": 268475
+        },
+        "billed_usage": {
+          "prompt_tokens": 199770,
+          "completion_tokens": 68705,
+          "total_tokens": 268475
+        }
+      },
+      "query_parser": {
+        "calls": 160,
+        "cache_hits": 10,
+        "cache_misses": 150,
+        "logical_usage": {
+          "prompt_tokens": 233926,
+          "completion_tokens": 136266,
+          "total_tokens": 370192
+        },
+        "billed_usage": {
+          "prompt_tokens": 219324,
+          "completion_tokens": 128314,
+          "total_tokens": 347638
+        }
+      },
+      "premise_verifier": {
+        "calls": 162,
+        "cache_hits": 9,
+        "cache_misses": 153,
+        "logical_usage": {
+          "prompt_tokens": 2798946,
+          "completion_tokens": 152199,
+          "total_tokens": 2951145
+        },
+        "billed_usage": {
+          "prompt_tokens": 2642874,
+          "completion_tokens": 143689,
+          "total_tokens": 2786563
+        }
+      },
+      "query_lane_filter": {
+        "calls": 578,
+        "cache_hits": 244,
+        "cache_misses": 334,
+        "logical_usage": {
+          "prompt_tokens": 670785,
+          "completion_tokens": 328325,
+          "total_tokens": 999110
+        },
+        "billed_usage": {
+          "prompt_tokens": 388064,
+          "completion_tokens": 194855,
+          "total_tokens": 582919
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 159,
+        "cache_hits": 9,
+        "cache_misses": 150,
+        "logical_usage": {
+          "prompt_tokens": 3468498,
+          "completion_tokens": 155046,
+          "total_tokens": 3623544
+        },
+        "billed_usage": {
+          "prompt_tokens": 3270608,
+          "completion_tokens": 146103,
+          "total_tokens": 3416711
+        }
+      },
+      "answer_composer": {
+        "calls": 160,
+        "cache_hits": 9,
+        "cache_misses": 151,
+        "logical_usage": {
+          "prompt_tokens": 208154,
+          "completion_tokens": 35178,
+          "total_tokens": 243332
+        },
+        "billed_usage": {
+          "prompt_tokens": 195726,
+          "completion_tokens": 33037,
+          "total_tokens": 228763
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 13407,
+          "completion_tokens": 2262,
+          "total_tokens": 15669
+        },
+        "billed_usage": {
+          "prompt_tokens": 13407,
+          "completion_tokens": 2262,
+          "total_tokens": 15669
+        }
+      }
+    },
+    "by_query_label": {
+      "conv7_q029": {
+        "calls": 4,
+        "cache_hits": 1,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 42848,
+          "completion_tokens": 2851,
+          "total_tokens": 45699
+        },
+        "billed_usage": {
+          "prompt_tokens": 41384,
+          "completion_tokens": 1978,
+          "total_tokens": 43362
+        }
+      },
+      "conv7_q030": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 64090,
+          "completion_tokens": 3154,
+          "total_tokens": 67244
+        },
+        "billed_usage": {
+          "prompt_tokens": 64090,
+          "completion_tokens": 3154,
+          "total_tokens": 67244
+        }
+      },
+      "conv7_q031": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41272,
+          "completion_tokens": 2127,
+          "total_tokens": 43399
+        },
+        "billed_usage": {
+          "prompt_tokens": 41272,
+          "completion_tokens": 2127,
+          "total_tokens": 43399
+        }
+      },
+      "conv7_q032": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38522,
+          "completion_tokens": 2520,
+          "total_tokens": 41042
+        },
+        "billed_usage": {
+          "prompt_tokens": 38522,
+          "completion_tokens": 2520,
+          "total_tokens": 41042
+        }
+      },
+      "conv7_q033": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41463,
+          "completion_tokens": 2577,
+          "total_tokens": 44040
+        },
+        "billed_usage": {
+          "prompt_tokens": 41463,
+          "completion_tokens": 2577,
+          "total_tokens": 44040
+        }
+      },
+      "conv7_q034": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45625,
+          "completion_tokens": 2630,
+          "total_tokens": 48255
+        },
+        "billed_usage": {
+          "prompt_tokens": 45625,
+          "completion_tokens": 2630,
+          "total_tokens": 48255
+        }
+      },
+      "conv7_q035": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36743,
+          "completion_tokens": 2870,
+          "total_tokens": 39613
+        },
+        "billed_usage": {
+          "prompt_tokens": 36743,
+          "completion_tokens": 2870,
+          "total_tokens": 39613
+        }
+      },
+      "conv7_q036": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42955,
+          "completion_tokens": 2228,
+          "total_tokens": 45183
+        },
+        "billed_usage": {
+          "prompt_tokens": 42955,
+          "completion_tokens": 2228,
+          "total_tokens": 45183
+        }
+      },
+      "conv7_q037": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43369,
+          "completion_tokens": 2726,
+          "total_tokens": 46095
+        },
+        "billed_usage": {
+          "prompt_tokens": 43369,
+          "completion_tokens": 2726,
+          "total_tokens": 46095
+        }
+      },
+      "conv7_q038": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46600,
+          "completion_tokens": 2530,
+          "total_tokens": 49130
+        },
+        "billed_usage": {
+          "prompt_tokens": 46600,
+          "completion_tokens": 2530,
+          "total_tokens": 49130
+        }
+      },
+      "conv7_q039": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37675,
+          "completion_tokens": 3233,
+          "total_tokens": 40908
+        },
+        "billed_usage": {
+          "prompt_tokens": 37675,
+          "completion_tokens": 3233,
+          "total_tokens": 40908
+        }
+      },
+      "conv7_q040": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34399,
+          "completion_tokens": 3121,
+          "total_tokens": 37520
+        },
+        "billed_usage": {
+          "prompt_tokens": 34399,
+          "completion_tokens": 3121,
+          "total_tokens": 37520
+        }
+      },
+      "conv7_q041": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46886,
+          "completion_tokens": 3000,
+          "total_tokens": 49886
+        },
+        "billed_usage": {
+          "prompt_tokens": 46886,
+          "completion_tokens": 3000,
+          "total_tokens": 49886
+        }
+      },
+      "conv7_q042": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44170,
+          "completion_tokens": 2591,
+          "total_tokens": 46761
+        },
+        "billed_usage": {
+          "prompt_tokens": 44170,
+          "completion_tokens": 2591,
+          "total_tokens": 46761
+        }
+      },
+      "conv7_q043": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40194,
+          "completion_tokens": 2995,
+          "total_tokens": 43189
+        },
+        "billed_usage": {
+          "prompt_tokens": 40194,
+          "completion_tokens": 2995,
+          "total_tokens": 43189
+        }
+      },
+      "conv7_q044": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43099,
+          "completion_tokens": 2468,
+          "total_tokens": 45567
+        },
+        "billed_usage": {
+          "prompt_tokens": 43099,
+          "completion_tokens": 2468,
+          "total_tokens": 45567
+        }
+      },
+      "conv7_q045": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39852,
+          "completion_tokens": 4240,
+          "total_tokens": 44092
+        },
+        "billed_usage": {
+          "prompt_tokens": 39852,
+          "completion_tokens": 4240,
+          "total_tokens": 44092
+        }
+      },
+      "conv7_q046": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37720,
+          "completion_tokens": 3473,
+          "total_tokens": 41193
+        },
+        "billed_usage": {
+          "prompt_tokens": 37720,
+          "completion_tokens": 3473,
+          "total_tokens": 41193
+        }
+      },
+      "conv7_q047": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46471,
+          "completion_tokens": 2894,
+          "total_tokens": 49365
+        },
+        "billed_usage": {
+          "prompt_tokens": 46471,
+          "completion_tokens": 2894,
+          "total_tokens": 49365
+        }
+      },
+      "conv7_q048": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40889,
+          "completion_tokens": 3357,
+          "total_tokens": 44246
+        },
+        "billed_usage": {
+          "prompt_tokens": 40889,
+          "completion_tokens": 3357,
+          "total_tokens": 44246
+        }
+      },
+      "conv7_q049": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43805,
+          "completion_tokens": 2848,
+          "total_tokens": 46653
+        },
+        "billed_usage": {
+          "prompt_tokens": 43805,
+          "completion_tokens": 2848,
+          "total_tokens": 46653
+        }
+      },
+      "conv7_q050": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 47098,
+          "completion_tokens": 2158,
+          "total_tokens": 49256
+        },
+        "billed_usage": {
+          "prompt_tokens": 47098,
+          "completion_tokens": 2158,
+          "total_tokens": 49256
+        }
+      },
+      "conv7_q051": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45352,
+          "completion_tokens": 2538,
+          "total_tokens": 47890
+        },
+        "billed_usage": {
+          "prompt_tokens": 45352,
+          "completion_tokens": 2538,
+          "total_tokens": 47890
+        }
+      },
+      "conv7_q052": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41113,
+          "completion_tokens": 4342,
+          "total_tokens": 45455
+        },
+        "billed_usage": {
+          "prompt_tokens": 41113,
+          "completion_tokens": 4342,
+          "total_tokens": 45455
+        }
+      },
+      "conv7_q053": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46579,
+          "completion_tokens": 2566,
+          "total_tokens": 49145
+        },
+        "billed_usage": {
+          "prompt_tokens": 46579,
+          "completion_tokens": 2566,
+          "total_tokens": 49145
+        }
+      },
+      "conv7_q054": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42845,
+          "completion_tokens": 2355,
+          "total_tokens": 45200
+        },
+        "billed_usage": {
+          "prompt_tokens": 42845,
+          "completion_tokens": 2355,
+          "total_tokens": 45200
+        }
+      },
+      "conv7_q055": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41230,
+          "completion_tokens": 2146,
+          "total_tokens": 43376
+        },
+        "billed_usage": {
+          "prompt_tokens": 41230,
+          "completion_tokens": 2146,
+          "total_tokens": 43376
+        }
+      },
+      "conv7_q056": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43680,
+          "completion_tokens": 2947,
+          "total_tokens": 46627
+        },
+        "billed_usage": {
+          "prompt_tokens": 43680,
+          "completion_tokens": 2947,
+          "total_tokens": 46627
+        }
+      },
+      "conv7_q057": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44768,
+          "completion_tokens": 2791,
+          "total_tokens": 47559
+        },
+        "billed_usage": {
+          "prompt_tokens": 44768,
+          "completion_tokens": 2791,
+          "total_tokens": 47559
+        }
+      },
+      "conv7_q058": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39176,
+          "completion_tokens": 2793,
+          "total_tokens": 41969
+        },
+        "billed_usage": {
+          "prompt_tokens": 39176,
+          "completion_tokens": 2793,
+          "total_tokens": 41969
+        }
+      },
+      "conv7_q059": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35075,
+          "completion_tokens": 3429,
+          "total_tokens": 38504
+        },
+        "billed_usage": {
+          "prompt_tokens": 35075,
+          "completion_tokens": 3429,
+          "total_tokens": 38504
+        }
+      },
+      "conv7_q060": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44311,
+          "completion_tokens": 2972,
+          "total_tokens": 47283
+        },
+        "billed_usage": {
+          "prompt_tokens": 44311,
+          "completion_tokens": 2972,
+          "total_tokens": 47283
+        }
+      },
+      "conv7_q061": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44546,
+          "completion_tokens": 4802,
+          "total_tokens": 49348
+        },
+        "billed_usage": {
+          "prompt_tokens": 44546,
+          "completion_tokens": 4802,
+          "total_tokens": 49348
+        }
+      },
+      "conv7_q062": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42568,
+          "completion_tokens": 2726,
+          "total_tokens": 45294
+        },
+        "billed_usage": {
+          "prompt_tokens": 42568,
+          "completion_tokens": 2726,
+          "total_tokens": 45294
+        }
+      },
+      "conv7_q063": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37973,
+          "completion_tokens": 2904,
+          "total_tokens": 40877
+        },
+        "billed_usage": {
+          "prompt_tokens": 37973,
+          "completion_tokens": 2904,
+          "total_tokens": 40877
+        }
+      },
+      "conv7_q064": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38136,
+          "completion_tokens": 2158,
+          "total_tokens": 40294
+        },
+        "billed_usage": {
+          "prompt_tokens": 38136,
+          "completion_tokens": 2158,
+          "total_tokens": 40294
+        }
+      },
+      "conv7_q065": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38979,
+          "completion_tokens": 2586,
+          "total_tokens": 41565
+        },
+        "billed_usage": {
+          "prompt_tokens": 38979,
+          "completion_tokens": 2586,
+          "total_tokens": 41565
+        }
+      },
+      "conv7_q066": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39119,
+          "completion_tokens": 2148,
+          "total_tokens": 41267
+        },
+        "billed_usage": {
+          "prompt_tokens": 39119,
+          "completion_tokens": 2148,
+          "total_tokens": 41267
+        }
+      },
+      "conv7_q067": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38984,
+          "completion_tokens": 3190,
+          "total_tokens": 42174
+        },
+        "billed_usage": {
+          "prompt_tokens": 38984,
+          "completion_tokens": 3190,
+          "total_tokens": 42174
+        }
+      },
+      "conv7_q068": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36780,
+          "completion_tokens": 2574,
+          "total_tokens": 39354
+        },
+        "billed_usage": {
+          "prompt_tokens": 36780,
+          "completion_tokens": 2574,
+          "total_tokens": 39354
+        }
+      },
+      "conv7_q069": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40447,
+          "completion_tokens": 2663,
+          "total_tokens": 43110
+        },
+        "billed_usage": {
+          "prompt_tokens": 40447,
+          "completion_tokens": 2663,
+          "total_tokens": 43110
+        }
+      },
+      "conv7_q070": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37020,
+          "completion_tokens": 2916,
+          "total_tokens": 39936
+        },
+        "billed_usage": {
+          "prompt_tokens": 37020,
+          "completion_tokens": 2916,
+          "total_tokens": 39936
+        }
+      },
+      "conv7_q071": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39752,
+          "completion_tokens": 2609,
+          "total_tokens": 42361
+        },
+        "billed_usage": {
+          "prompt_tokens": 39752,
+          "completion_tokens": 2609,
+          "total_tokens": 42361
+        }
+      },
+      "conv7_q072": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42255,
+          "completion_tokens": 2564,
+          "total_tokens": 44819
+        },
+        "billed_usage": {
+          "prompt_tokens": 42255,
+          "completion_tokens": 2564,
+          "total_tokens": 44819
+        }
+      },
+      "conv7_q073": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46747,
+          "completion_tokens": 2469,
+          "total_tokens": 49216
+        },
+        "billed_usage": {
+          "prompt_tokens": 46747,
+          "completion_tokens": 2469,
+          "total_tokens": 49216
+        }
+      },
+      "conv7_q074": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 49409,
+          "completion_tokens": 2440,
+          "total_tokens": 51849
+        },
+        "billed_usage": {
+          "prompt_tokens": 49409,
+          "completion_tokens": 2440,
+          "total_tokens": 51849
+        }
+      },
+      "conv7_q075": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40161,
+          "completion_tokens": 2271,
+          "total_tokens": 42432
+        },
+        "billed_usage": {
+          "prompt_tokens": 40161,
+          "completion_tokens": 2271,
+          "total_tokens": 42432
+        }
+      },
+      "conv7_q076": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42012,
+          "completion_tokens": 2927,
+          "total_tokens": 44939
+        },
+        "billed_usage": {
+          "prompt_tokens": 42012,
+          "completion_tokens": 2927,
+          "total_tokens": 44939
+        }
+      },
+      "conv7_q077": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40548,
+          "completion_tokens": 3102,
+          "total_tokens": 43650
+        },
+        "billed_usage": {
+          "prompt_tokens": 40548,
+          "completion_tokens": 3102,
+          "total_tokens": 43650
+        }
+      },
+      "conv7_q078": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36971,
+          "completion_tokens": 3508,
+          "total_tokens": 40479
+        },
+        "billed_usage": {
+          "prompt_tokens": 36971,
+          "completion_tokens": 3508,
+          "total_tokens": 40479
+        }
+      },
+      "conv7_q079": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44834,
+          "completion_tokens": 3778,
+          "total_tokens": 48612
+        },
+        "billed_usage": {
+          "prompt_tokens": 44834,
+          "completion_tokens": 3778,
+          "total_tokens": 48612
+        }
+      },
+      "conv7_q080": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42521,
+          "completion_tokens": 3092,
+          "total_tokens": 45613
+        },
+        "billed_usage": {
+          "prompt_tokens": 42521,
+          "completion_tokens": 3092,
+          "total_tokens": 45613
+        }
+      },
+      "conv7_q081": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42478,
+          "completion_tokens": 2806,
+          "total_tokens": 45284
+        },
+        "billed_usage": {
+          "prompt_tokens": 42478,
+          "completion_tokens": 2806,
+          "total_tokens": 45284
+        }
+      },
+      "conv7_q082": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42620,
+          "completion_tokens": 2823,
+          "total_tokens": 45443
+        },
+        "billed_usage": {
+          "prompt_tokens": 42620,
+          "completion_tokens": 2823,
+          "total_tokens": 45443
+        }
+      },
+      "conv7_q083": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42107,
+          "completion_tokens": 2535,
+          "total_tokens": 44642
+        },
+        "billed_usage": {
+          "prompt_tokens": 42107,
+          "completion_tokens": 2535,
+          "total_tokens": 44642
+        }
+      },
+      "conv7_q084": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39997,
+          "completion_tokens": 4144,
+          "total_tokens": 44141
+        },
+        "billed_usage": {
+          "prompt_tokens": 39997,
+          "completion_tokens": 4144,
+          "total_tokens": 44141
+        }
+      },
+      "conv7_q085": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40887,
+          "completion_tokens": 3375,
+          "total_tokens": 44262
+        },
+        "billed_usage": {
+          "prompt_tokens": 40887,
+          "completion_tokens": 3375,
+          "total_tokens": 44262
+        }
+      },
+      "conv7_q086": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40770,
+          "completion_tokens": 2263,
+          "total_tokens": 43033
+        },
+        "billed_usage": {
+          "prompt_tokens": 40770,
+          "completion_tokens": 2263,
+          "total_tokens": 43033
+        }
+      },
+      "conv7_q087": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44709,
+          "completion_tokens": 2589,
+          "total_tokens": 47298
+        },
+        "billed_usage": {
+          "prompt_tokens": 44709,
+          "completion_tokens": 2589,
+          "total_tokens": 47298
+        }
+      },
+      "conv7_q088": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41568,
+          "completion_tokens": 3255,
+          "total_tokens": 44823
+        },
+        "billed_usage": {
+          "prompt_tokens": 41568,
+          "completion_tokens": 3255,
+          "total_tokens": 44823
+        }
+      },
+      "conv7_q091": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 44170,
+          "completion_tokens": 2591,
+          "total_tokens": 46761
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q092": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 39176,
+          "completion_tokens": 2793,
+          "total_tokens": 41969
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q093": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 44546,
+          "completion_tokens": 4802,
+          "total_tokens": 49348
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q094": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 42568,
+          "completion_tokens": 2726,
+          "total_tokens": 45294
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q095": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 37973,
+          "completion_tokens": 2904,
+          "total_tokens": 40877
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q096": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 38984,
+          "completion_tokens": 3190,
+          "total_tokens": 42174
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q097": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 40447,
+          "completion_tokens": 2663,
+          "total_tokens": 43110
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q098": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 42255,
+          "completion_tokens": 2564,
+          "total_tokens": 44819
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q099": {
+        "calls": 4,
+        "cache_hits": 4,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 49409,
+          "completion_tokens": 2440,
+          "total_tokens": 51849
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "conv7_q100": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34611,
+          "completion_tokens": 3765,
+          "total_tokens": 38376
+        },
+        "billed_usage": {
+          "prompt_tokens": 34611,
+          "completion_tokens": 3765,
+          "total_tokens": 38376
+        }
+      },
+      "conv7_q101": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40148,
+          "completion_tokens": 2621,
+          "total_tokens": 42769
+        },
+        "billed_usage": {
+          "prompt_tokens": 40148,
+          "completion_tokens": 2621,
+          "total_tokens": 42769
+        }
+      },
+      "conv7_q102": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37494,
+          "completion_tokens": 4428,
+          "total_tokens": 41922
+        },
+        "billed_usage": {
+          "prompt_tokens": 37494,
+          "completion_tokens": 4428,
+          "total_tokens": 41922
+        }
+      },
+      "conv7_q103": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41287,
+          "completion_tokens": 2604,
+          "total_tokens": 43891
+        },
+        "billed_usage": {
+          "prompt_tokens": 41287,
+          "completion_tokens": 2604,
+          "total_tokens": 43891
+        }
+      },
+      "conv7_q104": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 46284,
+          "completion_tokens": 4046,
+          "total_tokens": 50330
+        },
+        "billed_usage": {
+          "prompt_tokens": 46284,
+          "completion_tokens": 4046,
+          "total_tokens": 50330
+        }
+      },
+      "conv7_q105": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45829,
+          "completion_tokens": 2981,
+          "total_tokens": 48810
+        },
+        "billed_usage": {
+          "prompt_tokens": 45829,
+          "completion_tokens": 2981,
+          "total_tokens": 48810
+        }
+      },
+      "conv7_q106": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38682,
+          "completion_tokens": 2682,
+          "total_tokens": 41364
+        },
+        "billed_usage": {
+          "prompt_tokens": 38682,
+          "completion_tokens": 2682,
+          "total_tokens": 41364
+        }
+      },
+      "conv7_q107": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43102,
+          "completion_tokens": 2208,
+          "total_tokens": 45310
+        },
+        "billed_usage": {
+          "prompt_tokens": 43102,
+          "completion_tokens": 2208,
+          "total_tokens": 45310
+        }
+      },
+      "conv7_q108": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39406,
+          "completion_tokens": 2944,
+          "total_tokens": 42350
+        },
+        "billed_usage": {
+          "prompt_tokens": 39406,
+          "completion_tokens": 2944,
+          "total_tokens": 42350
+        }
+      },
+      "conv7_q109": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43086,
+          "completion_tokens": 3427,
+          "total_tokens": 46513
+        },
+        "billed_usage": {
+          "prompt_tokens": 43086,
+          "completion_tokens": 3427,
+          "total_tokens": 46513
+        }
+      },
+      "conv7_q110": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 47322,
+          "completion_tokens": 3918,
+          "total_tokens": 51240
+        },
+        "billed_usage": {
+          "prompt_tokens": 47322,
+          "completion_tokens": 3918,
+          "total_tokens": 51240
+        }
+      },
+      "conv7_q111": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 51228,
+          "completion_tokens": 4019,
+          "total_tokens": 55247
+        },
+        "billed_usage": {
+          "prompt_tokens": 51228,
+          "completion_tokens": 4019,
+          "total_tokens": 55247
+        }
+      },
+      "conv7_q112": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38827,
+          "completion_tokens": 3773,
+          "total_tokens": 42600
+        },
+        "billed_usage": {
+          "prompt_tokens": 38827,
+          "completion_tokens": 3773,
+          "total_tokens": 42600
+        }
+      },
+      "conv7_q113": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37813,
+          "completion_tokens": 4234,
+          "total_tokens": 42047
+        },
+        "billed_usage": {
+          "prompt_tokens": 37813,
+          "completion_tokens": 4234,
+          "total_tokens": 42047
+        }
+      },
+      "conv7_q114": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41803,
+          "completion_tokens": 3225,
+          "total_tokens": 45028
+        },
+        "billed_usage": {
+          "prompt_tokens": 41803,
+          "completion_tokens": 3225,
+          "total_tokens": 45028
+        }
+      },
+      "conv7_q115": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42453,
+          "completion_tokens": 4240,
+          "total_tokens": 46693
+        },
+        "billed_usage": {
+          "prompt_tokens": 42453,
+          "completion_tokens": 4240,
+          "total_tokens": 46693
+        }
+      },
+      "conv7_q116": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33677,
+          "completion_tokens": 1955,
+          "total_tokens": 35632
+        },
+        "billed_usage": {
+          "prompt_tokens": 33677,
+          "completion_tokens": 1955,
+          "total_tokens": 35632
+        }
+      },
+      "conv7_q117": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40708,
+          "completion_tokens": 2470,
+          "total_tokens": 43178
+        },
+        "billed_usage": {
+          "prompt_tokens": 40708,
+          "completion_tokens": 2470,
+          "total_tokens": 43178
+        }
+      },
+      "conv7_q118": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37918,
+          "completion_tokens": 2108,
+          "total_tokens": 40026
+        },
+        "billed_usage": {
+          "prompt_tokens": 37918,
+          "completion_tokens": 2108,
+          "total_tokens": 40026
+        }
+      },
+      "conv7_q119": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44021,
+          "completion_tokens": 2908,
+          "total_tokens": 46929
+        },
+        "billed_usage": {
+          "prompt_tokens": 44021,
+          "completion_tokens": 2908,
+          "total_tokens": 46929
+        }
+      },
+      "conv7_q120": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42472,
+          "completion_tokens": 2437,
+          "total_tokens": 44909
+        },
+        "billed_usage": {
+          "prompt_tokens": 42472,
+          "completion_tokens": 2437,
+          "total_tokens": 44909
+        }
+      },
+      "conv7_q121": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37763,
+          "completion_tokens": 2113,
+          "total_tokens": 39876
+        },
+        "billed_usage": {
+          "prompt_tokens": 37763,
+          "completion_tokens": 2113,
+          "total_tokens": 39876
+        }
+      },
+      "conv7_q122": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43722,
+          "completion_tokens": 2926,
+          "total_tokens": 46648
+        },
+        "billed_usage": {
+          "prompt_tokens": 43722,
+          "completion_tokens": 2926,
+          "total_tokens": 46648
+        }
+      },
+      "conv7_q123": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44834,
+          "completion_tokens": 2365,
+          "total_tokens": 47199
+        },
+        "billed_usage": {
+          "prompt_tokens": 44834,
+          "completion_tokens": 2365,
+          "total_tokens": 47199
+        }
+      },
+      "conv7_q124": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40912,
+          "completion_tokens": 3935,
+          "total_tokens": 44847
+        },
+        "billed_usage": {
+          "prompt_tokens": 40912,
+          "completion_tokens": 3935,
+          "total_tokens": 44847
+        }
+      },
+      "conv7_q125": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43930,
+          "completion_tokens": 2213,
+          "total_tokens": 46143
+        },
+        "billed_usage": {
+          "prompt_tokens": 43930,
+          "completion_tokens": 2213,
+          "total_tokens": 46143
+        }
+      },
+      "conv7_q126": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42777,
+          "completion_tokens": 2594,
+          "total_tokens": 45371
+        },
+        "billed_usage": {
+          "prompt_tokens": 42777,
+          "completion_tokens": 2594,
+          "total_tokens": 45371
+        }
+      },
+      "conv7_q127": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41950,
+          "completion_tokens": 2487,
+          "total_tokens": 44437
+        },
+        "billed_usage": {
+          "prompt_tokens": 41950,
+          "completion_tokens": 2487,
+          "total_tokens": 44437
+        }
+      },
+      "conv7_q128": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41471,
+          "completion_tokens": 2427,
+          "total_tokens": 43898
+        },
+        "billed_usage": {
+          "prompt_tokens": 41471,
+          "completion_tokens": 2427,
+          "total_tokens": 43898
+        }
+      },
+      "conv7_q129": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41263,
+          "completion_tokens": 2433,
+          "total_tokens": 43696
+        },
+        "billed_usage": {
+          "prompt_tokens": 41263,
+          "completion_tokens": 2433,
+          "total_tokens": 43696
+        }
+      },
+      "conv7_q130": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41249,
+          "completion_tokens": 2552,
+          "total_tokens": 43801
+        },
+        "billed_usage": {
+          "prompt_tokens": 41249,
+          "completion_tokens": 2552,
+          "total_tokens": 43801
+        }
+      },
+      "conv7_q131": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42148,
+          "completion_tokens": 2531,
+          "total_tokens": 44679
+        },
+        "billed_usage": {
+          "prompt_tokens": 42148,
+          "completion_tokens": 2531,
+          "total_tokens": 44679
+        }
+      },
+      "conv7_q132": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35935,
+          "completion_tokens": 3674,
+          "total_tokens": 39609
+        },
+        "billed_usage": {
+          "prompt_tokens": 35935,
+          "completion_tokens": 3674,
+          "total_tokens": 39609
+        }
+      },
+      "conv7_q133": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41468,
+          "completion_tokens": 4747,
+          "total_tokens": 46215
+        },
+        "billed_usage": {
+          "prompt_tokens": 41468,
+          "completion_tokens": 4747,
+          "total_tokens": 46215
+        }
+      },
+      "conv7_q134": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41267,
+          "completion_tokens": 2758,
+          "total_tokens": 44025
+        },
+        "billed_usage": {
+          "prompt_tokens": 41267,
+          "completion_tokens": 2758,
+          "total_tokens": 44025
+        }
+      },
+      "conv7_q135": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37188,
+          "completion_tokens": 2634,
+          "total_tokens": 39822
+        },
+        "billed_usage": {
+          "prompt_tokens": 37188,
+          "completion_tokens": 2634,
+          "total_tokens": 39822
+        }
+      },
+      "conv7_q136": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42324,
+          "completion_tokens": 2578,
+          "total_tokens": 44902
+        },
+        "billed_usage": {
+          "prompt_tokens": 42324,
+          "completion_tokens": 2578,
+          "total_tokens": 44902
+        }
+      },
+      "conv7_q137": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41932,
+          "completion_tokens": 3612,
+          "total_tokens": 45544
+        },
+        "billed_usage": {
+          "prompt_tokens": 41932,
+          "completion_tokens": 3612,
+          "total_tokens": 45544
+        }
+      },
+      "conv7_q138": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45159,
+          "completion_tokens": 4105,
+          "total_tokens": 49264
+        },
+        "billed_usage": {
+          "prompt_tokens": 45159,
+          "completion_tokens": 4105,
+          "total_tokens": 49264
+        }
+      },
+      "conv7_q139": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42755,
+          "completion_tokens": 3108,
+          "total_tokens": 45863
+        },
+        "billed_usage": {
+          "prompt_tokens": 42755,
+          "completion_tokens": 3108,
+          "total_tokens": 45863
+        }
+      },
+      "conv7_q140": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41453,
+          "completion_tokens": 2760,
+          "total_tokens": 44213
+        },
+        "billed_usage": {
+          "prompt_tokens": 41453,
+          "completion_tokens": 2760,
+          "total_tokens": 44213
+        }
+      },
+      "conv7_q141": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38428,
+          "completion_tokens": 3645,
+          "total_tokens": 42073
+        },
+        "billed_usage": {
+          "prompt_tokens": 38428,
+          "completion_tokens": 3645,
+          "total_tokens": 42073
+        }
+      },
+      "conv7_q142": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39542,
+          "completion_tokens": 2331,
+          "total_tokens": 41873
+        },
+        "billed_usage": {
+          "prompt_tokens": 39542,
+          "completion_tokens": 2331,
+          "total_tokens": 41873
+        }
+      },
+      "conv7_q143": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 41779,
+          "completion_tokens": 4850,
+          "total_tokens": 46629
+        },
+        "billed_usage": {
+          "prompt_tokens": 41779,
+          "completion_tokens": 4850,
+          "total_tokens": 46629
+        }
+      },
+      "conv7_q144": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46379,
+          "completion_tokens": 2374,
+          "total_tokens": 48753
+        },
+        "billed_usage": {
+          "prompt_tokens": 46379,
+          "completion_tokens": 2374,
+          "total_tokens": 48753
+        }
+      },
+      "conv7_q145": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44221,
+          "completion_tokens": 4040,
+          "total_tokens": 48261
+        },
+        "billed_usage": {
+          "prompt_tokens": 44221,
+          "completion_tokens": 4040,
+          "total_tokens": 48261
+        }
+      },
+      "conv7_q146": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46659,
+          "completion_tokens": 2137,
+          "total_tokens": 48796
+        },
+        "billed_usage": {
+          "prompt_tokens": 46659,
+          "completion_tokens": 2137,
+          "total_tokens": 48796
+        }
+      },
+      "conv7_q147": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43423,
+          "completion_tokens": 2230,
+          "total_tokens": 45653
+        },
+        "billed_usage": {
+          "prompt_tokens": 43423,
+          "completion_tokens": 2230,
+          "total_tokens": 45653
+        }
+      },
+      "conv7_q148": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46773,
+          "completion_tokens": 2977,
+          "total_tokens": 49750
+        },
+        "billed_usage": {
+          "prompt_tokens": 46773,
+          "completion_tokens": 2977,
+          "total_tokens": 49750
+        }
+      },
+      "conv7_q149": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39843,
+          "completion_tokens": 2353,
+          "total_tokens": 42196
+        },
+        "billed_usage": {
+          "prompt_tokens": 39843,
+          "completion_tokens": 2353,
+          "total_tokens": 42196
+        }
+      },
+      "conv7_q150": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43285,
+          "completion_tokens": 2427,
+          "total_tokens": 45712
+        },
+        "billed_usage": {
+          "prompt_tokens": 43285,
+          "completion_tokens": 2427,
+          "total_tokens": 45712
+        }
+      },
+      "conv7_q151": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35619,
+          "completion_tokens": 4123,
+          "total_tokens": 39742
+        },
+        "billed_usage": {
+          "prompt_tokens": 35619,
+          "completion_tokens": 4123,
+          "total_tokens": 39742
+        }
+      },
+      "conv7_q152": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33168,
+          "completion_tokens": 2670,
+          "total_tokens": 35838
+        },
+        "billed_usage": {
+          "prompt_tokens": 33168,
+          "completion_tokens": 2670,
+          "total_tokens": 35838
+        }
+      },
+      "conv7_q153": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37970,
+          "completion_tokens": 3498,
+          "total_tokens": 41468
+        },
+        "billed_usage": {
+          "prompt_tokens": 37970,
+          "completion_tokens": 3498,
+          "total_tokens": 41468
+        }
+      },
+      "conv7_q154": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39881,
+          "completion_tokens": 2573,
+          "total_tokens": 42454
+        },
+        "billed_usage": {
+          "prompt_tokens": 39881,
+          "completion_tokens": 2573,
+          "total_tokens": 42454
+        }
+      },
+      "conv7_q155": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 19766,
+          "completion_tokens": 2174,
+          "total_tokens": 21940
+        },
+        "billed_usage": {
+          "prompt_tokens": 19766,
+          "completion_tokens": 2174,
+          "total_tokens": 21940
+        }
+      },
+      "conv7_q156": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40270,
+          "completion_tokens": 2596,
+          "total_tokens": 42866
+        },
+        "billed_usage": {
+          "prompt_tokens": 40270,
+          "completion_tokens": 2596,
+          "total_tokens": 42866
+        }
+      },
+      "conv7_q157": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45674,
+          "completion_tokens": 2588,
+          "total_tokens": 48262
+        },
+        "billed_usage": {
+          "prompt_tokens": 45674,
+          "completion_tokens": 2588,
+          "total_tokens": 48262
+        }
+      },
+      "conv7_q158": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 48469,
+          "completion_tokens": 3600,
+          "total_tokens": 52069
+        },
+        "billed_usage": {
+          "prompt_tokens": 48469,
+          "completion_tokens": 3600,
+          "total_tokens": 52069
+        }
+      },
+      "conv7_q159": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41841,
+          "completion_tokens": 2894,
+          "total_tokens": 44735
+        },
+        "billed_usage": {
+          "prompt_tokens": 41841,
+          "completion_tokens": 2894,
+          "total_tokens": 44735
+        }
+      },
+      "conv7_q160": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43660,
+          "completion_tokens": 2624,
+          "total_tokens": 46284
+        },
+        "billed_usage": {
+          "prompt_tokens": 43660,
+          "completion_tokens": 2624,
+          "total_tokens": 46284
+        }
+      },
+      "conv7_q161": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 48031,
+          "completion_tokens": 2763,
+          "total_tokens": 50794
+        },
+        "billed_usage": {
+          "prompt_tokens": 48031,
+          "completion_tokens": 2763,
+          "total_tokens": 50794
+        }
+      },
+      "conv7_q162": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46187,
+          "completion_tokens": 3770,
+          "total_tokens": 49957
+        },
+        "billed_usage": {
+          "prompt_tokens": 46187,
+          "completion_tokens": 3770,
+          "total_tokens": 49957
+        }
+      },
+      "conv7_q163": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37193,
+          "completion_tokens": 2643,
+          "total_tokens": 39836
+        },
+        "billed_usage": {
+          "prompt_tokens": 37193,
+          "completion_tokens": 2643,
+          "total_tokens": 39836
+        }
+      },
+      "conv7_q164": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35552,
+          "completion_tokens": 2764,
+          "total_tokens": 38316
+        },
+        "billed_usage": {
+          "prompt_tokens": 35552,
+          "completion_tokens": 2764,
+          "total_tokens": 38316
+        }
+      },
+      "conv7_q165": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 47879,
+          "completion_tokens": 4152,
+          "total_tokens": 52031
+        },
+        "billed_usage": {
+          "prompt_tokens": 47879,
+          "completion_tokens": 4152,
+          "total_tokens": 52031
+        }
+      },
+      "conv7_q166": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42979,
+          "completion_tokens": 3883,
+          "total_tokens": 46862
+        },
+        "billed_usage": {
+          "prompt_tokens": 42979,
+          "completion_tokens": 3883,
+          "total_tokens": 46862
+        }
+      },
+      "conv7_q167": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43925,
+          "completion_tokens": 3218,
+          "total_tokens": 47143
+        },
+        "billed_usage": {
+          "prompt_tokens": 43925,
+          "completion_tokens": 3218,
+          "total_tokens": 47143
+        }
+      },
+      "conv7_q168": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40699,
+          "completion_tokens": 3284,
+          "total_tokens": 43983
+        },
+        "billed_usage": {
+          "prompt_tokens": 40699,
+          "completion_tokens": 3284,
+          "total_tokens": 43983
+        }
+      },
+      "conv7_q169": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 74946,
+          "completion_tokens": 4532,
+          "total_tokens": 79478
+        },
+        "billed_usage": {
+          "prompt_tokens": 74946,
+          "completion_tokens": 4532,
+          "total_tokens": 79478
+        }
+      },
+      "conv7_q170": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42863,
+          "completion_tokens": 2869,
+          "total_tokens": 45732
+        },
+        "billed_usage": {
+          "prompt_tokens": 42863,
+          "completion_tokens": 2869,
+          "total_tokens": 45732
+        }
+      },
+      "conv7_q171": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42963,
+          "completion_tokens": 2849,
+          "total_tokens": 45812
+        },
+        "billed_usage": {
+          "prompt_tokens": 42963,
+          "completion_tokens": 2849,
+          "total_tokens": 45812
+        }
+      },
+      "conv7_q172": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42261,
+          "completion_tokens": 3008,
+          "total_tokens": 45269
+        },
+        "billed_usage": {
+          "prompt_tokens": 42261,
+          "completion_tokens": 3008,
+          "total_tokens": 45269
+        }
+      },
+      "conv7_q173": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 50504,
+          "completion_tokens": 5316,
+          "total_tokens": 55820
+        },
+        "billed_usage": {
+          "prompt_tokens": 50504,
+          "completion_tokens": 5316,
+          "total_tokens": 55820
+        }
+      },
+      "conv7_q174": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40590,
+          "completion_tokens": 3737,
+          "total_tokens": 44327
+        },
+        "billed_usage": {
+          "prompt_tokens": 40590,
+          "completion_tokens": 3737,
+          "total_tokens": 44327
+        }
+      },
+      "conv7_q175": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41256,
+          "completion_tokens": 3412,
+          "total_tokens": 44668
+        },
+        "billed_usage": {
+          "prompt_tokens": 41256,
+          "completion_tokens": 3412,
+          "total_tokens": 44668
+        }
+      },
+      "conv7_q176": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44012,
+          "completion_tokens": 3400,
+          "total_tokens": 47412
+        },
+        "billed_usage": {
+          "prompt_tokens": 44012,
+          "completion_tokens": 3400,
+          "total_tokens": 47412
+        }
+      },
+      "conv7_q177": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 49175,
+          "completion_tokens": 4119,
+          "total_tokens": 53294
+        },
+        "billed_usage": {
+          "prompt_tokens": 49175,
+          "completion_tokens": 4119,
+          "total_tokens": 53294
+        }
+      },
+      "conv7_q178": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41198,
+          "completion_tokens": 3295,
+          "total_tokens": 44493
+        },
+        "billed_usage": {
+          "prompt_tokens": 41198,
+          "completion_tokens": 3295,
+          "total_tokens": 44493
+        }
+      },
+      "conv7_q179": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40747,
+          "completion_tokens": 2625,
+          "total_tokens": 43372
+        },
+        "billed_usage": {
+          "prompt_tokens": 40747,
+          "completion_tokens": 2625,
+          "total_tokens": 43372
+        }
+      },
+      "conv7_q180": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43153,
+          "completion_tokens": 2691,
+          "total_tokens": 45844
+        },
+        "billed_usage": {
+          "prompt_tokens": 43153,
+          "completion_tokens": 2691,
+          "total_tokens": 45844
+        }
+      },
+      "conv7_q181": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39422,
+          "completion_tokens": 2509,
+          "total_tokens": 41931
+        },
+        "billed_usage": {
+          "prompt_tokens": 39422,
+          "completion_tokens": 2509,
+          "total_tokens": 41931
+        }
+      },
+      "conv7_q182": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38799,
+          "completion_tokens": 3975,
+          "total_tokens": 42774
+        },
+        "billed_usage": {
+          "prompt_tokens": 38799,
+          "completion_tokens": 3975,
+          "total_tokens": 42774
+        }
+      },
+      "conv7_q183": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41811,
+          "completion_tokens": 2274,
+          "total_tokens": 44085
+        },
+        "billed_usage": {
+          "prompt_tokens": 41811,
+          "completion_tokens": 2274,
+          "total_tokens": 44085
+        }
+      },
+      "conv7_q184": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43745,
+          "completion_tokens": 4234,
+          "total_tokens": 47979
+        },
+        "billed_usage": {
+          "prompt_tokens": 43745,
+          "completion_tokens": 4234,
+          "total_tokens": 47979
+        }
+      },
+      "conv7_q185": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37888,
+          "completion_tokens": 2209,
+          "total_tokens": 40097
+        },
+        "billed_usage": {
+          "prompt_tokens": 37888,
+          "completion_tokens": 2209,
+          "total_tokens": 40097
+        }
+      },
+      "conv7_q186": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36636,
+          "completion_tokens": 2775,
+          "total_tokens": 39411
+        },
+        "billed_usage": {
+          "prompt_tokens": 36636,
+          "completion_tokens": 2775,
+          "total_tokens": 39411
+        }
+      },
+      "conv7_q187": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39954,
+          "completion_tokens": 2800,
+          "total_tokens": 42754
+        },
+        "billed_usage": {
+          "prompt_tokens": 39954,
+          "completion_tokens": 2800,
+          "total_tokens": 42754
+        }
+      },
+      "conv7_q188": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 47765,
+          "completion_tokens": 2466,
+          "total_tokens": 50231
+        },
+        "billed_usage": {
+          "prompt_tokens": 47765,
+          "completion_tokens": 2466,
+          "total_tokens": 50231
+        }
+      },
+      "conv7_q189": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42729,
+          "completion_tokens": 3381,
+          "total_tokens": 46110
+        },
+        "billed_usage": {
+          "prompt_tokens": 42729,
+          "completion_tokens": 3381,
+          "total_tokens": 46110
+        }
+      },
+      "conv7_q190": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37448,
+          "completion_tokens": 2389,
+          "total_tokens": 39837
+        },
+        "billed_usage": {
+          "prompt_tokens": 37448,
+          "completion_tokens": 2389,
+          "total_tokens": 39837
+        }
+      }
+    }
+  }
+}

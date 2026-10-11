@@ -1,0 +1,227 @@
+{
+  "uid": "001be529",
+  "num_sessions": 51,
+  "answers": {
+    "001be529": {
+      "response": "I don’t have the filing and decision dates for your asylum application, so I can’t determine how long you waited. If you provide those dates, I can calculate the waiting period for you.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 75.4
+    }
+  },
+  "profile_snapshot_size": 87648,
+  "elapsed_seconds": 6569.6,
+  "usage_summary": {
+    "total_calls": 696,
+    "cache_hits": 2,
+    "cache_misses": 694,
+    "logical_usage": {
+      "prompt_tokens": 1693791,
+      "completion_tokens": 330771,
+      "total_tokens": 2024562
+    },
+    "billed_usage": {
+      "prompt_tokens": 1691322,
+      "completion_tokens": 330050,
+      "total_tokens": 2021372
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 51,
+        "cache_hits": 0,
+        "cache_misses": 51,
+        "logical_usage": {
+          "prompt_tokens": 100414,
+          "completion_tokens": 36656,
+          "total_tokens": 137070
+        },
+        "billed_usage": {
+          "prompt_tokens": 100414,
+          "completion_tokens": 36656,
+          "total_tokens": 137070
+        }
+      },
+      "delta_extractor": {
+        "calls": 39,
+        "cache_hits": 0,
+        "cache_misses": 39,
+        "logical_usage": {
+          "prompt_tokens": 154882,
+          "completion_tokens": 21574,
+          "total_tokens": 176456
+        },
+        "billed_usage": {
+          "prompt_tokens": 154882,
+          "completion_tokens": 21574,
+          "total_tokens": 176456
+        }
+      },
+      "update_judge": {
+        "calls": 69,
+        "cache_hits": 0,
+        "cache_misses": 69,
+        "logical_usage": {
+          "prompt_tokens": 214341,
+          "completion_tokens": 20861,
+          "total_tokens": 235202
+        },
+        "billed_usage": {
+          "prompt_tokens": 214341,
+          "completion_tokens": 20861,
+          "total_tokens": 235202
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 65600,
+          "completion_tokens": 27923,
+          "total_tokens": 93523
+        },
+        "billed_usage": {
+          "prompt_tokens": 65600,
+          "completion_tokens": 27923,
+          "total_tokens": 93523
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 179,
+        "cache_hits": 0,
+        "cache_misses": 179,
+        "logical_usage": {
+          "prompt_tokens": 663893,
+          "completion_tokens": 114034,
+          "total_tokens": 777927
+        },
+        "billed_usage": {
+          "prompt_tokens": 663893,
+          "completion_tokens": 114034,
+          "total_tokens": 777927
+        }
+      },
+      "invalidation_judge": {
+        "calls": 59,
+        "cache_hits": 0,
+        "cache_misses": 59,
+        "logical_usage": {
+          "prompt_tokens": 195283,
+          "completion_tokens": 29193,
+          "total_tokens": 224476
+        },
+        "billed_usage": {
+          "prompt_tokens": 195283,
+          "completion_tokens": 29193,
+          "total_tokens": 224476
+        }
+      },
+      "stale_support_judge": {
+        "calls": 254,
+        "cache_hits": 0,
+        "cache_misses": 254,
+        "logical_usage": {
+          "prompt_tokens": 248672,
+          "completion_tokens": 76506,
+          "total_tokens": 325178
+        },
+        "billed_usage": {
+          "prompt_tokens": 248672,
+          "completion_tokens": 76506,
+          "total_tokens": 325178
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 743,
+          "total_tokens": 2223
+        },
+        "billed_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 743,
+          "total_tokens": 2223
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 19146,
+          "completion_tokens": 926,
+          "total_tokens": 20072
+        },
+        "billed_usage": {
+          "prompt_tokens": 19146,
+          "completion_tokens": 926,
+          "total_tokens": 20072
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4938,
+          "completion_tokens": 1442,
+          "total_tokens": 6380
+        },
+        "billed_usage": {
+          "prompt_tokens": 2469,
+          "completion_tokens": 721,
+          "total_tokens": 3190
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 24051,
+          "completion_tokens": 681,
+          "total_tokens": 24732
+        },
+        "billed_usage": {
+          "prompt_tokens": 24051,
+          "completion_tokens": 681,
+          "total_tokens": 24732
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1091,
+          "completion_tokens": 232,
+          "total_tokens": 1323
+        },
+        "billed_usage": {
+          "prompt_tokens": 1091,
+          "completion_tokens": 232,
+          "total_tokens": 1323
+        }
+      }
+    },
+    "by_query_label": {
+      "001be529": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45768,
+          "completion_tokens": 2582,
+          "total_tokens": 48350
+        },
+        "billed_usage": {
+          "prompt_tokens": 45768,
+          "completion_tokens": 2582,
+          "total_tokens": 48350
+        }
+      }
+    }
+  }
+}

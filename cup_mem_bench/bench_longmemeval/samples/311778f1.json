@@ -1,0 +1,227 @@
+{
+  "uid": "311778f1",
+  "num_sessions": 52,
+  "answers": {
+    "311778f1": {
+      "response": "I don’t have any information about your Netflix viewing history, so I can’t tell how many hours you spent watching documentaries last month. You’ll need to check your Netflix account’s viewing activity to find that.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.6
+    }
+  },
+  "profile_snapshot_size": 76191,
+  "elapsed_seconds": 5947.9,
+  "usage_summary": {
+    "total_calls": 662,
+    "cache_hits": 2,
+    "cache_misses": 660,
+    "logical_usage": {
+      "prompt_tokens": 1594225,
+      "completion_tokens": 311413,
+      "total_tokens": 1905638
+    },
+    "billed_usage": {
+      "prompt_tokens": 1591852,
+      "completion_tokens": 310394,
+      "total_tokens": 1902246
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 52,
+        "cache_hits": 0,
+        "cache_misses": 52,
+        "logical_usage": {
+          "prompt_tokens": 109106,
+          "completion_tokens": 37269,
+          "total_tokens": 146375
+        },
+        "billed_usage": {
+          "prompt_tokens": 109106,
+          "completion_tokens": 37269,
+          "total_tokens": 146375
+        }
+      },
+      "delta_extractor": {
+        "calls": 44,
+        "cache_hits": 0,
+        "cache_misses": 44,
+        "logical_usage": {
+          "prompt_tokens": 144419,
+          "completion_tokens": 22097,
+          "total_tokens": 166516
+        },
+        "billed_usage": {
+          "prompt_tokens": 144419,
+          "completion_tokens": 22097,
+          "total_tokens": 166516
+        }
+      },
+      "update_judge": {
+        "calls": 65,
+        "cache_hits": 0,
+        "cache_misses": 65,
+        "logical_usage": {
+          "prompt_tokens": 196009,
+          "completion_tokens": 16821,
+          "total_tokens": 212830
+        },
+        "billed_usage": {
+          "prompt_tokens": 196009,
+          "completion_tokens": 16821,
+          "total_tokens": 212830
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 65064,
+          "completion_tokens": 27101,
+          "total_tokens": 92165
+        },
+        "billed_usage": {
+          "prompt_tokens": 65064,
+          "completion_tokens": 27101,
+          "total_tokens": 92165
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 172,
+        "cache_hits": 0,
+        "cache_misses": 172,
+        "logical_usage": {
+          "prompt_tokens": 606377,
+          "completion_tokens": 105839,
+          "total_tokens": 712216
+        },
+        "billed_usage": {
+          "prompt_tokens": 606377,
+          "completion_tokens": 105839,
+          "total_tokens": 712216
+        }
+      },
+      "invalidation_judge": {
+        "calls": 60,
+        "cache_hits": 0,
+        "cache_misses": 60,
+        "logical_usage": {
+          "prompt_tokens": 199352,
+          "completion_tokens": 31552,
+          "total_tokens": 230904
+        },
+        "billed_usage": {
+          "prompt_tokens": 199352,
+          "completion_tokens": 31552,
+          "total_tokens": 230904
+        }
+      },
+      "stale_support_judge": {
+        "calls": 224,
+        "cache_hits": 0,
+        "cache_misses": 224,
+        "logical_usage": {
+          "prompt_tokens": 222196,
+          "completion_tokens": 66400,
+          "total_tokens": 288596
+        },
+        "billed_usage": {
+          "prompt_tokens": 222196,
+          "completion_tokens": 66400,
+          "total_tokens": 288596
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 852,
+          "total_tokens": 2332
+        },
+        "billed_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 852,
+          "total_tokens": 2332
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 19900,
+          "completion_tokens": 558,
+          "total_tokens": 20458
+        },
+        "billed_usage": {
+          "prompt_tokens": 19900,
+          "completion_tokens": 558,
+          "total_tokens": 20458
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4746,
+          "completion_tokens": 2038,
+          "total_tokens": 6784
+        },
+        "billed_usage": {
+          "prompt_tokens": 2373,
+          "completion_tokens": 1019,
+          "total_tokens": 3392
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 24469,
+          "completion_tokens": 677,
+          "total_tokens": 25146
+        },
+        "billed_usage": {
+          "prompt_tokens": 24469,
+          "completion_tokens": 677,
+          "total_tokens": 25146
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1107,
+          "completion_tokens": 209,
+          "total_tokens": 1316
+        },
+        "billed_usage": {
+          "prompt_tokens": 1107,
+          "completion_tokens": 209,
+          "total_tokens": 1316
+        }
+      }
+    },
+    "by_query_label": {
+      "311778f1": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46956,
+          "completion_tokens": 2296,
+          "total_tokens": 49252
+        },
+        "billed_usage": {
+          "prompt_tokens": 46956,
+          "completion_tokens": 2296,
+          "total_tokens": 49252
+        }
+      }
+    }
+  }
+}

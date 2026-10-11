@@ -1,0 +1,228 @@
+{
+  "uid": "4c36ccef",
+  "num_sessions": 49,
+  "answers": {
+    "4c36ccef": {
+      "response": "I’m sorry, but I don’t have a record of a previous recommendation for a romantic Italian restaurant in Rome, so I can’t provide the name.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 73.2
+    }
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/bench/run_bench.py\", line 184, in run_one\n    engine.process_session(session=session, session_index=idx, session_time=str(session_time))\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/writer.py\", line 20, in process_session\n    chunk_result = self.chunk_session(session_id=session_id, user_turns=user_turns)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/chunker.py\", line 163, in chunk_session\n    payload = self._llm_call_json(\n              ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/chunker.py\", line 75, in _llm_call_json\n    return self.llm.call_json(\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/llm_layer/client.py\", line 455, in call_json\n    raw = self.call_text(\n          ^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/llm_layer/client.py\", line 395, in call_text\n    resp = self.client.chat.completions.create(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/NC_Upload/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py\", line 286, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/NC_Upload/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py\", line 1156, in create\n    return self._post(\n           ^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/NC_Upload/.venv/lib/python3.12/site-packages/openai/_base_client.py\", line 1259, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/NC_Upload/.venv/lib/python3.12/site-packages/openai/_base_client.py\", line 1047, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/ad7faa10fd2dfb757a6850c1724bca35e8ea397f6c73b7bc27ebee654873564d', 'code': 403}}\n",
+  "elapsed_seconds": 6042.9,
+  "usage_summary": {
+    "total_calls": 656,
+    "cache_hits": 5,
+    "cache_misses": 651,
+    "logical_usage": {
+      "prompt_tokens": 1475441,
+      "completion_tokens": 303790,
+      "total_tokens": 1779231
+    },
+    "billed_usage": {
+      "prompt_tokens": 1467807,
+      "completion_tokens": 301600,
+      "total_tokens": 1769407
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 49,
+        "cache_hits": 2,
+        "cache_misses": 47,
+        "logical_usage": {
+          "prompt_tokens": 95842,
+          "completion_tokens": 35793,
+          "total_tokens": 131635
+        },
+        "billed_usage": {
+          "prompt_tokens": 92130,
+          "completion_tokens": 34924,
+          "total_tokens": 127054
+        }
+      },
+      "delta_extractor": {
+        "calls": 38,
+        "cache_hits": 1,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 121137,
+          "completion_tokens": 18896,
+          "total_tokens": 140033
+        },
+        "billed_usage": {
+          "prompt_tokens": 119589,
+          "completion_tokens": 18324,
+          "total_tokens": 137913
+        }
+      },
+      "update_judge": {
+        "calls": 66,
+        "cache_hits": 0,
+        "cache_misses": 66,
+        "logical_usage": {
+          "prompt_tokens": 177561,
+          "completion_tokens": 17453,
+          "total_tokens": 195014
+        },
+        "billed_usage": {
+          "prompt_tokens": 177561,
+          "completion_tokens": 17453,
+          "total_tokens": 195014
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 33,
+        "cache_hits": 0,
+        "cache_misses": 33,
+        "logical_usage": {
+          "prompt_tokens": 59283,
+          "completion_tokens": 22902,
+          "total_tokens": 82185
+        },
+        "billed_usage": {
+          "prompt_tokens": 59283,
+          "completion_tokens": 22902,
+          "total_tokens": 82185
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 165,
+        "cache_hits": 0,
+        "cache_misses": 165,
+        "logical_usage": {
+          "prompt_tokens": 562525,
+          "completion_tokens": 101710,
+          "total_tokens": 664235
+        },
+        "billed_usage": {
+          "prompt_tokens": 562525,
+          "completion_tokens": 101710,
+          "total_tokens": 664235
+        }
+      },
+      "invalidation_judge": {
+        "calls": 54,
+        "cache_hits": 0,
+        "cache_misses": 54,
+        "logical_usage": {
+          "prompt_tokens": 171170,
+          "completion_tokens": 29409,
+          "total_tokens": 200579
+        },
+        "billed_usage": {
+          "prompt_tokens": 171170,
+          "completion_tokens": 29409,
+          "total_tokens": 200579
+        }
+      },
+      "stale_support_judge": {
+        "calls": 243,
+        "cache_hits": 0,
+        "cache_misses": 243,
+        "logical_usage": {
+          "prompt_tokens": 239881,
+          "completion_tokens": 73938,
+          "total_tokens": 313819
+        },
+        "billed_usage": {
+          "prompt_tokens": 239881,
+          "completion_tokens": 73938,
+          "total_tokens": 313819
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1486,
+          "completion_tokens": 818,
+          "total_tokens": 2304
+        },
+        "billed_usage": {
+          "prompt_tokens": 1486,
+          "completion_tokens": 818,
+          "total_tokens": 2304
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18173,
+          "completion_tokens": 566,
+          "total_tokens": 18739
+        },
+        "billed_usage": {
+          "prompt_tokens": 18173,
+          "completion_tokens": 566,
+          "total_tokens": 18739
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4748,
+          "completion_tokens": 1498,
+          "total_tokens": 6246
+        },
+        "billed_usage": {
+          "prompt_tokens": 2374,
+          "completion_tokens": 749,
+          "total_tokens": 3123
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 22528,
+          "completion_tokens": 665,
+          "total_tokens": 23193
+        },
+        "billed_usage": {
+          "prompt_tokens": 22528,
+          "completion_tokens": 665,
+          "total_tokens": 23193
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1107,
+          "completion_tokens": 142,
+          "total_tokens": 1249
+        },
+        "billed_usage": {
+          "prompt_tokens": 1107,
+          "completion_tokens": 142,
+          "total_tokens": 1249
+        }
+      }
+    },
+    "by_query_label": {
+      "4c36ccef": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43294,
+          "completion_tokens": 2191,
+          "total_tokens": 45485
+        },
+        "billed_usage": {
+          "prompt_tokens": 43294,
+          "completion_tokens": 2191,
+          "total_tokens": 45485
+        }
+      }
+    }
+  },
+  "profile_snapshot_size": 82267
+}

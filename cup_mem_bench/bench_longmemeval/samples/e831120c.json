@@ -1,0 +1,227 @@
+{
+  "uid": "e831120c",
+  "num_sessions": 47,
+  "answers": {
+    "e831120c": {
+      "response": "I don’t have the dates you started and finished watching the MCU and main Star Wars films, so I can’t calculate the total weeks. Could you share the start and end dates (or the total number of days) you spent on those movies?",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 313.5
+    }
+  },
+  "profile_snapshot_size": 73656,
+  "elapsed_seconds": 6570.6,
+  "usage_summary": {
+    "total_calls": 703,
+    "cache_hits": 0,
+    "cache_misses": 703,
+    "logical_usage": {
+      "prompt_tokens": 1702542,
+      "completion_tokens": 339357,
+      "total_tokens": 2041899
+    },
+    "billed_usage": {
+      "prompt_tokens": 1702542,
+      "completion_tokens": 339357,
+      "total_tokens": 2041899
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 47,
+        "cache_hits": 0,
+        "cache_misses": 47,
+        "logical_usage": {
+          "prompt_tokens": 92022,
+          "completion_tokens": 33807,
+          "total_tokens": 125829
+        },
+        "billed_usage": {
+          "prompt_tokens": 92022,
+          "completion_tokens": 33807,
+          "total_tokens": 125829
+        }
+      },
+      "delta_extractor": {
+        "calls": 40,
+        "cache_hits": 0,
+        "cache_misses": 40,
+        "logical_usage": {
+          "prompt_tokens": 128491,
+          "completion_tokens": 22549,
+          "total_tokens": 151040
+        },
+        "billed_usage": {
+          "prompt_tokens": 128491,
+          "completion_tokens": 22549,
+          "total_tokens": 151040
+        }
+      },
+      "update_judge": {
+        "calls": 67,
+        "cache_hits": 0,
+        "cache_misses": 67,
+        "logical_usage": {
+          "prompt_tokens": 199606,
+          "completion_tokens": 18458,
+          "total_tokens": 218064
+        },
+        "billed_usage": {
+          "prompt_tokens": 199606,
+          "completion_tokens": 18458,
+          "total_tokens": 218064
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 38,
+        "cache_hits": 0,
+        "cache_misses": 38,
+        "logical_usage": {
+          "prompt_tokens": 65831,
+          "completion_tokens": 27897,
+          "total_tokens": 93728
+        },
+        "billed_usage": {
+          "prompt_tokens": 65831,
+          "completion_tokens": 27897,
+          "total_tokens": 93728
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 195,
+        "cache_hits": 0,
+        "cache_misses": 195,
+        "logical_usage": {
+          "prompt_tokens": 674005,
+          "completion_tokens": 127920,
+          "total_tokens": 801925
+        },
+        "billed_usage": {
+          "prompt_tokens": 674005,
+          "completion_tokens": 127920,
+          "total_tokens": 801925
+        }
+      },
+      "invalidation_judge": {
+        "calls": 65,
+        "cache_hits": 0,
+        "cache_misses": 65,
+        "logical_usage": {
+          "prompt_tokens": 252412,
+          "completion_tokens": 34224,
+          "total_tokens": 286636
+        },
+        "billed_usage": {
+          "prompt_tokens": 252412,
+          "completion_tokens": 34224,
+          "total_tokens": 286636
+        }
+      },
+      "stale_support_judge": {
+        "calls": 243,
+        "cache_hits": 0,
+        "cache_misses": 243,
+        "logical_usage": {
+          "prompt_tokens": 245651,
+          "completion_tokens": 67940,
+          "total_tokens": 313591
+        },
+        "billed_usage": {
+          "prompt_tokens": 245651,
+          "completion_tokens": 67940,
+          "total_tokens": 313591
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1490,
+          "completion_tokens": 840,
+          "total_tokens": 2330
+        },
+        "billed_usage": {
+          "prompt_tokens": 1490,
+          "completion_tokens": 840,
+          "total_tokens": 2330
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 15893,
+          "completion_tokens": 1260,
+          "total_tokens": 17153
+        },
+        "billed_usage": {
+          "prompt_tokens": 15893,
+          "completion_tokens": 1260,
+          "total_tokens": 17153
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 5077,
+          "completion_tokens": 2810,
+          "total_tokens": 7887
+        },
+        "billed_usage": {
+          "prompt_tokens": 5077,
+          "completion_tokens": 2810,
+          "total_tokens": 7887
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 20718,
+          "completion_tokens": 1483,
+          "total_tokens": 22201
+        },
+        "billed_usage": {
+          "prompt_tokens": 20718,
+          "completion_tokens": 1483,
+          "total_tokens": 22201
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1346,
+          "completion_tokens": 169,
+          "total_tokens": 1515
+        },
+        "billed_usage": {
+          "prompt_tokens": 1346,
+          "completion_tokens": 169,
+          "total_tokens": 1515
+        }
+      }
+    },
+    "by_query_label": {
+      "e831120c": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39447,
+          "completion_tokens": 3752,
+          "total_tokens": 43199
+        },
+        "billed_usage": {
+          "prompt_tokens": 39447,
+          "completion_tokens": 3752,
+          "total_tokens": 43199
+        }
+      }
+    }
+  }
+}

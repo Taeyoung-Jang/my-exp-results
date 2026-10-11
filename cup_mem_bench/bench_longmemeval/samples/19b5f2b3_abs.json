@@ -1,0 +1,227 @@
+{
+  "uid": "19b5f2b3_abs",
+  "num_sessions": 50,
+  "answers": {
+    "19b5f2b3_abs": {
+      "response": "I don't have any information indicating that you have already completed a stay in Korea, so I can't determine its length. Could you share the dates or details of your visit?",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 158.8
+    }
+  },
+  "profile_snapshot_size": 77038,
+  "elapsed_seconds": 6191.5,
+  "usage_summary": {
+    "total_calls": 685,
+    "cache_hits": 0,
+    "cache_misses": 685,
+    "logical_usage": {
+      "prompt_tokens": 1727655,
+      "completion_tokens": 332365,
+      "total_tokens": 2060020
+    },
+    "billed_usage": {
+      "prompt_tokens": 1727655,
+      "completion_tokens": 332365,
+      "total_tokens": 2060020
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 51,
+        "cache_hits": 0,
+        "cache_misses": 51,
+        "logical_usage": {
+          "prompt_tokens": 102456,
+          "completion_tokens": 36675,
+          "total_tokens": 139131
+        },
+        "billed_usage": {
+          "prompt_tokens": 102456,
+          "completion_tokens": 36675,
+          "total_tokens": 139131
+        }
+      },
+      "delta_extractor": {
+        "calls": 40,
+        "cache_hits": 0,
+        "cache_misses": 40,
+        "logical_usage": {
+          "prompt_tokens": 152957,
+          "completion_tokens": 23332,
+          "total_tokens": 176289
+        },
+        "billed_usage": {
+          "prompt_tokens": 152957,
+          "completion_tokens": 23332,
+          "total_tokens": 176289
+        }
+      },
+      "update_judge": {
+        "calls": 70,
+        "cache_hits": 0,
+        "cache_misses": 70,
+        "logical_usage": {
+          "prompt_tokens": 243499,
+          "completion_tokens": 20450,
+          "total_tokens": 263949
+        },
+        "billed_usage": {
+          "prompt_tokens": 243499,
+          "completion_tokens": 20450,
+          "total_tokens": 263949
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 35,
+        "cache_hits": 0,
+        "cache_misses": 35,
+        "logical_usage": {
+          "prompt_tokens": 62686,
+          "completion_tokens": 26711,
+          "total_tokens": 89397
+        },
+        "billed_usage": {
+          "prompt_tokens": 62686,
+          "completion_tokens": 26711,
+          "total_tokens": 89397
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 179,
+        "cache_hits": 0,
+        "cache_misses": 179,
+        "logical_usage": {
+          "prompt_tokens": 624729,
+          "completion_tokens": 119323,
+          "total_tokens": 744052
+        },
+        "billed_usage": {
+          "prompt_tokens": 624729,
+          "completion_tokens": 119323,
+          "total_tokens": 744052
+        }
+      },
+      "invalidation_judge": {
+        "calls": 65,
+        "cache_hits": 0,
+        "cache_misses": 65,
+        "logical_usage": {
+          "prompt_tokens": 269659,
+          "completion_tokens": 33340,
+          "total_tokens": 302999
+        },
+        "billed_usage": {
+          "prompt_tokens": 269659,
+          "completion_tokens": 33340,
+          "total_tokens": 302999
+        }
+      },
+      "stale_support_judge": {
+        "calls": 237,
+        "cache_hits": 0,
+        "cache_misses": 237,
+        "logical_usage": {
+          "prompt_tokens": 231656,
+          "completion_tokens": 68026,
+          "total_tokens": 299682
+        },
+        "billed_usage": {
+          "prompt_tokens": 231656,
+          "completion_tokens": 68026,
+          "total_tokens": 299682
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1475,
+          "completion_tokens": 842,
+          "total_tokens": 2317
+        },
+        "billed_usage": {
+          "prompt_tokens": 1475,
+          "completion_tokens": 842,
+          "total_tokens": 2317
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 13663,
+          "completion_tokens": 612,
+          "total_tokens": 14275
+        },
+        "billed_usage": {
+          "prompt_tokens": 13663,
+          "completion_tokens": 612,
+          "total_tokens": 14275
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 4880,
+          "completion_tokens": 1734,
+          "total_tokens": 6614
+        },
+        "billed_usage": {
+          "prompt_tokens": 4880,
+          "completion_tokens": 1734,
+          "total_tokens": 6614
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18588,
+          "completion_tokens": 1108,
+          "total_tokens": 19696
+        },
+        "billed_usage": {
+          "prompt_tokens": 18588,
+          "completion_tokens": 1108,
+          "total_tokens": 19696
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1407,
+          "completion_tokens": 212,
+          "total_tokens": 1619
+        },
+        "billed_usage": {
+          "prompt_tokens": 1407,
+          "completion_tokens": 212,
+          "total_tokens": 1619
+        }
+      }
+    },
+    "by_query_label": {
+      "19b5f2b3_abs": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35133,
+          "completion_tokens": 2774,
+          "total_tokens": 37907
+        },
+        "billed_usage": {
+          "prompt_tokens": 35133,
+          "completion_tokens": 2774,
+          "total_tokens": 37907
+        }
+      }
+    }
+  }
+}

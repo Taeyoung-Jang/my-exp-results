@@ -1,0 +1,2392 @@
+{
+  "uid": "conv-26",
+  "num_sessions": 19,
+  "answers": {
+    "conv0_q000": {
+      "response": "I don’t have any confirmed information that Caroline attended the LGBTQ support group, so I can’t provide a date for such an event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.6
+    },
+    "conv0_q001": {
+      "response": "There is no available information about when Melanie painted a sunrise.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.3
+    },
+    "conv0_q002": {
+      "response": "The previous assumptions about Caroline’s background are outdated, and the only current facts are that she identifies as a transgender woman and creates art expressing her trans experience. With no up‑to‑date information about her interests or goals, we cannot reliably identify which educational fields she is likely to pursue.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 256.5
+    },
+    "conv0_q003": {
+      "response": "I don’t have information about what Caroline researched.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 40.4
+    },
+    "conv0_q004": {
+      "response": "The previously stored identity details are no longer reliable. Based on current information, Caroline identifies as a transgender woman and is learning to play the piano.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 156.5
+    },
+    "conv0_q005": {
+      "response": "I don’t have information about when Melanie ran a charity race.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 94.0
+    },
+    "conv0_q006": {
+      "response": "I don’t have any information about when Melanie is planning to go camping.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.8
+    },
+    "conv0_q007": {
+      "response": "I don’t have enough information to determine Caroline’s relationship status.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.4
+    },
+    "conv0_q008": {
+      "response": "I don’t have any current information confirming that Caroline gave a speech at a school, so I can’t provide a date for it.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 84.4
+    },
+    "conv0_q009": {
+      "response": "I don’t have any current information about when Caroline met up with her friends, family, or mentors, so the timing can’t be determined.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 106.8
+    },
+    "conv0_q010": {
+      "response": "Caroline has had her current group of friends for about 4 years.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 52.0
+    },
+    "conv0_q011": {
+      "response": "I’m not able to determine where Caroline moved from four years ago based on the available information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.4
+    },
+    "conv0_q012": {
+      "response": "I don’t have Caroline’s birthdate or current age, so I can’t determine how long ago her 18th birthday was.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 76.7
+    },
+    "conv0_q013": {
+      "response": "There is no current information about a specific career path Caroline has decided on.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 295.5
+    },
+    "conv0_q014": {
+      "response": "I don’t have enough current information about Caroline’s background or her career intentions to say whether she would still want to pursue counseling without that support.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 188.2
+    },
+    "conv0_q015": {
+      "response": "I don’t have reliable, up‑to‑date details on Melanie’s specific hobbies. The previously noted activities (running, reading, violin) are outdated, and the only current information indicates she’s now primarily focused on LGBTQ+ advocacy and ongoing volunteering at a youth center.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 137.8
+    },
+    "conv0_q016": {
+      "response": "I don’t have information on when Melanie signed up for a pottery class.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 92.8
+    },
+    "conv0_q017": {
+      "response": "I don’t have any current information confirming that Caroline will attend the transgender conference, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 164.5
+    },
+    "conv0_q018": {
+      "response": "I don’t have any information about where Melanie has camped, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 133.1
+    },
+    "conv0_q019": {
+      "response": "I don’t have information about what Melanie’s kids like.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 98.1
+    },
+    "conv0_q020": {
+      "response": "I don’t have any information about when Melanie visited the museum, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.0
+    },
+    "conv0_q021": {
+      "response": "I don’t have any information about when Caroline had a picnic.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 99.7
+    },
+    "conv0_q022": {
+      "response": "There isn’t enough information to tell whether Caroline likely has Dr. Seuss books on her bookshelf.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.9
+    },
+    "conv0_q023": {
+      "response": "I don’t have any information about which books Melanie has read.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 146.3
+    },
+    "conv0_q024": {
+      "response": "I don’t have current information on Melanie’s destressing activities; the previous detail about her daily running, reading, or violin practice is no longer up‑to‑date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 133.7
+    },
+    "conv0_q025": {
+      "response": "I don’t have any information indicating that Caroline attended an LGBTQ conference, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 172.9
+    },
+    "conv0_q026": {
+      "response": "I don’t have information about when Melanie read the book “nothing is impossible.”",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.5
+    },
+    "conv0_q027": {
+      "response": "No—based on the current information, Caroline is not pursuing writing as a career; she is focusing on learning piano and exploring counseling and mental‑health work, and recent caregiving responsibilities make a writing career unsafe to assume.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 149.9
+    },
+    "conv0_q028": {
+      "response": "I don’t have current information confirming that Caroline attended an adoption meeting, so I can’t provide the date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 154.6
+    },
+    "conv0_q029": {
+      "response": "I don’t have information about when Melanie attended the pottery workshop.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 187.2
+    },
+    "conv0_q030": {
+      "response": "Yes, Melanie would be considered a member of the LGBTQ community.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 67.4
+    },
+    "conv0_q031": {
+      "response": "I don’t have any current information about when Melanie went camping in June, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.0
+    },
+    "conv0_q032": {
+      "response": "Caroline attended an LGBTQ+ pride parade last week.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 78.4
+    },
+    "conv0_q033": {
+      "response": "Caroline attended the pride parade last week.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 36.7
+    },
+    "conv0_q034": {
+      "response": "I’m not aware of any events Caroline has participated in to help children.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 107.6
+    },
+    "conv0_q035": {
+      "response": "I don’t have information on the date of Melanie’s July camping trip.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.8
+    },
+    "conv0_q036": {
+      "response": "I don’t have any information about when Caroline joined a mentorship program.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 92.1
+    },
+    "conv0_q037": {
+      "response": "I don’t have any current information about what Melanie may have painted recently.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 54.9
+    },
+    "conv0_q038": {
+      "response": "I don’t have current details about specific activities Melanie has done with her family; the only recent information is that a family routine shift occurred yesterday and the family is currently providing love, support, and help.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 183.5
+    },
+    "conv0_q039": {
+      "response": "Caroline is participating by being a member of a new LGBTQ activist group and by attending an LGBTQ+ pride parade last week.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 53.0
+    },
+    "conv0_q040": {
+      "response": "I don’t have any information on how many times Melanie visited a beach in 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.1
+    },
+    "conv0_q041": {
+      "response": "I don’t have information on when Caroline joined the new activist group.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 79.0
+    },
+    "conv0_q042": {
+      "response": "I don’t have enough current information about Melanie’s preferences to say whether she’d prefer a national park or a theme park. Could you tell me what kinds of activities she’s interested in right now?",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 170.4
+    },
+    "conv0_q043": {
+      "response": "Caroline’s art is music—she’s learning to play the piano.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 71.8
+    },
+    "conv0_q044": {
+      "response": "I don’t have information about Melanie’s daughter’s birthday.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 193.6
+    },
+    "conv0_q045": {
+      "response": "The claim that Caroline attended a pride parade in August isn’t supported; the only current information indicates she attended an LGBTQ+ pride parade last week (early July), so no August date is available.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 191.5
+    },
+    "conv0_q046": {
+      "response": "Yes, Melanie would be considered an ally to the transgender community.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 140.9
+    },
+    "conv0_q047": {
+      "response": "Caroline’s family provides her love, support, and help when she experiences something negative.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 90.8
+    },
+    "conv0_q048": {
+      "response": "I don’t have information about the specific types of pottery you and your kids have made; currently you’re unable to practice pottery due to your injury.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 166.7
+    },
+    "conv0_q049": {
+      "response": "Caroline and Melanie attended the pride parade last week – during the week of October 3–9 2026.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 107.2
+    },
+    "conv0_q050": {
+      "response": "I can’t determine Caroline’s political leaning, as there’s no current information about her political views.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 76.4
+    },
+    "conv0_q051": {
+      "response": "I don’t have any current information about what Melanie may have painted.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 120.7
+    },
+    "conv0_q052": {
+      "response": "I’m sorry, but I don’t have any current information about Melanie or the names of any pets she may have.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 219.0
+    },
+    "conv0_q053": {
+      "response": "I don’t have any information about when Caroline applied to adoption agencies.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 125.7
+    },
+    "conv0_q054": {
+      "response": "The premise that Caroline drew a self‑portrait is no longer supported by current information, so I can’t provide a date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 133.4
+    },
+    "conv0_q055": {
+      "response": "There is no available information about a subject that both Caroline and Melanie have painted.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 158.2
+    },
+    "conv0_q056": {
+      "response": "I don’t have current information about which symbols are important to Caroline.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 289.3
+    },
+    "conv0_q057": {
+      "response": "I don’t have any information about a hike where Caroline encountered people and had a negative experience, so I can’t provide a date or time for such an event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.4
+    },
+    "conv0_q058": {
+      "response": "I don’t have any information about when Melanie made a plate in pottery class, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 97.4
+    },
+    "conv0_q059": {
+      "response": "There isn’t enough current information to determine whether Caroline is religious.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.3
+    },
+    "conv0_q060": {
+      "response": "Melanie is learning to play the piano.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 57.1
+    },
+    "conv0_q061": {
+      "response": "I don’t have any information about which musical artists or bands Melanie has seen.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.4
+    },
+    "conv0_q062": {
+      "response": "I don’t have any information about when Melanie went to the park.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 45.9
+    },
+    "conv0_q063": {
+      "response": "The earlier information about a talent show at Caroline's youth center is outdated, and there is no current source providing a date or time for such an event.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 87.4
+    },
+    "conv0_q064": {
+      "response": "I don’t have current information about Melanie’s musical preferences, so I can’t say whether she would likely enjoy Vivaldi’s \"The Four Seasons.\"",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 112.6
+    },
+    "conv0_q065": {
+      "response": "Caroline now identifies as a transgender woman and shares her journey through art, and she’s noticed that her personal relationships feel more genuine.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 166.2
+    },
+    "conv0_q066": {
+      "response": "I don’t have information about what Melanie does with her family on hikes.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 188.3
+    },
+    "conv0_q067": {
+      "response": "I don’t have any information about when Caroline went biking with friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 162.0
+    },
+    "conv0_q068": {
+      "response": "I don’t have enough information to know how long Melanie has been practicing art.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.4
+    },
+    "conv0_q069": {
+      "response": "I don’t have enough information to know what personality traits Melanie would attribute to Caroline.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 128.2
+    },
+    "conv0_q070": {
+      "response": "There’s no information indicating that Caroline has attended any transgender‑specific events.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 147.9
+    },
+    "conv0_q071": {
+      "response": "I don’t have enough information to know which book Melanie read based on Caroline’s suggestion. Could you provide more details?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 94.0
+    },
+    "conv0_q072": {
+      "response": "I don’t have any information about when Melanie’s friend adopted a child, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 171.5
+    },
+    "conv0_q073": {
+      "response": "I don’t have enough information to say when the injury happened; I only know you have a recent injury.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.5
+    },
+    "conv0_q074": {
+      "response": "I don’t have any information about when Melanie’s family went on a roadtrip.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 109.3
+    },
+    "conv0_q075": {
+      "response": "I don’t have information on how many children Melanie has.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 213.3
+    },
+    "conv0_q076": {
+      "response": "I don’t have enough information to say when Melanie went on a hike after the roadtrip.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 96.0
+    },
+    "conv0_q077": {
+      "response": "I don’t have enough information to determine whether Melanie will go on another roadtrip soon.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 155.9
+    },
+    "conv0_q078": {
+      "response": "I don’t have any current information about items that Melanie has bought.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.9
+    },
+    "conv0_q079": {
+      "response": "I don’t have information about when Caroline passed the adoption interview.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 60.0
+    },
+    "conv0_q080": {
+      "response": "I don’t have information about when Melanie bought the figurines.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.8
+    },
+    "conv0_q081": {
+      "response": "There isn’t enough current information to say whether Caroline wants to move back to her home country soon.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 80.3
+    },
+    "conv0_q082": {
+      "response": "I don’t have information about the charity race or what cause it was meant to raise awareness for, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.4
+    },
+    "conv0_q083": {
+      "response": "I’m sorry, but I don’t have any information about what Melanie realized after the charity race.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.4
+    },
+    "conv0_q084": {
+      "response": "Melanie now prioritizes self‑care by focusing on activities that nurture her creativity and family connections, which she says keep her at peace.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 138.7
+    },
+    "conv0_q085": {
+      "response": "I don't have any current information about Caroline's summer plans, so I can't provide details.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 142.4
+    },
+    "conv0_q086": {
+      "response": "I don’t have current information about which groups the adoption agency Caroline is considering supports.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 98.5
+    },
+    "conv0_q087": {
+      "response": "Current records confirm that Caroline selected an adoption agency, but they don’t state her specific motive. Earlier information (now historical) noted that she chose an agency that supports LGBTQ+ adoption, which is the only reason we have on file.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 126.0
+    },
+    "conv0_q088": {
+      "response": "I don’t have current information about what Caroline is excited about in the adoption process.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 169.9
+    },
+    "conv0_q089": {
+      "response": "I don’t have any information about Melanie’s thoughts on Caroline’s decision to adopt.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 106.6
+    },
+    "conv0_q090": {
+      "response": "I don’t have any information about how long Mel and her husband have been married.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 129.8
+    },
+    "conv0_q091": {
+      "response": "I’m sorry, but there’s no information available about Caroline or any symbolic meaning of her necklace, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 73.1
+    },
+    "conv0_q092": {
+      "response": "I don’t have any information about Caroline’s grandmother’s country of origin.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 102.1
+    },
+    "conv0_q093": {
+      "response": "I’m not able to determine what Grandma gave Caroline, as there’s no available information about that gift.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.8
+    },
+    "conv0_q094": {
+      "response": "I don’t have any information about what Melanie’s hand‑painted bowl reminds her of.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.5
+    },
+    "conv0_q095": {
+      "response": "There is no available information about what Melanie and her family did while camping.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 101.1
+    },
+    "conv0_q096": {
+      "response": "I don’t have current information about the specific counseling or mental‑health services Caroline is interested in; the only up‑to‑date focus mentioned is her work representing inclusivity and diversity in art and advocating for LGBTQ+ acceptance.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 157.8
+    },
+    "conv0_q097": {
+      "response": "I don’t have any information about a recent workshop that Caroline attended.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 97.4
+    },
+    "conv0_q098": {
+      "response": "I don't have any current information about an LGBTQ+ counseling workshop, so I can't provide a summary of its discussion topics.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 104.4
+    },
+    "conv0_q099": {
+      "response": "The earlier premise about Caroline’s motivation for counseling is no longer supported; we have no current evidence about why she chose counseling. What we do know is that she now receives motivation and emotional support from friends, family, and mentors, and she feels accepted and more courageous.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 226.5
+    },
+    "conv0_q100": {
+      "response": "There’s no current information describing a specific place Caroline wants to create for people; the available fact indicates she is ready to offer love and support to those who need it.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 205.8
+    },
+    "conv0_q101": {
+      "response": "I don’t have enough information to confirm whether Melanie made the black‑and‑white bowl in the photo.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 62.9
+    },
+    "conv0_q102": {
+      "response": "I don’t have current information about the kinds of books in Caroline’s library, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.6
+    },
+    "conv0_q103": {
+      "response": "I don’t have any information about Melanie’s favorite childhood book, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.3
+    },
+    "conv0_q104": {
+      "response": "I don’t have any information about a book that Caroline recommended to Melanie.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.1
+    },
+    "conv0_q105": {
+      "response": "I don’t have any information confirming that Caroline read \"Becoming Nicole,\" so I can’t say what takeaway she might have had.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.9
+    },
+    "conv0_q106": {
+      "response": "I don’t have any information about Melanie’s new shoes, so I can’t say what they’re used for.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 101.7
+    },
+    "conv0_q107": {
+      "response": "I don’t have current information about Melanie’s specific reason for getting into running. The only up‑to‑date detail is that friends, family, and mentors now provide her motivation and emotional support.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 151.7
+    },
+    "conv0_q108": {
+      "response": "I don’t have a record of Melanie’s statement about what running has been great for, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 92.5
+    },
+    "conv0_q109": {
+      "response": "I don’t have information about what Mel and her kids made in the pottery workshop.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 123.2
+    },
+    "conv0_q110": {
+      "response": "I don’t have enough information to determine what kind of pot Mel and her kids made.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.7
+    },
+    "conv0_q111": {
+      "response": "The premise is outdated—there’s no current information about another joint creative project. Right now Mel and her kids are focused on organizing a talent show for the kids next month.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 141.2
+    },
+    "conv0_q112": {
+      "response": "I don’t have current information about what Mel and her kids painted in July 2023, so I can’t answer that question.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 94.9
+    },
+    "conv0_q113": {
+      "response": "I don’t have verified information that Caroline attended a council meeting on adoption, so I can’t say what she saw there.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.4
+    },
+    "conv0_q114": {
+      "response": "I don’t have any information about how Caroline interprets the symbolism of sunflowers.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 54.8
+    },
+    "conv0_q115": {
+      "response": "I don’t have current information about Melanie’s feelings toward flowers, so I can’t say why they would be important to her.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.8
+    },
+    "conv0_q116": {
+      "response": "Caroline’s painting was inspired by the impact of her work on the LGBTQ+ community.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 133.5
+    },
+    "conv0_q117": {
+      "response": "I don’t have current information about how often Melanie goes to the beach with her kids, and the earlier assumption about her beach trips is now considered outdated.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 82.8
+    },
+    "conv0_q118": {
+      "response": "I don’t have any information about what Melanie and her family saw on a camping trip last year.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 75.5
+    },
+    "conv0_q119": {
+      "response": "I’m sorry, but I don’t have any information about Melanie’s emotional state while watching the meteor shower.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.6
+    },
+    "conv0_q120": {
+      "response": "I don't have current information confirming that Melanie celebrated a birthday recently, so I can't say whose birthday it was.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 120.2
+    },
+    "conv0_q121": {
+      "response": "I don’t have any confirmed information about a concert at Melanie’s daughter’s birthday, so I can’t say who performed.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.2
+    },
+    "conv0_q122": {
+      "response": "You’re currently unable to practice pottery because of a recent injury, so we can’t discuss why you chose colors and patterns for a project you’re not presently working on. If you’d like, we can talk about reasons you’ve used colors and patterns in the past or explore other creative activities you can do while you recover.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 153.8
+    },
+    "conv0_q123": {
+      "response": "I don’t have any current information about a pet that Caroline might have.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 137.0
+    },
+    "conv0_q124": {
+      "response": "I don’t have current information about Melanie’s pets.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 132.3
+    },
+    "conv0_q125": {
+      "response": "I don’t have any information about where Oliver hid his bone.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 59.8
+    },
+    "conv0_q126": {
+      "response": "I don’t have information about any activity Caroline used to do with her dad, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 145.9
+    },
+    "conv0_q127": {
+      "response": "I don’t have any confirmed information about what Caroline made for a local church.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 60.9
+    },
+    "conv0_q128": {
+      "response": "I’m not aware of what Caroline found during her walk, as there’s no information available about it.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 156.5
+    },
+    "conv0_q129": {
+      "response": "I don't have enough information to identify a specific song that motivates Caroline to be courageous.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 64.7
+    },
+    "conv0_q130": {
+      "response": "I don’t have any current information about which classical musicians Melanie enjoys.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.9
+    },
+    "conv0_q131": {
+      "response": "There is no available information about which modern music artist or group Melanie is a fan of.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.9
+    },
+    "conv0_q132": {
+      "response": "I don't have enough information to determine how long Melanie has been creating art.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 97.3
+    },
+    "conv0_q133": {
+      "response": "I don’t have any information about a precautionary sign that Melanie saw at the café.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.3
+    },
+    "conv0_q134": {
+      "response": "Caroline’s earlier advice on how to get started with adoption is now outdated, and there’s no current information to replace it, so I can’t provide reliable guidance on that step.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 131.1
+    },
+    "conv0_q135": {
+      "response": "In October 2023 Melanie suffered an injury (around 13 October) that left her unable to practice pottery.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 57.7
+    },
+    "conv0_q136": {
+      "response": "I don’t have information about what Melanie does during a pottery break, and the premise that she’s taking pottery breaks is no longer valid because she’s currently unable to practice pottery due to an injury.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 195.1
+    },
+    "conv0_q137": {
+      "response": "I don’t have any information about a painting that Melanie might have shown to Caroline on October 13 2023, so I can’t identify a title.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.0
+    },
+    "conv0_q138": {
+      "response": "I don’t have any information about a painting that Caroline shared with Melanie on October 13, 2023, so I can’t determine its type.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 111.1
+    },
+    "conv0_q139": {
+      "response": "I’m not able to determine what the poetry reading was about because there’s no confirmed information that Caroline attended a poetry reading.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.6
+    },
+    "conv0_q140": {
+      "response": "I don’t have any information about what the posters at the poetry reading said.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 134.9
+    },
+    "conv0_q141": {
+      "response": "Caroline’s drawing symbolizes her personal identity and transition journey, reflecting her experience as a transgender woman and her commitment to LGBTQ+ inclusivity.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 96.1
+    },
+    "conv0_q142": {
+      "response": "I’m sorry, I don’t have any current information about how Melanie and Caroline describe their journey together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 182.9
+    },
+    "conv0_q143": {
+      "response": "I don’t have any details about what occurred to Melanie’s son during the road trip; the only current information is that he is now okay and in good health.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 58.1
+    },
+    "conv0_q144": {
+      "response": "There is no information available about how Melanie's son handled the accident.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 184.3
+    },
+    "conv0_q145": {
+      "response": "Melanie feels that her family relationships have become more genuine and positive after the accident.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 94.9
+    },
+    "conv0_q146": {
+      "response": "The assumption that Melanie's children were present and responded to the accident is no longer supported; we have no current information on how they handled it. The only relevant update is that her son is presently in good health.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 57.3
+    },
+    "conv0_q147": {
+      "response": "I don’t have any information about how Melanie felt after the accident.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.0
+    },
+    "conv0_q148": {
+      "response": "There is no available information about Melanie's reaction to her children enjoying the Grand Canyon.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.6
+    },
+    "conv0_q149": {
+      "response": "Melanie's family are currently giving her love, support, and help.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 77.5
+    },
+    "conv0_q150": {
+      "response": "The available information does not specify Melanie's personal feeling about her family's support; it only indicates that her family is currently providing love, support, and help.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 207.2
+    },
+    "conv0_q151": {
+      "response": "I’m sorry, I don’t have information on what Melanie did after the road trip.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 146.4
+    }
+  },
+  "profile_snapshot_size": 62026,
+  "elapsed_seconds": 13622.0,
+  "usage_summary": {
+    "total_calls": 1078,
+    "cache_hits": 182,
+    "cache_misses": 896,
+    "logical_usage": {
+      "prompt_tokens": 4704079,
+      "completion_tokens": 627304,
+      "total_tokens": 5331383
+    },
+    "billed_usage": {
+      "prompt_tokens": 4449103,
+      "completion_tokens": 524656,
+      "total_tokens": 4973759
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 19,
+        "cache_hits": 19,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 55323,
+          "completion_tokens": 18143,
+          "total_tokens": 73466
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "delta_extractor": {
+        "calls": 19,
+        "cache_hits": 9,
+        "cache_misses": 10,
+        "logical_usage": {
+          "prompt_tokens": 49176,
+          "completion_tokens": 11471,
+          "total_tokens": 60647
+        },
+        "billed_usage": {
+          "prompt_tokens": 35186,
+          "completion_tokens": 6089,
+          "total_tokens": 41275
+        }
+      },
+      "update_judge": {
+        "calls": 38,
+        "cache_hits": 8,
+        "cache_misses": 30,
+        "logical_usage": {
+          "prompt_tokens": 98454,
+          "completion_tokens": 11438,
+          "total_tokens": 109892
+        },
+        "billed_usage": {
+          "prompt_tokens": 87782,
+          "completion_tokens": 9770,
+          "total_tokens": 97552
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 19,
+        "cache_hits": 9,
+        "cache_misses": 10,
+        "logical_usage": {
+          "prompt_tokens": 33979,
+          "completion_tokens": 13756,
+          "total_tokens": 47735
+        },
+        "billed_usage": {
+          "prompt_tokens": 17956,
+          "completion_tokens": 7391,
+          "total_tokens": 25347
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 105,
+        "cache_hits": 0,
+        "cache_misses": 105,
+        "logical_usage": {
+          "prompt_tokens": 312984,
+          "completion_tokens": 63484,
+          "total_tokens": 376468
+        },
+        "billed_usage": {
+          "prompt_tokens": 312984,
+          "completion_tokens": 63484,
+          "total_tokens": 376468
+        }
+      },
+      "invalidation_judge": {
+        "calls": 33,
+        "cache_hits": 0,
+        "cache_misses": 33,
+        "logical_usage": {
+          "prompt_tokens": 107482,
+          "completion_tokens": 18713,
+          "total_tokens": 126195
+        },
+        "billed_usage": {
+          "prompt_tokens": 107482,
+          "completion_tokens": 18713,
+          "total_tokens": 126195
+        }
+      },
+      "stale_support_judge": {
+        "calls": 127,
+        "cache_hits": 0,
+        "cache_misses": 127,
+        "logical_usage": {
+          "prompt_tokens": 126635,
+          "completion_tokens": 41825,
+          "total_tokens": 168460
+        },
+        "billed_usage": {
+          "prompt_tokens": 126635,
+          "completion_tokens": 41825,
+          "total_tokens": 168460
+        }
+      },
+      "query_parser": {
+        "calls": 94,
+        "cache_hits": 1,
+        "cache_misses": 93,
+        "logical_usage": {
+          "prompt_tokens": 137165,
+          "completion_tokens": 76892,
+          "total_tokens": 214057
+        },
+        "billed_usage": {
+          "prompt_tokens": 135706,
+          "completion_tokens": 76107,
+          "total_tokens": 211813
+        }
+      },
+      "premise_verifier": {
+        "calls": 94,
+        "cache_hits": 0,
+        "cache_misses": 94,
+        "logical_usage": {
+          "prompt_tokens": 1401134,
+          "completion_tokens": 82529,
+          "total_tokens": 1483663
+        },
+        "billed_usage": {
+          "prompt_tokens": 1401134,
+          "completion_tokens": 82529,
+          "total_tokens": 1483663
+        }
+      },
+      "query_lane_filter": {
+        "calls": 340,
+        "cache_hits": 136,
+        "cache_misses": 204,
+        "logical_usage": {
+          "prompt_tokens": 396667,
+          "completion_tokens": 186149,
+          "total_tokens": 582816
+        },
+        "billed_usage": {
+          "prompt_tokens": 239158,
+          "completion_tokens": 115844,
+          "total_tokens": 355002
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 95,
+        "cache_hits": 0,
+        "cache_misses": 95,
+        "logical_usage": {
+          "prompt_tokens": 1865440,
+          "completion_tokens": 83328,
+          "total_tokens": 1948768
+        },
+        "billed_usage": {
+          "prompt_tokens": 1865440,
+          "completion_tokens": 83328,
+          "total_tokens": 1948768
+        }
+      },
+      "answer_composer": {
+        "calls": 94,
+        "cache_hits": 0,
+        "cache_misses": 94,
+        "logical_usage": {
+          "prompt_tokens": 116643,
+          "completion_tokens": 18865,
+          "total_tokens": 135508
+        },
+        "billed_usage": {
+          "prompt_tokens": 116643,
+          "completion_tokens": 18865,
+          "total_tokens": 135508
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 2997,
+          "completion_tokens": 711,
+          "total_tokens": 3708
+        },
+        "billed_usage": {
+          "prompt_tokens": 2997,
+          "completion_tokens": 711,
+          "total_tokens": 3708
+        }
+      }
+    },
+    "by_query_label": {
+      "conv0_q058": {
+        "calls": 4,
+        "cache_hits": 1,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 35124,
+          "completion_tokens": 2813,
+          "total_tokens": 37937
+        },
+        "billed_usage": {
+          "prompt_tokens": 33665,
+          "completion_tokens": 2028,
+          "total_tokens": 35693
+        }
+      },
+      "conv0_q059": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39079,
+          "completion_tokens": 2242,
+          "total_tokens": 41321
+        },
+        "billed_usage": {
+          "prompt_tokens": 39079,
+          "completion_tokens": 2242,
+          "total_tokens": 41321
+        }
+      },
+      "conv0_q060": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38306,
+          "completion_tokens": 2258,
+          "total_tokens": 40564
+        },
+        "billed_usage": {
+          "prompt_tokens": 38306,
+          "completion_tokens": 2258,
+          "total_tokens": 40564
+        }
+      },
+      "conv0_q061": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36437,
+          "completion_tokens": 2311,
+          "total_tokens": 38748
+        },
+        "billed_usage": {
+          "prompt_tokens": 36437,
+          "completion_tokens": 2311,
+          "total_tokens": 38748
+        }
+      },
+      "conv0_q062": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39102,
+          "completion_tokens": 2533,
+          "total_tokens": 41635
+        },
+        "billed_usage": {
+          "prompt_tokens": 39102,
+          "completion_tokens": 2533,
+          "total_tokens": 41635
+        }
+      },
+      "conv0_q063": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41243,
+          "completion_tokens": 2740,
+          "total_tokens": 43983
+        },
+        "billed_usage": {
+          "prompt_tokens": 41243,
+          "completion_tokens": 2740,
+          "total_tokens": 43983
+        }
+      },
+      "conv0_q064": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40821,
+          "completion_tokens": 3591,
+          "total_tokens": 44412
+        },
+        "billed_usage": {
+          "prompt_tokens": 40821,
+          "completion_tokens": 3591,
+          "total_tokens": 44412
+        }
+      },
+      "conv0_q065": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42001,
+          "completion_tokens": 4498,
+          "total_tokens": 46499
+        },
+        "billed_usage": {
+          "prompt_tokens": 42001,
+          "completion_tokens": 4498,
+          "total_tokens": 46499
+        }
+      },
+      "conv0_q066": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38847,
+          "completion_tokens": 3124,
+          "total_tokens": 41971
+        },
+        "billed_usage": {
+          "prompt_tokens": 38847,
+          "completion_tokens": 3124,
+          "total_tokens": 41971
+        }
+      },
+      "conv0_q067": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33662,
+          "completion_tokens": 2423,
+          "total_tokens": 36085
+        },
+        "billed_usage": {
+          "prompt_tokens": 33662,
+          "completion_tokens": 2423,
+          "total_tokens": 36085
+        }
+      },
+      "conv0_q068": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37529,
+          "completion_tokens": 2958,
+          "total_tokens": 40487
+        },
+        "billed_usage": {
+          "prompt_tokens": 37529,
+          "completion_tokens": 2958,
+          "total_tokens": 40487
+        }
+      },
+      "conv0_q069": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36660,
+          "completion_tokens": 2401,
+          "total_tokens": 39061
+        },
+        "billed_usage": {
+          "prompt_tokens": 36660,
+          "completion_tokens": 2401,
+          "total_tokens": 39061
+        }
+      },
+      "conv0_q070": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41406,
+          "completion_tokens": 2818,
+          "total_tokens": 44224
+        },
+        "billed_usage": {
+          "prompt_tokens": 41406,
+          "completion_tokens": 2818,
+          "total_tokens": 44224
+        }
+      },
+      "conv0_q071": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34235,
+          "completion_tokens": 2196,
+          "total_tokens": 36431
+        },
+        "billed_usage": {
+          "prompt_tokens": 34235,
+          "completion_tokens": 2196,
+          "total_tokens": 36431
+        }
+      },
+      "conv0_q072": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38566,
+          "completion_tokens": 2816,
+          "total_tokens": 41382
+        },
+        "billed_usage": {
+          "prompt_tokens": 38566,
+          "completion_tokens": 2816,
+          "total_tokens": 41382
+        }
+      },
+      "conv0_q073": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36436,
+          "completion_tokens": 2885,
+          "total_tokens": 39321
+        },
+        "billed_usage": {
+          "prompt_tokens": 36436,
+          "completion_tokens": 2885,
+          "total_tokens": 39321
+        }
+      },
+      "conv0_q074": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34381,
+          "completion_tokens": 2263,
+          "total_tokens": 36644
+        },
+        "billed_usage": {
+          "prompt_tokens": 34381,
+          "completion_tokens": 2263,
+          "total_tokens": 36644
+        }
+      },
+      "conv0_q075": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30089,
+          "completion_tokens": 3709,
+          "total_tokens": 33798
+        },
+        "billed_usage": {
+          "prompt_tokens": 30089,
+          "completion_tokens": 3709,
+          "total_tokens": 33798
+        }
+      },
+      "conv0_q076": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38661,
+          "completion_tokens": 2035,
+          "total_tokens": 40696
+        },
+        "billed_usage": {
+          "prompt_tokens": 38661,
+          "completion_tokens": 2035,
+          "total_tokens": 40696
+        }
+      },
+      "conv0_q077": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37424,
+          "completion_tokens": 3167,
+          "total_tokens": 40591
+        },
+        "billed_usage": {
+          "prompt_tokens": 37424,
+          "completion_tokens": 3167,
+          "total_tokens": 40591
+        }
+      },
+      "conv0_q078": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35625,
+          "completion_tokens": 2083,
+          "total_tokens": 37708
+        },
+        "billed_usage": {
+          "prompt_tokens": 35625,
+          "completion_tokens": 2083,
+          "total_tokens": 37708
+        }
+      },
+      "conv0_q079": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43488,
+          "completion_tokens": 2419,
+          "total_tokens": 45907
+        },
+        "billed_usage": {
+          "prompt_tokens": 43488,
+          "completion_tokens": 2419,
+          "total_tokens": 45907
+        }
+      },
+      "conv0_q080": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39912,
+          "completion_tokens": 2423,
+          "total_tokens": 42335
+        },
+        "billed_usage": {
+          "prompt_tokens": 39912,
+          "completion_tokens": 2423,
+          "total_tokens": 42335
+        }
+      },
+      "conv0_q081": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37793,
+          "completion_tokens": 2580,
+          "total_tokens": 40373
+        },
+        "billed_usage": {
+          "prompt_tokens": 37793,
+          "completion_tokens": 2580,
+          "total_tokens": 40373
+        }
+      },
+      "conv0_q082": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36174,
+          "completion_tokens": 2000,
+          "total_tokens": 38174
+        },
+        "billed_usage": {
+          "prompt_tokens": 36174,
+          "completion_tokens": 2000,
+          "total_tokens": 38174
+        }
+      },
+      "conv0_q083": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35740,
+          "completion_tokens": 2288,
+          "total_tokens": 38028
+        },
+        "billed_usage": {
+          "prompt_tokens": 35740,
+          "completion_tokens": 2288,
+          "total_tokens": 38028
+        }
+      },
+      "conv0_q084": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35618,
+          "completion_tokens": 4538,
+          "total_tokens": 40156
+        },
+        "billed_usage": {
+          "prompt_tokens": 35618,
+          "completion_tokens": 4538,
+          "total_tokens": 40156
+        }
+      },
+      "conv0_q085": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36723,
+          "completion_tokens": 2822,
+          "total_tokens": 39545
+        },
+        "billed_usage": {
+          "prompt_tokens": 36723,
+          "completion_tokens": 2822,
+          "total_tokens": 39545
+        }
+      },
+      "conv0_q086": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35681,
+          "completion_tokens": 3065,
+          "total_tokens": 38746
+        },
+        "billed_usage": {
+          "prompt_tokens": 35681,
+          "completion_tokens": 3065,
+          "total_tokens": 38746
+        }
+      },
+      "conv0_q087": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31141,
+          "completion_tokens": 4264,
+          "total_tokens": 35405
+        },
+        "billed_usage": {
+          "prompt_tokens": 31141,
+          "completion_tokens": 4264,
+          "total_tokens": 35405
+        }
+      },
+      "conv0_q088": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37519,
+          "completion_tokens": 2485,
+          "total_tokens": 40004
+        },
+        "billed_usage": {
+          "prompt_tokens": 37519,
+          "completion_tokens": 2485,
+          "total_tokens": 40004
+        }
+      },
+      "conv0_q089": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32983,
+          "completion_tokens": 2989,
+          "total_tokens": 35972
+        },
+        "billed_usage": {
+          "prompt_tokens": 32983,
+          "completion_tokens": 2989,
+          "total_tokens": 35972
+        }
+      },
+      "conv0_q090": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38466,
+          "completion_tokens": 2476,
+          "total_tokens": 40942
+        },
+        "billed_usage": {
+          "prompt_tokens": 38466,
+          "completion_tokens": 2476,
+          "total_tokens": 40942
+        }
+      },
+      "conv0_q091": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35886,
+          "completion_tokens": 2349,
+          "total_tokens": 38235
+        },
+        "billed_usage": {
+          "prompt_tokens": 35886,
+          "completion_tokens": 2349,
+          "total_tokens": 38235
+        }
+      },
+      "conv0_q092": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38993,
+          "completion_tokens": 2092,
+          "total_tokens": 41085
+        },
+        "billed_usage": {
+          "prompt_tokens": 38993,
+          "completion_tokens": 2092,
+          "total_tokens": 41085
+        }
+      },
+      "conv0_q093": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37968,
+          "completion_tokens": 2331,
+          "total_tokens": 40299
+        },
+        "billed_usage": {
+          "prompt_tokens": 37968,
+          "completion_tokens": 2331,
+          "total_tokens": 40299
+        }
+      },
+      "conv0_q094": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41366,
+          "completion_tokens": 2489,
+          "total_tokens": 43855
+        },
+        "billed_usage": {
+          "prompt_tokens": 41366,
+          "completion_tokens": 2489,
+          "total_tokens": 43855
+        }
+      },
+      "conv0_q095": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34240,
+          "completion_tokens": 2583,
+          "total_tokens": 36823
+        },
+        "billed_usage": {
+          "prompt_tokens": 34240,
+          "completion_tokens": 2583,
+          "total_tokens": 36823
+        }
+      },
+      "conv0_q096": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39721,
+          "completion_tokens": 4188,
+          "total_tokens": 43909
+        },
+        "billed_usage": {
+          "prompt_tokens": 39721,
+          "completion_tokens": 4188,
+          "total_tokens": 43909
+        }
+      },
+      "conv0_q097": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35600,
+          "completion_tokens": 2811,
+          "total_tokens": 38411
+        },
+        "billed_usage": {
+          "prompt_tokens": 35600,
+          "completion_tokens": 2811,
+          "total_tokens": 38411
+        }
+      },
+      "conv0_q098": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36244,
+          "completion_tokens": 3553,
+          "total_tokens": 39797
+        },
+        "billed_usage": {
+          "prompt_tokens": 36244,
+          "completion_tokens": 3553,
+          "total_tokens": 39797
+        }
+      },
+      "conv0_q099": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36020,
+          "completion_tokens": 3949,
+          "total_tokens": 39969
+        },
+        "billed_usage": {
+          "prompt_tokens": 36020,
+          "completion_tokens": 3949,
+          "total_tokens": 39969
+        }
+      },
+      "conv0_q100": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 63429,
+          "completion_tokens": 5049,
+          "total_tokens": 68478
+        },
+        "billed_usage": {
+          "prompt_tokens": 63429,
+          "completion_tokens": 5049,
+          "total_tokens": 68478
+        }
+      },
+      "conv0_q101": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37796,
+          "completion_tokens": 2243,
+          "total_tokens": 40039
+        },
+        "billed_usage": {
+          "prompt_tokens": 37796,
+          "completion_tokens": 2243,
+          "total_tokens": 40039
+        }
+      },
+      "conv0_q102": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36520,
+          "completion_tokens": 2247,
+          "total_tokens": 38767
+        },
+        "billed_usage": {
+          "prompt_tokens": 36520,
+          "completion_tokens": 2247,
+          "total_tokens": 38767
+        }
+      },
+      "conv0_q103": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36943,
+          "completion_tokens": 2481,
+          "total_tokens": 39424
+        },
+        "billed_usage": {
+          "prompt_tokens": 36943,
+          "completion_tokens": 2481,
+          "total_tokens": 39424
+        }
+      },
+      "conv0_q104": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36403,
+          "completion_tokens": 2445,
+          "total_tokens": 38848
+        },
+        "billed_usage": {
+          "prompt_tokens": 36403,
+          "completion_tokens": 2445,
+          "total_tokens": 38848
+        }
+      },
+      "conv0_q105": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37834,
+          "completion_tokens": 2321,
+          "total_tokens": 40155
+        },
+        "billed_usage": {
+          "prompt_tokens": 37834,
+          "completion_tokens": 2321,
+          "total_tokens": 40155
+        }
+      },
+      "conv0_q106": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38577,
+          "completion_tokens": 2249,
+          "total_tokens": 40826
+        },
+        "billed_usage": {
+          "prompt_tokens": 38577,
+          "completion_tokens": 2249,
+          "total_tokens": 40826
+        }
+      },
+      "conv0_q107": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38103,
+          "completion_tokens": 3970,
+          "total_tokens": 42073
+        },
+        "billed_usage": {
+          "prompt_tokens": 38103,
+          "completion_tokens": 3970,
+          "total_tokens": 42073
+        }
+      },
+      "conv0_q108": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35830,
+          "completion_tokens": 2132,
+          "total_tokens": 37962
+        },
+        "billed_usage": {
+          "prompt_tokens": 35830,
+          "completion_tokens": 2132,
+          "total_tokens": 37962
+        }
+      },
+      "conv0_q109": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37282,
+          "completion_tokens": 2778,
+          "total_tokens": 40060
+        },
+        "billed_usage": {
+          "prompt_tokens": 37282,
+          "completion_tokens": 2778,
+          "total_tokens": 40060
+        }
+      },
+      "conv0_q110": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33269,
+          "completion_tokens": 2785,
+          "total_tokens": 36054
+        },
+        "billed_usage": {
+          "prompt_tokens": 33269,
+          "completion_tokens": 2785,
+          "total_tokens": 36054
+        }
+      },
+      "conv0_q111": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37352,
+          "completion_tokens": 3395,
+          "total_tokens": 40747
+        },
+        "billed_usage": {
+          "prompt_tokens": 37352,
+          "completion_tokens": 3395,
+          "total_tokens": 40747
+        }
+      },
+      "conv0_q112": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41319,
+          "completion_tokens": 2731,
+          "total_tokens": 44050
+        },
+        "billed_usage": {
+          "prompt_tokens": 41319,
+          "completion_tokens": 2731,
+          "total_tokens": 44050
+        }
+      },
+      "conv0_q113": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35674,
+          "completion_tokens": 2486,
+          "total_tokens": 38160
+        },
+        "billed_usage": {
+          "prompt_tokens": 35674,
+          "completion_tokens": 2486,
+          "total_tokens": 38160
+        }
+      },
+      "conv0_q114": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33690,
+          "completion_tokens": 2281,
+          "total_tokens": 35971
+        },
+        "billed_usage": {
+          "prompt_tokens": 33690,
+          "completion_tokens": 2281,
+          "total_tokens": 35971
+        }
+      },
+      "conv0_q115": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38469,
+          "completion_tokens": 3861,
+          "total_tokens": 42330
+        },
+        "billed_usage": {
+          "prompt_tokens": 38469,
+          "completion_tokens": 3861,
+          "total_tokens": 42330
+        }
+      },
+      "conv0_q116": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39749,
+          "completion_tokens": 3763,
+          "total_tokens": 43512
+        },
+        "billed_usage": {
+          "prompt_tokens": 39749,
+          "completion_tokens": 3763,
+          "total_tokens": 43512
+        }
+      },
+      "conv0_q117": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32130,
+          "completion_tokens": 4537,
+          "total_tokens": 36667
+        },
+        "billed_usage": {
+          "prompt_tokens": 32130,
+          "completion_tokens": 4537,
+          "total_tokens": 36667
+        }
+      },
+      "conv0_q118": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34011,
+          "completion_tokens": 2445,
+          "total_tokens": 36456
+        },
+        "billed_usage": {
+          "prompt_tokens": 34011,
+          "completion_tokens": 2445,
+          "total_tokens": 36456
+        }
+      },
+      "conv0_q119": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39797,
+          "completion_tokens": 2489,
+          "total_tokens": 42286
+        },
+        "billed_usage": {
+          "prompt_tokens": 39797,
+          "completion_tokens": 2489,
+          "total_tokens": 42286
+        }
+      },
+      "conv0_q120": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33156,
+          "completion_tokens": 2745,
+          "total_tokens": 35901
+        },
+        "billed_usage": {
+          "prompt_tokens": 33156,
+          "completion_tokens": 2745,
+          "total_tokens": 35901
+        }
+      },
+      "conv0_q121": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34025,
+          "completion_tokens": 1975,
+          "total_tokens": 36000
+        },
+        "billed_usage": {
+          "prompt_tokens": 34025,
+          "completion_tokens": 1975,
+          "total_tokens": 36000
+        }
+      },
+      "conv0_q122": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 36771,
+          "completion_tokens": 4070,
+          "total_tokens": 40841
+        },
+        "billed_usage": {
+          "prompt_tokens": 36771,
+          "completion_tokens": 4070,
+          "total_tokens": 40841
+        }
+      },
+      "conv0_q123": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43324,
+          "completion_tokens": 2598,
+          "total_tokens": 45922
+        },
+        "billed_usage": {
+          "prompt_tokens": 43324,
+          "completion_tokens": 2598,
+          "total_tokens": 45922
+        }
+      },
+      "conv0_q124": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39110,
+          "completion_tokens": 2115,
+          "total_tokens": 41225
+        },
+        "billed_usage": {
+          "prompt_tokens": 39110,
+          "completion_tokens": 2115,
+          "total_tokens": 41225
+        }
+      },
+      "conv0_q125": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36906,
+          "completion_tokens": 2064,
+          "total_tokens": 38970
+        },
+        "billed_usage": {
+          "prompt_tokens": 36906,
+          "completion_tokens": 2064,
+          "total_tokens": 38970
+        }
+      },
+      "conv0_q126": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32426,
+          "completion_tokens": 2841,
+          "total_tokens": 35267
+        },
+        "billed_usage": {
+          "prompt_tokens": 32426,
+          "completion_tokens": 2841,
+          "total_tokens": 35267
+        }
+      },
+      "conv0_q127": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37920,
+          "completion_tokens": 1732,
+          "total_tokens": 39652
+        },
+        "billed_usage": {
+          "prompt_tokens": 37920,
+          "completion_tokens": 1732,
+          "total_tokens": 39652
+        }
+      },
+      "conv0_q128": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35996,
+          "completion_tokens": 2603,
+          "total_tokens": 38599
+        },
+        "billed_usage": {
+          "prompt_tokens": 35996,
+          "completion_tokens": 2603,
+          "total_tokens": 38599
+        }
+      },
+      "conv0_q129": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36575,
+          "completion_tokens": 2330,
+          "total_tokens": 38905
+        },
+        "billed_usage": {
+          "prompt_tokens": 36575,
+          "completion_tokens": 2330,
+          "total_tokens": 38905
+        }
+      },
+      "conv0_q130": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41063,
+          "completion_tokens": 2360,
+          "total_tokens": 43423
+        },
+        "billed_usage": {
+          "prompt_tokens": 41063,
+          "completion_tokens": 2360,
+          "total_tokens": 43423
+        }
+      },
+      "conv0_q131": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35301,
+          "completion_tokens": 2271,
+          "total_tokens": 37572
+        },
+        "billed_usage": {
+          "prompt_tokens": 35301,
+          "completion_tokens": 2271,
+          "total_tokens": 37572
+        }
+      },
+      "conv0_q132": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41154,
+          "completion_tokens": 2903,
+          "total_tokens": 44057
+        },
+        "billed_usage": {
+          "prompt_tokens": 41154,
+          "completion_tokens": 2903,
+          "total_tokens": 44057
+        }
+      },
+      "conv0_q133": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38391,
+          "completion_tokens": 2316,
+          "total_tokens": 40707
+        },
+        "billed_usage": {
+          "prompt_tokens": 38391,
+          "completion_tokens": 2316,
+          "total_tokens": 40707
+        }
+      },
+      "conv0_q134": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32250,
+          "completion_tokens": 3139,
+          "total_tokens": 35389
+        },
+        "billed_usage": {
+          "prompt_tokens": 32250,
+          "completion_tokens": 3139,
+          "total_tokens": 35389
+        }
+      },
+      "conv0_q135": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35017,
+          "completion_tokens": 2825,
+          "total_tokens": 37842
+        },
+        "billed_usage": {
+          "prompt_tokens": 35017,
+          "completion_tokens": 2825,
+          "total_tokens": 37842
+        }
+      },
+      "conv0_q136": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37910,
+          "completion_tokens": 3107,
+          "total_tokens": 41017
+        },
+        "billed_usage": {
+          "prompt_tokens": 37910,
+          "completion_tokens": 3107,
+          "total_tokens": 41017
+        }
+      },
+      "conv0_q137": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37845,
+          "completion_tokens": 2582,
+          "total_tokens": 40427
+        },
+        "billed_usage": {
+          "prompt_tokens": 37845,
+          "completion_tokens": 2582,
+          "total_tokens": 40427
+        }
+      },
+      "conv0_q138": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42737,
+          "completion_tokens": 2199,
+          "total_tokens": 44936
+        },
+        "billed_usage": {
+          "prompt_tokens": 42737,
+          "completion_tokens": 2199,
+          "total_tokens": 44936
+        }
+      },
+      "conv0_q139": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35005,
+          "completion_tokens": 2226,
+          "total_tokens": 37231
+        },
+        "billed_usage": {
+          "prompt_tokens": 35005,
+          "completion_tokens": 2226,
+          "total_tokens": 37231
+        }
+      },
+      "conv0_q140": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40011,
+          "completion_tokens": 2061,
+          "total_tokens": 42072
+        },
+        "billed_usage": {
+          "prompt_tokens": 40011,
+          "completion_tokens": 2061,
+          "total_tokens": 42072
+        }
+      },
+      "conv0_q141": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39710,
+          "completion_tokens": 2535,
+          "total_tokens": 42245
+        },
+        "billed_usage": {
+          "prompt_tokens": 39710,
+          "completion_tokens": 2535,
+          "total_tokens": 42245
+        }
+      },
+      "conv0_q142": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40145,
+          "completion_tokens": 3168,
+          "total_tokens": 43313
+        },
+        "billed_usage": {
+          "prompt_tokens": 40145,
+          "completion_tokens": 3168,
+          "total_tokens": 43313
+        }
+      },
+      "conv0_q143": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34852,
+          "completion_tokens": 2417,
+          "total_tokens": 37269
+        },
+        "billed_usage": {
+          "prompt_tokens": 34852,
+          "completion_tokens": 2417,
+          "total_tokens": 37269
+        }
+      },
+      "conv0_q144": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40201,
+          "completion_tokens": 2787,
+          "total_tokens": 42988
+        },
+        "billed_usage": {
+          "prompt_tokens": 40201,
+          "completion_tokens": 2787,
+          "total_tokens": 42988
+        }
+      },
+      "conv0_q145": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36397,
+          "completion_tokens": 3114,
+          "total_tokens": 39511
+        },
+        "billed_usage": {
+          "prompt_tokens": 36397,
+          "completion_tokens": 3114,
+          "total_tokens": 39511
+        }
+      },
+      "conv0_q146": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41974,
+          "completion_tokens": 3849,
+          "total_tokens": 45823
+        },
+        "billed_usage": {
+          "prompt_tokens": 41974,
+          "completion_tokens": 3849,
+          "total_tokens": 45823
+        }
+      },
+      "conv0_q147": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37382,
+          "completion_tokens": 1964,
+          "total_tokens": 39346
+        },
+        "billed_usage": {
+          "prompt_tokens": 37382,
+          "completion_tokens": 1964,
+          "total_tokens": 39346
+        }
+      },
+      "conv0_q148": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33112,
+          "completion_tokens": 2230,
+          "total_tokens": 35342
+        },
+        "billed_usage": {
+          "prompt_tokens": 33112,
+          "completion_tokens": 2230,
+          "total_tokens": 35342
+        }
+      },
+      "conv0_q149": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36262,
+          "completion_tokens": 3257,
+          "total_tokens": 39519
+        },
+        "billed_usage": {
+          "prompt_tokens": 36262,
+          "completion_tokens": 3257,
+          "total_tokens": 39519
+        }
+      },
+      "conv0_q150": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35076,
+          "completion_tokens": 4055,
+          "total_tokens": 39131
+        },
+        "billed_usage": {
+          "prompt_tokens": 35076,
+          "completion_tokens": 4055,
+          "total_tokens": 39131
+        }
+      },
+      "conv0_q151": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38288,
+          "completion_tokens": 2641,
+          "total_tokens": 40929
+        },
+        "billed_usage": {
+          "prompt_tokens": 38288,
+          "completion_tokens": 2641,
+          "total_tokens": 40929
+        }
+      }
+    }
+  }
+}

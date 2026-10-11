@@ -1,0 +1,227 @@
+{
+  "uid": "2b8f3739",
+  "num_sessions": 47,
+  "answers": {
+    "2b8f3739": {
+      "response": "Based on your current records, you earned $150 from selling your products at the markets (20 herb plants × $7.5 each).",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 190.1
+    }
+  },
+  "profile_snapshot_size": 92272,
+  "elapsed_seconds": 6655.6,
+  "usage_summary": {
+    "total_calls": 696,
+    "cache_hits": 1,
+    "cache_misses": 695,
+    "logical_usage": {
+      "prompt_tokens": 1769437,
+      "completion_tokens": 340414,
+      "total_tokens": 2109851
+    },
+    "billed_usage": {
+      "prompt_tokens": 1767336,
+      "completion_tokens": 339356,
+      "total_tokens": 2106692
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 47,
+        "cache_hits": 1,
+        "cache_misses": 46,
+        "logical_usage": {
+          "prompt_tokens": 95793,
+          "completion_tokens": 38913,
+          "total_tokens": 134706
+        },
+        "billed_usage": {
+          "prompt_tokens": 93692,
+          "completion_tokens": 37855,
+          "total_tokens": 131547
+        }
+      },
+      "delta_extractor": {
+        "calls": 41,
+        "cache_hits": 0,
+        "cache_misses": 41,
+        "logical_usage": {
+          "prompt_tokens": 157888,
+          "completion_tokens": 22431,
+          "total_tokens": 180319
+        },
+        "billed_usage": {
+          "prompt_tokens": 157888,
+          "completion_tokens": 22431,
+          "total_tokens": 180319
+        }
+      },
+      "update_judge": {
+        "calls": 73,
+        "cache_hits": 0,
+        "cache_misses": 73,
+        "logical_usage": {
+          "prompt_tokens": 249664,
+          "completion_tokens": 21401,
+          "total_tokens": 271065
+        },
+        "billed_usage": {
+          "prompt_tokens": 249664,
+          "completion_tokens": 21401,
+          "total_tokens": 271065
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 66181,
+          "completion_tokens": 26413,
+          "total_tokens": 92594
+        },
+        "billed_usage": {
+          "prompt_tokens": 66181,
+          "completion_tokens": 26413,
+          "total_tokens": 92594
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 173,
+        "cache_hits": 0,
+        "cache_misses": 173,
+        "logical_usage": {
+          "prompt_tokens": 662565,
+          "completion_tokens": 114429,
+          "total_tokens": 776994
+        },
+        "billed_usage": {
+          "prompt_tokens": 662565,
+          "completion_tokens": 114429,
+          "total_tokens": 776994
+        }
+      },
+      "invalidation_judge": {
+        "calls": 62,
+        "cache_hits": 0,
+        "cache_misses": 62,
+        "logical_usage": {
+          "prompt_tokens": 250331,
+          "completion_tokens": 33162,
+          "total_tokens": 283493
+        },
+        "billed_usage": {
+          "prompt_tokens": 250331,
+          "completion_tokens": 33162,
+          "total_tokens": 283493
+        }
+      },
+      "stale_support_judge": {
+        "calls": 257,
+        "cache_hits": 0,
+        "cache_misses": 257,
+        "logical_usage": {
+          "prompt_tokens": 245786,
+          "completion_tokens": 78508,
+          "total_tokens": 324294
+        },
+        "billed_usage": {
+          "prompt_tokens": 245786,
+          "completion_tokens": 78508,
+          "total_tokens": 324294
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1484,
+          "completion_tokens": 1143,
+          "total_tokens": 2627
+        },
+        "billed_usage": {
+          "prompt_tokens": 1484,
+          "completion_tokens": 1143,
+          "total_tokens": 2627
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 15355,
+          "completion_tokens": 1348,
+          "total_tokens": 16703
+        },
+        "billed_usage": {
+          "prompt_tokens": 15355,
+          "completion_tokens": 1348,
+          "total_tokens": 16703
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 20452,
+          "completion_tokens": 1225,
+          "total_tokens": 21677
+        },
+        "billed_usage": {
+          "prompt_tokens": 20452,
+          "completion_tokens": 1225,
+          "total_tokens": 21677
+        }
+      },
+      "query_lane_filter": {
+        "calls": 2,
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 2480,
+          "completion_tokens": 1204,
+          "total_tokens": 3684
+        },
+        "billed_usage": {
+          "prompt_tokens": 2480,
+          "completion_tokens": 1204,
+          "total_tokens": 3684
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1458,
+          "completion_tokens": 237,
+          "total_tokens": 1695
+        },
+        "billed_usage": {
+          "prompt_tokens": 1458,
+          "completion_tokens": 237,
+          "total_tokens": 1695
+        }
+      }
+    },
+    "by_query_label": {
+      "2b8f3739": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38749,
+          "completion_tokens": 3953,
+          "total_tokens": 42702
+        },
+        "billed_usage": {
+          "prompt_tokens": 38749,
+          "completion_tokens": 3953,
+          "total_tokens": 42702
+        }
+      }
+    }
+  }
+}

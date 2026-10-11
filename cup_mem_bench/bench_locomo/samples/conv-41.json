@@ -1,0 +1,2827 @@
+{
+  "uid": "conv-41",
+  "num_sessions": 32,
+  "answers": {
+    "conv2_q000": {
+      "response": "I don’t have any information about who Maria had dinner with on May 3, 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 107.2
+    },
+    "conv2_q001": {
+      "response": "There is no available information about when Maria donated her car.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.3
+    },
+    "conv2_q002": {
+      "response": "I don't have current information on which martial arts John has practiced.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 105.5
+    },
+    "conv2_q003": {
+      "response": "There’s no current information confirming a volunteering activity that both John and Maria have done together.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 120.0
+    },
+    "conv2_q004": {
+      "response": "We have no current information that John is a member of an online support group, so we can’t provide a joining date. The only active fact shows he is a member of the organization mentioned in the conversation.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 198.4
+    },
+    "conv2_q005": {
+      "response": "There is no available information confirming that Maria went to the beach, so I cannot determine when it might have happened.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 126.2
+    },
+    "conv2_q006": {
+      "response": "The previous information about where Maria made friends is outdated, and there’s no current data indicating specific places where she has formed friendships.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 122.8
+    },
+    "conv2_q007": {
+      "response": "I don’t have any information about the items John mentioned having as a child.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 147.8
+    },
+    "conv2_q008": {
+      "response": "John is currently experiencing financial strain because of car repair costs.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 125.1
+    },
+    "conv2_q009": {
+      "response": "I’m sorry, but there’s no information available about who, if anyone, gave money to Maria’s family during her youth.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 160.5
+    },
+    "conv2_q010": {
+      "response": "There’s no available information confirming that Maria and Jean ever met, so I can’t provide a date for a meeting.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.4
+    },
+    "conv2_q011": {
+      "response": "I don’t have current information about Maria’s volunteering encounters, so I can’t list the people she has met and helped.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 67.3
+    },
+    "conv2_q012": {
+      "response": "I don’t have enough information to say which test John has taken multiple times.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 89.9
+    },
+    "conv2_q013": {
+      "response": "Maria's grandmother passed away last week.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 103.6
+    },
+    "conv2_q014": {
+      "response": "There isn’t enough current information to determine whether John is patriotic; none of the available facts explicitly state his patriotic values or identity.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 146.1
+    },
+    "conv2_q015": {
+      "response": "I don’t have any information about which writing classes Maria has taken.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 160.3
+    },
+    "conv2_q016": {
+      "response": "I don’t have information about when John earned his degree.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 155.7
+    },
+    "conv2_q017": {
+      "response": "We have no current evidence that John holds a degree, so we can’t infer its field of study.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 94.2
+    },
+    "conv2_q018": {
+      "response": "I don’t have current information about who John went to yoga with.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 141.9
+    },
+    "conv2_q019": {
+      "response": "The available information does not specify what damage has occurred to John’s car. The only current fact is that he is experiencing financial strain due to car repair costs, which indicates that some damage exists but the details are unknown.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 127.6
+    },
+    "conv2_q020": {
+      "response": "I don’t have any information about when (or even if) John took a road trip to the Pacific Northwest, so the date can’t be provided.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 111.4
+    },
+    "conv2_q021": {
+      "response": "I’m sorry, I don’t have any information about which areas of the United States John has visited or plans to visit.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 193.8
+    },
+    "conv2_q022": {
+      "response": "I don’t have any confirmed information that John attended a convention with his colleagues, so I can’t provide a date for that event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 148.5
+    },
+    "conv2_q023": {
+      "response": "I don’t have any information about desserts that Maria has made.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 129.3
+    },
+    "conv2_q024": {
+      "response": "I don’t have a reliable date for when John started boot camp with his family, as the premise that they attended together isn’t confirmed by current information.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 126.1
+    },
+    "conv2_q025": {
+      "response": "I don’t have any information about which European countries Maria has visited, so I can’t provide a list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 119.7
+    },
+    "conv2_q026": {
+      "response": "I’m sorry, but I don’t have any information about Maria’s actions related to her faith, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 181.7
+    },
+    "conv2_q027": {
+      "response": "There is no available information confirming that John ever hosted a party with veterans, so I cannot provide a date for such an event.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.8
+    },
+    "conv2_q028": {
+      "response": "John is passionate about supporting causes that involve helping people.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 163.7
+    },
+    "conv2_q029": {
+      "response": "I don’t have any current information about events Maria is planning for the homeless shelter fundraiser.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 285.0
+    },
+    "conv2_q030": {
+      "response": "Maria volunteers at a homeless shelter.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 68.8
+    },
+    "conv2_q031": {
+      "response": "I don’t have any current information about John owning a dog named Max, so I can’t provide a date when he might have gotten Max.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 106.1
+    },
+    "conv2_q032": {
+      "response": "John has taken part in fire‑fighting brigade activities with his colleagues.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 95.8
+    },
+    "conv2_q033": {
+      "response": "I don’t have current information about the specific yoga styles Maria practices; the only up‑to‑date detail is that she frequently attends a yoga studio.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 182.0
+    },
+    "conv2_q034": {
+      "response": "I don’t have any record of when Maria joined a gym. Could you provide more details or clarify which Maria you’re referring to?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 109.8
+    },
+    "conv2_q035": {
+      "response": "I don’t have any information about which U.S. states Maria has vacationed in.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.9
+    },
+    "conv2_q036": {
+      "response": "I don’t have any current information about music events John has attended, so I can’t provide a list.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 69.5
+    },
+    "conv2_q037": {
+      "response": "There’s no information about specific veteran events John has taken part in. What is known is that he is currently busy on a project supporting military veterans and is recruiting family and friends for a virtual military‑advocacy support group.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 117.7
+    },
+    "conv2_q038": {
+      "response": "There is no confirmed information about Maria being involved in a car accident, so a date cannot be provided.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 63.4
+    },
+    "conv2_q039": {
+      "response": "I don’t have information about which US holiday it was around the time Maria’s accident occurred.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 94.9
+    },
+    "conv2_q040": {
+      "response": "I don’t have enough information to determine the names of John’s children.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 76.7
+    },
+    "conv2_q041": {
+      "response": "I don’t have any information about John’s location, so I can’t determine whether he lives close to a beach or the mountains.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 93.0
+    },
+    "conv2_q042": {
+      "response": "Your former area was hit by a flood last week.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 59.2
+    },
+    "conv2_q043": {
+      "response": "John's old area was flooded last week.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 52.0
+    },
+    "conv2_q044": {
+      "response": "There is no current information available about any activities Maria has done with her church friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 95.5
+    },
+    "conv2_q045": {
+      "response": "I don’t have enough information to determine whether John would be open to moving to another country.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.1
+    },
+    "conv2_q046": {
+      "response": "I’m not aware of any information about when Maria went hiking with her church friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 59.0
+    },
+    "conv2_q047": {
+      "response": "I don’t have any current information about John’s exercise history, so I can’t tell which exercises he has done.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 154.9
+    },
+    "conv2_q048": {
+      "response": "I don’t have information on when John’s first firefighter call‑out occurred.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.8
+    },
+    "conv2_q049": {
+      "response": "I don’t have current information about what food item Maria may have dropped off at the homeless shelter.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 143.2
+    },
+    "conv2_q050": {
+      "response": "John is a recent graduate, part of the fire‑fighting brigade, belongs to a social group that feels like a supportive family, and values family, exercise, and spending time with friends.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 101.3
+    },
+    "conv2_q051": {
+      "response": "The available information confirms that Maria is currently volunteering at the homeless shelter, but it does not specify when she began.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 87.3
+    },
+    "conv2_q052": {
+      "response": "I have no evidence that Maria has received any notes of gratitude, so I can’t identify who might have written them.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 48.9
+    },
+    "conv2_q053": {
+      "response": "I don’t have any information about when John helped renovate his hometown community center, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 137.5
+    },
+    "conv2_q054": {
+      "response": "There is no current information about when Maria began community work with her church friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.2
+    },
+    "conv2_q055": {
+      "response": "The records confirm that Maria has a medal from the homeless shelter, but they do not state when she received it.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 68.0
+    },
+    "conv2_q056": {
+      "response": "I don’t have any confirmed information about John’s participation in a 5 K charity run, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 83.2
+    },
+    "conv2_q057": {
+      "response": "I don’t have any information about causes John has organized events for.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 158.2
+    },
+    "conv2_q058": {
+      "response": "I don't have a reliable date for when Maria got Coco; the prior information about her caring for a puppy named Coco is outdated and doesn't provide a confirmed acquisition date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 201.0
+    },
+    "conv2_q059": {
+      "response": "I don’t have information about when John went on a camping trip with Max.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 76.9
+    },
+    "conv2_q060": {
+      "response": "I’m sorry, but I don’t have any information about Maria’s dogs, so I can’t provide their names.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 205.5
+    },
+    "conv2_q061": {
+      "response": "I don’t have any information about when Maria adopted Shadow.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 184.6
+    },
+    "conv2_q062": {
+      "response": "There’s no information confirming that Maria has adopted any dogs, so the number cannot be determined.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.1
+    },
+    "conv2_q063": {
+      "response": "I don’t have current information on when Maria adopted Coco or Shadow, so I can’t calculate the number of weeks between the adoptions.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 72.5
+    },
+    "conv2_q064": {
+      "response": "Given Maria’s values—family, exercise, and time with friends—and her short‑term goal to make a positive impact, a likely future job would be in a role that combines physical activity with community service, such as a firefighter/EMT, a community health worker, a fitness coach who works with underserved groups, or a social services position focused on outreach.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 92.5
+    },
+    "conv2_q065": {
+      "response": "John’s main focus in local politics is blogging about politics and government.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 67.8
+    },
+    "conv2_q066": {
+      "response": "The earlier assumption about John’s motivations is outdated. His current volunteering as a mentor for a local school has sparked his interest in improving education and related infrastructure in the community.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 239.4
+    },
+    "conv2_q067": {
+      "response": "I don’t have confirmed information that extra funding was provided to the school, so I can’t say how it may have helped.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.5
+    },
+    "conv2_q068": {
+      "response": "There’s no available information about what type of workout class Maria started in December 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 113.0
+    },
+    "conv2_q069": {
+      "response": "I don’t have any current information about what Maria donated to a homeless shelter in December 2023, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 76.2
+    },
+    "conv2_q070": {
+      "response": "I don’t have any confirmed information about a photo John shared, so I can’t identify what meal was shown.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.9
+    },
+    "conv2_q071": {
+      "response": "John is involved in a virtual military‑advocacy support group.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 90.5
+    },
+    "conv2_q072": {
+      "response": "The earlier assumption that John and his mates from the online group performed service activities is no longer supported. Based on your current activities, John is mentoring at a local school, recruiting family and friends for a virtual military‑advocacy support group, working on a project to support military veterans, serving as part of a fire‑fighting brigade, and helping spread the word about a shelter fundraiser.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 188.7
+    },
+    "conv2_q073": {
+      "response": "The previous claim that a friend inspired Maria is no longer supported; the only current information is that she is volunteering as a mentor for a local school, and we have no data about who inspired her to start volunteering.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 200.0
+    },
+    "conv2_q074": {
+      "response": "I don’t have evidence that Maria actually sat with the little girl at the shelter event in February 2023, so I can’t explain why she might have done so.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 94.5
+    },
+    "conv2_q075": {
+      "response": "There’s no current information about Jean’s experiences before meeting Maria, so the question cannot be answered.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 133.3
+    },
+    "conv2_q076": {
+      "response": "I don’t have any current information about John deciding to run for office again—the premise is outdated. The only confirmed fact is that you are blogging about politics and government.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 168.5
+    },
+    "conv2_q077": {
+      "response": "I don’t have enough information to determine what activity Rob invited John to.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.2
+    },
+    "conv2_q078": {
+      "response": "I’m sorry, but I don’t have any current information about John’s one‑year‑old child, so I can’t provide a name.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 119.8
+    },
+    "conv2_q079": {
+      "response": "I don’t have enough information to determine how often John takes his kids to the park.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.1
+    },
+    "conv2_q080": {
+      "response": "I’m sorry, but I don’t have information about what Maria made for her home as a reminder of a trip to England.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 59.0
+    },
+    "conv2_q081": {
+      "response": "I don’t have any information about where Maria got the idea for her castle shadow box; the premise is unresolved.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.9
+    },
+    "conv2_q082": {
+      "response": "I have no evidence that John received a certificate, so I can’t say what it was for.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 84.3
+    },
+    "conv2_q083": {
+      "response": "There’s no current information about John’s specific policy interests, so his areas of interest in policymaking cannot be identified at this time.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 115.0
+    },
+    "conv2_q084": {
+      "response": "I don’t have any current information about what Maria participated in on the weekend of April 8‑9 2023, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 104.4
+    },
+    "conv2_q085": {
+      "response": "I don’t have any information about an event that John volunteered at last weekend.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.6
+    },
+    "conv2_q086": {
+      "response": "The premise that John performed a specific action causing his wallet strain isn’t confirmed, but current information shows he’s under financial pressure because his car broke down and he now faces costly repairs.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 105.4
+    },
+    "conv2_q087": {
+      "response": "I don’t have information about where John explored on a road trip last year.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 89.0
+    },
+    "conv2_q088": {
+      "response": "John has been blogging about politics and government.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 45.7
+    },
+    "conv2_q089": {
+      "response": "We don’t have a reliable explanation for why John began blogging about politics and policies—the earlier premise is outdated. The current information indicates he hopes to get into local politics and is looking for a clearer short‑term way to positively impact people and the world.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 122.4
+    },
+    "conv2_q090": {
+      "response": "The only confirmed current focus of John's blog is politics and government; there’s no available evidence about any recent research he may have done.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 66.7
+    },
+    "conv2_q091": {
+      "response": "There is no current information confirming that John attended any event with his colleagues in March 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 142.2
+    },
+    "conv2_q092": {
+      "response": "The premise that John regularly works out with his family is no longer supported; the only current information is that the user is attending boot camps with family, and there’s no data on how frequently this occurs.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 156.6
+    },
+    "conv2_q093": {
+      "response": "The earlier boot‑camp sessions are no longer confirmed, and there’s no current health or fitness data for John, so his fitness improvement can’t be assessed at this time. You’ll need up‑to‑date health information to evaluate any changes.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 97.1
+    },
+    "conv2_q094": {
+      "response": "I’m sorry, but I don’t have any information about what food Maria had during her dinner with her mother.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 121.5
+    },
+    "conv2_q095": {
+      "response": "I don’t have information about any specific activity that Maria and her mom did together in May 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 160.8
+    },
+    "conv2_q096": {
+      "response": "The current information shows that Maria is actively involved in her community as a member of a fire‑fighting brigade and as a mentor for a local school. There is no active evidence of any faith‑related activities, so we cannot say what she does to feel closer to her faith.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 176.1
+    },
+    "conv2_q097": {
+      "response": "There’s no current information confirming that Maria joined a nearby church, so I can’t provide a reason for that action.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 175.7
+    },
+    "conv2_q098": {
+      "response": "I don’t have information about what John hosted for the veterans in May 2023; the current data only shows that John is presently busy working on a project supporting military veterans.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 60.7
+    },
+    "conv2_q099": {
+      "response": "I’m sorry, but I don’t have any information about what John and the veterans did during a small party.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.7
+    },
+    "conv2_q100": {
+      "response": "There’s no current evidence about which emotions John experienced at the small party with the veterans; the only available information is that he is feeling stressed in general.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 80.0
+    },
+    "conv2_q101": {
+      "response": "I don't have any current information about an event involving Maria on May 25 2023; the only up‑to‑date detail is that you are planning a ring‑toss tournament fundraiser for the shelter later this month.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 246.7
+    },
+    "conv2_q102": {
+      "response": "The assumption that Maria must spread the word about a specific topic for a volunteer‑shelter fundraiser is no longer valid—there’s no current information about any particular message to promote. The only confirmed activity is that she is volunteering at a homeless shelter.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 320.8
+    },
+    "conv2_q103": {
+      "response": "I’m sorry, but there’s no current information confirming that John said goodbye to a pet on 3 June 2023, so I can’t provide the pet’s name.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 123.4
+    },
+    "conv2_q104": {
+      "response": "I don’t have enough information to determine how long Max was part of John’s family.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 63.2
+    },
+    "conv2_q105": {
+      "response": "There’s no current information about how John plans to honor his pet’s memory; his present focus is considering adopting a rescue dog.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 251.5
+    },
+    "conv2_q106": {
+      "response": "Current information does not specify which values John intends to teach his kids through the rescue‑dog adoption, so that premise cannot be answered.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 155.6
+    },
+    "conv2_q107": {
+      "response": "The June 3 reference isn’t confirmed, but current information shows Maria has recently started aerial yoga.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.1
+    },
+    "conv2_q108": {
+      "response": "I don’t have any information about what Maria said regarding the waterfall in Oregon, so I can’t provide that description.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.8
+    },
+    "conv2_q109": {
+      "response": "There’s no current information on what Maria says she feels during upside‑down yoga poses; the only up‑to‑date detail is that she enjoys doing upside‑down aerial yoga.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 162.2
+    },
+    "conv2_q110": {
+      "response": "I don’t have any information about news Maria shared on 16 June 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 50.8
+    },
+    "conv2_q111": {
+      "response": "The earlier premise that Maria was using a specific yoga activity (such as kundalini yoga) to build strength and endurance is no longer valid—joining the fire‑fighting brigade now makes regular practice of that yoga infeasible. Current information only notes that she frequently attends a yoga studio, but does not specify which activity she is using for strength or endurance. Therefore, there is no up‑to‑date yoga activity to report for that goal.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 118.7
+    },
+    "conv2_q112": {
+      "response": "I don’t have information about a recent promotion for John. The only current detail is that he is part of the fire‑fighting brigade, and no promotion title is available.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 86.2
+    },
+    "conv2_q113": {
+      "response": "I don’t have reliable information about John’s path to becoming assistant manager, so I can’t identify a specific challenge he faced.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 107.3
+    },
+    "conv2_q114": {
+      "response": "I’m sorry, but I don’t have any current information about how John described the support he received while becoming an assistant manager, so I can’t provide that description.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.6
+    },
+    "conv2_q115": {
+      "response": "There’s no current information confirming that John and his family attended any event in June 2023, so the kind of event cannot be identified.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 118.0
+    },
+    "conv2_q116": {
+      "response": "Maria needed to help her cousin find a new place because their former area was flooded last week, destroying many homes and leaving her cousin without safe housing.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 77.7
+    },
+    "conv2_q117": {
+      "response": "There’s no confirmed event that John attended to show support for veterans’ rights; current information only indicates he’s busy working on a project to support military veterans and recruiting friends to a virtual advocacy group.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.9
+    },
+    "conv2_q118": {
+      "response": "John’s current involvement in veteran‑support activities – his work on a project that assists military veterans, his participation in a fire‑fighting brigade that backs veteran causes, and his effort to recruit family and friends into a virtual military‑advocacy support group – appears to be what motivated him to join the veterans’ rights march.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 106.6
+    },
+    "conv2_q119": {
+      "response": "I don’t have current information about John’s ability to see sunsets like the one he shared with Maria, so I can’t determine how often he experiences them.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 114.1
+    },
+    "conv2_q120": {
+      "response": "A flood affected John's former area on 7 July 2023.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 50.7
+    },
+    "conv2_q121": {
+      "response": "The flood ruined many homes in John's former area.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 49.5
+    },
+    "conv2_q122": {
+      "response": "The earlier premise that they met to discuss a flood is no longer valid; according to current information, Maria and John were motivated by their desire to get into local politics.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 143.3
+    },
+    "conv2_q123": {
+      "response": "I’m not able to determine what Maria planned to do later on the evening of 7 July 2023, as there is no available information on that detail.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 107.3
+    },
+    "conv2_q124": {
+      "response": "I don’t have any information about what activities Maria did at the picnic with her church friends, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 108.1
+    },
+    "conv2_q125": {
+      "response": "I don’t have current information about what John appreciates about the veteran’s hospital visit.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 103.0
+    },
+    "conv2_q126": {
+      "response": "Based on the current information, John appears to have taken away a heightened commitment to help veterans, as indicated by his work on a veteran‑support project and recruiting people for a virtual military‑advocacy group.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 99.9
+    },
+    "conv2_q127": {
+      "response": "I don’t have enough information to explain why John might have felt inspired to join the military after a hospital visit, as there are no current facts about his visit, feelings, or intentions.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 98.3
+    },
+    "conv2_q128": {
+      "response": "I don’t have information about any activity that Maria and her church friends participated in during July 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 82.8
+    },
+    "conv2_q129": {
+      "response": "The only up‑to‑date information is that John has recently started aerial yoga, which shows he is trying a new class at the studio. There’s no explicit current statement of his personal opinion about trying new classes.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 134.0
+    },
+    "conv2_q130": {
+      "response": "There’s no information available about any activity John has done at the studio other than yoga.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 77.6
+    },
+    "conv2_q131": {
+      "response": "I don’t have any record of a community‑service activity that Maria mentioned for 31 July 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 75.6
+    },
+    "conv2_q132": {
+      "response": "I’m sorry, but I don’t have current information on how Maria began volunteering at the homeless shelter.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 58.8
+    },
+    "conv2_q133": {
+      "response": "I don’t have any current information about what John did with his kids during the week of July 27‑31 2023, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 160.1
+    },
+    "conv2_q134": {
+      "response": "I don’t have any current information about how John described his kids’ reaction at the military memorial, so I can’t provide that detail.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.8
+    },
+    "conv2_q135": {
+      "response": "I don’t have any information about Maria’s views, so I can’t explain why she might think younger generations should visit military memorials.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 104.8
+    },
+    "conv2_q136": {
+      "response": "There’s no current information about John’s belief regarding what is important for children concerning veterans; his present focus is on a project supporting military veterans and recruiting people for a virtual military‑advocacy group.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 87.2
+    },
+    "conv2_q137": {
+      "response": "John lost his job at the mechanical engineering company and is now unemployed; the earlier assumption that he was employed is no longer valid.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 62.9
+    },
+    "conv2_q138": {
+      "response": "The current information indicates that Maria and her church friends have recently started aerial yoga.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 132.6
+    },
+    "conv2_q139": {
+      "response": "I don’t have information about John’s specific community‑help actions last year.  Currently, he is a member of the fire‑fighting brigade and volunteers as a mentor for a local school.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 143.0
+    },
+    "conv2_q140": {
+      "response": "I’m not able to determine what cause the 5K charity run organized by John supported, as there’s no available information confirming the event or its purpose.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.0
+    },
+    "conv2_q141": {
+      "response": "I’m sorry, I don’t have information about who John worked with to raise awareness and funds for victims of domestic abuse.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.2
+    },
+    "conv2_q142": {
+      "response": "Maria received a medal from the homeless shelter in August 2023.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 78.8
+    },
+    "conv2_q143": {
+      "response": "I don’t have current information about the name of Maria’s puppy or when she acquired it, so I can’t answer that question.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 184.2
+    },
+    "conv2_q144": {
+      "response": "I don’t have information about a specific activity John and Max enjoyed together last summer; the only current fact is that they enjoy aerial yoga.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 118.8
+    },
+    "conv2_q145": {
+      "response": "I’m sorry, but there’s no available information about how John described the camping trip with Max.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 94.1
+    },
+    "conv2_q146": {
+      "response": "The claim that John feels stuck and is questioning his decisions is outdated—current information shows he is actively pursuing clearer short‑term impact, volunteering as a mentor, and taking on new commitments, so he is not presently described as feeling stuck.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 101.0
+    },
+    "conv2_q147": {
+      "response": "I don’t have current information confirming that Maria has a second puppy, so I can’t provide a name.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 98.7
+    },
+    "conv2_q148": {
+      "response": "I don’t have any current information about Maria’s puppy or how it’s adjusting to a new home, so I can’t answer that question.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 209.1
+    },
+    "conv2_q149": {
+      "response": "John is currently volunteering as a mentor for a local school and also volunteering at a homeless shelter.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 147.5
+    },
+    "conv2_q150": {
+      "response": "I don’t have current details on specific activities that John’s family does together. The only up‑to‑date information is that they value family, exercise, and spending time with friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 165.7
+    },
+    "conv2_q151": {
+      "response": "I don’t have any information indicating that donations helped John’s community acquire anything on 16 August 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.6
+    }
+  },
+  "profile_snapshot_size": 103214,
+  "elapsed_seconds": 19730.5,
+  "usage_summary": {
+    "total_calls": 1536,
+    "cache_hits": 212,
+    "cache_misses": 1324,
+    "logical_usage": {
+      "prompt_tokens": 7029992,
+      "completion_tokens": 974995,
+      "total_tokens": 8004987
+    },
+    "billed_usage": {
+      "prompt_tokens": 6719820,
+      "completion_tokens": 846416,
+      "total_tokens": 7566236
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 33,
+        "cache_hits": 33,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 91244,
+          "completion_tokens": 28705,
+          "total_tokens": 119949
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "delta_extractor": {
+        "calls": 32,
+        "cache_hits": 13,
+        "cache_misses": 19,
+        "logical_usage": {
+          "prompt_tokens": 91192,
+          "completion_tokens": 18403,
+          "total_tokens": 109595
+        },
+        "billed_usage": {
+          "prompt_tokens": 71356,
+          "completion_tokens": 11447,
+          "total_tokens": 82803
+        }
+      },
+      "update_judge": {
+        "calls": 63,
+        "cache_hits": 10,
+        "cache_misses": 53,
+        "logical_usage": {
+          "prompt_tokens": 151152,
+          "completion_tokens": 19195,
+          "total_tokens": 170347
+        },
+        "billed_usage": {
+          "prompt_tokens": 138390,
+          "completion_tokens": 17198,
+          "total_tokens": 155588
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 32,
+        "cache_hits": 9,
+        "cache_misses": 23,
+        "logical_usage": {
+          "prompt_tokens": 56662,
+          "completion_tokens": 22411,
+          "total_tokens": 79073
+        },
+        "billed_usage": {
+          "prompt_tokens": 40720,
+          "completion_tokens": 15763,
+          "total_tokens": 56483
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 181,
+        "cache_hits": 0,
+        "cache_misses": 181,
+        "logical_usage": {
+          "prompt_tokens": 600344,
+          "completion_tokens": 134531,
+          "total_tokens": 734875
+        },
+        "billed_usage": {
+          "prompt_tokens": 600344,
+          "completion_tokens": 134531,
+          "total_tokens": 734875
+        }
+      },
+      "invalidation_judge": {
+        "calls": 62,
+        "cache_hits": 0,
+        "cache_misses": 62,
+        "logical_usage": {
+          "prompt_tokens": 193557,
+          "completion_tokens": 33024,
+          "total_tokens": 226581
+        },
+        "billed_usage": {
+          "prompt_tokens": 193557,
+          "completion_tokens": 33024,
+          "total_tokens": 226581
+        }
+      },
+      "stale_support_judge": {
+        "calls": 218,
+        "cache_hits": 0,
+        "cache_misses": 218,
+        "logical_usage": {
+          "prompt_tokens": 221630,
+          "completion_tokens": 71241,
+          "total_tokens": 292871
+        },
+        "billed_usage": {
+          "prompt_tokens": 221630,
+          "completion_tokens": 71241,
+          "total_tokens": 292871
+        }
+      },
+      "query_parser": {
+        "calls": 123,
+        "cache_hits": 1,
+        "cache_misses": 122,
+        "logical_usage": {
+          "prompt_tokens": 179761,
+          "completion_tokens": 104950,
+          "total_tokens": 284711
+        },
+        "billed_usage": {
+          "prompt_tokens": 178300,
+          "completion_tokens": 103542,
+          "total_tokens": 281842
+        }
+      },
+      "premise_verifier": {
+        "calls": 123,
+        "cache_hits": 0,
+        "cache_misses": 123,
+        "logical_usage": {
+          "prompt_tokens": 2108412,
+          "completion_tokens": 130908,
+          "total_tokens": 2239320
+        },
+        "billed_usage": {
+          "prompt_tokens": 2108412,
+          "completion_tokens": 130908,
+          "total_tokens": 2239320
+        }
+      },
+      "query_lane_filter": {
+        "calls": 420,
+        "cache_hits": 146,
+        "cache_misses": 274,
+        "logical_usage": {
+          "prompt_tokens": 490735,
+          "completion_tokens": 252161,
+          "total_tokens": 742896
+        },
+        "billed_usage": {
+          "prompt_tokens": 321808,
+          "completion_tokens": 169296,
+          "total_tokens": 491104
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 122,
+        "cache_hits": 0,
+        "cache_misses": 122,
+        "logical_usage": {
+          "prompt_tokens": 2661224,
+          "completion_tokens": 128656,
+          "total_tokens": 2789880
+        },
+        "billed_usage": {
+          "prompt_tokens": 2661224,
+          "completion_tokens": 128656,
+          "total_tokens": 2789880
+        }
+      },
+      "answer_composer": {
+        "calls": 123,
+        "cache_hits": 0,
+        "cache_misses": 123,
+        "logical_usage": {
+          "prompt_tokens": 175004,
+          "completion_tokens": 27990,
+          "total_tokens": 202994
+        },
+        "billed_usage": {
+          "prompt_tokens": 175004,
+          "completion_tokens": 27990,
+          "total_tokens": 202994
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 9075,
+          "completion_tokens": 2820,
+          "total_tokens": 11895
+        },
+        "billed_usage": {
+          "prompt_tokens": 9075,
+          "completion_tokens": 2820,
+          "total_tokens": 11895
+        }
+      }
+    },
+    "by_query_label": {
+      "conv2_q029": {
+        "calls": 4,
+        "cache_hits": 1,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 47674,
+          "completion_tokens": 4505,
+          "total_tokens": 52179
+        },
+        "billed_usage": {
+          "prompt_tokens": 46213,
+          "completion_tokens": 3097,
+          "total_tokens": 49310
+        }
+      },
+      "conv2_q030": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 48591,
+          "completion_tokens": 3567,
+          "total_tokens": 52158
+        },
+        "billed_usage": {
+          "prompt_tokens": 48591,
+          "completion_tokens": 3567,
+          "total_tokens": 52158
+        }
+      },
+      "conv2_q031": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38070,
+          "completion_tokens": 2356,
+          "total_tokens": 40426
+        },
+        "billed_usage": {
+          "prompt_tokens": 38070,
+          "completion_tokens": 2356,
+          "total_tokens": 40426
+        }
+      },
+      "conv2_q032": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43170,
+          "completion_tokens": 3488,
+          "total_tokens": 46658
+        },
+        "billed_usage": {
+          "prompt_tokens": 43170,
+          "completion_tokens": 3488,
+          "total_tokens": 46658
+        }
+      },
+      "conv2_q033": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46998,
+          "completion_tokens": 3796,
+          "total_tokens": 50794
+        },
+        "billed_usage": {
+          "prompt_tokens": 46998,
+          "completion_tokens": 3796,
+          "total_tokens": 50794
+        }
+      },
+      "conv2_q034": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45681,
+          "completion_tokens": 1954,
+          "total_tokens": 47635
+        },
+        "billed_usage": {
+          "prompt_tokens": 45681,
+          "completion_tokens": 1954,
+          "total_tokens": 47635
+        }
+      },
+      "conv2_q035": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33536,
+          "completion_tokens": 2528,
+          "total_tokens": 36064
+        },
+        "billed_usage": {
+          "prompt_tokens": 33536,
+          "completion_tokens": 2528,
+          "total_tokens": 36064
+        }
+      },
+      "conv2_q036": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40816,
+          "completion_tokens": 2406,
+          "total_tokens": 43222
+        },
+        "billed_usage": {
+          "prompt_tokens": 40816,
+          "completion_tokens": 2406,
+          "total_tokens": 43222
+        }
+      },
+      "conv2_q037": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 40486,
+          "completion_tokens": 3800,
+          "total_tokens": 44286
+        },
+        "billed_usage": {
+          "prompt_tokens": 40486,
+          "completion_tokens": 3800,
+          "total_tokens": 44286
+        }
+      },
+      "conv2_q038": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33349,
+          "completion_tokens": 3382,
+          "total_tokens": 36731
+        },
+        "billed_usage": {
+          "prompt_tokens": 33349,
+          "completion_tokens": 3382,
+          "total_tokens": 36731
+        }
+      },
+      "conv2_q039": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36726,
+          "completion_tokens": 2881,
+          "total_tokens": 39607
+        },
+        "billed_usage": {
+          "prompt_tokens": 36726,
+          "completion_tokens": 2881,
+          "total_tokens": 39607
+        }
+      },
+      "conv2_q040": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41025,
+          "completion_tokens": 2347,
+          "total_tokens": 43372
+        },
+        "billed_usage": {
+          "prompt_tokens": 41025,
+          "completion_tokens": 2347,
+          "total_tokens": 43372
+        }
+      },
+      "conv2_q041": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37854,
+          "completion_tokens": 2427,
+          "total_tokens": 40281
+        },
+        "billed_usage": {
+          "prompt_tokens": 37854,
+          "completion_tokens": 2427,
+          "total_tokens": 40281
+        }
+      },
+      "conv2_q042": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40450,
+          "completion_tokens": 1812,
+          "total_tokens": 42262
+        },
+        "billed_usage": {
+          "prompt_tokens": 40450,
+          "completion_tokens": 1812,
+          "total_tokens": 42262
+        }
+      },
+      "conv2_q043": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34217,
+          "completion_tokens": 1963,
+          "total_tokens": 36180
+        },
+        "billed_usage": {
+          "prompt_tokens": 34217,
+          "completion_tokens": 1963,
+          "total_tokens": 36180
+        }
+      },
+      "conv2_q044": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41298,
+          "completion_tokens": 3099,
+          "total_tokens": 44397
+        },
+        "billed_usage": {
+          "prompt_tokens": 41298,
+          "completion_tokens": 3099,
+          "total_tokens": 44397
+        }
+      },
+      "conv2_q045": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36910,
+          "completion_tokens": 2637,
+          "total_tokens": 39547
+        },
+        "billed_usage": {
+          "prompt_tokens": 36910,
+          "completion_tokens": 2637,
+          "total_tokens": 39547
+        }
+      },
+      "conv2_q046": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45632,
+          "completion_tokens": 2152,
+          "total_tokens": 47784
+        },
+        "billed_usage": {
+          "prompt_tokens": 45632,
+          "completion_tokens": 2152,
+          "total_tokens": 47784
+        }
+      },
+      "conv2_q047": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40239,
+          "completion_tokens": 3289,
+          "total_tokens": 43528
+        },
+        "billed_usage": {
+          "prompt_tokens": 40239,
+          "completion_tokens": 3289,
+          "total_tokens": 43528
+        }
+      },
+      "conv2_q048": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37177,
+          "completion_tokens": 3783,
+          "total_tokens": 40960
+        },
+        "billed_usage": {
+          "prompt_tokens": 37177,
+          "completion_tokens": 3783,
+          "total_tokens": 40960
+        }
+      },
+      "conv2_q049": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 67072,
+          "completion_tokens": 4679,
+          "total_tokens": 71751
+        },
+        "billed_usage": {
+          "prompt_tokens": 67072,
+          "completion_tokens": 4679,
+          "total_tokens": 71751
+        }
+      },
+      "conv2_q050": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40327,
+          "completion_tokens": 3556,
+          "total_tokens": 43883
+        },
+        "billed_usage": {
+          "prompt_tokens": 40327,
+          "completion_tokens": 3556,
+          "total_tokens": 43883
+        }
+      },
+      "conv2_q051": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 47109,
+          "completion_tokens": 3111,
+          "total_tokens": 50220
+        },
+        "billed_usage": {
+          "prompt_tokens": 47109,
+          "completion_tokens": 3111,
+          "total_tokens": 50220
+        }
+      },
+      "conv2_q052": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43664,
+          "completion_tokens": 2130,
+          "total_tokens": 45794
+        },
+        "billed_usage": {
+          "prompt_tokens": 43664,
+          "completion_tokens": 2130,
+          "total_tokens": 45794
+        }
+      },
+      "conv2_q053": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42077,
+          "completion_tokens": 2195,
+          "total_tokens": 44272
+        },
+        "billed_usage": {
+          "prompt_tokens": 42077,
+          "completion_tokens": 2195,
+          "total_tokens": 44272
+        }
+      },
+      "conv2_q054": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46486,
+          "completion_tokens": 2740,
+          "total_tokens": 49226
+        },
+        "billed_usage": {
+          "prompt_tokens": 46486,
+          "completion_tokens": 2740,
+          "total_tokens": 49226
+        }
+      },
+      "conv2_q055": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45110,
+          "completion_tokens": 2468,
+          "total_tokens": 47578
+        },
+        "billed_usage": {
+          "prompt_tokens": 45110,
+          "completion_tokens": 2468,
+          "total_tokens": 47578
+        }
+      },
+      "conv2_q056": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 52692,
+          "completion_tokens": 1999,
+          "total_tokens": 54691
+        },
+        "billed_usage": {
+          "prompt_tokens": 52692,
+          "completion_tokens": 1999,
+          "total_tokens": 54691
+        }
+      },
+      "conv2_q057": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38135,
+          "completion_tokens": 3217,
+          "total_tokens": 41352
+        },
+        "billed_usage": {
+          "prompt_tokens": 38135,
+          "completion_tokens": 3217,
+          "total_tokens": 41352
+        }
+      },
+      "conv2_q058": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40900,
+          "completion_tokens": 3652,
+          "total_tokens": 44552
+        },
+        "billed_usage": {
+          "prompt_tokens": 40900,
+          "completion_tokens": 3652,
+          "total_tokens": 44552
+        }
+      },
+      "conv2_q059": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36394,
+          "completion_tokens": 2107,
+          "total_tokens": 38501
+        },
+        "billed_usage": {
+          "prompt_tokens": 36394,
+          "completion_tokens": 2107,
+          "total_tokens": 38501
+        }
+      },
+      "conv2_q060": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41110,
+          "completion_tokens": 2661,
+          "total_tokens": 43771
+        },
+        "billed_usage": {
+          "prompt_tokens": 41110,
+          "completion_tokens": 2661,
+          "total_tokens": 43771
+        }
+      },
+      "conv2_q061": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41868,
+          "completion_tokens": 2488,
+          "total_tokens": 44356
+        },
+        "billed_usage": {
+          "prompt_tokens": 41868,
+          "completion_tokens": 2488,
+          "total_tokens": 44356
+        }
+      },
+      "conv2_q062": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 52167,
+          "completion_tokens": 3334,
+          "total_tokens": 55501
+        },
+        "billed_usage": {
+          "prompt_tokens": 52167,
+          "completion_tokens": 3334,
+          "total_tokens": 55501
+        }
+      },
+      "conv2_q063": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40154,
+          "completion_tokens": 3119,
+          "total_tokens": 43273
+        },
+        "billed_usage": {
+          "prompt_tokens": 40154,
+          "completion_tokens": 3119,
+          "total_tokens": 43273
+        }
+      },
+      "conv2_q064": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36830,
+          "completion_tokens": 5075,
+          "total_tokens": 41905
+        },
+        "billed_usage": {
+          "prompt_tokens": 36830,
+          "completion_tokens": 5075,
+          "total_tokens": 41905
+        }
+      },
+      "conv2_q065": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 21527,
+          "completion_tokens": 2399,
+          "total_tokens": 23926
+        },
+        "billed_usage": {
+          "prompt_tokens": 21527,
+          "completion_tokens": 2399,
+          "total_tokens": 23926
+        }
+      },
+      "conv2_q066": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38590,
+          "completion_tokens": 3976,
+          "total_tokens": 42566
+        },
+        "billed_usage": {
+          "prompt_tokens": 38590,
+          "completion_tokens": 3976,
+          "total_tokens": 42566
+        }
+      },
+      "conv2_q067": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43509,
+          "completion_tokens": 2428,
+          "total_tokens": 45937
+        },
+        "billed_usage": {
+          "prompt_tokens": 43509,
+          "completion_tokens": 2428,
+          "total_tokens": 45937
+        }
+      },
+      "conv2_q068": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44499,
+          "completion_tokens": 2735,
+          "total_tokens": 47234
+        },
+        "billed_usage": {
+          "prompt_tokens": 44499,
+          "completion_tokens": 2735,
+          "total_tokens": 47234
+        }
+      },
+      "conv2_q069": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 52047,
+          "completion_tokens": 2643,
+          "total_tokens": 54690
+        },
+        "billed_usage": {
+          "prompt_tokens": 52047,
+          "completion_tokens": 2643,
+          "total_tokens": 54690
+        }
+      },
+      "conv2_q070": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41465,
+          "completion_tokens": 2597,
+          "total_tokens": 44062
+        },
+        "billed_usage": {
+          "prompt_tokens": 41465,
+          "completion_tokens": 2597,
+          "total_tokens": 44062
+        }
+      },
+      "conv2_q071": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 47101,
+          "completion_tokens": 4529,
+          "total_tokens": 51630
+        },
+        "billed_usage": {
+          "prompt_tokens": 47101,
+          "completion_tokens": 4529,
+          "total_tokens": 51630
+        }
+      },
+      "conv2_q072": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38802,
+          "completion_tokens": 4852,
+          "total_tokens": 43654
+        },
+        "billed_usage": {
+          "prompt_tokens": 38802,
+          "completion_tokens": 4852,
+          "total_tokens": 43654
+        }
+      },
+      "conv2_q073": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 50217,
+          "completion_tokens": 3308,
+          "total_tokens": 53525
+        },
+        "billed_usage": {
+          "prompt_tokens": 50217,
+          "completion_tokens": 3308,
+          "total_tokens": 53525
+        }
+      },
+      "conv2_q074": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41943,
+          "completion_tokens": 3278,
+          "total_tokens": 45221
+        },
+        "billed_usage": {
+          "prompt_tokens": 41943,
+          "completion_tokens": 3278,
+          "total_tokens": 45221
+        }
+      },
+      "conv2_q075": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40098,
+          "completion_tokens": 3584,
+          "total_tokens": 43682
+        },
+        "billed_usage": {
+          "prompt_tokens": 40098,
+          "completion_tokens": 3584,
+          "total_tokens": 43682
+        }
+      },
+      "conv2_q076": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43661,
+          "completion_tokens": 3894,
+          "total_tokens": 47555
+        },
+        "billed_usage": {
+          "prompt_tokens": 43661,
+          "completion_tokens": 3894,
+          "total_tokens": 47555
+        }
+      },
+      "conv2_q077": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39613,
+          "completion_tokens": 2673,
+          "total_tokens": 42286
+        },
+        "billed_usage": {
+          "prompt_tokens": 39613,
+          "completion_tokens": 2673,
+          "total_tokens": 42286
+        }
+      },
+      "conv2_q078": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33729,
+          "completion_tokens": 2249,
+          "total_tokens": 35978
+        },
+        "billed_usage": {
+          "prompt_tokens": 33729,
+          "completion_tokens": 2249,
+          "total_tokens": 35978
+        }
+      },
+      "conv2_q079": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34344,
+          "completion_tokens": 2621,
+          "total_tokens": 36965
+        },
+        "billed_usage": {
+          "prompt_tokens": 34344,
+          "completion_tokens": 2621,
+          "total_tokens": 36965
+        }
+      },
+      "conv2_q080": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38503,
+          "completion_tokens": 2685,
+          "total_tokens": 41188
+        },
+        "billed_usage": {
+          "prompt_tokens": 38503,
+          "completion_tokens": 2685,
+          "total_tokens": 41188
+        }
+      },
+      "conv2_q081": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42426,
+          "completion_tokens": 2659,
+          "total_tokens": 45085
+        },
+        "billed_usage": {
+          "prompt_tokens": 42426,
+          "completion_tokens": 2659,
+          "total_tokens": 45085
+        }
+      },
+      "conv2_q082": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43009,
+          "completion_tokens": 2568,
+          "total_tokens": 45577
+        },
+        "billed_usage": {
+          "prompt_tokens": 43009,
+          "completion_tokens": 2568,
+          "total_tokens": 45577
+        }
+      },
+      "conv2_q083": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39148,
+          "completion_tokens": 2806,
+          "total_tokens": 41954
+        },
+        "billed_usage": {
+          "prompt_tokens": 39148,
+          "completion_tokens": 2806,
+          "total_tokens": 41954
+        }
+      },
+      "conv2_q084": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41903,
+          "completion_tokens": 3168,
+          "total_tokens": 45071
+        },
+        "billed_usage": {
+          "prompt_tokens": 41903,
+          "completion_tokens": 3168,
+          "total_tokens": 45071
+        }
+      },
+      "conv2_q085": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 50733,
+          "completion_tokens": 2660,
+          "total_tokens": 53393
+        },
+        "billed_usage": {
+          "prompt_tokens": 50733,
+          "completion_tokens": 2660,
+          "total_tokens": 53393
+        }
+      },
+      "conv2_q086": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36424,
+          "completion_tokens": 3754,
+          "total_tokens": 40178
+        },
+        "billed_usage": {
+          "prompt_tokens": 36424,
+          "completion_tokens": 3754,
+          "total_tokens": 40178
+        }
+      },
+      "conv2_q087": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37110,
+          "completion_tokens": 2642,
+          "total_tokens": 39752
+        },
+        "billed_usage": {
+          "prompt_tokens": 37110,
+          "completion_tokens": 2642,
+          "total_tokens": 39752
+        }
+      },
+      "conv2_q088": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 18379,
+          "completion_tokens": 1794,
+          "total_tokens": 20173
+        },
+        "billed_usage": {
+          "prompt_tokens": 18379,
+          "completion_tokens": 1794,
+          "total_tokens": 20173
+        }
+      },
+      "conv2_q089": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41975,
+          "completion_tokens": 4149,
+          "total_tokens": 46124
+        },
+        "billed_usage": {
+          "prompt_tokens": 41975,
+          "completion_tokens": 4149,
+          "total_tokens": 46124
+        }
+      },
+      "conv2_q090": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38191,
+          "completion_tokens": 3756,
+          "total_tokens": 41947
+        },
+        "billed_usage": {
+          "prompt_tokens": 38191,
+          "completion_tokens": 3756,
+          "total_tokens": 41947
+        }
+      },
+      "conv2_q091": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43635,
+          "completion_tokens": 3752,
+          "total_tokens": 47387
+        },
+        "billed_usage": {
+          "prompt_tokens": 43635,
+          "completion_tokens": 3752,
+          "total_tokens": 47387
+        }
+      },
+      "conv2_q092": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38719,
+          "completion_tokens": 3854,
+          "total_tokens": 42573
+        },
+        "billed_usage": {
+          "prompt_tokens": 38719,
+          "completion_tokens": 3854,
+          "total_tokens": 42573
+        }
+      },
+      "conv2_q093": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44759,
+          "completion_tokens": 4112,
+          "total_tokens": 48871
+        },
+        "billed_usage": {
+          "prompt_tokens": 44759,
+          "completion_tokens": 4112,
+          "total_tokens": 48871
+        }
+      },
+      "conv2_q094": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40662,
+          "completion_tokens": 2587,
+          "total_tokens": 43249
+        },
+        "billed_usage": {
+          "prompt_tokens": 40662,
+          "completion_tokens": 2587,
+          "total_tokens": 43249
+        }
+      },
+      "conv2_q095": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39471,
+          "completion_tokens": 2237,
+          "total_tokens": 41708
+        },
+        "billed_usage": {
+          "prompt_tokens": 39471,
+          "completion_tokens": 2237,
+          "total_tokens": 41708
+        }
+      },
+      "conv2_q096": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42838,
+          "completion_tokens": 5078,
+          "total_tokens": 47916
+        },
+        "billed_usage": {
+          "prompt_tokens": 42838,
+          "completion_tokens": 5078,
+          "total_tokens": 47916
+        }
+      },
+      "conv2_q097": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41653,
+          "completion_tokens": 5598,
+          "total_tokens": 47251
+        },
+        "billed_usage": {
+          "prompt_tokens": 41653,
+          "completion_tokens": 5598,
+          "total_tokens": 47251
+        }
+      },
+      "conv2_q098": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43489,
+          "completion_tokens": 3290,
+          "total_tokens": 46779
+        },
+        "billed_usage": {
+          "prompt_tokens": 43489,
+          "completion_tokens": 3290,
+          "total_tokens": 46779
+        }
+      },
+      "conv2_q099": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45299,
+          "completion_tokens": 2208,
+          "total_tokens": 47507
+        },
+        "billed_usage": {
+          "prompt_tokens": 45299,
+          "completion_tokens": 2208,
+          "total_tokens": 47507
+        }
+      },
+      "conv2_q100": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36035,
+          "completion_tokens": 2841,
+          "total_tokens": 38876
+        },
+        "billed_usage": {
+          "prompt_tokens": 36035,
+          "completion_tokens": 2841,
+          "total_tokens": 38876
+        }
+      },
+      "conv2_q101": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 48058,
+          "completion_tokens": 4229,
+          "total_tokens": 52287
+        },
+        "billed_usage": {
+          "prompt_tokens": 48058,
+          "completion_tokens": 4229,
+          "total_tokens": 52287
+        }
+      },
+      "conv2_q102": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46133,
+          "completion_tokens": 5110,
+          "total_tokens": 51243
+        },
+        "billed_usage": {
+          "prompt_tokens": 46133,
+          "completion_tokens": 5110,
+          "total_tokens": 51243
+        }
+      },
+      "conv2_q103": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40987,
+          "completion_tokens": 3788,
+          "total_tokens": 44775
+        },
+        "billed_usage": {
+          "prompt_tokens": 40987,
+          "completion_tokens": 3788,
+          "total_tokens": 44775
+        }
+      },
+      "conv2_q104": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34452,
+          "completion_tokens": 2395,
+          "total_tokens": 36847
+        },
+        "billed_usage": {
+          "prompt_tokens": 34452,
+          "completion_tokens": 2395,
+          "total_tokens": 36847
+        }
+      },
+      "conv2_q105": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42065,
+          "completion_tokens": 3732,
+          "total_tokens": 45797
+        },
+        "billed_usage": {
+          "prompt_tokens": 42065,
+          "completion_tokens": 3732,
+          "total_tokens": 45797
+        }
+      },
+      "conv2_q106": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45351,
+          "completion_tokens": 4393,
+          "total_tokens": 49744
+        },
+        "billed_usage": {
+          "prompt_tokens": 45351,
+          "completion_tokens": 4393,
+          "total_tokens": 49744
+        }
+      },
+      "conv2_q107": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43585,
+          "completion_tokens": 3088,
+          "total_tokens": 46673
+        },
+        "billed_usage": {
+          "prompt_tokens": 43585,
+          "completion_tokens": 3088,
+          "total_tokens": 46673
+        }
+      },
+      "conv2_q108": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40361,
+          "completion_tokens": 2029,
+          "total_tokens": 42390
+        },
+        "billed_usage": {
+          "prompt_tokens": 40361,
+          "completion_tokens": 2029,
+          "total_tokens": 42390
+        }
+      },
+      "conv2_q109": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42207,
+          "completion_tokens": 3869,
+          "total_tokens": 46076
+        },
+        "billed_usage": {
+          "prompt_tokens": 42207,
+          "completion_tokens": 3869,
+          "total_tokens": 46076
+        }
+      },
+      "conv2_q110": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46083,
+          "completion_tokens": 2065,
+          "total_tokens": 48148
+        },
+        "billed_usage": {
+          "prompt_tokens": 46083,
+          "completion_tokens": 2065,
+          "total_tokens": 48148
+        }
+      },
+      "conv2_q111": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43000,
+          "completion_tokens": 4574,
+          "total_tokens": 47574
+        },
+        "billed_usage": {
+          "prompt_tokens": 43000,
+          "completion_tokens": 4574,
+          "total_tokens": 47574
+        }
+      },
+      "conv2_q112": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38927,
+          "completion_tokens": 2778,
+          "total_tokens": 41705
+        },
+        "billed_usage": {
+          "prompt_tokens": 38927,
+          "completion_tokens": 2778,
+          "total_tokens": 41705
+        }
+      },
+      "conv2_q113": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36011,
+          "completion_tokens": 3433,
+          "total_tokens": 39444
+        },
+        "billed_usage": {
+          "prompt_tokens": 36011,
+          "completion_tokens": 3433,
+          "total_tokens": 39444
+        }
+      },
+      "conv2_q114": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38066,
+          "completion_tokens": 3467,
+          "total_tokens": 41533
+        },
+        "billed_usage": {
+          "prompt_tokens": 38066,
+          "completion_tokens": 3467,
+          "total_tokens": 41533
+        }
+      },
+      "conv2_q115": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43557,
+          "completion_tokens": 3592,
+          "total_tokens": 47149
+        },
+        "billed_usage": {
+          "prompt_tokens": 43557,
+          "completion_tokens": 3592,
+          "total_tokens": 47149
+        }
+      },
+      "conv2_q116": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37101,
+          "completion_tokens": 3358,
+          "total_tokens": 40459
+        },
+        "billed_usage": {
+          "prompt_tokens": 37101,
+          "completion_tokens": 3358,
+          "total_tokens": 40459
+        }
+      },
+      "conv2_q117": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40741,
+          "completion_tokens": 3079,
+          "total_tokens": 43820
+        },
+        "billed_usage": {
+          "prompt_tokens": 40741,
+          "completion_tokens": 3079,
+          "total_tokens": 43820
+        }
+      },
+      "conv2_q118": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 44478,
+          "completion_tokens": 4884,
+          "total_tokens": 49362
+        },
+        "billed_usage": {
+          "prompt_tokens": 44478,
+          "completion_tokens": 4884,
+          "total_tokens": 49362
+        }
+      },
+      "conv2_q119": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 50416,
+          "completion_tokens": 2991,
+          "total_tokens": 53407
+        },
+        "billed_usage": {
+          "prompt_tokens": 50416,
+          "completion_tokens": 2991,
+          "total_tokens": 53407
+        }
+      },
+      "conv2_q120": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34123,
+          "completion_tokens": 2802,
+          "total_tokens": 36925
+        },
+        "billed_usage": {
+          "prompt_tokens": 34123,
+          "completion_tokens": 2802,
+          "total_tokens": 36925
+        }
+      },
+      "conv2_q121": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39354,
+          "completion_tokens": 2319,
+          "total_tokens": 41673
+        },
+        "billed_usage": {
+          "prompt_tokens": 39354,
+          "completion_tokens": 2319,
+          "total_tokens": 41673
+        }
+      },
+      "conv2_q122": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46232,
+          "completion_tokens": 3890,
+          "total_tokens": 50122
+        },
+        "billed_usage": {
+          "prompt_tokens": 46232,
+          "completion_tokens": 3890,
+          "total_tokens": 50122
+        }
+      },
+      "conv2_q123": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44413,
+          "completion_tokens": 2970,
+          "total_tokens": 47383
+        },
+        "billed_usage": {
+          "prompt_tokens": 44413,
+          "completion_tokens": 2970,
+          "total_tokens": 47383
+        }
+      },
+      "conv2_q124": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45097,
+          "completion_tokens": 2140,
+          "total_tokens": 47237
+        },
+        "billed_usage": {
+          "prompt_tokens": 45097,
+          "completion_tokens": 2140,
+          "total_tokens": 47237
+        }
+      },
+      "conv2_q125": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38107,
+          "completion_tokens": 3299,
+          "total_tokens": 41406
+        },
+        "billed_usage": {
+          "prompt_tokens": 38107,
+          "completion_tokens": 3299,
+          "total_tokens": 41406
+        }
+      },
+      "conv2_q126": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 43993,
+          "completion_tokens": 3448,
+          "total_tokens": 47441
+        },
+        "billed_usage": {
+          "prompt_tokens": 43993,
+          "completion_tokens": 3448,
+          "total_tokens": 47441
+        }
+      },
+      "conv2_q127": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39673,
+          "completion_tokens": 3658,
+          "total_tokens": 43331
+        },
+        "billed_usage": {
+          "prompt_tokens": 39673,
+          "completion_tokens": 3658,
+          "total_tokens": 43331
+        }
+      },
+      "conv2_q128": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43896,
+          "completion_tokens": 2712,
+          "total_tokens": 46608
+        },
+        "billed_usage": {
+          "prompt_tokens": 43896,
+          "completion_tokens": 2712,
+          "total_tokens": 46608
+        }
+      },
+      "conv2_q129": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44946,
+          "completion_tokens": 4636,
+          "total_tokens": 49582
+        },
+        "billed_usage": {
+          "prompt_tokens": 44946,
+          "completion_tokens": 4636,
+          "total_tokens": 49582
+        }
+      },
+      "conv2_q130": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46045,
+          "completion_tokens": 2889,
+          "total_tokens": 48934
+        },
+        "billed_usage": {
+          "prompt_tokens": 46045,
+          "completion_tokens": 2889,
+          "total_tokens": 48934
+        }
+      },
+      "conv2_q131": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 52406,
+          "completion_tokens": 4229,
+          "total_tokens": 56635
+        },
+        "billed_usage": {
+          "prompt_tokens": 52406,
+          "completion_tokens": 4229,
+          "total_tokens": 56635
+        }
+      },
+      "conv2_q132": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 48203,
+          "completion_tokens": 3553,
+          "total_tokens": 51756
+        },
+        "billed_usage": {
+          "prompt_tokens": 48203,
+          "completion_tokens": 3553,
+          "total_tokens": 51756
+        }
+      },
+      "conv2_q133": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35440,
+          "completion_tokens": 4313,
+          "total_tokens": 39753
+        },
+        "billed_usage": {
+          "prompt_tokens": 35440,
+          "completion_tokens": 4313,
+          "total_tokens": 39753
+        }
+      },
+      "conv2_q134": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35593,
+          "completion_tokens": 2180,
+          "total_tokens": 37773
+        },
+        "billed_usage": {
+          "prompt_tokens": 35593,
+          "completion_tokens": 2180,
+          "total_tokens": 37773
+        }
+      },
+      "conv2_q135": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38114,
+          "completion_tokens": 2697,
+          "total_tokens": 40811
+        },
+        "billed_usage": {
+          "prompt_tokens": 38114,
+          "completion_tokens": 2697,
+          "total_tokens": 40811
+        }
+      },
+      "conv2_q136": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37536,
+          "completion_tokens": 3724,
+          "total_tokens": 41260
+        },
+        "billed_usage": {
+          "prompt_tokens": 37536,
+          "completion_tokens": 3724,
+          "total_tokens": 41260
+        }
+      },
+      "conv2_q137": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36450,
+          "completion_tokens": 3642,
+          "total_tokens": 40092
+        },
+        "billed_usage": {
+          "prompt_tokens": 36450,
+          "completion_tokens": 3642,
+          "total_tokens": 40092
+        }
+      },
+      "conv2_q138": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42934,
+          "completion_tokens": 2908,
+          "total_tokens": 45842
+        },
+        "billed_usage": {
+          "prompt_tokens": 42934,
+          "completion_tokens": 2908,
+          "total_tokens": 45842
+        }
+      },
+      "conv2_q139": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41408,
+          "completion_tokens": 5056,
+          "total_tokens": 46464
+        },
+        "billed_usage": {
+          "prompt_tokens": 41408,
+          "completion_tokens": 5056,
+          "total_tokens": 46464
+        }
+      },
+      "conv2_q140": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 47568,
+          "completion_tokens": 2452,
+          "total_tokens": 50020
+        },
+        "billed_usage": {
+          "prompt_tokens": 47568,
+          "completion_tokens": 2452,
+          "total_tokens": 50020
+        }
+      },
+      "conv2_q141": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40463,
+          "completion_tokens": 2629,
+          "total_tokens": 43092
+        },
+        "billed_usage": {
+          "prompt_tokens": 40463,
+          "completion_tokens": 2629,
+          "total_tokens": 43092
+        }
+      },
+      "conv2_q142": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44868,
+          "completion_tokens": 2479,
+          "total_tokens": 47347
+        },
+        "billed_usage": {
+          "prompt_tokens": 44868,
+          "completion_tokens": 2479,
+          "total_tokens": 47347
+        }
+      },
+      "conv2_q143": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45911,
+          "completion_tokens": 4752,
+          "total_tokens": 50663
+        },
+        "billed_usage": {
+          "prompt_tokens": 45911,
+          "completion_tokens": 4752,
+          "total_tokens": 50663
+        }
+      },
+      "conv2_q144": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32729,
+          "completion_tokens": 2492,
+          "total_tokens": 35221
+        },
+        "billed_usage": {
+          "prompt_tokens": 32729,
+          "completion_tokens": 2492,
+          "total_tokens": 35221
+        }
+      },
+      "conv2_q145": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35529,
+          "completion_tokens": 1980,
+          "total_tokens": 37509
+        },
+        "billed_usage": {
+          "prompt_tokens": 35529,
+          "completion_tokens": 1980,
+          "total_tokens": 37509
+        }
+      },
+      "conv2_q146": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42426,
+          "completion_tokens": 4303,
+          "total_tokens": 46729
+        },
+        "billed_usage": {
+          "prompt_tokens": 42426,
+          "completion_tokens": 4303,
+          "total_tokens": 46729
+        }
+      },
+      "conv2_q147": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46756,
+          "completion_tokens": 3613,
+          "total_tokens": 50369
+        },
+        "billed_usage": {
+          "prompt_tokens": 46756,
+          "completion_tokens": 3613,
+          "total_tokens": 50369
+        }
+      },
+      "conv2_q148": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 47050,
+          "completion_tokens": 3411,
+          "total_tokens": 50461
+        },
+        "billed_usage": {
+          "prompt_tokens": 47050,
+          "completion_tokens": 3411,
+          "total_tokens": 50461
+        }
+      },
+      "conv2_q149": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45406,
+          "completion_tokens": 4007,
+          "total_tokens": 49413
+        },
+        "billed_usage": {
+          "prompt_tokens": 45406,
+          "completion_tokens": 4007,
+          "total_tokens": 49413
+        }
+      },
+      "conv2_q150": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43323,
+          "completion_tokens": 3883,
+          "total_tokens": 47206
+        },
+        "billed_usage": {
+          "prompt_tokens": 43323,
+          "completion_tokens": 3883,
+          "total_tokens": 47206
+        }
+      },
+      "conv2_q151": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 48405,
+          "completion_tokens": 2737,
+          "total_tokens": 51142
+        },
+        "billed_usage": {
+          "prompt_tokens": 48405,
+          "completion_tokens": 2737,
+          "total_tokens": 51142
+        }
+      }
+    }
+  }
+}

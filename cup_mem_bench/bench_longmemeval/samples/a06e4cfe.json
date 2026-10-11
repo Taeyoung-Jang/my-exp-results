@@ -1,0 +1,212 @@
+{
+  "uid": "a06e4cfe",
+  "num_sessions": 53,
+  "answers": {
+    "a06e4cfe": {
+      "response": "Your preferred classic martini ratio is 3 : 1 gin‑to‑vermouth, with a dash of citrus bitters.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 106.4
+    }
+  },
+  "profile_snapshot_size": 76657,
+  "elapsed_seconds": 5113.3,
+  "usage_summary": {
+    "total_calls": 642,
+    "cache_hits": 50,
+    "cache_misses": 592,
+    "logical_usage": {
+      "prompt_tokens": 1601632,
+      "completion_tokens": 318112,
+      "total_tokens": 1919744
+    },
+    "billed_usage": {
+      "prompt_tokens": 1511047,
+      "completion_tokens": 286239,
+      "total_tokens": 1797286
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 53,
+        "cache_hits": 33,
+        "cache_misses": 20,
+        "logical_usage": {
+          "prompt_tokens": 105539,
+          "completion_tokens": 38156,
+          "total_tokens": 143695
+        },
+        "billed_usage": {
+          "prompt_tokens": 42028,
+          "completion_tokens": 14441,
+          "total_tokens": 56469
+        }
+      },
+      "delta_extractor": {
+        "calls": 37,
+        "cache_hits": 6,
+        "cache_misses": 31,
+        "logical_usage": {
+          "prompt_tokens": 124546,
+          "completion_tokens": 19277,
+          "total_tokens": 143823
+        },
+        "billed_usage": {
+          "prompt_tokens": 114896,
+          "completion_tokens": 16058,
+          "total_tokens": 130954
+        }
+      },
+      "update_judge": {
+        "calls": 68,
+        "cache_hits": 6,
+        "cache_misses": 62,
+        "logical_usage": {
+          "prompt_tokens": 223089,
+          "completion_tokens": 19989,
+          "total_tokens": 243078
+        },
+        "billed_usage": {
+          "prompt_tokens": 214487,
+          "completion_tokens": 18823,
+          "total_tokens": 233310
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 35,
+        "cache_hits": 5,
+        "cache_misses": 30,
+        "logical_usage": {
+          "prompt_tokens": 61657,
+          "completion_tokens": 25224,
+          "total_tokens": 86881
+        },
+        "billed_usage": {
+          "prompt_tokens": 52835,
+          "completion_tokens": 21451,
+          "total_tokens": 74286
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 163,
+        "cache_hits": 0,
+        "cache_misses": 163,
+        "logical_usage": {
+          "prompt_tokens": 598739,
+          "completion_tokens": 109692,
+          "total_tokens": 708431
+        },
+        "billed_usage": {
+          "prompt_tokens": 598739,
+          "completion_tokens": 109692,
+          "total_tokens": 708431
+        }
+      },
+      "invalidation_judge": {
+        "calls": 56,
+        "cache_hits": 0,
+        "cache_misses": 56,
+        "logical_usage": {
+          "prompt_tokens": 230124,
+          "completion_tokens": 33115,
+          "total_tokens": 263239
+        },
+        "billed_usage": {
+          "prompt_tokens": 230124,
+          "completion_tokens": 33115,
+          "total_tokens": 263239
+        }
+      },
+      "stale_support_judge": {
+        "calls": 226,
+        "cache_hits": 0,
+        "cache_misses": 226,
+        "logical_usage": {
+          "prompt_tokens": 222151,
+          "completion_tokens": 70082,
+          "total_tokens": 292233
+        },
+        "billed_usage": {
+          "prompt_tokens": 222151,
+          "completion_tokens": 70082,
+          "total_tokens": 292233
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1483,
+          "completion_tokens": 719,
+          "total_tokens": 2202
+        },
+        "billed_usage": {
+          "prompt_tokens": 1483,
+          "completion_tokens": 719,
+          "total_tokens": 2202
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 13961,
+          "completion_tokens": 896,
+          "total_tokens": 14857
+        },
+        "billed_usage": {
+          "prompt_tokens": 13961,
+          "completion_tokens": 896,
+          "total_tokens": 14857
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18995,
+          "completion_tokens": 745,
+          "total_tokens": 19740
+        },
+        "billed_usage": {
+          "prompt_tokens": 18995,
+          "completion_tokens": 745,
+          "total_tokens": 19740
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1348,
+          "completion_tokens": 217,
+          "total_tokens": 1565
+        },
+        "billed_usage": {
+          "prompt_tokens": 1348,
+          "completion_tokens": 217,
+          "total_tokens": 1565
+        }
+      }
+    },
+    "by_query_label": {
+      "a06e4cfe": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35787,
+          "completion_tokens": 2577,
+          "total_tokens": 38364
+        },
+        "billed_usage": {
+          "prompt_tokens": 35787,
+          "completion_tokens": 2577,
+          "total_tokens": 38364
+        }
+      }
+    }
+  }
+}

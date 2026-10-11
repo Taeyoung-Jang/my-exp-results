@@ -1,0 +1,227 @@
+{
+  "uid": "c4a1ceb8",
+  "num_sessions": 49,
+  "answers": {
+    "c4a1ceb8": {
+      "response": "The assumption that you have multiple cocktail recipes listing various citrus fruits cannot be confirmed; the only current information shows orange bitters, indicating at least one citrus fruit (orange) used.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 168.0
+    }
+  },
+  "profile_snapshot_size": 72538,
+  "elapsed_seconds": 6669.9,
+  "usage_summary": {
+    "total_calls": 687,
+    "cache_hits": 2,
+    "cache_misses": 685,
+    "logical_usage": {
+      "prompt_tokens": 1860293,
+      "completion_tokens": 324449,
+      "total_tokens": 2184742
+    },
+    "billed_usage": {
+      "prompt_tokens": 1857906,
+      "completion_tokens": 323054,
+      "total_tokens": 2180960
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 49,
+        "cache_hits": 0,
+        "cache_misses": 49,
+        "logical_usage": {
+          "prompt_tokens": 94770,
+          "completion_tokens": 38192,
+          "total_tokens": 132962
+        },
+        "billed_usage": {
+          "prompt_tokens": 94770,
+          "completion_tokens": 38192,
+          "total_tokens": 132962
+        }
+      },
+      "delta_extractor": {
+        "calls": 43,
+        "cache_hits": 0,
+        "cache_misses": 43,
+        "logical_usage": {
+          "prompt_tokens": 213119,
+          "completion_tokens": 21429,
+          "total_tokens": 234548
+        },
+        "billed_usage": {
+          "prompt_tokens": 213119,
+          "completion_tokens": 21429,
+          "total_tokens": 234548
+        }
+      },
+      "update_judge": {
+        "calls": 66,
+        "cache_hits": 0,
+        "cache_misses": 66,
+        "logical_usage": {
+          "prompt_tokens": 263501,
+          "completion_tokens": 19334,
+          "total_tokens": 282835
+        },
+        "billed_usage": {
+          "prompt_tokens": 263501,
+          "completion_tokens": 19334,
+          "total_tokens": 282835
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 38,
+        "cache_hits": 0,
+        "cache_misses": 38,
+        "logical_usage": {
+          "prompt_tokens": 65769,
+          "completion_tokens": 28038,
+          "total_tokens": 93807
+        },
+        "billed_usage": {
+          "prompt_tokens": 65769,
+          "completion_tokens": 28038,
+          "total_tokens": 93807
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 182,
+        "cache_hits": 0,
+        "cache_misses": 182,
+        "logical_usage": {
+          "prompt_tokens": 681026,
+          "completion_tokens": 110465,
+          "total_tokens": 791491
+        },
+        "billed_usage": {
+          "prompt_tokens": 681026,
+          "completion_tokens": 110465,
+          "total_tokens": 791491
+        }
+      },
+      "invalidation_judge": {
+        "calls": 62,
+        "cache_hits": 0,
+        "cache_misses": 62,
+        "logical_usage": {
+          "prompt_tokens": 243653,
+          "completion_tokens": 33267,
+          "total_tokens": 276920
+        },
+        "billed_usage": {
+          "prompt_tokens": 243653,
+          "completion_tokens": 33267,
+          "total_tokens": 276920
+        }
+      },
+      "stale_support_judge": {
+        "calls": 239,
+        "cache_hits": 0,
+        "cache_misses": 239,
+        "logical_usage": {
+          "prompt_tokens": 241758,
+          "completion_tokens": 67730,
+          "total_tokens": 309488
+        },
+        "billed_usage": {
+          "prompt_tokens": 241758,
+          "completion_tokens": 67730,
+          "total_tokens": 309488
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1482,
+          "completion_tokens": 890,
+          "total_tokens": 2372
+        },
+        "billed_usage": {
+          "prompt_tokens": 1482,
+          "completion_tokens": 890,
+          "total_tokens": 2372
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 21918,
+          "completion_tokens": 1034,
+          "total_tokens": 22952
+        },
+        "billed_usage": {
+          "prompt_tokens": 21918,
+          "completion_tokens": 1034,
+          "total_tokens": 22952
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4774,
+          "completion_tokens": 2790,
+          "total_tokens": 7564
+        },
+        "billed_usage": {
+          "prompt_tokens": 2387,
+          "completion_tokens": 1395,
+          "total_tokens": 3782
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 27147,
+          "completion_tokens": 794,
+          "total_tokens": 27941
+        },
+        "billed_usage": {
+          "prompt_tokens": 27147,
+          "completion_tokens": 794,
+          "total_tokens": 27941
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1376,
+          "completion_tokens": 486,
+          "total_tokens": 1862
+        },
+        "billed_usage": {
+          "prompt_tokens": 1376,
+          "completion_tokens": 486,
+          "total_tokens": 1862
+        }
+      }
+    },
+    "by_query_label": {
+      "c4a1ceb8": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 51923,
+          "completion_tokens": 3204,
+          "total_tokens": 55127
+        },
+        "billed_usage": {
+          "prompt_tokens": 51923,
+          "completion_tokens": 3204,
+          "total_tokens": 55127
+        }
+      }
+    }
+  }
+}

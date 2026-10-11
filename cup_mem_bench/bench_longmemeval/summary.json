@@ -1,0 +1,38 @@
+{
+  "benchmark": "longmemeval",
+  "model": "openai/gpt-oss-120b",
+  "embedding": "baai/bge-m3",
+  "embedding_api_tokens_this_run": 40264,
+  "num_instances": 500,
+  "num_questions": 500,
+  "num_errors": 0,
+  "billed_totals_note": "billed usage of the latest run of each instance (cache hits count as 0)",
+  "totals": {
+    "prompt_tokens": 818440354,
+    "completion_tokens": 154285902,
+    "calls": 334547,
+    "elapsed_seconds": 3157762.099999998
+  },
+  "answers_path": "/home/tae0jang/Documents/Workspace/STALE/cup_mem/runs/bench_longmemeval/answers.json",
+  "args": {
+    "benchmark": "longmemeval",
+    "dataset_path": "",
+    "run_name": "",
+    "output_root": "/home/tae0jang/Documents/Workspace/STALE/cup_mem/runs",
+    "model": "",
+    "start": 0,
+    "limit": 0,
+    "max_questions": 0,
+    "max_sessions": 0,
+    "workers": 128,
+    "locomo_categories": "1,2,3,4",
+    "locomo_speaker_roles": "both_user",
+    "lme_question_types": "",
+    "lme_no_question_date": false,
+    "embedding_api_model": "baai/bge-m3",
+    "embedding_model_path": "",
+    "embedding_device": "cpu",
+    "wire_api": "auto",
+    "chat_supported": "auto"
+  }
+}

@@ -1,0 +1,1047 @@
+{
+  "uid": "conv-30",
+  "num_sessions": 19,
+  "answers": {
+    "conv1_q000": {
+      "response": "I don’t have current information about when Jon left his banking job, so I can’t provide a date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 94.8
+    },
+    "conv1_q001": {
+      "response": "The assumption that Gina is still employed by Door Dash is no longer valid—current information shows she now has a temporary job and is developing a dance‑studio business while completing a design internship. Consequently, there is no pending \"loss\" of a Door Dash job to plan for; she should focus on the income and resources from her new roles and continue building her studio venture.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 61.5
+    },
+    "conv1_q002": {
+      "response": "I don’t have current information about Jon’s and Gina’s destressing preferences, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 165.0
+    },
+    "conv1_q003": {
+      "response": "I don't have current information about Jon or Gina, so I can't determine what they have in common.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.5
+    },
+    "conv1_q004": {
+      "response": "Jon decided to start his dance studio because he’s motivated to share his passion for dance, wants to teach others, and is actively planning and rehearsing for the studio’s launch.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 29.7
+    },
+    "conv1_q005": {
+      "response": "I don’t have current information about Jon’s view of an ideal dance studio, so I can’t describe what he thinks it should look like.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.4
+    },
+    "conv1_q006": {
+      "response": "I don’t have current information about when Jon’s group will perform at a festival.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 245.8
+    },
+    "conv1_q007": {
+      "response": "I don’t have current information on when Gina launched an ad campaign for her store.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 79.6
+    },
+    "conv1_q008": {
+      "response": "I don’t have any information about when Jon was in Paris.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 60.5
+    },
+    "conv1_q009": {
+      "response": "I don’t have enough information to identify a city that both Jean and John have visited.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 62.8
+    },
+    "conv1_q010": {
+      "response": "The premise that Gina teamed up with a local artist is outdated, and there’s no current information about when such a collaboration took place.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 98.8
+    },
+    "conv1_q011": {
+      "response": "I don't have any information confirming that Gina has a tattoo, so I can't provide the date she got one.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 95.3
+    },
+    "conv1_q012": {
+      "response": "We don't have any current information about when Jon began going to the gym; the prior claim is outdated and provides no date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 89.2
+    },
+    "conv1_q013": {
+      "response": "I don’t have current information about when Gina opened her online clothing store, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 134.3
+    },
+    "conv1_q014": {
+      "response": "I don’t have information on when Jon began expanding his studio’s social‑media presence.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 56.8
+    },
+    "conv1_q015": {
+      "response": "There is no current information confirming that Jon ever hosted a dance competition, so I cannot provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.0
+    },
+    "conv1_q016": {
+      "response": "I don’t have any information about when Jon attended a fair for his dance studio, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 98.3
+    },
+    "conv1_q017": {
+      "response": "The premise that Gina decided to start her own clothing store is no longer valid—recent information shows she has moved to a temporary job and is developing a dance‑studio platform, so there’s no current basis to explain a decision to launch a clothing store.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 205.1
+    },
+    "conv1_q018": {
+      "response": "There is no current evidence confirming that Jon and Gina start businesses out of what they love.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.3
+    },
+    "conv1_q019": {
+      "response": "There is no current information confirming that Gina interviewed for a design internship, so I cannot provide a date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 183.0
+    },
+    "conv1_q020": {
+      "response": "There is no current information indicating that Gina was ever accepted for a design internship, so I can’t provide a date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 171.6
+    },
+    "conv1_q021": {
+      "response": "I don’t have any information about when Jon started reading \"The Lean Startup\", so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 104.1
+    },
+    "conv1_q022": {
+      "response": "I don’t have current information about when (or even if) Gina created a video presentation to teach fashion styling; recent evidence shows she’s shifted her focus to a dance‑studio platform, so the original premise isn’t verified.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 226.5
+    },
+    "conv1_q023": {
+      "response": "There’s no current information about Gina promoting a clothing store—the earlier details are outdated, so I can’t describe how she promoted it.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 102.1
+    },
+    "conv1_q024": {
+      "response": "I don’t have any current information about events Jon has taken part in to promote his business venture.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 96.4
+    },
+    "conv1_q025": {
+      "response": "The earlier claim about what Jon's dance studio offers is no longer reliable; currently we only know that Jon has a personal dance studio, but we have no information on specific services, classes, or programs it provides.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 184.9
+    },
+    "conv1_q026": {
+      "response": "There’s no current information confirming that Jon received mentorship, so I can’t provide a date for it.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.0
+    },
+    "conv1_q027": {
+      "response": "There is no current evidence confirming that either Jon or Gina participated in dance competitions, so we cannot say they both did.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 101.1
+    },
+    "conv1_q028": {
+      "response": "I don’t have information about when Jon was in Rome.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 95.3
+    },
+    "conv1_q029": {
+      "response": "I don’t have information about which cities Jon has visited.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.6
+    },
+    "conv1_q030": {
+      "response": "The information about an upcoming opening date is outdated; there is no current, reliable date available for Jon’s dance studio opening.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 314.0
+    },
+    "conv1_q031": {
+      "response": "We don’t have current evidence that Jon has opened a studio, so the duration of opening it can’t be provided.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 176.0
+    },
+    "conv1_q032": {
+      "response": "The premise that Gina designed a limited collection of hoodies is no longer supported by current information, so a date cannot be provided.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 140.6
+    },
+    "conv1_q033": {
+      "response": "The premise that Jon attended networking events for his store is no longer valid—current information shows he has moved away from running a store, and there is no evidence of any such visits, so the dates cannot be provided.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 101.1
+    },
+    "conv1_q034": {
+      "response": "The claim that Gina is recognized by fashion editors is no longer supported by current information, so we cannot provide a date for when that recognition began.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 114.0
+    },
+    "conv1_q035": {
+      "response": "The available information confirms that Jon started learning marketing and analytics tools, but it does not specify the date.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 52.4
+    },
+    "conv1_q036": {
+      "response": "There’s no current information confirming when Jon and Gina decided to collaborate on dance content, so the date cannot be provided.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 137.4
+    },
+    "conv1_q037": {
+      "response": "There is no available information indicating when, or even if, Gina mentioned Shia Labeouf.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 98.6
+    },
+    "conv1_q038": {
+      "response": "I don’t have information about when Gina attended a dance class with friends, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.6
+    },
+    "conv1_q039": {
+      "response": "I don’t have information about Gina’s favorite style of dance.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 61.3
+    },
+    "conv1_q040": {
+      "response": "I don't have information about Jon's favorite style of dance.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.6
+    },
+    "conv1_q041": {
+      "response": "I don’t have any information about Gina’s favorite dancing memory.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 84.0
+    },
+    "conv1_q042": {
+      "response": "I don’t have any confirmed information about what kind of dance piece Gina’s team performed or whether they won first place, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 115.5
+    },
+    "conv1_q043": {
+      "response": "I’m sorry, but I don’t have enough information about the photo to explain what the dancers represent.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 73.7
+    },
+    "conv1_q044": {
+      "response": "I don’t have any current information about what Gina said regarding the dancers in the photo, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 223.3
+    },
+    "conv1_q045": {
+      "response": "I don’t have current information about Jon’s attitude toward the dance festival, and the previous statements about his view are no longer reliable.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 263.2
+    },
+    "conv1_q046": {
+      "response": "I don’t have any current information about the type of flooring Jon is looking for in his dance studio.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 224.7
+    },
+    "conv1_q047": {
+      "response": "I don’t have any confirmed information about what Gina found for her clothing store on 1 February 2023.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 190.2
+    },
+    "conv1_q048": {
+      "response": "There’s no current information about a specific design Gina created for her store; the only up‑to‑date detail is that she is now collaborating with a local artist on designs.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 198.4
+    },
+    "conv1_q049": {
+      "response": "I don’t have information about what Gina wanted her customers to feel in her store.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 89.1
+    },
+    "conv1_q050": {
+      "response": "I don’t have any current information about something Jon said regarding Gina’s store progress, so I can’t provide that detail.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 165.1
+    },
+    "conv1_q051": {
+      "response": "I’m sorry, but I don’t have information about what motivated Gina’s choices for her store’s furniture and décor.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 120.1
+    },
+    "conv1_q052": {
+      "response": "I’m not able to provide Jon’s comment because there’s no available information about what he said on that topic.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 60.4
+    },
+    "conv1_q053": {
+      "response": "I don’t have any current information about what Gina said regarding creating an experience for her customers.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 62.8
+    },
+    "conv1_q054": {
+      "response": "Gina's store is operational and doing well—recently acquiring new unique pieces suggests a positive performance.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 58.3
+    },
+    "conv1_q055": {
+      "response": "I don’t have enough information about Gina’s tattoo to determine what it symbolizes.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 126.1
+    },
+    "conv1_q056": {
+      "response": "I’m not able to provide that detail because there’s no current information on what Jon and Gina compared their entrepreneurial journeys to.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 98.1
+    },
+    "conv1_q057": {
+      "response": "I don’t have any information indicating that Gina actually gave Jon advice on running a successful business, so I can’t provide the specific advice you’re asking for.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.8
+    },
+    "conv1_q058": {
+      "response": "The claim that Jon shut down his bank account is no longer supported—current information shows he now needs a functional account for his dance studio, making the shutdown premise unsafe. Therefore, we can’t provide a reason for the shutdown.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 146.6
+    },
+    "conv1_q059": {
+      "response": "The claim that Gina combined her clothing business with dance is no longer supported by the current information; her recent activities focus on launching a dance studio, developing an online platform for it, and mentoring dancers, with no mention of merging it with a clothing business.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 501.4
+    },
+    "conv1_q060": {
+      "response": "I don’t have current information confirming that Jon dances, so I can’t say what his dance would make him.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.9
+    },
+    "conv1_q061": {
+      "response": "I’m not aware of any information about what Gina received from a dance contest.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 163.1
+    },
+    "conv1_q062": {
+      "response": "Gina’s confidence now comes from the momentum she’s building: encouragement from others keeps her motivated, she’s rehearsing intensively while developing and fine‑tuning her business plan and investor pitch, she’s attracting new leads and attention from fashion editors, and a temporary job is covering expenses as she pursues investors.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 148.0
+    },
+    "conv1_q063": {
+      "response": "The claim that Gina was accepted for a professional experience on May 23 2023 is no longer supported by any current record, so we cannot provide the type of experience.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 118.8
+    },
+    "conv1_q064": {
+      "response": "I don’t have current information about a fashion internship for Gina, so I can’t provide its location.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 134.7
+    },
+    "conv1_q065": {
+      "response": "I don’t have current information on which book Jon is reading.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 198.4
+    },
+    "conv1_q066": {
+      "response": "Jon is currently offering one‑on‑one mentoring and training for the dancers at his studio.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 56.2
+    },
+    "conv1_q067": {
+      "response": "I’m not aware of any details on how Jon uses a clipboard with a notepad attached; there’s no current information to describe that setup.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 109.0
+    },
+    "conv1_q068": {
+      "response": "I’m unable to determine what Jon tells Gina he won’t do because there’s no current information confirming that premise.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 60.3
+    },
+    "conv1_q069": {
+      "response": "I’m not able to determine the purpose of Jon’s trip to Rome because there’s no current information confirming that trip or its reason.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 72.9
+    },
+    "conv1_q070": {
+      "response": "Jon is currently working on opening a dance studio.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 62.9
+    },
+    "conv1_q071": {
+      "response": "I’m unable to provide Gina’s description of Jon’s studio because the prior information about the studio’s status is outdated and no current description is available.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 175.1
+    },
+    "conv1_q072": {
+      "response": "I don’t have current information about Jon’s feelings toward the opening night, so I can’t say how he feels.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 178.7
+    },
+    "conv1_q073": {
+      "response": "There is no available information describing how Gina characterizes the feeling that dance brings.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.4
+    },
+    "conv1_q074": {
+      "response": "I don’t have any current information about what Jon plans to do at the grand opening; the only up‑to‑date fact is that he’s developing an online platform to showcase the studio.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 146.9
+    },
+    "conv1_q075": {
+      "response": "I’m sorry, but I don’t have any information about what Gina says to Jon regarding the grand opening.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 42.8
+    },
+    "conv1_q076": {
+      "response": "I don’t have current information about how people feel regarding the upcoming grand opening, so I can’t provide a general sentiment.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 64.4
+    },
+    "conv1_q077": {
+      "response": "I’m not aware of any information about what Gina made a limited‑edition line of.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.2
+    },
+    "conv1_q078": {
+      "response": "I’m not aware of any statement from Gina describing why Jon would be a perfect mentor and guide.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 52.7
+    },
+    "conv1_q080": {
+      "response": "The premise that Jon received advice at the networking event is no longer reliable, and there’s no current information about his specific plans after that advice. What we do know is that Jon currently has possible business leads, is rehearsing and working on his business plans, updating his investor pitch, and feels motivated by encouragement.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 247.2
+    },
+    "conv1_q081": {
+      "response": "I’m sorry, but I don’t have any information about an offer that Gina makes to Jon regarding social media.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.2
+    }
+  },
+  "profile_snapshot_size": 71047,
+  "elapsed_seconds": 7075.7,
+  "usage_summary": {
+    "total_calls": 593,
+    "cache_hits": 80,
+    "cache_misses": 513,
+    "logical_usage": {
+      "prompt_tokens": 1950795,
+      "completion_tokens": 322717,
+      "total_tokens": 2273512
+    },
+    "billed_usage": {
+      "prompt_tokens": 1823960,
+      "completion_tokens": 272750,
+      "total_tokens": 2096710
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 19,
+        "cache_hits": 19,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 49845,
+          "completion_tokens": 18646,
+          "total_tokens": 68491
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "delta_extractor": {
+        "calls": 19,
+        "cache_hits": 5,
+        "cache_misses": 14,
+        "logical_usage": {
+          "prompt_tokens": 72607,
+          "completion_tokens": 11449,
+          "total_tokens": 84056
+        },
+        "billed_usage": {
+          "prompt_tokens": 64893,
+          "completion_tokens": 8653,
+          "total_tokens": 73546
+        }
+      },
+      "update_judge": {
+        "calls": 39,
+        "cache_hits": 8,
+        "cache_misses": 31,
+        "logical_usage": {
+          "prompt_tokens": 95175,
+          "completion_tokens": 13042,
+          "total_tokens": 108217
+        },
+        "billed_usage": {
+          "prompt_tokens": 84960,
+          "completion_tokens": 11373,
+          "total_tokens": 96333
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 19,
+        "cache_hits": 5,
+        "cache_misses": 14,
+        "logical_usage": {
+          "prompt_tokens": 34284,
+          "completion_tokens": 14969,
+          "total_tokens": 49253
+        },
+        "billed_usage": {
+          "prompt_tokens": 25366,
+          "completion_tokens": 10889,
+          "total_tokens": 36255
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 97,
+        "cache_hits": 0,
+        "cache_misses": 97,
+        "logical_usage": {
+          "prompt_tokens": 292944,
+          "completion_tokens": 56007,
+          "total_tokens": 348951
+        },
+        "billed_usage": {
+          "prompt_tokens": 292944,
+          "completion_tokens": 56007,
+          "total_tokens": 348951
+        }
+      },
+      "invalidation_judge": {
+        "calls": 36,
+        "cache_hits": 0,
+        "cache_misses": 36,
+        "logical_usage": {
+          "prompt_tokens": 100136,
+          "completion_tokens": 18807,
+          "total_tokens": 118943
+        },
+        "billed_usage": {
+          "prompt_tokens": 100136,
+          "completion_tokens": 18807,
+          "total_tokens": 118943
+        }
+      },
+      "stale_support_judge": {
+        "calls": 144,
+        "cache_hits": 0,
+        "cache_misses": 144,
+        "logical_usage": {
+          "prompt_tokens": 133280,
+          "completion_tokens": 47245,
+          "total_tokens": 180525
+        },
+        "billed_usage": {
+          "prompt_tokens": 133280,
+          "completion_tokens": 47245,
+          "total_tokens": 180525
+        }
+      },
+      "query_parser": {
+        "calls": 29,
+        "cache_hits": 1,
+        "cache_misses": 28,
+        "logical_usage": {
+          "prompt_tokens": 42331,
+          "completion_tokens": 21865,
+          "total_tokens": 64196
+        },
+        "billed_usage": {
+          "prompt_tokens": 40870,
+          "completion_tokens": 21300,
+          "total_tokens": 62170
+        }
+      },
+      "premise_verifier": {
+        "calls": 29,
+        "cache_hits": 0,
+        "cache_misses": 29,
+        "logical_usage": {
+          "prompt_tokens": 441852,
+          "completion_tokens": 28540,
+          "total_tokens": 470392
+        },
+        "billed_usage": {
+          "prompt_tokens": 441852,
+          "completion_tokens": 28540,
+          "total_tokens": 470392
+        }
+      },
+      "query_lane_filter": {
+        "calls": 106,
+        "cache_hits": 42,
+        "cache_misses": 64,
+        "logical_usage": {
+          "prompt_tokens": 124521,
+          "completion_tokens": 59738,
+          "total_tokens": 184259
+        },
+        "billed_usage": {
+          "prompt_tokens": 75839,
+          "completion_tokens": 37527,
+          "total_tokens": 113366
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 27,
+        "cache_hits": 0,
+        "cache_misses": 27,
+        "logical_usage": {
+          "prompt_tokens": 523676,
+          "completion_tokens": 26724,
+          "total_tokens": 550400
+        },
+        "billed_usage": {
+          "prompt_tokens": 523676,
+          "completion_tokens": 26724,
+          "total_tokens": 550400
+        }
+      },
+      "answer_composer": {
+        "calls": 29,
+        "cache_hits": 0,
+        "cache_misses": 29,
+        "logical_usage": {
+          "prompt_tokens": 40144,
+          "completion_tokens": 5685,
+          "total_tokens": 45829
+        },
+        "billed_usage": {
+          "prompt_tokens": 40144,
+          "completion_tokens": 5685,
+          "total_tokens": 45829
+        }
+      }
+    },
+    "by_query_label": {
+      "conv1_q052": {
+        "calls": 4,
+        "cache_hits": 1,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 42528,
+          "completion_tokens": 1879,
+          "total_tokens": 44407
+        },
+        "billed_usage": {
+          "prompt_tokens": 41067,
+          "completion_tokens": 1314,
+          "total_tokens": 42381
+        }
+      },
+      "conv1_q053": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35435,
+          "completion_tokens": 2103,
+          "total_tokens": 37538
+        },
+        "billed_usage": {
+          "prompt_tokens": 35435,
+          "completion_tokens": 2103,
+          "total_tokens": 37538
+        }
+      },
+      "conv1_q054": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 21812,
+          "completion_tokens": 2409,
+          "total_tokens": 24221
+        },
+        "billed_usage": {
+          "prompt_tokens": 21812,
+          "completion_tokens": 2409,
+          "total_tokens": 24221
+        }
+      },
+      "conv1_q055": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32475,
+          "completion_tokens": 2005,
+          "total_tokens": 34480
+        },
+        "billed_usage": {
+          "prompt_tokens": 32475,
+          "completion_tokens": 2005,
+          "total_tokens": 34480
+        }
+      },
+      "conv1_q056": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38720,
+          "completion_tokens": 2160,
+          "total_tokens": 40880
+        },
+        "billed_usage": {
+          "prompt_tokens": 38720,
+          "completion_tokens": 2160,
+          "total_tokens": 40880
+        }
+      },
+      "conv1_q057": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31828,
+          "completion_tokens": 2535,
+          "total_tokens": 34363
+        },
+        "billed_usage": {
+          "prompt_tokens": 31828,
+          "completion_tokens": 2535,
+          "total_tokens": 34363
+        }
+      },
+      "conv1_q058": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33611,
+          "completion_tokens": 3324,
+          "total_tokens": 36935
+        },
+        "billed_usage": {
+          "prompt_tokens": 33611,
+          "completion_tokens": 3324,
+          "total_tokens": 36935
+        }
+      },
+      "conv1_q059": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35954,
+          "completion_tokens": 4924,
+          "total_tokens": 40878
+        },
+        "billed_usage": {
+          "prompt_tokens": 35954,
+          "completion_tokens": 4924,
+          "total_tokens": 40878
+        }
+      },
+      "conv1_q060": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39190,
+          "completion_tokens": 2199,
+          "total_tokens": 41389
+        },
+        "billed_usage": {
+          "prompt_tokens": 39190,
+          "completion_tokens": 2199,
+          "total_tokens": 41389
+        }
+      },
+      "conv1_q061": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38548,
+          "completion_tokens": 2545,
+          "total_tokens": 41093
+        },
+        "billed_usage": {
+          "prompt_tokens": 38548,
+          "completion_tokens": 2545,
+          "total_tokens": 41093
+        }
+      },
+      "conv1_q062": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30654,
+          "completion_tokens": 4481,
+          "total_tokens": 35135
+        },
+        "billed_usage": {
+          "prompt_tokens": 30654,
+          "completion_tokens": 4481,
+          "total_tokens": 35135
+        }
+      },
+      "conv1_q063": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39987,
+          "completion_tokens": 3426,
+          "total_tokens": 43413
+        },
+        "billed_usage": {
+          "prompt_tokens": 39987,
+          "completion_tokens": 3426,
+          "total_tokens": 43413
+        }
+      },
+      "conv1_q064": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37684,
+          "completion_tokens": 2909,
+          "total_tokens": 40593
+        },
+        "billed_usage": {
+          "prompt_tokens": 37684,
+          "completion_tokens": 2909,
+          "total_tokens": 40593
+        }
+      },
+      "conv1_q065": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35823,
+          "completion_tokens": 2297,
+          "total_tokens": 38120
+        },
+        "billed_usage": {
+          "prompt_tokens": 35823,
+          "completion_tokens": 2297,
+          "total_tokens": 38120
+        }
+      },
+      "conv1_q066": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40523,
+          "completion_tokens": 3037,
+          "total_tokens": 43560
+        },
+        "billed_usage": {
+          "prompt_tokens": 40523,
+          "completion_tokens": 3037,
+          "total_tokens": 43560
+        }
+      },
+      "conv1_q067": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36834,
+          "completion_tokens": 2345,
+          "total_tokens": 39179
+        },
+        "billed_usage": {
+          "prompt_tokens": 36834,
+          "completion_tokens": 2345,
+          "total_tokens": 39179
+        }
+      },
+      "conv1_q068": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34026,
+          "completion_tokens": 2117,
+          "total_tokens": 36143
+        },
+        "billed_usage": {
+          "prompt_tokens": 34026,
+          "completion_tokens": 2117,
+          "total_tokens": 36143
+        }
+      },
+      "conv1_q069": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37130,
+          "completion_tokens": 2422,
+          "total_tokens": 39552
+        },
+        "billed_usage": {
+          "prompt_tokens": 37130,
+          "completion_tokens": 2422,
+          "total_tokens": 39552
+        }
+      },
+      "conv1_q070": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 21784,
+          "completion_tokens": 2244,
+          "total_tokens": 24028
+        },
+        "billed_usage": {
+          "prompt_tokens": 21784,
+          "completion_tokens": 2244,
+          "total_tokens": 24028
+        }
+      },
+      "conv1_q071": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39733,
+          "completion_tokens": 3157,
+          "total_tokens": 42890
+        },
+        "billed_usage": {
+          "prompt_tokens": 39733,
+          "completion_tokens": 3157,
+          "total_tokens": 42890
+        }
+      },
+      "conv1_q072": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41406,
+          "completion_tokens": 3956,
+          "total_tokens": 45362
+        },
+        "billed_usage": {
+          "prompt_tokens": 41406,
+          "completion_tokens": 3956,
+          "total_tokens": 45362
+        }
+      },
+      "conv1_q073": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32945,
+          "completion_tokens": 2635,
+          "total_tokens": 35580
+        },
+        "billed_usage": {
+          "prompt_tokens": 32945,
+          "completion_tokens": 2635,
+          "total_tokens": 35580
+        }
+      },
+      "conv1_q074": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44997,
+          "completion_tokens": 5787,
+          "total_tokens": 50784
+        },
+        "billed_usage": {
+          "prompt_tokens": 44997,
+          "completion_tokens": 5787,
+          "total_tokens": 50784
+        }
+      },
+      "conv1_q075": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 47031,
+          "completion_tokens": 2044,
+          "total_tokens": 49075
+        },
+        "billed_usage": {
+          "prompt_tokens": 47031,
+          "completion_tokens": 2044,
+          "total_tokens": 49075
+        }
+      },
+      "conv1_q076": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43229,
+          "completion_tokens": 2665,
+          "total_tokens": 45894
+        },
+        "billed_usage": {
+          "prompt_tokens": 43229,
+          "completion_tokens": 2665,
+          "total_tokens": 45894
+        }
+      },
+      "conv1_q077": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 29994,
+          "completion_tokens": 2614,
+          "total_tokens": 32608
+        },
+        "billed_usage": {
+          "prompt_tokens": 29994,
+          "completion_tokens": 2614,
+          "total_tokens": 32608
+        }
+      },
+      "conv1_q078": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34690,
+          "completion_tokens": 2257,
+          "total_tokens": 36947
+        },
+        "billed_usage": {
+          "prompt_tokens": 34690,
+          "completion_tokens": 2257,
+          "total_tokens": 36947
+        }
+      },
+      "conv1_q080": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37171,
+          "completion_tokens": 4120,
+          "total_tokens": 41291
+        },
+        "billed_usage": {
+          "prompt_tokens": 37171,
+          "completion_tokens": 4120,
+          "total_tokens": 41291
+        }
+      },
+      "conv1_q081": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32261,
+          "completion_tokens": 2218,
+          "total_tokens": 34479
+        },
+        "billed_usage": {
+          "prompt_tokens": 32261,
+          "completion_tokens": 2218,
+          "total_tokens": 34479
+        }
+      }
+    }
+  }
+}

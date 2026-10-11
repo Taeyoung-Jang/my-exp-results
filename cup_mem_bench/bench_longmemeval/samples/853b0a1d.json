@@ -1,0 +1,227 @@
+{
+  "uid": "853b0a1d",
+  "num_sessions": 52,
+  "answers": {
+    "853b0a1d": {
+      "response": "I’m unable to determine how old you were when your grandma gave you the silver necklace because I don’t have your birthdate or the date of the gifting.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 167.3
+    }
+  },
+  "profile_snapshot_size": 79073,
+  "elapsed_seconds": 5304.2,
+  "usage_summary": {
+    "total_calls": 682,
+    "cache_hits": 57,
+    "cache_misses": 625,
+    "logical_usage": {
+      "prompt_tokens": 1638752,
+      "completion_tokens": 334366,
+      "total_tokens": 1973118
+    },
+    "billed_usage": {
+      "prompt_tokens": 1538561,
+      "completion_tokens": 299408,
+      "total_tokens": 1837969
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 52,
+        "cache_hits": 30,
+        "cache_misses": 22,
+        "logical_usage": {
+          "prompt_tokens": 100507,
+          "completion_tokens": 34463,
+          "total_tokens": 134970
+        },
+        "billed_usage": {
+          "prompt_tokens": 41585,
+          "completion_tokens": 12844,
+          "total_tokens": 54429
+        }
+      },
+      "delta_extractor": {
+        "calls": 40,
+        "cache_hits": 9,
+        "cache_misses": 31,
+        "logical_usage": {
+          "prompt_tokens": 133290,
+          "completion_tokens": 21286,
+          "total_tokens": 154576
+        },
+        "billed_usage": {
+          "prompt_tokens": 119027,
+          "completion_tokens": 16143,
+          "total_tokens": 135170
+        }
+      },
+      "update_judge": {
+        "calls": 69,
+        "cache_hits": 9,
+        "cache_misses": 60,
+        "logical_usage": {
+          "prompt_tokens": 185834,
+          "completion_tokens": 19156,
+          "total_tokens": 204990
+        },
+        "billed_usage": {
+          "prompt_tokens": 174290,
+          "completion_tokens": 17313,
+          "total_tokens": 191603
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 37,
+        "cache_hits": 9,
+        "cache_misses": 28,
+        "logical_usage": {
+          "prompt_tokens": 64657,
+          "completion_tokens": 28052,
+          "total_tokens": 92709
+        },
+        "billed_usage": {
+          "prompt_tokens": 49195,
+          "completion_tokens": 21699,
+          "total_tokens": 70894
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 188,
+        "cache_hits": 0,
+        "cache_misses": 188,
+        "logical_usage": {
+          "prompt_tokens": 674071,
+          "completion_tokens": 127697,
+          "total_tokens": 801768
+        },
+        "billed_usage": {
+          "prompt_tokens": 674071,
+          "completion_tokens": 127697,
+          "total_tokens": 801768
+        }
+      },
+      "invalidation_judge": {
+        "calls": 61,
+        "cache_hits": 0,
+        "cache_misses": 61,
+        "logical_usage": {
+          "prompt_tokens": 210594,
+          "completion_tokens": 33413,
+          "total_tokens": 244007
+        },
+        "billed_usage": {
+          "prompt_tokens": 210594,
+          "completion_tokens": 33413,
+          "total_tokens": 244007
+        }
+      },
+      "stale_support_judge": {
+        "calls": 227,
+        "cache_hits": 0,
+        "cache_misses": 227,
+        "logical_usage": {
+          "prompt_tokens": 224739,
+          "completion_tokens": 65416,
+          "total_tokens": 290155
+        },
+        "billed_usage": {
+          "prompt_tokens": 224739,
+          "completion_tokens": 65416,
+          "total_tokens": 290155
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 1169,
+          "total_tokens": 2649
+        },
+        "billed_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 1169,
+          "total_tokens": 2649
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 16738,
+          "completion_tokens": 763,
+          "total_tokens": 17501
+        },
+        "billed_usage": {
+          "prompt_tokens": 16738,
+          "completion_tokens": 763,
+          "total_tokens": 17501
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 4728,
+          "completion_tokens": 1655,
+          "total_tokens": 6383
+        },
+        "billed_usage": {
+          "prompt_tokens": 4728,
+          "completion_tokens": 1655,
+          "total_tokens": 6383
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 20990,
+          "completion_tokens": 1101,
+          "total_tokens": 22091
+        },
+        "billed_usage": {
+          "prompt_tokens": 20990,
+          "completion_tokens": 1101,
+          "total_tokens": 22091
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1124,
+          "completion_tokens": 195,
+          "total_tokens": 1319
+        },
+        "billed_usage": {
+          "prompt_tokens": 1124,
+          "completion_tokens": 195,
+          "total_tokens": 1319
+        }
+      }
+    },
+    "by_query_label": {
+      "853b0a1d": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40332,
+          "completion_tokens": 3228,
+          "total_tokens": 43560
+        },
+        "billed_usage": {
+          "prompt_tokens": 40332,
+          "completion_tokens": 3228,
+          "total_tokens": 43560
+        }
+      }
+    }
+  }
+}

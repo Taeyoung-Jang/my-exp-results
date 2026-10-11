@@ -1,0 +1,212 @@
+{
+  "uid": "d682f1a2",
+  "num_sessions": 47,
+  "answers": {
+    "d682f1a2": {
+      "response": "Based on the current information, you have used one food‑delivery service recently – Fresh Fusion.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 110.8
+    }
+  },
+  "profile_snapshot_size": 72137,
+  "elapsed_seconds": 5707.3,
+  "usage_summary": {
+    "total_calls": 627,
+    "cache_hits": 0,
+    "cache_misses": 627,
+    "logical_usage": {
+      "prompt_tokens": 1404505,
+      "completion_tokens": 295719,
+      "total_tokens": 1700224
+    },
+    "billed_usage": {
+      "prompt_tokens": 1404505,
+      "completion_tokens": 295719,
+      "total_tokens": 1700224
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 47,
+        "cache_hits": 0,
+        "cache_misses": 47,
+        "logical_usage": {
+          "prompt_tokens": 93445,
+          "completion_tokens": 32255,
+          "total_tokens": 125700
+        },
+        "billed_usage": {
+          "prompt_tokens": 93445,
+          "completion_tokens": 32255,
+          "total_tokens": 125700
+        }
+      },
+      "delta_extractor": {
+        "calls": 36,
+        "cache_hits": 0,
+        "cache_misses": 36,
+        "logical_usage": {
+          "prompt_tokens": 108707,
+          "completion_tokens": 19282,
+          "total_tokens": 127989
+        },
+        "billed_usage": {
+          "prompt_tokens": 108707,
+          "completion_tokens": 19282,
+          "total_tokens": 127989
+        }
+      },
+      "update_judge": {
+        "calls": 61,
+        "cache_hits": 0,
+        "cache_misses": 61,
+        "logical_usage": {
+          "prompt_tokens": 172908,
+          "completion_tokens": 17185,
+          "total_tokens": 190093
+        },
+        "billed_usage": {
+          "prompt_tokens": 172908,
+          "completion_tokens": 17185,
+          "total_tokens": 190093
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 34,
+        "cache_hits": 0,
+        "cache_misses": 34,
+        "logical_usage": {
+          "prompt_tokens": 59216,
+          "completion_tokens": 23836,
+          "total_tokens": 83052
+        },
+        "billed_usage": {
+          "prompt_tokens": 59216,
+          "completion_tokens": 23836,
+          "total_tokens": 83052
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 162,
+        "cache_hits": 0,
+        "cache_misses": 162,
+        "logical_usage": {
+          "prompt_tokens": 541160,
+          "completion_tokens": 106704,
+          "total_tokens": 647864
+        },
+        "billed_usage": {
+          "prompt_tokens": 541160,
+          "completion_tokens": 106704,
+          "total_tokens": 647864
+        }
+      },
+      "invalidation_judge": {
+        "calls": 60,
+        "cache_hits": 0,
+        "cache_misses": 60,
+        "logical_usage": {
+          "prompt_tokens": 183478,
+          "completion_tokens": 27926,
+          "total_tokens": 211404
+        },
+        "billed_usage": {
+          "prompt_tokens": 183478,
+          "completion_tokens": 27926,
+          "total_tokens": 211404
+        }
+      },
+      "stale_support_judge": {
+        "calls": 223,
+        "cache_hits": 0,
+        "cache_misses": 223,
+        "logical_usage": {
+          "prompt_tokens": 210564,
+          "completion_tokens": 65283,
+          "total_tokens": 275847
+        },
+        "billed_usage": {
+          "prompt_tokens": 210564,
+          "completion_tokens": 65283,
+          "total_tokens": 275847
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 731,
+          "total_tokens": 2211
+        },
+        "billed_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 731,
+          "total_tokens": 2211
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 14158,
+          "completion_tokens": 1087,
+          "total_tokens": 15245
+        },
+        "billed_usage": {
+          "prompt_tokens": 14158,
+          "completion_tokens": 1087,
+          "total_tokens": 15245
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 17864,
+          "completion_tokens": 1206,
+          "total_tokens": 19070
+        },
+        "billed_usage": {
+          "prompt_tokens": 17864,
+          "completion_tokens": 1206,
+          "total_tokens": 19070
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1525,
+          "completion_tokens": 224,
+          "total_tokens": 1749
+        },
+        "billed_usage": {
+          "prompt_tokens": 1525,
+          "completion_tokens": 224,
+          "total_tokens": 1749
+        }
+      }
+    },
+    "by_query_label": {
+      "d682f1a2": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35027,
+          "completion_tokens": 3248,
+          "total_tokens": 38275
+        },
+        "billed_usage": {
+          "prompt_tokens": 35027,
+          "completion_tokens": 3248,
+          "total_tokens": 38275
+        }
+      }
+    }
+  }
+}

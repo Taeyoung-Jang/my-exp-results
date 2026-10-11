@@ -1,0 +1,227 @@
+{
+  "uid": "80ec1f4f_abs",
+  "num_sessions": 44,
+  "answers": {
+    "80ec1f4f_abs": {
+      "response": "I don’t have any record of the museums or galleries you visited in December, so I can’t determine the count. Could you provide that information?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 55.8
+    }
+  },
+  "profile_snapshot_size": 90355,
+  "elapsed_seconds": 6929.9,
+  "usage_summary": {
+    "total_calls": 707,
+    "cache_hits": 3,
+    "cache_misses": 704,
+    "logical_usage": {
+      "prompt_tokens": 1858855,
+      "completion_tokens": 354269,
+      "total_tokens": 2213124
+    },
+    "billed_usage": {
+      "prompt_tokens": 1854280,
+      "completion_tokens": 352755,
+      "total_tokens": 2207035
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 44,
+        "cache_hits": 1,
+        "cache_misses": 43,
+        "logical_usage": {
+          "prompt_tokens": 91267,
+          "completion_tokens": 36720,
+          "total_tokens": 127987
+        },
+        "billed_usage": {
+          "prompt_tokens": 89057,
+          "completion_tokens": 35991,
+          "total_tokens": 125048
+        }
+      },
+      "delta_extractor": {
+        "calls": 40,
+        "cache_hits": 0,
+        "cache_misses": 40,
+        "logical_usage": {
+          "prompt_tokens": 162616,
+          "completion_tokens": 22667,
+          "total_tokens": 185283
+        },
+        "billed_usage": {
+          "prompt_tokens": 162616,
+          "completion_tokens": 22667,
+          "total_tokens": 185283
+        }
+      },
+      "update_judge": {
+        "calls": 71,
+        "cache_hits": 0,
+        "cache_misses": 71,
+        "logical_usage": {
+          "prompt_tokens": 234447,
+          "completion_tokens": 19982,
+          "total_tokens": 254429
+        },
+        "billed_usage": {
+          "prompt_tokens": 234447,
+          "completion_tokens": 19982,
+          "total_tokens": 254429
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 39,
+        "cache_hits": 0,
+        "cache_misses": 39,
+        "logical_usage": {
+          "prompt_tokens": 68546,
+          "completion_tokens": 29140,
+          "total_tokens": 97686
+        },
+        "billed_usage": {
+          "prompt_tokens": 68546,
+          "completion_tokens": 29140,
+          "total_tokens": 97686
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 188,
+        "cache_hits": 0,
+        "cache_misses": 188,
+        "logical_usage": {
+          "prompt_tokens": 723248,
+          "completion_tokens": 131470,
+          "total_tokens": 854718
+        },
+        "billed_usage": {
+          "prompt_tokens": 723248,
+          "completion_tokens": 131470,
+          "total_tokens": 854718
+        }
+      },
+      "invalidation_judge": {
+        "calls": 71,
+        "cache_hits": 0,
+        "cache_misses": 71,
+        "logical_usage": {
+          "prompt_tokens": 277442,
+          "completion_tokens": 37625,
+          "total_tokens": 315067
+        },
+        "billed_usage": {
+          "prompt_tokens": 277442,
+          "completion_tokens": 37625,
+          "total_tokens": 315067
+        }
+      },
+      "stale_support_judge": {
+        "calls": 246,
+        "cache_hits": 0,
+        "cache_misses": 246,
+        "logical_usage": {
+          "prompt_tokens": 246586,
+          "completion_tokens": 71813,
+          "total_tokens": 318399
+        },
+        "billed_usage": {
+          "prompt_tokens": 246586,
+          "completion_tokens": 71813,
+          "total_tokens": 318399
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 982,
+          "total_tokens": 2461
+        },
+        "billed_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 982,
+          "total_tokens": 2461
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 21204,
+          "completion_tokens": 995,
+          "total_tokens": 22199
+        },
+        "billed_usage": {
+          "prompt_tokens": 21204,
+          "completion_tokens": 995,
+          "total_tokens": 22199
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4730,
+          "completion_tokens": 1570,
+          "total_tokens": 6300
+        },
+        "billed_usage": {
+          "prompt_tokens": 2365,
+          "completion_tokens": 785,
+          "total_tokens": 3150
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 26059,
+          "completion_tokens": 1036,
+          "total_tokens": 27095
+        },
+        "billed_usage": {
+          "prompt_tokens": 26059,
+          "completion_tokens": 1036,
+          "total_tokens": 27095
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1231,
+          "completion_tokens": 269,
+          "total_tokens": 1500
+        },
+        "billed_usage": {
+          "prompt_tokens": 1231,
+          "completion_tokens": 269,
+          "total_tokens": 1500
+        }
+      }
+    },
+    "by_query_label": {
+      "80ec1f4f_abs": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 49973,
+          "completion_tokens": 3282,
+          "total_tokens": 53255
+        },
+        "billed_usage": {
+          "prompt_tokens": 49973,
+          "completion_tokens": 3282,
+          "total_tokens": 53255
+        }
+      }
+    }
+  }
+}

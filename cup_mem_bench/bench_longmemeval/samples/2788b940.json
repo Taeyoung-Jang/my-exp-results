@@ -1,0 +1,212 @@
+{
+  "uid": "2788b940",
+  "num_sessions": 47,
+  "answers": {
+    "2788b940": {
+      "response": "You attend two fitness classes each week—a yoga class on Sundays and a Hip Hop Abs class on Saturdays.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 86.3
+    }
+  },
+  "profile_snapshot_size": 90595,
+  "elapsed_seconds": 6784.6,
+  "usage_summary": {
+    "total_calls": 727,
+    "cache_hits": 0,
+    "cache_misses": 727,
+    "logical_usage": {
+      "prompt_tokens": 1812125,
+      "completion_tokens": 354035,
+      "total_tokens": 2166160
+    },
+    "billed_usage": {
+      "prompt_tokens": 1812125,
+      "completion_tokens": 354035,
+      "total_tokens": 2166160
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 47,
+        "cache_hits": 0,
+        "cache_misses": 47,
+        "logical_usage": {
+          "prompt_tokens": 92331,
+          "completion_tokens": 35168,
+          "total_tokens": 127499
+        },
+        "billed_usage": {
+          "prompt_tokens": 92331,
+          "completion_tokens": 35168,
+          "total_tokens": 127499
+        }
+      },
+      "delta_extractor": {
+        "calls": 41,
+        "cache_hits": 0,
+        "cache_misses": 41,
+        "logical_usage": {
+          "prompt_tokens": 176449,
+          "completion_tokens": 22621,
+          "total_tokens": 199070
+        },
+        "billed_usage": {
+          "prompt_tokens": 176449,
+          "completion_tokens": 22621,
+          "total_tokens": 199070
+        }
+      },
+      "update_judge": {
+        "calls": 72,
+        "cache_hits": 0,
+        "cache_misses": 72,
+        "logical_usage": {
+          "prompt_tokens": 234212,
+          "completion_tokens": 21275,
+          "total_tokens": 255487
+        },
+        "billed_usage": {
+          "prompt_tokens": 234212,
+          "completion_tokens": 21275,
+          "total_tokens": 255487
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 39,
+        "cache_hits": 0,
+        "cache_misses": 39,
+        "logical_usage": {
+          "prompt_tokens": 68961,
+          "completion_tokens": 28171,
+          "total_tokens": 97132
+        },
+        "billed_usage": {
+          "prompt_tokens": 68961,
+          "completion_tokens": 28171,
+          "total_tokens": 97132
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 194,
+        "cache_hits": 0,
+        "cache_misses": 194,
+        "logical_usage": {
+          "prompt_tokens": 702204,
+          "completion_tokens": 126610,
+          "total_tokens": 828814
+        },
+        "billed_usage": {
+          "prompt_tokens": 702204,
+          "completion_tokens": 126610,
+          "total_tokens": 828814
+        }
+      },
+      "invalidation_judge": {
+        "calls": 69,
+        "cache_hits": 0,
+        "cache_misses": 69,
+        "logical_usage": {
+          "prompt_tokens": 235223,
+          "completion_tokens": 37329,
+          "total_tokens": 272552
+        },
+        "billed_usage": {
+          "prompt_tokens": 235223,
+          "completion_tokens": 37329,
+          "total_tokens": 272552
+        }
+      },
+      "stale_support_judge": {
+        "calls": 261,
+        "cache_hits": 0,
+        "cache_misses": 261,
+        "logical_usage": {
+          "prompt_tokens": 257941,
+          "completion_tokens": 79786,
+          "total_tokens": 337727
+        },
+        "billed_usage": {
+          "prompt_tokens": 257941,
+          "completion_tokens": 79786,
+          "total_tokens": 337727
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 824,
+          "total_tokens": 2303
+        },
+        "billed_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 824,
+          "total_tokens": 2303
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18460,
+          "completion_tokens": 1012,
+          "total_tokens": 19472
+        },
+        "billed_usage": {
+          "prompt_tokens": 18460,
+          "completion_tokens": 1012,
+          "total_tokens": 19472
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 23067,
+          "completion_tokens": 1073,
+          "total_tokens": 24140
+        },
+        "billed_usage": {
+          "prompt_tokens": 23067,
+          "completion_tokens": 1073,
+          "total_tokens": 24140
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1798,
+          "completion_tokens": 166,
+          "total_tokens": 1964
+        },
+        "billed_usage": {
+          "prompt_tokens": 1798,
+          "completion_tokens": 166,
+          "total_tokens": 1964
+        }
+      }
+    },
+    "by_query_label": {
+      "2788b940": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44804,
+          "completion_tokens": 3075,
+          "total_tokens": 47879
+        },
+        "billed_usage": {
+          "prompt_tokens": 44804,
+          "completion_tokens": 3075,
+          "total_tokens": 47879
+        }
+      }
+    }
+  }
+}

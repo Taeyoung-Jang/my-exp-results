@@ -1,0 +1,212 @@
+{
+  "uid": "f8c5f88b",
+  "num_sessions": 46,
+  "answers": {
+    "f8c5f88b": {
+      "response": "You bought your new tennis racket at a downtown sports store.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 75.3
+    }
+  },
+  "profile_snapshot_size": 84528,
+  "elapsed_seconds": 5557.3,
+  "usage_summary": {
+    "total_calls": 709,
+    "cache_hits": 57,
+    "cache_misses": 652,
+    "logical_usage": {
+      "prompt_tokens": 1718931,
+      "completion_tokens": 336390,
+      "total_tokens": 2055321
+    },
+    "billed_usage": {
+      "prompt_tokens": 1618375,
+      "completion_tokens": 299185,
+      "total_tokens": 1917560
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 46,
+        "cache_hits": 31,
+        "cache_misses": 15,
+        "logical_usage": {
+          "prompt_tokens": 89621,
+          "completion_tokens": 35447,
+          "total_tokens": 125068
+        },
+        "billed_usage": {
+          "prompt_tokens": 29017,
+          "completion_tokens": 11710,
+          "total_tokens": 40727
+        }
+      },
+      "delta_extractor": {
+        "calls": 39,
+        "cache_hits": 11,
+        "cache_misses": 28,
+        "logical_usage": {
+          "prompt_tokens": 150636,
+          "completion_tokens": 22302,
+          "total_tokens": 172938
+        },
+        "billed_usage": {
+          "prompt_tokens": 133751,
+          "completion_tokens": 16130,
+          "total_tokens": 149881
+        }
+      },
+      "update_judge": {
+        "calls": 72,
+        "cache_hits": 7,
+        "cache_misses": 65,
+        "logical_usage": {
+          "prompt_tokens": 215874,
+          "completion_tokens": 21164,
+          "total_tokens": 237038
+        },
+        "billed_usage": {
+          "prompt_tokens": 206398,
+          "completion_tokens": 19893,
+          "total_tokens": 226291
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 39,
+        "cache_hits": 8,
+        "cache_misses": 31,
+        "logical_usage": {
+          "prompt_tokens": 68240,
+          "completion_tokens": 28971,
+          "total_tokens": 97211
+        },
+        "billed_usage": {
+          "prompt_tokens": 54649,
+          "completion_tokens": 22946,
+          "total_tokens": 77595
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 192,
+        "cache_hits": 0,
+        "cache_misses": 192,
+        "logical_usage": {
+          "prompt_tokens": 692655,
+          "completion_tokens": 116142,
+          "total_tokens": 808797
+        },
+        "billed_usage": {
+          "prompt_tokens": 692655,
+          "completion_tokens": 116142,
+          "total_tokens": 808797
+        }
+      },
+      "invalidation_judge": {
+        "calls": 61,
+        "cache_hits": 0,
+        "cache_misses": 61,
+        "logical_usage": {
+          "prompt_tokens": 208031,
+          "completion_tokens": 35017,
+          "total_tokens": 243048
+        },
+        "billed_usage": {
+          "prompt_tokens": 208031,
+          "completion_tokens": 35017,
+          "total_tokens": 243048
+        }
+      },
+      "stale_support_judge": {
+        "calls": 256,
+        "cache_hits": 0,
+        "cache_misses": 256,
+        "logical_usage": {
+          "prompt_tokens": 249421,
+          "completion_tokens": 75211,
+          "total_tokens": 324632
+        },
+        "billed_usage": {
+          "prompt_tokens": 249421,
+          "completion_tokens": 75211,
+          "total_tokens": 324632
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1477,
+          "completion_tokens": 827,
+          "total_tokens": 2304
+        },
+        "billed_usage": {
+          "prompt_tokens": 1477,
+          "completion_tokens": 827,
+          "total_tokens": 2304
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18757,
+          "completion_tokens": 629,
+          "total_tokens": 19386
+        },
+        "billed_usage": {
+          "prompt_tokens": 18757,
+          "completion_tokens": 629,
+          "total_tokens": 19386
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 22797,
+          "completion_tokens": 553,
+          "total_tokens": 23350
+        },
+        "billed_usage": {
+          "prompt_tokens": 22797,
+          "completion_tokens": 553,
+          "total_tokens": 23350
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1422,
+          "completion_tokens": 127,
+          "total_tokens": 1549
+        },
+        "billed_usage": {
+          "prompt_tokens": 1422,
+          "completion_tokens": 127,
+          "total_tokens": 1549
+        }
+      }
+    },
+    "by_query_label": {
+      "f8c5f88b": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 44453,
+          "completion_tokens": 2136,
+          "total_tokens": 46589
+        },
+        "billed_usage": {
+          "prompt_tokens": 44453,
+          "completion_tokens": 2136,
+          "total_tokens": 46589
+        }
+      }
+    }
+  }
+}

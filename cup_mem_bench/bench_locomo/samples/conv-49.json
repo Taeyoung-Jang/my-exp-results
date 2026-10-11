@@ -1,0 +1,2697 @@
+{
+  "uid": "conv-49",
+  "num_sessions": 25,
+  "answers": {
+    "conv8_q000": {
+      "response": "Evan's newly purchased Prius is currently broken and not operational, so he isn’t driving that car at the moment.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 113.1
+    },
+    "conv8_q001": {
+      "response": "I don’t have any current information about what kinds of things Evan has broken, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 99.9
+    },
+    "conv8_q002": {
+      "response": "I don't have enough information to say where Evan has traveled on roadtrips with his family.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 78.3
+    },
+    "conv8_q003": {
+      "response": "I don't have enough information to determine how many Priuses Evan has owned.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 100.7
+    },
+    "conv8_q004": {
+      "response": "I don’t have current information about a hobby Sam started in May 2023, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 159.7
+    },
+    "conv8_q005": {
+      "response": "I don’t have enough information to say which country Evan was visiting in May 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 156.5
+    },
+    "conv8_q006": {
+      "response": "I don’t have any record of how many roadtrips Evan took in May 2023, so I can’t provide a count.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 120.4
+    },
+    "conv8_q007": {
+      "response": "I don’t have any current information about Sam’s hobby interests, so I can’t list new hobbies he’s considering. The only recent data I have relates to the user, who is thinking about trying yoga and getting into weight training.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 140.9
+    },
+    "conv8_q008": {
+      "response": "The earlier premise that Evan started a hobby a few years ago is no longer supported by current information. The only confirmed activity is that Evan regularly follows a fitness routine he enjoys; no specific hobby he began a few years ago is documented.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 138.7
+    },
+    "conv8_q009": {
+      "response": "I don’t have any information about when (or even if) Evan went to Jasper with his family.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.2
+    },
+    "conv8_q010": {
+      "response": "Evan would likely prefer the camping trip in the outdoors.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 155.7
+    },
+    "conv8_q011": {
+      "response": "Current data do not identify a specific medical condition; they only indicate that Sam is dealing with weight struggles that are limiting his confidence.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 228.8
+    },
+    "conv8_q012": {
+      "response": "There’s no confirmed information about when Sam first saw a doctor or was diagnosed with a weight problem.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 173.8
+    },
+    "conv8_q013": {
+      "response": "There is no recorded information about when Evan experienced a sudden heart‑palpitation incident, so the date cannot be provided.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 97.0
+    },
+    "conv8_q014": {
+      "response": "We don't have a confirmed record of Evan's favorite food; the only current information indicates he enjoys soda and candy.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 96.9
+    },
+    "conv8_q015": {
+      "response": "The previous assumption that Sam enjoys unhealthy snacks is no longer valid; current information indicates Sam is actively reducing soda and candy intake, so there’s no evidence of a preference for unhealthy snacks.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 213.6
+    },
+    "conv8_q016": {
+      "response": "Sam is repeatedly frustrated by ongoing problems with the self‑checkout machines at the grocery store.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 104.3
+    },
+    "conv8_q017": {
+      "response": "I don’t have information about when Sam’s friends mocked him for being overweight.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 125.7
+    },
+    "conv8_q018": {
+      "response": "I don’t have any record of specific healthy food suggestions that Evan gave to Sam. The only current information available is that Sam is following a diet and adopting a healthier lifestyle.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 154.8
+    },
+    "conv8_q019": {
+      "response": "The assumption that we can rely on Evan and Sam’s past conversations for advice is no longer safe—the only current fact we have is that Evan is actively seeking a new job, and we have no up‑to‑date information about Sam. Therefore, any guidance would have to be limited to Evan’s present situation, such as focusing on job‑search strategies (updating a résumé, networking, setting a structured schedule, and maintaining self‑care). We can’t provide a combined Evan‑and‑Sam perspective without current evidence.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 125.0
+    },
+    "conv8_q020": {
+      "response": "The earlier assumption that both Evan and Sam are actively pursuing new health and diet changes is no longer safe. The only current fact is that Evan regularly follows a fitness routine he enjoys; we have no up‑to‑date information about Sam. Therefore I can’t recommend a joint gift that supports both of their healthy lifestyles right now. A safe step is to consider a fitness‑related item that fits Evan’s routine (e.g., a quality water bottle or a set of resistance bands) and first gather more current details about Sam’s health goals before selecting a shared gift.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 125.6
+    },
+    "conv8_q021": {
+      "response": "The earlier description of the woman Evan met in Canada and his feelings toward her is no longer reliable; the only current information is that the user just returned from a vacation in Canada with their new significant other.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 155.8
+    },
+    "conv8_q022": {
+      "response": "I don’t have information about when you met your future wife; the only current fact is that you’ve announced your marriage and are receiving support.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 85.4
+    },
+    "conv8_q023": {
+      "response": "I don’t have any information confirming that Sam works out at the gym, so I can’t determine when he might have started.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 73.4
+    },
+    "conv8_q024": {
+      "response": "I’m sorry, but I don’t have enough information to say what significant event occurred in Sam’s life toward the end of summer 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.5
+    },
+    "conv8_q025": {
+      "response": "I don’t have any information about when Evan began taking his health seriously, so I can’t provide a year.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 116.6
+    },
+    "conv8_q026": {
+      "response": "The previous premise isn’t valid any more.  Right now Evan’s motivation comes from his immediate goal to stay on track with a daily health and workout routine, plus the desire to be in good shape while actively seeking a new job.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 170.3
+    },
+    "conv8_q027": {
+      "response": "A smartwatch with activity and heart‑rate tracking would be an ideal gift—it lets Sam monitor steps, workouts, and heart rate and sync the data to health apps, directly supporting his daily fitness routine.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 129.7
+    },
+    "conv8_q028": {
+      "response": "I don’t have information about the specific kind of writing Sam does to relax or cope with his health issues.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 92.3
+    },
+    "conv8_q029": {
+      "response": "I don’t have any information about who Evan met or who he returned with, because there’s no current record of a completed trip to Canada.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 132.3
+    },
+    "conv8_q030": {
+      "response": "The premise that Evan is still on vacation is no longer valid—he has already returned from his trip, though no specific return date is provided.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 81.3
+    },
+    "conv8_q031": {
+      "response": "The premise that both Evan and Sam have notable health or lifestyle changes is no longer supported. The only current fact is that weight struggles are limiting confidence, which suggests that Evan may feel less resilient to stress and challenges, but there is no current information about Sam’s situation, so their approach cannot be described.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 167.3
+    },
+    "conv8_q032": {
+      "response": "Evan’s recurring frustration is the frequent problems he encounters with self‑checkout at the store.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.3
+    },
+    "conv8_q033": {
+      "response": "I don’t have any information about Sam’s recurring dream, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 96.4
+    },
+    "conv8_q034": {
+      "response": "I don’t have any information about recent accidents involving Evan’s son.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 183.7
+    },
+    "conv8_q035": {
+      "response": "I don’t have information about when Evan’s son was injured at soccer.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 124.4
+    },
+    "conv8_q036": {
+      "response": "I don’t have any current information about Sam’s food or recipe recommendations to Evan.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 119.1
+    },
+    "conv8_q037": {
+      "response": "The previous reports that Sam began eating healthier meals after his health scare are outdated, and there is no current information about the specific meals he now eats.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 162.6
+    },
+    "conv8_q038": {
+      "response": "I don’t have any information about how nature or the outdoors currently affects Evan and Sam’s mental well‑being, so I can’t answer that question. The only relevant facts are that you have a short‑term goal to spend more time in nature and you’re motivated by adventure and hiking.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 198.8
+    },
+    "conv8_q039": {
+      "response": "I don’t have any information about the dates of Sam’s first and second doctor’s appointments, so I can’t determine how many months elapsed between them.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.1
+    },
+    "conv8_q040": {
+      "response": "We don’t have a reliable, current record of when (or even if) Evan began taking painting classes—the earlier claim is outdated and unsupported by any active information.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 115.5
+    },
+    "conv8_q041": {
+      "response": "I don’t have enough information to know which classes Evan joined in mid‑August 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 123.7
+    },
+    "conv8_q042": {
+      "response": "I don’t have current information indicating that Evan paints, so I can’t answer how he got into painting.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 160.8
+    },
+    "conv8_q043": {
+      "response": "I don’t have information on how often Sam gets health checkups.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.5
+    },
+    "conv8_q044": {
+      "response": "I don’t have current information about the subjects Evan enjoys painting; the previous details are outdated.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 101.6
+    },
+    "conv8_q045": {
+      "response": "I don’t have current information about any places Evan visited in Canada in July 2023, so I can’t answer that question.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 184.4
+    },
+    "conv8_q046": {
+      "response": "I don’t have enough current information to describe how Evan and Sam use creative outlets to cope with life’s challenges.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 167.1
+    },
+    "conv8_q047": {
+      "response": "I don’t have any information about when Evan went skiing in Banff.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 98.5
+    },
+    "conv8_q048": {
+      "response": "The earlier description of Sam’s diet and lifestyle is outdated – it’s no longer a safe assumption.  Current information shows Sam has moved to practicing yoga, and there’s no concrete record of a specific new diet he’s adopted.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 145.2
+    },
+    "conv8_q049": {
+      "response": "There is no current information indicating that anyone in Evan’s family was injured.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 89.3
+    },
+    "conv8_q050": {
+      "response": "We don’t have current, reliable information about Evan’s ongoing hobbies. The only recent details are that he works as a Weight Watchers coach, follows a fitness routine he enjoys, and has a short‑term plan to paint next Saturday, but no active hobby has been confirmed.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 235.3
+    },
+    "conv8_q051": {
+      "response": "Sam’s main challenge is that he is currently experiencing health issues. To tackle this, he plans to spend more time in nature and has committed to staying on track with his health goals starting today.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 171.1
+    },
+    "conv8_q052": {
+      "response": "I don’t have enough information to identify an activity that Evan and Sam plan to do together in September 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 61.2
+    },
+    "conv8_q053": {
+      "response": "There is no information available about when Evan and Sam decided to paint together.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 88.6
+    },
+    "conv8_q054": {
+      "response": "The earlier detailed record of Evan’s health incidents is outdated; the only current information is that he is experiencing health issues in 2023, with no further specifics available.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 277.6
+    },
+    "conv8_q055": {
+      "response": "There’s no information indicating that Evan has any recurring adventure with strangers; the only current fact is that he is a Weight Watchers coach.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.0
+    },
+    "conv8_q056": {
+      "response": "Sam's phone repeatedly malfunctions, which limits reliable use and causes him stress.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 71.2
+    },
+    "conv8_q057": {
+      "response": "I don’t have any current information about which US state Sam was travelling in during October 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 158.4
+    },
+    "conv8_q058": {
+      "response": "I don’t have information on when Evan began weightlifting.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 152.7
+    },
+    "conv8_q059": {
+      "response": "The claim that Sam and his friend decided to try kayaking is no longer supported by current information, and there is no available data about when such a decision might have been made.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 105.5
+    },
+    "conv8_q060": {
+      "response": "There is no current information about a new activity Sam takes up in October 2023; the previously recorded item is outdated and has been superseded.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 127.4
+    },
+    "conv8_q061": {
+      "response": "We can't confirm a specific type of stress Sam was dealing with in October 2023; current information only notes that he is experiencing general stress linked to health issues and a malfunctioning phone.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 217.6
+    },
+    "conv8_q062": {
+      "response": "I don’t have any recorded information about specific health scares that Sam or Evan have experienced.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 110.8
+    },
+    "conv8_q063": {
+      "response": "I don’t have any information about when Sam was in the ER, so I can’t provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.1
+    },
+    "conv8_q064": {
+      "response": "The current information does not specify any particular ailment that Sam’s weight is causing, so that question cannot be answered reliably.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 201.7
+    },
+    "conv8_q065": {
+      "response": "I don’t have enough information to determine whether Evan lives close to a beach or to the mountains.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 79.0
+    },
+    "conv8_q066": {
+      "response": "I don’t have any information about when Evan lost his job.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 102.1
+    },
+    "conv8_q067": {
+      "response": "I have no confirmed information that Evan and Sam planned a beach trip, so I cannot provide a date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 57.8
+    },
+    "conv8_q068": {
+      "response": "I don’t have any information about Sam’s activities on December 4, 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 84.6
+    },
+    "conv8_q069": {
+      "response": "I don’t have current information confirming two specific significant events for Evan and his partner in December 2023. The only verified facts are that his partner is pregnant and that they have received abundant love and support from extended family after announcing their marriage, but the timing of those events isn’t specified.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 69.9
+    },
+    "conv8_q070": {
+      "response": "I’m sorry, I don’t have information on how long Evan and his partner dated before they got married.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 61.1
+    },
+    "conv8_q071": {
+      "response": "I don’t have enough current information about Evan’s wedding date to determine which major holiday season it might coincide with.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.2
+    },
+    "conv8_q072": {
+      "response": "There is no current information confirming which activity Sam resumed in December 2023; the premise cannot be verified.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 146.5
+    },
+    "conv8_q073": {
+      "response": "There is no current information about Evan planning a big family reunion, so a date cannot be provided.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 131.8
+    },
+    "conv8_q074": {
+      "response": "I don’t have any information about when Evan’s son fell off his bike.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 89.5
+    },
+    "conv8_q075": {
+      "response": "The available information confirms that Evan and his partner announced their marriage to their extended family, but it does not specify when that announcement was made.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 45.8
+    },
+    "conv8_q076": {
+      "response": "I don’t have enough current information to tell when Evan finished the painting that’s hanging in the exhibit. The premise that the painting is Evan’s and already completed is not confirmed, so the completion date cannot be provided.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 186.4
+    },
+    "conv8_q077": {
+      "response": "I don’t have information on how Evan spends his time with his bride after the wedding; the only current fact is that his partner is pregnant.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 114.3
+    },
+    "conv8_q078": {
+      "response": "Evan told his extended family about his marriage.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 68.8
+    },
+    "conv8_q079": {
+      "response": "I don’t have current information about a honeymoon in Canada—the earlier plan is outdated, and the only recent fact is that the partner is pregnant, which doesn’t provide a date.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 86.1
+    },
+    "conv8_q080": {
+      "response": "I’m sorry, I don’t have any information about when Evan might have had a drunken night with his friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.0
+    },
+    "conv8_q081": {
+      "response": "Practicing yoga is currently helping Evan relieve stress and improve flexibility.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 123.2
+    },
+    "conv8_q082": {
+      "response": "Sam can relieve stress by practicing yoga, which is already reducing his stress and improving flexibility, and by spending more time in nature.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 119.7
+    },
+    "conv8_q083": {
+      "response": "Evan got a Prius as his replacement car.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 121.1
+    },
+    "conv8_q084": {
+      "response": "I don’t have current information about how Evan began watercolor painting, so I can’t answer that question.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.2
+    },
+    "conv8_q085": {
+      "response": "The earlier habit of beginning a stress‑busting activity a few years ago isn’t confirmed in the current data. At present, Evan is practicing yoga to reduce stress.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 153.4
+    },
+    "conv8_q086": {
+      "response": "I don’t have any information about advice Evan gave Sam on finding a passion.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 65.9
+    },
+    "conv8_q087": {
+      "response": "I don’t have verified information about a road trip Evan took with his family on 24 May 2023, so I can’t say where they went.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.9
+    },
+    "conv8_q088": {
+      "response": "I’m sorry, I don’t have information about what Evan found relaxing on his road trip to Jasper.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 89.8
+    },
+    "conv8_q089": {
+      "response": "The previous assumption about Sam’s diet habit is no longer current; there’s no active record of a specific dietary habit Sam is trying to change. The only current goal in the data is a general intention to “stay on track starting today.”",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 130.9
+    },
+    "conv8_q090": {
+      "response": "There is no current information about a new suggestion from Evan to Sam regarding soda or candy consumption—the previous suggestion is outdated and no active fact provides a replacement.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 122.3
+    },
+    "conv8_q091": {
+      "response": "There’s no current information on what Sam agreed to try instead of soda and candy; the earlier statement about reducing soda and candy is outdated.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 107.7
+    },
+    "conv8_q092": {
+      "response": "I don’t have information about a specific frustrating issue Sam faced at the supermarket.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.5
+    },
+    "conv8_q093": {
+      "response": "I don’t have current information about which novel Evan is reading, so I can’t identify a gripping title for him.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 54.2
+    },
+    "conv8_q094": {
+      "response": "I don’t have any reliable information about a specific water type that Evan suggested Sam try instead of soda.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 103.5
+    },
+    "conv8_q095": {
+      "response": "There’s no current information confirming that Evan has a smartwatch or describing how it helps him, so the question cannot be answered.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 212.4
+    },
+    "conv8_q096": {
+      "response": "I don’t have any available information about what the bonsai tree symbolizes for Evan.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 71.4
+    },
+    "conv8_q097": {
+      "response": "We don’t have a confirmed reason—current information doesn’t specify why Evan got the bonsai tree. The only relevant recent fact is his short‑term goal to “spend more time in nature,” which could plausibly be a motivation, but it isn’t definitive.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 113.1
+    },
+    "conv8_q098": {
+      "response": "I’m sorry, but I don’t have any information about Sam’s view on what is more important than perfection.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.4
+    },
+    "conv8_q099": {
+      "response": "I’m not aware of any recorded suggestion Evan gave Sam about what to check out for insight into his dream.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 77.8
+    },
+    "conv8_q100": {
+      "response": "Evan said he had been searching fruitlessly for a new job.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 102.0
+    },
+    "conv8_q101": {
+      "response": "The premise that Sam is taking a class to learn healthier meals is no longer supported by current information, and there’s no active detail about any such class.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 114.7
+    },
+    "conv8_q102": {
+      "response": "I don’t have current information about which dish Sam made on 18 August 2023, so I can’t identify a flavorful dish from that date.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 80.4
+    },
+    "conv8_q103": {
+      "response": "I’m not aware of any record that Evan requested a recipe from Sam on 19 August 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 90.6
+    },
+    "conv8_q104": {
+      "response": "I don’t have information about what food Sam photographed on 19 August 2023.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 100.6
+    },
+    "conv8_q105": {
+      "response": "I don't have current information about the type of painting classes Evan started in 2023.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 120.9
+    },
+    "conv8_q106": {
+      "response": "I don’t have current information about the specific subject or genre Evan began painting years ago; the available records don’t specify what it was.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 117.4
+    },
+    "conv8_q107": {
+      "response": "I don’t have any information about which nature concept Evan’s watercolor painting classes emphasize.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 192.9
+    },
+    "conv8_q108": {
+      "response": "The previous assumption about Evan’s favorite landscape type is no longer reliable, and there is no current information indicating which landscapes he prefers to paint.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 187.3
+    },
+    "conv8_q109": {
+      "response": "I don’t have any current information about a fun activity Evan mentioned for July 2023.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 182.1
+    },
+    "conv8_q110": {
+      "response": "We don’t have any record of a specific injury Evan suffered in August 2023; the only current information is that he is experiencing health issues.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.0
+    },
+    "conv8_q111": {
+      "response": "There’s no current information about a specific sport Evan is doing; the only grounding says he intends to stay on track and spend more time in nature.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 109.0
+    },
+    "conv8_q112": {
+      "response": "There’s no information indicating that Sam gave any suggestion to Evan regarding his knee issue.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.6
+    },
+    "conv8_q113": {
+      "response": "There’s no current information indicating that Evan suggested a calming hobby to Sam, so I can’t provide an answer.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 161.6
+    },
+    "conv8_q114": {
+      "response": "I’m not aware of any recommendation Evan made to Sam about what to acquire for painting.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 240.3
+    },
+    "conv8_q115": {
+      "response": "Evan keeps himself busy by practicing yoga while his knee heals.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 210.2
+    },
+    "conv8_q116": {
+      "response": "I don't have any information about a painting Evan shared with Sam in October.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 223.4
+    },
+    "conv8_q117": {
+      "response": "I don’t have current information about the kind of writing Sam enjoys for personal expression.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 343.0
+    },
+    "conv8_q118": {
+      "response": "Sam has been frustrated by frequent problems with self‑checkout machines at stores.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 42.4
+    },
+    "conv8_q119": {
+      "response": "I don’t have current information about an activity Evan started one year ago.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 306.1
+    },
+    "conv8_q120": {
+      "response": "There’s no current information indicating that Evan gave Sam any specific advice about avoiding injuries when starting weightlifting—the premise that such advice was given is outdated and unsafe to assume.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 159.2
+    },
+    "conv8_q121": {
+      "response": "The earlier plan for Sam and his mate to go kayaking is no longer current, and there is no available information about where they intend to kayak now.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 92.5
+    },
+    "conv8_q122": {
+      "response": "There’s no current information specifying which digestive issue Sam experienced; we only know Sam is generally experiencing health issues.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.7
+    },
+    "conv8_q123": {
+      "response": "Sam’s earlier comment about an emerging adventurous theme for Evan is no longer supported – the current information only notes that Evan wants to spend more time in nature (and is job‑searching), without an explicit adventure motif.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 138.5
+    },
+    "conv8_q124": {
+      "response": "I don't have current information about what Evan told Sam regarding his gym progress, and the previous premise about that conversation is no longer reliable.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 145.7
+    },
+    "conv8_q125": {
+      "response": "I don’t have current information about how Evan began his transformation journey two years ago.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 296.0
+    },
+    "conv8_q126": {
+      "response": "I don’t have information about any specific gift Evan received from a close friend.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 64.4
+    },
+    "conv8_q127": {
+      "response": "Evan has been going through a tough time because he is actively searching for a new job, which is a stressful life transition.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 71.6
+    },
+    "conv8_q128": {
+      "response": "I don’t have information on how Evan described the island he grew up on.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 67.7
+    },
+    "conv8_q129": {
+      "response": "Evan was frustrated primarily because his newly purchased Prius broke down.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 79.4
+    },
+    "conv8_q130": {
+      "response": "I’m sorry, but there’s no record of what Sam suggested Evan should think about the setback with his broken Prius.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 225.7
+    },
+    "conv8_q131": {
+      "response": "I’m not aware of any record of what Sam suggested Evan try for stress relief and flexibility.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 74.8
+    },
+    "conv8_q132": {
+      "response": "There’s no available information confirming that Sam offered Evan anything regarding yoga.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 76.8
+    },
+    "conv8_q133": {
+      "response": "I don’t have any current information confirming what news Evan shared with Sam on 9 December 2023, so I can’t retrieve that detail.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 68.4
+    },
+    "conv8_q134": {
+      "response": "The earlier information about Evan planning a family reunion next summer is outdated, and there is no current record of any family event he is planning for next summer.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 108.8
+    },
+    "conv8_q135": {
+      "response": "I don’t have information about the motto of Evan’s family.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 140.0
+    },
+    "conv8_q136": {
+      "response": "I’m sorry, but there’s no current information about what Evan says Sam should believe regarding his weight, so I can’t provide an answer.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 157.2
+    },
+    "conv8_q137": {
+      "response": "The premise that Evan had his painting published with assistance is no longer supported by current information, and there is no known person who helped him.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 190.6
+    },
+    "conv8_q138": {
+      "response": "I don’t have any information about what Sam recently started enjoying to clear his head. The only current fact available is that practicing yoga is currently reducing stress and improving flexibility.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 81.0
+    },
+    "conv8_q139": {
+      "response": "I don’t have any current information about what Sam might have suggested regarding Evan’s keys, as the previous premise about the keys is outdated and no recent details are available.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 89.7
+    },
+    "conv8_q140": {
+      "response": "The premise that we know how Evan felt while painting the bird‑over‑the‑piece is outdated—there’s no current information about his emotions during that painting, so we can’t say how he felt.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 185.1
+    },
+    "conv8_q141": {
+      "response": "I don’t have any current information about what Evan may have suggested Sam keep doing to find his own version of love.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 166.2
+    },
+    "conv8_q142": {
+      "response": "There is no current information about how Evan described the process of creating that painting; the earlier premise is outdated and unsafe to rely on.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 162.9
+    },
+    "conv8_q143": {
+      "response": "There’s no current information about what Evan wants to share with his work friends.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 323.3
+    },
+    "conv8_q144": {
+      "response": "I’m sorry, but I don’t have information about what Evan shared with Sam after their hiking trip.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 57.2
+    },
+    "conv8_q145": {
+      "response": "I don’t have information about what Evan offered to share with Sam after their discussion of healthy snacks.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 143.9
+    },
+    "conv8_q146": {
+      "response": "There’s no available information about what Evan and his partner shared with their extended family on January 5 2024.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 128.2
+    },
+    "conv8_q147": {
+      "response": "There’s no current information about what Evan is limiting himself to on his new diet; the previous premise about a specific limitation is outdated.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 184.1
+    },
+    "conv8_q148": {
+      "response": "I don’t have current information about any sports activity that Evan and his partner tried on a recent weekend.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 122.6
+    },
+    "conv8_q149": {
+      "response": "I don’t have information about any advice Evan suggested Sam seek from a doctor.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 89.8
+    },
+    "conv8_q150": {
+      "response": "I don’t have current information about any low‑impact exercise suggestions from Evan, and his previous setup is no longer considered reliable. You may need to ask Evan directly or consult another qualified fitness professional for up‑to‑date recommendations.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 151.2
+    },
+    "conv8_q151": {
+      "response": "I don’t have any information about a specific movie Sam watched that motivated him to keep up with his routine.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 115.5
+    },
+    "conv8_q152": {
+      "response": "Practicing yoga helped Evan reduce stress and improve flexibility.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 39.1
+    },
+    "conv8_q153": {
+      "response": "I don’t have any information about what Evan shared a photo of from a camping trip.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 69.6
+    },
+    "conv8_q154": {
+      "response": "I don’t have any information confirming that Evan apologized to his partner, so I can’t explain why he might have done so.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 94.6
+    },
+    "conv8_q155": {
+      "response": "I’m sorry, but there’s no current information about how Evan describes being out on the water while kayaking and watching the sunset.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 121.2
+    }
+  },
+  "profile_snapshot_size": 79054,
+  "elapsed_seconds": 19274.9,
+  "usage_summary": {
+    "total_calls": 1371,
+    "cache_hits": 181,
+    "cache_misses": 1190,
+    "logical_usage": {
+      "prompt_tokens": 5595965,
+      "completion_tokens": 863802,
+      "total_tokens": 6459767
+    },
+    "billed_usage": {
+      "prompt_tokens": 5335787,
+      "completion_tokens": 748244,
+      "total_tokens": 6084031
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 26,
+        "cache_hits": 26,
+        "cache_misses": 0,
+        "logical_usage": {
+          "prompt_tokens": 71018,
+          "completion_tokens": 25339,
+          "total_tokens": 96357
+        },
+        "billed_usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "delta_extractor": {
+        "calls": 25,
+        "cache_hits": 6,
+        "cache_misses": 19,
+        "logical_usage": {
+          "prompt_tokens": 92450,
+          "completion_tokens": 15268,
+          "total_tokens": 107718
+        },
+        "billed_usage": {
+          "prompt_tokens": 82797,
+          "completion_tokens": 11152,
+          "total_tokens": 93949
+        }
+      },
+      "update_judge": {
+        "calls": 50,
+        "cache_hits": 8,
+        "cache_misses": 42,
+        "logical_usage": {
+          "prompt_tokens": 102979,
+          "completion_tokens": 15674,
+          "total_tokens": 118653
+        },
+        "billed_usage": {
+          "prompt_tokens": 92314,
+          "completion_tokens": 13916,
+          "total_tokens": 106230
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 25,
+        "cache_hits": 6,
+        "cache_misses": 19,
+        "logical_usage": {
+          "prompt_tokens": 45043,
+          "completion_tokens": 18913,
+          "total_tokens": 63956
+        },
+        "billed_usage": {
+          "prompt_tokens": 34355,
+          "completion_tokens": 14369,
+          "total_tokens": 48724
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 140,
+        "cache_hits": 0,
+        "cache_misses": 140,
+        "logical_usage": {
+          "prompt_tokens": 422032,
+          "completion_tokens": 85349,
+          "total_tokens": 507381
+        },
+        "billed_usage": {
+          "prompt_tokens": 422032,
+          "completion_tokens": 85349,
+          "total_tokens": 507381
+        }
+      },
+      "invalidation_judge": {
+        "calls": 48,
+        "cache_hits": 0,
+        "cache_misses": 48,
+        "logical_usage": {
+          "prompt_tokens": 117680,
+          "completion_tokens": 25123,
+          "total_tokens": 142803
+        },
+        "billed_usage": {
+          "prompt_tokens": 117680,
+          "completion_tokens": 25123,
+          "total_tokens": 142803
+        }
+      },
+      "stale_support_judge": {
+        "calls": 185,
+        "cache_hits": 0,
+        "cache_misses": 185,
+        "logical_usage": {
+          "prompt_tokens": 182021,
+          "completion_tokens": 58941,
+          "total_tokens": 240962
+        },
+        "billed_usage": {
+          "prompt_tokens": 182021,
+          "completion_tokens": 58941,
+          "total_tokens": 240962
+        }
+      },
+      "query_parser": {
+        "calls": 113,
+        "cache_hits": 1,
+        "cache_misses": 112,
+        "logical_usage": {
+          "prompt_tokens": 165115,
+          "completion_tokens": 95727,
+          "total_tokens": 260842
+        },
+        "billed_usage": {
+          "prompt_tokens": 163657,
+          "completion_tokens": 95068,
+          "total_tokens": 258725
+        }
+      },
+      "premise_verifier": {
+        "calls": 115,
+        "cache_hits": 0,
+        "cache_misses": 115,
+        "logical_usage": {
+          "prompt_tokens": 1646594,
+          "completion_tokens": 121590,
+          "total_tokens": 1768184
+        },
+        "billed_usage": {
+          "prompt_tokens": 1646594,
+          "completion_tokens": 121590,
+          "total_tokens": 1768184
+        }
+      },
+      "query_lane_filter": {
+        "calls": 414,
+        "cache_hits": 134,
+        "cache_misses": 280,
+        "logical_usage": {
+          "prompt_tokens": 487964,
+          "completion_tokens": 257551,
+          "total_tokens": 745515
+        },
+        "billed_usage": {
+          "prompt_tokens": 331268,
+          "completion_tokens": 178409,
+          "total_tokens": 509677
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 112,
+        "cache_hits": 0,
+        "cache_misses": 112,
+        "logical_usage": {
+          "prompt_tokens": 2094012,
+          "completion_tokens": 117941,
+          "total_tokens": 2211953
+        },
+        "billed_usage": {
+          "prompt_tokens": 2094012,
+          "completion_tokens": 117941,
+          "total_tokens": 2211953
+        }
+      },
+      "answer_composer": {
+        "calls": 113,
+        "cache_hits": 0,
+        "cache_misses": 113,
+        "logical_usage": {
+          "prompt_tokens": 157056,
+          "completion_tokens": 23936,
+          "total_tokens": 180992
+        },
+        "billed_usage": {
+          "prompt_tokens": 157056,
+          "completion_tokens": 23936,
+          "total_tokens": 180992
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 12001,
+          "completion_tokens": 2450,
+          "total_tokens": 14451
+        },
+        "billed_usage": {
+          "prompt_tokens": 12001,
+          "completion_tokens": 2450,
+          "total_tokens": 14451
+        }
+      }
+    },
+    "by_query_label": {
+      "conv8_q043": {
+        "calls": 4,
+        "cache_hits": 1,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 44361,
+          "completion_tokens": 2537,
+          "total_tokens": 46898
+        },
+        "billed_usage": {
+          "prompt_tokens": 42903,
+          "completion_tokens": 1878,
+          "total_tokens": 44781
+        }
+      },
+      "conv8_q044": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34679,
+          "completion_tokens": 3188,
+          "total_tokens": 37867
+        },
+        "billed_usage": {
+          "prompt_tokens": 34679,
+          "completion_tokens": 3188,
+          "total_tokens": 37867
+        }
+      },
+      "conv8_q045": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39440,
+          "completion_tokens": 3080,
+          "total_tokens": 42520
+        },
+        "billed_usage": {
+          "prompt_tokens": 39440,
+          "completion_tokens": 3080,
+          "total_tokens": 42520
+        }
+      },
+      "conv8_q046": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32977,
+          "completion_tokens": 2973,
+          "total_tokens": 35950
+        },
+        "billed_usage": {
+          "prompt_tokens": 32977,
+          "completion_tokens": 2973,
+          "total_tokens": 35950
+        }
+      },
+      "conv8_q047": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35290,
+          "completion_tokens": 2388,
+          "total_tokens": 37678
+        },
+        "billed_usage": {
+          "prompt_tokens": 35290,
+          "completion_tokens": 2388,
+          "total_tokens": 37678
+        }
+      },
+      "conv8_q048": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41647,
+          "completion_tokens": 4688,
+          "total_tokens": 46335
+        },
+        "billed_usage": {
+          "prompt_tokens": 41647,
+          "completion_tokens": 4688,
+          "total_tokens": 46335
+        }
+      },
+      "conv8_q049": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33938,
+          "completion_tokens": 2425,
+          "total_tokens": 36363
+        },
+        "billed_usage": {
+          "prompt_tokens": 33938,
+          "completion_tokens": 2425,
+          "total_tokens": 36363
+        }
+      },
+      "conv8_q050": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33755,
+          "completion_tokens": 4147,
+          "total_tokens": 37902
+        },
+        "billed_usage": {
+          "prompt_tokens": 33755,
+          "completion_tokens": 4147,
+          "total_tokens": 37902
+        }
+      },
+      "conv8_q051": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39679,
+          "completion_tokens": 5665,
+          "total_tokens": 45344
+        },
+        "billed_usage": {
+          "prompt_tokens": 39679,
+          "completion_tokens": 5665,
+          "total_tokens": 45344
+        }
+      },
+      "conv8_q052": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33270,
+          "completion_tokens": 2448,
+          "total_tokens": 35718
+        },
+        "billed_usage": {
+          "prompt_tokens": 33270,
+          "completion_tokens": 2448,
+          "total_tokens": 35718
+        }
+      },
+      "conv8_q053": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32798,
+          "completion_tokens": 2551,
+          "total_tokens": 35349
+        },
+        "billed_usage": {
+          "prompt_tokens": 32798,
+          "completion_tokens": 2551,
+          "total_tokens": 35349
+        }
+      },
+      "conv8_q054": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39998,
+          "completion_tokens": 8587,
+          "total_tokens": 48585
+        },
+        "billed_usage": {
+          "prompt_tokens": 39998,
+          "completion_tokens": 8587,
+          "total_tokens": 48585
+        }
+      },
+      "conv8_q055": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34803,
+          "completion_tokens": 2891,
+          "total_tokens": 37694
+        },
+        "billed_usage": {
+          "prompt_tokens": 34803,
+          "completion_tokens": 2891,
+          "total_tokens": 37694
+        }
+      },
+      "conv8_q056": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36597,
+          "completion_tokens": 2593,
+          "total_tokens": 39190
+        },
+        "billed_usage": {
+          "prompt_tokens": 36597,
+          "completion_tokens": 2593,
+          "total_tokens": 39190
+        }
+      },
+      "conv8_q057": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41441,
+          "completion_tokens": 2617,
+          "total_tokens": 44058
+        },
+        "billed_usage": {
+          "prompt_tokens": 41441,
+          "completion_tokens": 2617,
+          "total_tokens": 44058
+        }
+      },
+      "conv8_q058": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30308,
+          "completion_tokens": 3590,
+          "total_tokens": 33898
+        },
+        "billed_usage": {
+          "prompt_tokens": 30308,
+          "completion_tokens": 3590,
+          "total_tokens": 33898
+        }
+      },
+      "conv8_q059": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35365,
+          "completion_tokens": 3216,
+          "total_tokens": 38581
+        },
+        "billed_usage": {
+          "prompt_tokens": 35365,
+          "completion_tokens": 3216,
+          "total_tokens": 38581
+        }
+      },
+      "conv8_q060": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 16008,
+          "completion_tokens": 2723,
+          "total_tokens": 18731
+        },
+        "billed_usage": {
+          "prompt_tokens": 16008,
+          "completion_tokens": 2723,
+          "total_tokens": 18731
+        }
+      },
+      "conv8_q061": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43717,
+          "completion_tokens": 3380,
+          "total_tokens": 47097
+        },
+        "billed_usage": {
+          "prompt_tokens": 43717,
+          "completion_tokens": 3380,
+          "total_tokens": 47097
+        }
+      },
+      "conv8_q062": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42207,
+          "completion_tokens": 2757,
+          "total_tokens": 44964
+        },
+        "billed_usage": {
+          "prompt_tokens": 42207,
+          "completion_tokens": 2757,
+          "total_tokens": 44964
+        }
+      },
+      "conv8_q063": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37990,
+          "completion_tokens": 1830,
+          "total_tokens": 39820
+        },
+        "billed_usage": {
+          "prompt_tokens": 37990,
+          "completion_tokens": 1830,
+          "total_tokens": 39820
+        }
+      },
+      "conv8_q064": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41991,
+          "completion_tokens": 4762,
+          "total_tokens": 46753
+        },
+        "billed_usage": {
+          "prompt_tokens": 41991,
+          "completion_tokens": 4762,
+          "total_tokens": 46753
+        }
+      },
+      "conv8_q065": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32084,
+          "completion_tokens": 2217,
+          "total_tokens": 34301
+        },
+        "billed_usage": {
+          "prompt_tokens": 32084,
+          "completion_tokens": 2217,
+          "total_tokens": 34301
+        }
+      },
+      "conv8_q066": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 29612,
+          "completion_tokens": 3096,
+          "total_tokens": 32708
+        },
+        "billed_usage": {
+          "prompt_tokens": 29612,
+          "completion_tokens": 3096,
+          "total_tokens": 32708
+        }
+      },
+      "conv8_q067": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37234,
+          "completion_tokens": 2625,
+          "total_tokens": 39859
+        },
+        "billed_usage": {
+          "prompt_tokens": 37234,
+          "completion_tokens": 2625,
+          "total_tokens": 39859
+        }
+      },
+      "conv8_q068": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34761,
+          "completion_tokens": 2059,
+          "total_tokens": 36820
+        },
+        "billed_usage": {
+          "prompt_tokens": 34761,
+          "completion_tokens": 2059,
+          "total_tokens": 36820
+        }
+      },
+      "conv8_q069": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34018,
+          "completion_tokens": 4305,
+          "total_tokens": 38323
+        },
+        "billed_usage": {
+          "prompt_tokens": 34018,
+          "completion_tokens": 4305,
+          "total_tokens": 38323
+        }
+      },
+      "conv8_q070": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33609,
+          "completion_tokens": 2450,
+          "total_tokens": 36059
+        },
+        "billed_usage": {
+          "prompt_tokens": 33609,
+          "completion_tokens": 2450,
+          "total_tokens": 36059
+        }
+      },
+      "conv8_q071": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33471,
+          "completion_tokens": 3089,
+          "total_tokens": 36560
+        },
+        "billed_usage": {
+          "prompt_tokens": 33471,
+          "completion_tokens": 3089,
+          "total_tokens": 36560
+        }
+      },
+      "conv8_q072": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37015,
+          "completion_tokens": 3153,
+          "total_tokens": 40168
+        },
+        "billed_usage": {
+          "prompt_tokens": 37015,
+          "completion_tokens": 3153,
+          "total_tokens": 40168
+        }
+      },
+      "conv8_q073": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37096,
+          "completion_tokens": 4136,
+          "total_tokens": 41232
+        },
+        "billed_usage": {
+          "prompt_tokens": 37096,
+          "completion_tokens": 4136,
+          "total_tokens": 41232
+        }
+      },
+      "conv8_q074": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32864,
+          "completion_tokens": 2639,
+          "total_tokens": 35503
+        },
+        "billed_usage": {
+          "prompt_tokens": 32864,
+          "completion_tokens": 2639,
+          "total_tokens": 35503
+        }
+      },
+      "conv8_q075": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35352,
+          "completion_tokens": 2299,
+          "total_tokens": 37651
+        },
+        "billed_usage": {
+          "prompt_tokens": 35352,
+          "completion_tokens": 2299,
+          "total_tokens": 37651
+        }
+      },
+      "conv8_q076": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35331,
+          "completion_tokens": 3362,
+          "total_tokens": 38693
+        },
+        "billed_usage": {
+          "prompt_tokens": 35331,
+          "completion_tokens": 3362,
+          "total_tokens": 38693
+        }
+      },
+      "conv8_q077": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35098,
+          "completion_tokens": 3161,
+          "total_tokens": 38259
+        },
+        "billed_usage": {
+          "prompt_tokens": 35098,
+          "completion_tokens": 3161,
+          "total_tokens": 38259
+        }
+      },
+      "conv8_q078": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31603,
+          "completion_tokens": 2706,
+          "total_tokens": 34309
+        },
+        "billed_usage": {
+          "prompt_tokens": 31603,
+          "completion_tokens": 2706,
+          "total_tokens": 34309
+        }
+      },
+      "conv8_q079": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39282,
+          "completion_tokens": 3238,
+          "total_tokens": 42520
+        },
+        "billed_usage": {
+          "prompt_tokens": 39282,
+          "completion_tokens": 3238,
+          "total_tokens": 42520
+        }
+      },
+      "conv8_q080": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35113,
+          "completion_tokens": 2434,
+          "total_tokens": 37547
+        },
+        "billed_usage": {
+          "prompt_tokens": 35113,
+          "completion_tokens": 2434,
+          "total_tokens": 37547
+        }
+      },
+      "conv8_q081": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41130,
+          "completion_tokens": 3831,
+          "total_tokens": 44961
+        },
+        "billed_usage": {
+          "prompt_tokens": 41130,
+          "completion_tokens": 3831,
+          "total_tokens": 44961
+        }
+      },
+      "conv8_q082": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39272,
+          "completion_tokens": 2900,
+          "total_tokens": 42172
+        },
+        "billed_usage": {
+          "prompt_tokens": 39272,
+          "completion_tokens": 2900,
+          "total_tokens": 42172
+        }
+      },
+      "conv8_q083": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 27260,
+          "completion_tokens": 3497,
+          "total_tokens": 30757
+        },
+        "billed_usage": {
+          "prompt_tokens": 27260,
+          "completion_tokens": 3497,
+          "total_tokens": 30757
+        }
+      },
+      "conv8_q084": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34493,
+          "completion_tokens": 3207,
+          "total_tokens": 37700
+        },
+        "billed_usage": {
+          "prompt_tokens": 34493,
+          "completion_tokens": 3207,
+          "total_tokens": 37700
+        }
+      },
+      "conv8_q085": {
+        "calls": 6,
+        "cache_hits": 0,
+        "cache_misses": 6,
+        "logical_usage": {
+          "prompt_tokens": 37685,
+          "completion_tokens": 4214,
+          "total_tokens": 41899
+        },
+        "billed_usage": {
+          "prompt_tokens": 37685,
+          "completion_tokens": 4214,
+          "total_tokens": 41899
+        }
+      },
+      "conv8_q086": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34581,
+          "completion_tokens": 2401,
+          "total_tokens": 36982
+        },
+        "billed_usage": {
+          "prompt_tokens": 34581,
+          "completion_tokens": 2401,
+          "total_tokens": 36982
+        }
+      },
+      "conv8_q087": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38167,
+          "completion_tokens": 2336,
+          "total_tokens": 40503
+        },
+        "billed_usage": {
+          "prompt_tokens": 38167,
+          "completion_tokens": 2336,
+          "total_tokens": 40503
+        }
+      },
+      "conv8_q088": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36934,
+          "completion_tokens": 2337,
+          "total_tokens": 39271
+        },
+        "billed_usage": {
+          "prompt_tokens": 36934,
+          "completion_tokens": 2337,
+          "total_tokens": 39271
+        }
+      },
+      "conv8_q089": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42358,
+          "completion_tokens": 4818,
+          "total_tokens": 47176
+        },
+        "billed_usage": {
+          "prompt_tokens": 42358,
+          "completion_tokens": 4818,
+          "total_tokens": 47176
+        }
+      },
+      "conv8_q090": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38441,
+          "completion_tokens": 3790,
+          "total_tokens": 42231
+        },
+        "billed_usage": {
+          "prompt_tokens": 38441,
+          "completion_tokens": 3790,
+          "total_tokens": 42231
+        }
+      },
+      "conv8_q091": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 45026,
+          "completion_tokens": 3750,
+          "total_tokens": 48776
+        },
+        "billed_usage": {
+          "prompt_tokens": 45026,
+          "completion_tokens": 3750,
+          "total_tokens": 48776
+        }
+      },
+      "conv8_q092": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35489,
+          "completion_tokens": 2589,
+          "total_tokens": 38078
+        },
+        "billed_usage": {
+          "prompt_tokens": 35489,
+          "completion_tokens": 2589,
+          "total_tokens": 38078
+        }
+      },
+      "conv8_q093": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33838,
+          "completion_tokens": 2601,
+          "total_tokens": 36439
+        },
+        "billed_usage": {
+          "prompt_tokens": 33838,
+          "completion_tokens": 2601,
+          "total_tokens": 36439
+        }
+      },
+      "conv8_q094": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36898,
+          "completion_tokens": 2714,
+          "total_tokens": 39612
+        },
+        "billed_usage": {
+          "prompt_tokens": 36898,
+          "completion_tokens": 2714,
+          "total_tokens": 39612
+        }
+      },
+      "conv8_q095": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31747,
+          "completion_tokens": 2776,
+          "total_tokens": 34523
+        },
+        "billed_usage": {
+          "prompt_tokens": 31747,
+          "completion_tokens": 2776,
+          "total_tokens": 34523
+        }
+      },
+      "conv8_q096": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35471,
+          "completion_tokens": 2177,
+          "total_tokens": 37648
+        },
+        "billed_usage": {
+          "prompt_tokens": 35471,
+          "completion_tokens": 2177,
+          "total_tokens": 37648
+        }
+      },
+      "conv8_q097": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36225,
+          "completion_tokens": 4689,
+          "total_tokens": 40914
+        },
+        "billed_usage": {
+          "prompt_tokens": 36225,
+          "completion_tokens": 4689,
+          "total_tokens": 40914
+        }
+      },
+      "conv8_q098": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 39414,
+          "completion_tokens": 2177,
+          "total_tokens": 41591
+        },
+        "billed_usage": {
+          "prompt_tokens": 39414,
+          "completion_tokens": 2177,
+          "total_tokens": 41591
+        }
+      },
+      "conv8_q099": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34270,
+          "completion_tokens": 3264,
+          "total_tokens": 37534
+        },
+        "billed_usage": {
+          "prompt_tokens": 34270,
+          "completion_tokens": 3264,
+          "total_tokens": 37534
+        }
+      },
+      "conv8_q100": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35985,
+          "completion_tokens": 2790,
+          "total_tokens": 38775
+        },
+        "billed_usage": {
+          "prompt_tokens": 35985,
+          "completion_tokens": 2790,
+          "total_tokens": 38775
+        }
+      },
+      "conv8_q101": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38857,
+          "completion_tokens": 2984,
+          "total_tokens": 41841
+        },
+        "billed_usage": {
+          "prompt_tokens": 38857,
+          "completion_tokens": 2984,
+          "total_tokens": 41841
+        }
+      },
+      "conv8_q102": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43217,
+          "completion_tokens": 2394,
+          "total_tokens": 45611
+        },
+        "billed_usage": {
+          "prompt_tokens": 43217,
+          "completion_tokens": 2394,
+          "total_tokens": 45611
+        }
+      },
+      "conv8_q103": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32412,
+          "completion_tokens": 2670,
+          "total_tokens": 35082
+        },
+        "billed_usage": {
+          "prompt_tokens": 32412,
+          "completion_tokens": 2670,
+          "total_tokens": 35082
+        }
+      },
+      "conv8_q104": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 46504,
+          "completion_tokens": 2515,
+          "total_tokens": 49019
+        },
+        "billed_usage": {
+          "prompt_tokens": 46504,
+          "completion_tokens": 2515,
+          "total_tokens": 49019
+        }
+      },
+      "conv8_q105": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 47770,
+          "completion_tokens": 4300,
+          "total_tokens": 52070
+        },
+        "billed_usage": {
+          "prompt_tokens": 47770,
+          "completion_tokens": 4300,
+          "total_tokens": 52070
+        }
+      },
+      "conv8_q106": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35499,
+          "completion_tokens": 3885,
+          "total_tokens": 39384
+        },
+        "billed_usage": {
+          "prompt_tokens": 35499,
+          "completion_tokens": 3885,
+          "total_tokens": 39384
+        }
+      },
+      "conv8_q107": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34072,
+          "completion_tokens": 3295,
+          "total_tokens": 37367
+        },
+        "billed_usage": {
+          "prompt_tokens": 34072,
+          "completion_tokens": 3295,
+          "total_tokens": 37367
+        }
+      },
+      "conv8_q108": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 38249,
+          "completion_tokens": 3668,
+          "total_tokens": 41917
+        },
+        "billed_usage": {
+          "prompt_tokens": 38249,
+          "completion_tokens": 3668,
+          "total_tokens": 41917
+        }
+      },
+      "conv8_q109": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 35831,
+          "completion_tokens": 3599,
+          "total_tokens": 39430
+        },
+        "billed_usage": {
+          "prompt_tokens": 35831,
+          "completion_tokens": 3599,
+          "total_tokens": 39430
+        }
+      },
+      "conv8_q110": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35641,
+          "completion_tokens": 3484,
+          "total_tokens": 39125
+        },
+        "billed_usage": {
+          "prompt_tokens": 35641,
+          "completion_tokens": 3484,
+          "total_tokens": 39125
+        }
+      },
+      "conv8_q111": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36109,
+          "completion_tokens": 4392,
+          "total_tokens": 40501
+        },
+        "billed_usage": {
+          "prompt_tokens": 36109,
+          "completion_tokens": 4392,
+          "total_tokens": 40501
+        }
+      },
+      "conv8_q112": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33853,
+          "completion_tokens": 2461,
+          "total_tokens": 36314
+        },
+        "billed_usage": {
+          "prompt_tokens": 33853,
+          "completion_tokens": 2461,
+          "total_tokens": 36314
+        }
+      },
+      "conv8_q113": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35940,
+          "completion_tokens": 3176,
+          "total_tokens": 39116
+        },
+        "billed_usage": {
+          "prompt_tokens": 35940,
+          "completion_tokens": 3176,
+          "total_tokens": 39116
+        }
+      },
+      "conv8_q114": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34812,
+          "completion_tokens": 2786,
+          "total_tokens": 37598
+        },
+        "billed_usage": {
+          "prompt_tokens": 34812,
+          "completion_tokens": 2786,
+          "total_tokens": 37598
+        }
+      },
+      "conv8_q115": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41882,
+          "completion_tokens": 4712,
+          "total_tokens": 46594
+        },
+        "billed_usage": {
+          "prompt_tokens": 41882,
+          "completion_tokens": 4712,
+          "total_tokens": 46594
+        }
+      },
+      "conv8_q116": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35217,
+          "completion_tokens": 3308,
+          "total_tokens": 38525
+        },
+        "billed_usage": {
+          "prompt_tokens": 35217,
+          "completion_tokens": 3308,
+          "total_tokens": 38525
+        }
+      },
+      "conv8_q117": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 57427,
+          "completion_tokens": 3689,
+          "total_tokens": 61116
+        },
+        "billed_usage": {
+          "prompt_tokens": 57427,
+          "completion_tokens": 3689,
+          "total_tokens": 61116
+        }
+      },
+      "conv8_q118": {
+        "calls": 3,
+        "cache_hits": 0,
+        "cache_misses": 3,
+        "logical_usage": {
+          "prompt_tokens": 19078,
+          "completion_tokens": 2717,
+          "total_tokens": 21795
+        },
+        "billed_usage": {
+          "prompt_tokens": 19078,
+          "completion_tokens": 2717,
+          "total_tokens": 21795
+        }
+      },
+      "conv8_q119": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36917,
+          "completion_tokens": 2965,
+          "total_tokens": 39882
+        },
+        "billed_usage": {
+          "prompt_tokens": 36917,
+          "completion_tokens": 2965,
+          "total_tokens": 39882
+        }
+      },
+      "conv8_q120": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35902,
+          "completion_tokens": 4055,
+          "total_tokens": 39957
+        },
+        "billed_usage": {
+          "prompt_tokens": 35902,
+          "completion_tokens": 4055,
+          "total_tokens": 39957
+        }
+      },
+      "conv8_q121": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 42403,
+          "completion_tokens": 3198,
+          "total_tokens": 45601
+        },
+        "billed_usage": {
+          "prompt_tokens": 42403,
+          "completion_tokens": 3198,
+          "total_tokens": 45601
+        }
+      },
+      "conv8_q122": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41598,
+          "completion_tokens": 2638,
+          "total_tokens": 44236
+        },
+        "billed_usage": {
+          "prompt_tokens": 41598,
+          "completion_tokens": 2638,
+          "total_tokens": 44236
+        }
+      },
+      "conv8_q123": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36303,
+          "completion_tokens": 5006,
+          "total_tokens": 41309
+        },
+        "billed_usage": {
+          "prompt_tokens": 36303,
+          "completion_tokens": 5006,
+          "total_tokens": 41309
+        }
+      },
+      "conv8_q124": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41553,
+          "completion_tokens": 3406,
+          "total_tokens": 44959
+        },
+        "billed_usage": {
+          "prompt_tokens": 41553,
+          "completion_tokens": 3406,
+          "total_tokens": 44959
+        }
+      },
+      "conv8_q125": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35204,
+          "completion_tokens": 3401,
+          "total_tokens": 38605
+        },
+        "billed_usage": {
+          "prompt_tokens": 35204,
+          "completion_tokens": 3401,
+          "total_tokens": 38605
+        }
+      },
+      "conv8_q126": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32691,
+          "completion_tokens": 2542,
+          "total_tokens": 35233
+        },
+        "billed_usage": {
+          "prompt_tokens": 32691,
+          "completion_tokens": 2542,
+          "total_tokens": 35233
+        }
+      },
+      "conv8_q127": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32958,
+          "completion_tokens": 3473,
+          "total_tokens": 36431
+        },
+        "billed_usage": {
+          "prompt_tokens": 32958,
+          "completion_tokens": 3473,
+          "total_tokens": 36431
+        }
+      },
+      "conv8_q128": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36599,
+          "completion_tokens": 2644,
+          "total_tokens": 39243
+        },
+        "billed_usage": {
+          "prompt_tokens": 36599,
+          "completion_tokens": 2644,
+          "total_tokens": 39243
+        }
+      },
+      "conv8_q129": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 30719,
+          "completion_tokens": 2971,
+          "total_tokens": 33690
+        },
+        "billed_usage": {
+          "prompt_tokens": 30719,
+          "completion_tokens": 2971,
+          "total_tokens": 33690
+        }
+      },
+      "conv8_q130": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 33665,
+          "completion_tokens": 3442,
+          "total_tokens": 37107
+        },
+        "billed_usage": {
+          "prompt_tokens": 33665,
+          "completion_tokens": 3442,
+          "total_tokens": 37107
+        }
+      },
+      "conv8_q131": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33753,
+          "completion_tokens": 3099,
+          "total_tokens": 36852
+        },
+        "billed_usage": {
+          "prompt_tokens": 33753,
+          "completion_tokens": 3099,
+          "total_tokens": 36852
+        }
+      },
+      "conv8_q132": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 36057,
+          "completion_tokens": 2569,
+          "total_tokens": 38626
+        },
+        "billed_usage": {
+          "prompt_tokens": 36057,
+          "completion_tokens": 2569,
+          "total_tokens": 38626
+        }
+      },
+      "conv8_q133": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31412,
+          "completion_tokens": 2390,
+          "total_tokens": 33802
+        },
+        "billed_usage": {
+          "prompt_tokens": 31412,
+          "completion_tokens": 2390,
+          "total_tokens": 33802
+        }
+      },
+      "conv8_q134": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34579,
+          "completion_tokens": 3245,
+          "total_tokens": 37824
+        },
+        "billed_usage": {
+          "prompt_tokens": 34579,
+          "completion_tokens": 3245,
+          "total_tokens": 37824
+        }
+      },
+      "conv8_q135": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32596,
+          "completion_tokens": 2285,
+          "total_tokens": 34881
+        },
+        "billed_usage": {
+          "prompt_tokens": 32596,
+          "completion_tokens": 2285,
+          "total_tokens": 34881
+        }
+      },
+      "conv8_q136": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 36824,
+          "completion_tokens": 4229,
+          "total_tokens": 41053
+        },
+        "billed_usage": {
+          "prompt_tokens": 36824,
+          "completion_tokens": 4229,
+          "total_tokens": 41053
+        }
+      },
+      "conv8_q137": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32749,
+          "completion_tokens": 3412,
+          "total_tokens": 36161
+        },
+        "billed_usage": {
+          "prompt_tokens": 32749,
+          "completion_tokens": 3412,
+          "total_tokens": 36161
+        }
+      },
+      "conv8_q138": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33578,
+          "completion_tokens": 3477,
+          "total_tokens": 37055
+        },
+        "billed_usage": {
+          "prompt_tokens": 33578,
+          "completion_tokens": 3477,
+          "total_tokens": 37055
+        }
+      },
+      "conv8_q139": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34414,
+          "completion_tokens": 3290,
+          "total_tokens": 37704
+        },
+        "billed_usage": {
+          "prompt_tokens": 34414,
+          "completion_tokens": 3290,
+          "total_tokens": 37704
+        }
+      },
+      "conv8_q140": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 46646,
+          "completion_tokens": 4780,
+          "total_tokens": 51426
+        },
+        "billed_usage": {
+          "prompt_tokens": 46646,
+          "completion_tokens": 4780,
+          "total_tokens": 51426
+        }
+      },
+      "conv8_q141": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34993,
+          "completion_tokens": 2482,
+          "total_tokens": 37475
+        },
+        "billed_usage": {
+          "prompt_tokens": 34993,
+          "completion_tokens": 2482,
+          "total_tokens": 37475
+        }
+      },
+      "conv8_q142": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31364,
+          "completion_tokens": 3132,
+          "total_tokens": 34496
+        },
+        "billed_usage": {
+          "prompt_tokens": 31364,
+          "completion_tokens": 3132,
+          "total_tokens": 34496
+        }
+      },
+      "conv8_q143": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35920,
+          "completion_tokens": 2988,
+          "total_tokens": 38908
+        },
+        "billed_usage": {
+          "prompt_tokens": 35920,
+          "completion_tokens": 2988,
+          "total_tokens": 38908
+        }
+      },
+      "conv8_q144": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37340,
+          "completion_tokens": 2617,
+          "total_tokens": 39957
+        },
+        "billed_usage": {
+          "prompt_tokens": 37340,
+          "completion_tokens": 2617,
+          "total_tokens": 39957
+        }
+      },
+      "conv8_q145": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35621,
+          "completion_tokens": 2198,
+          "total_tokens": 37819
+        },
+        "billed_usage": {
+          "prompt_tokens": 35621,
+          "completion_tokens": 2198,
+          "total_tokens": 37819
+        }
+      },
+      "conv8_q146": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32088,
+          "completion_tokens": 2782,
+          "total_tokens": 34870
+        },
+        "billed_usage": {
+          "prompt_tokens": 32088,
+          "completion_tokens": 2782,
+          "total_tokens": 34870
+        }
+      },
+      "conv8_q147": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35590,
+          "completion_tokens": 4217,
+          "total_tokens": 39807
+        },
+        "billed_usage": {
+          "prompt_tokens": 35590,
+          "completion_tokens": 4217,
+          "total_tokens": 39807
+        }
+      },
+      "conv8_q148": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32979,
+          "completion_tokens": 3312,
+          "total_tokens": 36291
+        },
+        "billed_usage": {
+          "prompt_tokens": 32979,
+          "completion_tokens": 3312,
+          "total_tokens": 36291
+        }
+      },
+      "conv8_q149": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 32666,
+          "completion_tokens": 2486,
+          "total_tokens": 35152
+        },
+        "billed_usage": {
+          "prompt_tokens": 32666,
+          "completion_tokens": 2486,
+          "total_tokens": 35152
+        }
+      },
+      "conv8_q150": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33383,
+          "completion_tokens": 3550,
+          "total_tokens": 36933
+        },
+        "billed_usage": {
+          "prompt_tokens": 33383,
+          "completion_tokens": 3550,
+          "total_tokens": 36933
+        }
+      },
+      "conv8_q151": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33970,
+          "completion_tokens": 3324,
+          "total_tokens": 37294
+        },
+        "billed_usage": {
+          "prompt_tokens": 33970,
+          "completion_tokens": 3324,
+          "total_tokens": 37294
+        }
+      },
+      "conv8_q152": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 31720,
+          "completion_tokens": 2649,
+          "total_tokens": 34369
+        },
+        "billed_usage": {
+          "prompt_tokens": 31720,
+          "completion_tokens": 2649,
+          "total_tokens": 34369
+        }
+      },
+      "conv8_q153": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35897,
+          "completion_tokens": 2447,
+          "total_tokens": 38344
+        },
+        "billed_usage": {
+          "prompt_tokens": 35897,
+          "completion_tokens": 2447,
+          "total_tokens": 38344
+        }
+      },
+      "conv8_q154": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 34000,
+          "completion_tokens": 3038,
+          "total_tokens": 37038
+        },
+        "billed_usage": {
+          "prompt_tokens": 34000,
+          "completion_tokens": 3038,
+          "total_tokens": 37038
+        }
+      },
+      "conv8_q155": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35271,
+          "completion_tokens": 3007,
+          "total_tokens": 38278
+        },
+        "billed_usage": {
+          "prompt_tokens": 35271,
+          "completion_tokens": 3007,
+          "total_tokens": 38278
+        }
+      }
+    }
+  }
+}

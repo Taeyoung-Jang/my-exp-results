@@ -1,0 +1,212 @@
+{
+  "uid": "c14c00dd",
+  "num_sessions": 51,
+  "answers": {
+    "c14c00dd": {
+      "response": "You currently use a lavender‑scented shampoo from Trader Joe’s.",
+      "verdict": "SUPPORTED",
+      "elapsed_seconds": 66.8
+    }
+  },
+  "profile_snapshot_size": 85075,
+  "elapsed_seconds": 6351.2,
+  "usage_summary": {
+    "total_calls": 729,
+    "cache_hits": 0,
+    "cache_misses": 729,
+    "logical_usage": {
+      "prompt_tokens": 1740352,
+      "completion_tokens": 335207,
+      "total_tokens": 2075559
+    },
+    "billed_usage": {
+      "prompt_tokens": 1740352,
+      "completion_tokens": 335207,
+      "total_tokens": 2075559
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 51,
+        "cache_hits": 0,
+        "cache_misses": 51,
+        "logical_usage": {
+          "prompt_tokens": 99477,
+          "completion_tokens": 37288,
+          "total_tokens": 136765
+        },
+        "billed_usage": {
+          "prompt_tokens": 99477,
+          "completion_tokens": 37288,
+          "total_tokens": 136765
+        }
+      },
+      "delta_extractor": {
+        "calls": 40,
+        "cache_hits": 0,
+        "cache_misses": 40,
+        "logical_usage": {
+          "prompt_tokens": 137327,
+          "completion_tokens": 22283,
+          "total_tokens": 159610
+        },
+        "billed_usage": {
+          "prompt_tokens": 137327,
+          "completion_tokens": 22283,
+          "total_tokens": 159610
+        }
+      },
+      "update_judge": {
+        "calls": 72,
+        "cache_hits": 0,
+        "cache_misses": 72,
+        "logical_usage": {
+          "prompt_tokens": 200018,
+          "completion_tokens": 19605,
+          "total_tokens": 219623
+        },
+        "billed_usage": {
+          "prompt_tokens": 200018,
+          "completion_tokens": 19605,
+          "total_tokens": 219623
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 38,
+        "cache_hits": 0,
+        "cache_misses": 38,
+        "logical_usage": {
+          "prompt_tokens": 66753,
+          "completion_tokens": 27449,
+          "total_tokens": 94202
+        },
+        "billed_usage": {
+          "prompt_tokens": 66753,
+          "completion_tokens": 27449,
+          "total_tokens": 94202
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 196,
+        "cache_hits": 0,
+        "cache_misses": 196,
+        "logical_usage": {
+          "prompt_tokens": 707722,
+          "completion_tokens": 115402,
+          "total_tokens": 823124
+        },
+        "billed_usage": {
+          "prompt_tokens": 707722,
+          "completion_tokens": 115402,
+          "total_tokens": 823124
+        }
+      },
+      "invalidation_judge": {
+        "calls": 65,
+        "cache_hits": 0,
+        "cache_misses": 65,
+        "logical_usage": {
+          "prompt_tokens": 214745,
+          "completion_tokens": 35345,
+          "total_tokens": 250090
+        },
+        "billed_usage": {
+          "prompt_tokens": 214745,
+          "completion_tokens": 35345,
+          "total_tokens": 250090
+        }
+      },
+      "stale_support_judge": {
+        "calls": 263,
+        "cache_hits": 0,
+        "cache_misses": 263,
+        "logical_usage": {
+          "prompt_tokens": 262832,
+          "completion_tokens": 75549,
+          "total_tokens": 338381
+        },
+        "billed_usage": {
+          "prompt_tokens": 262832,
+          "completion_tokens": 75549,
+          "total_tokens": 338381
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1476,
+          "completion_tokens": 704,
+          "total_tokens": 2180
+        },
+        "billed_usage": {
+          "prompt_tokens": 1476,
+          "completion_tokens": 704,
+          "total_tokens": 2180
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 21951,
+          "completion_tokens": 598,
+          "total_tokens": 22549
+        },
+        "billed_usage": {
+          "prompt_tokens": 21951,
+          "completion_tokens": 598,
+          "total_tokens": 22549
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 26663,
+          "completion_tokens": 771,
+          "total_tokens": 27434
+        },
+        "billed_usage": {
+          "prompt_tokens": 26663,
+          "completion_tokens": 771,
+          "total_tokens": 27434
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1388,
+          "completion_tokens": 213,
+          "total_tokens": 1601
+        },
+        "billed_usage": {
+          "prompt_tokens": 1388,
+          "completion_tokens": 213,
+          "total_tokens": 1601
+        }
+      }
+    },
+    "by_query_label": {
+      "c14c00dd": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 51478,
+          "completion_tokens": 2286,
+          "total_tokens": 53764
+        },
+        "billed_usage": {
+          "prompt_tokens": 51478,
+          "completion_tokens": 2286,
+          "total_tokens": 53764
+        }
+      }
+    }
+  }
+}

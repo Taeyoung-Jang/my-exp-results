@@ -1,0 +1,228 @@
+{
+  "uid": "6456829e_abs",
+  "num_sessions": 53,
+  "answers": {
+    "6456829e_abs": {
+      "response": "I don’t have enough current information to tell how many tomato and chili‑pepper plants you initially planted.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 70.0
+    }
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/llm_layer/client.py\", line 462, in call_json\n    data, _parse_mode = parse_json_object_with_repair(raw)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/llm_layer/client.py\", line 106, in parse_json_object_with_repair\n    raise last_error\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/llm_layer/client.py\", line 87, in parse_json_object_with_repair\n    data = json.loads(candidate)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 353, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ^^^^^^^^^^^^^^^^^^^^^^\njson.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 18 (char 325)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/bench/run_bench.py\", line 219, in run_one\n    engine.process_session(session=session, session_index=idx, session_time=str(session_time))\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/writer.py\", line 168, in process_session\n    stale_support_result = self.link_stale_support(\n                           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/stale_linker.py\", line 137, in link_stale_support\n    payload = self._llm_call_json(\n              ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/write/chunker.py\", line 75, in _llm_call_json\n    return self.llm.call_json(\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/llm_layer/client.py\", line 475, in call_json\n    data, _parse_mode = parse_json_object_with_repair(retry_raw)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/llm_layer/client.py\", line 106, in parse_json_object_with_repair\n    raise last_error\n  File \"/home/tae0jang/Documents/Workspace/STALE/cup_mem/llm_layer/client.py\", line 87, in parse_json_object_with_repair\n    data = json.loads(candidate)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/decoder.py\", line 353, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ^^^^^^^^^^^^^^^^^^^^^^\njson.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 18 (char 325)\n",
+  "elapsed_seconds": 3379.9,
+  "usage_summary": {
+    "total_calls": 416,
+    "cache_hits": 14,
+    "cache_misses": 402,
+    "logical_usage": {
+      "prompt_tokens": 1026180,
+      "completion_tokens": 215513,
+      "total_tokens": 1241693
+    },
+    "billed_usage": {
+      "prompt_tokens": 1002180,
+      "completion_tokens": 206744,
+      "total_tokens": 1208924
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 31,
+        "cache_hits": 7,
+        "cache_misses": 24,
+        "logical_usage": {
+          "prompt_tokens": 64621,
+          "completion_tokens": 21538,
+          "total_tokens": 86159
+        },
+        "billed_usage": {
+          "prompt_tokens": 51289,
+          "completion_tokens": 16058,
+          "total_tokens": 67347
+        }
+      },
+      "delta_extractor": {
+        "calls": 24,
+        "cache_hits": 2,
+        "cache_misses": 22,
+        "logical_usage": {
+          "prompt_tokens": 85343,
+          "completion_tokens": 12650,
+          "total_tokens": 97993
+        },
+        "billed_usage": {
+          "prompt_tokens": 81445,
+          "completion_tokens": 11403,
+          "total_tokens": 92848
+        }
+      },
+      "update_judge": {
+        "calls": 37,
+        "cache_hits": 2,
+        "cache_misses": 35,
+        "logical_usage": {
+          "prompt_tokens": 118927,
+          "completion_tokens": 11103,
+          "total_tokens": 130030
+        },
+        "billed_usage": {
+          "prompt_tokens": 116365,
+          "completion_tokens": 10728,
+          "total_tokens": 127093
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 21,
+        "cache_hits": 1,
+        "cache_misses": 20,
+        "logical_usage": {
+          "prompt_tokens": 36619,
+          "completion_tokens": 15365,
+          "total_tokens": 51984
+        },
+        "billed_usage": {
+          "prompt_tokens": 34823,
+          "completion_tokens": 14791,
+          "total_tokens": 49614
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 106,
+        "cache_hits": 0,
+        "cache_misses": 106,
+        "logical_usage": {
+          "prompt_tokens": 389788,
+          "completion_tokens": 82458,
+          "total_tokens": 472246
+        },
+        "billed_usage": {
+          "prompt_tokens": 389788,
+          "completion_tokens": 82458,
+          "total_tokens": 472246
+        }
+      },
+      "invalidation_judge": {
+        "calls": 41,
+        "cache_hits": 0,
+        "cache_misses": 41,
+        "logical_usage": {
+          "prompt_tokens": 133920,
+          "completion_tokens": 20766,
+          "total_tokens": 154686
+        },
+        "billed_usage": {
+          "prompt_tokens": 133920,
+          "completion_tokens": 20766,
+          "total_tokens": 154686
+        }
+      },
+      "stale_support_judge": {
+        "calls": 148,
+        "cache_hits": 0,
+        "cache_misses": 148,
+        "logical_usage": {
+          "prompt_tokens": 148803,
+          "completion_tokens": 46320,
+          "total_tokens": 195123
+        },
+        "billed_usage": {
+          "prompt_tokens": 148803,
+          "completion_tokens": 46320,
+          "total_tokens": 195123
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 927,
+          "total_tokens": 2407
+        },
+        "billed_usage": {
+          "prompt_tokens": 1480,
+          "completion_tokens": 927,
+          "total_tokens": 2407
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18083,
+          "completion_tokens": 827,
+          "total_tokens": 18910
+        },
+        "billed_usage": {
+          "prompt_tokens": 18083,
+          "completion_tokens": 827,
+          "total_tokens": 18910
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4824,
+          "completion_tokens": 2186,
+          "total_tokens": 7010
+        },
+        "billed_usage": {
+          "prompt_tokens": 2412,
+          "completion_tokens": 1093,
+          "total_tokens": 3505
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 22428,
+          "completion_tokens": 1101,
+          "total_tokens": 23529
+        },
+        "billed_usage": {
+          "prompt_tokens": 22428,
+          "completion_tokens": 1101,
+          "total_tokens": 23529
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1344,
+          "completion_tokens": 272,
+          "total_tokens": 1616
+        },
+        "billed_usage": {
+          "prompt_tokens": 1344,
+          "completion_tokens": 272,
+          "total_tokens": 1616
+        }
+      }
+    },
+    "by_query_label": {
+      "6456829e_abs": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 43335,
+          "completion_tokens": 3127,
+          "total_tokens": 46462
+        },
+        "billed_usage": {
+          "prompt_tokens": 43335,
+          "completion_tokens": 3127,
+          "total_tokens": 46462
+        }
+      }
+    }
+  },
+  "profile_snapshot_size": 68202
+}

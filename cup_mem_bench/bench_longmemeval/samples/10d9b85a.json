@@ -1,0 +1,227 @@
+{
+  "uid": "10d9b85a",
+  "num_sessions": 44,
+  "answers": {
+    "10d9b85a": {
+      "response": "I don’t have enough current information to determine how many days you attended workshops, lectures, or conferences in April, so I can’t provide a count.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 101.9
+    }
+  },
+  "profile_snapshot_size": 87992,
+  "elapsed_seconds": 6497.8,
+  "usage_summary": {
+    "total_calls": 688,
+    "cache_hits": 2,
+    "cache_misses": 686,
+    "logical_usage": {
+      "prompt_tokens": 1710804,
+      "completion_tokens": 351189,
+      "total_tokens": 2061993
+    },
+    "billed_usage": {
+      "prompt_tokens": 1708337,
+      "completion_tokens": 350409,
+      "total_tokens": 2058746
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 44,
+        "cache_hits": 0,
+        "cache_misses": 44,
+        "logical_usage": {
+          "prompt_tokens": 86634,
+          "completion_tokens": 34945,
+          "total_tokens": 121579
+        },
+        "billed_usage": {
+          "prompt_tokens": 86634,
+          "completion_tokens": 34945,
+          "total_tokens": 121579
+        }
+      },
+      "delta_extractor": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 138094,
+          "completion_tokens": 21660,
+          "total_tokens": 159754
+        },
+        "billed_usage": {
+          "prompt_tokens": 138094,
+          "completion_tokens": 21660,
+          "total_tokens": 159754
+        }
+      },
+      "update_judge": {
+        "calls": 71,
+        "cache_hits": 0,
+        "cache_misses": 71,
+        "logical_usage": {
+          "prompt_tokens": 229870,
+          "completion_tokens": 20290,
+          "total_tokens": 250160
+        },
+        "billed_usage": {
+          "prompt_tokens": 229870,
+          "completion_tokens": 20290,
+          "total_tokens": 250160
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 36,
+        "cache_hits": 0,
+        "cache_misses": 36,
+        "logical_usage": {
+          "prompt_tokens": 65199,
+          "completion_tokens": 25616,
+          "total_tokens": 90815
+        },
+        "billed_usage": {
+          "prompt_tokens": 65199,
+          "completion_tokens": 25616,
+          "total_tokens": 90815
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 176,
+        "cache_hits": 0,
+        "cache_misses": 176,
+        "logical_usage": {
+          "prompt_tokens": 650275,
+          "completion_tokens": 132473,
+          "total_tokens": 782748
+        },
+        "billed_usage": {
+          "prompt_tokens": 650275,
+          "completion_tokens": 132473,
+          "total_tokens": 782748
+        }
+      },
+      "invalidation_judge": {
+        "calls": 64,
+        "cache_hits": 0,
+        "cache_misses": 64,
+        "logical_usage": {
+          "prompt_tokens": 242435,
+          "completion_tokens": 35044,
+          "total_tokens": 277479
+        },
+        "billed_usage": {
+          "prompt_tokens": 242435,
+          "completion_tokens": 35044,
+          "total_tokens": 277479
+        }
+      },
+      "stale_support_judge": {
+        "calls": 252,
+        "cache_hits": 0,
+        "cache_misses": 252,
+        "logical_usage": {
+          "prompt_tokens": 251955,
+          "completion_tokens": 76984,
+          "total_tokens": 328939
+        },
+        "billed_usage": {
+          "prompt_tokens": 251955,
+          "completion_tokens": 76984,
+          "total_tokens": 328939
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1483,
+          "completion_tokens": 900,
+          "total_tokens": 2383
+        },
+        "billed_usage": {
+          "prompt_tokens": 1483,
+          "completion_tokens": 900,
+          "total_tokens": 2383
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 16824,
+          "completion_tokens": 644,
+          "total_tokens": 17468
+        },
+        "billed_usage": {
+          "prompt_tokens": 16824,
+          "completion_tokens": 644,
+          "total_tokens": 17468
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4934,
+          "completion_tokens": 1560,
+          "total_tokens": 6494
+        },
+        "billed_usage": {
+          "prompt_tokens": 2467,
+          "completion_tokens": 780,
+          "total_tokens": 3247
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 21972,
+          "completion_tokens": 841,
+          "total_tokens": 22813
+        },
+        "billed_usage": {
+          "prompt_tokens": 21972,
+          "completion_tokens": 841,
+          "total_tokens": 22813
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1129,
+          "completion_tokens": 232,
+          "total_tokens": 1361
+        },
+        "billed_usage": {
+          "prompt_tokens": 1129,
+          "completion_tokens": 232,
+          "total_tokens": 1361
+        }
+      }
+    },
+    "by_query_label": {
+      "10d9b85a": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 41408,
+          "completion_tokens": 2617,
+          "total_tokens": 44025
+        },
+        "billed_usage": {
+          "prompt_tokens": 41408,
+          "completion_tokens": 2617,
+          "total_tokens": 44025
+        }
+      }
+    }
+  }
+}

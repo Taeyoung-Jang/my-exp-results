@@ -1,0 +1,227 @@
+{
+  "uid": "c8c3f81d",
+  "num_sessions": 52,
+  "answers": {
+    "c8c3f81d": {
+      "response": "Your favorite running shoes are Nike.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 303.3
+    }
+  },
+  "profile_snapshot_size": 81464,
+  "elapsed_seconds": 5332.2,
+  "usage_summary": {
+    "total_calls": 683,
+    "cache_hits": 58,
+    "cache_misses": 625,
+    "logical_usage": {
+      "prompt_tokens": 1633411,
+      "completion_tokens": 343535,
+      "total_tokens": 1976946
+    },
+    "billed_usage": {
+      "prompt_tokens": 1529846,
+      "completion_tokens": 307412,
+      "total_tokens": 1837258
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 50,
+        "cache_hits": 34,
+        "cache_misses": 16,
+        "logical_usage": {
+          "prompt_tokens": 97597,
+          "completion_tokens": 39640,
+          "total_tokens": 137237
+        },
+        "billed_usage": {
+          "prompt_tokens": 31262,
+          "completion_tokens": 14265,
+          "total_tokens": 45527
+        }
+      },
+      "delta_extractor": {
+        "calls": 43,
+        "cache_hits": 12,
+        "cache_misses": 31,
+        "logical_usage": {
+          "prompt_tokens": 136203,
+          "completion_tokens": 22747,
+          "total_tokens": 158950
+        },
+        "billed_usage": {
+          "prompt_tokens": 117351,
+          "completion_tokens": 16872,
+          "total_tokens": 134223
+        }
+      },
+      "update_judge": {
+        "calls": 66,
+        "cache_hits": 7,
+        "cache_misses": 59,
+        "logical_usage": {
+          "prompt_tokens": 218731,
+          "completion_tokens": 17986,
+          "total_tokens": 236717
+        },
+        "billed_usage": {
+          "prompt_tokens": 209325,
+          "completion_tokens": 16581,
+          "total_tokens": 225906
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 38,
+        "cache_hits": 5,
+        "cache_misses": 33,
+        "logical_usage": {
+          "prompt_tokens": 65749,
+          "completion_tokens": 27345,
+          "total_tokens": 93094
+        },
+        "billed_usage": {
+          "prompt_tokens": 56777,
+          "completion_tokens": 23877,
+          "total_tokens": 80654
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 177,
+        "cache_hits": 0,
+        "cache_misses": 177,
+        "logical_usage": {
+          "prompt_tokens": 627921,
+          "completion_tokens": 125783,
+          "total_tokens": 753704
+        },
+        "billed_usage": {
+          "prompt_tokens": 627921,
+          "completion_tokens": 125783,
+          "total_tokens": 753704
+        }
+      },
+      "invalidation_judge": {
+        "calls": 66,
+        "cache_hits": 0,
+        "cache_misses": 66,
+        "logical_usage": {
+          "prompt_tokens": 220868,
+          "completion_tokens": 34707,
+          "total_tokens": 255575
+        },
+        "billed_usage": {
+          "prompt_tokens": 220868,
+          "completion_tokens": 34707,
+          "total_tokens": 255575
+        }
+      },
+      "stale_support_judge": {
+        "calls": 235,
+        "cache_hits": 0,
+        "cache_misses": 235,
+        "logical_usage": {
+          "prompt_tokens": 228153,
+          "completion_tokens": 69458,
+          "total_tokens": 297611
+        },
+        "billed_usage": {
+          "prompt_tokens": 228153,
+          "completion_tokens": 69458,
+          "total_tokens": 297611
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1475,
+          "completion_tokens": 663,
+          "total_tokens": 2138
+        },
+        "billed_usage": {
+          "prompt_tokens": 1475,
+          "completion_tokens": 663,
+          "total_tokens": 2138
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 12751,
+          "completion_tokens": 1138,
+          "total_tokens": 13889
+        },
+        "billed_usage": {
+          "prompt_tokens": 12751,
+          "completion_tokens": 1138,
+          "total_tokens": 13889
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 4795,
+          "completion_tokens": 2510,
+          "total_tokens": 7305
+        },
+        "billed_usage": {
+          "prompt_tokens": 4795,
+          "completion_tokens": 2510,
+          "total_tokens": 7305
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 17590,
+          "completion_tokens": 1041,
+          "total_tokens": 18631
+        },
+        "billed_usage": {
+          "prompt_tokens": 17590,
+          "completion_tokens": 1041,
+          "total_tokens": 18631
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1578,
+          "completion_tokens": 517,
+          "total_tokens": 2095
+        },
+        "billed_usage": {
+          "prompt_tokens": 1578,
+          "completion_tokens": 517,
+          "total_tokens": 2095
+        }
+      }
+    },
+    "by_query_label": {
+      "c8c3f81d": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33394,
+          "completion_tokens": 3359,
+          "total_tokens": 36753
+        },
+        "billed_usage": {
+          "prompt_tokens": 33394,
+          "completion_tokens": 3359,
+          "total_tokens": 36753
+        }
+      }
+    }
+  }
+}

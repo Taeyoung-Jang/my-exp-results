@@ -1,0 +1,242 @@
+{
+  "uid": "86b68151",
+  "num_sessions": 47,
+  "answers": {
+    "86b68151": {
+      "response": "I don’t have a record of where you bought the new bookshelf. Could you let me know where you purchased it?",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 143.1
+    }
+  },
+  "profile_snapshot_size": 87241,
+  "elapsed_seconds": 6822.1,
+  "usage_summary": {
+    "total_calls": 687,
+    "cache_hits": 3,
+    "cache_misses": 684,
+    "logical_usage": {
+      "prompt_tokens": 1629602,
+      "completion_tokens": 349703,
+      "total_tokens": 1979305
+    },
+    "billed_usage": {
+      "prompt_tokens": 1625150,
+      "completion_tokens": 347331,
+      "total_tokens": 1972481
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 47,
+        "cache_hits": 1,
+        "cache_misses": 46,
+        "logical_usage": {
+          "prompt_tokens": 91865,
+          "completion_tokens": 33967,
+          "total_tokens": 125832
+        },
+        "billed_usage": {
+          "prompt_tokens": 89858,
+          "completion_tokens": 32878,
+          "total_tokens": 122736
+        }
+      },
+      "delta_extractor": {
+        "calls": 38,
+        "cache_hits": 0,
+        "cache_misses": 38,
+        "logical_usage": {
+          "prompt_tokens": 130956,
+          "completion_tokens": 19908,
+          "total_tokens": 150864
+        },
+        "billed_usage": {
+          "prompt_tokens": 130956,
+          "completion_tokens": 19908,
+          "total_tokens": 150864
+        }
+      },
+      "update_judge": {
+        "calls": 66,
+        "cache_hits": 0,
+        "cache_misses": 66,
+        "logical_usage": {
+          "prompt_tokens": 197791,
+          "completion_tokens": 18738,
+          "total_tokens": 216529
+        },
+        "billed_usage": {
+          "prompt_tokens": 197791,
+          "completion_tokens": 18738,
+          "total_tokens": 216529
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 64435,
+          "completion_tokens": 28724,
+          "total_tokens": 93159
+        },
+        "billed_usage": {
+          "prompt_tokens": 64435,
+          "completion_tokens": 28724,
+          "total_tokens": 93159
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 183,
+        "cache_hits": 0,
+        "cache_misses": 183,
+        "logical_usage": {
+          "prompt_tokens": 654104,
+          "completion_tokens": 135471,
+          "total_tokens": 789575
+        },
+        "billed_usage": {
+          "prompt_tokens": 654104,
+          "completion_tokens": 135471,
+          "total_tokens": 789575
+        }
+      },
+      "invalidation_judge": {
+        "calls": 64,
+        "cache_hits": 0,
+        "cache_misses": 64,
+        "logical_usage": {
+          "prompt_tokens": 205055,
+          "completion_tokens": 35113,
+          "total_tokens": 240168
+        },
+        "billed_usage": {
+          "prompt_tokens": 205055,
+          "completion_tokens": 35113,
+          "total_tokens": 240168
+        }
+      },
+      "stale_support_judge": {
+        "calls": 243,
+        "cache_hits": 0,
+        "cache_misses": 243,
+        "logical_usage": {
+          "prompt_tokens": 238888,
+          "completion_tokens": 71945,
+          "total_tokens": 310833
+        },
+        "billed_usage": {
+          "prompt_tokens": 238888,
+          "completion_tokens": 71945,
+          "total_tokens": 310833
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1476,
+          "completion_tokens": 914,
+          "total_tokens": 2390
+        },
+        "billed_usage": {
+          "prompt_tokens": 1476,
+          "completion_tokens": 914,
+          "total_tokens": 2390
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 16282,
+          "completion_tokens": 762,
+          "total_tokens": 17044
+        },
+        "billed_usage": {
+          "prompt_tokens": 16282,
+          "completion_tokens": 762,
+          "total_tokens": 17044
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4890,
+          "completion_tokens": 2566,
+          "total_tokens": 7456
+        },
+        "billed_usage": {
+          "prompt_tokens": 2445,
+          "completion_tokens": 1283,
+          "total_tokens": 3728
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 20215,
+          "completion_tokens": 754,
+          "total_tokens": 20969
+        },
+        "billed_usage": {
+          "prompt_tokens": 20215,
+          "completion_tokens": 754,
+          "total_tokens": 20969
+        }
+      },
+      "action_grounding_resolver": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1972,
+          "completion_tokens": 600,
+          "total_tokens": 2572
+        },
+        "billed_usage": {
+          "prompt_tokens": 1972,
+          "completion_tokens": 600,
+          "total_tokens": 2572
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1673,
+          "completion_tokens": 241,
+          "total_tokens": 1914
+        },
+        "billed_usage": {
+          "prompt_tokens": 1673,
+          "completion_tokens": 241,
+          "total_tokens": 1914
+        }
+      }
+    },
+    "by_query_label": {
+      "86b68151": {
+        "calls": 5,
+        "cache_hits": 0,
+        "cache_misses": 5,
+        "logical_usage": {
+          "prompt_tokens": 41618,
+          "completion_tokens": 3271,
+          "total_tokens": 44889
+        },
+        "billed_usage": {
+          "prompt_tokens": 41618,
+          "completion_tokens": 3271,
+          "total_tokens": 44889
+        }
+      }
+    }
+  }
+}

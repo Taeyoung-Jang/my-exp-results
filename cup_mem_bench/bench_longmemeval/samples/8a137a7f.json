@@ -1,0 +1,227 @@
+{
+  "uid": "8a137a7f",
+  "num_sessions": 51,
+  "answers": {
+    "8a137a7f": {
+      "response": "I don’t have current information about the type of bulb you replaced in your bedside lamp.",
+      "verdict": "OUTDATED",
+      "elapsed_seconds": 215.3
+    }
+  },
+  "profile_snapshot_size": 72684,
+  "elapsed_seconds": 5844.0,
+  "usage_summary": {
+    "total_calls": 600,
+    "cache_hits": 0,
+    "cache_misses": 600,
+    "logical_usage": {
+      "prompt_tokens": 1569400,
+      "completion_tokens": 292145,
+      "total_tokens": 1861545
+    },
+    "billed_usage": {
+      "prompt_tokens": 1569400,
+      "completion_tokens": 292145,
+      "total_tokens": 1861545
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 51,
+        "cache_hits": 0,
+        "cache_misses": 51,
+        "logical_usage": {
+          "prompt_tokens": 98436,
+          "completion_tokens": 34913,
+          "total_tokens": 133349
+        },
+        "billed_usage": {
+          "prompt_tokens": 98436,
+          "completion_tokens": 34913,
+          "total_tokens": 133349
+        }
+      },
+      "delta_extractor": {
+        "calls": 39,
+        "cache_hits": 0,
+        "cache_misses": 39,
+        "logical_usage": {
+          "prompt_tokens": 132341,
+          "completion_tokens": 18754,
+          "total_tokens": 151095
+        },
+        "billed_usage": {
+          "prompt_tokens": 132341,
+          "completion_tokens": 18754,
+          "total_tokens": 151095
+        }
+      },
+      "update_judge": {
+        "calls": 60,
+        "cache_hits": 0,
+        "cache_misses": 60,
+        "logical_usage": {
+          "prompt_tokens": 224772,
+          "completion_tokens": 16143,
+          "total_tokens": 240915
+        },
+        "billed_usage": {
+          "prompt_tokens": 224772,
+          "completion_tokens": 16143,
+          "total_tokens": 240915
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 34,
+        "cache_hits": 0,
+        "cache_misses": 34,
+        "logical_usage": {
+          "prompt_tokens": 58578,
+          "completion_tokens": 24512,
+          "total_tokens": 83090
+        },
+        "billed_usage": {
+          "prompt_tokens": 58578,
+          "completion_tokens": 24512,
+          "total_tokens": 83090
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 161,
+        "cache_hits": 0,
+        "cache_misses": 161,
+        "logical_usage": {
+          "prompt_tokens": 564109,
+          "completion_tokens": 103143,
+          "total_tokens": 667252
+        },
+        "billed_usage": {
+          "prompt_tokens": 564109,
+          "completion_tokens": 103143,
+          "total_tokens": 667252
+        }
+      },
+      "invalidation_judge": {
+        "calls": 57,
+        "cache_hits": 0,
+        "cache_misses": 57,
+        "logical_usage": {
+          "prompt_tokens": 264755,
+          "completion_tokens": 31271,
+          "total_tokens": 296026
+        },
+        "billed_usage": {
+          "prompt_tokens": 264755,
+          "completion_tokens": 31271,
+          "total_tokens": 296026
+        }
+      },
+      "stale_support_judge": {
+        "calls": 190,
+        "cache_hits": 0,
+        "cache_misses": 190,
+        "logical_usage": {
+          "prompt_tokens": 187901,
+          "completion_tokens": 57179,
+          "total_tokens": 245080
+        },
+        "billed_usage": {
+          "prompt_tokens": 187901,
+          "completion_tokens": 57179,
+          "total_tokens": 245080
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 922,
+          "total_tokens": 2401
+        },
+        "billed_usage": {
+          "prompt_tokens": 1479,
+          "completion_tokens": 922,
+          "total_tokens": 2401
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 13128,
+          "completion_tokens": 1088,
+          "total_tokens": 14216
+        },
+        "billed_usage": {
+          "prompt_tokens": 13128,
+          "completion_tokens": 1088,
+          "total_tokens": 14216
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 5011,
+          "completion_tokens": 2789,
+          "total_tokens": 7800
+        },
+        "billed_usage": {
+          "prompt_tokens": 5011,
+          "completion_tokens": 2789,
+          "total_tokens": 7800
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 17559,
+          "completion_tokens": 1222,
+          "total_tokens": 18781
+        },
+        "billed_usage": {
+          "prompt_tokens": 17559,
+          "completion_tokens": 1222,
+          "total_tokens": 18781
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1331,
+          "completion_tokens": 209,
+          "total_tokens": 1540
+        },
+        "billed_usage": {
+          "prompt_tokens": 1331,
+          "completion_tokens": 209,
+          "total_tokens": 1540
+        }
+      }
+    },
+    "by_query_label": {
+      "8a137a7f": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 33497,
+          "completion_tokens": 3441,
+          "total_tokens": 36938
+        },
+        "billed_usage": {
+          "prompt_tokens": 33497,
+          "completion_tokens": 3441,
+          "total_tokens": 36938
+        }
+      }
+    }
+  }
+}

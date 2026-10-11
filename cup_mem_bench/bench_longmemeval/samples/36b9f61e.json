@@ -1,0 +1,227 @@
+{
+  "uid": "36b9f61e",
+  "num_sessions": 47,
+  "answers": {
+    "36b9f61e": {
+      "response": "I don't have enough current information to calculate the total you’ve spent on luxury items over the past few months. The only confirmed recent luxury purchase is an $800 evening gown.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 157.3
+    }
+  },
+  "profile_snapshot_size": 86155,
+  "elapsed_seconds": 6192.3,
+  "usage_summary": {
+    "total_calls": 696,
+    "cache_hits": 2,
+    "cache_misses": 694,
+    "logical_usage": {
+      "prompt_tokens": 1755272,
+      "completion_tokens": 336040,
+      "total_tokens": 2091312
+    },
+    "billed_usage": {
+      "prompt_tokens": 1752814,
+      "completion_tokens": 333946,
+      "total_tokens": 2086760
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 47,
+        "cache_hits": 0,
+        "cache_misses": 47,
+        "logical_usage": {
+          "prompt_tokens": 94427,
+          "completion_tokens": 33685,
+          "total_tokens": 128112
+        },
+        "billed_usage": {
+          "prompt_tokens": 94427,
+          "completion_tokens": 33685,
+          "total_tokens": 128112
+        }
+      },
+      "delta_extractor": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 147422,
+          "completion_tokens": 21357,
+          "total_tokens": 168779
+        },
+        "billed_usage": {
+          "prompt_tokens": 147422,
+          "completion_tokens": 21357,
+          "total_tokens": 168779
+        }
+      },
+      "update_judge": {
+        "calls": 74,
+        "cache_hits": 0,
+        "cache_misses": 74,
+        "logical_usage": {
+          "prompt_tokens": 264541,
+          "completion_tokens": 19492,
+          "total_tokens": 284033
+        },
+        "billed_usage": {
+          "prompt_tokens": 264541,
+          "completion_tokens": 19492,
+          "total_tokens": 284033
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 35,
+        "cache_hits": 0,
+        "cache_misses": 35,
+        "logical_usage": {
+          "prompt_tokens": 63424,
+          "completion_tokens": 25251,
+          "total_tokens": 88675
+        },
+        "billed_usage": {
+          "prompt_tokens": 63424,
+          "completion_tokens": 25251,
+          "total_tokens": 88675
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 169,
+        "cache_hits": 0,
+        "cache_misses": 169,
+        "logical_usage": {
+          "prompt_tokens": 645302,
+          "completion_tokens": 115728,
+          "total_tokens": 761030
+        },
+        "billed_usage": {
+          "prompt_tokens": 645302,
+          "completion_tokens": 115728,
+          "total_tokens": 761030
+        }
+      },
+      "invalidation_judge": {
+        "calls": 61,
+        "cache_hits": 0,
+        "cache_misses": 61,
+        "logical_usage": {
+          "prompt_tokens": 238884,
+          "completion_tokens": 34807,
+          "total_tokens": 273691
+        },
+        "billed_usage": {
+          "prompt_tokens": 238884,
+          "completion_tokens": 34807,
+          "total_tokens": 273691
+        }
+      },
+      "stale_support_judge": {
+        "calls": 265,
+        "cache_hits": 0,
+        "cache_misses": 265,
+        "logical_usage": {
+          "prompt_tokens": 256205,
+          "completion_tokens": 78314,
+          "total_tokens": 334519
+        },
+        "billed_usage": {
+          "prompt_tokens": 256205,
+          "completion_tokens": 78314,
+          "total_tokens": 334519
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1483,
+          "completion_tokens": 882,
+          "total_tokens": 2365
+        },
+        "billed_usage": {
+          "prompt_tokens": 1483,
+          "completion_tokens": 882,
+          "total_tokens": 2365
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 16342,
+          "completion_tokens": 1203,
+          "total_tokens": 17545
+        },
+        "billed_usage": {
+          "prompt_tokens": 16342,
+          "completion_tokens": 1203,
+          "total_tokens": 17545
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4916,
+          "completion_tokens": 4188,
+          "total_tokens": 9104
+        },
+        "billed_usage": {
+          "prompt_tokens": 2458,
+          "completion_tokens": 2094,
+          "total_tokens": 4552
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 20717,
+          "completion_tokens": 879,
+          "total_tokens": 21596
+        },
+        "billed_usage": {
+          "prompt_tokens": 20717,
+          "completion_tokens": 879,
+          "total_tokens": 21596
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1609,
+          "completion_tokens": 254,
+          "total_tokens": 1863
+        },
+        "billed_usage": {
+          "prompt_tokens": 1609,
+          "completion_tokens": 254,
+          "total_tokens": 1863
+        }
+      }
+    },
+    "by_query_label": {
+      "36b9f61e": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40151,
+          "completion_tokens": 3218,
+          "total_tokens": 43369
+        },
+        "billed_usage": {
+          "prompt_tokens": 40151,
+          "completion_tokens": 3218,
+          "total_tokens": 43369
+        }
+      }
+    }
+  }
+}

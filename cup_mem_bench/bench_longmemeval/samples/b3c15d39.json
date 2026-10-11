@@ -1,0 +1,227 @@
+{
+  "uid": "b3c15d39",
+  "num_sessions": 51,
+  "answers": {
+    "b3c15d39": {
+      "response": "I can’t determine the elapsed days because the order and delivery dates aren’t available in the current information. You’ll need to locate the order confirmation date and the delivery date (e.g., in your email or shipping receipt) to calculate the interval.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 87.4
+    }
+  },
+  "profile_snapshot_size": 84032,
+  "elapsed_seconds": 6507.1,
+  "usage_summary": {
+    "total_calls": 703,
+    "cache_hits": 0,
+    "cache_misses": 703,
+    "logical_usage": {
+      "prompt_tokens": 1809481,
+      "completion_tokens": 345394,
+      "total_tokens": 2154875
+    },
+    "billed_usage": {
+      "prompt_tokens": 1809481,
+      "completion_tokens": 345394,
+      "total_tokens": 2154875
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 50,
+        "cache_hits": 0,
+        "cache_misses": 50,
+        "logical_usage": {
+          "prompt_tokens": 98553,
+          "completion_tokens": 37357,
+          "total_tokens": 135910
+        },
+        "billed_usage": {
+          "prompt_tokens": 98553,
+          "completion_tokens": 37357,
+          "total_tokens": 135910
+        }
+      },
+      "delta_extractor": {
+        "calls": 43,
+        "cache_hits": 0,
+        "cache_misses": 43,
+        "logical_usage": {
+          "prompt_tokens": 170345,
+          "completion_tokens": 22574,
+          "total_tokens": 192919
+        },
+        "billed_usage": {
+          "prompt_tokens": 170345,
+          "completion_tokens": 22574,
+          "total_tokens": 192919
+        }
+      },
+      "update_judge": {
+        "calls": 70,
+        "cache_hits": 0,
+        "cache_misses": 70,
+        "logical_usage": {
+          "prompt_tokens": 275718,
+          "completion_tokens": 19547,
+          "total_tokens": 295265
+        },
+        "billed_usage": {
+          "prompt_tokens": 275718,
+          "completion_tokens": 19547,
+          "total_tokens": 295265
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 40,
+        "cache_hits": 0,
+        "cache_misses": 40,
+        "logical_usage": {
+          "prompt_tokens": 69444,
+          "completion_tokens": 29243,
+          "total_tokens": 98687
+        },
+        "billed_usage": {
+          "prompt_tokens": 69444,
+          "completion_tokens": 29243,
+          "total_tokens": 98687
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 185,
+        "cache_hits": 0,
+        "cache_misses": 185,
+        "logical_usage": {
+          "prompt_tokens": 686144,
+          "completion_tokens": 128572,
+          "total_tokens": 814716
+        },
+        "billed_usage": {
+          "prompt_tokens": 686144,
+          "completion_tokens": 128572,
+          "total_tokens": 814716
+        }
+      },
+      "invalidation_judge": {
+        "calls": 61,
+        "cache_hits": 0,
+        "cache_misses": 61,
+        "logical_usage": {
+          "prompt_tokens": 226084,
+          "completion_tokens": 31139,
+          "total_tokens": 257223
+        },
+        "billed_usage": {
+          "prompt_tokens": 226084,
+          "completion_tokens": 31139,
+          "total_tokens": 257223
+        }
+      },
+      "stale_support_judge": {
+        "calls": 248,
+        "cache_hits": 0,
+        "cache_misses": 248,
+        "logical_usage": {
+          "prompt_tokens": 243047,
+          "completion_tokens": 73378,
+          "total_tokens": 316425
+        },
+        "billed_usage": {
+          "prompt_tokens": 243047,
+          "completion_tokens": 73378,
+          "total_tokens": 316425
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1487,
+          "completion_tokens": 818,
+          "total_tokens": 2305
+        },
+        "billed_usage": {
+          "prompt_tokens": 1487,
+          "completion_tokens": 818,
+          "total_tokens": 2305
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 15106,
+          "completion_tokens": 883,
+          "total_tokens": 15989
+        },
+        "billed_usage": {
+          "prompt_tokens": 15106,
+          "completion_tokens": 883,
+          "total_tokens": 15989
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 19611,
+          "completion_tokens": 675,
+          "total_tokens": 20286
+        },
+        "billed_usage": {
+          "prompt_tokens": 19611,
+          "completion_tokens": 675,
+          "total_tokens": 20286
+        }
+      },
+      "query_lane_filter": {
+        "calls": 2,
+        "cache_hits": 0,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 2501,
+          "completion_tokens": 975,
+          "total_tokens": 3476
+        },
+        "billed_usage": {
+          "prompt_tokens": 2501,
+          "completion_tokens": 975,
+          "total_tokens": 3476
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1441,
+          "completion_tokens": 233,
+          "total_tokens": 1674
+        },
+        "billed_usage": {
+          "prompt_tokens": 1441,
+          "completion_tokens": 233,
+          "total_tokens": 1674
+        }
+      }
+    },
+    "by_query_label": {
+      "b3c15d39": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 37645,
+          "completion_tokens": 2609,
+          "total_tokens": 40254
+        },
+        "billed_usage": {
+          "prompt_tokens": 37645,
+          "completion_tokens": 2609,
+          "total_tokens": 40254
+        }
+      }
+    }
+  }
+}

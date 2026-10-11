@@ -1,0 +1,227 @@
+{
+  "uid": "ec81a493",
+  "num_sessions": 51,
+  "answers": {
+    "ec81a493": {
+      "response": "I’m unable to provide the worldwide copy count because I don’t have information about which artist or album you’re referring to, and no sales figures are available in the current data.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 91.8
+    }
+  },
+  "profile_snapshot_size": 86422,
+  "elapsed_seconds": 6649.0,
+  "usage_summary": {
+    "total_calls": 717,
+    "cache_hits": 2,
+    "cache_misses": 715,
+    "logical_usage": {
+      "prompt_tokens": 1730997,
+      "completion_tokens": 358717,
+      "total_tokens": 2089714
+    },
+    "billed_usage": {
+      "prompt_tokens": 1728595,
+      "completion_tokens": 357676,
+      "total_tokens": 2086271
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 50,
+        "cache_hits": 0,
+        "cache_misses": 50,
+        "logical_usage": {
+          "prompt_tokens": 97680,
+          "completion_tokens": 39483,
+          "total_tokens": 137163
+        },
+        "billed_usage": {
+          "prompt_tokens": 97680,
+          "completion_tokens": 39483,
+          "total_tokens": 137163
+        }
+      },
+      "delta_extractor": {
+        "calls": 42,
+        "cache_hits": 0,
+        "cache_misses": 42,
+        "logical_usage": {
+          "prompt_tokens": 150677,
+          "completion_tokens": 22298,
+          "total_tokens": 172975
+        },
+        "billed_usage": {
+          "prompt_tokens": 150677,
+          "completion_tokens": 22298,
+          "total_tokens": 172975
+        }
+      },
+      "update_judge": {
+        "calls": 70,
+        "cache_hits": 0,
+        "cache_misses": 70,
+        "logical_usage": {
+          "prompt_tokens": 205069,
+          "completion_tokens": 19507,
+          "total_tokens": 224576
+        },
+        "billed_usage": {
+          "prompt_tokens": 205069,
+          "completion_tokens": 19507,
+          "total_tokens": 224576
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 39,
+        "cache_hits": 0,
+        "cache_misses": 39,
+        "logical_usage": {
+          "prompt_tokens": 68058,
+          "completion_tokens": 27774,
+          "total_tokens": 95832
+        },
+        "billed_usage": {
+          "prompt_tokens": 68058,
+          "completion_tokens": 27774,
+          "total_tokens": 95832
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 188,
+        "cache_hits": 0,
+        "cache_misses": 188,
+        "logical_usage": {
+          "prompt_tokens": 687325,
+          "completion_tokens": 129501,
+          "total_tokens": 816826
+        },
+        "billed_usage": {
+          "prompt_tokens": 687325,
+          "completion_tokens": 129501,
+          "total_tokens": 816826
+        }
+      },
+      "invalidation_judge": {
+        "calls": 68,
+        "cache_hits": 0,
+        "cache_misses": 68,
+        "logical_usage": {
+          "prompt_tokens": 230211,
+          "completion_tokens": 37685,
+          "total_tokens": 267896
+        },
+        "billed_usage": {
+          "prompt_tokens": 230211,
+          "completion_tokens": 37685,
+          "total_tokens": 267896
+        }
+      },
+      "stale_support_judge": {
+        "calls": 252,
+        "cache_hits": 0,
+        "cache_misses": 252,
+        "logical_usage": {
+          "prompt_tokens": 246467,
+          "completion_tokens": 78039,
+          "total_tokens": 324506
+        },
+        "billed_usage": {
+          "prompt_tokens": 246467,
+          "completion_tokens": 78039,
+          "total_tokens": 324506
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1481,
+          "completion_tokens": 1040,
+          "total_tokens": 2521
+        },
+        "billed_usage": {
+          "prompt_tokens": 1481,
+          "completion_tokens": 1040,
+          "total_tokens": 2521
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 16823,
+          "completion_tokens": 530,
+          "total_tokens": 17353
+        },
+        "billed_usage": {
+          "prompt_tokens": 16823,
+          "completion_tokens": 530,
+          "total_tokens": 17353
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4804,
+          "completion_tokens": 2082,
+          "total_tokens": 6886
+        },
+        "billed_usage": {
+          "prompt_tokens": 2402,
+          "completion_tokens": 1041,
+          "total_tokens": 3443
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 21263,
+          "completion_tokens": 569,
+          "total_tokens": 21832
+        },
+        "billed_usage": {
+          "prompt_tokens": 21263,
+          "completion_tokens": 569,
+          "total_tokens": 21832
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1139,
+          "completion_tokens": 209,
+          "total_tokens": 1348
+        },
+        "billed_usage": {
+          "prompt_tokens": 1139,
+          "completion_tokens": 209,
+          "total_tokens": 1348
+        }
+      }
+    },
+    "by_query_label": {
+      "ec81a493": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 40706,
+          "completion_tokens": 2348,
+          "total_tokens": 43054
+        },
+        "billed_usage": {
+          "prompt_tokens": 40706,
+          "completion_tokens": 2348,
+          "total_tokens": 43054
+        }
+      }
+    }
+  }
+}

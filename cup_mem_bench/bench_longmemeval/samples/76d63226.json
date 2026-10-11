@@ -1,0 +1,227 @@
+{
+  "uid": "76d63226",
+  "num_sessions": 48,
+  "answers": {
+    "76d63226": {
+      "response": "I don’t have information about the screen size of your new Samsung TV.",
+      "verdict": "UNRESOLVED",
+      "elapsed_seconds": 125.9
+    }
+  },
+  "profile_snapshot_size": 84120,
+  "elapsed_seconds": 6571.7,
+  "usage_summary": {
+    "total_calls": 711,
+    "cache_hits": 2,
+    "cache_misses": 709,
+    "logical_usage": {
+      "prompt_tokens": 1732631,
+      "completion_tokens": 340494,
+      "total_tokens": 2073125
+    },
+    "billed_usage": {
+      "prompt_tokens": 1730251,
+      "completion_tokens": 339378,
+      "total_tokens": 2069629
+    },
+    "by_phase": {
+      "session_chunker": {
+        "calls": 48,
+        "cache_hits": 0,
+        "cache_misses": 48,
+        "logical_usage": {
+          "prompt_tokens": 94289,
+          "completion_tokens": 36295,
+          "total_tokens": 130584
+        },
+        "billed_usage": {
+          "prompt_tokens": 94289,
+          "completion_tokens": 36295,
+          "total_tokens": 130584
+        }
+      },
+      "delta_extractor": {
+        "calls": 40,
+        "cache_hits": 0,
+        "cache_misses": 40,
+        "logical_usage": {
+          "prompt_tokens": 161333,
+          "completion_tokens": 21714,
+          "total_tokens": 183047
+        },
+        "billed_usage": {
+          "prompt_tokens": 161333,
+          "completion_tokens": 21714,
+          "total_tokens": 183047
+        }
+      },
+      "update_judge": {
+        "calls": 69,
+        "cache_hits": 0,
+        "cache_misses": 69,
+        "logical_usage": {
+          "prompt_tokens": 209406,
+          "completion_tokens": 20651,
+          "total_tokens": 230057
+        },
+        "billed_usage": {
+          "prompt_tokens": 209406,
+          "completion_tokens": 20651,
+          "total_tokens": 230057
+        }
+      },
+      "bucket_bridge_proposer": {
+        "calls": 37,
+        "cache_hits": 0,
+        "cache_misses": 37,
+        "logical_usage": {
+          "prompt_tokens": 65007,
+          "completion_tokens": 28978,
+          "total_tokens": 93985
+        },
+        "billed_usage": {
+          "prompt_tokens": 65007,
+          "completion_tokens": 28978,
+          "total_tokens": 93985
+        }
+      },
+      "latent_invalidation_proposer": {
+        "calls": 195,
+        "cache_hits": 0,
+        "cache_misses": 195,
+        "logical_usage": {
+          "prompt_tokens": 685881,
+          "completion_tokens": 121866,
+          "total_tokens": 807747
+        },
+        "billed_usage": {
+          "prompt_tokens": 685881,
+          "completion_tokens": 121866,
+          "total_tokens": 807747
+        }
+      },
+      "invalidation_judge": {
+        "calls": 65,
+        "cache_hits": 0,
+        "cache_misses": 65,
+        "logical_usage": {
+          "prompt_tokens": 225919,
+          "completion_tokens": 32658,
+          "total_tokens": 258577
+        },
+        "billed_usage": {
+          "prompt_tokens": 225919,
+          "completion_tokens": 32658,
+          "total_tokens": 258577
+        }
+      },
+      "stale_support_judge": {
+        "calls": 249,
+        "cache_hits": 0,
+        "cache_misses": 249,
+        "logical_usage": {
+          "prompt_tokens": 250409,
+          "completion_tokens": 73319,
+          "total_tokens": 323728
+        },
+        "billed_usage": {
+          "prompt_tokens": 250409,
+          "completion_tokens": 73319,
+          "total_tokens": 323728
+        }
+      },
+      "query_parser": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1475,
+          "completion_tokens": 915,
+          "total_tokens": 2390
+        },
+        "billed_usage": {
+          "prompt_tokens": 1475,
+          "completion_tokens": 915,
+          "total_tokens": 2390
+        }
+      },
+      "premise_verifier": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 14299,
+          "completion_tokens": 900,
+          "total_tokens": 15199
+        },
+        "billed_usage": {
+          "prompt_tokens": 14299,
+          "completion_tokens": 900,
+          "total_tokens": 15199
+        }
+      },
+      "query_lane_filter": {
+        "calls": 4,
+        "cache_hits": 2,
+        "cache_misses": 2,
+        "logical_usage": {
+          "prompt_tokens": 4760,
+          "completion_tokens": 2232,
+          "total_tokens": 6992
+        },
+        "billed_usage": {
+          "prompt_tokens": 2380,
+          "completion_tokens": 1116,
+          "total_tokens": 3496
+        }
+      },
+      "premise_verifier_with_evidence": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 18730,
+          "completion_tokens": 773,
+          "total_tokens": 19503
+        },
+        "billed_usage": {
+          "prompt_tokens": 18730,
+          "completion_tokens": 773,
+          "total_tokens": 19503
+        }
+      },
+      "answer_composer": {
+        "calls": 1,
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "logical_usage": {
+          "prompt_tokens": 1123,
+          "completion_tokens": 193,
+          "total_tokens": 1316
+        },
+        "billed_usage": {
+          "prompt_tokens": 1123,
+          "completion_tokens": 193,
+          "total_tokens": 1316
+        }
+      }
+    },
+    "by_query_label": {
+      "76d63226": {
+        "calls": 4,
+        "cache_hits": 0,
+        "cache_misses": 4,
+        "logical_usage": {
+          "prompt_tokens": 35627,
+          "completion_tokens": 2781,
+          "total_tokens": 38408
+        },
+        "billed_usage": {
+          "prompt_tokens": 35627,
+          "completion_tokens": 2781,
+          "total_tokens": 38408
+        }
+      }
+    }
+  }
+}
