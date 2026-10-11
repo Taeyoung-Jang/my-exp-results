@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "8aeb8778-861e-45f7-b8b5-224ff5eece63",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's reputation among neighbors regarding their reliability before the recent change?",
+    "gold_answer": "Honestly, after years of helping out during the block parties, most neighbors just assume my word is solid when it comes to planning events.",
+    "m_new": "At my building’s annual meeting last night, they put me on the spot to explain myself, and now anything I submit has to be verified by someone else before they’ll accept it.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Neighbors generally considered the user reliable and trusted their word when it came to planning events.",
+    "lc_reasoning": "The response correctly describes the user's earlier reputation: neighbors generally trusted their word about planning events."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's reputation among neighbors regarding trustworthiness before this recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's reputation among neighbors regarding their reliability before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier reputation: neighbors generally trusted their word about planning events.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

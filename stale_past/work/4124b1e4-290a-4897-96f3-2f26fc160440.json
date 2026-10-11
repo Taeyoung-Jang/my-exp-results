@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4124b1e4-290a-4897-96f3-2f26fc160440",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's residential situation before the recent move?",
+    "gold_answer": "Things change around here, but not for me; I haven't moved from this address in fifteen years.",
+    "m_new": "I finally finished unpacking in the new place—after bouncing between a couple of apartments over the past year, it feels good to have a key that actually stays on my keyring.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the move, the user had been living flexibly, bouncing between a couple of apartments over the past year.",
+    "lc_reasoning": "The response correctly says that before the recent move, the user had been bouncing between a couple of apartments over the past year."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's residential situation before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly says that before the recent move, the user had been bouncing between a couple of apartments over the past year.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

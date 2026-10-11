@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "aa06d2ff-5d2c-489d-a093-686d565ffde2",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the range of app types the user typically kept installed before the recent change?",
+    "gold_answer": "I tend to keep a broad mix of different application types installed at any given time, ranging from utility tools to creative platforms, rather than limiting myself to just communication or social media.",
+    "m_new": "Since I started the new job at the lab, they had me enroll my phone in their mobile management thing—now half my screen is just those gray ‘restricted’ placeholders, and I’ve basically stopped bothering with installs unless IT approves it first.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They typically kept a broad mix of apps, from utility tools to creative platforms—not just communication or social media apps.",
+    "lc_reasoning": "The response accurately describes the user's earlier app mix as spanning utility tools to creative platforms, rather than only communication or social media apps."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kinds of apps did the user tend to keep installed before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the range of app types the user typically kept installed before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the user's earlier app mix as spanning utility tools to creative platforms, rather than only communication or social media apps.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

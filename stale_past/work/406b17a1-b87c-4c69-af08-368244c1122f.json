@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "406b17a1-b87c-4c69-af08-368244c1122f",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to uncertain plans before this recent shift?",
+    "gold_answer": "I generally avoid plans where the result isn't guaranteed, even if it means missing out on something new.",
+    "m_new": "I’ve been saying yes to more spontaneous stuff lately—if there’s a chance it turns into a great story, I’m fine not knowing how it’ll go.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to plans with uncertain outcomes before their recent change in outlook?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to uncertain plans before this recent shift?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

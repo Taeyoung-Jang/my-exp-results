@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "45888520-9482-4e6f-98b3-7a44e351e25e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's caffeine reliance like before the recent change?",
+    "gold_answer": "I've reached a point where I genuinely need that second cup of coffee to feel normal; skipping it usually leaves me with a headache by midday.",
+    "m_new": "Lately I’ve been starting my day with a glass of water and a short walk, and my energy stays pretty even through the afternoon without any stimulants.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before switching to water and a short walk, the user relied on two regular 8–10 oz coffees each day. They felt they needed the second cup around 11:30 a.m. to feel normal; skipping it often caused a midday headache and brain fog.",
+    "lc_reasoning": "It correctly describes the earlier reliance on a second cup and the headache when skipping it. The added details about cup size, timing, and brain fog are not established in the history, but they do not change the core earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's caffeine reliance like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier reliance on a second cup and the headache when skipping it. The added details about cup size, timing, and brain fog are not established in the history, but they do not change the core earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

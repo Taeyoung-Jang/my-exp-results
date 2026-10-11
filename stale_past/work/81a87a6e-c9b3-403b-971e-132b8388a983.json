@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "81a87a6e-c9b3-403b-971e-132b8388a983",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what outdoor activity was part of the user's weekends before the recent change in their routine?",
+    "gold_answer": "I really value my weekends at the wetlands; I've been tracking the local bird populations there for almost five years.",
+    "m_new": "I’m still getting used to the Saturday shift rotation—by the time I clock out, it’s already dark, and I’m usually too wiped to do much besides grab something quick and head home.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Birdwatching at the wetlands.",
+    "lc_reasoning": "The earlier state says the user tracked local bird populations at the wetlands, so birdwatching at the wetlands is correct."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what outdoor activity was part of the user's weekends before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user tracked local bird populations at the wetlands, so birdwatching at the wetlands is correct.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "record": {
+    "uid": "f40ff9ce-1656-412b-8795-a51bcc862eb3",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what were the user's usual work hours before the recent schedule change?",
+    "gold_answer": "I keep pretty standard hours, so I'm typically working from eight in the morning until four in the afternoon on weekdays.",
+    "m_new": "For the next few months, I’ll be on the late shift most days—usually starting around noon and wrapping up close to eight in the evening.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s usual work hours were 8:00 a.m. to 4:00 p.m. on weekdays.",
+    "lc_reasoning": "The earlier state says the user typically worked from 8:00 a.m. to 4:00 p.m. on weekdays, before the recent late-shift change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's typical weekday working hours before the recent schedule change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's usual work hours before the recent schedule change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user typically worked from 8:00 a.m. to 4:00 p.m. on weekdays, before the recent late-shift change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

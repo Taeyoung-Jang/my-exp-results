@@ -1,0 +1,42 @@
+{
+  "record": {
+    "uid": "9364e0ec-fbd3-499f-afb8-72061bc92cc1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what were the user's usual caffeine and alcohol timing habits before their schedule changed?",
+    "gold_answer": "I've gotten into a habit where I won't touch coffee after noon, and I usually wait until the evening to have anything alcoholic.",
+    "m_new": "I finally got put on the early shift at the depot, so I’m up at 3:30 most mornings now—by the time lunch rolls around it already feels like late afternoon, and I’m usually in bed before the sun’s properly down.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual timing for consuming coffee and alcohol before their daily routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's usual caffeine and alcohol timing habits before their schedule changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "status": "leak_fail"
+  }
+}

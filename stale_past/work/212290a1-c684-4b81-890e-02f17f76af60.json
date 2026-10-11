@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "212290a1-c684-4b81-890e-02f17f76af60",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's primary savings priority before their recent change in plans?",
+    "gold_answer": "I'm holding off on any large purchases right now because I'm focused on hitting my savings target for a home.",
+    "m_new": "I just signed the contract for that year-long round-the-world program, so every extra dollar I’m saving now is going toward the full tuition and travel fees due before I leave.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's primary financial savings priority before their recent change in plans?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's primary savings priority before their recent change in plans?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

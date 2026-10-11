@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4fe689f4-1285-4b08-89be-84ec288d46a7",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's wrist-wearing routine before this recent change?",
+    "gold_answer": "I've had this specific smartwatch for about two years now, and I wear it pretty much every day.",
+    "m_new": "At the pool this morning, I realized I’ve gotten used to having nothing on my wrists anymore—it’s been months since I last strapped anything on there.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before going without a watch for several months, the user wore a smartwatch pretty much every day for about two years.",
+    "lc_reasoning": "The response correctly describes the earlier routine: the user wore a smartwatch pretty much every day for about two years before going without one for several months."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's wrist-wearing routine before this recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier routine: the user wore a smartwatch pretty much every day for about two years before going without one for several months.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "b58224e8-1c5c-49f5-a836-ab9a5e0a0164",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what type of insurance coverage did the user have for their car before the recent change in their vehicle situation?",
+    "gold_answer": "I've got comprehensive insurance on my car that covers collision and theft.",
+    "m_new": "I spent Saturday morning at the DMV turning in my plates and signing the release-of-liability form—felt strange walking out without a registration card in my wallet.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had comprehensive coverage that included collision and theft coverage.",
+    "lc_reasoning": "The earlier state says the user had comprehensive insurance covering collision and theft, which matches the response."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what type of insurance coverage did the user have for their car before the recent change in their vehicle situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user had comprehensive insurance covering collision and theft, which matches the response.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

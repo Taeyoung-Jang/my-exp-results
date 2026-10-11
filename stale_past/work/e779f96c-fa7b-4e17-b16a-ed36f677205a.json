@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e779f96c-fa7b-4e17-b16a-ed36f677205a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's approach to maintaining their energy before the recent health-related change?",
+    "gold_answer": "I've noticed that my energy levels just don't hold up unless I'm regularly having coffee and cigarettes.",
+    "m_new": "Ever since I started that blood-pressure medication, I’ve had to be picky about anything that can spike my heart rate—so now my mornings are basically a slow breakfast and a long walk, no shortcuts.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the health-related change, the user relied on regular coffee and cigarettes to maintain energy and focus, especially during monotonous workdays.",
+    "lc_reasoning": "It correctly identifies that before the health-related change, the user relied on regular coffee and cigarettes to maintain energy."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to maintaining their energy before the recent health-related change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies that before the health-related change, the user relied on regular coffee and cigarettes to maintain energy.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

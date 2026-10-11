@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "52ec9ec0-5631-4266-803f-a1d457ee3e74",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to day-to-day spending before their financial situation changed?",
+    "gold_answer": "I'm keeping my spending strict because I have about two thousand dollars in liquid funds to work with.",
+    "m_new": "I’m feeling a lot more flexible with my day-to-day purchases lately since I’ve got around fifteen grand sitting in my checking account right now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user was keeping spending strict on about $2,000 in liquid funds, with planned weekly caps—roughly $65 for groceries and $20 for fun/misc—and a $300 buffer. They wanted a simple way to track purchases and avoid overspending.",
+    "lc_reasoning": "The response describes the user's earlier approach as strict spending with about $2,000 in liquid funds, rather than their later, more flexible spending. It also adds details about budgets and tracking, but these do not conflict with the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to day-to-day spending before their financial situation changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response describes the user's earlier approach as strict spending with about $2,000 in liquid funds, rather than their later, more flexible spending. It also adds details about budgets and tracking, but these do not conflict with the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

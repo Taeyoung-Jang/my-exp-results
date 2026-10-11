@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "428d8ed5-f6d8-4ac4-97f2-60a776eaa4e8",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's preference for attending large festivals before their recent change?",
+    "gold_answer": "You know I generally sit out the big festivals; I've found over time that I much prefer spending my weekends at smaller gatherings or just at home.",
+    "m_new": "Lately I’ve been volunteering as an usher at the arena, and being in the middle of a packed crowd actually feels really fun to me now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user generally sat out large festivals and preferred smaller gatherings or staying home.",
+    "lc_reasoning": "The response correctly describes the user's earlier preference: sitting out large festivals in favor of smaller gatherings or staying home."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's preference for attending large festivals before their recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier preference: sitting out large festivals in favor of smaller gatherings or staying home.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

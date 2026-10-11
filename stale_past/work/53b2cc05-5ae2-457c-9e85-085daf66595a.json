@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "53b2cc05-5ae2-457c-9e85-085daf66595a",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's social life like before the recent move?",
+    "gold_answer": "I've got a steady circle of friends that I hang out with frequently.",
+    "m_new": "Since I moved to this new city for work, most evenings are just me exploring on my own—I haven’t really connected with anyone here yet, so I spend my weekends solo.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before moving, the user had a steady circle of friends they spent time with frequently. They also had a couple of friendships outside that circle that had become vague.",
+    "lc_reasoning": "It correctly says the user had a steady circle of friends they saw frequently before moving, but adds unsupported information about vague friendships outside that circle."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's social life like before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly says the user had a steady circle of friends they saw frequently before moving, but adds unsupported information about vague friendships outside that circle.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

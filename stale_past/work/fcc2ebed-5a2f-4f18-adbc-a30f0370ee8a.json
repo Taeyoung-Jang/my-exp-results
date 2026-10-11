@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "fcc2ebed-5a2f-4f18-adbc-a30f0370ee8a",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the status of the user's cloud backup before the recent change?",
+    "gold_answer": "I keep the cloud backup turned off on my end.",
+    "m_new": "I just checked my phone settings and everything's syncing to my online storage automatically now, including my photos and app data.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user had cloud backup turned off.",
+    "lc_reasoning": "Before the recent change, the user said they kept cloud backup turned off."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the status of the user's cloud backup before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user said they kept cloud backup turned off.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

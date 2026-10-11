@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "fafa5ba8-a3a8-4371-a479-2ae85c4f1d93",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's political outlook before the recent change?",
+    "gold_answer": "I've never really fit into the hardline camps; I've always identified as a moderate who cares more about what actually works than sticking to a strict ideology.",
+    "m_new": "Ever since I started volunteering with the local party chapter, I’ve come to see myself as someone who wants the full platform pushed through as-is—half-measures just feel like wasted time to me now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user described themself as a moderate who prioritized what works over adhering to a strict ideology and didn’t feel at home in hardline political camps.",
+    "lc_reasoning": "The response correctly describes the user's earlier outlook as moderate and focused on what works rather than strict ideology or hardline camps."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's political outlook before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier outlook as moderate and focused on what works rather than strict ideology or hardline camps.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

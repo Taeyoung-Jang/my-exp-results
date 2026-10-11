@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "67868464-6e0d-48f3-83a0-46b8e6ca801b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's immigration status before the recent change?",
+    "gold_answer": "Please ensure my profile lists permanent resident status, as I do not hold citizenship.",
+    "m_new": "I’m registering to vote for the first time and the online portal keeps asking for the number from the letter they mailed after my ceremony—where exactly is that printed?",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was a lawful permanent resident of the U.S., not a citizen.",
+    "lc_reasoning": "The response correctly identifies the user's earlier status as a lawful permanent resident, not a citizen."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's immigration status before the recent change in their legal status?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's immigration status before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier status as a lawful permanent resident, not a citizen.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

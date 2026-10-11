@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "5372c535-c9f2-46d5-b4eb-ed35dc567864",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what did the user say they needed in the morning to feel able to function before the recent change?",
+    "gold_answer": "I don't feel like I can function properly until I've had at least two cups.",
+    "m_new": "I’ve started taking my blood-pressure readings right when I wake up, so I’m trying to keep my mornings pretty boring and consistent—same breakfast, same routine, nothing that spikes me before I leave.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how did the user describe their ability to function in the mornings before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user say they needed in the morning to feel able to function before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

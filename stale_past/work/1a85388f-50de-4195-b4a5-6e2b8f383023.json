@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "1a85388f-50de-4195-b4a5-6e2b8f383023",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's primary weekday work location before their recent change in routine?",
+    "gold_answer": "I'm primarily based at the office during the week, so that is where you should expect to find me.",
+    "m_new": "Lately I’m almost always working from my apartment on weekdays, so deliveries will have the best chance of reaching me there during the day.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were primarily based at the office during the week.",
+    "lc_reasoning": "The user’s earlier weekday work location was the office; the apartment routine came later."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's primary weekday work location before their recent change in routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user’s earlier weekday work location was the office; the apartment routine came later.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "f43db8c1-378f-43f8-be7e-4db348300741",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual commute method before the recent change?",
+    "gold_answer": "I've mostly switched to using the light rail for my daily travel because the schedule matches my hours perfectly.",
+    "m_new": "Ever since I started driving myself to work, I’ve been leaving about ten minutes earlier so I can beat the worst of the traffic.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before starting to drive to work, the user mostly commuted by light rail.",
+    "lc_reasoning": "The response correctly identifies light rail as the user's usual commute method before they began driving."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual commute method before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies light rail as the user's usual commute method before they began driving.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "record": {
+    "uid": "e1e8541d-5f3d-4614-b0bb-549b3ac7bfe3",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's Saturday routine like before their recent work arrangement changed?",
+    "gold_answer": "During the week I'm pretty locked into a routine, but come Saturday I just let things happen naturally.",
+    "m_new": "I finally took that job at the boutique hotel downtown—front desk rotations. They post the roster a month ahead, and I’ve got to be there whenever my name’s on it, no swapping unless someone’s willing to trade.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical Saturday routine before their recent schedule change?\"}"
+        ],
+        "rule_hits": [
+          "old:Saturday"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's Saturday routine like before their recent work arrangement changed?\"}"
+        ],
+        "rule_hits": [
+          "old:Saturday"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

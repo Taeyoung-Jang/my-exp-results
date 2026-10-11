@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "91c27781-fbf7-4ca6-8eca-eb4f5d07992f",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's employment situation before the recent change?",
+    "gold_answer": "I'm in a stable full-time role, so my weekdays are pretty much occupied during the day.",
+    "m_new": "I spent the afternoon at the county office getting my photo taken and signing the last of the paperwork—they said the badge won’t print until my start date is in their system, so I’m just waiting on the email with my first-day instructions.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user described having a stable full-time role. Earlier, they said they had worked as a marketing specialist at XYZ Corporation for 2 years and 3 months, though elsewhere they described themselves as a senior engineer.",
+    "lc_reasoning": "The response identifies the earlier employment situation as a stable full-time role. The additional job-title details do not change that core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's employment situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response identifies the earlier employment situation as a stable full-time role. The additional job-title details do not change that core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

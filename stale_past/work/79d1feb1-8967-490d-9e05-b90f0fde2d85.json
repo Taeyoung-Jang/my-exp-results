@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "79d1feb1-8967-490d-9e05-b90f0fde2d85",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what kind of pet did the user have before the recent move?",
+    "gold_answer": "I've had my labrador for the past seven years.",
+    "m_new": "I’m still getting used to how quiet the house is since I moved into my new place—no dog to take out first thing in the morning anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had a dog—a Labrador.",
+    "lc_reasoning": "The user had a Labrador before moving, and the response correctly identifies it as a dog—a Labrador."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of pet did the user have before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user had a Labrador before moving, and the response correctly identifies it as a dog—a Labrador.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "4ab36c8a-5974-4361-8e17-e73091c193b2",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's weekly study-time routine before their routine changed?",
+    "gold_answer": "I've been keeping my weekly study time to around eight hours, usually split over three sessions.",
+    "m_new": "Since the baby’s been home, the only learning I can squeeze in is a short lunch-break video most weekdays—maybe twenty minutes if I’m lucky—so I’ve stopped planning bigger sit-down sessions for now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the routine changed, the user studied about **eight hours per week, split across three sessions**.",
+    "lc_reasoning": "The response correctly describes the earlier routine: about eight hours of study per week, split across three sessions."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's weekly study-time routine before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier routine: about eight hours of study per week, split across three sessions.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

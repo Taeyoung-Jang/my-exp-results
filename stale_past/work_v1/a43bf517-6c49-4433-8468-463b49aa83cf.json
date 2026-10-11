@@ -1,0 +1,42 @@
+{
+  "record": {
+    "uid": "a43bf517-6c49-4433-8468-463b49aa83cf",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's approach to sourcing lenses for jobs before the recent change?",
+    "gold_answer": "I've got my own set of fixed-focal lenses now, so I don't usually need to rent glass for jobs.",
+    "m_new": "I spent last night on the phone with my insurance adjuster—turns out the storage unit took on a few inches of water, and I’m still making a spreadsheet of what’s missing before they’ll even open the claim.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how did the user usually handle renting lenses for jobs before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to sourcing lenses for jobs before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "status": "leak_fail"
+  }
+}

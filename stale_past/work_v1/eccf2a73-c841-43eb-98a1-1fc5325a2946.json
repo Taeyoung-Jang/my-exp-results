@@ -1,0 +1,42 @@
+{
+  "record": {
+    "uid": "eccf2a73-c841-43eb-98a1-1fc5325a2946",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's cloud storage arrangement before the recent change?",
+    "gold_answer": "I've maintained the premium cloud storage plan for a few years now, so all my data is already housed there.",
+    "m_new": "At the credit union today, the counselor had me move everything onto a prepaid card with a hard monthly cap—no recurring charges allowed—so my budget can’t get dinged by any surprise renewals while I’m paying down the medical bills.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the status of the user's cloud storage arrangement before the recent financial change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's cloud storage arrangement before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "status": "leak_fail"
+  }
+}

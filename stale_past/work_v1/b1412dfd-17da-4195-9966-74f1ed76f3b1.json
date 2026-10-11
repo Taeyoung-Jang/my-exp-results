@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "b1412dfd-17da-4195-9966-74f1ed76f3b1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's working relationship with their coworkers like before the recent workplace change?",
+    "gold_answer": "Most of the crew here have been working together for years, so we basically know who covers what without even talking.",
+    "m_new": "I keep catching myself setting an extra mug by the sink before remembering I’m on my own again—new badge, new keys, and a whole different building’s security code to memorize.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They’d worked together for years and had an easy, familiar rhythm: everyone generally knew who handled what without needing to discuss it. The main issue was that handoffs could become unclear when things got busy.",
+    "lc_reasoning": "It correctly describes the earlier relationship as long-standing and familiar, with coworkers knowing their roles without discussion. The added claim about unclear handoffs is unsupported, but it does not change the central description."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's working relationship with their coworkers like before the recent workplace change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier relationship as long-standing and familiar, with coworkers knowing their roles without discussion. The added claim about unclear handoffs is unsupported, but it does not change the central description.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

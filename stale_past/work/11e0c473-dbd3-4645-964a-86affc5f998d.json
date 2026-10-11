@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "11e0c473-dbd3-4645-964a-86affc5f998d",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's relationship with their neighbors like before the recent move?",
+    "gold_answer": "We're quite close with the neighbors and always make sure to check in on one another.",
+    "m_new": "I spent most of Saturday labeling boxes and signing the lease paperwork—next week the movers are coming, so I’m finally getting around to forwarding my mail and updating my address everywhere.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were close with their neighbors and regularly checked in on one another, while trying to keep the relationship caring but not intrusive.",
+    "lc_reasoning": "The response correctly describes the earlier relationship as close, with regular check-ins. The added characterization of being caring but not intrusive is not stated in the history, but it does not change the core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's relationship with their neighbors like before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier relationship as close, with regular check-ins. The added characterization of being caring but not intrusive is not stated in the history, but it does not change the core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "record": {
+    "uid": "c7f4de28-3d09-4572-9fd6-a7d4003f899d",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the division of household chores between the user and their partner before the recent change?",
+    "gold_answer": "We've kept the same arrangement for years where I handle all the laundry and vacuuming, and my partner takes care of the cooking and dishes.",
+    "m_new": "Since my partner started working late most nights, I’ve been the one planning dinners and getting the kitchen cleaned up afterward, and I just do my own clothes when I have a load.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual division of household chores before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the division of household chores between the user and their partner before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "status": "leak_fail"
+  }
+}

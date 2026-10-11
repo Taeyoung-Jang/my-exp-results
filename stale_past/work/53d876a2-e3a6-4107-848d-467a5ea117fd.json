@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "53d876a2-e3a6-4107-848d-467a5ea117fd",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's body weight before the recent change?",
+    "gold_answer": "Go ahead and set it to 85 kilograms; I've maintained that same weight consistently for the past year.",
+    "m_new": "Sorry if I sound a little winded—my endocrinologist just switched my thyroid meds last month, and I’m still figuring out the right dose. I’ve had to punch a new notch in my belt twice since then.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s weight was 85 kg before the recent change.",
+    "lc_reasoning": "The response correctly identifies the user's earlier weight as 85 kg, before the recent change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's weight before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's body weight before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier weight as 85 kg, before the recent change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

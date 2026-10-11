@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "89b77229-e924-4d40-90c9-a18742982edd",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's long-term goal before their recent change in priorities?",
+    "gold_answer": "I've really set my sights on establishing a fully self-sufficient garden on my property over the next few years.",
+    "m_new": "I just accepted a three-year assignment that has me bouncing between different client sites every couple of months, so I’m putting all my energy into building a setup that keeps everything I own travel-ready and easy to move at short notice.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before shifting focus to a mobile, travel-ready setup for the three-year assignment, the user’s long-term goal was to establish a fully self-sufficient garden on their property over the next few years.",
+    "lc_reasoning": "The response correctly identifies the user's earlier long-term goal of establishing a fully self-sufficient garden before their priorities shifted to a travel-ready setup."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's long-term goal before their recent change in priorities?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier long-term goal of establishing a fully self-sufficient garden before their priorities shifted to a travel-ready setup.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

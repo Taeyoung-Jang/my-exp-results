@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "772e38fb-f478-4838-a9f0-d0d533e8a607",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual approach to choosing places for weekend outings before this recent change in their routine?",
+    "gold_answer": "I usually end up going to the same spots because I prefer knowing exactly what to expect.",
+    "m_new": "I’ve been doing this thing lately where I pick a new neighborhood, get off the train a stop early, and just follow whatever looks interesting—no list, no backup plan. Last Saturday I ended up eating at a place I couldn’t even pronounce until I was standing at the counter.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's underlying preference when choosing places for weekend outings before their recent change in routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual approach to choosing places for weekend outings before this recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

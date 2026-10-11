@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "ef90c67e-0d5c-41e7-a26e-1ab6323f0f55",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's pattern of engagement with the retro gaming forum before the recent change in their routine?",
+    "gold_answer": "I've been active in that retro gaming forum for about four years now, logging in to read the new threads every single night.",
+    "m_new": "I’ve gotten into this weirdly strict early-morning training block—phone stays in the kitchen after dinner, and by nine I’m already in bed so I can be out the door before sunrise.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They’d been part of the forum for about four years and logged in every night to read new threads. The history doesn’t say they posted daily.",
+    "lc_reasoning": "The response correctly describes the earlier pattern: about four years in the forum and logging in every night to read new threads. It does not incorrectly claim daily posting."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's pattern of participation in the retro gaming forum before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's pattern of engagement with the retro gaming forum before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier pattern: about four years in the forum and logging in every night to read new threads. It does not incorrectly claim daily posting.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

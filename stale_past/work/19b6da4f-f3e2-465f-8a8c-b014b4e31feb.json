@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "19b6da4f-f3e2-465f-8a8c-b014b4e31feb",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what were the user's dining habits and main food-related preference before the recent change?",
+    "gold_answer": "I generally prefer cooking my own meals rather than eating out, mainly because I like controlling the ingredients.",
+    "m_new": "Lately I’ve been grabbing dinner from restaurants most nights after work, and I’ve gotten really into trying whatever the chef recommends.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent shift, the user generally preferred cooking at home because they liked controlling the ingredients. More recently, they’d been getting restaurant dinners most nights after work and enjoying the chef’s recommendations.",
+    "lc_reasoning": "The response correctly identifies the earlier preference for cooking at home to control ingredients, and distinguishes it from the more recent restaurant habit."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's dining habits and main food-related preference before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier preference for cooking at home to control ingredients, and distinguishes it from the more recent restaurant habit.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

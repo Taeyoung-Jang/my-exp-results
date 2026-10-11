@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "cfe2eeab-b80b-462a-afc8-498a1a81d6d3",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the condition of the user's wrist and their grip limitations before their recent return to physical activity?",
+    "gold_answer": "My wrist is still healing from the ligament tear, so I have to be careful not to grip anything too tightly.",
+    "m_new": "I finally got back into bouldering last week—nothing fancy, just a few easy routes—but it felt good to hang on the wall again without thinking about it every second.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Their wrist was still healing from a ligament tear, so they needed to avoid gripping anything too tightly.",
+    "lc_reasoning": "The response correctly describes the earlier state: the user's wrist was healing from a ligament tear, and they needed to avoid gripping too tightly."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the condition of the user's wrist and their grip limitations before their recent return to physical activity?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: the user's wrist was healing from a ligament tear, and they needed to avoid gripping too tightly.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

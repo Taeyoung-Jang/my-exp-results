@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "50c76721-3605-4d34-a6bf-e8e6d4cb52dc",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's main project priority before their recent change in availability?",
+    "gold_answer": "I am still prioritizing the completion of the wooden kayak before the lake season opens.",
+    "m_new": "I just picked up a six‑week Saturday ceramics course that runs straight through May, so I’ll be out of the house most weekends for a while.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s main project priority was finishing their stitch-and-glue wooden kayak before lake season opened.",
+    "lc_reasoning": "It correctly identifies finishing the wooden kayak before lake season as the user's earlier priority. The added “stitch-and-glue” detail is not established in the history, but does not change the main answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main project priority before their recent change in availability?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies finishing the wooden kayak before lake season as the user's earlier priority. The added “stitch-and-glue” detail is not established in the history, but does not change the main answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "9f814b29-e5f7-4fbb-9992-534f4830c2a8",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what recurring commitment had the user made before their recent change in obligations?",
+    "gold_answer": "I've made a commitment to volunteer at the community center every Saturday.",
+    "m_new": "Quick note from a totally different corner of my life: I just signed the lease on a little bakery stall at the weekend market, and the vendor orientation made it clear the stallholders are expected on-site for opening, setup, and the full sales window each week.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They had committed to volunteering at the community center every Saturday.",
+    "lc_reasoning": "The response correctly identifies the earlier recurring commitment: volunteering at the community center every Saturday."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what recurring commitment had the user made before their recent change in obligations?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier recurring commitment: volunteering at the community center every Saturday.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

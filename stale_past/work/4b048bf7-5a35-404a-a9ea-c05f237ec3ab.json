@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4b048bf7-5a35-404a-a9ea-c05f237ec3ab",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to accepting invitations before this change in planning preferences?",
+    "gold_answer": "I'm not big on spontaneous drop-ins; I prefer to only commit to events that are scheduled at least two days prior.",
+    "m_new": "These days I’m pretty last-minute—if someone texts me an invite for tonight, I’m usually down as long as I’m free.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before changing to a more spontaneous style, the user preferred invitations to be scheduled at least two days in advance and generally didn’t like last-minute plans or drop-ins.",
+    "lc_reasoning": "The response accurately describes the user's earlier preference for invitations scheduled at least two days in advance and their dislike of last-minute plans or drop-ins."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to accepting invitations before this change in planning preferences?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the user's earlier preference for invitations scheduled at least two days in advance and their dislike of last-minute plans or drop-ins.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "record": {
+    "uid": "b0c69000-8882-4f9e-8f05-0e2ab00647f6",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what did the user's GitHub contributions account for before the recent change?",
+    "gold_answer": "My GitHub contributions have built up enough that they cover most of what I've coded recently.",
+    "m_new": "I spent the afternoon getting onboarded at the new job—badge photo, security briefing, and they issued me one of those managed laptops that won’t even let you plug in a USB drive. They said all development happens on their internal network and everything I write stays in their system.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what had the user's GitHub contributions covered before the recent work-environment change?\"}"
+        ],
+        "rule_hits": [
+          "old:GitHub"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user's GitHub contributions account for before the recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:GitHub"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

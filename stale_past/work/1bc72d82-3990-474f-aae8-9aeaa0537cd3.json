@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "1bc72d82-3990-474f-aae8-9aeaa0537cd3",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's employment situation before their recent change in circumstances?",
+    "gold_answer": "I’ve been settling into the rhythm of the firm for quite a while now, so these days I’m just focused on managing the steady stream of blueprints coming across my desk during my nine-to-five shift.",
+    "m_new": "Nowadays, my main routine consists of sitting at the kitchen table with my laptop, firing off cover letters and hoping to get called in for an interview.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They were job hunting, spending their days applying for jobs and hoping to get interviews; they didn’t mention having a job at the time.",
+    "lc_reasoning": "Before the recent change, the user was working at a firm during a nine-to-five shift, managing blueprints. The response instead describes their later job-hunting situation."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's employment situation before their recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user was working at a firm during a nine-to-five shift, managing blueprints. The response instead describes their later job-hunting situation.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

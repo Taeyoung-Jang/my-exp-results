@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "fe30e744-682c-4beb-80f5-47c9bc811483",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's shoulder-related physical limitation before their recent change in activities?",
+    "gold_answer": "I've got chronic tendonitis in my shoulders, so overhead lifting is completely out of the question for me.",
+    "m_new": "I’ve been spending my lunch breaks up on the rock wall at the new climbing gym—nothing fancy, just easy routes while I get my grip back.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user has chronic shoulder tendonitis and cannot do overhead lifting or pressing.",
+    "lc_reasoning": "It correctly identifies the earlier limitation: chronic shoulder tendonitis made overhead lifting off-limits."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's shoulder-related limitation before their recent change in activities?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's shoulder-related physical limitation before their recent change in activities?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies the earlier limitation: chronic shoulder tendonitis made overhead lifting off-limits.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

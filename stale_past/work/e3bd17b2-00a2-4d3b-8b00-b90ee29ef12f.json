@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e3bd17b2-00a2-4d3b-8b00-b90ee29ef12f",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's immigration status before their recent change in status?",
+    "gold_answer": "Just to be clear on my file, I'm classified as a permanent resident.",
+    "m_new": "I’m filling out the paperwork for my first passport application now that my naturalization ceremony is done.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before becoming a U.S. citizen through naturalization, the user was a lawful permanent resident (green-card holder).",
+    "lc_reasoning": "The response correctly identifies the user's status before naturalization as a lawful permanent resident (green-card holder)."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's immigration status before their recent change in status?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's status before naturalization as a lawful permanent resident (green-card holder).\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

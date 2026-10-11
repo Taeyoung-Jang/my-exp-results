@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "6f69a06e-01a9-442e-927b-70f40d6cc8f3",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's credit-score standing before the recent billing issue?",
+    "gold_answer": "I've maintained a credit score over 750 for a while now, so that part of the approval process should be straightforward.",
+    "m_new": "I’m still untangling a couple of billing mix-ups from last year—one of the hospital invoices got sent to an old address, and I didn’t even know it had been sitting in collections until I pulled my reports this week.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user said their credit score had been over 750 for a while.",
+    "lc_reasoning": "The user said their credit score had been over 750 for a while before mentioning the recent billing issue."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's credit-score standing before the recent billing issue?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user said their credit score had been over 750 for a while before mentioning the recent billing issue.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

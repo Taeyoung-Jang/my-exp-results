@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "0cfce5fd-04d1-48ac-83f0-87747bc42877",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what kind of candidates did the user tend to favor before the recent change in their political outlook?",
+    "gold_answer": "I've always leaned towards candidates who focus on community support rather than corporate interests, it's just how I've viewed things for years.",
+    "m_new": "After sitting through a few local business association meetings this year, I’ve started backing the folks who prioritize cutting regulations and keeping taxes low so companies can grow and hire more people.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of candidates did the user tend to support before their recent shift in political preferences?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of candidates did the user tend to favor before the recent change in their political outlook?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

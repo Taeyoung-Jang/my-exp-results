@@ -1,0 +1,45 @@
+{
+  "record": {
+    "uid": "53820308-c64e-4e45-a79f-b726be2e4fd7",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's religious identification before the recent change in their personal plans?",
+    "gold_answer": "For the member spotlight, could you make sure to mention that I identify as a practicing Buddhist?",
+    "m_new": "I need to swing by the county clerk this week—my marriage license paperwork has to be signed off by the priest who’s doing the ceremony, and he said he can’t submit it until we’ve finished the parish prep sessions.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user identified as a practicing Buddhist.",
+    "lc_reasoning": "The earlier state explicitly says the user identified as a practicing Buddhist; the later marriage plans do not change what their earlier identification was."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what religious identity did the user describe before the recent change in their personal plans?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's religious identification before the recent change in their personal plans?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state explicitly says the user identified as a practicing Buddhist; the later marriage plans do not change what their earlier identification was.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "fdada4cc-f4b8-4111-a2ce-826279acad14",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's religious affiliation before the recent change?",
+    "gold_answer": "I identify as a practicing Hindu, and that faith is really central to who I am.",
+    "m_new": "This week I formally took the shahada at my local mosque, and I’ve begun praying the five daily prayers as part of my life now as a Muslim.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before taking the shahada, the user identified as a practicing Hindu.",
+    "lc_reasoning": "The user previously identified as a practicing Hindu before taking the shahada."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's religious affiliation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user previously identified as a practicing Hindu before taking the shahada.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "f42cf11f-3e7d-47e8-821f-a8bdb602ae7c",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user mainly working through before the recent change to their bedroom setup?",
+    "gold_answer": "I'm mainly just working through the ones I left on the nightstand.",
+    "m_new": "I finally swapped out my old bed for that wall-mounted Murphy setup, and the installers insisted everything had to be cleared and stored before they could bolt it in.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They were planning how to make a roughly 10×11-foot room work as both a bedroom and a comfortable workspace, while keeping a clear path to the closet.",
+    "lc_reasoning": "The earlier state says the user was working through the items they had left on the nightstand. The response instead describes planning the room’s bedroom/workspace layout, which does not match that earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user mainly working through before the recent change to their bedroom setup?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user was working through the items they had left on the nightstand. The response instead describes planning the room’s bedroom/workspace layout, which does not match that earlier state.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

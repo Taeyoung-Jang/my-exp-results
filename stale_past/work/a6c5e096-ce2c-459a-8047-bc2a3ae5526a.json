@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a6c5e096-ce2c-459a-8047-bc2a3ae5526a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's work arrangement before the recent change?",
+    "gold_answer": "I finally feel like I have a handle on the workflow now that I've settled into being an independent contractor rather than answering to a department head.",
+    "m_new": "I spent my lunch break clicking through the open enrollment portal, relieved that I could finally opt into the premium dental plan and secure the company match for my retirement fund.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the change, the user worked under a department head rather than as an independent contractor.",
+    "lc_reasoning": "The earlier state says the user had settled into working as an independent contractor rather than answering to a department head. The response reverses this."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's work arrangement before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user had settled into working as an independent contractor rather than answering to a department head. The response reverses this.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

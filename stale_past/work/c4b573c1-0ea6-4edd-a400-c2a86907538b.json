@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "c4b573c1-0ea6-4edd-a400-c2a86907538b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what kind of career path did Morgan prefer before the recent change in work satisfaction?",
+    "gold_answer": "I'm planning to stay on the technical track; honestly, I prefer focusing on the lab work rather than taking on management duties.",
+    "m_new": "I spent last weekend sketching out a 30–60–90 day plan and a simple dashboard to track what everyone’s working on—turns out I actually enjoy untangling priorities and smoothing over handoffs between people more than I expected.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Morgan preferred a hands-on technical track in STEM/engineering, focusing on lab work and technical expertise rather than management duties.",
+    "lc_reasoning": "The response correctly describes Morgan’s earlier preference for a hands-on technical path focused on lab work rather than management."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of career path did Morgan prefer before the recent change in work satisfaction?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes Morgan’s earlier preference for a hands-on technical path focused on lab work rather than management.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

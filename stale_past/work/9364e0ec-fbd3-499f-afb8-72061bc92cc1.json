@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "9364e0ec-fbd3-499f-afb8-72061bc92cc1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was Alex's usual routine for having coffee and alcoholic drinks before the recent change to their schedule?",
+    "gold_answer": "I've gotten into a habit where I won't touch coffee after noon, and I usually wait until the evening to have anything alcoholic.",
+    "m_new": "I finally got put on the early shift at the depot, so I’m up at 3:30 most mornings now—by the time lunch rolls around it already feels like late afternoon, and I’m usually in bed before the sun’s properly down.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the schedule change, Alex avoided coffee after noon and usually waited until the evening to have an alcoholic drink.",
+    "lc_reasoning": "The response correctly describes Alex’s earlier routine: no coffee after noon and alcoholic drinks usually in the evening."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual timing for coffee and alcoholic drinks before their schedule changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was Alex's usual routine for having coffee and alcoholic drinks before the recent change to their schedule?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes Alex’s earlier routine: no coffee after noon and alcoholic drinks usually in the evening.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

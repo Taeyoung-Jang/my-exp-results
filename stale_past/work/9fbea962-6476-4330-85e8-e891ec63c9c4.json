@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "9fbea962-6476-4330-85e8-e891ec63c9c4",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what were the user's meal preferences before the recent dietary change?",
+    "gold_answer": "I tend to cook with a lot of peppers and spices because I prefer flavorful, hot meals over bland ones.",
+    "m_new": "Since the gastroenterologist switched me onto that strict low‑FODMAP elimination plan, I’ve been spending Sundays batch-cooking plain rice, baked chicken, and a couple of simple broths so I don’t have to improvise during the week.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before starting the strict low-FODMAP elimination diet, you preferred **bold, flavorful, often spicy meals**—especially chili, curry, and stir-fries. You also enjoyed grilled chicken and vegetables with a sweet-tangy BBQ sauce, and flexible meals built from protein, grains, vegetables, and different sauces or seasonings. There’s no earlier mention of a specific dietary restriction.",
+    "lc_reasoning": "The response correctly describes the earlier preference for flavorful, spicy meals. It adds specific examples not established in the history, but its main answer matches the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's meal preferences before the recent dietary change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier preference for flavorful, spicy meals. It adds specific examples not established in the history, but its main answer matches the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

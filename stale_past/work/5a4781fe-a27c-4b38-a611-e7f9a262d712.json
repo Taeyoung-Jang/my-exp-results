@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "5a4781fe-a27c-4b38-a611-e7f9a262d712",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's education status before the recent update?",
+    "gold_answer": "I haven't finished my education yet; I'm currently an undergraduate student.",
+    "m_new": "I finally got my diploma framed—turns out the matting place needed the exact graduation date for the little plaque, and I had to dig through my photos to remember which ceremony it was.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the update, the user’s education status wasn’t explicitly stated. They had mentioned comparing possible majors, but hadn’t yet said they were an undergraduate.",
+    "lc_reasoning": "The earlier state explicitly said the user was currently an undergraduate student, so the response incorrectly claims it was not stated."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's education status before the recent update?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state explicitly said the user was currently an undergraduate student, so the response incorrectly claims it was not stated.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

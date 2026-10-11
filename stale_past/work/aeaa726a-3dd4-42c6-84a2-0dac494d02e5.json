@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "aeaa726a-3dd4-42c6-84a2-0dac494d02e5",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's mobility status before their recent recovery?",
+    "gold_answer": "I'm still dealing with the fracture in my fibula, so I'm unable to bear full weight on that leg right now.",
+    "m_new": "I signed up for a weekend dance workshop, and I’ve been practicing the routines for a couple hours at a time without any restrictions.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were unable to bear full weight on their leg because of a fibula fracture. The conversation doesn’t specify whether they were using crutches or a boot.",
+    "lc_reasoning": "The response correctly describes the earlier mobility status: the user could not bear full weight on the leg because of a fibula fracture. It also appropriately notes that crutches or a boot were not specified."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's mobility status before their recent recovery?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier mobility status: the user could not bear full weight on the leg because of a fibula fracture. It also appropriately notes that crutches or a boot were not specified.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

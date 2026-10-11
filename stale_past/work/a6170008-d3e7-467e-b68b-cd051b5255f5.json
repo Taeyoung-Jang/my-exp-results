@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a6170008-d3e7-467e-b68b-cd051b5255f5",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's software subscription setup before the recent change?",
+    "gold_answer": "I'm still running the standard plan for the document software along with that storage add-on.",
+    "m_new": "I was reviewing my bank statement this morning and noticed a single yearly charge from the office suite I use now, and nothing else tied to it.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were using the document software’s standard plan plus a storage add-on.",
+    "lc_reasoning": "The earlier state was the document software’s standard plan plus a storage add-on."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's software subscription setup before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state was the document software’s standard plan plus a storage add-on.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

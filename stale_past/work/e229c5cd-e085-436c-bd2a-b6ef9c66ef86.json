@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e229c5cd-e085-436c-bd2a-b6ef9c66ef86",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what dessert-related skill could the user rely on before the injury?",
+    "gold_answer": "I have advanced skills in pastry making, so I can take care of the desserts for the event.",
+    "m_new": "Ever since the accident, my hands still shake too much for any kind of fine, precise work, so I’ve been sticking to tasks that don’t require steady fingers.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had advanced pastry-making skills and could handle making desserts.",
+    "lc_reasoning": "The response correctly describes the user's earlier advanced pastry-making skills and ability to handle desserts."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what dessert-related skill could the user rely on before the injury?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier advanced pastry-making skills and ability to handle desserts.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

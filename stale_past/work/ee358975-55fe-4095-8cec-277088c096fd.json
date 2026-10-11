@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ee358975-55fe-4095-8cec-277088c096fd",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what did the user do before settling in for the evening before the recent change?",
+    "gold_answer": "I make sure to close the door between the living quarters and the office unit before I settle in for the evening.",
+    "m_new": "I spent the afternoon clearing out my desk because the contractor starts tomorrow—apparently the whole front suite is being gutted down to the studs, and for a while there won’t even be a finished wall where the old doorway used to be.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They closed the door between the living quarters and the office unit.",
+    "lc_reasoning": "The response correctly describes the earlier state: before settling in for the evening, the user closed the door between the living quarters and the office unit."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user do before settling in for the evening before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: before settling in for the evening, the user closed the door between the living quarters and the office unit.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

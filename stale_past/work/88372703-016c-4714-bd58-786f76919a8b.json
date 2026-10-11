@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "88372703-016c-4714-bd58-786f76919a8b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's regular exercise routine before their schedule changed?",
+    "gold_answer": "I usually hit the pool for laps on Monday, Wednesday, and Friday evenings, so those times are pretty much locked in.",
+    "m_new": "I’ve been getting off work closer to eight lately, and by the time I’m home I’m basically just reheating whatever’s in the fridge and getting ready for bed.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user regularly swam laps on Monday, Wednesday, and Friday evenings. No other regular exercise routine was specified.",
+    "lc_reasoning": "The response correctly describes the user's earlier routine: swimming laps on Monday, Wednesday, and Friday evenings."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's regular exercise routine before their schedule changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier routine: swimming laps on Monday, Wednesday, and Friday evenings.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

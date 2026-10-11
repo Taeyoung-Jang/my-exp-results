@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "3fad85a1-7990-4fc2-b347-829167cb89f7",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's typical commute distance before the recent move?",
+    "gold_answer": "I typically come to my office from about thirty miles out, so that distance is pretty consistent for my daily travel.",
+    "m_new": "Since I moved closer, it only takes me about ten minutes to get to my workplace each morning, so I can be available for earlier meetings now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s commute was about 30 miles before moving closer.",
+    "lc_reasoning": "The response correctly identifies the user's typical commute distance before moving as about 30 miles."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical commuting distance before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical commute distance before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's typical commute distance before moving as about 30 miles.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

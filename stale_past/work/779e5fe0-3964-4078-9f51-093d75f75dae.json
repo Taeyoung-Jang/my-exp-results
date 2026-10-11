@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "779e5fe0-3964-4078-9f51-093d75f75dae",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's location routine before the recent change in circumstances?",
+    "gold_answer": "I alternate between a couple of locations every week, so I'm not always at the same place.",
+    "m_new": "Quick note: I’m in the middle of a multi‑month physical therapy program after knee surgery, so for a while I have to stay within a short ride of the clinic for early-morning sessions and follow-up checks.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They said they alternated between a couple of locations each week, rather than staying in one place. The conversation doesn’t specify which locations.",
+    "lc_reasoning": "The response correctly says the user alternated between a couple of locations each week and does not invent which locations they were."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's pattern of staying in different places before the recent change in their circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's location routine before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly says the user alternated between a couple of locations each week and does not invent which locations they were.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

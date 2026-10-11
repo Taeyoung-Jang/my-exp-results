@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "2f07b5f8-db40-46f9-8967-bff100035cc1",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's exercise routine before their recent change?",
+    "gold_answer": "I've been keeping to a routine of four strength training sessions each week for quite some time now.",
+    "m_new": "After work lately I’ve only been able to squeeze in two quick full‑body lifting sessions a week, usually on Tuesday and Saturday.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before switching to two quick full-body sessions on Tuesdays and Saturdays, the user had been doing strength training four days a week.",
+    "lc_reasoning": "The response correctly identifies the user's earlier routine as strength training four days a week."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's exercise routine before their recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier routine as strength training four days a week.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

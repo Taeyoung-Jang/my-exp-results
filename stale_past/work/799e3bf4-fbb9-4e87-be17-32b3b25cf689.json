@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "799e3bf4-fbb9-4e87-be17-32b3b25cf689",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's pantry stocking arrangement before the recent move?",
+    "gold_answer": "I keep a dedicated reserve of bottled water and canned goods in the pantry.",
+    "m_new": "After moving into the new place, I’ve been keeping my kitchen pretty minimalist—mostly just what I’ll use that week, and I restock as I go.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before moving, the user kept a dedicated reserve of bottled water and canned goods in the pantry, though it was getting disorganized and they weren’t sure they were rotating items properly.",
+    "lc_reasoning": "It correctly identifies the earlier arrangement as a dedicated pantry reserve of bottled water and canned goods. The added claim about disorganization and rotation is unsupported, but it does not change the correct description of the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's pantry stocking arrangement before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies the earlier arrangement as a dedicated pantry reserve of bottled water and canned goods. The added claim about disorganization and rotation is unsupported, but it does not change the correct description of the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

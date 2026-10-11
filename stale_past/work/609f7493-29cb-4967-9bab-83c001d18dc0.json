@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "609f7493-29cb-4967-9bab-83c001d18dc0",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's availability for taking on anything extra before the recent change?",
+    "gold_answer": "I appreciate the invite, but my usual routine leaves me with very little spare time to commit to anything extra.",
+    "m_new": "Since I switched to a lighter schedule recently, my evenings are pretty open most days, so I’ve been looking for something regular to do after work.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before switching to a lighter schedule, the user had very little spare time and found the idea of a weekly commitment exhausting.",
+    "lc_reasoning": "The response correctly says that before the schedule change, the user had very little spare time for anything extra. The added comment about a weekly commitment being exhausting is unsupported, but it does not change the earlier availability described."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's availability for taking on anything extra before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly says that before the schedule change, the user had very little spare time for anything extra. The added comment about a weekly commitment being exhausting is unsupported, but it does not change the earlier availability described.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

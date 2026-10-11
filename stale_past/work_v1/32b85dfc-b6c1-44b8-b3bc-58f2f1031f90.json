@@ -1,0 +1,45 @@
+{
+  "record": {
+    "uid": "32b85dfc-b6c1-44b8-b3bc-58f2f1031f90",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual sleep pattern like before their daily routine changed?",
+    "gold_answer": "I usually message late at night because trying to sleep earlier just doesn't work for me",
+    "m_new": "I’ve started hitting the gym before work, so I’m out the door by 5:15 most mornings; by the time dinner’s done I’m already fading and trying not to yawn through whatever I’m watching.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They averaged about 6–7 hours of sleep a night and tended to stay up late, finding it difficult to fall asleep earlier.",
+    "lc_reasoning": "It describes the earlier pattern of staying up late and finding it difficult to sleep earlier. The stated 6–7 hours is not supported by the history, but the response otherwise identifies the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual nighttime pattern before their recent routine change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual sleep pattern like before their daily routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"It describes the earlier pattern of staying up late and finding it difficult to sleep earlier. The stated 6–7 hours is not supported by the history, but the response otherwise identifies the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

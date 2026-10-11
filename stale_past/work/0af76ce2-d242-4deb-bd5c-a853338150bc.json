@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "0af76ce2-d242-4deb-bd5c-a853338150bc",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's preferred way to spend free time before their recent change in leisure habits?",
+    "gold_answer": "I tend to decline most evening invitations because I really prefer spending my free time at home.",
+    "m_new": "Lately I feel most recharged when I’m out in the middle of things—checking out new spots, meeting people, and keeping my calendar full with plans.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user preferred spending free time at home and usually declined evening invitations.",
+    "lc_reasoning": "The user previously preferred spending free time at home and tended to decline evening invitations."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's preferred way to spend free time before their recent change in lifestyle?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's preferred way to spend free time before their recent change in leisure habits?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user previously preferred spending free time at home and tended to decline evening invitations.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

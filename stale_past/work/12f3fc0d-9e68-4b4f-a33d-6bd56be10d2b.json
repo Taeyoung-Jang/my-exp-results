@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "12f3fc0d-9e68-4b4f-a33d-6bd56be10d2b",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the focus of the user's reading list before the recent change?",
+    "gold_answer": "I'm keeping my reading list pretty strictly to science fiction novels these days.",
+    "m_new": "I’ve been on a big nonfiction kick lately—mostly biographies and history—so that’s what I’ve been checking out from the library.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user’s reading list focused strictly on science fiction novels.",
+    "lc_reasoning": "The response correctly identifies the earlier focus as science fiction novels and distinguishes it from the later nonfiction interest."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the focus of the user's reading list before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier focus as science fiction novels and distinguishes it from the later nonfiction interest.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

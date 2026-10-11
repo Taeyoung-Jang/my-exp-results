@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "0683a7ee-1c84-4f83-adb0-c3b04b1ade84",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what car was the user driving before the recent change?",
+    "gold_answer": "I'm still driving the same blue sedan I bought a few years back.",
+    "m_new": "I’ve been really enjoying my silver hatchback lately—it's so much easier to park in the city.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was driving a blue sedan.",
+    "lc_reasoning": "The user was driving a blue sedan before the recent change to a silver hatchback."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what car was the user driving before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The user was driving a blue sedan before the recent change to a silver hatchback.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

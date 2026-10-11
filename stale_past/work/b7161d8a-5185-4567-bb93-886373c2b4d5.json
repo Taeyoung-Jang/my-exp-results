@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "b7161d8a-5185-4567-bb93-886373c2b4d5",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the main source of the user's frustration before their recent change in circumstances?",
+    "gold_answer": "I honestly feel like I'm spending more time wrestling with these outdated invoicing templates and payment integrations than I am actually doing the creative work I'm paid for.",
+    "m_new": "The hardest part of my days lately is just figuring out how to pass the time since I retired; staring at a completely empty planner without a single commitment or responsibility to my name is incredibly maddening.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "After retiring, the user felt frustrated by having an entirely open schedule and no commitments or responsibilities, and struggled to figure out how to spend the time.",
+    "lc_reasoning": "The response describes the user's later frustration after retiring. Before that change, the user was frustrated by outdated invoicing templates and payment integrations taking time away from creative work."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the main source of the user's frustration before their recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response describes the user's later frustration after retiring. Before that change, the user was frustrated by outdated invoicing templates and payment integrations taking time away from creative work.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

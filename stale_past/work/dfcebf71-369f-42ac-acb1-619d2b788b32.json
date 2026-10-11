@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "dfcebf71-369f-42ac-acb1-619d2b788b32",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's social life like before their recent change in circumstances?",
+    "gold_answer": "I've got a steady circle of friends that I hang out with frequently.",
+    "m_new": "I’ve been spending most evenings at the community center’s caregiver support group since Mom’s dementia got worse—between managing her meds, coordinating the home aide, and keeping an ear out for her at night, my phone’s basically turned into a triage line.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before their mother’s dementia worsened and caregiving took up more of their evenings, the user had a steady circle of friends they saw frequently. They wanted to keep those friendships strong while making some low-pressure room to meet new people.",
+    "lc_reasoning": "It correctly describes the earlier social life as a steady circle of friends the user saw frequently. The added statement about wanting to maintain friendships and meet new people is not established by the provided history, but it does not contradict the answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's social life like before their recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier social life as a steady circle of friends the user saw frequently. The added statement about wanting to maintain friendships and meet new people is not established by the provided history, but it does not contradict the answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

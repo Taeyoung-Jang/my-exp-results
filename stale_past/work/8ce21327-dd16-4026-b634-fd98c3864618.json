@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "8ce21327-dd16-4026-b634-fd98c3864618",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's attitude toward relying on someone else's schedule before the recent move?",
+    "gold_answer": "Honestly, I've never gotten into using ride shares; I just value having my own car too much to rely on someone else's schedule.",
+    "m_new": "I spent half of Saturday morning comparing HOA bylaws and lease terms—turns out the place I'm moving to only issues a couple of parking permits per unit, and the waitlist for an extra one is absurd.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's general approach to relying on transportation options beyond their own vehicle before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's attitude toward relying on someone else's schedule before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

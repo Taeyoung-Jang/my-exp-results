@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "627d6d92-38a3-4795-a055-e760692e6419",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's level of familiarity with their neighbors before the recent move?",
+    "gold_answer": "Since our units face the shared garden, I know most of the neighbors by name.",
+    "m_new": "After moving into this new place where my entrance is down a long interior hallway and the windows look out over a parking lot, I’ve realized I barely recognize anyone in the building beyond a couple of faces.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the move, the user knew most of their neighbors by name and ran into them often.",
+    "lc_reasoning": "It correctly describes the earlier state: the user knew most of their neighbors by name."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's level of familiarity with their neighbors before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier state: the user knew most of their neighbors by name.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

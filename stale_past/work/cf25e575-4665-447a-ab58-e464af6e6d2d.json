@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "cf25e575-4665-447a-ab58-e464af6e6d2d",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the status of your relationship with your partner before the recent change in your family circumstances?",
+    "gold_answer": "My partner and I have been together for about four years now, so we're pretty serious about each other.",
+    "m_new": "I spent Saturday afternoon meeting with a mediator to go over a co‑parenting schedule and how we’re splitting the holidays—turns out the boring paperwork is the part that actually stings.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "You and your partner had been together for about four years and considered the relationship serious.",
+    "lc_reasoning": "The response correctly describes the earlier relationship status: they had been together for about four years and considered the relationship serious."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the status of your relationship with your partner before the recent change in your family circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier relationship status: they had been together for about four years and considered the relationship serious.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

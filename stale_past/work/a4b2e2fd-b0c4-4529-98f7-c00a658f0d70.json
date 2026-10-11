@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a4b2e2fd-b0c4-4529-98f7-c00a658f0d70",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's living situation before the recent moves?",
+    "gold_answer": "There is no need to ask for a new address; I've stayed at this same place for the last twelve years.",
+    "m_new": "I’m filling out the rental application and trying to remember all the places I’ve lived since last summer—I’ve already moved three times, so my timeline is a bit messy.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They said they had lived at the same address for 12 years before the recent moves.",
+    "lc_reasoning": "The response correctly describes the earlier state: the user had lived at the same address for 12 years before the recent moves."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's living situation before the recent moves?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: the user had lived at the same address for 12 years before the recent moves.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

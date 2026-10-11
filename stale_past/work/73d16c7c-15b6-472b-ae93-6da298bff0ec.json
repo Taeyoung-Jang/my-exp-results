@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "73d16c7c-15b6-472b-ae93-6da298bff0ec",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's mobility like before their recent improvement?",
+    "gold_answer": "I usually need to find a spot to sit down every hour or so, because my arthritis acts up if I stand too long.",
+    "m_new": "I’ve been getting back into long walks lately, and it feels good not having to hunt for a bench partway through.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They had arthritis that flared if they stood too long, so they typically needed to find somewhere to sit about once an hour. The history doesn’t indicate a more specific mobility limitation.",
+    "lc_reasoning": "The response accurately describes the user's earlier mobility: arthritis made standing too long difficult, so they usually needed to sit about once an hour. It does not confuse that earlier state with their recent improvement."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's mobility like before their recent improvement?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the user's earlier mobility: arthritis made standing too long difficult, so they usually needed to sit about once an hour. It does not confuse that earlier state with their recent improvement.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "bfe30117-6aea-4b58-8010-91ee20aed9b7",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's emergency-supply storage situation before the recent move?",
+    "gold_answer": "I keep a few emergency rations and water jugs stored in the garage in case I am unable to travel to the store.",
+    "m_new": "I’m still getting used to this condo—it is much smaller than the house I used to live before.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the move, they kept a few emergency rations and water jugs in the garage in case they couldn’t get to the store.",
+    "lc_reasoning": "It accurately describes the earlier situation: a few emergency rations and water jugs were stored in the garage in case the user couldn't get to the store."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's emergency-supply storage situation before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It accurately describes the earlier situation: a few emergency rations and water jugs were stored in the garage in case the user couldn't get to the store.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

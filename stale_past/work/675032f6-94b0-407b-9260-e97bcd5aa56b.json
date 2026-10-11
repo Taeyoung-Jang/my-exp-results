@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "675032f6-94b0-407b-9260-e97bcd5aa56b",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what kind of packaging did the user usually choose before their reading ability changed?",
+    "gold_answer": "I usually pick the packages with Korean text since I can verify the ingredients directly without needing to trust the translated stickers.",
+    "m_new": "At the community center today, I relied on the live captions and a bilingual volunteer to follow the announcements, since I can only really make sense of the Roman alphabet now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They usually chose packages with Korean text, so they could read the ingredients themselves rather than rely on English sticker translations.",
+    "lc_reasoning": "The response correctly describes the earlier preference: packages with Korean text, so the user could verify the ingredients directly rather than rely on translated stickers."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of packaging did the user usually choose before their reading ability changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier preference: packages with Korean text, so the user could verify the ingredients directly rather than rely on translated stickers.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

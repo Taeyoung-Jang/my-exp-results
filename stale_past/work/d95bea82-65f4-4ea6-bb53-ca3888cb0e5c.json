@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d95bea82-65f4-4ea6-bb53-ca3888cb0e5c",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what had been filling most of the user's schedule before this recent change?",
+    "gold_answer": "My schedule has been mostly filled by the memoir drafting process lately.",
+    "m_new": "I spent the afternoon in a windowless conference room with HR, signing onboarding paperwork and sitting through the new-hire compliance videos.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The memoir drafting process had been filling most of the user’s schedule.",
+    "lc_reasoning": "The response correctly identifies the memoir drafting process as what had been filling most of the user's schedule before the recent change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what had been filling most of the user's schedule before this recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the memoir drafting process as what had been filling most of the user's schedule before the recent change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

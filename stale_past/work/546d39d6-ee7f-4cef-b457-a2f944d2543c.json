@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "546d39d6-ee7f-4cef-b457-a2f944d2543c",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's typical sunlight exposure like before the recent change in their circumstances?",
+    "gold_answer": "I'm exposed to pretty intense sunlight on a daily basis since the sky here stays clear most of the time.",
+    "m_new": "I’ve started timing my dog’s walks by the tide charts—some days the boardwalk’s underwater, and on the others the air’s so thick with mist that everything a block away looks like it’s been rubbed out.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were exposed to fairly intense sunlight every day because the skies in their area were usually clear.",
+    "lc_reasoning": "The response accurately describes the user's earlier conditions: intense daily sunlight due to usually clear skies."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical sunlight exposure like before the recent change in their circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the user's earlier conditions: intense daily sunlight due to usually clear skies.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

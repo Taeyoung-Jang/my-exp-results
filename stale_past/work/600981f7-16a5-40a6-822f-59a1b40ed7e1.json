@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "600981f7-16a5-40a6-822f-59a1b40ed7e1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user primarily focused on before the recent change in their work situation?",
+    "gold_answer": "I'm mostly just focused on getting the client migration plans finalized for this sprint.",
+    "m_new": "Just got out of orientation—HR finally issued my badge and laptop, so tonight I’m setting up my accounts and doing the mandatory security modules before my first shift.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before starting the new job, the user was mainly focused on personal interests and plans—most recently, organizing a birding trip to Costa Rica, including where to go and which events to attend.",
+    "lc_reasoning": "The earlier state says the user was focused on finalizing client migration plans for the sprint. The response instead describes organizing a birding trip to Costa Rica, which is a different focus."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user primarily focused on before the recent change in their work situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user was focused on finalizing client migration plans for the sprint. The response instead describes organizing a birding trip to Costa Rica, which is a different focus.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

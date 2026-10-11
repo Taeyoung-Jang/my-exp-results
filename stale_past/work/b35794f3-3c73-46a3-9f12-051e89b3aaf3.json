@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "b35794f3-3c73-46a3-9f12-051e89b3aaf3",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what did the user rely on to feel fully awake in the morning before the recent change?",
+    "gold_answer": "I've tried to cut back in the past, but I honestly depend on my morning coffee just to feel fully awake.",
+    "m_new": "Since I started that early shift at the warehouse, I’m up at 4:30 and feel sharp by the time I’m on the floor, even if I haven’t had any stimulants yet.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They relied on their morning coffee to feel fully awake.",
+    "lc_reasoning": "Before the recent change, the user relied on morning coffee to feel fully awake."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user rely on to feel fully awake in the morning before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user relied on morning coffee to feel fully awake.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "704cac18-885e-4437-b136-a7600650ba01",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what state did the user live in before the recent change?",
+    "gold_answer": "I’ve honestly become so accustomed to the pace of life here in Portland that I can’t imagine navigating the rhythm of a different city anymore.",
+    "m_new": "I've learned the hard way to always shake out my boots before putting them on; I found another bark scorpion hiding near the heel this morning, driven indoors by the relentless dry heat.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The conversation says the user lived in Portland, but it doesn’t specify the state. If they meant Portland, Oregon, then the state would be Oregon.",
+    "lc_reasoning": "The response says the state is not specified and only offers Oregon conditionally, rather than identifying the earlier state as Oregon."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what state did the user live in before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response says the state is not specified and only offers Oregon conditionally, rather than identifying the earlier state as Oregon.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "321e33b5-d60b-45d4-93b3-8439b4afbb7a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's marital status before the recent change in their household situation?",
+    "gold_answer": "I usually come to these meetings by myself since my spouse passed away.",
+    "m_new": "We spent last night stuffing envelopes for the school fundraiser, and I’m still finding glitter in my sleeves—turns out when you share a bed with someone who crafts at midnight, you share the evidence too.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was married; their spouse had passed away.",
+    "lc_reasoning": "The response correctly identifies the earlier state: the user was married, and their spouse had passed away."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's marital status before the recent change in their household situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier state: the user was married, and their spouse had passed away.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

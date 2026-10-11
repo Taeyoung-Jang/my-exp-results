@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "f6d12075-9c32-402e-83d2-adc70035c55e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's stamina like before their recent change in physical activity?",
+    "gold_answer": "I usually need to find a place to sit after standing for too long because my stamina just isn't there.",
+    "m_new": "Ever since I started training for that charity half‑marathon, my Sunday mornings have turned into these long, steady runs—last weekend I stayed on my feet for a little over two hours without really thinking about it.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before taking up distance running, the user described having low stamina and needing to sit after standing for too long.",
+    "lc_reasoning": "The response correctly describes the user's earlier low stamina and need to sit after standing for too long."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's physical stamina like before their recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's stamina like before their recent change in physical activity?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier low stamina and need to sit after standing for too long.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

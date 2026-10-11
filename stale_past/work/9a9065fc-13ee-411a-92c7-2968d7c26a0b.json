@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "9a9065fc-13ee-411a-92c7-2968d7c26a0b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user in the middle of doing before the recent period of unavailability?",
+    "gold_answer": "I'm currently in the middle of organizing the spring charity auction.",
+    "m_new": "I’m still finding receipts in my coat pockets from the week I was in court—jury duty ran straight through, phones off in the courtroom, and by the time they let us go each night everything that needed a decision had already moved on without me.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The user was serving jury duty in court, with their phone off, and is now catching up on what they missed.",
+    "lc_reasoning": "The user was organizing the spring charity auction before the period of unavailability. The response instead describes the later jury-duty period."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user in the middle of doing before the recent period of unavailability?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user was organizing the spring charity auction before the period of unavailability. The response instead describes the later jury-duty period.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "9867971c-1b23-4f9e-9334-c3b7a52d3115",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what did the user's investment portfolio consist of before the recent change?",
+    "gold_answer": "For the most part, my investment portfolio consists of market index funds, though I do keep a smaller portion in corporate bonds.",
+    "m_new": "I finally consolidated everything into a handful of rental properties and a couple of private equity deals, and I’m keeping the rest in a high-yield savings account for flexibility.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user’s portfolio consisted mostly of market index funds, with a smaller portion in corporate bonds.",
+    "lc_reasoning": "The response accurately describes the earlier portfolio as mostly market index funds with a smaller portion in corporate bonds."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user's investment portfolio consist of before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the earlier portfolio as mostly market index funds with a smaller portion in corporate bonds.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

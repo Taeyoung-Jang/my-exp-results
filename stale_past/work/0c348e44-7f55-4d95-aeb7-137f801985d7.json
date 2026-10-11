@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "0c348e44-7f55-4d95-aeb7-137f801985d7",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's general approach to accessing movies and music before the recent change in living situation?",
+    "gold_answer": "I generally avoid streaming subscriptions since I prefer owning physical copies of my movies and music.",
+    "m_new": "I finally caved and bought one of those tiny apartments with almost no storage—between the downsizing and the building’s strict clutter rules, I spent the weekend photographing everything I’m keeping and mailing the rest to my sister so I’m not tripping over boxes anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They generally avoided streaming subscriptions and preferred owning physical copies—mainly Blu-rays and CDs. They were open to library rentals and DRM-free downloads as supplements, and considered ripping discs for convenient home access.",
+    "lc_reasoning": "It correctly describes the earlier preference for avoiding streaming subscriptions and owning physical copies of movies and music. The extra examples are not needed, but they do not change that core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's general approach to accessing movies and music before the recent change in living situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier preference for avoiding streaming subscriptions and owning physical copies of movies and music. The extra examples are not needed, but they do not change that core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "92b421d6-995a-434a-bb88-65be15e6b102",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's situation regarding switching platforms before the recent change?",
+    "gold_answer": "I've built everything around this software's file types over the years, so switching platforms now would basically lock me out of my old projects.",
+    "m_new": "I finally finished migrating my archives into open formats and a cross‑platform workflow, so I can pull up my old work from any machine without worrying about what app I’m using.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before migrating, the user’s projects were tied to one software’s file formats, so they worried that switching platforms would make their old work difficult or impossible to reopen and edit. They had about 50 legacy projects and wanted to preserve editability, metadata, and final outputs.",
+    "lc_reasoning": "The response correctly describes the earlier situation: the user’s old projects depended on one software’s file formats, making switching platforms feel risky because the projects might become inaccessible. The extra details are not supported by the provided history, but they do not change that core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's situation regarding switching platforms before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier situation: the user’s old projects depended on one software’s file formats, making switching platforms feel risky because the projects might become inaccessible. The extra details are not supported by the provided history, but they do not change that core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "12067a86-6627-437f-8435-57d566c17aa0",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's approach to their pace before their circumstances changed?",
+    "gold_answer": "My stress levels have been pretty elevated for the past few months, so I'm focusing on maintaining a slower pace.",
+    "m_new": "I’ve been living out of a carry-on since January—three cities a week, back-to-back client dinners, and those 5 a.m. airport runs that keep blurring together.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before their travel schedule became hectic, the user was intentionally keeping a slower, flexible pace because their stress had been elevated. They wanted a realistic routine with minimal evening chores and exercise, and clear permission to simplify or drop tasks when energy was low.",
+    "lc_reasoning": "The response correctly describes the user's earlier approach: keeping a slower pace because stress had been elevated. Its added routine details are unsupported, but they don't change the central answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's stress level and approach to pacing themselves before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to their pace before their circumstances changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier approach: keeping a slower pace because stress had been elevated. Its added routine details are unsupported, but they don't change the central answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

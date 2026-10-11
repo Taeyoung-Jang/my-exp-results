@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a372e9cd-3e4b-45dd-9927-2c36d501c92c",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's clothing situation before the recent change in how their clothes were handled?",
+    "gold_answer": "I've kept the same three linen shirts in my closet for years because I prefer how they breathe.",
+    "m_new": "I’m still getting used to the smell of that industrial detergent they use at the uniform service—everything comes back crisp, but anything even slightly delicate just doesn’t survive a cycle like that.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The user relied on a uniform service: uniforms came back crisp, but delicate pieces were damaged by its cycle, and the industrial detergent’s scent lingered.",
+    "lc_reasoning": "Before the change, the user kept the same three linen shirts for years because they preferred how the fabric breathed. The response instead describes the later uniform-service situation."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's clothing situation before the recent change in how their clothes were handled?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the change, the user kept the same three linen shirts for years because they preferred how the fabric breathed. The response instead describes the later uniform-service situation.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

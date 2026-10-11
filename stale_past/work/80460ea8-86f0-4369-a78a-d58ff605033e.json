@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "80460ea8-86f0-4369-a78a-d58ff605033e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's exercise routine before the recent change?",
+    "gold_answer": "I've been doing the same five-mile jog every morning before breakfast for the last year, nothing changes that.",
+    "m_new": "Training for this half‑Ironman has me living on my bike lately—I’m logging a steady 25 miles on the trainer most days and saving runs for the weekend long session.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user ran five miles every morning before breakfast, a routine they’d kept up for about a year.",
+    "lc_reasoning": "The response correctly identifies the earlier routine: a five-mile jog every morning before breakfast, maintained for about a year."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's exercise routine before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier routine: a five-mile jog every morning before breakfast, maintained for about a year.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

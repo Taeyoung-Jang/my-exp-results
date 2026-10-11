@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "a4606bbf-35af-48d2-b638-32d290951bbe",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's typical meal routine before the recent change?",
+    "gold_answer": "I generally stick to eating three times a day, rarely adding snacks or skipping a meal.",
+    "m_new": "Ever since I started my new work schedule, I usually just have one big meal in the evening and maybe a small bite earlier if I’m feeling low on energy.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user typically ate three meals a day and rarely added snacks or skipped meals.",
+    "lc_reasoning": "The response correctly describes the user's earlier routine as eating three meals a day and rarely snacking or skipping meals."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical meal routine before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier routine as eating three meals a day and rarely snacking or skipping meals.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

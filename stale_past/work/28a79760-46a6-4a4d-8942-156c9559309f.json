@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "28a79760-46a6-4a4d-8942-156c9559309f",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what emergency preparedness arrangement did the user have in place before the recent move?",
+    "gold_answer": "I make sure to keep the emergency bin under the stairs stocked with fresh batteries and water.",
+    "m_new": "After the long-haul move, I’m still waiting on my boxes to arrive, so all I have on hand right now is whatever fits in two carry-ons.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They kept an emergency bin under the stairs stocked with fresh batteries and water. The “small go-bag” was an idea they were considering, not something they said they already had.",
+    "lc_reasoning": "The response correctly describes the earlier arrangement: an emergency bin under the stairs stocked with fresh batteries and water. It also correctly distinguishes the small go-bag as only an idea."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what emergency preparedness arrangement did the user have in place before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier arrangement: an emergency bin under the stairs stocked with fresh batteries and water. It also correctly distinguishes the small go-bag as only an idea.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

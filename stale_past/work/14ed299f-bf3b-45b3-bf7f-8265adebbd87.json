@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "14ed299f-bf3b-45b3-bf7f-8265adebbd87",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's preference about viewing places on higher floors before their recent change in routine?",
+    "gold_answer": "I'm going to pass on any place above the second floor; being up high makes me really uneasy, so I'd rather just not even view them.",
+    "m_new": "I’ve been training for a charity stair-climb at the downtown tower, so my weekends have turned into long sessions of jogging up and down those glassy upper-level stairwells without stopping.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user only wanted to view first- or second-floor places and preferred to skip anything above the second floor because being up high made them uneasy.",
+    "lc_reasoning": "The response correctly describes the user's earlier preference: they wanted to view only first- or second-floor places and skip higher floors because heights made them uneasy."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's preference about viewing places on higher floors before their recent change in routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier preference: they wanted to view only first- or second-floor places and skip higher floors because heights made them uneasy.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

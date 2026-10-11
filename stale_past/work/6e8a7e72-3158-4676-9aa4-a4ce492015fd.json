@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "6e8a7e72-3158-4676-9aa4-a4ce492015fd",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's software subscription situation before the recent change?",
+    "gold_answer": "I've been keeping the premium subscription running for about three years now, so I'm pretty settled into using those features.",
+    "m_new": "I’ve been enjoying how much simpler things feel lately—no more recurring charges showing up each month, and I’m fine sticking with the basic tools for what I need day to day.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user had kept a premium subscription for about three years and was accustomed to using its paid features regularly. They later canceled recurring subscriptions and switched to basic tools.",
+    "lc_reasoning": "The response correctly describes the earlier state: the user had kept a premium subscription for about three years and was accustomed to its paid features. The note about later canceling recurring subscriptions is also consistent with the recent change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's software subscription situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: the user had kept a premium subscription for about three years and was accustomed to its paid features. The note about later canceling recurring subscriptions is also consistent with the recent change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

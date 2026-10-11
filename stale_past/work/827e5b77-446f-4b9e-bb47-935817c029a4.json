@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "827e5b77-446f-4b9e-bb47-935817c029a4",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what dietary restriction did the user have before their recent change in eating habits?",
+    "gold_answer": "I have to avoid gluten completely, so anything with wheat or barley is off limits for me.",
+    "m_new": "At the bakery this morning, I grabbed a warm croissant and a regular cappuccino—pastries like that have been sitting well with me lately.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had to avoid gluten completely, including wheat and barley.",
+    "lc_reasoning": "The response correctly identifies the user's earlier restriction: avoiding gluten completely, including wheat and barley."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what dietary restriction did the user have before their recent change in eating habits?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier restriction: avoiding gluten completely, including wheat and barley.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

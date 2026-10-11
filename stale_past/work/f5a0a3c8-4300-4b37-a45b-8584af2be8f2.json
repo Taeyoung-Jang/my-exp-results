@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "f5a0a3c8-4300-4b37-a45b-8584af2be8f2",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what kind of living environment did the user prefer before their recent change?",
+    "gold_answer": "I generally prefer keeping my surroundings quite bare; I've found I feel much more at ease when I'm not managing a lot of possessions.",
+    "m_new": "I’m having so much fun styling the apartment lately—layering rugs, adding shelves for all my books and little finds, and swapping out art on the walls to keep things feeling cozy and full.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent shift toward a cozier, fuller apartment, the user preferred a bare, uncluttered living space with few possessions and plenty of visual breathing room.",
+    "lc_reasoning": "The response correctly describes the user's earlier preference for a bare, uncluttered space with few possessions, before their recent shift toward a fuller, cozier apartment."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of living environment did the user prefer before their recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier preference for a bare, uncluttered space with few possessions, before their recent shift toward a fuller, cozier apartment.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

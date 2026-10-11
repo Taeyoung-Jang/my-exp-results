@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4ab36c8a-5974-4361-8e17-e73091c193b2",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's weekly study routine before the recent change?",
+    "gold_answer": "I've been keeping my weekly study time to around eight hours, usually split over three sessions.",
+    "m_new": "Since the baby’s been home, the only learning I can squeeze in is a short lunch-break video most weekdays—maybe twenty minutes if I’m lucky—so I’ve stopped planning bigger sit-down sessions for now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before switching to short lunch-break videos, the user studied about **8 hours per week**, split across **three sessions**—roughly **3 hours, 2 hours, and 3 hours**.",
+    "lc_reasoning": "It correctly describes the earlier routine as about eight hours per week across three sessions. The specific 3–2–3 hour breakdown is an added estimate, but it does not conflict with the stated routine."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's weekly study routine before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier routine as about eight hours per week across three sessions. The specific 3–2–3 hour breakdown is an added estimate, but it does not conflict with the stated routine.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "fd996967-fd3a-4d26-b577-2615ba048a5c",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's housing situation before the recent change?",
+    "gold_answer": "I typically switch up my location every three months or so, so my mailing address is always temporary.",
+    "m_new": "I finally went ahead and signed a two-year lease—spent the weekend assembling furniture and getting the internet set up, so it actually feels like a place I’m settling into.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before signing the two-year lease, the user moved frequently—about every three months—and had only temporary addresses, with no long-term lease.",
+    "lc_reasoning": "The response correctly describes the user's earlier situation: they moved about every three months and had only temporary mailing addresses before signing the two-year lease."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how often did the user typically change locations before the recent housing change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's housing situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier situation: they moved about every three months and had only temporary mailing addresses before signing the two-year lease.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

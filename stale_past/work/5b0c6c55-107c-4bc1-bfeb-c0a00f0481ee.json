@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "5b0c6c55-107c-4bc1-bfeb-c0a00f0481ee",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's phone app usage like before their recent change in habits?",
+    "gold_answer": "I usually keep a pretty broad mix of apps on my phone since I find myself constantly toggling between different tools for chat, schedules, and reading.",
+    "m_new": "Lately my phone’s been so much easier to manage—I’ve basically pared it down to just a handful of essentials I use every day, like one messenger, my calendar, and a single reading app.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user kept a broad mix of apps and was constantly switching among tools for chat, scheduling, and reading. That included multiple personal and work messaging apps, a calendar and task manager, several reading apps, plus frequently used apps like Spotify, Maps, and 1Password. Their phone felt cluttered, like a “junk drawer” of apps.",
+    "lc_reasoning": "It accurately describes the earlier pattern of keeping a broad mix of apps and switching among tools for chat, scheduling, and reading. The extra examples are not stated in the history, but they do not change the core description."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's phone app usage like before their recent change in habits?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It accurately describes the earlier pattern of keeping a broad mix of apps and switching among tools for chat, scheduling, and reading. The extra examples are not stated in the history, but they do not change the core description.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

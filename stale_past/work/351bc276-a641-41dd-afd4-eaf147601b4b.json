@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "351bc276-a641-41dd-afd4-eaf147601b4b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual pattern for obligations and free time before the recent change?",
+    "gold_answer": "I generally have to keep my weekdays reserved for obligations, so my free time is mostly on the weekends.",
+    "m_new": "I finally switched to a four‑ten schedule at work—Mondays through Thursdays—and it’s wild how much quieter Fridays feel now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before switching to the Monday–Thursday four-ten schedule, the user’s weekdays were mostly taken up by obligations, leaving free time mainly in the evenings and on weekends.",
+    "lc_reasoning": "It correctly says weekdays were mostly taken up by obligations, but it adds that free time was mainly in the evenings, which the earlier state does not support. The stated pattern was that free time was mostly on weekends."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual distribution of free time before their recent schedule change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual pattern for obligations and free time before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly says weekdays were mostly taken up by obligations, but it adds that free time was mainly in the evenings, which the earlier state does not support. The stated pattern was that free time was mostly on weekends.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

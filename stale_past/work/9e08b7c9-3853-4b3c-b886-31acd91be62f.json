@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "9e08b7c9-3853-4b3c-b886-31acd91be62f",
+    "type": "T2",
+    "past_query": "Based on the conversation history, how visible were the user's code contributions before the recent shift in their work?",
+    "gold_answer": "I've been keeping my GitHub profile pretty active over the last few years, so most of my code contributions are publicly visible there.",
+    "m_new": "I was updating my résumé this week and realized I can’t really point people to any recent commits under my account anymore, since everything I’ve been working on lately lives behind private access.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the shift, the user had kept their GitHub profile active for several years, and most of their code contributions were publicly visible there. Their recent work, by contrast, was behind private access.",
+    "lc_reasoning": "The response correctly states that before the recent shift, the user’s GitHub profile was active and most code contributions were publicly visible. It also accurately contrasts this with the newer private work."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the public visibility of the user's code contributions before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how visible were the user's code contributions before the recent shift in their work?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states that before the recent shift, the user’s GitHub profile was active and most code contributions were publicly visible. It also accurately contrasts this with the newer private work.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

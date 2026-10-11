@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "d13024ef-6ad0-479e-be40-655e7f334ddc",
+    "type": "T2",
+    "past_query": "Based on the conversation history, how did the user rely on coffee to feel alert before their recent health-related change?",
+    "gold_answer": "I've tried to cut back in the past, but I honestly depend on my morning coffee just to feel fully awake.",
+    "m_new": "Ever since my cardiologist put me on that beta‑blocker, I’ve had to start my mornings with a slow walk and a big glass of water—if I jump straight into anything stimulating, my heart feels like it’s trying to argue with me.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what role did morning coffee play in the user's ability to feel awake before the recent health change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how did the user rely on coffee to feel alert before their recent health-related change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

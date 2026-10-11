@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "67eeb06a-3d17-421b-8845-270129a07caf",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's political leaning before their volunteer focus shifted?",
+    "gold_answer": "I typically skip those mixers; I prefer dedicating my free time to organizations that align with my progressive values.",
+    "m_new": "I’ve been spending my Saturdays helping the county party office—mostly stuffing envelopes and making calls about keeping property taxes down and backing the sheriff’s budget. It’s not glamorous, but it feels good to be useful.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had described their values as progressive, preferring organizations aligned with progressive values.",
+    "lc_reasoning": "The response correctly identifies the user's earlier political leaning as progressive, based on their preference for organizations aligned with progressive values."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's political leaning before their volunteer focus shifted?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier political leaning as progressive, based on their preference for organizations aligned with progressive values.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "3d2e275b-3782-4149-8940-c631b7b9b355",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user doing with their current reading rotation before the recent change in their downtime routine?",
+    "gold_answer": "I'm working through a list of classic novels I've set aside for my current reading rotation.",
+    "m_new": "Ever since I started doing audiobook narration on evenings and weekends, I’ve gotten weirdly picky about how long I can stare at a page after work—my eyes just tap out, so I plan my downtime around listening instead.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were working through a reading rotation of classic novels: they’d recently finished *Pride and Prejudice*, *Jane Eyre*, *The Count of Monte Cristo*, and *The Great Gatsby*, while *Moby-Dick*, *Middlemarch*, and *Crime and Punishment* were stalled.",
+    "lc_reasoning": "It describes the earlier state as working through a rotation of classic novels, rather than giving the later audiobook-listening routine as the answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user doing with their current reading rotation before the recent change in their downtime routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It describes the earlier state as working through a rotation of classic novels, rather than giving the later audiobook-listening routine as the answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

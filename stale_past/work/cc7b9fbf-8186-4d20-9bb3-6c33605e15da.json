@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "cc7b9fbf-8186-4d20-9bb3-6c33605e15da",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's main hobby and how did they prioritize their free time before the injury?",
+    "gold_answer": "Woodworking is my main passion, and I prioritize spending my free time creating furniture.",
+    "m_new": "Since the hand injury last year, I’ve switched to collecting and listening to vinyl records as my main pastime, and that’s what I plan my free time around now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the injury, the user’s main hobby was woodworking, and they prioritized their free time for creating furniture. After the injury, they shifted to collecting and listening to vinyl records.",
+    "lc_reasoning": "The response identifies woodworking as the user's main hobby before the injury and says they prioritized free time for creating furniture. The added note about their later shift is consistent with the history."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main hobby before the injury?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main hobby and how did they prioritize their free time before the injury?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response identifies woodworking as the user's main hobby before the injury and says they prioritized free time for creating furniture. The added note about their later shift is consistent with the history.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

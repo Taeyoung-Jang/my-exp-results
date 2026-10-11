@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "cb1efefb-6d80-4d8c-9cf1-5aa56950bcd0",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user focusing on before the recent change in circumstances?",
+    "gold_answer": "I've been focusing on sourdough fermentation chemistry for the past few months.",
+    "m_new": "I finally got the all-clear from my allergist, so this week I’m clearing out the kitchen—new cutting boards, new toaster, even a separate sponge—because I can’t risk any stray flour dust hanging around anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They were focused on preparing their motorcycle for a weekend ride and tracking its maintenance, including the air filter and brake pads.",
+    "lc_reasoning": "The earlier state says the user was focused on sourdough fermentation chemistry, not preparing a motorcycle for a ride."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user focusing on before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user was focused on sourdough fermentation chemistry, not preparing a motorcycle for a ride.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

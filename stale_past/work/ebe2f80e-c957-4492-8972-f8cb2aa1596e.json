@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ebe2f80e-c957-4492-8972-f8cb2aa1596e",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was your regular family routine before the recent change in your circumstances?",
+    "gold_answer": "We have a standing tradition where I join my parents for dinner every Sunday night.",
+    "m_new": "I’ve been spending my days sorting through probate paperwork and meeting with the funeral director—turns out there are a hundred tiny decisions no one warns you about until you’re the one signing for them.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The only regular family routine mentioned was joining your parents for dinner every Sunday night. The conversation doesn’t specify how that routine changed.",
+    "lc_reasoning": "The response correctly identifies the earlier routine as joining the user's parents for dinner every Sunday night. Its note that the conversation does not specify how the routine changed is also consistent with the information given."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was your regular family routine before the recent change in your circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier routine as joining the user's parents for dinner every Sunday night. Its note that the conversation does not specify how the routine changed is also consistent with the information given.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

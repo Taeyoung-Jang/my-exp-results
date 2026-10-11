@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d590439d-f8cd-4f70-8040-ffc1ff1a231e",
+    "type": "T2",
+    "past_query": "Based on the conversation history, which mode of transit did the user prefer for getting across town before the recent change in their commute?",
+    "gold_answer": "I've mostly given up on the local buses for getting across town, simply because the subway schedules are much more consistent.",
+    "m_new": "Ever since the city started tearing up the tracks for that year-long signal overhaul, my mornings have turned into a guessing game—half the time the station gates are down and everyone’s just standing around watching the delay notices refresh.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user preferred the subway, because its schedules were more consistent than the local buses.",
+    "lc_reasoning": "Before the recent change, the user preferred the subway because its schedules were more consistent than the local buses."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, which mode of transit did the user prefer for getting across town before the recent change in their commute?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user preferred the subway because its schedules were more consistent than the local buses.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

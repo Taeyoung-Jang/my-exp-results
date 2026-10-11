@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "97c12b65-3f64-4434-82f2-c2575f15aac5",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's sleep situation before the recent change?",
+    "gold_answer": "As you know, I have a diagnosed sleep disorder that consistently impacts my nightly rest.",
+    "m_new": "Since finishing that course of treatment, I’ve been sleeping through the night most days and waking up feeling rested without any ongoing issues.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before completing treatment, the user had a diagnosed sleep disorder that consistently disrupted their nightly rest.",
+    "lc_reasoning": "The response correctly describes the earlier state: a diagnosed sleep disorder consistently disrupted the user's nightly rest before treatment."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's sleep situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: a diagnosed sleep disorder consistently disrupted the user's nightly rest before treatment.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

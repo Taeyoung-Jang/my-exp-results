@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "df106e46-1200-4390-acc4-8c7b02813f25",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to adopting new apps before this change?",
+    "gold_answer": "I tend to hold off on downloading new apps for a bit, just to see if they actually stick around.",
+    "m_new": "Ever since I upgraded my phone, I’ve been grabbing new apps the moment I hear about them and trying them out the same day.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user usually waited a while before downloading new apps to see whether they seemed likely to stick around.",
+    "lc_reasoning": "The response correctly states that before the change, the user waited to see whether new apps would stick around before downloading them."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to trying out new technology before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to adopting new apps before this change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states that before the change, the user waited to see whether new apps would stick around before downloading them.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

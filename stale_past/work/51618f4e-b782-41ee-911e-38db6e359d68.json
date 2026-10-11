@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "51618f4e-b782-41ee-911e-38db6e359d68",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's mindfulness meditation routine before the recent changes to their morning schedule?",
+    "gold_answer": "I've been keeping my mindfulness meditation sessions to around twenty minutes at dawn.",
+    "m_new": "Ever since the twins started daycare, the mornings feel like a relay—lunches packed, shoes hunted down, one last permission slip signed, and I’m already backing the car out before the kettle finishes its first hiss.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The user said they meditated for about **20 minutes each day**. A suggested structure was roughly **2 minutes to settle, 15 minutes with an anchor** (such as the breath, a body scan, or sounds), and **3 minutes to close** with a brief check-in. Earlier, they had also mentioned meditating and reading before bed, initially while lying in bed. The history doesn’t specify a particular morning meditation schedule.",
+    "lc_reasoning": "The response correctly mentions sessions of about 20 minutes, but incorrectly says the history did not specify a morning schedule. The earlier state was mindfulness meditation for around 20 minutes at dawn."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's mindfulness meditation routine before the recent changes to their morning schedule?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly mentions sessions of about 20 minutes, but incorrectly says the history did not specify a morning schedule. The earlier state was mindfulness meditation for around 20 minutes at dawn.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

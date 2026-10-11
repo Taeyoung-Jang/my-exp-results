@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "5e995eb5-9903-487d-a195-836be28471a4",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what limitation did the user's machine have before the recent change?",
+    "gold_answer": "I'm working with a machine that's a few generations old, so it lacks the computing power needed for high-intensity applications.",
+    "m_new": "I’ve started doing multi-angle 4K video edits with stacked effects, and the timeline stays smooth even when I’m scrubbing and exporting in the background.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The machine was a few generations old and lacked the computing power for intensive applications: it had an older quad-core CPU, 8 GB of RAM, and a basic GPU with 2 GB of VRAM.",
+    "lc_reasoning": "It correctly describes the earlier limitation: the machine was a few generations old and lacked the computing power for intensive applications."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what limitation did the user's machine have before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier limitation: the machine was a few generations old and lacked the computing power for intensive applications.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

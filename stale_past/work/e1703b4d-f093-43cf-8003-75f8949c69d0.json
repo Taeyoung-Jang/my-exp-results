@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e1703b4d-f093-43cf-8003-75f8949c69d0",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's insurance situation before the recent change in their housing situation?",
+    "gold_answer": "I'm already set with the full insurance plan on the house.",
+    "m_new": "It’s strange not having a mortgage anymore—closing day was last week, and the buyer’s already asking where the water shutoff is.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before selling the house, the user said they already had a full insurance plan on it.",
+    "lc_reasoning": "The response correctly identifies the earlier state: before selling the house, the user already had a full insurance plan on it."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's insurance situation before the recent change in their housing situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier state: before selling the house, the user already had a full insurance plan on it.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

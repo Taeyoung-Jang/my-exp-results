@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "cf907b07-be24-4415-bff3-6bb9b476f403",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's approach to purchases and possessions before their recent life change?",
+    "gold_answer": "I've gotten into the habit of turning down unnecessary purchases since I prefer keeping my life free of clutter.",
+    "m_new": "Since the baby arrived, my evenings have basically turned into a rotation of late-night diaper runs and last-minute orders for whatever we just ran out of—wipes, bottles, a spare swaddle, the weird little things you don’t realize you need until 2 a.m.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the baby arrived, the user had a habit of turning down unnecessary purchases and preferred keeping their life free of clutter. They were trying to make purchases deliberately rather than impulsively.",
+    "lc_reasoning": "The response correctly describes the user's earlier habit of avoiding unnecessary purchases and keeping life clutter-free."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to purchases and possessions before their recent life change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier habit of avoiding unnecessary purchases and keeping life clutter-free.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

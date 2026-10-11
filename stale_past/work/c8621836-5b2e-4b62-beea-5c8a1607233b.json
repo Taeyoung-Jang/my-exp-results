@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "c8621836-5b2e-4b62-beea-5c8a1607233b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's full-time occupation before their recent career change?",
+    "gold_answer": "These days, I'm working full-time as a graphic designer.",
+    "m_new": "I finally got my white coat and badge this week—first day on the floor was a blur of vitals, charting, and trying to remember which supply closet actually has IV kits.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user worked full-time as a graphic designer.",
+    "lc_reasoning": "The response correctly identifies the user's earlier full-time occupation as a graphic designer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's full-time occupation before their recent career change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier full-time occupation as a graphic designer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

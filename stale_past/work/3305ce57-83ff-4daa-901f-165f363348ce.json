@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "3305ce57-83ff-4daa-901f-165f363348ce",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's emotional response to feeling rushed before the recent change?",
+    "gold_answer": "I tend to arrive early to most things because the feeling of being rushed usually makes me feel quite panicky.",
+    "m_new": "I’ve started booking my appointments back-to-back and usually walk in right as they’re calling my name; I actually feel more at ease when I’m on a tight countdown.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They said that feeling rushed made them feel quite panicky.",
+    "lc_reasoning": "Before the recent change, the user said that feeling rushed made them feel quite panicky."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical reaction to feeling rushed before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's emotional response to feeling rushed before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user said that feeling rushed made them feel quite panicky.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

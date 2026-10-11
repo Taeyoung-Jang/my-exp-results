@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "26910318-c4ce-431f-8b6f-8eaad3ffd8b8",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's typical winter snow-cover pattern before the recent change in local conditions?",
+    "gold_answer": "Around here, the snow typically stays on the ground from December until March.",
+    "m_new": "I finally got around to planting rosemary and a little lavender right along the garden—the soil never really locks up anymore all year round, so I’m hoping they’ll make it through without me hauling pots into the garage.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The snow typically stayed on the ground from December through March.",
+    "lc_reasoning": "The earlier state says snow typically stayed on the ground from December through March."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical winter snow-cover pattern before the recent change in local conditions?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says snow typically stayed on the ground from December through March.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

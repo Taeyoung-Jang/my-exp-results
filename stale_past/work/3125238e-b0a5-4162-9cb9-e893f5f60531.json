@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "3125238e-b0a5-4162-9cb9-e893f5f60531",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's political affiliation before the recent change?",
+    "gold_answer": "I've always considered myself an independent, so I tend to evaluate each issue on its own merits rather than following a party line.",
+    "m_new": "After getting more involved in local organizing this past year, I’ve started identifying as a Democrat and usually back the party’s candidates in elections.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user previously considered themself an independent.",
+    "lc_reasoning": "The response correctly states that the user previously considered themself an independent."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's political affiliation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states that the user previously considered themself an independent.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

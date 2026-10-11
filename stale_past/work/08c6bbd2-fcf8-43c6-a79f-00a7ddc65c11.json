@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "08c6bbd2-fcf8-43c6-a79f-00a7ddc65c11",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual way of commuting before the recent change?",
+    "gold_answer": "Just a heads up, I usually take the light rail each morning, so I'm tied up during that commute.",
+    "m_new": "If you message me between 7:30 and 8:15, I might be slow to reply since I’m usually driving in at that time.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user usually commuted by light rail each morning.",
+    "lc_reasoning": "The response correctly identifies the earlier commuting method as light rail each morning."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual way of commuting before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier commuting method as light rail each morning.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "b3613ccd-3ae7-4a9c-8a77-b2b912dcc4df",
+    "type": "T1",
+    "past_query": "Based on the conversation history, how often did the user typically change residences before the recent change?",
+    "gold_answer": "I typically switch up my location every three months or so, so my mailing address is always temporary.",
+    "m_new": "I’m settling into a long-term routine now—signed a two-year lease and finally started a weekly pottery class nearby.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how often did the user typically change residences before their recent change in living situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how often did the user typically change residences before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

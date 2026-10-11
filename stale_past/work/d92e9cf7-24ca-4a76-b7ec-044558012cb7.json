@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d92e9cf7-24ca-4a76-b7ec-044558012cb7",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual approach to screen time before their recent routine change?",
+    "gold_answer": "Honestly, I usually cap my screen time at around an hour each night before I head to bed.",
+    "m_new": "After dinner these days, I tend to keep watching videos and checking messages for about three hours straight before I switch to something offline.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Earlier, the user said they usually capped screen time at about an hour each night before bed. Later, they described spending around three hours after dinner watching videos and checking messages before switching to offline activities.",
+    "lc_reasoning": "The response correctly states that the user's earlier habit was capping screen time at about an hour each night before bed. It also accurately notes the later routine change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual approach to screen time before their recent routine change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states that the user's earlier habit was capping screen time at about an hour each night before bed. It also accurately notes the later routine change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

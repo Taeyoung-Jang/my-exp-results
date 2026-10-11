@@ -1,0 +1,47 @@
+{
+  "record": {
+    "uid": "3ab1d7a5-5560-4bfd-8bbd-80277deb4154",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what time zone was the user in before their recent change?",
+    "gold_answer": "I'm on Pacific Time, so my local clock is running three hours behind my NYC clients.",
+    "m_new": "Most of my client in America work happens at 9 a.m. their time — that's 2 p.m. my time, just after lunch.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what time zone was the user in before their recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:Time"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what time zone was the user in before their recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:Time"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

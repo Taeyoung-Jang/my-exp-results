@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "fad6aad4-c25d-4023-9e0d-9fb4cdb19ce8",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual eating pattern before their recent change in meal routine?",
+    "gold_answer": "I've gotten into the habit of skipping lunch, so I usually just eat breakfast and dinner.",
+    "m_new": "Now that my mornings are packed, I’ve been grabbing a small breakfast, eating a proper lunch, and then keeping dinner pretty light most nights.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They usually skipped lunch and ate only breakfast and dinner most days.",
+    "lc_reasoning": "Before the recent change, the user usually skipped lunch and ate breakfast and dinner."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual eating pattern before their recent change in meal routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user usually skipped lunch and ate breakfast and dinner.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

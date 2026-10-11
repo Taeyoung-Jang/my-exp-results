@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "53820308-c64e-4e45-a79f-b726be2e4fd7",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's religious identity before the recent change in their personal circumstances?",
+    "gold_answer": "For the member spotlight, could you make sure to mention that I identify as a practicing Buddhist?",
+    "m_new": "I need to swing by the county clerk this week—my marriage license paperwork has to be signed off by the priest who’s doing the ceremony, and he said he can’t submit it until we’ve finished the parish prep sessions.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user identified as a practicing Buddhist.",
+    "lc_reasoning": "The earlier state explicitly says the user identified as a practicing Buddhist."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's religious identity before the recent change in their personal circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state explicitly says the user identified as a practicing Buddhist.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

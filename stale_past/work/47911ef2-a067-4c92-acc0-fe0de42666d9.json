@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "47911ef2-a067-4c92-acc0-fe0de42666d9",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's education status before the recent change?",
+    "gold_answer": "I'm still counted as a student since I haven't officially defended my dissertation yet.",
+    "m_new": "They finally mailed my diploma last week—had to call the registrar because my name was missing the accent mark.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user was still considered an enrolled student because they had not yet defended their dissertation.",
+    "lc_reasoning": "The response correctly describes the earlier state: the user was still considered a student because they had not yet defended their dissertation."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's education status before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: the user was still considered a student because they had not yet defended their dissertation.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

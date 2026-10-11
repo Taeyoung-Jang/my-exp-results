@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d31a1e17-886e-4d2f-a3e3-ecbd9e76806b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's typical daily commute distance before the recent move?",
+    "gold_answer": "I typically go to work from about thirty miles out, so that distance is pretty consistent for my daily travel.",
+    "m_new": "I finally signed the lease on that little apartment above the bakery near the office—moved my last box in last night, so this week I’m still figuring out where everything is in the neighborhood.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Their commute was about 30 miles each way—roughly 60 miles round trip.",
+    "lc_reasoning": "The response correctly identifies the user's pre-move commute as about 30 miles each way, or roughly 60 miles round trip."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical daily commute distance before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's pre-move commute as about 30 miles each way, or roughly 60 miles round trip.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

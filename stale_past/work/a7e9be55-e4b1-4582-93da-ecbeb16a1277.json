@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a7e9be55-e4b1-4582-93da-ecbeb16a1277",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's stress level like before the recent change?",
+    "gold_answer": "For the past few months, I've been dealing with consistently high stress levels that just don't seem to go away.",
+    "m_new": "I’ve been waking up feeling surprisingly calm lately, and even when my days get busy my body doesn’t go into that tense, on-edge mode anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user described stress as consistently high and ongoing for months, with anxiety and panic attacks, trouble sleeping, and a tendency to feel tense and on edge.",
+    "lc_reasoning": "The response correctly describes the earlier state as consistently high and ongoing stress. Its added details are not supported by the stated history, but it still answers the question about the earlier stress level."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's stress level like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state as consistently high and ongoing stress. Its added details are not supported by the stated history, but it still answers the question about the earlier stress level.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "32b85dfc-b6c1-44b8-b3bc-58f2f1031f90",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's typical nighttime routine before their recent routine change?",
+    "gold_answer": "I usually message late at night because trying to sleep earlier just doesn't work for me",
+    "m_new": "I’ve started hitting the gym before work, so I’m out the door by 5:15 most mornings; by the time dinner’s done I’m already fading and trying not to yawn through whatever I’m watching.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The history doesn’t spell out a complete nighttime routine. It does say the user checked their blood pressure in the evening, often messaged late at night, and after dinner watched something while feeling very tired.",
+    "lc_reasoning": "The earlier state only says the user usually messaged late at night because trying to sleep earlier did not work. The response also presents evening blood-pressure checks and watching something after dinner while tired as part of the earlier routine, but those details are not established for that period; the watching detail belongs to the later routine change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical nighttime routine before their recent routine change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state only says the user usually messaged late at night because trying to sleep earlier did not work. The response also presents evening blood-pressure checks and watching something after dinner while tired as part of the earlier routine, but those details are not established for that period; the watching detail belongs to the later routine change.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

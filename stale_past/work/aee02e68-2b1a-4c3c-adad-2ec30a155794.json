@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "aee02e68-2b1a-4c3c-adad-2ec30a155794",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's evening availability before the recent change in their household routine?",
+    "gold_answer": "I'm just not available for evenings anymore since I took over the sole responsibility for my child's complex nightly care.",
+    "m_new": "I just got the custody order back, and the week’s been weirdly quiet—my apartment feels too still after dinner. I’ve been using the extra time to finally tackle that stack of mail and reset the place before bed.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They were available for evening meetings and calls before taking on their child’s nightly care. The conversation doesn’t specify exact hours.",
+    "lc_reasoning": "The response incorrectly says they were available for evening meetings and calls. Before the recent custody-related change, they had said they were unavailable in the evenings because they were solely responsible for their child’s nightly care."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's evening availability and caregiving situation before the recent change in their household arrangement?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's evening availability before the recent change in their household routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response incorrectly says they were available for evening meetings and calls. Before the recent custody-related change, they had said they were unavailable in the evenings because they were solely responsible for their child’s nightly care.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

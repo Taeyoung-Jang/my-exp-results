@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "bdc1222b-4440-4096-a5a9-dd95aecaabcf",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's situation with their personal accounts and phone-platform flexibility before the recent move?",
+    "gold_answer": "Honestly, I've linked nearly all my personal accounts and backups to my Google profile, so I'm effectively locked into using Android phones if I want to keep accessing my data without a headache.",
+    "m_new": "I finally finished moving my photos, notes, and password manager over to my Apple ID, and now everything just syncs across my Mac and iPad without me having to think about it.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before moving their data to Apple ID, nearly all their personal accounts and backups were linked to their Google profile. They felt effectively tied to Android to avoid a difficult switch and keep accessing their data easily.",
+    "lc_reasoning": "The response correctly describes the user's earlier situation: their accounts and backups were linked to Google, leaving them effectively tied to Android for easy access."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's situation with their personal accounts and phone-platform flexibility before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier situation: their accounts and backups were linked to Google, leaving them effectively tied to Android for easy access.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

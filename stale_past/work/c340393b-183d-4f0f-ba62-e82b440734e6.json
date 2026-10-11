@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "c340393b-183d-4f0f-ba62-e82b440734e6",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual caffeine and alcohol routine before the recent change?",
+    "gold_answer": "I try to cut off coffee by mid-afternoon, and I generally save alcohol for just Friday or Saturday nights.",
+    "m_new": "Since starting the new project, I’ve been taking a couple of those little energy chews in the early evening to stay sharp, and I’ll sometimes pour myself a small drink while I’m wrapping up paperwork on a weeknight.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, they tried to stop drinking coffee by mid-afternoon and generally kept alcohol to Friday or Saturday nights.",
+    "lc_reasoning": "The response correctly describes the earlier routine: coffee stopped by mid-afternoon and alcohol generally reserved for Friday or Saturday nights."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual caffeine and alcohol routine before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier routine: coffee stopped by mid-afternoon and alcohol generally reserved for Friday or Saturday nights.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

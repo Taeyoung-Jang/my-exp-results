@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "b547e49d-9c51-46d2-831f-40e0e593f6ff",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user focused on studying before their recent change in career plans?",
+    "gold_answer": "Lately, I've been really focused on studying astrophysics.",
+    "m_new": "After deciding to switch careers, I’ve been spending every spare hour cramming for the bar exam—contracts, torts, and practice essays have completely taken over my study time.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were focused on studying astrophysics.",
+    "lc_reasoning": "The response correctly identifies astrophysics as what the user was focused on before changing career plans."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user focused on studying before their recent change in career plans?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies astrophysics as what the user was focused on before changing career plans.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

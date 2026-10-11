@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7a7621e2-5c9f-4657-b6c5-6691cf7291ad",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the status of the user's winter outerwear before the recent change?",
+    "gold_answer": "I still have that heavy wool coat stored in my wardrobe.",
+    "m_new": "I dropped off my last winter coat at the donation center this morning while clearing out my closet.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before donating their last winter coat, they still had a heavy wool coat stored in their wardrobe, which they wore only a few times each winter.",
+    "lc_reasoning": "It correctly says that the user still had a heavy wool coat stored in their wardrobe before donating it. However, the claim that they wore it only a few times each winter is not supported by the conversation."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the status of the user's winter outerwear before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly says that the user still had a heavy wool coat stored in their wardrobe before donating it. However, the claim that they wore it only a few times each winter is not supported by the conversation.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

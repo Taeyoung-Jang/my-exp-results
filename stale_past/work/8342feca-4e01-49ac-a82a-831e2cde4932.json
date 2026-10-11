@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "8342feca-4e01-49ac-a82a-831e2cde4932",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual preference for spending their free time in the evenings before their recent change in routine?",
+    "gold_answer": "I tend to decline most evening invitations because I really prefer spending my free time at home.",
+    "m_new": "I’ve been keeping my gym bag by the door lately—there’s this weeknight salsa class I’ve been trying not to miss, and if I sit down after work, I won’t go.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They usually preferred spending their evenings at home, where quiet time helped them recharge.",
+    "lc_reasoning": "The response correctly describes the user's earlier preference for spending free time at home."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual preference for spending their free time in the evenings before their recent change in routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier preference for spending free time at home.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

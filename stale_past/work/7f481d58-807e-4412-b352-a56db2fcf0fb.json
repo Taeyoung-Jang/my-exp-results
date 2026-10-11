@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7f481d58-807e-4412-b352-a56db2fcf0fb",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the usual morning weather like where the user lived before the recent change?",
+    "gold_answer": "The morning haze usually persists until midday in where I live.",
+    "m_new": "Lately when I step outside at sunrise, the sky is already clear and bright, and the air stays crisp with no haze hanging around.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, mornings were usually hazy and muted, with the haze lingering until around midday.",
+    "lc_reasoning": "The response correctly describes the earlier weather as hazy until around midday, before the recent change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the usual morning weather like where the user lived before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier weather as hazy until around midday, before the recent change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "54568a99-2d09-41cc-a809-963d71be7eec",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's sensitivity to bright light before this recent change?",
+    "gold_answer": "I have to stick to dimmer switches because bright lights consistently trigger my migraines.",
+    "m_new": "During my first week at the pottery studio, I’ve been spending a couple hours a day under the big skylights and the bright task lamps at my wheel, and I’ve been feeling totally fine afterward.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's response to intense light before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's sensitivity to bright light before this recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "85b27125-1627-4f27-8a84-3bd07be5189c",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what city was the user residing in before the recent move?",
+    "gold_answer": "Please ensure my records show Chicago, as that is where I am residing.",
+    "m_new": "I just moved into my new place in London and I’m getting settled in.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was residing in Chicago before moving to London.",
+    "lc_reasoning": "The response correctly identifies Chicago as the city the user lived in before moving to London."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what city was the user residing in before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies Chicago as the city the user lived in before moving to London.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7ede1dd4-c878-4e81-8d33-17c974fa784d",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what amount did the user keep in their checking account for immediate use before their financial situation changed?",
+    "gold_answer": "I keep about three thousand dollars in my checking account for immediate use.",
+    "m_new": "I just checked my bank app and I’m sitting on around twelve hundred dollars available right now, so I’m going to hold off on any extra spending this week.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user kept about **$3,000** in their checking account for immediate use.",
+    "lc_reasoning": "The response gives the earlier amount, about $3,000, as requested."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what amount did the user keep in their checking account for immediate use before their financial situation changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response gives the earlier amount, about $3,000, as requested.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

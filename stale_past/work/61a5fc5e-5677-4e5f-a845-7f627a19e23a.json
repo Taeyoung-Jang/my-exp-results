@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "61a5fc5e-5677-4e5f-a845-7f627a19e23a",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what emergency food and water supplies did the user keep at home before their recent change in routine?",
+    "gold_answer": "I keep a dedicated shelf stocked with about five days' worth of canned food and bottled water, just to ensure I'm covered if anything happens.",
+    "m_new": "Since I’ve been living out of a backpack for work lately, I only keep a couple of protein bars and a small bottle of water on hand at home—everything else I just pick up as I go.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They kept about five days’ worth of canned food and bottled water on a dedicated shelf.",
+    "lc_reasoning": "The response correctly describes the earlier state: about five days’ worth of canned food and bottled water on a dedicated shelf."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what emergency food and water supplies did the user keep at home before their recent lifestyle change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what emergency food and water supplies did the user keep at home before their recent change in routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: about five days’ worth of canned food and bottled water on a dedicated shelf.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

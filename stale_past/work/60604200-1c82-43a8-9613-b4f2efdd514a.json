@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "60604200-1c82-43a8-9613-b4f2efdd514a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's attitude toward applying for citizenship before the recent change in circumstances?",
+    "gold_answer": "I'm comfortable staying as a permanent resident for now, so I'm not rushing to apply for citizenship.",
+    "m_new": "I finally accepted the offer in the federal compliance unit, and HR just emailed me the onboarding packet—there’s a whole section about providing proof of eligibility for the clearance before they’ll even set my start date, and I am happy that it wouldn't be a problem for me.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was comfortable remaining a permanent resident and wasn’t in a hurry to apply for citizenship.",
+    "lc_reasoning": "The response correctly states the user's earlier attitude: they were comfortable remaining a permanent resident and were not rushing to apply for citizenship."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's attitude toward applying for citizenship before the recent change in their work circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's attitude toward applying for citizenship before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states the user's earlier attitude: they were comfortable remaining a permanent resident and were not rushing to apply for citizenship.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "26e99c95-ba23-4a81-92a0-5421a69ac5e6",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to managing personal finances before the recent change in their financial commitments?",
+    "gold_answer": "I'm sticking to a strict budget right now until I reach the savings milestone I set for myself.",
+    "m_new": "We finally signed the daycare contract today—between the enrollment deposit and the first month due up front, I spent my afternoon filling out direct-debit forms and uploading immunization records.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user said they were sticking to a **strict budget until reaching a savings milestone**. They wanted to keep bill money separate from day-to-day spending, with payday transfers for bills, spending, and an irregular-expenses buffer. Earlier, they’d been considering a simpler “pay yourself first” approach, but their stated approach at that point was the stricter, goal-focused budget.",
+    "lc_reasoning": "It correctly identifies the earlier approach as sticking to a strict budget until reaching a savings milestone. The added details do not change that answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to managing personal finances before the recent change in their financial commitments?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies the earlier approach as sticking to a strict budget until reaching a savings milestone. The added details do not change that answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

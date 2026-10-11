@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "3a9bfd68-7b8a-418a-ab93-50ace62512c4",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's attitude toward career advancement and stability before the recent change?",
+    "gold_answer": "I'm not really looking to climb the ladder anymore; I find much more satisfaction in maintaining the systems I know well than navigating the uncertainty of a new position.",
+    "m_new": "I spent last weekend at a startup founders’ meetup, and I keep catching myself sketching out what I’d need to spin up a tiny consulting shop—just me, a laptop, and a short list of clients—so I can choose the messier projects everyone else avoids.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's career orientation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's attitude toward career advancement and stability before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

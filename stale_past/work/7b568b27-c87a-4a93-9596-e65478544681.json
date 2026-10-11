@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7b568b27-c87a-4a93-9596-e65478544681",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's approach to storing files before the recent change in their routine?",
+    "gold_answer": "I keep my files stored locally on my device rather than using online cloud services.",
+    "m_new": "I’ve gotten into the habit of using the computers at the library for the stuff I’m working on lately—my bag’s been a lot lighter since I stopped hauling my own gear around. I just sign in, do what I need to do, and when I’m done I wipe the session and walk out with nothing but my notebook.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before switching to using library computers, the user kept their files stored locally on their own device rather than in cloud services.",
+    "lc_reasoning": "The response correctly states that before the recent change, the user stored files locally on their own device rather than using cloud services."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to storing files before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states that before the recent change, the user stored files locally on their own device rather than using cloud services.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

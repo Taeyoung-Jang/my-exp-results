@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "9d610c68-0c1a-4ed5-b4e2-f25b3dbe138e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's main work focus before their recent shift in priorities?",
+    "gold_answer": "I'm mostly just focused on getting the client migration plans finalized for this sprint.",
+    "m_new": "I’m spending most of my time these days getting the dissertation edits wrapped up and coordinating my defense date with my committee.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They were focused on wrapping up their dissertation edits and coordinating a defense date with their committee.",
+    "lc_reasoning": "Before the shift in priorities, the user was focused on finalizing client migration plans for the sprint. The response instead describes their more recent dissertation work."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main work focus before their recent shift in priorities?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the shift in priorities, the user was focused on finalizing client migration plans for the sprint. The response instead describes their more recent dissertation work.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

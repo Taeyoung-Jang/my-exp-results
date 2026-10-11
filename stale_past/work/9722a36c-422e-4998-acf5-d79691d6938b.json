@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "9722a36c-422e-4998-acf5-d79691d6938b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's work setup like before the recent housing change?",
+    "gold_answer": "I'm set up to work from home, so my office is just here in the house.",
+    "m_new": "I had to give the landlord a move‑out date today—turns out the building’s being converted, so I spent the evening sorting what goes in the truck and what I can fit into a couple suitcases for the week in between.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the housing change, the user worked from home at a desk in a shared room, without a separate office or door.",
+    "lc_reasoning": "The history establishes that the user worked from home and had an office in the house, but it does not say the office was a desk in a shared room or lacked a door."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's work setup like before the recent housing change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The history establishes that the user worked from home and had an office in the house, but it does not say the office was a desk in a shared room or lacked a door.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

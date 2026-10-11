@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "1469bde3-6c26-41c4-bd02-fe6e57463b28",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's approach to software releases before their recent change in priorities?",
+    "gold_answer": "I usually opt into the beta versions because I'd rather deal with glitches than wait for the stable release.",
+    "m_new": "Ever since that deadline crunch, I’ve started turning off automatic updates and silencing those “try the new experience” pop‑ups—I can’t afford to have anything change on me mid‑week anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before prioritizing stability, the user usually opted into beta releases, preferring to deal with glitches rather than wait for stable versions.",
+    "lc_reasoning": "The response correctly describes the user's earlier preference for beta releases, even though their priorities have since changed."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to software releases before their recent change in priorities?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier preference for beta releases, even though their priorities have since changed.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

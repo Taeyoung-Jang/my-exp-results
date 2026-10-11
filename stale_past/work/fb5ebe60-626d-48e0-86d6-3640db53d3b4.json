@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "fb5ebe60-626d-48e0-86d6-3640db53d3b4",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what state was the user based in before the recent move?",
+    "gold_answer": "I've been based in Seattle for the last few years.",
+    "m_new": "I finally got around to switching my driver’s license and voter registration after the move—turns out you can’t keep putting that paperwork off forever.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was based in Washington state, in Seattle.",
+    "lc_reasoning": "The user was based in Seattle, which is in Washington state, before the recent move."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what state was the user based in before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user was based in Seattle, which is in Washington state, before the recent move.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

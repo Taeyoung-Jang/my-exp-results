@@ -1,0 +1,48 @@
+{
+  "record": {
+    "uid": "f694e016-df83-4ffa-bc6e-77b51ab2af18",
+    "type": "T2",
+    "past_query": "Based on the conversation history, where did the user usually keep their traditional woven baskets before the recent move?",
+    "gold_answer": "I usually keep the traditional woven baskets from Ghana on the top shelf so they don't get crushed by heavier items.",
+    "m_new": "I’m filling out the paperwork for my long-term move to Tokyo next spring, so I’ve been ruthless about downsizing—only two suitcases’ worth is coming with me, and everything else is getting sold or donated over the next few months.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They usually kept the traditional woven baskets from Ghana on the top shelf.",
+    "lc_reasoning": "The response correctly identifies the earlier storage location: the top shelf."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, where did the user keep their traditional woven baskets from Ghana before the recent move?\"}"
+        ],
+        "rule_hits": [
+          "old:Ghana"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, where did the user usually keep their traditional woven baskets before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier storage location: the top shelf.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

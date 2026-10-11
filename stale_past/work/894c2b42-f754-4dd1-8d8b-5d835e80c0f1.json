@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "894c2b42-f754-4dd1-8d8b-5d835e80c0f1",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's living arrangement before the recent change in living situation?",
+    "gold_answer": "My parents and my brother live with me, so it's a pretty full house with four of us.",
+    "m_new": "I’ve been getting used to having the place to myself lately—coming home to a quiet, empty apartment has been a big change.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user lived with their parents and brother in a four-person household.",
+    "lc_reasoning": "The response correctly identifies the earlier living arrangement: the user lived with their parents and brother in a four-person household."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's living arrangement before the recent change in living situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier living arrangement: the user lived with their parents and brother in a four-person household.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

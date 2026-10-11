@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "06071a3e-6ac8-41cc-8138-6db403c7b42d",
+    "type": "T2",
+    "past_query": "Based on the conversation history, who was living with the user before the recent move?",
+    "gold_answer": "My parents and my brother live with me, so it's a pretty full house with four of us.",
+    "m_new": "I finally signed the papers on that year-long fellowship in Copenhagen, so I’ve been selling off most of my furniture and setting up a tiny sublet near the lab.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s parents and brother were living with them.",
+    "lc_reasoning": "The earlier state says the user’s parents and brother lived with them; the later move does not change who was living with the user before it."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's living arrangement before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, who was living with the user before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user’s parents and brother lived with them; the later move does not change who was living with the user before it.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

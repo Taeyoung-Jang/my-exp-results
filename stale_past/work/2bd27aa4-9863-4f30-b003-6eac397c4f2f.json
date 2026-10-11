@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "2bd27aa4-9863-4f30-b003-6eac397c4f2f",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's sleep-related condition like before the recent change?",
+    "gold_answer": "I've had a chronic sleep disorder for a while now, so my rest cycles tend to be fairly inconsistent.",
+    "m_new": "Had my flight physical for the new job yesterday—turns out they’re strict about anything that could mess with alertness, so I spent the last couple months doing the full sleep-lab workup and following their specialist’s plan to the letter until I could get medically cleared.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user said they had a chronic sleep disorder and fairly inconsistent rest cycles. No specific diagnosis was given.",
+    "lc_reasoning": "The response accurately describes the earlier state: a chronic sleep disorder with fairly inconsistent rest cycles, without assigning a specific diagnosis."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's sleep-related condition before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's sleep-related condition like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the earlier state: a chronic sleep disorder with fairly inconsistent rest cycles, without assigning a specific diagnosis.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

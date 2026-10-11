@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7b28c0db-c4af-45a1-b72c-76d6b1127563",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's main priority and commitment situation before their circumstances changed?",
+    "gold_answer": "Right now, my primary focus is getting the backyard renovation finished before the weather turns, so I'm not taking on any other commitments.",
+    "m_new": "I keep catching myself checking my watch between conference calls—ever since I started onboarding at the new job, the days just disappear into meetings and training modules.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Their main priority was finishing the backyard renovation before the weather turned. They were keeping their schedule clear and not taking on other commitments until it was done.",
+    "lc_reasoning": "The response correctly identifies the user's earlier priority as finishing the backyard renovation before the weather changed and says they were not taking on other commitments."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main priority and commitment situation before their circumstances changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier priority as finishing the backyard renovation before the weather changed and says they were not taking on other commitments.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

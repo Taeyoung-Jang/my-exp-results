@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "9722a36c-422e-4998-acf5-d79691d6938b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's office arrangement before the recent change in living situation?",
+    "gold_answer": "I'm set up to work from home, so my office is just here in the house.",
+    "m_new": "I had to give the landlord a move‑out date today—turns out the building’s being converted, so I spent the evening sorting what goes in the truck and what I can fit into a couple suitcases for the week in between.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Their office was a desk in a shared room, without a separate room or door.",
+    "lc_reasoning": "The earlier state only says the user worked from home and had an office in the house; it does not say the office was a desk in a shared room without a separate room or door."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's office arrangement before the recent change in living situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state only says the user worked from home and had an office in the house; it does not say the office was a desk in a shared room without a separate room or door.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

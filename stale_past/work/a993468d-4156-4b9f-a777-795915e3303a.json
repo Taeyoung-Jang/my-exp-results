@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a993468d-4156-4b9f-a777-795915e3303a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's elevation above sea level before the recent move?",
+    "gold_answer": "My place is at 600 meters above sea level, and I've been here long enough that the elevation is just part of the routine now.",
+    "m_new": "I finally stopped renting and signed the papers on a little bungalow a few blocks from the ferry terminal—salt air, gulls at dawn, and the kind of damp that makes the door stick if you don’t oil the hinges.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s previous home was about 600 meters above sea level.",
+    "lc_reasoning": "The earlier state says the user's place was 600 meters above sea level, and the response correctly identifies that as the previous home's elevation."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's elevation above sea level before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user's place was 600 meters above sea level, and the response correctly identifies that as the previous home's elevation.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

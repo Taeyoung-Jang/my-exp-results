@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7675e9c3-118f-4068-8d4f-1115f72e13bb",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's financial situation before the recent change?",
+    "gold_answer": "I'm currently carrying a significant debt balance that requires fixed monthly payments.",
+    "m_new": "Now that my last payoff cleared, I’m finally able to put the money I used to send out every month straight into my savings and retirement accounts.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the payoff cleared, you had about **$41,300 in debt** and **$900 in checking, with no real emergency fund**. Your net income averaged **$4,650/month**, while required debt payments totaled **$830/month**:\n\n- Credit Card A: $6,800 at 24.99% APR; $210 minimum  \n- Credit Card B: $3,200 at 19.99% APR; $95 minimum  \n- Personal loan: $12,400 at 11.5%; $310 payment  \n- Student loan: $18,900 at 5.2%; $215 payment  \n\nYour listed monthly expenses—including the $100 savings contribution and about $675 in dining, subscriptions, and miscellaneous spending—added up to roughly **$4,835**, or about **$185 more than your average take-home income**. That left little room for unexpected costs and risked pushing you back onto credit cards.",
+    "lc_reasoning": "The response describes the user's financial situation before the payoff cleared, including debt, required payments, and limited savings. It does not mistake the newer savings plan for the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's financial situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response describes the user's financial situation before the payoff cleared, including debt, required payments, and limited savings. It does not mistake the newer savings plan for the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

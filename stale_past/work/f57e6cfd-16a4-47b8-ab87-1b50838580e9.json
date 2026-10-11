@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "f57e6cfd-16a4-47b8-ab87-1b50838580e9",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's personal-belongings insurance coverage before the recent change in their housing situation?",
+    "gold_answer": "I still have the comprehensive policy on my personal belongings that I set up when I moved here.",
+    "m_new": "I spent this afternoon at the notary with the executor—signing the last of the probate paperwork and handing over the keys. It was strange watching them photograph every room before they changed the locks.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They had a “pretty comprehensive” personal-belongings policy. The conversation doesn’t establish whether it covered replacement cost or actual cash value.",
+    "lc_reasoning": "The response correctly describes the earlier coverage as a pretty comprehensive personal-belongings policy and does not claim whether it covered replacement cost or actual cash value."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's personal-belongings insurance coverage before the recent change in their housing situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier coverage as a pretty comprehensive personal-belongings policy and does not claim whether it covered replacement cost or actual cash value.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

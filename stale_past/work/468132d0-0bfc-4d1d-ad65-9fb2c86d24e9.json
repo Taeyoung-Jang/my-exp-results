@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "468132d0-0bfc-4d1d-ad65-9fb2c86d24e9",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what were the user's typical work hours before their schedule changed?",
+    "gold_answer": "I keep pretty standard hours, so I'm typically working from eight in the morning until four in the afternoon on weekdays.",
+    "m_new": "I’m still getting used to the night shift—by the time I’m heading home, the bakery downstairs is putting out the first trays, and I have to keep my phone on silent all morning so I can actually sleep.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user typically worked from 8:00 a.m. to 4:00 p.m. on weekdays.",
+    "lc_reasoning": "The response correctly gives the user's earlier typical work hours: 8:00 a.m. to 4:00 p.m. on weekdays."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's typical work hours before their schedule changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly gives the user's earlier typical work hours: 8:00 a.m. to 4:00 p.m. on weekdays.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

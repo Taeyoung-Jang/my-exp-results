@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "a372e9cd-3e4b-45dd-9927-2c36d501c92c",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual choice of shirts before their clothing situation changed?",
+    "gold_answer": "I've kept the same three linen shirts in my closet for years because I prefer how they breathe.",
+    "m_new": "I’m still getting used to the smell of that industrial detergent they use at the uniform service—everything comes back crisp, but anything even slightly delicate just doesn’t survive a cycle like that.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They usually wore linen shirts, keeping the same three because they liked how breathable they were.",
+    "lc_reasoning": "The response correctly identifies the user's earlier usual choice as the same three linen shirts, preferred for their breathability."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual choice of shirts before their clothing situation changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier usual choice as the same three linen shirts, preferred for their breathability.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

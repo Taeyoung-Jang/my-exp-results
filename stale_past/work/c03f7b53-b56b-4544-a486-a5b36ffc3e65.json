@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "c03f7b53-b56b-4544-a486-a5b36ffc3e65",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's file backup setup before the recent change?",
+    "gold_answer": "All my files are set to back up to the cloud automatically.",
+    "m_new": "I finally switched my laptop over to that local-only account IT recommended—had to sign in with a fresh username, and it’s been kind of nice not getting those “sign in to continue” pop-ups anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before switching to a local-only Windows account, the user had automatic cloud backup enabled for all their files. An encrypted external drive was discussed as an additional backup, but the conversation doesn’t clearly confirm that they had set one up.",
+    "lc_reasoning": "It correctly says that before switching to the local-only account, all files were set to back up automatically to the cloud. The extra note about an external drive does not change that answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's file backup setup before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly says that before switching to the local-only account, all files were set to back up automatically to the cloud. The extra note about an external drive does not change that answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

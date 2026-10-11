@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "10fdfd0c-9ccd-478f-b0d0-2a1977cdc705",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's pet situation before the recent move?",
+    "gold_answer": "I've had my senior Labrador for nearly nine years, so he's a permanent part of my life.",
+    "m_new": "The lease on my new place is strict—before they handed me the keys, I had to sign a notarized addendum agreeing the apartment would remain animal-free the entire term, with surprise inspections if anyone complained.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the move, the user had a senior Labrador they’d had for nearly nine years and described as a permanent part of their life.",
+    "lc_reasoning": "The response correctly describes the user's pet situation before the move: they had a senior Labrador for nearly nine years and considered him a permanent part of their life."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's pet situation before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's pet situation before the move: they had a senior Labrador for nearly nine years and considered him a permanent part of their life.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

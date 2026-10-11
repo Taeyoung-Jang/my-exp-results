@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "2de2a661-3440-41b1-aa72-a9ab0e351407",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's household living arrangement before the recent move?",
+    "gold_answer": "My grandparents live with us, so there are several generations sharing the home.",
+    "m_new": "I’m getting used to the quiet in my new place—it's just me here now, so I’m figuring out all the routines on my own.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the move, the user lived in a multigenerational household with their grandparents.",
+    "lc_reasoning": "The answer correctly identifies the earlier arrangement as a multigenerational household with the user's grandparents."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's household living arrangement before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The answer correctly identifies the earlier arrangement as a multigenerational household with the user's grandparents.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

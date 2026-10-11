@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "dde8e774-9400-4b6a-a007-591f14decb6f",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's situation before their recent change in circumstances?",
+    "gold_answer": "I'm currently an undergraduate student, so my life is pretty much structured around the academic calendar.",
+    "m_new": "Now that I’m working full-time with a standard Monday–Friday schedule, I can usually commit to weeknight meetings and most weekends.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before starting a full-time Monday–Friday job, the user was an undergraduate student whose week revolved around classes and a flexible campus job of about eight hours a week. Their classes were Monday, Wednesday, and Friday from 10 a.m. to noon, and Tuesday and Thursday from 1–4 p.m.",
+    "lc_reasoning": "It correctly identifies the user as an undergraduate whose life revolved around the academic calendar, but it adds an unsupported campus job and specific class schedule that are not established in the conversation history."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's situation before their recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies the user as an undergraduate whose life revolved around the academic calendar, but it adds an unsupported campus job and specific class schedule that are not established in the conversation history.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "f64207c3-c9f9-49d2-a304-39f4a0a7ec1e",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's reading focus before the recent change in commitments?",
+    "gold_answer": "My focus is strictly on a curated list of macroeconomic texts I've set out to complete.",
+    "m_new": "I finally signed the enrollment papers for the paramedic program—between the clinical rotations and the weekly skills labs, they’re already sending out the first stack of anatomy and protocol packets they expect us to have tabbed and ready before orientation.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before enrolling in the paramedic program, the user was focused on completing a curated set of **macroeconomics texts**, covering GDP measurement, IS–LM and AD–AS, inflation and expectations, unemployment, monetary and fiscal policy, open-economy macroeconomics, and financial crises.",
+    "lc_reasoning": "It identifies the user's earlier focus as completing a curated set of macroeconomics texts, rather than describing the new paramedic-program commitments."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's reading focus before the recent change in commitments?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It identifies the user's earlier focus as completing a curated set of macroeconomics texts, rather than describing the new paramedic-program commitments.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "record": {
+    "uid": "473ffdfd-3e2d-4ed8-af84-d1bf02ac8e8e",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's ability to understand native-speed spoken German before the recent change?",
+    "gold_answer": "I can read most texts in German comfortably, but I still find native-speed conversations too fast to follow accurately.",
+    "m_new": "On the train to Munich this morning I ended up wedged between two retirees arguing about the best way to prune roses, and without thinking I leaned over and settled it for them—then spent the next few stops trading little jokes with them while the conductor’s announcements blared over our heads.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how well could the user follow native-speed German conversations before the recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:German"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's ability to understand native-speed spoken German before the recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:German"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

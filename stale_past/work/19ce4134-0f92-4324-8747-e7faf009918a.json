@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "19ce4134-0f92-4324-8747-e7faf009918a",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's daily mindfulness meditation duration before the recent routine change?",
+    "gold_answer": "I generally spend about twenty minutes on mindfulness meditation as part of my morning routine.",
+    "m_new": "Since I started that early shift, I only have time to sit in silence for about five minutes before heading out the door.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s daily mindfulness meditation lasted about 20 minutes.",
+    "lc_reasoning": "Before the routine change, the user spent about 20 minutes on mindfulness meditation each day."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's daily mindfulness meditation duration before the recent routine change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the routine change, the user spent about 20 minutes on mindfulness meditation each day.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "773312aa-620e-4ab2-b7eb-905d558e5567",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user’s reading focus before the recent change?",
+    "gold_answer": "I'm actually working through a curated list of Scandinavian crime novels I put together recently.",
+    "m_new": "I’ve decided to spend this year reading straight through my grandmother’s old poetry shelf—one slim volume at a time, in the order they’re lined up—so that’s what I’m sticking with whenever I sit down to read.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before switching to the poetry project, the user was focused on atmospheric crime and mystery novels, especially Nordic/Scandinavian slow-burns with a strong sense of place and smart investigators.",
+    "lc_reasoning": "The response correctly identifies the earlier focus as Scandinavian/Nordic crime and mystery novels, even though it adds extra characterizations."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of reading list was the user working through before their recent change in reading plans?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user’s reading focus before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier focus as Scandinavian/Nordic crime and mystery novels, even though it adds extra characterizations.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

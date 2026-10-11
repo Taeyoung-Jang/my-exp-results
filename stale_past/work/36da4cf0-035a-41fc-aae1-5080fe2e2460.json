@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "36da4cf0-035a-41fc-aae1-5080fe2e2460",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's relationship situation before their recent change in support arrangements?",
+    "gold_answer": "I'm in a long-term relationship, so I generally consider my partner when making plans.",
+    "m_new": "I’m updating my emergency contact forms this week—took a minute to realize there isn’t really anyone I can put down who’d be reachable at odd hours, so I’ll probably list my sister instead.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Earlier, the user said they were in a long-term relationship and generally considered their partner when making plans. The conversation doesn’t explicitly say whether that relationship changed; later, they said their sister would be the more reliable emergency contact at odd hours.",
+    "lc_reasoning": "The response correctly describes the earlier state: the user was in a long-term relationship and generally considered their partner when making plans. It also appropriately notes that the later emergency-contact change does not explicitly establish whether the relationship changed."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's relationship situation before their recent change in support arrangements?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: the user was in a long-term relationship and generally considered their partner when making plans. It also appropriately notes that the later emergency-contact change does not explicitly establish whether the relationship changed.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

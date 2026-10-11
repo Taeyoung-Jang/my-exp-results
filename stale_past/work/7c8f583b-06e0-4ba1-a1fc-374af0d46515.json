@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7c8f583b-06e0-4ba1-a1fc-374af0d46515",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what outerwear did the user have before the recent closet purge?",
+    "gold_answer": "Actually, I still have that old brown leather jacket with the zippered pockets.",
+    "m_new": "When I did the big closet purge last weekend, I ended up with just my denim jacket and a couple of hoodies left for outerwear.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The conversation only specifies that the purge left them with a denim jacket and a couple of hoodies. It doesn’t say what other outerwear they had before the purge.",
+    "lc_reasoning": "The earlier state explicitly says the user had an old brown leather jacket with zippered pockets before the purge. The response incorrectly says the prior outerwear is unspecified."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what outerwear did the user have before the recent closet purge?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state explicitly says the user had an old brown leather jacket with zippered pockets before the purge. The response incorrectly says the prior outerwear is unspecified.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "eccf2a73-c841-43eb-98a1-1fc5325a2946",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's cloud storage arrangement before the recent financial change?",
+    "gold_answer": "I've maintained the premium cloud storage plan for a few years now, so all my data is already housed there.",
+    "m_new": "At the credit union today, the counselor had me move everything onto a prepaid card with a hard monthly cap—no recurring charges allowed—so my budget can’t get dinged by any surprise renewals while I’m paying down the medical bills.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had maintained a premium cloud-storage plan for several years, with their data stored there and the cloud serving as the source of truth. Some folders were kept online-only to save space on their Mac.",
+    "lc_reasoning": "It correctly describes the earlier arrangement: the user had maintained a premium cloud-storage plan for several years and had their data stored there. The extra details do not change that earlier-state answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's cloud storage arrangement before the recent financial change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier arrangement: the user had maintained a premium cloud-storage plan for several years and had their data stored there. The extra details do not change that earlier-state answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

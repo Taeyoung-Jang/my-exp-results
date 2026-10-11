@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "5f77adc7-dbdb-46be-95cc-c40432ad4faf",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to upgrading their devices before their recent change in update habits?",
+    "gold_answer": "I usually wait until my current device completely stops meeting my needs before I upgrade, because the newer features seldom change how I actually get things done.",
+    "m_new": "I ended up signing up for the developer beta on my phone this weekend—needed the new on-device transcription and those automation shortcuts for a project, even if it means living with a few glitches until the stable release drops.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to upgrading their devices before their recent change in update habits?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to upgrading their devices before their recent change in update habits?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

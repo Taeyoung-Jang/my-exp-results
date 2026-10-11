@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "6a52e0a1-1149-49f1-ba2a-2c99258970f0",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what phase of their cycle were they in before the recent change in their cycle-related state?",
+    "gold_answer": "I'm in the beginning of my cycle right now, so I'm usually pretty sluggish and need to rest more than usual for the next few days.",
+    "m_new": "I’ve been waking up at 6 to stick a thermometer under my tongue before I even sit up—my fertility app says my temps have been climbing steadily all week, so it’s finally giving me the green light to start trying again.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They had said they were at the beginning of their cycle, feeling sluggish and needing extra rest—the early-cycle phase. The conversation doesn’t specify more precisely whether they were still menstruating.",
+    "lc_reasoning": "Before the recent change, they said they were at the beginning of their cycle and felt sluggish, needing extra rest. That describes the early-cycle phase."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's cycle-related state and how was it affecting their energy before the recent update?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what phase of their cycle were they in before the recent change in their cycle-related state?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, they said they were at the beginning of their cycle and felt sluggish, needing extra rest. That describes the early-cycle phase.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

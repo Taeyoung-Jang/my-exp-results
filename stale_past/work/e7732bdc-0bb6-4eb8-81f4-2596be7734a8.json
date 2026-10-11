@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e7732bdc-0bb6-4eb8-81f4-2596be7734a8",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's computer's ability to handle the export like before their recent upgrade?",
+    "gold_answer": "I've tried running the export on my end, but my computer just doesn't have the raw processing power to handle that resolution without crashing.",
+    "m_new": "I finally upgraded my setup—this new workstation chews through 8K renders without breaking a sweat.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the upgrade, the user’s computer struggled to export at full resolution and sometimes crashed because it lacked the processing power.",
+    "lc_reasoning": "The response correctly describes the computer’s ability before the upgrade: it lacked enough processing power to handle a full-resolution export and could crash."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's computer's ability to handle the export like before their recent upgrade?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the computer’s ability before the upgrade: it lacked enough processing power to handle a full-resolution export and could crash.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

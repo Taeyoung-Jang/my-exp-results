@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "447842d5-c9e5-4663-9da3-1f0ef8a915ce",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what dietary restrictions did the user have before their dietary needs changed?",
+    "gold_answer": "You know I have to avoid all soy and gluten, so I need to make sure those filters are applied permanently.",
+    "m_new": "For the office potluck next week, I’m bringing my grandma’s wheat-berry salad and a miso-ginger dressing—can you remind me to pick up the ingredients on Friday?",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what dietary restrictions did the user have before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what dietary restrictions did the user have before their dietary needs changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

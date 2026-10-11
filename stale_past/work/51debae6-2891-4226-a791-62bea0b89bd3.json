@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "51debae6-2891-4226-a791-62bea0b89bd3",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's reason for keeping their phone before the recent change to their setup?",
+    "gold_answer": "I'm keeping this phone since my other devices only sync reliably within this brand.",
+    "m_new": "Had to swing by the IT desk this morning—turns out my calendar, notes, and photos are all living in that new cross‑platform setup now, so I can just sign in from whatever I’m using and everything shows up the same.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They kept it because their backups, photos, and messages synced reliably with their other devices in that brand’s ecosystem.",
+    "lc_reasoning": "The user kept the phone because it synced reliably with their other devices in the same brand ecosystem."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's reason for keeping their phone before the recent change to their setup?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user kept the phone because it synced reliably with their other devices in the same brand ecosystem.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

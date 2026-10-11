@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ac57aa59-0ba1-434d-9f9e-5f6cd6536f56",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's social circle like before their recent change in social habits?",
+    "gold_answer": "I tend to keep a small, consistent group of close friends rather than branching out often.",
+    "m_new": "Ever since I started hosting those monthly game nights, my weekends have turned into a rotating mix of people—I’m constantly meeting new folks and bouncing between different groups.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user preferred a small, consistent circle of close friends and didn’t often branch out to meet new people.",
+    "lc_reasoning": "The response correctly describes the user's earlier social circle as small and consistent, with little branching out to meet new people."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's social circle like before their recent change in social habits?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier social circle as small and consistent, with little branching out to meet new people.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

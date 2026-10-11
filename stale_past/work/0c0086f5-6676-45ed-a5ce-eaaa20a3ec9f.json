@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "0c0086f5-6676-45ed-a5ce-eaaa20a3ec9f",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what hours did the user generally reserve for deep focus work before the recent change?",
+    "gold_answer": "I generally keep the hours between eight and eleven in the morning reserved for deep focus work.",
+    "m_new": "Lately I’ve been doing my concentrated work in the late afternoon, usually from about 2 to 5, so I tend to be hard to reach then.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user generally reserved **8:00–11:00 a.m.** for deep-focus work.",
+    "lc_reasoning": "The response correctly identifies the earlier deep-focus hours as 8:00–11:00 a.m."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what hours did the user generally reserve for deep focus work before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier deep-focus hours as 8:00–11:00 a.m.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

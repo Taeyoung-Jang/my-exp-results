@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "27a52329-52de-41b3-8063-893c484c5803",
+    "type": "T2",
+    "past_query": "Based on the conversation history, how were household chores divided between the user and their spouse before the recent change in circumstances?",
+    "gold_answer": "We've settled into a rhythm where I'm responsible for all the cooking and grocery shopping, and my spouse handles the laundry and vacuuming.",
+    "m_new": "Ever since my evening shift started, I’ve been living off whatever I can throw together at work—mostly salads and soup from the café line—because I’m barely home long enough to do more than shower and crash.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user handled all the cooking and grocery shopping, while their spouse handled the laundry and vacuuming.",
+    "lc_reasoning": "The response correctly describes the earlier arrangement: the user handled all cooking and grocery shopping, and the spouse handled laundry and vacuuming."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how were household chores divided between the user and their spouse before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier arrangement: the user handled all cooking and grocery shopping, and the spouse handled laundry and vacuuming.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

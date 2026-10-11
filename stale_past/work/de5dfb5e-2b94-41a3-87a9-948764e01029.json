@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "de5dfb5e-2b94-41a3-87a9-948764e01029",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's free-time pattern before their schedule changed?",
+    "gold_answer": "I never seem to get a solid chunk of free time; it's always just bits and pieces.",
+    "m_new": "Ever since my schedule shifted, I’ve been getting a reliable two-hour stretch to myself most evenings, and it’s been nice actually settling into one thing.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the schedule change, the user’s free time was mostly unpredictable and fragmented into 5–20-minute gaps, rather than a reliable uninterrupted block.",
+    "lc_reasoning": "The response correctly describes the user's earlier free time as fragmented into short gaps rather than a solid, reliable block. The specific 5–20-minute duration is extra detail, but it does not change the core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's free-time pattern before their schedule changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier free time as fragmented into short gaps rather than a solid, reliable block. The specific 5–20-minute duration is extra detail, but it does not change the core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

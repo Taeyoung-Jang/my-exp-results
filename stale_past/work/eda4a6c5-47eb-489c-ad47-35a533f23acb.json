@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "eda4a6c5-47eb-489c-ad47-35a533f23acb",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's exercise routine before the injury?",
+    "gold_answer": "I've kept up a routine of jogging five kilometers every other day for quite some time now.",
+    "m_new": "I’m still getting used to this walking boot—turns out a hairline fracture doesn’t care that I was just stepping off a curb. The orthopedist told me to keep weight off it for a while, so I’ve been mapping out how to get through the day without taking the stairs.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the injury, the user had been jogging 5 kilometers every other day for quite some time.",
+    "lc_reasoning": "It correctly identifies the user's pre-injury routine as jogging five kilometers every other day for quite some time."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's exercise routine before the injury?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies the user's pre-injury routine as jogging five kilometers every other day for quite some time.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

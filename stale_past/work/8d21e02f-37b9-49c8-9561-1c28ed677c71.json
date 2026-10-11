@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "8d21e02f-37b9-49c8-9561-1c28ed677c71",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what phase of their cycle did the user say they were in before the recent update?",
+    "gold_answer": "I'm currently in the luteal phase of my cycle, so I'm expecting my energy levels to be lower than usual for the next week.",
+    "m_new": "I had my baseline ultrasound this morning, and the nurse casually mentioned the lining was still thin and the follicles were just starting to wake up—so they told me to come back in two days for another scan before they’ll even think about scheduling anything.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They said they were in the luteal phase.",
+    "lc_reasoning": "Before the recent update, the user said they were in the luteal phase of their cycle."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what phase of their cycle did the user say they were in before the recent update?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent update, the user said they were in the luteal phase of their cycle.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

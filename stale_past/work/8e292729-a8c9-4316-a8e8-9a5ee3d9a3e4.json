@@ -1,0 +1,47 @@
+{
+  "record": {
+    "uid": "8e292729-a8c9-4316-a8e8-9a5ee3d9a3e4",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what time zone was the user in before the recent move?",
+    "gold_answer": "Just a heads up, I'm on Pacific Time, so my local clock is running three hours behind yours.",
+    "m_new": "I’m finally unpacked in my new place—had to swing by the RMV this morning to swap my driver’s license over and grab a CharlieCard before the next nor’easter hits.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's time zone before the recent move?\"}"
+        ],
+        "rule_hits": [
+          "old:Time"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what time zone was the user in before the recent move?\"}"
+        ],
+        "rule_hits": [
+          "old:Time"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

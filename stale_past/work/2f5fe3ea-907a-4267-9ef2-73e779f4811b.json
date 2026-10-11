@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "2f5fe3ea-907a-4267-9ef2-73e779f4811b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what did the user rely on for daily access to their data before the recent change?",
+    "gold_answer": "I've set up all my devices to work within this specific ecosystem, so I depend on their sync tools for daily access.",
+    "m_new": "I spent last weekend turning my old mini‑PC into a little home server—everything important now lives in a plain folder structure with nightly backups, and I just pull it up through a browser when I need it.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They relied on a browser on their local network to access files stored in a plain folder structure on their always-on mini-PC.",
+    "lc_reasoning": "Before the recent change, the user relied on their ecosystem’s sync tools for daily access to their data. The response instead describes the later home-server setup."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user rely on for daily access to their data before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user relied on their ecosystem’s sync tools for daily access to their data. The response instead describes the later home-server setup.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "4bb62dbf-550b-49b0-8b69-9617f8180ad1",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to cooking before their recent change in routine?",
+    "gold_answer": "I've never been one to follow recipes exactly; I'm comfortable with the meal not turning out perfectly if it means I learn something new.",
+    "m_new": "I’ve started batch-cooking on Sundays and labeling everything down to the minute, because if dinner isn’t predictable on weeknights the whole schedule falls apart.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before starting the structured Sunday batch-cooking routine, the user cooked experimentally rather than following recipes exactly. They were comfortable with meals turning out imperfectly if they learned something from the process.",
+    "lc_reasoning": "The response accurately describes the user's earlier experimental approach to cooking and comfort with imperfect results, before the recent structured batch-cooking routine."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to following recipes before their cooking habits changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to cooking before their recent change in routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the user's earlier experimental approach to cooking and comfort with imperfect results, before the recent structured batch-cooking routine.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

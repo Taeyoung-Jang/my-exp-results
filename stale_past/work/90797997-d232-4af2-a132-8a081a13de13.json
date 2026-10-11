@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "90797997-d232-4af2-a132-8a081a13de13",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's caregiving situation before their circumstances changed?",
+    "gold_answer": "My life is essentially on hold until my daughter is older because I'm the only one available to care for her.",
+    "m_new": "Since my schedule has opened up a lot lately, I’ve started signing up for weekend workshops and even penciled in a two-week trip this fall without having to coordinate anything complicated.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were the only person available to care for their daughter full-time, so they felt unable to make much progress on longer-term plans until she was older.",
+    "lc_reasoning": "The response correctly describes the earlier situation: the user was the only person available to care for their daughter and felt unable to make much progress on longer-term plans until she was older."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's caregiving situation before their circumstances changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier situation: the user was the only person available to care for their daughter and felt unable to make much progress on longer-term plans until she was older.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

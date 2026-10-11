@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4ed6936e-58e4-40c9-83e7-743bb7ff7bbb",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was taking up most of the user's attention before their recent change in focus?",
+    "gold_answer": "Right now, the majority of my attention is tied up in finalizing the plans for the neighborhood clean-up.",
+    "m_new": "All my time this week is going into keeping my newborn on a steady feeding-and-nap schedule and catching sleep whenever I can between diaper changes.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Finalizing plans for the neighborhood clean-up was taking up most of the user’s attention.",
+    "lc_reasoning": "Before the change in focus, most of the user's attention was tied up in finalizing plans for the neighborhood clean-up."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was taking up most of the user's attention before their recent change in focus?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the change in focus, most of the user's attention was tied up in finalizing plans for the neighborhood clean-up.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

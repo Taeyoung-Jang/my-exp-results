@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a0ecb191-6305-43e0-b900-39bae2bfc420",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's daytime noise situation before the recent move?",
+    "gold_answer": "It tends to get really loud around here during the day.",
+    "m_new": "After the move, the weirdest adjustment has been waking up to actual birdsong—my new place backs onto a small courtyard instead of a street, and the building manager is strict about keeping deliveries and dumpsters on the far side.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the move, the user worked at a laptop in a shared space that got very loud during the day, making calls difficult because the laptop mic picked up background noise and the noise distracted them.",
+    "lc_reasoning": "It correctly describes the earlier situation as very loud during the day. The added details about a shared space and laptop calls are not established by the history, but they do not change the core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's daytime noise situation before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier situation as very loud during the day. The added details about a shared space and laptop calls are not established by the history, but they do not change the core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

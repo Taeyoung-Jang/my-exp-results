@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "af880933-e948-4965-b148-bdc6eeb46dee",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what altitude was the user living at before the recent change in their daily routine?",
+    "gold_answer": "I’ve had to calibrate the pressure sensors again this morning because living at 3,800 meters always seems to affect the sensitivity of the readings over time.",
+    "m_new": "I’ve started timing my morning runs with the low tide; the wet, packed sand is so much better for my joints, even if the ocean breeze leaves a constant film of salt on my glasses.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was living at 3,800 meters.",
+    "lc_reasoning": "The response gives the earlier altitude of 3,800 meters, as requested."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what altitude was the user living at before the recent change in their daily routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response gives the earlier altitude of 3,800 meters, as requested.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

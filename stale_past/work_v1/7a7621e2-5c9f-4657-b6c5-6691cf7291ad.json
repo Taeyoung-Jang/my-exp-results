@@ -1,0 +1,45 @@
+{
+  "record": {
+    "uid": "7a7621e2-5c9f-4657-b6c5-6691cf7291ad",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's coat situation before the recent change?",
+    "gold_answer": "I still have that heavy wool coat stored in my wardrobe.",
+    "m_new": "I dropped off my last winter coat at the donation center this morning while clearing out my closet.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before donating it, the user had a heavy wool coat stored in their wardrobe that they wore only a few times each winter. It was their last winter coat before the donation.",
+    "lc_reasoning": "It correctly identifies the earlier state: the user had a heavy wool coat stored in their wardrobe before donating their last winter coat. The added detail about how often they wore it is unsupported, but the response still describes the requested earlier coat situation."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's clothing-ownership status before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's coat situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies the earlier state: the user had a heavy wool coat stored in their wardrobe before donating their last winter coat. The added detail about how often they wore it is unsupported, but the response still describes the requested earlier coat situation.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

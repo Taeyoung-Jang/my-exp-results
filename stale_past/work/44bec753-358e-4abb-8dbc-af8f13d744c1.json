@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "44bec753-358e-4abb-8dbc-af8f13d744c1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the committee's view of the user's ability to handle vendor negotiations before the recent change in circumstances?",
+    "gold_answer": "Honestly, since I've run the last five drives, the committee just assumes I can handle vendor negotiations without oversight.",
+    "m_new": "I’m still finding glitter in my laptop bag from the gala—apparently I sent the caterer the *draft* headcount instead of the final one, so they rolled in with half the vegetarian plates and an extra ice sculpture nobody ordered.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the committee's assumption about the user's ability to handle vendor negotiations before the recent incident?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the committee's view of the user's ability to handle vendor negotiations before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

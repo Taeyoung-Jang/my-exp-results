@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "db3bc3c5-7f57-4373-8443-dee2ec8b463d",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to preparing meals before their routine changed?",
+    "gold_answer": "I make it a point to avoid pre-made sauces because I value the process of building the dish myself.",
+    "m_new": "Since I started getting home later, I’ve been leaning hard on ready-to-heat dinners from the deli section and just plating them with a quick side so I can eat without spending time cooking.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before their routine changed, the user was more focused on cooking from scratch—building dishes and sauces themselves rather than relying on premade sauces.",
+    "lc_reasoning": "The response correctly describes the user's earlier approach: cooking from scratch and making sauces themselves rather than using premade sauces."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to preparing meals before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier approach: cooking from scratch and making sauces themselves rather than using premade sauces.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "3c093c53-7834-429a-8295-24d1b6177785",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's typical recovery time after a heavy day of landscaping before their recovery resilience improved?",
+    "gold_answer": "I know my body well enough now to say that after a heavy day of landscaping, I need a full forty-eight hours before I'm ready to do it again.",
+    "m_new": "After yesterday’s long shift moving boxes and hauling equipment, I was surprised how normal I felt this morning—I’m basically back to full strength after a single night’s sleep now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They typically needed a full 48 hours to recover after a heavy day of landscaping.",
+    "lc_reasoning": "The response identifies the earlier recovery time as a full 48 hours after a heavy day of landscaping, which answers the question."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical recovery time after a heavy day of landscaping before their recovery resilience improved?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response identifies the earlier recovery time as a full 48 hours after a heavy day of landscaping, which answers the question.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

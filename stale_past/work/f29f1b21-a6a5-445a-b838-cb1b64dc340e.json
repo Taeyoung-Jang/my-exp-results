@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "f29f1b21-a6a5-445a-b838-cb1b64dc340e",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's wearable-device ownership situation before the recent change in circumstances?",
+    "gold_answer": "I actually own a pair of smart glasses with the tinted lenses.",
+    "m_new": "I finally finished the bankruptcy paperwork this week—my attorney had me list every gadget with a resale value, then a guy from the trustee’s office came by and tagged the ones they’re taking to auction.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The user owned a pair of tinted-lens smart glasses and had recently bought a Samsung smartwatch. They were considering a fitness tracker, but hadn’t said they owned one.",
+    "lc_reasoning": "The response correctly says the user owned tinted-lens smart glasses, but it adds unsupported claims about a Samsung smartwatch and a fitness tracker. The provided earlier state only establishes ownership of the smart glasses."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's wearable-device ownership situation before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly says the user owned tinted-lens smart glasses, but it adds unsupported claims about a Samsung smartwatch and a fitness tracker. The provided earlier state only establishes ownership of the smart glasses.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

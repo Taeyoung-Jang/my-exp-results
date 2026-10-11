@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "85ee1281-cede-499d-b7ce-0de51a68fb16",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what had the user been deeply focused on learning before the recent change in circumstances?",
+    "gold_answer": "For the last few months, I've been deeply focused on learning audio engineering and mixing techniques.",
+    "m_new": "Since the promotion went through, my evenings have been swallowed by onboarding calls and a stack of compliance modules—half the time I’m still answering Slack pings after midnight, and my weekends have turned into catch‑up days instead of anything elective.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had been deeply focused on learning audio engineering and mixing techniques.",
+    "lc_reasoning": "The response correctly identifies the user's earlier focus as learning audio engineering and mixing techniques."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what had the user been deeply focused on learning before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier focus as learning audio engineering and mixing techniques.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "34d402c0-5fa1-42b5-8554-e44c9c397a71",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the weather like for the user before the recent change?",
+    "gold_answer": "It's been unusually cold for this time of year.",
+    "m_new": "We’re under an excessive heat warning this week, and even overnight it’s been staying in the upper 80s with the AC running nonstop.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent heat, the user had described unusually cold, dark weather for that time of year.",
+    "lc_reasoning": "It identifies the earlier weather as unusually cold, which matches the conversation. The added description of it as dark is unsupported but does not change the core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the weather like for the user before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It identifies the earlier weather as unusually cold, which matches the conversation. The added description of it as dark is unsupported but does not change the core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

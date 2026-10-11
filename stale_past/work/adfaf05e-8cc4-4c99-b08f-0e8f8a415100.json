@@ -1,0 +1,51 @@
+{
+  "record": {
+    "uid": "adfaf05e-8cc4-4c99-b08f-0e8f8a415100",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's membership status in the National Photography Society before their recent change in priorities?",
+    "gold_answer": "Just for your records, I'm still an active member of the National Photography Society.",
+    "m_new": "I’m trying to keep things simple this year—I've been letting most of my hobby subscriptions lapse and sticking to free local meetups instead.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's membership status in the National Photography Society before their recent shift in priorities?\"}"
+        ],
+        "rule_hits": [
+          "old:National",
+          "old:Photography",
+          "old:Society"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's membership status in the National Photography Society before their recent change in priorities?\"}"
+        ],
+        "rule_hits": [
+          "old:National",
+          "old:Photography",
+          "old:Society"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

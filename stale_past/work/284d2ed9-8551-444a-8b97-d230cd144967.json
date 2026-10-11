@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "284d2ed9-8551-444a-8b97-d230cd144967",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to location permissions before the recent change?",
+    "gold_answer": "I keep my location services turned off for most apps by default.",
+    "m_new": "I’ve been letting my phone share my location in the background so my commute and nearby recommendations update automatically without me having to type anything in.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They kept Location Services turned off for most apps by default, granting access only to a few they relied on, such as Maps, rideshare, and weather apps.",
+    "lc_reasoning": "It correctly describes the earlier approach: Location Services were turned off for most apps by default. The extra examples are not stated in the history, but the central answer is correct."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to location permissions before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier approach: Location Services were turned off for most apps by default. The extra examples are not stated in the history, but the central answer is correct.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

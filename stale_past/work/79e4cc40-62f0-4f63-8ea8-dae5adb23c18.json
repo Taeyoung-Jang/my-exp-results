@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "79e4cc40-62f0-4f63-8ea8-dae5adb23c18",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's general preference for social gatherings before their recent change in perspective?",
+    "gold_answer": "I've made it a rule to decline invitations to crowded parties because I simply prefer the atmosphere of smaller get-togethers.",
+    "m_new": "I’ve been really enjoying the big street festivals around here lately—being in the middle of a lively crowd actually feels energizing to me now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before their perspective changed, the user preferred smaller, low-key gatherings and generally declined crowded parties because the fast pace and extended small talk felt draining.",
+    "lc_reasoning": "The response correctly describes the user's earlier preference for smaller gatherings and declining crowded parties, though its explanation about fast pace and small talk is not stated in the history."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's general preference for social gatherings before their recent change in perspective?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier preference for smaller gatherings and declining crowded parties, though its explanation about fast pace and small talk is not stated in the history.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

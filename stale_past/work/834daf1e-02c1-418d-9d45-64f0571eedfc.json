@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "834daf1e-02c1-418d-9d45-64f0571eedfc",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual socializing frequency before the recent move?",
+    "gold_answer": "I usually just meet up with people about twice a month; anything more than that feels like too much.",
+    "m_new": "Since I moved closer to downtown, I’ve gotten into the habit of grabbing coffee or dinner with someone a couple times a week, plus I’m usually out doing something social most weekends.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before moving, the user usually met up with people about twice a month.",
+    "lc_reasoning": "The response correctly identifies the earlier socializing frequency as about twice a month, before the move."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual socializing frequency before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier socializing frequency as about twice a month, before the move.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

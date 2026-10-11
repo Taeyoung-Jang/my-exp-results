@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "707a6818-c149-42aa-bc88-8b1c285f7ccd",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what vehicle was the user driving before the recent vehicle update?",
+    "gold_answer": "I'm still driving the 2019 Honda CR-V I bought brand new.",
+    "m_new": "I’m setting up my toll tag account, and it asks for the vehicle info—make it my 2024 Subaru Outback.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were driving a 2019 Honda CR‑V.",
+    "lc_reasoning": "The response identifies the earlier vehicle, a 2019 Honda CR-V, rather than the updated 2024 Subaru Outback."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what vehicle was the user driving before the recent vehicle update?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response identifies the earlier vehicle, a 2019 Honda CR-V, rather than the updated 2024 Subaru Outback.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

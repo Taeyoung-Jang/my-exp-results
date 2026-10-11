@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "32e539a6-a38c-48fc-bf46-e740cd4d96db",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's marital status before the recent change?",
+    "gold_answer": "I’m currently looking at a few rentals in the Blue Ridge Mountains, but I’ll need to coordinate with my wife to see which weekend aligns best with her firm's project deadlines before I book anything.",
+    "m_new": "I finally let my buddy set up a Bumble profile for me last night; trying to figure out how dating apps work as a single guy in his forties is honestly pretty overwhelming.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had described himself as married, mentioning his wife while coordinating cabin-trip dates. Later, he described himself as single.",
+    "lc_reasoning": "The response correctly identifies the user's earlier marital status as married, based on his mention of coordinating with his wife. It also notes the later change to single."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's marital status before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier marital status as married, based on his mention of coordinating with his wife. It also notes the later change to single.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

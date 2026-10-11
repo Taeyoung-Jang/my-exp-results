@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d3c59ab0-2a83-4bb0-bd96-6c84f13356c2",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the makeup of the user's daily coordination network before the recent change?",
+    "gold_answer": "Most of the people I coordinate with daily have been in this department since I was hired.",
+    "m_new": "I’m still getting used to the new org chart—HR had me sign a transfer packet last week, and now my calendar’s full of onboarding sessions and mandatory training for the role.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the reorg, the user’s daily coordination network was mostly people who had been in the department since the user was hired. They had established routines and shared history, while the user sometimes felt out of the loop.",
+    "lc_reasoning": "It correctly describes the earlier daily coordination network as mostly people who had been in the department since the user was hired. The added details do not change that core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the makeup of the user's daily coordination network before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier daily coordination network as mostly people who had been in the department since the user was hired. The added details do not change that core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

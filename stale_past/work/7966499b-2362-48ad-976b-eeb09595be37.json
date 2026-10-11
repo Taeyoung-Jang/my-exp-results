@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7966499b-2362-48ad-976b-eeb09595be37",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's elevation before the recent move?",
+    "gold_answer": "I'm settled in the coastal lowlands, so I'm consistently at sea level.",
+    "m_new": "Ever since I moved up to this mountain town, I’ve had to take it easy on hikes because the thin air hits me pretty fast.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before moving to the mountain town, the user said they were at sea level in the coastal lowlands.",
+    "lc_reasoning": "The response correctly identifies the user's elevation before moving as sea level in the coastal lowlands."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's elevation before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's elevation before moving as sea level in the coastal lowlands.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

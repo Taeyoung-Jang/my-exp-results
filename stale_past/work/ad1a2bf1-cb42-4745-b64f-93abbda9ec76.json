@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ad1a2bf1-cb42-4745-b64f-93abbda9ec76",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what physical symptoms did the user experience when their schedule became too demanding, and what did they need to do about their daily commitments before the recent change in their routine?",
+    "gold_answer": "I tend to experience noticeable shaking and shortness of breath when my schedule gets too crowded, so I need to limit my daily commitments.",
+    "m_new": "Funny how life changes—since I took the overnight concierge gig at the hotel, my days are basically a patchwork of back‑to‑back handoffs: I clock out at seven, swing by a morning class, cover a midday shift for my cousin’s shop, then I’m usually on a late committee call before I nap and do it all again.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They experienced noticeable shaking and shortness of breath when their schedule became too crowded. They needed to limit their daily commitments by setting a firm cap on tasks or scheduled hours.",
+    "lc_reasoning": "The response identifies the earlier symptoms as noticeable shaking and shortness of breath, and says the user needed to limit daily commitments. The added suggestion of setting a cap is consistent with that earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what physical symptoms did the user experience when their schedule became too demanding, and what did they need to do about their daily commitments before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response identifies the earlier symptoms as noticeable shaking and shortness of breath, and says the user needed to limit daily commitments. The added suggestion of setting a cap is consistent with that earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

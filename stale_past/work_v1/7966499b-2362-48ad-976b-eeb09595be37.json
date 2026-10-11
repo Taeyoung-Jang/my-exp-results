@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "7966499b-2362-48ad-976b-eeb09595be37",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's elevation before the recent move?",
+    "gold_answer": "I'm settled in the coastal lowlands, so I'm consistently at sea level.",
+    "m_new": "Ever since I moved up to this mountain town, I’ve had to take it easy on hikes because the thin air hits me pretty fast.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before moving to the mountain town, the user was at sea level in the coastal lowlands.",
+    "lc_reasoning": "The user said they were settled in the coastal lowlands and consistently at sea level before moving to the mountain town."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's elevation before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The user said they were settled in the coastal lowlands and consistently at sea level before moving to the mountain town.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

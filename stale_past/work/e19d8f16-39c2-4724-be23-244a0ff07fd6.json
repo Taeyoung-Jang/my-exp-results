@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e19d8f16-39c2-4724-be23-244a0ff07fd6",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual bedtime before their routine changed?",
+    "gold_answer": "These days, I generally aim to be asleep by 10 PM on most nights.",
+    "m_new": "Since I started training for that early-morning swim class, I’ve been turning in around 8:30 most nights so I can get enough rest.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They generally aimed to be asleep by 10 PM.",
+    "lc_reasoning": "The user’s earlier usual bedtime was around 10 PM, before the routine changed to turning in around 8:30 PM."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual bedtime before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user’s earlier usual bedtime was around 10 PM, before the routine changed to turning in around 8:30 PM.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

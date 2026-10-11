@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a96178b7-620b-4598-9509-4a099d457e28",
+    "type": "T2",
+    "past_query": "Based on the conversation history, how much of the highway noise reached the window before the recent changes to the outdoor surroundings?",
+    "gold_answer": "The background hum from the highway never really makes it past the garden to this window.",
+    "m_new": "I finally got around to clearing the back fence line this weekend—took out the overgrown hedge and the old lattice that had been half-collapsed for years. The garden looks bigger now, but it feels oddly exposed, like there’s nothing back there to catch anything anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Only a faint, steady hum reached the window— it wasn’t loud, but was noticeable on quiet days.",
+    "lc_reasoning": "The earlier statement describes the highway noise as a background hum that barely made it to the window. Calling it faint and not loud captures that earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how much of the highway noise reached the window before the recent changes to the outdoor surroundings?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier statement describes the highway noise as a background hum that barely made it to the window. Calling it faint and not loud captures that earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "1d2d6781-9a41-4f96-8b33-cafbaba47f15",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's morning phone-use habit before it changed?",
+    "gold_answer": "I've got a habit of not touching my phone until after breakfast.",
+    "m_new": "Lately I’ve been checking my messages as soon as I wake up, before I even head to the kitchen.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before changing it, the user avoided their phone until after breakfast.",
+    "lc_reasoning": "The response correctly states that the user avoided their phone until after breakfast before the habit changed."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's morning phone-use habit before it changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states that the user avoided their phone until after breakfast before the habit changed.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

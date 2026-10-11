@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "19bb9fc3-a962-4055-bf8f-e3b194fcf7d3",
+    "type": "T2",
+    "past_query": "Based on the conversation history, how often did the user usually meet up with friends before the recent change?",
+    "gold_answer": "I make it a habit to meet up with my friends about once a week, usually to catch up on things.",
+    "m_new": "I finally signed the papers for that night-shift position—three twelve-hour overnights in a row, and then I spend the off-days just trying to get my sleep back on track.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user usually met up with friends about once a week.",
+    "lc_reasoning": "The response correctly states that before the recent change, the user usually met up with friends about once a week."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how often did the user usually meet up with friends before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states that before the recent change, the user usually met up with friends about once a week.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

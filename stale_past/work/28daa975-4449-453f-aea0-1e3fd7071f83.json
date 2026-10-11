@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "28daa975-4449-453f-aea0-1e3fd7071f83",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's driving-based commute limit before the recent change?",
+    "gold_answer": "I've set a hard limit on my daily travel, so I'm only looking at places within a forty-minute drive of work, since the traffic out here gets rough past that point.",
+    "m_new": "Ever since the neurologist put me on that new seizure medication, the DMV flagged my license as temporarily suspended—I’m juggling rides and delivery drop-offs until the paperwork clears.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s driving commute limit was 40 minutes.",
+    "lc_reasoning": "The earlier state set a hard limit of a forty-minute drive to work. The later change affects the user's current driving situation, but the question asks for the earlier commute limit."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's driving-based commute limit before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state set a hard limit of a forty-minute drive to work. The later change affects the user's current driving situation, but the question asks for the earlier commute limit.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

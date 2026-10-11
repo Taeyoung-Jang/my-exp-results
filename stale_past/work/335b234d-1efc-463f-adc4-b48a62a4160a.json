@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "335b234d-1efc-463f-adc4-b48a62a4160a",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to foundational cooking aromatics before their recent dietary change?",
+    "gold_answer": "I make sure there's always fresh garlic around; honestly, a meal just feels incomplete to me without that savory base.",
+    "m_new": "Since I started observing Jain dietary rules, I’ve been planning my dinners around vegetables and spices that don’t involve any underground-grown ingredients.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before adopting Jain rules, the user relied on fresh garlic as an essential savory base, adding it after the onions softened, then blooming spices briefly and deglazing the pan.",
+    "lc_reasoning": "It correctly identifies fresh garlic as the user's essential savory base before the dietary change. The added cooking steps are unsupported by the history, but they do not change the earlier-state answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to foundational cooking aromatics before their recent dietary change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly identifies fresh garlic as the user's essential savory base before the dietary change. The added cooking steps are unsupported by the history, but they do not change the earlier-state answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

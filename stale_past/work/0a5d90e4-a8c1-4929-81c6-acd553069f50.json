@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "0a5d90e4-a8c1-4929-81c6-acd553069f50",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual approach to scheduling recurring engagements before their routine changed?",
+    "gold_answer": "I've found it works best if I keep my weeknights completely open, so I only schedule recurring engagements for Saturday or Sunday.",
+    "m_new": "I’m still getting used to the night shift at the bakery—by the time I’m done cleaning up and locking the place, it’s basically morning, so I’ve started sleeping through most of the day.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They preferred to keep weeknights completely open and schedule recurring social plans only on Saturday or Sunday, leaving the rest of the week flexible.",
+    "lc_reasoning": "The response correctly describes the user's earlier approach: keeping weeknights open and scheduling recurring engagements only on Saturday or Sunday."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual pattern for scheduling recurring engagements before the recent change to their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual approach to scheduling recurring engagements before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier approach: keeping weeknights open and scheduling recurring engagements only on Saturday or Sunday.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

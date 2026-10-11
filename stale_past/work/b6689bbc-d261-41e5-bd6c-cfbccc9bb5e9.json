@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "b6689bbc-d261-41e5-bd6c-cfbccc9bb5e9",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's indoor-outdoor routine like before the recent change?",
+    "gold_answer": "My routine keeps me indoors most days, so I'm not often outside.",
+    "m_new": "Ever since I took over the morning dog-walking route, I’m on my feet along the neighborhood sidewalks for hours every day before lunch.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before taking over the morning dog-walking route, the user was indoors most days and rarely got outside, with only a few short breaks available.",
+    "lc_reasoning": "The response correctly describes the earlier routine as being indoors most days and rarely outside. The added mention of a few short breaks is unsupported, but does not change the core description."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's indoor-outdoor routine like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier routine as being indoors most days and rarely outside. The added mention of a few short breaks is unsupported, but does not change the core description.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "record": {
+    "uid": "05fc9783-f06c-453f-8899-15253d63533a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's routine at the start of their shift before the recent change?",
+    "gold_answer": "I save the first hour of my shift for safety compliance checks since that's when I can actually focus.",
+    "m_new": "Ever since they moved me onto the rotating on-call schedule, my phone starts lighting up the second I badge in—half the time I’m already triaging issues before I’ve even set my bag down.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's first-hour routine at work before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's routine at the start of their shift before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

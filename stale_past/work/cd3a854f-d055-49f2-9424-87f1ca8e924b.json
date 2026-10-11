@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "cd3a854f-d055-49f2-9424-87f1ca8e924b",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's main financial priority before the recent change in their financial situation?",
+    "gold_answer": "My main priority right now is clearing the remaining balance on the business loan before I reinvest any profits.",
+    "m_new": "I just signed a 48‑month lease on a new car, so that fixed monthly payment is now the first thing I cover every payday before I put money anywhere else.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Their main financial priority was paying off the remaining balance on the business loan before reinvesting profits.",
+    "lc_reasoning": "The response correctly identifies the user's earlier priority: paying off the remaining business loan balance before reinvesting profits."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main financial priority before the recent change in their financial situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier priority: paying off the remaining business loan balance before reinvesting profits.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

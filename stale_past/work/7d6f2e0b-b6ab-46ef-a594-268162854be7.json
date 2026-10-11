@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7d6f2e0b-b6ab-46ef-a594-268162854be7",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's religious affiliation before the recent change?",
+    "gold_answer": "I'm Anglican, so attending services is a consistent part of my routine.",
+    "m_new": "Last month I completed my conversion and was formally received into the Catholic Church, so I’ve been getting used to the new rhythm of parish life.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was Anglican before converting to Catholicism.",
+    "lc_reasoning": "The user was Anglican before recently converting to Catholicism."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's religious affiliation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user was Anglican before recently converting to Catholicism.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "84d0bb8e-5f94-4a47-9f2f-378d92f1cf56",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's attitude toward interpreting minor bodily sensations before the recent change?",
+    "gold_answer": "I've gotten to a point where I trust my body enough that I don't second-guess every little pain anymore.",
+    "m_new": "At the grocery store today, I caught myself pausing at the end of each aisle to do a quick scan of my joints and breathing before deciding whether to keep going or head to checkout.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent shift toward using routine errands as check-ins, the user said they trusted their body and no longer second-guessed every minor pain. They wanted a simple guide for moments of uncertainty, but not to monitor or analyze every sensation.",
+    "lc_reasoning": "It correctly describes the earlier state: the user trusted their body and no longer second-guessed every minor pain."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's level of trust in their body's signals before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's attitude toward interpreting minor bodily sensations before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier state: the user trusted their body and no longer second-guessed every minor pain.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

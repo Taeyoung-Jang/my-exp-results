@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "830a2e06-981f-411c-bef0-99ec4190fbfa",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's neighborhood's elevation relative to sea level before the recent move?",
+    "gold_answer": "I live in a neighborhood where the ground elevation is technically below sea level.",
+    "m_new": "I’ve been getting used to the new place—yesterday the mail carrier joked that the thin air is why everyone’s kettles take forever, and I had to look up why water boils at a lower temperature here.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s previous neighborhood was technically below sea level.",
+    "lc_reasoning": "The response correctly identifies the earlier neighborhood as technically below sea level, rather than confusing it with the user's new, higher-elevation home."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's neighborhood's elevation relative to sea level before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier neighborhood as technically below sea level, rather than confusing it with the user's new, higher-elevation home.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

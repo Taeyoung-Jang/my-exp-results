@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "872d8b8c-24f3-4472-a6e3-a7e42d04ff40",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the duration of the user's morning mindfulness practice before their routine changed?",
+    "gold_answer": "I make sure to spend twenty minutes on mindfulness practice every morning before I begin my first task.",
+    "m_new": "Ever since I became a parent, the only quiet time I can count on is the two minutes while the bottle warms up, so I use that tiny window to reset before the chaos starts.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s morning mindfulness practice was 20 minutes.",
+    "lc_reasoning": "The response correctly gives the earlier morning mindfulness duration as 20 minutes."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the duration of the user's morning mindfulness practice before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly gives the earlier morning mindfulness duration as 20 minutes.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "bedf3942-456f-443e-8d28-c04d8414e12a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was taking up most of the user's energy before her recent change in employment?",
+    "gold_answer": "Most of my energy this week is going toward setting up the dissection labs for the sophomores.",
+    "m_new": "I spent my lunch break today going over the HR packet and signing the last of the exit paperwork—turns out you have to return keys and badge before they’ll even process the final paycheck.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Setting up the dissection labs for the sophomores was taking up most of the user’s energy.",
+    "lc_reasoning": "The response correctly identifies setting up the dissection labs for the sophomores as what was taking up most of the user's energy before the employment change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was taking up most of the user's energy before her recent change in employment?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies setting up the dissection labs for the sophomores as what was taking up most of the user's energy before the employment change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

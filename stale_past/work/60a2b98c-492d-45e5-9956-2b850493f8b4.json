@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "60a2b98c-492d-45e5-9956-2b850493f8b4",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's religious identity before the recent change?",
+    "gold_answer": "I'm a Sunni Muslim, and honestly, that faith is central to who I am.",
+    "m_new": "I spent most of last year going through the RCIA classes at St. Brigid’s—Wednesday nights in the parish hall, coffee that tasted like burnt toast, and a lot of quiet journaling afterward. It was strange how much I needed the structure.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user identified as a Sunni Muslim.",
+    "lc_reasoning": "The conversation explicitly states that before the recent change, the user identified as a Sunni Muslim."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's religious identity before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The conversation explicitly states that before the recent change, the user identified as a Sunni Muslim.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

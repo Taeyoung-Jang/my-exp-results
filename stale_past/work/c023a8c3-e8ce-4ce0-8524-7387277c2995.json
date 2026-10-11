@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "c023a8c3-e8ce-4ce0-8524-7387277c2995",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the status of the user's car-related monthly payments before their financial situation changed?",
+    "gold_answer": "I'm still paying off the auto loan from when I bought my car, so I need to keep my monthly budget tight until that balance is lower.",
+    "m_new": "I’m setting up automatic transfers into a brokerage account each month now that my only regular payments are the usual utilities and subscriptions.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before their finances changed, the user was still paying off the car loan: **$410/month**. They also budgeted about **$155 for insurance, $130 for gas, and $60 for maintenance**—roughly **$755/month in car-related costs** altogether.",
+    "lc_reasoning": "It correctly says the user was still paying off the car loan, but the stated monthly amounts and total car costs are not supported by the conversation history."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's situation with their car payments and monthly budget before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the status of the user's car-related monthly payments before their financial situation changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly says the user was still paying off the car loan, but the stated monthly amounts and total car costs are not supported by the conversation history.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

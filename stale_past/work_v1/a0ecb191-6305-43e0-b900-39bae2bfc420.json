@@ -1,0 +1,42 @@
+{
+  "record": {
+    "uid": "a0ecb191-6305-43e0-b900-39bae2bfc420",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's daytime noise environment like before the recent move?",
+    "gold_answer": "It tends to get really loud around here during the day.",
+    "m_new": "After the move, the weirdest adjustment has been waking up to actual birdsong—my new place backs onto a small courtyard instead of a street, and the building manager is strict about keeping deliveries and dumpsters on the far side.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the daytime noise level like where the user lived before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's daytime noise environment like before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "status": "leak_fail"
+  }
+}

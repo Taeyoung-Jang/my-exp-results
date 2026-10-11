@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "0bd9381a-6163-41bd-b500-74d147a98f19",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's social routine before the recent change in their schedule?",
+    "gold_answer": "Honestly, I've kept the same circle of friends for over ten years now, and we still make sure to hang out at least once a month.",
+    "m_new": "Since the residency match, my weeks have turned into a string of 28-hour calls and crash-sleep in the on-call room; I keep a spare toothbrush in my locker and my social life is mostly whoever’s on the same service grabbing a ten-minute coffee between pages.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before residency match changed their schedule, the user said they’d kept the same circle of friends for over ten years and made a point of meeting at least once a month. Their current social time is mostly brief coffees with whoever is on the same service.",
+    "lc_reasoning": "The response correctly describes the earlier routine: keeping the same friends for over ten years and meeting at least monthly. It also notes the current change, which is allowed."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's social routine before the recent change in their schedule?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier routine: keeping the same friends for over ten years and meeting at least monthly. It also notes the current change, which is allowed.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

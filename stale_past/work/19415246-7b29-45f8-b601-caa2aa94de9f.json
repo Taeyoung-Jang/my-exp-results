@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "19415246-7b29-45f8-b601-caa2aa94de9f",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what did the user have in their collection before the recent change?",
+    "gold_answer": "I actually have a fairly large collection of vintage Andean wool ponchos.",
+    "m_new": "I finally finished clearing out my storage unit and closed the account—everything I wasn’t actively using is gone now, so I’m only keeping a small set of everyday essentials at home.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before receiving the Alaska postcard, they had postcards from the other 49 U.S. states; Alaska was the last one needed to complete the collection.",
+    "lc_reasoning": "The earlier state says the user had a fairly large collection of vintage Andean wool ponchos. The response instead describes a postcard collection, so it does not answer correctly."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user have in their collection before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user had a fairly large collection of vintage Andean wool ponchos. The response instead describes a postcard collection, so it does not answer correctly.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

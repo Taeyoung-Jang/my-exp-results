@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ff4ad8e1-aba5-485b-ac9c-1b21fbff2520",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's mobility situation before their recent change in physical capability?",
+    "gold_answer": "I should mention that I'm still rehabbing a knee injury from earlier this year, so my mobility is somewhat restricted for the time being.",
+    "m_new": "Funny how quickly habits come back—this week I’m back to taking the stairs two at a time at work, and I even signed up for a weekend pickup basketball league because I missed the quick cuts and sprints.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were rehabbing a knee injury from earlier in the year, and their mobility was somewhat restricted.",
+    "lc_reasoning": "The response correctly describes the user's earlier mobility situation: they were rehabbing a knee injury and had somewhat restricted mobility."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's mobility situation before their recent change in physical capability?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier mobility situation: they were rehabbing a knee injury and had somewhat restricted mobility.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

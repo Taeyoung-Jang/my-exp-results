@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "855155ad-b03b-4b21-b336-1a3e8334acaa",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's status with their cloud-based design suite subscription before the recent change in their work setup?",
+    "gold_answer": "I keep my subscription to the cloud-based design suite active since I rely on it for rendering my models.",
+    "m_new": "Ever since I moved the workstation into the back room and cut the internet line to keep distractions down, I’ve been doing all my heavy lifting offline—queue it up, let it churn overnight, and check results in the morning.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before changing their work setup, the user kept their cloud-based design-suite subscription active because they relied on it to render their models.",
+    "lc_reasoning": "Before the work setup changed, the user kept their cloud-based design-suite subscription active because they relied on it to render models."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's status with their cloud-based design suite subscription before the recent change in their work setup?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the work setup changed, the user kept their cloud-based design-suite subscription active because they relied on it to render models.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

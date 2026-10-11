@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "843b3ce8-012e-4ad4-8e60-339f75c28f56",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's main work focus before their recent shift in commitments?",
+    "gold_answer": "Most of my focus these days is on editing the final chapters of this biology textbook.",
+    "m_new": "I just got off a call with my agent—apparently the copyedits on my debut novel are due back in ten days, so my evenings are basically going to be a red pen and a pot of coffee until that’s done.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s main work focus was editing the final chapters of a biology textbook.",
+    "lc_reasoning": "The response correctly identifies the user's earlier main work focus as editing the final chapters of a biology textbook."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main work focus before the recent shift in priorities?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main work focus before their recent shift in commitments?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier main work focus as editing the final chapters of a biology textbook.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

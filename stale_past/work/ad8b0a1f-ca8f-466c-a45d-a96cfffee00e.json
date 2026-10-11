@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ad8b0a1f-ca8f-466c-a45d-a96cfffee00e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's marital status before the recent change?",
+    "gold_answer": "I always need to coordinate with my spouse before finalizing my schedule.",
+    "m_new": "I’ve been getting used to making plans on my own lately, since it’s just me at home now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was married and had a spouse before the recent change.",
+    "lc_reasoning": "The earlier state says the user needed to coordinate with their spouse, so the user was married before the recent change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's marital status before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user needed to coordinate with their spouse, so the user was married before the recent change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "1f33af3b-abfc-4958-ab7b-99f04ba5f942",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what were the user's typical work hours before the recent change?",
+    "gold_answer": "I'm typically occupied with work between nine and five on weekdays.",
+    "m_new": "Since moving to Barcelona, my afternoons are usually free—I’m tied up most evenings from around 6 until close to midnight.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user typically worked from 9 a.m. to 5 p.m. on weekdays.",
+    "lc_reasoning": "The response correctly identifies the user's earlier typical work hours as 9 a.m. to 5 p.m. on weekdays."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's typical work hours before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier typical work hours as 9 a.m. to 5 p.m. on weekdays.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

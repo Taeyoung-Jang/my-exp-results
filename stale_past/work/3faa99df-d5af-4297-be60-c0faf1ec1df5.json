@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "3faa99df-d5af-4297-be60-c0faf1ec1df5",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's level of confidence in handling minor health issues independently before the injury?",
+    "gold_answer": "Honestly, I've always trusted my ability to bounce back from minor health issues without needing a lot of hand-holding.",
+    "m_new": "Since the concussion, I’ve started keeping a little notebook in my jacket pocket—names, dates, even which cupboard the mugs are in—because if I don’t write things down the moment I hear them, they’re just… gone by dinner.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the concussion, the user felt quite confident handling minor health issues on their own and generally expected to recover without much guidance, while still wanting to recognize serious warning signs.",
+    "lc_reasoning": "It correctly describes the earlier state: the user felt confident handling minor health issues without much guidance. The added mention of recognizing serious warning signs is unsupported but does not change the answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's level of confidence in handling minor health issues independently before the injury?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier state: the user felt confident handling minor health issues without much guidance. The added mention of recognizing serious warning signs is unsupported but does not change the answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

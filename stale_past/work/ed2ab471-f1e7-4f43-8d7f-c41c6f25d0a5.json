@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ed2ab471-f1e7-4f43-8d7f-c41c6f25d0a5",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user doing with their display case before the recent move?",
+    "gold_answer": "You'll notice I keep the display case locked, since it holds the vintage ceramics I've collected from different cultures.",
+    "m_new": "I’m still getting used to the echo in this place—after the movers cleared out the last of my fragile stuff, the rooms started sounding twice as big.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They kept it locked to display their vintage ceramics, so guests could look without handling them.",
+    "lc_reasoning": "The earlier state says the user kept the display case locked because it held vintage ceramics. The response correctly describes that, with a reasonable explanation that guests could view them without handling them."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user doing with their display case before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user kept the display case locked because it held vintage ceramics. The response correctly describes that, with a reasonable explanation that guests could view them without handling them.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

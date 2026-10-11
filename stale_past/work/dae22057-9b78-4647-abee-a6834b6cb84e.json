@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "dae22057-9b78-4647-abee-a6834b6cb84e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's state before the recent change in their routine?",
+    "gold_answer": "I've been carrying a lot of tension in my body lately, so I need to be strict about not overextending myself.",
+    "m_new": "Ever since I switched into that laid-back schedule, I’ve been feeling so calm and energized that I’ve been saying yes to extra plans most nights and still waking up refreshed.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The conversation doesn’t specify exactly how the user felt before the change. They said that since switching to a more laid-back schedule, they’ve felt calm and energized, but didn’t describe their previous state in detail.",
+    "lc_reasoning": "The earlier state was that the user was carrying a lot of tension and needed to avoid overextending themselves. The response incorrectly says their previous state was not specified."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's physical state and approach to managing their commitments before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's state before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state was that the user was carrying a lot of tension and needed to avoid overextending themselves. The response incorrectly says their previous state was not specified.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

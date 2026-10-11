@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "2262fbca-f683-4886-92b8-e70b14c5d275",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's income situation before the recent change?",
+    "gold_answer": "My paycheck has been consistent for years, so I don't have to worry about fluctuating funds.",
+    "m_new": "I’ve started picking up shifts through a couple of gig apps lately, it is hard these days to find a job.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before picking up gig-app shifts, the user had been having difficulty finding a job. The conversation doesn’t specify what their income was before then.",
+    "lc_reasoning": "The earlier state says the user had a consistent paycheck for years, so their income was stable before taking gig-app shifts. The response instead describes difficulty finding a job and says the income is unspecified."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's income situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user had a consistent paycheck for years, so their income was stable before taking gig-app shifts. The response instead describes difficulty finding a job and says the income is unspecified.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "46684b41-b303-43ea-b8d1-f4af445d7713",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was your weekend sleep-in pattern before your routine changed?",
+    "gold_answer": "I keep a pretty consistent early schedule Monday through Friday, but come Saturday and Sunday, I usually don't get out of bed before nine.",
+    "m_new": "This winter I’ve been sticking to the same rhythm every day—by seven I’ve already had breakfast and taken the dog out, even on weekends.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before changing the routine, you usually slept in until around 9:00 a.m. on Saturdays and Sundays.",
+    "lc_reasoning": "The response correctly identifies the earlier weekend pattern: getting up around 9:00 a.m. on Saturdays and Sundays."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was your weekend sleep-in pattern before your routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier weekend pattern: getting up around 9:00 a.m. on Saturdays and Sundays.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

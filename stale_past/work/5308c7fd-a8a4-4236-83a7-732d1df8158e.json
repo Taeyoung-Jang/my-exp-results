@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "5308c7fd-a8a4-4236-83a7-732d1df8158e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's portfolio allocation before the recent change?",
+    "gold_answer": "The majority of my holdings are situated in broad market index funds, with the remaining portion allocated to corporate bonds.",
+    "m_new": "I’m updating my finances after my recent home purchase, and right now most of my money is sitting in a high-yield savings account and a ladder of Treasury bills.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user said most of their portfolio was in broad-market index funds, with the remainder in corporate bond funds. They didn’t give exact percentages.",
+    "lc_reasoning": "It identifies the earlier allocation as mostly broad-market index funds with the remainder in corporate bonds, and notes that no exact percentages were given."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's portfolio allocation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It identifies the earlier allocation as mostly broad-market index funds with the remainder in corporate bonds, and notes that no exact percentages were given.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

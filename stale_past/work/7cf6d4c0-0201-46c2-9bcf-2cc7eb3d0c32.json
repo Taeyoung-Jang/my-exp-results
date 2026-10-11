@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "7cf6d4c0-0201-46c2-9bcf-2cc7eb3d0c32",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's physical condition and activity limitation before their recent improvement in fitness?",
+    "gold_answer": "I've been managing chronic lower back pain for a few years now, so I have to be careful about heavy lifting and long periods of standing.",
+    "m_new": "Funny thing—I started my mornings with a quick jog after the new year, and it snowballed. Last weekend I knocked out a half-marathon with my cousin, then spent the rest of the day wandering that outdoor street fair without even thinking about where the nearest bench was.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had chronic lower-back pain and needed to be careful with heavy lifting and prolonged standing.",
+    "lc_reasoning": "The response correctly identifies the user's earlier chronic lower-back pain and need to be cautious with heavy lifting and prolonged standing."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's physical condition and activity limitation before their recent improvement in fitness?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's physical condition and activity limitation before their recent improvement in fitness?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier chronic lower-back pain and need to be cautious with heavy lifting and prolonged standing.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

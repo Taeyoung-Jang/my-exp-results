@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "cffcf125-fd02-4392-b10d-6b38911a1714",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's vision and corrective-lens situation before the recent change?",
+    "gold_answer": "I always wear glasses because my distance vision is pretty blurry without them.",
+    "m_new": "At my annual eye appointment today, the optometrist had me read the tiniest line on the chart and then spent most of the visit talking about keeping my eyes from getting too dry—apparently that’s the main thing to watch after those procedures.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user said their distance vision was quite blurry without glasses and that they always wore glasses. They mentioned using their regular glasses at the computer, but hadn’t said they had a separate computer prescription or contact lenses. They also reported headaches or eye fatigue after long computer days. The conversation doesn’t establish that they had refractive surgery; it was raised conditionally.",
+    "lc_reasoning": "The response accurately describes the earlier state: the user had blurry distance vision without glasses and always wore glasses. It also correctly notes that no separate computer prescription or contact lenses were established and that refractive surgery was only raised conditionally."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's vision and corrective-lens situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the earlier state: the user had blurry distance vision without glasses and always wore glasses. It also correctly notes that no separate computer prescription or contact lenses were established and that refractive surgery was only raised conditionally.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

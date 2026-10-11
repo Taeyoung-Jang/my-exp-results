@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "decebd05-93d8-41f0-bd73-c20a1485532c",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's career priority before the recent change?",
+    "gold_answer": "Honestly, I'm not chasing director titles anymore; I'd rather focus on the restoration work than deal with the administrative side.",
+    "m_new": "I just accepted the team lead role at the lab, so I’m mapping out our weekly check-ins, budget requests, and hiring plan for the next quarter.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the change, the user was considering leadership and director-level career advancement; they later decided to prioritize hands-on restoration work over administrative responsibilities.",
+    "lc_reasoning": "The response incorrectly says the user was considering director-level advancement before the change. Their earlier priority was hands-on restoration work over administrative responsibilities."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's career priority before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response incorrectly says the user was considering director-level advancement before the change. Their earlier priority was hands-on restoration work over administrative responsibilities.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

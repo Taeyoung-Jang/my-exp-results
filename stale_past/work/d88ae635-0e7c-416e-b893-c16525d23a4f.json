@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d88ae635-0e7c-416e-b893-c16525d23a4f",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual weekend wake-up pattern before their schedule changed?",
+    "gold_answer": "I keep a pretty consistent early schedule Monday through Friday, but come Saturday and Sunday, I usually don't get out of bed before nine.",
+    "m_new": "Ever since I started opening the bakery, my phone goes off at 3:45 a.m.—I’m in the car before the streetlights even click off, and by the time the first tray’s out, the whole day already feels half-spent.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They usually stayed in bed until around 9:00 a.m. on Saturdays and Sundays, compared with waking around 6:30 a.m. on weekdays.",
+    "lc_reasoning": "It correctly says the user usually stayed in bed until around 9:00 a.m. on weekends before the schedule changed."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual weekend wake-up pattern before their schedule changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly says the user usually stayed in bed until around 9:00 a.m. on weekends before the schedule changed.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

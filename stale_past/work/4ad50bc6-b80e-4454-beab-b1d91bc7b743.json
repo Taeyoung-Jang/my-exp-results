@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4ad50bc6-b80e-4454-beab-b1d91bc7b743",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the condition of the user's emergency kit before the recent disruption?",
+    "gold_answer": "I make sure the emergency kit is always stocked with water and canned goods.",
+    "m_new": "I spent most of yesterday on the phone with the insurance adjuster—turns out the kitchen cabinets and the hall closet are a total loss after that slow leak behind the wall, so they’ve got everything boxed up and sitting in a storage unit until the drywall’s done.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The emergency kit was stocked with water and canned goods. The conversation doesn’t specify whether it contained other supplies.",
+    "lc_reasoning": "Before the recent disruption, the user said their emergency kit was stocked with water and canned goods. The later damage and storage update does not change that earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the condition of the user's emergency kit before the recent disruption?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent disruption, the user said their emergency kit was stocked with water and canned goods. The later damage and storage update does not change that earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

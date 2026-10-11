@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "5a03c894-ccac-45e5-a8d0-2b8cb6f33ed4",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's credit-score standing before their financial circumstances changed?",
+    "gold_answer": "I've kept my credit score in a good place for a few years now, so that shouldn't be an issue.",
+    "m_new": "I spent most of last year juggling a couple of 0% intro cards just to keep the lights on, and I set up autopay because I was terrified I’d forget a due date when things got hectic.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user said their credit score had been in a good place for a few years.",
+    "lc_reasoning": "The response correctly describes the user's earlier credit-score standing: it had been in a good place for a few years."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's credit-score standing before their financial circumstances changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier credit-score standing: it had been in a good place for a few years.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

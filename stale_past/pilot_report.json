@@ -1,0 +1,39 @@
+{
+  "scope": "pilot",
+  "total": 40,
+  "leak_ok": 39,
+  "lc_pass": 32,
+  "lc_pass_rate": 0.8,
+  "lc_pass_by_type": {
+    "T1": {
+      "total": 20,
+      "lc_pass": 17
+    },
+    "T2": {
+      "total": 20,
+      "lc_pass": 15
+    }
+  },
+  "discard_reasons": {
+    "past_query_gen_fail": 0,
+    "leak_check_fail": 1,
+    "context_exceeded": 0,
+    "lc_pass_false": 7,
+    "judge_parse_fail": 0
+  },
+  "model": "openai/gpt-6-luna-pro",
+  "temperature_requested": 0,
+  "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+  "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+  "llm_calls_this_run": {
+    "generate": 44,
+    "leak_check": 44,
+    "lc_answer": 39,
+    "lc_judge": 39
+  },
+  "llm_tokens_this_run": {
+    "prompt": 18267509,
+    "completion": 61194
+  },
+  "run_date": "2026-10-11T09:54:47"
+}

@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "86a4cbb6-70d9-4bf9-a79b-df7b0fcd35d0",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what were the user's usual timing habits for coffee and alcoholic drinks before their recent routine change?",
+    "gold_answer": "I'm pretty strict about finishing my last coffee by early afternoon, and I won't start having alcoholic drinks until late evening.",
+    "m_new": "These days I usually sip on an espresso after dinner while I’m winding down, and I’ll sometimes pour a drink with it if I’m still up catching up on a show.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They usually had espresso after dinner while winding down, and sometimes had an alcoholic drink alongside it while watching a show later in the evening.",
+    "lc_reasoning": "The response describes the recent routine, not the earlier habits. Previously, the user finished coffee by early afternoon and started alcoholic drinks only in the late evening."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual timing for caffeine and alcoholic drinks before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's usual timing habits for coffee and alcoholic drinks before their recent routine change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response describes the recent routine, not the earlier habits. Previously, the user finished coffee by early afternoon and started alcoholic drinks only in the late evening.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

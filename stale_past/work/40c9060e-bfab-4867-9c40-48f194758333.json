@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "40c9060e-bfab-4867-9c40-48f194758333",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's relationship with the neighbors next door like before the recent move?",
+    "gold_answer": "The neighbors next door and I have been on friendly terms for years, so we make a point to check in on each other regularly.",
+    "m_new": "I finally got around to signing the closing papers this morning—after all the packing, it still feels strange hearing my footsteps echo in an empty hallway.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They had been on friendly terms for years and regularly checked in on each other.",
+    "lc_reasoning": "The response accurately describes the earlier relationship: they had been friendly for years and regularly checked in on each other."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's relationship with the neighbors next door like before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the earlier relationship: they had been friendly for years and regularly checked in on each other.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

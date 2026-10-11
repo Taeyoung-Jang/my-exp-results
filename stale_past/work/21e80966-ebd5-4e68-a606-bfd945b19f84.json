@@ -1,0 +1,47 @@
+{
+  "record": {
+    "uid": "21e80966-ebd5-4e68-a606-bfd945b19f84",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the reason the user planned to head out earlier than usual on Sunday before the recent change?",
+    "gold_answer": "I’ll have to head out a bit earlier than usual on Sunday because I’m helping coordinate the choir practice at the parish before the morning service begins.",
+    "m_new": "I really love this new app I downloaded; it gives a gentle chime for all five daily prayers and makes finding the Qibla effortless whenever I unroll my mat in a new hotel room.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user helping coordinate on Sunday before the recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:Sunday"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the reason the user planned to head out earlier than usual on Sunday before the recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:Sunday"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

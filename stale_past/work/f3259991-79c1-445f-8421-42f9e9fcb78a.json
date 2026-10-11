@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "f3259991-79c1-445f-8421-42f9e9fcb78a",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's primary focus before the recent change?",
+    "gold_answer": "I'm deep in the middle of reorganizing my digital file structure, so that's pretty much where all my focus is right now.",
+    "m_new": "I’ve been on the road nonstop for the last few weeks, bouncing between hotels and client sites, so my days are basically consumed by travel and on-site meetings.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before shifting to passport and India travel planning, the user was focused on vintage photography—especially restoring and learning about the technical design of a 1950s Japanese Olympus rangefinder.",
+    "lc_reasoning": "The earlier focus was reorganizing the user's digital file structure, not vintage photography or an Olympus rangefinder."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's primary focus before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier focus was reorganizing the user's digital file structure, not vintage photography or an Olympus rangefinder.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

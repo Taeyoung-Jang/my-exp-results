@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "ea1bd523-f9f9-4ee0-89ed-08f407cc3237",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what city was the user living in before the recent move?",
+    "gold_answer": "I've grown accustomed to the wind chill here in Chicago during the colder months.",
+    "m_new": "My lease was up, so now my mornings start with a quiet walk past saguaro silhouettes while the air’s still cool enough for a light jacket—by lunchtime, the heat’s already bouncing off the pavement.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was living in Chicago before the move.",
+    "lc_reasoning": "The response correctly identifies Chicago as where the user lived before the recent move."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what city was the user accustomed to during the colder months before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what city was the user living in before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies Chicago as where the user lived before the recent move.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

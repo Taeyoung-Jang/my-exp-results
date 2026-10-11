@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "93a1c511-92d3-4d00-b714-4f27096df346",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's role in the forum before their recent shift in online activity?",
+    "gold_answer": "I've stuck with that forum for a while now, mostly because I'm the one who ends up categorizing the new threads on a daily basis.",
+    "m_new": "I’ve been enjoying having my evenings back lately—my online time is mostly just a quick scroll on weekends, and I rarely have any responsibilities tied to it anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were the person who categorized new threads on the forum each day.",
+    "lc_reasoning": "The earlier state says the user was the one who categorized new forum threads each day, which matches the response."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's role in the forum before their recent shift in online activity?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user was the one who categorized new forum threads each day, which matches the response.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

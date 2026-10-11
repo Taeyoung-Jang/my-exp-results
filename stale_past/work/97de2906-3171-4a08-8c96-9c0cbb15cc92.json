@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "97de2906-3171-4a08-8c96-9c0cbb15cc92",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's allergy status before the recent change?",
+    "gold_answer": "Just so you remember, I'm still highly allergic to peanuts.",
+    "m_new": "I finally went through with those allergy shots—just got home from my last maintenance appointment, and the nurse said I can start trying small amounts of the foods I used to avoid, one at a time.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user said they were highly allergic to peanuts and avoided foods they considered unsafe. They also said they had never had anaphylaxis.",
+    "lc_reasoning": "The response correctly identifies the earlier status as being highly allergic to peanuts. The added detail about anaphylaxis is not supported by the conversation, but it does not change the stated earlier allergy status."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's allergy status before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier status as being highly allergic to peanuts. The added detail about anaphylaxis is not supported by the conversation, but it does not change the stated earlier allergy status.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

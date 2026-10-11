@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "c4d93d88-9524-4c79-b090-1e38b69df6b4",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's typical amount of spare time each evening before their evening routine changed?",
+    "gold_answer": "I typically have a couple of hours of spare time each evening.",
+    "m_new": "Since the baby started waking up a lot at night, most evenings I’m tied up until I crash—if I get any downtime, it’s usually just a few minutes here and there.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user typically had a couple of hours of spare time each evening.",
+    "lc_reasoning": "Before the evening routine changed, the user typically had a couple of hours of spare time each evening."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical amount of spare time each evening before their evening routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the evening routine changed, the user typically had a couple of hours of spare time each evening.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

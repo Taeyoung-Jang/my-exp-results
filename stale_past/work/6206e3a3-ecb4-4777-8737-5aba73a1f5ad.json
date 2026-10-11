@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "6206e3a3-ecb4-4777-8737-5aba73a1f5ad",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the household chore arrangement before the recent change in circumstances?",
+    "gold_answer": "We've kept the same arrangement for years where I handle all the laundry and vacuuming, and my partner takes care of the cooking and dishes.",
+    "m_new": "Since my pulmonologist put me on continuous oxygen, I’ve learned to plan my day around the tubing—doorways are a whole negotiation now, and anything that kicks up dust or makes me hustle leaves me wheezing for hours.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user handled all the laundry and vacuuming, while their partner handled the cooking and dishes.",
+    "lc_reasoning": "It correctly states the earlier arrangement: the user handled laundry and vacuuming, and their partner handled cooking and dishes."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the household chore arrangement before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly states the earlier arrangement: the user handled laundry and vacuuming, and their partner handled cooking and dishes.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

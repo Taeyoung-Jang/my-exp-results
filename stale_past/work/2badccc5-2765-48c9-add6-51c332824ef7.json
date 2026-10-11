@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "2badccc5-2765-48c9-add6-51c332824ef7",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what kind of vehicle was the user driving before the recent change?",
+    "gold_answer": "I've got a sedan that I've been driving for about five years now.",
+    "m_new": "I finally traded my vehicle in and now I’m driving a compact hatchback to get to work and run errands.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before switching to the compact hatchback, the user drove a 2016 Honda Accord sedan.",
+    "lc_reasoning": "The response identifies the earlier vehicle as a sedan, matching the history. The added Honda Accord model and year are unsupported, but they do not change the correct description of the earlier vehicle type."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of vehicle was the user driving before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response identifies the earlier vehicle as a sedan, matching the history. The added Honda Accord model and year are unsupported, but they do not change the correct description of the earlier vehicle type.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

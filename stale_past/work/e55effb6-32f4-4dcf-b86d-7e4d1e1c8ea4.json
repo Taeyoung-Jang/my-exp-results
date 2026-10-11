@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e55effb6-32f4-4dcf-b86d-7e4d1e1c8ea4",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the nature of the user's income before the recent change?",
+    "gold_answer": "I have tenure, so my salary is consistent regardless of the semester.",
+    "m_new": "After the layoffs, I’m back on a week‑to‑week substitute teaching roster, so some weeks I’m in a classroom every day and other weeks I don’t get called at all.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user had a consistent salary as a tenured professor, regardless of the semester.",
+    "lc_reasoning": "Before the recent change, the user had a consistent salary as a tenured professor, regardless of the semester."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the nature of the user's income before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user had a consistent salary as a tenured professor, regardless of the semester.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

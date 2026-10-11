@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "8fbdd3bc-8949-4fb4-8082-e67d73201826",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what dietary restriction did the user have before the recent change in their medical status?",
+    "gold_answer": "I need to avoid any foods containing peanuts because I have a severe allergy.",
+    "m_new": "At my checkup this morning, the specialist had me do a supervised food challenge, and I walked out with clearance to stop carrying an epinephrine auto-injector for that issue.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user previously had a severe peanut allergy and needed to avoid foods containing peanuts.",
+    "lc_reasoning": "The response correctly identifies the user's earlier dietary restriction: avoiding foods containing peanuts due to a severe peanut allergy."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what dietary restriction did the user have before the recent change in their medical status?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier dietary restriction: avoiding foods containing peanuts due to a severe peanut allergy.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

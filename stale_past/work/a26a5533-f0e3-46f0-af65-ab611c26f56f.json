@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a26a5533-f0e3-46f0-af65-ab611c26f56f",
+    "type": "T1",
+    "past_query": "Based on the conversation history, how did the user typically access instructional content before the recent change in how they consumed it?",
+    "gold_answer": "I typically skip the video summaries and go straight to the written transcripts whenever possible.",
+    "m_new": "Since I started dealing with this eye strain, I’ve switched almost entirely to listening—if something doesn’t have an audio track or read‑aloud option, I usually just move on.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They typically skipped the video summaries and went straight to the written transcripts whenever possible.",
+    "lc_reasoning": "The earlier state says the user typically skipped video summaries and went straight to written transcripts whenever possible."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how did the user typically access instructional content before the recent change in how they consumed it?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user typically skipped video summaries and went straight to written transcripts whenever possible.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

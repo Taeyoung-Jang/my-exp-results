@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "0c199bef-29ae-489f-b772-af9a43d6eb0e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's morning exercise routine before the injury?",
+    "gold_answer": "I make it a point to run for thirty minutes every single morning.",
+    "m_new": "Ever since my knee started acting up, I’ve been starting my day with a half-hour on the stationary bike instead, and I’m usually out of pocket until I cool down and shower.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the knee started acting up, the user ran for 30 minutes every morning.",
+    "lc_reasoning": "The response correctly identifies the earlier routine: running for 30 minutes every morning before the knee started acting up."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's morning exercise routine before the injury?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier routine: running for 30 minutes every morning before the knee started acting up.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

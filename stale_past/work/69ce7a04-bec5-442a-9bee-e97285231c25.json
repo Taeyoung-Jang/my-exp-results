@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "69ce7a04-bec5-442a-9bee-e97285231c25",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's work-team communication setup before the recent change?",
+    "gold_answer": "I've been working with the same core team for over a year, so we mostly communicate through our private group chat.",
+    "m_new": "I just started at a new company this week, so I’ve been introducing myself to a bunch of new people and figuring out who I’ll be collaborating with day to day.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user’s core team had worked together for over a year and mostly communicated through a private group chat.",
+    "lc_reasoning": "It correctly describes the earlier setup: the user’s core team had worked together for over a year and mostly communicated through a private group chat."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's work-team communication setup before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier setup: the user’s core team had worked together for over a year and mostly communicated through a private group chat.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

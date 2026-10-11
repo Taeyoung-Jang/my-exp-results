@@ -1,0 +1,42 @@
+{
+  "record": {
+    "uid": "9a68c380-2e9d-4057-90c3-6796826eded1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, how dependent was the user's process on their device ecosystem before their routine changed?",
+    "gold_answer": "I've built my entire process around these connected devices, so stepping outside this ecosystem would basically halt my progress.",
+    "m_new": "Funny little thing: since I started splitting my week between the office and my sister’s place, I’ve stopped carrying any of my own gear. I just grab whichever loaner tablet is in the front drawer, and by the time the kettle clicks off I’m already halfway through my morning checklist.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how dependent was the user's workflow on their device ecosystem before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how dependent was the user's process on their device ecosystem before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "status": "leak_fail"
+  }
+}

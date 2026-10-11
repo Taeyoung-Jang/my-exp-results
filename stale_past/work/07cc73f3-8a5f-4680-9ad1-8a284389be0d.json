@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "07cc73f3-8a5f-4680-9ad1-8a284389be0d",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what did the user prioritize in a role before the recent shift in priorities?",
+    "gold_answer": "I'm turning down the regional role because I prefer seeing the direct results of my work each day.",
+    "m_new": "After sitting in on the leadership meetings this quarter, I’ve realized I’m most motivated by shaping strategy and moving up into roles with broader influence, even if the impact takes longer to show up.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent shift, the user prioritized being close to execution—hands-on work, shipping and fixing things, and seeing direct, day-to-day results.",
+    "lc_reasoning": "The response captures the earlier priority of seeing direct, day-to-day results and being close to execution."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what kind of work impact did the user prefer before the recent change in perspective?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user prioritize in a role before the recent shift in priorities?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response captures the earlier priority of seeing direct, day-to-day results and being close to execution.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

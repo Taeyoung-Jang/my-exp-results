@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ebdf7090-0a54-4bf2-89f1-3a4f5a4ee420",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's situation with exporting at that resolution before the recent change?",
+    "gold_answer": "I've tried running the export on my end, but my computer just doesn't have the raw processing power to handle that resolution without crashing.",
+    "m_new": "I spent most of Sunday letting the IT shop finish the workstation refresh—turns out the bottleneck was the old integrated graphics, so they moved my work over to a proper graphics card and a beefier power supply.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the hardware change, their workstation couldn’t reliably handle full-resolution 8K exports and would crash. The old integrated graphics was identified as the bottleneck; the project was being edited in Premiere Pro, with chunked exports or offloading considered as workarounds.",
+    "lc_reasoning": "The response correctly describes the earlier situation: the workstation could not handle exports at that resolution without crashing, and the old integrated graphics was the bottleneck. It answers about the state before the hardware change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's situation with exporting at that resolution before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier situation: the workstation could not handle exports at that resolution without crashing, and the old integrated graphics was the bottleneck. It answers about the state before the hardware change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

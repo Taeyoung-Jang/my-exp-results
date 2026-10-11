@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d4721a2a-97ce-4f3f-b2c9-33adabc35b2d",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's pattern of interacting with coworkers before the recent change?",
+    "gold_answer": "There are only a handful of people from work I actually interact with on a regular basis.",
+    "m_new": "After the reorg, I’m on calls and message threads all day with a rotating mix of about thirty different names, and it feels like I’m constantly looping in someone new for day-to-day coordination.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the reorg, the user regularly interacted with only a small handful of coworkers and preferred to deepen those existing connections rather than expand their social circle.",
+    "lc_reasoning": "It correctly describes the earlier pattern as regularly interacting with only a small handful of coworkers, though the added preference for deepening those connections is not stated in the history."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's pattern of interacting with coworkers before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier pattern as regularly interacting with only a small handful of coworkers, though the added preference for deepening those connections is not stated in the history.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "8612e685-56b3-4a07-8ca8-0a443e489768",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual limit for one-way commute time before the recent change?",
+    "gold_answer": "I limit my daily travel to about forty minutes each way; beyond that, the road time just isn't worth it.",
+    "m_new": "Ever since I started this new role, I’ve gotten used to a commute that’s about an hour and a half each way, so I usually plan my weekdays around that travel time.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s usual limit was about **40 minutes each way**.",
+    "lc_reasoning": "Before the recent change, the user limited their commute to about 40 minutes each way."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual limit for one-way commute time before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user limited their commute to about 40 minutes each way.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

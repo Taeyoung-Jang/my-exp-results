@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "97fe6aac-3512-452e-837f-5a07537f6c69",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user’s reading plan before the recent change?",
+    "gold_answer": "I'm working through a list of classic novels I've set aside for my current reading rotation.",
+    "m_new": "Since my commute got so long, I’ve switched to audiobooks only, and I just keep a single nonstop queue of business and personal‑finance titles going in my app.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user planned to work through a set-aside list of classic novels, choosing what to start next and which books to save for later. *Great Expectations* had sounded promising as the next read, with *The Count of Monte Cristo* and *Les Misérables* suggested as plot-driven “bridge” classics.",
+    "lc_reasoning": "It describes the earlier plan to work through a set-aside list of classic novels, rather than the later audiobook queue."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user’s reading plan before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It describes the earlier plan to work through a set-aside list of classic novels, rather than the later audiobook queue.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

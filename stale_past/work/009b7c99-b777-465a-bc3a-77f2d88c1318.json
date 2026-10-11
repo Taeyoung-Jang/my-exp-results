@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "009b7c99-b777-465a-bc3a-77f2d88c1318",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual way of getting to work before the injury?",
+    "gold_answer": "I've been cycling to work for years, so I know exactly how long the trip takes.",
+    "m_new": "Ever since the orthopedist put me in this walking boot, everything seems to be so inconvenient.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user usually cycled to work.",
+    "lc_reasoning": "The user said they had been cycling to work for years, which describes their usual way of commuting before the injury."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual way of getting to work before the injury?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user said they had been cycling to work for years, which describes their usual way of commuting before the injury.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

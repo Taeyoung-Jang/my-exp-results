@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "7af59b23-a666-41f7-91ce-af8d524ed035",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's marital status before the recent change?",
+    "gold_answer": "I'm married, so I need to check with my spouse before confirming.",
+    "m_new": "I’ve been on hold with the health insurance company all morning because HR says I have to switch everything over from a family plan to an individual plan, and of course they want a stack of paperwork before they’ll change the account.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The user explicitly said they were married. The conversation doesn’t establish that their marital status recently changed or what it was before, so that earlier status is unknown.",
+    "lc_reasoning": "The earlier state explicitly says the user was married. The response incorrectly concludes that the earlier status is unknown."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's marital status before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state explicitly says the user was married. The response incorrectly concludes that the earlier status is unknown.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

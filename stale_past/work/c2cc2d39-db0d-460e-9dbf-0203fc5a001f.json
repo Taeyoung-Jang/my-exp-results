@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "c2cc2d39-db0d-460e-9dbf-0203fc5a001f",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's evening screen-time routine before the recent change?",
+    "gold_answer": "I generally save all my digital entertainment for the end of the day, so I'm usually looking at a screen for about an hour right before I turn off the lights.",
+    "m_new": "Had my follow‑up with the eye doctor today—turns out the headaches weren’t stress. They put me on those strict post‑work “rest your eyes” rules, so I’ve been leaning on audiobooks and the radio in the evenings while everything stays dim.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They typically used screens for about an hour right before turning off the lights, mostly for digital entertainment.",
+    "lc_reasoning": "It correctly describes the earlier routine: about an hour of screen-based entertainment before turning off the lights."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's evening screen-time routine before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier routine: about an hour of screen-based entertainment before turning off the lights.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

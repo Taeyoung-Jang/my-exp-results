@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "6836d568-10ea-401d-8f54-dbc8297dd3bf",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's availability before the recent change in circumstances?",
+    "gold_answer": "I need to keep my schedule completely clear for the next three days because my thesis submission window closes on Thursday.",
+    "m_new": "At the department office this morning, they handed me a stamped confirmation sheet and said the committee has officially signed off—so I celebrated by finally booking that long-overdue weekend train trip.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The history doesn’t give a complete availability schedule. Before the thesis deadline crunch, you mentioned having about 30 minutes for your morning routine—especially on Wednesdays and Fridays—and a 35–40-minute commute. You later said you needed to keep the next three days completely clear for thesis work.",
+    "lc_reasoning": "It states that the user needed to keep the next three days completely clear for thesis work, which matches the earlier availability state. The later trip booking does not change what was true before the circumstances changed."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's availability before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It states that the user needed to keep the next three days completely clear for thesis work, which matches the earlier availability state. The later trip booking does not change what was true before the circumstances changed.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

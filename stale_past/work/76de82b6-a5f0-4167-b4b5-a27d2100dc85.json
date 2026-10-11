@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "76de82b6-a5f0-4167-b4b5-a27d2100dc85",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's relationship status before the recent change?",
+    "gold_answer": "Just so you know, I've been in a committed relationship with my partner for a little over three years now.",
+    "m_new": "I’ve been setting up my dating app profile again and debating what kind of first-date spot to suggest if I match with someone this week.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was in a committed relationship with their partner for a little over three years.",
+    "lc_reasoning": "The response correctly describes the user's earlier relationship status as being in a committed relationship with their partner for a little over three years."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's relationship status before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier relationship status as being in a committed relationship with their partner for a little over three years.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

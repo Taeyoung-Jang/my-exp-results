@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "1ad1c1b9-9c66-48ea-9105-091cdba0513a",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's distance vision and need for correction like before the recent change?",
+    "gold_answer": "I always wear glasses because my distance vision is pretty blurry without them.",
+    "m_new": "Ever since my eye surgery last summer, I can spot street signs from across the road and drive at night without any correction.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the eye surgery, the user said their distance vision was quite blurry without glasses and that they always wore glasses. They also wore progressive lenses.",
+    "lc_reasoning": "The response correctly describes the earlier blurry distance vision and regular glasses use, but it adds that the user wore progressive lenses, which is not supported by the conversation history."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's distance vision and need for correction like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier blurry distance vision and regular glasses use, but it adds that the user wore progressive lenses, which is not supported by the conversation history.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

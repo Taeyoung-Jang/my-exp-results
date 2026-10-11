@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ec3746de-28fd-4eb0-8969-150377699d39",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what home-related expense was the user directing most of their disposable income toward saving for before the recent move?",
+    "gold_answer": "Lately, I've been directing most of my disposable income toward saving for a new roof.",
+    "m_new": "I spent half of Saturday at the county clerk’s office getting the deed and homeowner’s insurance transferred—closing was a blur, but at least the keys are finally in my pocket.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user was saving for a new roof.",
+    "lc_reasoning": "The response correctly identifies the earlier expense: saving for a new roof."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what home-related expense was the user directing most of their disposable income toward saving for before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier expense: saving for a new roof.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

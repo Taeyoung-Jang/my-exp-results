@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "ca76ab25-bbce-44e0-a219-c7c8b81ff41e",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the ambient noise level like before the recent change in surroundings?",
+    "gold_answer": "It's quiet enough in here that I can hear the clock ticking across the hall.",
+    "m_new": "I’m at this packed street-food market right now, and the music and chatter are so loud.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "It was extremely quiet—so quiet the user could hear a clock ticking across the hall.",
+    "lc_reasoning": "Before the change in surroundings, it was extremely quiet—quiet enough for the user to hear a clock ticking across the hall."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the ambient noise level like before the recent change in surroundings?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the change in surroundings, it was extremely quiet—quiet enough for the user to hear a clock ticking across the hall.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

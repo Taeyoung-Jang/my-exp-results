@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "2ba8e3f4-6a9b-445a-b057-e362d9fe60db",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's sleep like before the recent change?",
+    "gold_answer": "I usually wake up several times throughout the night, so I never really feel fully rested.",
+    "m_new": "Ever since I started sticking to a consistent bedtime, I’ve been sleeping straight through the night and waking up feeling genuinely refreshed most mornings.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before adopting a consistent bedtime, the user woke up 3–5 times a night. Sometimes they fell back asleep within minutes; other times they stayed awake for 20–40 minutes, often with their mind becoming active, and they didn’t feel fully rested. They also sometimes woke feeling too warm and with a dry mouth.",
+    "lc_reasoning": "It correctly says the user woke repeatedly and did not feel fully rested, but it adds specific details—3–5 awakenings, how long they stayed awake, an active mind, feeling warm, and dry mouth—that are not in the conversation history."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's sleep like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly says the user woke repeatedly and did not feel fully rested, but it adds specific details—3–5 awakenings, how long they stayed awake, an active mind, feeling warm, and dry mouth—that are not in the conversation history.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

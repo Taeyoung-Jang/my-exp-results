@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "27a08f2c-1b36-4da7-8c34-61ed21529b20",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's pattern of involvement with the online community before the recent change?",
+    "gold_answer": "I've been a fairly active member of that online community for the past year, so I usually catch the announcements early.",
+    "m_new": "I finally started that night-shift security job at the hospital, and between the odd hours and the no-phones policy on the floor, I’ve gotten used to sleeping through most of the day and keeping my personal stuff offline until my days off.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They’d been a fairly active member of the online community for about a year, often seeing announcements early and summarizing changes for other members when asked.",
+    "lc_reasoning": "It correctly describes the earlier activity and seeing announcements early, but adds an unsupported claim that the user summarized changes for others when asked."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's pattern of involvement with the online community before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier activity and seeing announcements early, but adds an unsupported claim that the user summarized changes for others when asked.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

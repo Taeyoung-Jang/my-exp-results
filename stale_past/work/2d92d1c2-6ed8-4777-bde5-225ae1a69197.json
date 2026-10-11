@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "2d92d1c2-6ed8-4777-bde5-225ae1a69197",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was your usual eating pattern before the recent change in your routine?",
+    "gold_answer": "I generally stick to eating three times a day, rarely adding snacks or skipping a meal.",
+    "m_new": "Ever since my morning workouts got bumped to 10 a.m., I simply can’t make it from dawn till lunch on just coffee anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "You usually ate three meals a day and rarely snacked or skipped meals. Before your workouts moved to 10 a.m., you could get by on coffee until lunch.",
+    "lc_reasoning": "The response correctly describes the earlier pattern: three meals a day, rarely snacking or skipping meals, and getting by on coffee until lunch before the workout schedule changed."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was your usual eating pattern before the recent change in your routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier pattern: three meals a day, rarely snacking or skipping meals, and getting by on coffee until lunch before the workout schedule changed.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

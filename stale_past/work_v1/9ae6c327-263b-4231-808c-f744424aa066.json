@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "9ae6c327-263b-4231-808c-f744424aa066",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual bedtime before their schedule changed?",
+    "gold_answer": "I try to keep a consistent schedule, so I'm usually in bed by 10:30 PM.",
+    "m_new": "Since I started the early shift at the bakery, I’m lights-out by around 9 PM most nights so I can be up before dawn.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before their schedule changed, they were usually in bed by 10:30 PM.",
+    "lc_reasoning": "The earlier state says the user was usually in bed by 10:30 PM, and the response gives that bedtime."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual bedtime before their schedule changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user was usually in bed by 10:30 PM, and the response gives that bedtime.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

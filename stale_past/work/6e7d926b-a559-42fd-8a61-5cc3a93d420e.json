@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "6e7d926b-a559-42fd-8a61-5cc3a93d420e",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's expectation about the continuity of their income before the recent change?",
+    "gold_answer": "I'm comfortable signing the yearly contract now because my pay is consistent and I don't expect any breaks in funding.",
+    "m_new": "I spent the afternoon at the county clerk’s office getting the LLC dissolved; it’s strange how quiet your inbox gets when you stop being “the vendor” overnight.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They expected their income to remain consistent, with no breaks in funding.",
+    "lc_reasoning": "The user earlier expected their pay to remain consistent with no breaks in funding."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's expectation about pay and funding continuity before the recent change in their work situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's expectation about the continuity of their income before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user earlier expected their pay to remain consistent with no breaks in funding.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

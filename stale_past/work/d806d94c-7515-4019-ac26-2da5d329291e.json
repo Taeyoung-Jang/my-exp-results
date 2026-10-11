@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d806d94c-7515-4019-ac26-2da5d329291e",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the status of the user's student loans before the recent legal change?",
+    "gold_answer": "I still have a significant portion of my student loans left to repay.",
+    "m_new": "I spent my lunch break at the county clerk’s office signing the last of the paperwork—turns out once you’ve got the discharge order in hand, the rest is just updating your records everywhere.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the later mention of a discharge order, the user reported about **$38,000 in student loans**, with interest rates around **4.5%–6.2%** and a **$410 monthly minimum payment**. The conversation doesn’t specify the details or timing of the legal change.",
+    "lc_reasoning": "The history only says the user still had a significant portion of their student loans left to repay. It does not provide a balance, interest rates, or monthly payment, so those specific details are unsupported."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the status of the user's student loans before the recent legal change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The history only says the user still had a significant portion of their student loans left to repay. It does not provide a balance, interest rates, or monthly payment, so those specific details are unsupported.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

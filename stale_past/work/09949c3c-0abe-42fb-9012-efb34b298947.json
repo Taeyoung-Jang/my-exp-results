@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "09949c3c-0abe-42fb-9012-efb34b298947",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's planned length of stay in town before the recent change?",
+    "gold_answer": "I'm only in town for a while, so I'm planning to stay here for about five months.",
+    "m_new": "I just signed the paperwork for an 18-month assignment with my new team, and my start date is next Monday.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user planned to stay in town for about five months.",
+    "lc_reasoning": "Before the recent change, the user planned to stay in town for about five months."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's planned length of stay here before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's planned length of stay in town before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user planned to stay in town for about five months.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

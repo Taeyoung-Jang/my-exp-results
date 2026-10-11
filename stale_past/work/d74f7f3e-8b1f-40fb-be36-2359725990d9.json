@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d74f7f3e-8b1f-40fb-be36-2359725990d9",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's preference for traveling shorter distances before the recent change?",
+    "gold_answer": "I won't book a flight for anything under five hours; I'd rather spend the time on the road than in a terminal.",
+    "m_new": "I’m planning a quick weekend in the next state over, and I’m just going to grab a nonstop flight—it’s so much easier than sitting behind the wheel for hours.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the recent change, the user preferred driving or taking a train for trips under about five hours because they found airport hassle not worthwhile.",
+    "lc_reasoning": "The earlier preference was to drive rather than fly for trips under five hours. The response adds an unsupported preference for taking a train, so it does not accurately describe the stated preference."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's preference for traveling shorter distances before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier preference was to drive rather than fly for trips under five hours. The response adds an unsupported preference for taking a train, so it does not accurately describe the stated preference.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

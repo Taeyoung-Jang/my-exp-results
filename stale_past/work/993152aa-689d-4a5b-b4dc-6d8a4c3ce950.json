@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "993152aa-689d-4a5b-b4dc-6d8a4c3ce950",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was your usual meal pattern before the recent health-related change?",
+    "gold_answer": "I've settled into a pattern where I only have two proper meals a day, so I usually pass on breakfast.",
+    "m_new": "Ever since the dentist fitted me with those temporary crowns, I’ve been packing a little cooler of yogurt cups and protein shakes to sip through my whole day so my mouth doesn’t get too sore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "You usually ate two proper meals a day and skipped breakfast.",
+    "lc_reasoning": "The response correctly describes the earlier pattern: two proper meals a day and usually skipping breakfast."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was your usual meal pattern before the recent health-related change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier pattern: two proper meals a day and usually skipping breakfast.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "9ce11bb3-9680-4e92-86fc-5f450d36405b",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's confidence in their physical stamina before the recent change?",
+    "gold_answer": "I'm comfortable committing to long physical efforts now because I trust my stamina won't fail me.",
+    "m_new": "At my annual checkup, I told the nurse I’ve been getting winded just walking up a couple flights of stairs lately, so I’m planning my days with more downtime between errands.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user felt confident that their stamina would hold up during long physical efforts.",
+    "lc_reasoning": "The response correctly describes the user's earlier confidence that their stamina would hold up during long physical efforts."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's confidence in their physical stamina before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier confidence that their stamina would hold up during long physical efforts.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

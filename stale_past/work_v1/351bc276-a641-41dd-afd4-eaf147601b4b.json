@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "351bc276-a641-41dd-afd4-eaf147601b4b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual pattern for having free time before their recent work-schedule change?",
+    "gold_answer": "I generally have to keep my weekdays reserved for obligations, so my free time is mostly on the weekends.",
+    "m_new": "I finally switched to a four‑ten schedule at work—Mondays through Thursdays—and it’s wild how much quieter Fridays feel now.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the schedule change, the user’s weekdays were mostly tied up with obligations, so they mainly had free time in the evenings and on weekends.",
+    "lc_reasoning": "The earlier pattern was that weekdays were reserved for obligations and free time was mostly on weekends. The response adds weekday evenings as a usual source of free time, which the earlier state does not support."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual pattern for having free time before their recent work-schedule change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier pattern was that weekdays were reserved for obligations and free time was mostly on weekends. The response adds weekday evenings as a usual source of free time, which the earlier state does not support.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

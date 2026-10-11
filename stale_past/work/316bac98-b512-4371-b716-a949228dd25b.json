@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "316bac98-b512-4371-b716-a949228dd25b",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's main leisure-time activity before their recent change in focus?",
+    "gold_answer": "I try to log at least fifty miles every week, so cycling takes up most of my leisure time.",
+    "m_new": "Ever since I started training for my first full marathon, my free time has basically become a rotation of long runs, recovery jogs, and weekend mileage.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Cycling was the user’s main leisure-time activity, with a goal of riding at least 50 miles a week.",
+    "lc_reasoning": "The response correctly identifies cycling as the user's main leisure-time activity before the shift to marathon training and includes the 50-mile weekly goal."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what activity took up most of the user's leisure time before their recent shift in focus?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main leisure-time activity before their recent change in focus?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies cycling as the user's main leisure-time activity before the shift to marathon training and includes the 50-mile weekly goal.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

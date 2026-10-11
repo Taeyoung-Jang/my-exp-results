@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "64d476f8-fdd7-437c-a2b5-5cce93d19f6c",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user focused on before their recent change in circumstances?",
+    "gold_answer": "I'm heads-down on reconciling the compliance logs for the quarterly audit.",
+    "m_new": "I’m in the middle of my two-week beach vacation right now—phone’s on airplane mode and I’m just reading novels and dozing off between swims.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before shifting to setting up a home studio, the user was focused on learning music production and recording—especially creating an ambient soundscape that blends acoustic guitar with electronic elements.",
+    "lc_reasoning": "The earlier state was reconciling compliance logs for the quarterly audit, not learning music production and recording."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user focused on before their recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state was reconciling compliance logs for the quarterly audit, not learning music production and recording.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

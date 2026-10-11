@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "97ab20e5-7030-42e8-bbc0-8f5210d444f6",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's work situation before the recent change?",
+    "gold_answer": "I'm going to be heads-down for the next couple of weeks since I have four campaign launches due back-to-back before the month ends.",
+    "m_new": "I finally got the green light to take three weeks of uninterrupted PTO starting Monday—no laptop, no Slack—so I’m spending this weekend figuring out who gets the house keys and where the dog’s staying.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the change, the user was working on four back-to-back marketing campaign launches due before the end of the month and expected to be heads-down for the next couple of weeks.",
+    "lc_reasoning": "The response correctly describes the user's earlier work situation: four campaign launches due before month-end, requiring them to be heads-down for the next couple of weeks."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's work situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier work situation: four campaign launches due before month-end, requiring them to be heads-down for the next couple of weeks.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "215ea8a4-3446-47d3-b7b6-7c5bb33289f4",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's sleep like before the recent change?",
+    "gold_answer": "I've been struggling with chronic insomnia for a few years, so my nights are rarely restful.",
+    "m_new": "Since I started that sleep program a while back, I’ve been getting a solid seven to eight hours most nights and waking up feeling pretty refreshed.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user had struggled with chronic insomnia for several years and rarely had restful nights.",
+    "lc_reasoning": "The response correctly describes the user's earlier sleep as affected by chronic insomnia for several years, with rarely restful nights."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's sleep like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier sleep as affected by chronic insomnia for several years, with rarely restful nights.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

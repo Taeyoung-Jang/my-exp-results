@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "d9545076-78b1-4d66-9910-00a15f9b5b90",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's credit score like before the recent change?",
+    "gold_answer": "My credit score has stayed around 750 for the past year, so I shouldn't have any trouble getting approved.",
+    "m_new": "I checked my report this week and it’s sitting in the low 600s now, so I’m expecting the application to be a tougher sell.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Their credit score had been around 750 for the past year.",
+    "lc_reasoning": "The response correctly identifies the earlier credit score as around 750 for the past year."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's credit score like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier credit score as around 750 for the past year.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

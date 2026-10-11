@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "cafa590e-d787-4df6-9207-eb9c9e2e90c5",
+    "type": "T1",
+    "past_query": "Based on the conversation history, how did the user usually get to the hub before the recent move?",
+    "gold_answer": "These days, I'm taking the regional shuttle whenever I need to get into the hub.",
+    "m_new": "Ever since I moved into the apartment above my office, I just walk downstairs and I’m at my desk in two minutes.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "The history doesn’t explicitly say what they usually did before, but it suggests they drove themselves; these days, they take the regional shuttle to the hub.",
+    "lc_reasoning": "The response incorrectly says the user used the shuttle these days and only suggests they previously drove. Before the move, they took the regional shuttle to the hub."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how did the user usually get to the hub before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response incorrectly says the user used the shuttle these days and only suggests they previously drove. Before the move, they took the regional shuttle to the hub.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

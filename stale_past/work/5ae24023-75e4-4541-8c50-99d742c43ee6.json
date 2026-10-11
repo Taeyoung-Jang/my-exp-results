@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "5ae24023-75e4-4541-8c50-99d742c43ee6",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the household chore arrangement before the recent change in how meals were handled?",
+    "gold_answer": "We have a steady routine where I manage the cooking and dishes, and my sibling handles the laundry and vacuuming.",
+    "m_new": "I finally got around to setting up that meal-kit subscription—everything shows up portioned with those “toss the tray when you’re done” pans, so I don’t even keep a dish rack on the counter anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "You handled the cooking and dishes, while your sibling handled the laundry and vacuuming. Laundry was on Tuesdays and Saturdays, and vacuuming was on Saturdays.",
+    "lc_reasoning": "It correctly describes the earlier chore arrangement: you handled cooking and dishes, and your sibling handled laundry and vacuuming. The added schedule details are not supported by the provided history, but they do not change the stated arrangement."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the household chore arrangement before the recent change in how meals were handled?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier chore arrangement: you handled cooking and dishes, and your sibling handled laundry and vacuuming. The added schedule details are not supported by the provided history, but they do not change the stated arrangement.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

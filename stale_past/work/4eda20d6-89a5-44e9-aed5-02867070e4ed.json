@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4eda20d6-89a5-44e9-aed5-02867070e4ed",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's usual approach to meals before their recent change in circumstances?",
+    "gold_answer": "I generally prefer cooking my own meals rather than eating out, mainly because I like controlling the ingredients.",
+    "m_new": "Ever since the new job put me on back-to-back flights, I’ve been living out of hotel rooms—by the time I get in, it’s usually just whatever’s still open downstairs or something I can grab in the lobby.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the travel-heavy job, the user generally preferred cooking their own meals at home rather than eating out, partly to control the ingredients.",
+    "lc_reasoning": "The response correctly describes the user's earlier preference for cooking their own meals rather than eating out, partly to control the ingredients."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual approach to meals before their recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier preference for cooking their own meals rather than eating out, partly to control the ingredients.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

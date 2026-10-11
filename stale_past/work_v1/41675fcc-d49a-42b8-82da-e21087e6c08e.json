@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "41675fcc-d49a-42b8-82da-e21087e6c08e",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's living situation before the recent housing change?",
+    "gold_answer": "With my parents and grandparents living here too, I'm never really alone in the house.",
+    "m_new": "I spent the afternoon on the phone with the estate agent, comparing listings for a one-bedroom—it's strange measuring rooms by how quiet they feel instead of how much space everyone needs.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the housing change, the user lived in a busy household with their parents and grandparents.",
+    "lc_reasoning": "The response correctly describes the user's earlier living situation with their parents and grandparents, without mistaking it for the recent housing change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's living situation before the recent housing change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier living situation with their parents and grandparents, without mistaking it for the recent housing change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

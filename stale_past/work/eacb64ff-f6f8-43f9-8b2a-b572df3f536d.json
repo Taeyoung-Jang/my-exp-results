@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "eacb64ff-f6f8-43f9-8b2a-b572df3f536d",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's reputation for handling confidential information before the recent change in how their social circle interacted with them?",
+    "gold_answer": "People in this group know I keep things confidential, so they tell me more than they should.",
+    "m_new": "At the neighborhood potluck today, I noticed people kept their distance whenever conversations turned even slightly personal, and no one looped me into the side chats anymore.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "People viewed the user as trustworthy and discreet with confidential information, so they often confided more than they probably should have.",
+    "lc_reasoning": "The response correctly describes the earlier state: people trusted the user to keep confidences and told them more than they probably should have."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's reputation among their social circle regarding handling private information before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's reputation for handling confidential information before the recent change in how their social circle interacted with them?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier state: people trusted the user to keep confidences and told them more than they probably should have.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

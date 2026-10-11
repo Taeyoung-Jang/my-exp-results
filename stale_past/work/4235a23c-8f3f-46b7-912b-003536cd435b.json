@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4235a23c-8f3f-46b7-912b-003536cd435b",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual approach to location access for apps before the recent change?",
+    "gold_answer": "I keep my location services turned off for most apps by default.",
+    "m_new": "Ever since I started that morning running club, my phone’s been buzzing to life the second I step outside—pace, route, even little “nice job” summaries before I’ve had my coffee.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They kept location services turned off for most apps by default, allowing access only when they considered it necessary.",
+    "lc_reasoning": "The response correctly describes the user's earlier approach: location services were turned off for most apps by default. The added clarification that access was allowed only when considered necessary is consistent with that approach."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual approach to location access for apps before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier approach: location services were turned off for most apps by default. The added clarification that access was allowed only when considered necessary is consistent with that approach.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "b1412dfd-17da-4195-9966-74f1ed76f3b1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's working relationship with their crew like before the recent change?",
+    "gold_answer": "Most of the crew here have been working together for years, so we basically know who covers what without even talking.",
+    "m_new": "I keep catching myself setting an extra mug by the sink before remembering I’m on my own again—new badge, new keys, and a whole different building’s security code to memorize.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They were a long-standing, familiar crew: everyone generally knew who handled what without needing to discuss roles. Much of the coordination relied on that shared, unspoken understanding, though handoffs could still get fuzzy when work was busy.",
+    "lc_reasoning": "It correctly describes the earlier crew as long-standing and familiar, with people knowing their roles without discussion. The added comment about busy handoffs is unsupported, but it does not change the core answer."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's working relationship with their crew like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier crew as long-standing and familiar, with people knowing their roles without discussion. The added comment about busy handoffs is unsupported, but it does not change the core answer.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "18866d40-4641-4c2b-a8d5-fa6f2fa4913d",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's level of experience with residential wiring before the recent change?",
+    "gold_answer": "I've got enough experience with residential wiring to handle the installation safely.",
+    "m_new": "At the community center’s safety orientation, I asked to be assigned to the non-equipment tasks since I’m not comfortable handling anything with live power or operating tools that require electrical know‑how.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user said they had enough experience with residential wiring to handle the installation safely.",
+    "lc_reasoning": "The response correctly states the user's earlier level of experience with residential wiring."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's ability to handle residential wiring installations before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's level of experience with residential wiring before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states the user's earlier level of experience with residential wiring.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

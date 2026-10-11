@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "86af6829-6b91-43c0-81b7-e7b5decfcfe1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's main long-term priority about where to live before the recent change in circumstances?",
+    "gold_answer": "I'm keeping my plans flexible here; I'm really prioritizing the relocation goal so I can be settled on the coast within a few years.",
+    "m_new": "I’ve been getting used to a new rhythm lately—badge in at 6:30, quick coffee in the break room, and then I’m on the floor until the evening handoff. I didn’t expect I’d miss having my weekends, but the team’s been good, and it feels nice to finally stop living out of a tote bag.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s main long-term priority was to relocate and be settled somewhere on the coast within a few years.",
+    "lc_reasoning": "The response correctly identifies the user's earlier long-term priority: relocating to the coast and settling there within a few years."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main long-term priority about where to live before the recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier long-term priority: relocating to the coast and settling there within a few years.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

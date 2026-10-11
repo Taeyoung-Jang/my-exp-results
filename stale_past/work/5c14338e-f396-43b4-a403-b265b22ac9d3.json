@@ -1,0 +1,47 @@
+{
+  "record": {
+    "uid": "5c14338e-f396-43b4-a403-b265b22ac9d3",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's confidence in speaking French before the recent change?",
+    "gold_answer": "I can help you check your written French, but I'm not confident enough to hold a conversation in it.",
+    "m_new": "I just got back from a week in Montreal, and I ended up chatting in French with people all day without really struggling.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's French-speaking ability before the recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:French"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's confidence in speaking French before the recent change?\"}"
+        ],
+        "rule_hits": [
+          "old:French"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

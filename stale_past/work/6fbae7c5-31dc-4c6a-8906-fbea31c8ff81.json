@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "6fbae7c5-31dc-4c6a-8906-fbea31c8ff81",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's backup setup before the recent change?",
+    "gold_answer": "Honestly, I just leave the automatic backup on permanently so I don't have to worry about losing anything if this phone dies.",
+    "m_new": "After my trip, I’ve been keeping everything local and then doing a full transfer to my laptop at the end of each month when I’m home with my cable.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "They kept photos and videos on their phone while traveling, then transferred them to their laptop by cable once a month. They hadn’t mentioned an external-drive backup.",
+    "lc_reasoning": "The earlier setup was automatic backup left on permanently. The response instead describes the later setup of keeping everything local and transferring it monthly by cable."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's backup setup before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier setup was automatic backup left on permanently. The response instead describes the later setup of keeping everything local and transferring it monthly by cable.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

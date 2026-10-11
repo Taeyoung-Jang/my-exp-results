@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e48c9b37-b1f5-471c-a028-941c3788464f",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual frequency of meeting up with friends before their routine changed?",
+    "gold_answer": "I usually meet up with my friends about four nights a week.",
+    "m_new": "I’ve started doing those pre-dawn shifts at the bakery, so now I’m in bed before the late movie’s even over—my phone’s basically on Do Not Disturb by nine.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They usually met up with friends about four nights a week.",
+    "lc_reasoning": "The earlier state says the user usually met up with friends about four nights a week."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual frequency of meeting up with friends before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state says the user usually met up with friends about four nights a week.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

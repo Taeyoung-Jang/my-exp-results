@@ -1,0 +1,34 @@
+{
+  "record": {
+    "uid": "e779f96c-fa7b-4e17-b16a-ed36f677205a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what did the user rely on to maintain their energy before the recent change?",
+    "gold_answer": "I've noticed that my energy levels just don't hold up unless I'm regularly having coffee and cigarettes.",
+    "m_new": "Ever since I started that blood-pressure medication, I’ve had to be picky about anything that can spike my heart rate—so now my mornings are basically a slow breakfast and a long walk, no shortcuts.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They relied on coffee and cigarettes to maintain their energy and focus.",
+    "lc_reasoning": "The response correctly identifies coffee and cigarettes as what the user relied on before the recent change. The added mention of focus does not contradict the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what did the user rely on to maintain their energy before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies coffee and cigarettes as what the user relied on before the recent change. The added mention of focus does not contradict the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "record": {
+    "uid": "2eaf2b38-9b67-4763-a2f0-4011d8baa26c",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what were the user's humidity conditions like before the recent change?",
+    "gold_answer": "The humidity is so constant that surfaces stay damp all the time.",
+    "m_new": "Ever since the dry season settled in, the air indoors feels crisp and my wooden table has started to get those tiny static shocks when I wipe it down.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user described persistently high indoor humidity—around 70–80% most of the day—with surfaces staying damp and an exterior wall feeling damp.",
+    "lc_reasoning": "The response describes the earlier persistently high humidity and damp conditions, rather than the later dry-season state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the humidity conditions like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what were the user's humidity conditions like before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response describes the earlier persistently high humidity and damp conditions, rather than the later dry-season state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

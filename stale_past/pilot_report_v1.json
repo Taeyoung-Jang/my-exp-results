@@ -1,0 +1,30 @@
+{
+  "scope": "pilot",
+  "total": 40,
+  "leak_ok": 33,
+  "lc_pass": 30,
+  "lc_pass_rate": 0.75,
+  "lc_pass_by_type": {
+    "T1": {
+      "total": 20,
+      "lc_pass": 18
+    },
+    "T2": {
+      "total": 20,
+      "lc_pass": 12
+    }
+  },
+  "discard_reasons": {
+    "past_query_gen_fail": 0,
+    "leak_check_fail": 7,
+    "context_exceeded": 0,
+    "lc_pass_false": 3,
+    "judge_parse_fail": 0
+  },
+  "model": "openai/gpt-6-luna-pro",
+  "temperature_requested": 0,
+  "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+  "llm_calls_this_run": {},
+  "llm_tokens_this_run": {},
+  "run_date": "2026-10-11T09:11:13"
+}

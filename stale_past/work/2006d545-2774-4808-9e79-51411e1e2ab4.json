@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "2006d545-2774-4808-9e79-51411e1e2ab4",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to sharing their mobile number before the recent change?",
+    "gold_answer": "I've made it a rule never to give out my real mobile number; I route all verification texts through an alternate number instead.",
+    "m_new": "I finally printed a new batch of business cards for networking events, and I put my main line on them so people can reach me directly.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user said they never gave out their real mobile number and routed verification texts through an alternate number.",
+    "lc_reasoning": "The response accurately describes the user's earlier approach: they did not give out their real mobile number and used an alternate number for verification texts."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to sharing their mobile number before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the user's earlier approach: they did not give out their real mobile number and used an alternate number for verification texts.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

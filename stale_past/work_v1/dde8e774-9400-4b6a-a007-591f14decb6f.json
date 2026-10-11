@@ -1,0 +1,42 @@
+{
+  "record": {
+    "uid": "dde8e774-9400-4b6a-a007-591f14decb6f",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's educational status before their recent change in circumstances?",
+    "gold_answer": "I'm currently an undergraduate student, so my life is pretty much structured around the academic calendar.",
+    "m_new": "Now that I’m working full-time with a standard Monday–Friday schedule, I can usually commit to weeknight meetings and most weekends.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's educational status before their circumstances changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's educational status before their recent change in circumstances?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      }
+    ],
+    "status": "leak_fail"
+  }
+}

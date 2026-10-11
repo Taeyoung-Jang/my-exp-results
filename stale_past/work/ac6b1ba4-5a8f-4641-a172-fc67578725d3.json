@@ -1,0 +1,47 @@
+{
+  "record": {
+    "uid": "ac6b1ba4-5a8f-4641-a172-fc67578725d3",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what time zone was the user in before the recent move?",
+    "gold_answer": "You should know I'm located in the Japan Standard Time zone, so there is a significant gap between my friends and me.",
+    "m_new": "I just signed a year-long lease in Toronto, and the sun doesn’t come up until after 7 a.m. for me lately.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": false,
+    "lc_pass": null,
+    "lc_response": null,
+    "lc_reasoning": null
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what time zone was the user in before the recent move?\"}"
+        ],
+        "rule_hits": [
+          "old:Time"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\":true}"
+        ],
+        "llm_leaks": true,
+        "result": "leak"
+      },
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what time zone was the user in before the recent move?\"}"
+        ],
+        "rule_hits": [
+          "old:Time"
+        ],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "leak"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "status": "leak_fail"
+  }
+}

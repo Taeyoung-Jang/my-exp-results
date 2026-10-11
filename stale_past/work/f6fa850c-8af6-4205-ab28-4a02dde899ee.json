@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "f6fa850c-8af6-4205-ab28-4a02dde899ee",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's long-term focus before the recent change?",
+    "gold_answer": "I've really been zeroing in on buying a permanent home for the past few years.",
+    "m_new": "I’ve been pouring my long-term planning into getting accepted into a multi-year residency program overseas, so I’m organizing everything around moving abroad for the next several years.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before the recent shift to planning a workplace charity walk, the user’s long-term focus was preparing for a multi-year residency overseas and organizing a move abroad.",
+    "lc_reasoning": "The user’s long-term focus before the change was buying a permanent home. The response instead describes planning for an overseas residency, which was the later focus."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's long-term focus before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user’s long-term focus before the change was buying a permanent home. The response instead describes planning for an overseas residency, which was the later focus.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

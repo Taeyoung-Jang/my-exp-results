@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "dfa3672e-efd9-44bb-a83a-2259362dcbae",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's attitude toward changing plans after agreeing to be somewhere before the recent shift in perspective?",
+    "gold_answer": "I told my friend I'd be there, and skipping out just because something else came up feels like a betrayal; my word has to count for something.",
+    "m_new": "This year I’ve been leaning into being more flexible—if a better opportunity comes up, I’m fine reshuffling my schedule so I can take it without feeling guilty.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before shifting toward more flexibility, the user felt that backing out after saying they’d be there—especially just because something else came up—would feel like a betrayal. They wanted their word to count, though they also worried that treating every plan as unchangeable would set an overly rigid precedent.",
+    "lc_reasoning": "It correctly says the user previously felt backing out after agreeing would be a betrayal and that their word mattered. But it adds an unsupported claim that they worried about setting an overly rigid precedent."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's attitude toward changing plans after agreeing to be somewhere before the recent shift in perspective?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly says the user previously felt backing out after agreeing would be a betrayal and that their word mattered. But it adds an unsupported claim that they worried about setting an overly rigid precedent.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

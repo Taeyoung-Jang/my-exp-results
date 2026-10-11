@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "3e3af301-8b9c-4b60-95e2-00db8a4b0f5a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what had the user kept as a backup before the recent change to their data-recovery approach?",
+    "gold_answer": "I've kept a backup of all the license keys for the software I've purchased over the years.",
+    "m_new": "After that little coffee spill, I took the weekend to do a full wipe and rebuild—fresh OS, fresh accounts, and I only brought back what was already synced to the cloud so I wouldn’t drag any old clutter (or surprises) along.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had kept a backup of all the license keys for software they’d purchased over the years.",
+    "lc_reasoning": "Before the recent change, the user had kept a backup of all the license keys for software they had purchased over the years."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what had the user kept as a backup before the recent change to their data-recovery approach?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"Before the recent change, the user had kept a backup of all the license keys for software they had purchased over the years.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

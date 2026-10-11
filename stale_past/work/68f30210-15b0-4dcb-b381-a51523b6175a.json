@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "68f30210-15b0-4dcb-b381-a51523b6175a",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's housing situation before the recent change?",
+    "gold_answer": "Just keep the address you have on file; I've been living here for years and don't plan on moving.",
+    "m_new": "I’m still getting used to the night shift—HR finally converted me from remote to on-site, so I’ve been crash-sleeping wherever I can between doubles and spending my days off hunting for a place closer to the plant.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before moving into the new apartment with their partner, the user lived at their parents’ house.",
+    "lc_reasoning": "The earlier state only says the user had been living at their address for years and did not plan to move. It does not say they lived with their parents or moved into an apartment with a partner."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's housing situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state only says the user had been living at their address for years and did not plan to move. It does not say they lived with their parents or moved into an apartment with a partner.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "35385383-7d6b-415d-9d03-4efec88263da",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's situation before the recent change?",
+    "gold_answer": "I'm currently on the intercity train and will be in transit for another three hours.",
+    "m_new": "The instructor just dimmed the lights, so I’m laying out my mat and getting ready for the first yoga flow of the evening.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": false,
+    "lc_response": "Before rephrasing, you were planning a solo trip to Seoul in April, hoping to see the cherry blossoms and explore the city on foot. You’d decided to start with the Seoul City Walking Tour and were asking which course or area to prioritize.",
+    "lc_reasoning": "The earlier state was that the user was on an intercity train with three hours of travel remaining. The response instead describes a planned trip to Seoul, which does not match the conversation history."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's situation before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The earlier state was that the user was on an intercity train with three hours of travel remaining. The response instead describes a planned trip to Seoul, which does not match the conversation history.\",\"pass\":false}"
+    ],
+    "status": "lc_fail"
+  }
+}

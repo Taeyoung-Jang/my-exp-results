@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e51c1d33-ce6d-4168-9d82-bfc846ba88cd",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's main learning focus before their recent change in study focus?",
+    "gold_answer": "For the last few months, my learning focus has been centered on Spanish grammar.",
+    "m_new": "This semester I've been spending most of my study sessions working through Python programming exercises and small coding projects.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Their main learning focus was Spanish grammar.",
+    "lc_reasoning": "The response correctly identifies Spanish grammar as the user's main learning focus before the recent change."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's main learning focus before their recent change in study focus?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies Spanish grammar as the user's main learning focus before the recent change.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

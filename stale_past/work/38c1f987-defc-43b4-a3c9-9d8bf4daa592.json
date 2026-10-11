@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "38c1f987-defc-43b4-a3c9-9d8bf4daa592",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what personality type did the user identify with before the recent change?",
+    "gold_answer": "I know that as an INFP, I tend to dwell on criticism longer than others might.",
+    "m_new": "At the hospital’s occupational health appointment, the psychologist had me redo a full personality battery for my clearance, and it turns out I’ve been answering those preference questions wrong for years—they walked me through the scoring and a couple of the sections flipped once I stopped going by my gut and started using the actual prompts.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user identified as an **INFP**.",
+    "lc_reasoning": "The user previously identified with the INFP personality type."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what personality type did the user identify with before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user previously identified with the INFP personality type.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

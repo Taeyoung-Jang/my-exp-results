@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "374cb27e-a1ea-4cc6-9893-02a3eafa0092",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's typical light exposure before the recent change?",
+    "gold_answer": "I'm usually out in the open, so the sunlight is consistently bright around me.",
+    "m_new": "Lately I’ve been spending most of my daytime hours in the interior stacks at the library, and my eyes have adjusted to the steady, low indoor lighting there.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before the recent change, the user spent much of the day outdoors in consistently bright, open sunlight, often until close to sunset.",
+    "lc_reasoning": "The response correctly describes the earlier exposure as spending much of the day outdoors in bright sunlight. The added detail about staying out until close to sunset is not established by the history, but the core answer matches the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's typical light exposure before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the earlier exposure as spending much of the day outdoors in bright sunlight. The added detail about staying out until close to sunset is not established by the history, but the core answer matches the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

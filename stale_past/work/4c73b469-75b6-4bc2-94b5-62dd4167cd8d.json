@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "4c73b469-75b6-4bc2-94b5-62dd4167cd8d",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's credit standing before the recent change?",
+    "gold_answer": "I've kept my credit score in a good place for a few years now, so that shouldn't be an issue.",
+    "m_new": "I just got a letter saying I’ve been moved to the lowest tier on my card, and they reduced my limit to a few hundred dollars.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user said their credit score had been in a good place for several years. The conversation doesn’t specify what card tier or credit limit they had before the issuer moved them to its lowest tier and reduced the limit.",
+    "lc_reasoning": "The response correctly states that the user's credit score had been in a good place for several years and does not confuse that with the recent card downgrade."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's credit standing before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly states that the user's credit score had been in a good place for several years and does not confuse that with the recent card downgrade.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

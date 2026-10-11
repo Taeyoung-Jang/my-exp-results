@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "e72a2ba5-ae37-4186-aa63-5324c49359e6",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's planned stay duration before the recent change?",
+    "gold_answer": "I'm planning on sticking around for the next two years.",
+    "m_new": "I went ahead and booked my move for next month, so I’ll only be around a few more weeks.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user had planned to stay for the next two years.",
+    "lc_reasoning": "The response correctly identifies the user's earlier plan to stay for the next two years."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's planned stay duration before the recent change?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier plan to stay for the next two years.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

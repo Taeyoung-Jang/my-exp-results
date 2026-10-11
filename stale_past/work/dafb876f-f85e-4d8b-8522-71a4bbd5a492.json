@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "dafb876f-f85e-4d8b-8522-71a4bbd5a492",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what state did the user live in before the recent change of residence?",
+    "gold_answer": "You should check the dates for Seattle, because that is where I live.",
+    "m_new": "I finally got my car registered in a different state—had to swap my driver’s license too, and the clerk warned me my old voter registration would be void once the new address hits their system.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Washington. The user said they live in Seattle, which is in Washington state.",
+    "lc_reasoning": "The user previously said they lived in Seattle, which is in Washington. The later move does not change the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what state did the user live in before the recent change of residence?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The user previously said they lived in Seattle, which is in Washington. The later move does not change the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

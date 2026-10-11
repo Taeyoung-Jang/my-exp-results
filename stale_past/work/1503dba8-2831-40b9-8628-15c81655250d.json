@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "1503dba8-2831-40b9-8628-15c81655250d",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual response to restaurant invitations before the recent change in their living situation?",
+    "gold_answer": "I generally turn down restaurant invitations since I get more satisfaction from preparing meals myself.",
+    "m_new": "I’m still getting used to the new place—there’s a hot plate and a mini-fridge, but the lease is strict about anything that throws off smoke, so most nights I just rinse a mug and call it a kitchen.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They generally turned down restaurant invitations because they got more satisfaction from preparing meals themselves.",
+    "lc_reasoning": "The response correctly describes the user's earlier habit: they generally declined restaurant invitations because they preferred the satisfaction of preparing meals themselves."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual response to restaurant invitations before the recent change in their living situation?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier habit: they generally declined restaurant invitations because they preferred the satisfaction of preparing meals themselves.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

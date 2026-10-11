@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "66e34cad-db2b-4aaa-b42d-b587d651c6db",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual role during weekday evenings before the recent move?",
+    "gold_answer": "I handle the kids' evening routine every weekday, so I'm consistently tied up during those hours.",
+    "m_new": "I finally signed the lease on that little studio near the hospital—it's strange coming home to a place where the only thing waiting for me is a silent fridge and a stack of untouched mail.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They handled the kids’ evening routine every weekday.",
+    "lc_reasoning": "The response correctly describes the user's earlier weekday-evening role: handling the kids' evening routine every weekday."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual role during weekday evenings before the recent move?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly describes the user's earlier weekday-evening role: handling the kids' evening routine every weekday.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

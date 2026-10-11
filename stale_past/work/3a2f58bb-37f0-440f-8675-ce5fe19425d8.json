@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "3a2f58bb-37f0-440f-8675-ce5fe19425d8",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's emotional pattern like before the recent change in their routine?",
+    "gold_answer": "I function best when I can maintain a steady emotional rhythm without sudden disruptions.",
+    "m_new": "Ever since I started working rotating on-call shifts at the hospital, my phone can go off at 2 a.m. one night and noon the next—so I’ve gotten used to sleeping in scraps and dropping whatever I’m doing to head in.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "Before starting rotating on-call shifts, the user described doing best with a steady, predictable emotional rhythm. Unexpected changes—like last-minute meetings or canceled plans—could throw them off, so they were looking for small, flexible habits to stay grounded and balanced.",
+    "lc_reasoning": "It correctly describes the earlier state as a preference for a steady, predictable emotional rhythm. The extra examples are not established by the conversation, but the core answer matches the requested earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's emotional pattern like before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier state as a preference for a steady, predictable emotional rhythm. The extra examples are not established by the conversation, but the core answer matches the requested earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "a5aa884f-29d6-40dc-a72c-e155fcbc7c79",
+    "type": "T1",
+    "past_query": "Based on the conversation history, what was the user's approach to reciprocity around gifts before their recent change in attitude?",
+    "gold_answer": "I actually keep track of what people spend on my gifts so I can match it later; taking more than I give feels like accepting a loan I didn't ask for.",
+    "m_new": "I’ve started doing this thing where I’ll just pick up a coffee or cover the parking meter for whoever I’m with and not mention it—if they try to Venmo me later, I tell them to drop it and pay it forward to someone else when they feel like it.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They kept track of what people spent on their gifts so they could match it later. Receiving more than they gave felt like accepting an unasked-for loan.",
+    "lc_reasoning": "The response accurately describes the user's earlier approach: tracking gift spending to match it later and viewing receiving more as an unasked-for loan."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's approach to reciprocity around gifts before their recent change in attitude?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the user's earlier approach: tracking gift spending to match it later and viewing receiving more as an unasked-for loan.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

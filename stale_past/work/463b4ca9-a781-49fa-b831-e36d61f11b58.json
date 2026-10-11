@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "463b4ca9-a781-49fa-b831-e36d61f11b58",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's usual ordering pattern at this place before their recent change in dining habits?",
+    "gold_answer": "I always order the grilled salmon at this place, even when the daily specials look tempting.",
+    "m_new": "Ever since I started that little 'try-one-new-thing-a-week' challenge, I’ve been making myself pick whatever I can’t pronounce without laughing—last night it was some fermented bean stew from a corner spot, and I’m still thinking about it.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They usually ordered the grilled salmon, sticking with their familiar favorite rather than trying the daily specials.",
+    "lc_reasoning": "The response correctly identifies the user's earlier habit of ordering grilled salmon instead of trying the daily specials."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's usual ordering pattern at this place before their recent change in dining habits?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the user's earlier habit of ordering grilled salmon instead of trying the daily specials.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

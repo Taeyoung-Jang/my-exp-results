@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "5e097b13-80d7-4e8c-849d-26078a60115c",
+    "type": "T2",
+    "past_query": "Based on the conversation history, what was the user's relationship with their coworkers like before their recent work transition?",
+    "gold_answer": "I've been with the same group of coworkers for about three years now, and we've gotten quite close.",
+    "m_new": "First day of the apprenticeship orientation, they had us pair up for a safety drill, and I kept blanking on everyone’s names—felt like being the new kid again, right down to the laminated badge they handed me at the door.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "They’d been with the same group of coworkers for about three years and had grown quite close and comfortable with one another.",
+    "lc_reasoning": "The response accurately describes the earlier state: the user had spent about three years with the same coworkers and had grown close and comfortable with them."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, what was the user's relationship with their coworkers like before their recent work transition?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response accurately describes the earlier state: the user had spent about three years with the same coworkers and had grown close and comfortable with them.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

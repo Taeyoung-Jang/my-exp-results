@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "af70226e-7b57-4a58-819c-a860286dc269",
+    "type": "T1",
+    "past_query": "Based on the conversation history, how much time did the user usually spend on course content each evening before the recent change in their routine?",
+    "gold_answer": "I usually carve out about ninety minutes each evening to get through my course content.",
+    "m_new": "These days I just squeeze in about half an hour before bed to work through a lesson or two.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user usually spent about 90 minutes each evening on course content.",
+    "lc_reasoning": "The response correctly identifies the earlier routine as about 90 minutes each evening."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how much time did the user usually spend on course content each evening before the recent change in their routine?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\": false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"The response correctly identifies the earlier routine as about 90 minutes each evening.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}

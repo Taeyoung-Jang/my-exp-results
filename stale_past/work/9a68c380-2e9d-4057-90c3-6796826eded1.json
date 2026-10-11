@@ -1,0 +1,35 @@
+{
+  "record": {
+    "uid": "9a68c380-2e9d-4057-90c3-6796826eded1",
+    "type": "T2",
+    "past_query": "Based on the conversation history, how dependent was the user's process on their technology setup before their routine changed?",
+    "gold_answer": "I've built my entire process around these connected devices, so stepping outside this ecosystem would basically halt my progress.",
+    "m_new": "Funny little thing: since I started splitting my week between the office and my sister’s place, I’ve stopped carrying any of my own gear. I just grab whichever loaner tablet is in the front drawer, and by the time the kettle clicks off I’m already halfway through my morning checklist.",
+    "gen_model": "openai/gpt-6-luna-pro",
+    "prompt_sha256": "a6cf80a773299cc720b4e1d85bf81919756f9daf32a3f3986214e1309325d886",
+    "leak_ok": true,
+    "lc_pass": true,
+    "lc_response": "The user’s process was **highly dependent** on their technology ecosystem. They said they had built their entire process around connected devices and apps, and that stepping outside the ecosystem would “basically halt” their progress. Their concern about account access, cloud sync, hubs, and automations also suggests the workflow relied on those components working together.",
+    "lc_reasoning": "It correctly describes the earlier state as highly dependent on the technology ecosystem. The added details about account access, cloud sync, hubs, and automations are not supported by the provided history, but the central answer matches the earlier state."
+  },
+  "trace": {
+    "attempts": [
+      {
+        "gen_raw": [
+          "{\"past_query\":\"Based on the conversation history, how dependent was the user's process on their technology setup before their routine changed?\"}"
+        ],
+        "rule_hits": [],
+        "llm_leak_raw": [
+          "{\"leaks\":false}"
+        ],
+        "llm_leaks": false,
+        "result": "ok"
+      }
+    ],
+    "prompts_sha256": "951799ed93a672956757ece1e9f3763e09b4096c127b3d1fb3fe84bc618e48f9",
+    "judge_raw": [
+      "{\"reasoning\":\"It correctly describes the earlier state as highly dependent on the technology ecosystem. The added details about account access, cloud sync, hubs, and automations are not supported by the provided history, but the central answer matches the earlier state.\",\"pass\":true}"
+    ],
+    "status": "lc_pass"
+  }
+}
